@@ -1,0 +1,44 @@
+---
+identifier: ref_JQLJNOwT
+updated_at: 2015-11-13 00:00
+layout: article_with_sidebar
+lang: en
+title: 'Vendor access to product classes and attributes'
+categories:
+  - User manual
+
+---
+
+
+With regard to product classes and attributes, vendors have the following capabilities:
+
+*   can define product-specific attributes (attribute names) and attribute values for their own products;
+*   can create product classes and add attributes for them;
+*   can see product classes created by admin or other vendors;
+*   can see attributes (attribute names) and attribute values created by admin or other vendors at the level of product classes + can assign these attributes and values to their own products (but cannot tell, whether a specific class or attribute is owned by admin or by another vendor); 
+*   cannot add their own attributes (attribute names) for product classes created by admin or other vendors;
+*   cannot edit the classes, attributes or attribute values defined by admin or other vendors;
+*   cannot add attributes (attribute names) at the global level (This feature is accessible only to the administrator);
+*   can see the attributes (attribute names) and attribute values created by admin at the global level + can assign these attributes and values to their own products (but cannot edit these attributes or their values).  
+
+Depending on the way the module Multi-vendor was configured by the store administrator, vendors may or may not have access to adding their own values for global attributes and attributes created by admin or other vendors at the level of product classes. This depends on the setting **Vendor access to global attributes** on the Multi-vendor module settings page: if this setting is set to "_Use existing and add new values_", vendors can not just use the existing attribute values, but also add their own new values for the attributes defined by others; if this setting is set to "_Use existing values only_", vendors cannot add their own attribute values and only use the existing values.
+
+Vendors can access the section for the management of product classes and attributes in one of the two ways:
+
+*   via the **Attributes** tab of the product details view of a specific product;
+*   via the **Classes & attributes** menu item in the **Products** menu.
+
+More information on the management of product classes and attributes can be found in the {% link "Product classes and attributes" ref_F1TNi0gL %} section of this manual.
+
+_Related pages_:
+
+*   {% link "Vendor login and first steps" ref_LAI14FMl %}
+*   {% link "Managing vendor catalog" ref_9gsHuW0K %}
+*   {% link "Vendor import/export" ref_KPdT60VD %}
+*   {% link "Managing vendor shipping methods" ref_lTlMruZ5 %}
+*   {% link "Vendor access to orders and statistics" ref_w2GOgSNg %}
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [xc5_vendor_ceramics_product_class.png]({{site.baseurl}}/attachments/8749481/8717109.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749481/8717110.png) (image/png)

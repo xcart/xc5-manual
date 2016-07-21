@@ -1,0 +1,65 @@
+---
+identifier: ref_9gsHuW0K
+updated_at: 2015-04-28 00:00
+layout: article_with_sidebar
+lang: en
+title: 'Managing vendor catalog'
+categories:
+  - User manual
+
+---
+
+
+Vendors can add and manage products using the Products section (**Catalog** > **Products**).
+
+To add a new product, a vendor needs to go to this section and click the **Add new** button:
+
+![]({{site.baseurl}}/attachments/8749388/8716908.png?effects=drop-shadow)
+
+then enter information about the product using the form provided:
+
+![]({{site.baseurl}}/attachments/8749388/8717030.png?effects=drop-shadow)
+
+More info about the process can be found in the article {% link "Adding products" ref_fhnQtCC2 %}. 
+
+The entered product information needs to be saved by clicking the **Add product** button at the bottom of the page:
+
+![]({{site.baseurl}}/attachments/8749388/8717031.png?effects=drop-shadow)
+
+Once a product vendor has added some products, they can view them as a list in the Products section:
+
+![]({{site.baseurl}}/attachments/8749388/8717111.png?effects=drop-shadow)
+
+From here they can access the details of specific products, remove products and temporarily disable products. 
+
+The product details view for vendors is similar to that of the store administrator: vendors can control the product's info, product class and attributes, inventory tracking options, product reviews and related products.
+
+![]({{site.baseurl}}/attachments/8749388/8717120.png?effects=drop-shadow)
+
+Note, however, that vendor's catalog management capabilities are different from those of the store administrator:
+
+*   Unlike administrators with the role "Administrator", vendors can view and manage only their own products: any products added by other users are not visible to them.
+*   Unlike administrators with the role "Administrator", vendors do not have access to category management. They cannot create categories by themselves and can only add their products to categories created by the store administrator. If the store's list of categories is lacking a category that a vendor requires, they need to contact the store administrator to resolve this problem.
+*   Vendors can assign product classes and attribute values added by the store administrator to their own products. Depending on the way the module Multi-vendor is configured, vendors may also be able to add their own product classes and attribute values. More information about this is available in the section {% link "Vendor access to product classes and attributes" ref_JQLJNOwT %} of this manual.
+
+Related pages:
+
+*   {% link "Vendor login and first steps" ref_LAI14FMl %}
+*   {% link "Managing vendor profile information" ref_XbtJFiMB %}
+*   {% link "Vendor access to product classes and attributes" Vendor-access-to-product-classes-and-attributes_8749481.html %}
+*   {% link "Vendor import/export" ref_KPdT60VD %}
+*   {% link "Managing vendor shipping methods" ref_lTlMruZ5 %}
+*   {% link "Vendor access to orders and statistics" ref_w2GOgSNg %}
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749388/8716910.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749388/8716908.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_vendor_ceramics_product_class.png]({{site.baseurl}}/attachments/8749388/8717005.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749388/8717007.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749388/8717006.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_vendor_product_info.png]({{site.baseurl}}/attachments/8749388/8717029.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_vendor_add_product.png]({{site.baseurl}}/attachments/8749388/8717030.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_vendor_add_product1.png]({{site.baseurl}}/attachments/8749388/8717031.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_vendor_product_list.png]({{site.baseurl}}/attachments/8749388/8717111.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_vendor_product_details_view.png]({{site.baseurl}}/attachments/8749388/8717120.png) (image/png)

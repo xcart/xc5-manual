@@ -1,0 +1,106 @@
+---
+identifier: ref_6Ekr5ZU1
+updated_at: 2015-08-26 00:00
+layout: article_with_sidebar
+lang: en
+title: 'Setting up wholesale prices and minimum purchase quantites for different membership levels'
+categories:
+  - User manual
+
+---
+
+
+Wholesale prices and minimum purchase quantities for products can be configured in X-Cart 5 using the module **Wholesale**:
+
+![]({{site.baseurl}}/attachments/6389808/8719226.png?effects=drop-shadow)
+
+Wholesale prices are a way to offer multiple levels of pricing for the same product depending on the membership level of the buyer and the quantity of product units ordered.
+
+A minimum purchase quantity is a minimum number of product units that can be purchased by a customer at a time. If a customer's cart contains a lesser quantity of product units than is specified by the minimum purchase limit, checkout for the cart is not allowed.  
+
+# Setting up wholesale prices
+
+To configure wholesale prices:
+
+1.  In your store's Admin area, find the product for which you want to set or modify wholesale prices and open its details.
+2.  Switch to the **Wholesale pricing** tab of the product details page.   
+    ![]({{site.baseurl}}/attachments/6389808/8719228.png?effects=drop-shadow)  
+
+3.  Add the wholesale pricing tiers you require. For each new tier complete the following steps:
+    1.  Click the **New tier** button:  
+        ![]({{site.baseurl}}/attachments/6389808/8719229.png?effects=drop-shadow)  
+        This adds a new blank line to the wholesale pricing table:  
+        ![]({{site.baseurl}}/attachments/6389808/8719230.png?effects=drop-shadow)  
+
+    2.  On the line that has appeared, provide information about the new wholesale pricing tier:  
+        ![]({{site.baseurl}}/attachments/6389808/8719231.png?effects=drop-shadow)
+    3.  Click **Save changes**.   
+        The new tier will be added to the table:  
+        ![]({{site.baseurl}}/attachments/6389808/8719232.png?effects=drop-shadow)
+
+Now let's take a closer look at how you configure specific pricing tiers. Consider the following example:
+
+We have a product that we want to sell, and we want to define pricing tiers for it so that customers without a membership would be able to purchase the product at the following prices:  
+
+*   *   1-9 units - $50
+    *   10-99 units - $45
+    *   100+ units - $40
+
+(As you can see, the more units of the product is purchased, the lower the price).
+
+We also have a privileged ‘Wholesaler’ membership level to which we want to give even lower prices:
+
+*   *   1-1000 units - $45
+    *   1001+ units - $35
+
+How do we configure pricing tiers?
+
+In this case, we need to create and set up pricing tiers as follows:
+
+*   *   Quantity range: from 1  
+        Price: $50  
+        Membership: All customers
+    *   Quantity range: from 10  
+        Price: $45  
+        Membership: All customers
+    *   Quantity range: from 100  
+        Price: $40  
+        Membership: All customers
+    *   Quantity range: from 1  
+        Price: $45  
+        Membership: Wholesaler
+    *   Quantity range: from 1000  
+        Price: $35  
+        Membership: Wholesaler
+
+## Setting up minimum purchase quantities per membership level
+
+If you want to set minimum product purchase quantities for specific membership levels in your store, you can do so via the Inventory tracking section of the chosen product's details:
+
+1.  Select the **Inventory tracking** tab.  
+    ![]({{site.baseurl}}/attachments/6389808/8719233.png?effects=drop-shadow)  
+
+2.  On the page that opens, use the **Minimum purchase quantity** section to specify a minimum purchase quantity for every membership level and for "all customers" (users without a membership):  
+    ![]({{site.baseurl}}/attachments/6389808/8719234.png?effects=drop-shadow)  
+
+3.  Click **Update** to save the changes.  
+
+_Related pages:_
+
+*   {% link "Setting up sale and wholesale pricing in X-Cart 5" ref_r7DLKtFB %} (video)
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [wholesale.png]({{site.baseurl}}/attachments/6389808/6586466.png) (image/png)  
+![](images/icons/bullet_blue.gif) [New_Tier.png]({{site.baseurl}}/attachments/6389808/6586467.png) (image/png)  
+![](images/icons/bullet_blue.gif) [Price_tiers.png]({{site.baseurl}}/attachments/6389808/6586469.png) (image/png)  
+![](images/icons/bullet_blue.gif) [Minimum_Quantity.png]({{site.baseurl}}/attachments/6389808/6586475.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wholesale_installed_enabled.png]({{site.baseurl}}/attachments/6389808/8719227.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wholesale_installed_enabled.png]({{site.baseurl}}/attachments/6389808/8719226.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wholesale_wh_pricing_tab.png]({{site.baseurl}}/attachments/6389808/8719228.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wholesale_new_tier.png]({{site.baseurl}}/attachments/6389808/8719229.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wholesale_new_blank_tier_line.png]({{site.baseurl}}/attachments/6389808/8719230.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wholesale_new_tier1.png]({{site.baseurl}}/attachments/6389808/8719231.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wholesale_new_tier2.png]({{site.baseurl}}/attachments/6389808/8719232.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wholesale_inventory_tracking.png]({{site.baseurl}}/attachments/6389808/8719233.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wholesale_purchase_limits_per_membership.png]({{site.baseurl}}/attachments/6389808/8719234.png) (image/png)

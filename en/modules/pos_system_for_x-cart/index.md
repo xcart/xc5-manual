@@ -1,0 +1,13 @@
+---
+identifier: ref_uN5s4lHS
+updated_at: 2015-07-27 00:00
+layout: article_with_sidebar
+lang: en
+title: 'POS system for X-Cart'
+categories:
+  - User manual
+
+---
+
+
+POS system for X-Cart is a module that allows you to use your X-Cart store both as an interface for web sales and a Point of Sale system. With this module, you can sell offline and online using the same software, which means you get a single inventory tracking and order management system for both your online and retail stores. Update inventory and product properties by using a barcode scanner that finds the product instantly. Scan the barcodes, accept payments, print receipts and barcode labels via X-Cart. It has never been so easy!

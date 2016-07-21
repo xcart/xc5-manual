@@ -1,0 +1,77 @@
+---
+identifier: ref_n57CHGM2
+updated_at: 2015-09-26 00:00
+layout: article_with_sidebar
+lang: en
+title: 'How WordPress Integration works'
+categories:
+  - User manual
+
+---
+
+
+The WordPress Integration module for X-Cart allows you to build ecommerce blocks with the products and categories from your X-Cart based store into your WordPress blog website.
+
+Here is an example of a detailed product page included into a blog post:
+
+![]({{site.baseurl}}/attachments/8750580/8719399.png?effects=drop-shadow)
+
+And here is a blog post showing a whole category of products:
+
+![]({{site.baseurl}}/attachments/8750580/8719401.png?effects=drop-shadow)
+
+Within the ecommerce blocks with products and categories, the blog readers have access to some navigation and sorting features. For example, on pages providing the details of an individual product, users can navigate to the previous or to the next product:
+
+![]({{site.baseurl}}/attachments/8750580/8719402.png?effects=drop-shadow)
+
+On category pages providing a list of products it is possible to browse to higher level categories using breadcrumb navigation, change the product sorting order and switch to a different page in the product list if the list has more than one page:
+
+![]({{site.baseurl}}/attachments/8750580/8719403.png?effects=drop-shadow)
+
+If necessary, a menu of categories may be displayed in the sidebar:
+
+![]({{site.baseurl}}/attachments/8750580/8719406.png?effects=drop-shadow)
+
+or directly within a blog post:
+
+![]({{site.baseurl}}/attachments/8750580/8719404.png?effects=drop-shadow)
+
+A user's navigation of the product and category pages within an ecommerce block is saved in the browser, so the user can access items from their recent browsing history using the Back and Forward browser buttons.
+
+A product search widget can be added to the sidebar or to any blog post to enable blog readers to search for products in your store without leaving the blog page:
+
+![]({{site.baseurl}}/attachments/8750580/8719409.png?effects=drop-shadow)
+
+Blog site visitors can add a product to cart using the **ADD TO CART** button. When a product is added to cart, the minicart widget appears on the page:
+
+![]({{site.baseurl}}/attachments/8750580/8719400.png?effects=drop-shadow)
+
+By clicking the minicart, the user can view the contents of their shopping cart, remove any products they do not want or edit product quantities:
+
+![]({{site.baseurl}}/attachments/8750580/8719410.png?effects=drop-shadow)
+
+By clicking the **CHECKOUT** button a user can proceed to checkout; when this happens, they are redirected to the store site where they can complete their order.
+
+![]({{site.baseurl}}/attachments/8750580/8719411.png?effects=drop-shadow)
+
+Related pages:
+
+*   {% link "WordPress Integration: System requirements and installation" ref_LPIMPVGv %}
+*   {% link "Configuring the X-Cart Intergration plugin in WordPress" ref_VTpNMkKt %}
+*   {% link "Adding products and categories to your WordPress blog" ref_MmNXCs8G %}
+*   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_KtdabhP3 %}
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [xc5_wp_int_category.png]({{site.baseurl}}/attachments/8750580/8719398.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wp_int_product.png]({{site.baseurl}}/attachments/8750580/8719399.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wp_int_minicart.png]({{site.baseurl}}/attachments/8750580/8719400.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wp_int_category1.png]({{site.baseurl}}/attachments/8750580/8719401.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wp_int_previous_next_product.png]({{site.baseurl}}/attachments/8750580/8719402.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wp_int_category_nav.png]({{site.baseurl}}/attachments/8750580/8719403.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wp_int_category_menu_in_post.png]({{site.baseurl}}/attachments/8750580/8719405.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wp_int_category_menu_in_post.png]({{site.baseurl}}/attachments/8750580/8719404.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wp_int_category_menu_in_sidebar.png]({{site.baseurl}}/attachments/8750580/8719406.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wp_int_product_search_widget.png]({{site.baseurl}}/attachments/8750580/8719409.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wp_int_cart_contents.png]({{site.baseurl}}/attachments/8750580/8719410.png) (image/png)  
+![](images/icons/bullet_blue.gif) [xc5_wp_int_checkout.png]({{site.baseurl}}/attachments/8750580/8719411.png) (image/png)

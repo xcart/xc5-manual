@@ -1,0 +1,88 @@
+---
+identifier: ref_VkzBVzCT
+updated_at: 2015-02-10 00:00
+layout: article_with_sidebar
+lang: en
+title: 'How Auction in X-Cart 5 works'
+categories:
+  - User manual
+
+---
+
+
+The module allows you to create auction style listings based on any products in your catalog. New auction listings are created in a special section in the Admin area. For each listing you control such properties as the quantity of product units in the auction lot, the starting price, the minimum bid increment amount, and the auction duration. Each new listing is created based on a single product title (It is possible to create a multi-quantity auction lot consisting of multiple units of the same product, but it is not possible to combine multiple product titles into a single lot).
+
+In the storefront area, your auction listings appear not only in categories, but also in a special section titled "Auction". This section can be accessed via a link in the main menu:
+
+![]({{site.baseurl}}/attachments/8225140/8356098.png?effects=drop-shadow)
+
+You may choose to also enable an additional section for auctioned products, the so called "Products on auction" block:
+
+![]({{site.baseurl}}/attachments/8225140/8356099.png?effects=drop-shadow)
+
+In the module settings you can specify whether this block needs to be displayed in a side box (like in the snapshot above) or in the main column. You can also set the maximum number of auction listings that must be visible in this block.
+
+On your store's pages, auction listings stand out from the rest of the products as each of them has a clock counting down the time till the end of the auction displayed next to them and is marked by labels "Auction!" and "X percent off" (the X shows how much cheaper the current price of the product in the auction is - compared to the product's base price defined in the product details). 
+
+![]({{site.baseurl}}/attachments/8225140/8356111.png?effects=drop-shadow)  
+
+Only registered customers who are logged in can bid on auctioned items:
+
+![]({{site.baseurl}}/attachments/8225140/8356112.png?effects=drop-shadow)
+
+While an auction listing is active, customers can bid on it by placing bids that are equal to or are greater than the minimum bid increment amount defined by the administrator in the auction listing's settings:
+
+![]({{site.baseurl}}/attachments/8225140/8356113.png?effects=drop-shadow)
+
+If necessary, auction participants can activate automatic bidding allowing the system to automatically place bids on their behalf using the minimum bid increment amount - up to the amount of their maximum bid. The minimum auto bid is _(Minimum bid increment amount) * 3. _With automatic bidding enabled, the user will not have to keep coming back to re-bid every time someone outbids them.
+
+![]({{site.baseurl}}/attachments/8225140/8356114.png?effects=drop-shadow)
+
+In the course of the auction each bidder is informed about the status of their most recent bid:
+
+![]({{site.baseurl}}/attachments/8225140/8356119.png?effects=drop-shadow)
+
+or:
+
+![]({{site.baseurl}}/attachments/8225140/8356121.png?effects=drop-shadow)
+
+When an auction ends, the listing is marked as "Sold" so your customers know the bidding has ended:
+
+![]({{site.baseurl}}/attachments/8225140/8356118.png?effects=drop-shadow)
+
+The module checks whether the ended listing has any participating bidders. If there are no such bidders, the listing is simply removed. If at least one bidder is found, the listing gets the status "Awaiting payment" (the status only appears in the Admin area where you manage your auction listings):
+
+![]({{site.baseurl}}/attachments/8225140/8356117.png?effects=drop-shadow)
+
+The auction winner is given 24 hours to add the auction lot they won to the shopping cart and comlete the purchase as usual:
+
+![]({{site.baseurl}}/attachments/8225140/8356115.png?effects=drop-shadow)
+
+The module blocks the buyer's ability to edit the product quantity in the shopping cart for auctioned items: 
+
+![]({{site.baseurl}}/attachments/8225140/8356116.png?effects=drop-shadow)
+
+The auction winner may choose not to purchase the lot they won. If this happens, and the auction winner does not complete the purchase within 24 hours, the listing is removed the same way as listings with no bids.
+
+The store administrator can edit and remove any existing auction listings, no matter if they are in the "Active" or "Awaiting payment" state.
+
+_Related pages:_
+
+*   {% link "Configuring the module "Auction in X-Cart 5"" ref_aWG9lo2T %}
+*   {% link "Managing auction listings" ref_rWo4QRxJ %}
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [auction_section_customer.png]({{site.baseurl}}/attachments/8225140/8356098.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_sidebox.png]({{site.baseurl}}/attachments/8225140/8356100.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_sidebox.png]({{site.baseurl}}/attachments/8225140/8356099.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_labels.png]({{site.baseurl}}/attachments/8225140/8356111.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_only_registered.png]({{site.baseurl}}/attachments/8225140/8356112.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_bid.png]({{site.baseurl}}/attachments/8225140/8356113.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_automatic_bidding.png]({{site.baseurl}}/attachments/8225140/8356114.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_24hours.png]({{site.baseurl}}/attachments/8225140/8356115.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_qty_edit_blocked.png]({{site.baseurl}}/attachments/8225140/8356116.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_awaiting_payment.png]({{site.baseurl}}/attachments/8225140/8356117.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_sold.png]({{site.baseurl}}/attachments/8225140/8356118.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_bid_status.png]({{site.baseurl}}/attachments/8225140/8356119.png) (image/png)  
+![](images/icons/bullet_blue.gif) [auction_outbid.png]({{site.baseurl}}/attachments/8225140/8356121.png) (image/png)

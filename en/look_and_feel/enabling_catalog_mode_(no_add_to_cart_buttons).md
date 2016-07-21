@@ -1,0 +1,21 @@
+---
+identifier: ref_zWcsclhE
+updated_at: 2015-04-10 00:00
+layout: article_with_sidebar
+lang: en
+title: 'Enabling Catalog mode (no &quot;Add to cart&quot; buttons)'
+categories:
+  - User manual
+
+---
+
+
+It is possible to remove all **Add to cart **buttons from your store and only show products to customers - without letting them buy anything. This can be done by {% link "installing" ref_36GTeW9L %} the module **Catalog** by X-Cart team:
+
+![]({{site.baseurl}}/attachments/6389782/6586395.png?effects=drop-shadow)
+
+Once the module has been installed, checkout is disabled, and store visitors are not allowed to buy any products.
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [marketplace-catalog.png]({{site.baseurl}}/attachments/6389782/6586395.png) (image/png)

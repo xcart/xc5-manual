@@ -1,0 +1,63 @@
+---
+identifier: ref_F1TNi0gL
+updated_at: 2015-01-06 00:00
+layout: article_with_sidebar
+lang: en
+title: 'Product classes and attributes'
+categories:
+  - home
+order: 120
+icon: table
+description: Manage the range of products with ease
+---
+
+
+You may find that the standard X-Cart's Product info page does not have enough fields for you to specify all the product parameters that you would like to include. For example, X-Cart does not provide fields for such product parameters as color, size, material, country of origin, ISBN, technical specifications, etc. out of the box. However, you can add any fields you think necessary using X-Cart's _attributes_ feature. 
+
+Product information that you add in the form of product attributes is displayed in the store's front end in the **Specification** tab of the product details page:
+
+![]({{site.baseurl}}/attachments/7504847/7602452.png?effects=drop-shadow)
+
+Attributes can also be used:
+
+*   to set up product options/product variants that buyers will be able to choose:  
+    ![]({{site.baseurl}}/attachments/7504847/7602468.png?effects=drop-shadow)  
+    (The product variants feature is enabled by the [Product Variants](http://www.x-cart.com/extensions/addons/product-variants.html) module).  
+
+*   to set up product filters based on attributes (the feature enabled by the [Product Filter](http://www.x-cart.com/extensions/addons/product-filter.html) module).
+
+Product attributes in X-Cart are closely connected with another feature: _product classes._ The product classes feature is a way to group products with smiliar or the same attributes together. For information on managing product classes, see:
+
+*   {% link "Managing product classes" ref_sOTxdt4h %}
+
+Before you proceed to configuring attributes for your products, please read the following article:
+
+*   {% link "Types of product attributes - by scope" ref_UdUa8HcM %}
+
+For information on configuring and managing different types of product attributes, see:
+
+*   {% link "Managing product-specific attributes" ref_GM544D3Q %}
+*   {% link "Managing product class attributes" ref_qopTMhrU %}
+*   {% link "Managing global attributes" ref_VL5PeU5w %}
+
+For information on managing attribute values, see:
+
+*   {% link "Managing attribute values" ref_uKVHuBU6 %}
+
+For guidelines on organizing your global and product class attributes into groups, see:
+
+*   {% link "Managing attribute groups" ref_kPTM4gpd %}
+
+For information on managing product variants, see:
+
+*   {% link "Product variants" ref_9HKMmLxm %}
+
+# Video tutorial
+
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/x6DPVVgZh1o" frameborder="0"></iframe>
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [specification_tab.png]({{site.baseurl}}/attachments/7504847/7602469.png) (image/png)  
+![](images/icons/bullet_blue.gif) [kitty_plate_options.png]({{site.baseurl}}/attachments/7504847/7602468.png) (image/png)  
+![](images/icons/bullet_blue.gif) [specification_tab.png]({{site.baseurl}}/attachments/7504847/7602452.png) (image/png)

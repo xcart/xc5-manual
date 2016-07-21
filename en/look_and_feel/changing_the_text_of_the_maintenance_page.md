@@ -1,0 +1,56 @@
+---
+identifier: ref_nWmpBME6
+updated_at: 2015-09-15 00:00
+layout: article_with_sidebar
+lang: en
+title: 'Changing the text of the maintenance page'
+categories:
+  - User manual
+
+---
+
+
+When your store is in the process of rebuilding its cache, upgrading the core or installing new modules, it is not operational, and your customers see the maintenance page instead:
+
+![]({{site.baseurl}}/attachments/8750554/8719382.png?effects=drop-shadow)
+
+If you want to provide additional information to help your customers contact you during the rebuild process, you should change the file **`<X-Cart folder>/public/maintenance.html`**. For instance, we will show how to add a phone number below the existing text. The mentioned file has the following HTML tags with text:
+
+**public/maintenance.html**{% highlight php %}{% raw %}
+<body class="maintenance">
+  <div class="header"></div>
+  <div class="container">
+	  <div class="circle"><div id="img" class="img"></div></div>
+    <div class="title">The site is temporarily closed for maintenance</div>
+    <div class="text">@MSG@</div>
+
+	<!-- that's where you can an additional info -->
+
+  </div>
+</body>
+{% endraw %}{% endhighlight %}
+
+We will add the line "`<div class="text">If you have any questions, contact us: 8-800-555-0100</div>`" to show our phone number:
+
+**changed maintenance.html**{% highlight php %}{% raw %}
+<body class="maintenance">
+  <div class="header"></div>
+  <div class="container">
+	  <div class="circle"><div id="img" class="img"></div></div>
+    <div class="title">The site is temporarily closed for maintenance</div>
+    <div class="text">@MSG@</div>
+
+	<div class="text">If you have any questions, contact us: 8-800-555-0100</div>
+
+  </div>
+</body>
+{% endraw %}{% endhighlight %}
+
+Likewise, you can add links to your social accounts and images, or any other info you find necessary. After saving this file, the store's maintenance page will look like this:
+
+![]({{site.baseurl}}/attachments/8750554/8719383.png?effects=drop-shadow)
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [Closed for maintenance.png]({{site.baseurl}}/attachments/8750554/8719382.png) (image/png)  
+![](images/icons/bullet_blue.gif) [Closed for maintenanc2e.png]({{site.baseurl}}/attachments/8750554/8719383.png) (image/png)

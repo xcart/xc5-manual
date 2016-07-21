@@ -1,0 +1,19 @@
+---
+layout: page
+---
+<div class="ui stackable grid">
+	<div class="four wide column">
+			{% include sidebar.html %}
+	</div>
+
+	<article class="twelve wide column">
+    {% include breadcrumbs.html %}
+
+    <h1 class="post-title">{{ page.title }}</h1>
+
+	  <div class="post-content">
+	    {{ content }}
+	  </div>
+
+	</article>
+</div>

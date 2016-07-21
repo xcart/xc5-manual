@@ -1,0 +1,56 @@
+---
+identifier: ref_tESxbFAZ
+updated_at: 2015-04-02 00:00
+layout: article_with_sidebar
+lang: en
+title: 'Enabling the Contact Us form'
+categories:
+  - User manual
+
+---
+
+
+Your store can have a "Contact us" form that your customers will be able to use to contact the store's personnel (for example, the store's administrator or customer service department):
+
+![]({{site.baseurl}}/attachments/6389780/7602634.png?effects=drop-shadow)
+
+The form is enabled by a free module called **Contact us**. You can check whether this module is installed and enabled in the Installed Modules section of your store's Admin area:
+
+![]({{site.baseurl}}/attachments/6389780/8716626.png?effects=drop-shadow)
+
+If the module is not installed, you can install it from X-Cart's Marketplace (See {% link "Installing modules from the Marketplace" ref_36GTeW9L %}). 
+
+The module's settings page allows you to control the settings related to the "Contact us" form:
+
+![]({{site.baseurl}}/attachments/6389780/7602635.png?effects=drop-shadow)
+
+*   **Enable form**: Select this check box to allow your store's users to access the form. When enabled, the "Contact us" form is available via the link "/?target=contact_us"; for example, if your store's address is http://www.example.com/, your customers can access the form at http://www.example.com/?target=contact_us. When the form is disabled, users attempting to access the form get the "Access denied" page.
+*   **Email address of the message recipient**: Use this field to specify the email address to which messages submitted via the "Contact us" form should be sent. If this field is left empty, the site administrator email will be used.  
+
+The "Contact us" form can be protected by reCAPTCHA. reCAPTCHA is a free Web service that helps prevent automated abuse of your site. In this case, it prevents automated submission of the "Contact us" form by using a [CAPTCHA](http://www.google.com/recaptcha#captcha) to ensure that only humans can submit it. 
+
+To use reCAPTCHA, you will need to configure your reCAPTCHA **Public key** and **Private key** settings. To sign up for reCAPTCHA and obtain the necessary keys, go to [https://www.google.com/recaptcha/admin/create](https://www.google.com/recaptcha/admin/create).
+
+If your store uses the **Simple CMS** module by X-Cart team, the link to the "Contact us" form appears in your store's Primary menu: 
+
+![]({{site.baseurl}}/attachments/6389780/7602632.png?effects=drop-shadow)
+
+You can control the accessibility of the "Contact us" form link via the Primary site menu using the Menus page (**Content > Menus**) in the Admin area:
+
+![]({{site.baseurl}}/attachments/6389780/8716627.png?effects=drop-shadow)
+
+_Related pages:_
+
+*   {% link "Adding new items to your store's menus" ref_zDAwS4wR %}
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [marketplace-contact-us.png]({{site.baseurl}}/attachments/6389780/6586394.png) (image/png)  
+![](images/icons/bullet_blue.gif) [contact_us_module.png]({{site.baseurl}}/attachments/6389780/7602631.png) (image/png)  
+![](images/icons/bullet_blue.gif) [contact_us_link.png]({{site.baseurl}}/attachments/6389780/7602632.png) (image/png)  
+![](images/icons/bullet_blue.gif) [contact_us_primary_menu.png]({{site.baseurl}}/attachments/6389780/7602633.png) (image/png)  
+![](images/icons/bullet_blue.gif) [contact_us_form.png]({{site.baseurl}}/attachments/6389780/7602634.png) (image/png)  
+![](images/icons/bullet_blue.gif) [contact_us_module_settings.png]({{site.baseurl}}/attachments/6389780/8716625.png) (image/png)  
+![](images/icons/bullet_blue.gif) [contact_us_module_settings.png]({{site.baseurl}}/attachments/6389780/7602635.png) (image/png)  
+![](images/icons/bullet_blue.gif) [contact_us_installed_enabled.png]({{site.baseurl}}/attachments/6389780/8716626.png) (image/png)  
+![](images/icons/bullet_blue.gif) [contact_us_menus.png]({{site.baseurl}}/attachments/6389780/8716627.png) (image/png)

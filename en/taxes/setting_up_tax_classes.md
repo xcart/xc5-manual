@@ -1,0 +1,65 @@
+---
+identifier: ref_5Mr9DJPu
+updated_at: 2015-02-13 00:00
+layout: article_with_sidebar
+lang: en
+title: 'Setting up tax classes'
+categories:
+  - User manual
+
+---
+
+
+Icon
+
+The **Tax classes** feature is enabled in X-Cart 5 by the module Sales Tax. Before you proceed, make sure this module is installed and enabled.
+
+# What are tax classes?
+
+According to your country's laws, you may need to charge different taxes for different types of products. For instance, you may need to calculate sales tax differently for alcohol and non-alcohol products.
+
+X-Cart 5 allows you to have **tax classes_._** By using this feature you can organize your products into groups according to what sales tax rate calculation rules need to be used for them.
+
+For example, if you have a food store selling both alcohol and non-alcohol products, and you need to calculate your sales tax differently for those two product groups, you will need two tax classes - one for alcohol products and one for non-alcohol products. To make it work, you will need to specify how tax rates should be calculated  for each of these tax classes. You will also need to assign a tax class to every product in your store. This way all the products will have appropriate tax rates applied to them. 
+
+In X-Cart 5, every product needs to have a tax class assigned to it. By default, new products are created with the **Default tax class** assigned. If you expect all of your store's products to use the same tax rates, you do not need to create any additional tax classes - just use the **Default tax class** for all rates. However, if you are going to have different tax rates for different types of products - like in the example with alcohol and non-alcohol products - then you will need additional tax classes.
+
+This article discusses how to create a new tax class and how to assign a tax class to a product. For information on how to set tax rates for different tax classes, see {% link "Specifying sales tax for your products" ref_FUFa8HCh %}.
+
+# Creating tax classes
+
+To create a new tax class, do the following:
+
+1.  In your store's Admin area, go to the Taxes section (**Store setup** > **Taxes**):   
+    ![]({{site.baseurl}}/attachments/6389861/6586570.png?effects=drop-shadow)
+2.  Make sure you're viewing the **Tax classes** tab.
+3.  Click the **New tax class** button. This adds a new empty field below. You can click more than once to add multiple fields.
+4.  Use the field you have added to enter a name for the new tax class. In the screenshot below we entered "Alcohol":  
+
+    ![]({{site.baseurl}}/attachments/6389861/6586571.png?effects=drop-shadow)
+5.  Click **Save changes**.
+
+That's all, the tax class has been created. Now you can assign it to products and configure tax rates for it. 
+
+# Assigning tax classes to products
+
+Once you have created the tax classes you require, be sure to assign them to products.
+
+To assign a tax class to a product, do the following:
+
+1.  In your store's Admin area, find the product to which you need to assign a tax class. Open this product's details for editing.
+2.  From the **Tax class** field, select the tax class you want to assign to this product.  
+    ![]({{site.baseurl}}/attachments/6389861/6586572.png?effects=drop-shadow)
+3.  Click **Save changes**.
+
+Once the tax class has been assigned to a product, this product will use the tax rates defined for this product class.
+
+_Related pages:_
+
+*   {% link "Specifying sales tax for your products" Specifying-sales-tax-for-your-products_6389865.html %}
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [taxes-section-admin.png]({{site.baseurl}}/attachments/6389861/6586570.png) (image/png)  
+![](images/icons/bullet_blue.gif) [create-new-tax-class.png]({{site.baseurl}}/attachments/6389861/6586571.png) (image/png)  
+![](images/icons/bullet_blue.gif) [tax-class-product-details.png]({{site.baseurl}}/attachments/6389861/6586572.png) (image/png)

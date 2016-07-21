@@ -1,0 +1,132 @@
+---
+identifier: ref_lB0f1x4W
+updated_at: 2015-12-25 00:00
+layout: article_with_sidebar
+lang: en
+title: 'What to do if your store says &quot;We are deploying new changes&quot; and you cannot access it'
+categories:
+  - User manual
+
+---
+
+
+Sometimes site changes like installing a new module, upgrading your X-Cart core or rebuilding your store site's cache may not go as smoothly as planned. A syntax error in the code of a new module, a module's incompatibility with the new X-Cart core after an upgrade or a cache rebuild failure may crash your store's website, so when you attempt to access it you will continuously see a page saying "The site is temporarily closed for maintenance":
+
+![]({{site.baseurl}}/attachments/7504187/7602636.png?effects=drop-shadow)
+
+This article describes what you can do if you face this major problem and get your store up and running. 
+
+# Table of Contents
+
+*   [Table of Contents](#table-of-contents)
+*   [Drop and re-create your site's cache](#drop-and-re-create-your-site's-cache)
+*   [Contact your hosting team](#contact-your-hosting-team)
+*   [Recover your store using safe mode](#recover-your-store-using-safe-mode)
+
+# Drop and re-create your site's cache
+
+If you suspect the problem is caused by that your site's cache rebuild process was not completed properly, you should try clearing your store's cache and running the cache rebuild process anew.Normally, cache rebuild process takes place when you apply a core upgrade, install a new module, enable/disable an installed module, or manually launch the cache rebuild process by selecting **Re-deploy the store** in the Cache management section (**System settings** > **Cache management**) in your store's Admin area. If your store stopped functioning after one of those actions, chances are high that is because of problems with your site's cache. There are quite a number of reasons why cache re-generation may go wrong for your site, one of the most popular being closing the page where the cache rebuild process is being executed. But no matter what caused the problem, you can try to resolve it using one of the following methods:
+
+1.  Access your store using a link similar to the following:  
+    **https://www.example.com/x-cart/admin.php?drop_cache&access_key=XXXXXXXXXXXXXX**  
+    Replace the portion "https://www.example.com/x-cart/" with the actual address of your store and use your actual Safe Mode access key instead of XXXXXXXXXXXXXX. The Safe Mode access key can be copied from the file **var/data/.safeModeAccessKey** in your X-Cart installation folder or from any of the two reset links that were sent to your site administrator mailbox after X-Cart installation (The message subject reads "**Soft and Hard reset links for your store!**"; for X-Cart versions 5.1.8 and earlier the subject was "**New safe mode access key has been generated!**").  
+    When you use this link, your existing site cache is dropped, and the cache rebuild process is launched automatically.
+2.  Delete the folder **var/run** and the file **var/.rebuildStarted** in your X-Cart installation folder and go the your store's Admin area. X-Cart will detect the absense of cache and will automatically launch the cache rebuild process.
+
+# Contact your hosting team
+
+Good hosting companies back up your entire website (databases and files) every day. Excellent ones - even more often.
+
+If your website crashed for any reason, contact your hosting team and ask them to recover your store from backup.
+
+# Recover your store using safe mode
+
+It might happen that your hosting provider does not respond to you in time and you have to deal with the situation by yourself. Another possibility is that you are working in development environment and need to find out what exactly crashed your store so you would be able to fix it. In this case you may want to try using safe mode. Safe mode allows you to re-deploy your store with a limited set of modules, which can help you to identify the source of the problem more easily.
+
+To run your store in safe mode, you need to access your store website using a Hard or Soft reset link. The links can be found in your store's Admin area on the Safe mode page (**System settings** > **Safe mode**). They can also be found in an email message that was sent to the administrator mailbox after X-Cart installation (For X-Cart versions 5.1.9 and later, the message subject reads "**Soft and Hard reset links for your store!**", for earlier versions - "**New safe mode access key has been generated!**"). 
+
+The format of the reset links is as follows:
+
+*   Hard reset:  
+    **http://**<shop_domain>**/admin.php?target=main&safe_mode=1&access_key=**<shop_key>****
+*   Soft reset:   
+    **http://**<shop_domain>**/admin.php?target=main&safe_mode=1&access_key=**<shop_key>**&soft_reset=1**
+
+(If you cannot access your Hard and Soft reset links, you can re-create them manually by replacing the part "****<shop_domain>****" with the actual domain of your store and the part "**<shop_key>**" with your actual Safe Mode access key from the file **var/data/.safeModeAccessKey**).
+
+Clicking on a reset link disables some or all of the modules installed at your store (Detailed information on the action of each link is available in the table below). Then X-Cart 5 tries to recover itself.  Once your store is back online, you can try enabling the modules again one by one in order to identify the one causing your site to crash. As soon as you know which module is causing it, you can contact its developer to get it fixed. 
+
+<table class="confluenceTable">
+
+<tbody style="margin-left: 30.0px;">
+
+<tr style="margin-left: 30.0px;">
+
+<th class="confluenceTh"> </th>
+
+<th style="margin-left: 30.0px;" class="confluenceTh">X-Cart versions 5.x-5.2.6</th>
+
+<th colspan="1" style="margin-left: 30.0px;" class="confluenceTh">X-Cart versions 5.2.7</th>
+
+</tr>
+
+<tr style="margin-left: 30.0px;">
+
+<td style="margin-left: 30.0px;" class="confluenceTd">**Soft reset**</td>
+
+<td style="margin-left: 30.0px;" class="confluenceTd">
+
+Disables all the custom modules uploaded to the store directly via the "Upload addon" feature
+
+ (NOT via the X-Cart Marketplace)
+
+</td>
+
+<td colspan="1" style="margin-left: 30.0px;" class="confluenceTd">Disables all the modules except for the ones developed by X-Cart 5 team and Qualiteam</td>
+
+</tr>
+
+<tr style="margin-left: 30.0px;">
+
+<td style="margin-left: 30.0px;" class="confluenceTd">**Hard reset**</td>
+
+<td style="margin-left: 30.0px;" class="confluenceTd">
+
+Disables absolutely all the modules and custom mods, leaving only the core
+
+</td>
+
+<td colspan="1" style="margin-left: 30.0px;" class="confluenceTd">Disables all the modules except for the ones developed by X-Cart 5 team</td>
+
+</tr>
+
+<tr style="margin-left: 30.0px;">
+
+<td colspan="1" class="confluenceTd"> </td>
+
+<td colspan="2" style="margin-left: 150.0px;" class="confluenceTd">
+
+Any custom modifications uploaded to your store in the form of modules via the "Upload addon" feature are disabled regardless of the reset link type (Hard or Soft) - no matter who the author of the modification is, whether it be X-Cart service departments, X-Cart partners or 3rd party developers.
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+Starting with X-Cart version 5.2.7, the Safe mode section of your store's Admin area also provides the so-called "Current state" link. This link corresponds to your store's latest {% link "snapshot" ref_91KgU4el %}. It may be useful if you want to capture the current state of your store and bring your store back to this state later. For example, you can copy this link and store it in a separate file before you try to install a new module. If the installation goes wrong, you will be able to restore your site by visiting this link: your store will be re-deployed with only the modules that were active at the time you copied the link. The format of the Current state link is as follows:
+
+[**http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>&date=<restore_date>**](http://www.example.com/x-cart/admin.php?target=main&safe_mode=1&access_key=XXXXXXXXXXXXXX&date=)
+
+(The link can be easily re-created manually by replacing the part "****<shop_domain>****" with the actual domain of your store, the part "**<shop_key>**" with your actual Safe Mode access key from the file **var/data/.safeModeAccessKey** and **<restore_date> **with the date of the snapshot that needs to be restored).
+
+_See also:_
+
+*   {% link "Restoring your store with the Snapshots feature" Restoring-your-store-with-the-Snapshots-feature_8749995.html %}
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [safe-mode-email.png]({{site.baseurl}}/attachments/7504187/7602234.png) (image/png)  
+![](images/icons/bullet_blue.gif) [temporarily_closed_maintenance_page.png]({{site.baseurl}}/attachments/7504187/7602636.png) (image/png)

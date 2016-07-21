@@ -1,0 +1,18 @@
+<script src="//code.jquery.com/jquery-2.2.2.min.js"></script>
+<script type='text/javascript' src="{{ "/js/underscore-min.js" | prepend: site.baseurl }}"></script>
+<script type='text/javascript' src="{{ "/js/elasticsearch.jquery.js" | prepend: site.baseurl }}"></script>
+<script type='text/javascript' src="{{ "/js/elasticsearch.wrapper.js" | prepend: site.baseurl }}"></script>
+<script type='text/javascript' src="{{ "/js/object_hash.js" | prepend: site.baseurl }}"></script>
+<script type='text/javascript' src="{{ "/js/semantic.js" | prepend: site.baseurl }}"></script>
+<script type='text/javascript' src="{{ "/js/search.js" | prepend: site.baseurl }}"></script>
+<script type='text/javascript' src="{{ "/js/language.js" | prepend: site.baseurl }}"></script>
+
+{% if page.search_script %}
+
+<script type='text/javascript'>
+$(document).ready(function() {
+    Search.runQuery();
+});
+</script>
+
+{% endif %}

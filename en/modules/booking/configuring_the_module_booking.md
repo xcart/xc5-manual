@@ -1,0 +1,31 @@
+---
+identifier: ref_LdKhQD4I
+updated_at: 2015-06-27 00:00
+layout: article_with_sidebar
+lang: en
+title: 'Configuring the module &quot;Booking&quot;'
+categories:
+  - User manual
+
+---
+
+
+Once you have configured the attributes that will represent the room type and number of guests per room for your bookable product variants, you may want to incorporate these attributes into the booking table that will be displayed on the pages of your bookable products. For that purpose you will need to tell the module which of the attributes in your store needs to be treated as the "Room type" attribute, and which one - as the "Number of guests" attribute. This can be done via the module's settings page:  
+
+1.  In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for "Booking" and click the **Settings **link below it:![]({{site.baseurl}}/attachments/8749990/8718721.png?effects=drop-shadow)  
+    The "Booking" module settings page opens:  
+    ![]({{site.baseurl}}/attachments/8749990/8718714.png?effects=drop-shadow)
+2.  Adjust the module settings:
+    *   **Which attribute field is the room type?**: Select the attribute whose values you would like to be used as the titles of the individual rows in a booking table. If the option "No attribute" is selected, product name will be used.
+    *   **Which attribute field is the number of guests per room?**: Select the attribute whose values you want to be displayed in the "Guests" column of a booking table. If the option "No attribute" is selected, the column "Guests" will not be displayed.  
+
+3.  Click **Submit** to save the changes.
+
+_Related pages:_
+
+*   {% link "Setting up a bookable product with variants" ref_o0sHduTv %}
+
+## Attachments:
+
+![](images/icons/bullet_blue.gif) [module-settings.png]({{site.baseurl}}/attachments/8749990/8718714.png) (image/png)  
+![](images/icons/bullet_blue.gif) [booking_module_settings_link.png]({{site.baseurl}}/attachments/8749990/8718721.png) (image/png)
