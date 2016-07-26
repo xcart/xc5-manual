@@ -1,5 +1,5 @@
 ---
-identifier: ref_DOIZsDJ1
+identifier: ref_nFJTxPMR
 updated_at: 2015-12-30 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,23 +14,23 @@ If you have set up carrier-calculated or table-based shipping rates for your pro
 
 To set up a handling fee for some shipping method:
 
-1.  In your store's Admin area, go to the Shipping methods section (**Store setup **>** Shipping**):  
+1.  In your store's Admin area, go to the Shipping methods section (**Store setup **>** Shipping**):
     ![]({{site.baseurl}}/attachments/9306255/9437269.png?effects=drop-shadow)
-2.  In the list of your store's shipping methods, find the method for which you want to add a surcharge.  
+2.  In the list of your store's shipping methods, find the method for which you want to add a surcharge.
     ![]({{site.baseurl}}/attachments/9306255/9437270.png?effects=drop-shadow)
-3.  Hover the mouse pointer over the line of this shipping method. The **Delivery time** and **Handling fee** fields will be highlighted as editable:  
+3.  Hover the mouse pointer over the line of this shipping method. The **Delivery time** and **Handling fee** fields will be highlighted as editable:
     ![]({{site.baseurl}}/attachments/9306255/9437271.png?effects=drop-shadow)
-4.  Click inside the **Handling fee** field and specify the surcharge amount you require.  
+4.  Click inside the **Handling fee** field and specify the surcharge amount you require.
     ![]({{site.baseurl}}/attachments/9306255/9437272.png?effects=drop-shadow)
-5.  Click the **Save changes** button at the bottom of the screen to save the changes.  
-    ![]({{site.baseurl}}/attachments/9306255/9437274.png?effects=drop-shadow)  
+5.  Click the **Save changes** button at the bottom of the screen to save the changes.
+    ![]({{site.baseurl}}/attachments/9306255/9437274.png?effects=drop-shadow)
     The handling fee value will be updated.
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_shipping_section.png]({{site.baseurl}}/attachments/9306255/9437269.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_courier.png]({{site.baseurl}}/attachments/9306255/9437270.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_courier1.png]({{site.baseurl}}/attachments/9306255/9437271.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_courier2.png]({{site.baseurl}}/attachments/9306255/9437273.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_courier2.png]({{site.baseurl}}/attachments/9306255/9437272.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_courier3.png]({{site.baseurl}}/attachments/9306255/9437274.png) (image/png)
+* [xc5_shipping_section.png]({{site.baseurl}}/attachments/9306255/9437269.png) (image/png)
+* [xc5_shipping_courier.png]({{site.baseurl}}/attachments/9306255/9437270.png) (image/png)
+* [xc5_shipping_courier1.png]({{site.baseurl}}/attachments/9306255/9437271.png) (image/png)
+* [xc5_shipping_courier2.png]({{site.baseurl}}/attachments/9306255/9437273.png) (image/png)
+* [xc5_shipping_courier2.png]({{site.baseurl}}/attachments/9306255/9437272.png) (image/png)
+* [xc5_shipping_courier3.png]({{site.baseurl}}/attachments/9306255/9437274.png) (image/png)

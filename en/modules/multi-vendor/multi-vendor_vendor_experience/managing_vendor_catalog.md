@@ -1,5 +1,5 @@
 ---
-identifier: ref_9gsHuW0K
+identifier: ref_r4mcwiho
 updated_at: 2015-04-28 00:00
 layout: article_with_sidebar
 lang: en
@@ -20,7 +20,7 @@ then enter information about the product using the form provided:
 
 ![]({{site.baseurl}}/attachments/8749388/8717030.png?effects=drop-shadow)
 
-More info about the process can be found in the article {% link "Adding products" ref_fhnQtCC2 %}. 
+More info about the process can be found in the article {% link "Adding products" ref_fhzzxDTy %}. 
 
 The entered product information needs to be saved by clicking the **Add product** button at the bottom of the page:
 
@@ -40,26 +40,26 @@ Note, however, that vendor's catalog management capabilities are different from 
 
 *   Unlike administrators with the role "Administrator", vendors can view and manage only their own products: any products added by other users are not visible to them.
 *   Unlike administrators with the role "Administrator", vendors do not have access to category management. They cannot create categories by themselves and can only add their products to categories created by the store administrator. If the store's list of categories is lacking a category that a vendor requires, they need to contact the store administrator to resolve this problem.
-*   Vendors can assign product classes and attribute values added by the store administrator to their own products. Depending on the way the module Multi-vendor is configured, vendors may also be able to add their own product classes and attribute values. More information about this is available in the section {% link "Vendor access to product classes and attributes" ref_JQLJNOwT %} of this manual.
+*   Vendors can assign product classes and attribute values added by the store administrator to their own products. Depending on the way the module Multi-vendor is configured, vendors may also be able to add their own product classes and attribute values. More information about this is available in the section {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %} of this manual.
 
 Related pages:
 
-*   {% link "Vendor login and first steps" ref_LAI14FMl %}
-*   {% link "Managing vendor profile information" ref_XbtJFiMB %}
+*   {% link "Vendor login and first steps" ref_SZycMdTx %}
+*   {% link "Managing vendor profile information" ref_b7PTQMgf %}
 *   {% link "Vendor access to product classes and attributes" Vendor-access-to-product-classes-and-attributes_8749481.html %}
-*   {% link "Vendor import/export" ref_KPdT60VD %}
-*   {% link "Managing vendor shipping methods" ref_lTlMruZ5 %}
-*   {% link "Vendor access to orders and statistics" ref_w2GOgSNg %}
+*   {% link "Vendor import/export" ref_pa3oqbXz %}
+*   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
+*   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749388/8716910.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749388/8716908.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_ceramics_product_class.png]({{site.baseurl}}/attachments/8749388/8717005.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749388/8717007.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749388/8717006.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_product_info.png]({{site.baseurl}}/attachments/8749388/8717029.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_add_product.png]({{site.baseurl}}/attachments/8749388/8717030.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_add_product1.png]({{site.baseurl}}/attachments/8749388/8717031.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_product_list.png]({{site.baseurl}}/attachments/8749388/8717111.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_product_details_view.png]({{site.baseurl}}/attachments/8749388/8717120.png) (image/png)
+* [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749388/8716910.png) (image/png)
+* [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749388/8716908.png) (image/png)
+* [xc5_vendor_ceramics_product_class.png]({{site.baseurl}}/attachments/8749388/8717005.png) (image/png)
+* [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749388/8717007.png) (image/png)
+* [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749388/8717006.png) (image/png)
+* [xc5_vendor_product_info.png]({{site.baseurl}}/attachments/8749388/8717029.png) (image/png)
+* [xc5_vendor_add_product.png]({{site.baseurl}}/attachments/8749388/8717030.png) (image/png)
+* [xc5_vendor_add_product1.png]({{site.baseurl}}/attachments/8749388/8717031.png) (image/png)
+* [xc5_vendor_product_list.png]({{site.baseurl}}/attachments/8749388/8717111.png) (image/png)
+* [xc5_vendor_product_details_view.png]({{site.baseurl}}/attachments/8749388/8717120.png) (image/png)

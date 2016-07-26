@@ -1,5 +1,5 @@
 ---
-identifier: ref_qoAxc8mH
+identifier: ref_4s82Om1P
 updated_at: 2016-04-26 00:00
 layout: article_with_sidebar
 lang: en
@@ -22,7 +22,7 @@ In X-Cart 5, permissions are granted to users by assigning roles. The set of pe
 
 The "POS operator" role can be assigned to your employee via their user profile:
 
-![]({{site.baseurl}}/attachments/7504410/8719205.png?effects=drop-shadow)  
+![]({{site.baseurl}}/attachments/7504410/8719205.png?effects=drop-shadow)
 
 If your store uses the module “User permissions”, you will be able to adjust the permission for the "POS operator" role manually:
 
@@ -30,11 +30,11 @@ If your store uses the module “User permissions”, you will be able to adjust
 
 _Related pages:_
 
-*   {% link "Getting started with POS system for X-Cart" ref_TwJ1dw8a %}
+*   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [pos_operator1.png]({{site.baseurl}}/attachments/7504410/7602271.png) (image/png)  
-![](images/icons/bullet_blue.gif) [pos_operator2.png]({{site.baseurl}}/attachments/7504410/7602272.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_POS_operator_permissions.png]({{site.baseurl}}/attachments/7504410/8719204.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_assign_POS_operator_role.png]({{site.baseurl}}/attachments/7504410/8719205.png) (image/png)
+* [pos_operator1.png]({{site.baseurl}}/attachments/7504410/7602271.png) (image/png)
+* [pos_operator2.png]({{site.baseurl}}/attachments/7504410/7602272.png) (image/png)
+* [xc5_POS_operator_permissions.png]({{site.baseurl}}/attachments/7504410/8719204.png) (image/png)
+* [xc5_assign_POS_operator_role.png]({{site.baseurl}}/attachments/7504410/8719205.png) (image/png)

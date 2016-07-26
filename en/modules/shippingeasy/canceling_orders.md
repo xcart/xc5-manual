@@ -1,5 +1,5 @@
 ---
-identifier: ref_izPIxXzE
+identifier: ref_QU6Aanr9
 updated_at: 2014-11-13 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,4 +14,4 @@ When an order gets canceled in X-Cart (i.e. gets the payment status "Cancelled" 
 
 _Related pages:_
 
-*   {% link "Updating order statuses for shipped orders" ref_vFSh6V7O %}
+*   {% link "Updating order statuses for shipped orders" ref_cTn6pCxX %}

@@ -1,5 +1,5 @@
 ---
-identifier: ref_tESxbFAZ
+identifier: ref_hfZXkxzT
 updated_at: 2015-04-02 00:00
 layout: article_with_sidebar
 lang: en
@@ -18,14 +18,14 @@ The form is enabled by a free module called **Contact us**. You can check whethe
 
 ![]({{site.baseurl}}/attachments/6389780/8716626.png?effects=drop-shadow)
 
-If the module is not installed, you can install it from X-Cart's Marketplace (See {% link "Installing modules from the Marketplace" ref_36GTeW9L %}). 
+If the module is not installed, you can install it from X-Cart's Marketplace (See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}). 
 
 The module's settings page allows you to control the settings related to the "Contact us" form:
 
 ![]({{site.baseurl}}/attachments/6389780/7602635.png?effects=drop-shadow)
 
 *   **Enable form**: Select this check box to allow your store's users to access the form. When enabled, the "Contact us" form is available via the link "/?target=contact_us"; for example, if your store's address is http://www.example.com/, your customers can access the form at http://www.example.com/?target=contact_us. When the form is disabled, users attempting to access the form get the "Access denied" page.
-*   **Email address of the message recipient**: Use this field to specify the email address to which messages submitted via the "Contact us" form should be sent. If this field is left empty, the site administrator email will be used.  
+*   **Email address of the message recipient**: Use this field to specify the email address to which messages submitted via the "Contact us" form should be sent. If this field is left empty, the site administrator email will be used.
 
 The "Contact us" form can be protected by reCAPTCHA. reCAPTCHA is a free Web service that helps prevent automated abuse of your site. In this case, it prevents automated submission of the "Contact us" form by using a [CAPTCHA](http://www.google.com/recaptcha#captcha) to ensure that only humans can submit it. 
 
@@ -41,16 +41,16 @@ You can control the accessibility of the "Contact us" form link via the Primary 
 
 _Related pages:_
 
-*   {% link "Adding new items to your store's menus" ref_zDAwS4wR %}
+*   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [marketplace-contact-us.png]({{site.baseurl}}/attachments/6389780/6586394.png) (image/png)  
-![](images/icons/bullet_blue.gif) [contact_us_module.png]({{site.baseurl}}/attachments/6389780/7602631.png) (image/png)  
-![](images/icons/bullet_blue.gif) [contact_us_link.png]({{site.baseurl}}/attachments/6389780/7602632.png) (image/png)  
-![](images/icons/bullet_blue.gif) [contact_us_primary_menu.png]({{site.baseurl}}/attachments/6389780/7602633.png) (image/png)  
-![](images/icons/bullet_blue.gif) [contact_us_form.png]({{site.baseurl}}/attachments/6389780/7602634.png) (image/png)  
-![](images/icons/bullet_blue.gif) [contact_us_module_settings.png]({{site.baseurl}}/attachments/6389780/8716625.png) (image/png)  
-![](images/icons/bullet_blue.gif) [contact_us_module_settings.png]({{site.baseurl}}/attachments/6389780/7602635.png) (image/png)  
-![](images/icons/bullet_blue.gif) [contact_us_installed_enabled.png]({{site.baseurl}}/attachments/6389780/8716626.png) (image/png)  
-![](images/icons/bullet_blue.gif) [contact_us_menus.png]({{site.baseurl}}/attachments/6389780/8716627.png) (image/png)
+* [marketplace-contact-us.png]({{site.baseurl}}/attachments/6389780/6586394.png) (image/png)
+* [contact_us_module.png]({{site.baseurl}}/attachments/6389780/7602631.png) (image/png)
+* [contact_us_link.png]({{site.baseurl}}/attachments/6389780/7602632.png) (image/png)
+* [contact_us_primary_menu.png]({{site.baseurl}}/attachments/6389780/7602633.png) (image/png)
+* [contact_us_form.png]({{site.baseurl}}/attachments/6389780/7602634.png) (image/png)
+* [contact_us_module_settings.png]({{site.baseurl}}/attachments/6389780/8716625.png) (image/png)
+* [contact_us_module_settings.png]({{site.baseurl}}/attachments/6389780/7602635.png) (image/png)
+* [contact_us_installed_enabled.png]({{site.baseurl}}/attachments/6389780/8716626.png) (image/png)
+* [contact_us_menus.png]({{site.baseurl}}/attachments/6389780/8716627.png) (image/png)

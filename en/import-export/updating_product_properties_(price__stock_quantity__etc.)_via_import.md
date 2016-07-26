@@ -1,5 +1,5 @@
 ---
-identifier: ref_vVk323ru
+identifier: ref_OEpBdtQ6
 updated_at: 2016-06-15 00:00
 layout: article_with_sidebar
 lang: en
@@ -12,7 +12,7 @@ categories:
 
 Import is a powerful feature, and it allows you not only to create new items, but also to update the existing items in your store. This can be used to update the properties of the items in the store's catalog, including - but not limited to - prices and products quantities.
 
-As some of you may already know, we have a module named {% link "Update inventory" ref_dw5mx6BA %} that can be used to update product quantities via the import process. We have been asked more than once to extend the functionality of that module so it can be used to update product prices as well. We, however, have made a conscious choice not to implement this feature in the module because, with the release of X-Cart 5.2.13, this module is no longer necessary: now you can achieve just the same (and more!) using X-Cart's core functionality. In X-Cart 5.2.13, we implemented the ability to properly update any existing items in your store, and you have two import modes to choose from:
+As some of you may already know, we have a module named {% link "Update inventory" ref_uSIvmuTh %} that can be used to update product quantities via the import process. We have been asked more than once to extend the functionality of that module so it can be used to update product prices as well. We, however, have made a conscious choice not to implement this feature in the module because, with the release of X-Cart 5.2.13, this module is no longer necessary: now you can achieve just the same (and more!) using X-Cart's core functionality. In X-Cart 5.2.13, we implemented the ability to properly update any existing items in your store, and you have two import modes to choose from:
 
 *   Create new items and update existing items;
 *   Update existing items, but skip new items.
@@ -32,11 +32,11 @@ New items can be created based on the following master IDs:
 
 The mode **'Update existing items, but skip new items'** allows you to update the existing items without creating any new ones. 
 
-Note that, in both the import modes, any missing items that are dependent on the existing items will be created. For example, if an existing product being updated through import does not have a category specified, the category will be created.  
+Note that, in both the import modes, any missing items that are dependent on the existing items will be created. For example, if an existing product being updated through import does not have a category specified, the category will be created.
 
 Let's take a closer look at how you can update the stock quantities and prices of your existing products. We will consider the following cases:
 
-*   {% link "Updating the price and quantity of simple products" ref_vVk323ru %};
+*   {% link "Updating the price and quantity of simple products" ref_OEpBdtQ6 %};
 *   {% link "Updating the price of products with options configured using price modifiers" 9306814.html %};
 *   {% link "Updating the price and quantity of product variants" 9306814.html %};
 *   {% link "Updating the price of products with wholesale prices" 9306814.html %}.
@@ -47,13 +47,13 @@ For instance, you have a product SKU 10001 "Planet Express Babydoll" for which y
 
 The process is pretty straightforward:
 
-1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:  
+1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
     ![]({{site.baseurl}}/attachments/9306814/9439225.png?effects=drop-shadow)
 2.  Download the resulting export file and import it into our favorite spreadsheet editor so you can view the file contents separated nicely into columns. For the sake of example, we'll do it with Google Sheets on Google Docs.
-3.  The file you get has a lot of columns, so it is a good idea to remove the columns whose contents will not need to be updated - to make the file more manageable. Care not to remove the required columns. To find out, which columns are required for your file, check the section {% link "CSV import: Products" ref_ZIASzvfX %} of this manual. In the table describing the data format for the import of products, you can see that there are only two required fields (they are marked with asterisks): **sku** and **name**. So you will need to keep these two columns. The price that needs to be updated can be found in the column **price**, and the product quantity - in the column **stockLevel**. So, these columns will also have to be kept. Basically, you can safely remove all the columns except for **sku**, **name**, **price** and **stockLevel**. After you do so, your spreadsheet should look something like the following:  
-    ![]({{site.baseurl}}/attachments/9306814/9439208.png?effects=drop-shadow)  
+3.  The file you get has a lot of columns, so it is a good idea to remove the columns whose contents will not need to be updated - to make the file more manageable. Care not to remove the required columns. To find out, which columns are required for your file, check the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual. In the table describing the data format for the import of products, you can see that there are only two required fields (they are marked with asterisks): **sku** and **name**. So you will need to keep these two columns. The price that needs to be updated can be found in the column **price**, and the product quantity - in the column **stockLevel**. So, these columns will also have to be kept. Basically, you can safely remove all the columns except for **sku**, **name**, **price** and **stockLevel**. After you do so, your spreadsheet should look something like the following:
+    ![]({{site.baseurl}}/attachments/9306814/9439208.png?effects=drop-shadow)
     (On the screenshot above, the column **name** has the name **name_en** because it contains values for the English language; for other languages the column name will have a different language code appended).
-4.  On the lines of the SKUs for which you need to update the price and the stock quantity, edit the contents of the **price** and **stockLevel** fields as you require.   
+4.  On the lines of the SKUs for which you need to update the price and the stock quantity, edit the contents of the **price** and **stockLevel** fields as you require. 
     ![]({{site.baseurl}}/attachments/9306814/9439209.png?effects=drop-shadow)
 5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end  (**Catalog** > **Import**). 
 
@@ -61,7 +61,7 @@ After the import process is completed, you should be able to see the updated pro
 
 ## Updating the price of products with options configured using price modifiers
 
-Now let us consider another case - when you use [multi-value attributes](http://kb.x-cart.com/display/XDD/Managing+attribute+values#Managingattributevalues-MultiValueAttributes) for some of your products, and set the price on the specific product options by adjusting the base product price with [price modifiers](http://kb.x-cart.com/display/XDD/Managing+attribute+values#Managingattributevalues-PriceWeightModifiers). Let us imagine that you have a product SKU 10001 "Planet Express Babydoll", which is a t-shirt. The t-shirt is available in the sizes S-M-L-XL. The base price of the product is set at $9.99, and this price applies to the sizing options S, M and L, whereas the price on the XL option equals "base price + $2":
+Now let us consider another case - when you use {% link "multi-value attributes" ref_bTfJ9bTS#Managingattributevalues-MultiValueAttributes %} for some of your products, and set the price on the specific product options by adjusting the base product price with {% link "price modifiers" http://kb.x-cart.com/display/XDD/Managing+attribute+values#Managingattributevalues-PriceWeightModifiers %}. Let us imagine that you have a product SKU 10001 "Planet Express Babydoll", which is a t-shirt. The t-shirt is available in the sizes S-M-L-XL. The base price of the product is set at $9.99, and this price applies to the sizing options S, M and L, whereas the price on the XL option equals "base price + $2":
 
 ![]({{site.baseurl}}/attachments/9306814/9439216.png?effects=drop-shadow)
 
@@ -77,10 +77,10 @@ XL - $9.99. 
 
 This can be easily achieved using the export-import feature. To achieve the prices we require, we'll simply adjust the price modifiers:
 
-1.  In the "Export in CSV" section of your store's back end (**Catalog** > **Export**), choose to export Product attribute values:  
+1.  In the "Export in CSV" section of your store's back end (**Catalog** > **Export**), choose to export Product attribute values:
     ![]({{site.baseurl}}/attachments/9306814/9439230.png?effects=drop-shadow)
 2.  Download the resulting export file and import it into our favorite spreadsheet editor. 
-3.  Edit the file removing the columns whose contents will not need to be updated. Care not to remove the required columns. According to the section {% link "CSV import: Product attribute values" ref_MwVcuG1v %} of this manual, the required columns for the import of product attribute values are **productSKU**, **type**, **name**, and **value**. Keep those columns - and the column **priceModifier** (You will need it to update the price modifiers). Now if you look at the lines pertaining to SKU 10001, you should see something like the following:  
+3.  Edit the file removing the columns whose contents will not need to be updated. Care not to remove the required columns. According to the section {% link "CSV import: Product attribute values" ref_Z7XdREZl %} of this manual, the required columns for the import of product attribute values are **productSKU**, **type**, **name**, and **value**. Keep those columns - and the column **priceModifier** (You will need it to update the price modifiers). Now if you look at the lines pertaining to SKU 10001, you should see something like the following:
     ![]({{site.baseurl}}/attachments/9306814/9439231.png?effects=drop-shadow)
 4.  Adjust the values in the **priceModifier** column:
     *   Add the price modifier "-2" for the sizing option S ($9.99 - 2 = $7.99)
@@ -101,15 +101,15 @@ For example, you need to increase the price of variant SKUs 100001 and 100003 so
 
 Here's how you can do it:
 
-1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:  
+1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
     ![]({{site.baseurl}}/attachments/9306814/9439225.png?effects=drop-shadow)
 2.  Download the resulting export file and import it into our favorite spreadsheet editor.
-3.  Edit the file removing the columns whose contents will not need to be updated. Care not to remove the required columns. According to the section {% link "CSV import: Products" 7503877.html %}of this manual, the required columns for the import of products are **sku** and **name**; you will need to keep those columns. Because we are dealing not just with simple products, but with product variants, you will also need to keep the column **variantSKU** - the values in this column are necessary to identify the specific variants. As we are going to update the prices and quantities for variants, you should also keep the columns **variantPrice** and **variantQuantity**. Now if you look at the lines presenting the details of the variants of "Binary Mom", you should have something like the following:  
+3.  Edit the file removing the columns whose contents will not need to be updated. Care not to remove the required columns. According to the section {% link "CSV import: Products" 7503877.html %}of this manual, the required columns for the import of products are **sku** and **name**; you will need to keep those columns. Because we are dealing not just with simple products, but with product variants, you will also need to keep the column **variantSKU** - the values in this column are necessary to identify the specific variants. As we are going to update the prices and quantities for variants, you should also keep the columns **variantPrice** and **variantQuantity**. Now if you look at the lines presenting the details of the variants of "Binary Mom", you should have something like the following:
     ![]({{site.baseurl}}/attachments/9306814/9439234.png?effects=drop-shadow)
-4.  Adjust the values in the file:  
+4.  Adjust the values in the file:
 
     *   For variant SKUs 100001 and 100003, add "19.99" in the **variantPrice** column.
-    *   For variant SKU 100002, change the stock quantity to "2".As a result, your file contents should look like the following:  
+    *   For variant SKU 100002, change the stock quantity to "2".As a result, your file contents should look like the following:
     ![]({{site.baseurl}}/attachments/9306814/9439235.png?effects=drop-shadow)
 5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end  (**Catalog** > **Import**). 
 
@@ -130,21 +130,21 @@ In the Wholesale pricing section, this setup would look as follows:
 
 We are going to achieve the same result without editing the Wholesale pricing section directly. Let's do it:
 
-1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:  
+1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
     ![]({{site.baseurl}}/attachments/9306814/9439225.png?effects=drop-shadow)
 2.  Download the resulting export file and import it into our favorite spreadsheet editor. 
-3.  Edit the file removing the columns whose contents will not need to be updated. As you can find out from the section {% link "CSV import: Products" 7503877.html %} of this manual, the columns required for the import of products with wholesale prices are **sku** and **name** (required for products) + **wholesalePrices** and **variantWholesalePrices** (the fields added by the module Wholesale). So, keep those columns in your file. It may also be a good idea to keep the columns **price** and **stockLevel** - just so you have information about the product's base price and quantity in stock close at hand. The rest of the columns can be safely removed. Now if you look at the line of SKU 10001, you should see something like the following:  
+3.  Edit the file removing the columns whose contents will not need to be updated. As you can find out from the section {% link "CSV import: Products" 7503877.html %} of this manual, the columns required for the import of products with wholesale prices are **sku** and **name** (required for products) + **wholesalePrices** and **variantWholesalePrices** (the fields added by the module Wholesale). So, keep those columns in your file. It may also be a good idea to keep the columns **price** and **stockLevel** - just so you have information about the product's base price and quantity in stock close at hand. The rest of the columns can be safely removed. Now if you look at the line of SKU 10001, you should see something like the following:
     ![]({{site.baseurl}}/attachments/9306814/9633886.png?effects=drop-shadow)
-4.  Now add the wholesale price tiers you require. In our example, SKU 10001 "Planet Express Babydoll" is a simple product without variants, which means we need to add our wholesale prices in the **wholesalePrices** column. The format to write out wholesale price tiers in your file is as follows:  
-    **N1**(**Membership1**)=**Price1**&&**N2**(**Membership2**)=**Price2**,  
+4.  Now add the wholesale price tiers you require. In our example, SKU 10001 "Planet Express Babydoll" is a simple product without variants, which means we need to add our wholesale prices in the **wholesalePrices** column. The format to write out wholesale price tiers in your file is as follows:
+    **N1**(**Membership1**)=**Price1**&&**N2**(**Membership2**)=**Price2**,
     where: 
     *   **N** is the minimum number of product units starting from which the price is available, 
     *   **Membership **is the name of the membership level to which the price is available (may be omitted to provide a price for non-members),
     *   **Price** is the price corresponding to the specified number of product units and membership,
-    *   **&&** is a delimiter used to separate the pricing tiers from one another.  
+    *   **&&** is a delimiter used to separate the pricing tiers from one another.
 
-        According to the said format, we need to add the pricing information for SKU 10001 "Planet Express Babydoll" as follows: "5=8.99&&10(Wholesaler)=7.50&&10(VIP)=6.50"  
-    ![]({{site.baseurl}}/attachments/9306814/9633887.png?effects=drop-shadow)  
+        According to the said format, we need to add the pricing information for SKU 10001 "Planet Express Babydoll" as follows: "5=8.99&&10(Wholesaler)=7.50&&10(VIP)=6.50"
+    ![]({{site.baseurl}}/attachments/9306814/9633887.png?effects=drop-shadow)
 
 5.  Save the file and re-import it into your store via the "Import by CSV" section in your store's back end (**Catalog** > **Import**). 
 
@@ -156,21 +156,21 @@ For products with variants, the process of adding wholesale prices is similar, o
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_import_mode.png]({{site.baseurl}}/attachments/9306814/9439207.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_base_price1.png]({{site.baseurl}}/attachments/9306814/9439208.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_base_price2.png]({{site.baseurl}}/attachments/9306814/9439209.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_price_modifier.png]({{site.baseurl}}/attachments/9306814/9439224.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_price_modifier.png]({{site.baseurl}}/attachments/9306814/9439216.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_export_products.png]({{site.baseurl}}/attachments/9306814/9439225.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_export_prod_attr_values.png]({{site.baseurl}}/attachments/9306814/9439230.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_prod_attr_values.png]({{site.baseurl}}/attachments/9306814/9439231.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_prod_attr_values1.png]({{site.baseurl}}/attachments/9306814/9439232.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_variants.png]({{site.baseurl}}/attachments/9306814/9439233.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_variants1.png]({{site.baseurl}}/attachments/9306814/9439234.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_variants2.png]({{site.baseurl}}/attachments/9306814/9439236.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_variants2.png]({{site.baseurl}}/attachments/9306814/9439235.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_wholesale1.png]({{site.baseurl}}/attachments/9306814/9633885.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_wholesale1.png]({{site.baseurl}}/attachments/9306814/9633884.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_wholesale2.png]({{site.baseurl}}/attachments/9306814/9633886.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_wholesale3.png]({{site.baseurl}}/attachments/9306814/9633887.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_import_wholesale4.png]({{site.baseurl}}/attachments/9306814/9633888.png) (image/png)
+* [xc5_import_mode.png]({{site.baseurl}}/attachments/9306814/9439207.png) (image/png)
+* [xc5_import_base_price1.png]({{site.baseurl}}/attachments/9306814/9439208.png) (image/png)
+* [xc5_import_base_price2.png]({{site.baseurl}}/attachments/9306814/9439209.png) (image/png)
+* [xc5_import_price_modifier.png]({{site.baseurl}}/attachments/9306814/9439224.png) (image/png)
+* [xc5_import_price_modifier.png]({{site.baseurl}}/attachments/9306814/9439216.png) (image/png)
+* [xc5_import_export_products.png]({{site.baseurl}}/attachments/9306814/9439225.png) (image/png)
+* [xc5_import_export_prod_attr_values.png]({{site.baseurl}}/attachments/9306814/9439230.png) (image/png)
+* [xc5_import_prod_attr_values.png]({{site.baseurl}}/attachments/9306814/9439231.png) (image/png)
+* [xc5_import_prod_attr_values1.png]({{site.baseurl}}/attachments/9306814/9439232.png) (image/png)
+* [xc5_import_variants.png]({{site.baseurl}}/attachments/9306814/9439233.png) (image/png)
+* [xc5_import_variants1.png]({{site.baseurl}}/attachments/9306814/9439234.png) (image/png)
+* [xc5_import_variants2.png]({{site.baseurl}}/attachments/9306814/9439236.png) (image/png)
+* [xc5_import_variants2.png]({{site.baseurl}}/attachments/9306814/9439235.png) (image/png)
+* [xc5_import_wholesale1.png]({{site.baseurl}}/attachments/9306814/9633885.png) (image/png)
+* [xc5_import_wholesale1.png]({{site.baseurl}}/attachments/9306814/9633884.png) (image/png)
+* [xc5_import_wholesale2.png]({{site.baseurl}}/attachments/9306814/9633886.png) (image/png)
+* [xc5_import_wholesale3.png]({{site.baseurl}}/attachments/9306814/9633887.png) (image/png)
+* [xc5_import_wholesale4.png]({{site.baseurl}}/attachments/9306814/9633888.png) (image/png)

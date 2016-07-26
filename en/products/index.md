@@ -1,5 +1,5 @@
 ---
-identifier: ref_96tCnCXJ
+identifier: ref_uymkBt6a
 updated_at: 2015-12-21 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,13 +14,13 @@ description: Fill your catalog with detailed product pages and various promotion
 
 _In this section:_
 
-*   [Adding products](http://kb.x-cart.com/display/XDD/Adding+products)
-*   [Adding featured products](http://kb.x-cart.com/display/XDD/Adding+featured+products)
-*   [Adding images to product/category descriptions](http://kb.x-cart.com/pages/viewpage.action?pageId=6389867)
-*   [Enabling the "New arrivals" block](http://kb.x-cart.com/pages/viewpage.action?pageId=6389778)
-*   [Enabling the "Recently viewed" block](http://kb.x-cart.com/pages/viewpage.action?pageId=6389772)
-*   [Enabling the "Coming soon" block](http://kb.x-cart.com/pages/viewpage.action?pageId=6389776)
-*   [Enabling the Bestsellers block](http://kb.x-cart.com/display/XDD/Enabling+the+Bestsellers+block)
-*   [Enabling product comparison](http://kb.x-cart.com/display/XDD/Enabling+product+comparison)
-*   [Adding digital goods](http://kb.x-cart.com/display/XDD/Adding+digital+goods)
-*   [Setting up wholesale prices and minimum purchase quantites for different membership levels](http://kb.x-cart.com/display/XDD/Setting+up+wholesale+prices+and+minimum+purchase+quantites+for+different+membership+levels)
+*   {% link "Adding products" ref_fhzzxDTy %}
+*   {% link "Adding featured products" ref_4iFdpTdv %}
+*   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
+*   {% link "Enabling the "New arrivals" block" ref_2A50nkO9 %}
+*   {% link "Enabling the "Recently viewed" block" ref_9aKsqqeK %}
+*   {% link "Enabling the "Coming soon" block" ref_hQnN8cAT %}
+*   {% link "Enabling the Bestsellers block" ref_p1CIVmy6 %}
+*   {% link "Enabling product comparison" ref_xWLlmcLL %}
+*   {% link "Adding digital goods" ref_lxNH6TFr %}
+*   {% link "Setting up wholesale prices and minimum purchase quantites for different membership levels" ref_ttZa4qgu %}

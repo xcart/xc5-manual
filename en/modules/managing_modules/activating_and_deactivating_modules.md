@@ -1,5 +1,5 @@
 ---
-identifier: ref_fUoIdJof
+identifier: ref_uEnDBBA7
 updated_at: 2015-03-26 00:00
 layout: article_with_sidebar
 lang: en
@@ -16,13 +16,13 @@ Sometimes the module you want to use is installed, but not active. To be able to
 
 To activate an installed module:
 
-1.  In your store's Admin area, click **Modules** to go to the **Installed Modules** section:  
+1.  In your store's Admin area, click **Modules** to go to the **Installed Modules** section:
     ![]({{site.baseurl}}/attachments/7503971/8716504.png?effects=drop-shadow)
-2.  In this section, find the module that needs to be activated (for example, **Add to Cart Popup**):  
+2.  In this section, find the module that needs to be activated (for example, **Add to Cart Popup**):
     ![]({{site.baseurl}}/attachments/7503971/8716505.png?effects=drop-shadow)
-3.  Select the **Enabled **checkbox below its name:  
+3.  Select the **Enabled **checkbox below its name:
     ![]({{site.baseurl}}/attachments/7503971/8716506.png?effects=drop-shadow)
-4.  Click the **Save changes** button at the bottom of the screen. This starts the activation process which may take a while to complete. After it is finished, the module will be activated in your store and ready to use:  
+4.  Click the **Save changes** button at the bottom of the screen. This starts the activation process which may take a while to complete. After it is finished, the module will be activated in your store and ready to use:
     ![]({{site.baseurl}}/attachments/7503971/8716507.png?effects=drop-shadow)
 
 # Deactivating modules
@@ -43,17 +43,17 @@ To deactivate an installed module:
 
 _Related pages:_
 
-*   {% link "Managing modules" ref_AmpXgKbQ %}
+*   {% link "Managing modules" ref_gTOegEua %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [extensions_installed_modules.png]({{site.baseurl}}/attachments/7503971/7602202.png) (image/png)  
-![](images/icons/bullet_blue.gif) [module_disabled.png]({{site.baseurl}}/attachments/7503971/7602203.png) (image/png)  
-![](images/icons/bullet_blue.gif) [module_selected.png]({{site.baseurl}}/attachments/7503971/7602204.png) (image/png)  
-![](images/icons/bullet_blue.gif) [module_enabled.png]({{site.baseurl}}/attachments/7503971/7602205.png) (image/png)  
-![](images/icons/bullet_blue.gif) [modules_menu.png]({{site.baseurl}}/attachments/7503971/8716504.png) (image/png)  
-![](images/icons/bullet_blue.gif) [module_2_activate.png]({{site.baseurl}}/attachments/7503971/8716505.png) (image/png)  
-![](images/icons/bullet_blue.gif) [module_enable_checkbox.png]({{site.baseurl}}/attachments/7503971/8716508.png) (image/png)  
-![](images/icons/bullet_blue.gif) [module_enable_save.png]({{site.baseurl}}/attachments/7503971/8716509.png) (image/png)  
-![](images/icons/bullet_blue.gif) [module_enable_checkbox.png]({{site.baseurl}}/attachments/7503971/8716506.png) (image/png)  
-![](images/icons/bullet_blue.gif) [module_enable_save.png]({{site.baseurl}}/attachments/7503971/8716507.png) (image/png)
+* [extensions_installed_modules.png]({{site.baseurl}}/attachments/7503971/7602202.png) (image/png)
+* [module_disabled.png]({{site.baseurl}}/attachments/7503971/7602203.png) (image/png)
+* [module_selected.png]({{site.baseurl}}/attachments/7503971/7602204.png) (image/png)
+* [module_enabled.png]({{site.baseurl}}/attachments/7503971/7602205.png) (image/png)
+* [modules_menu.png]({{site.baseurl}}/attachments/7503971/8716504.png) (image/png)
+* [module_2_activate.png]({{site.baseurl}}/attachments/7503971/8716505.png) (image/png)
+* [module_enable_checkbox.png]({{site.baseurl}}/attachments/7503971/8716508.png) (image/png)
+* [module_enable_save.png]({{site.baseurl}}/attachments/7503971/8716509.png) (image/png)
+* [module_enable_checkbox.png]({{site.baseurl}}/attachments/7503971/8716506.png) (image/png)
+* [module_enable_save.png]({{site.baseurl}}/attachments/7503971/8716507.png) (image/png)

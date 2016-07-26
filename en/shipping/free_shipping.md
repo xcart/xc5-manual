@@ -1,5 +1,5 @@
 ---
-identifier: ref_GRWH29AF
+identifier: ref_rOT8GezP
 updated_at: 2016-01-06 00:00
 layout: article_with_sidebar
 lang: en
@@ -12,7 +12,7 @@ categories:
 
 X-Cart allows you to configure:
 
-*   {% link "Free shipping on specific products" ref_GRWH29AF %} (or all products);
+*   {% link "Free shipping on specific products" ref_rOT8GezP %} (or all products);
 *   {% link "Free shipping on orders that meet certain conditions" Free-shipping_6389844.html %} (for example, orders delivered to addresses in the immediate vicinity of your store, or orders with a subtotal over a certain amount).
 
 # Free shipping on specific products (or all products)
@@ -20,9 +20,9 @@ X-Cart allows you to configure:
 If you want to provide free shipping on a specific product, use the following method:
 
 1.  In your store's back end, locate the product for which you want to configure free shipping.
-2.  Click through to edit the details of this product . On the **Info** tab of the product details, enable the option **Free shipping**:  
-    ![]({{site.baseurl}}/attachments/6389844/9437240.png?effects=drop-shadow)  
-     (This option is available only for tangible goods; i.e. the property **Requires shipping** / **Shippable** must be set to "Yes" for the setting **Free shipping** to be visible).  
+2.  Click through to edit the details of this product . On the **Info** tab of the product details, enable the option **Free shipping**:
+    ![]({{site.baseurl}}/attachments/6389844/9437240.png?effects=drop-shadow)
+     (This option is available only for tangible goods; i.e. the property **Requires shipping** / **Shippable** must be set to "Yes" for the setting **Free shipping** to be visible).
 
 3.  Use the **Update product** button at the bottom of the screen to save the changes. 
 
@@ -67,13 +67,13 @@ You can also set up your free method based on:
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [shipping-section.png]({{site.baseurl}}/attachments/6389844/6586534.png) (image/png)  
-![](images/icons/bullet_blue.gif) [freeshipping-create-new-method.png]({{site.baseurl}}/attachments/6389844/6586536.png) (image/png)  
-![](images/icons/bullet_blue.gif) [freeshipping-add-new-rate.png]({{site.baseurl}}/attachments/6389844/6586538.png) (image/png)  
-![](images/icons/bullet_blue.gif) [freeshipping-checkout.png]({{site.baseurl}}/attachments/6389844/6586539.png) (image/png)  
-![](images/icons/bullet_blue.gif) [freeshipping-subtotal-range.png]({{site.baseurl}}/attachments/6389844/6586540.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_prodinfo_free_shipping.png]({{site.baseurl}}/attachments/6389844/9437240.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_free_method.png]({{site.baseurl}}/attachments/6389844/9437241.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_free_method1.png]({{site.baseurl}}/attachments/6389844/9437242.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_free_over50.png]({{site.baseurl}}/attachments/6389844/9437243.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_free_over50_checkout.png]({{site.baseurl}}/attachments/6389844/9437251.png) (image/png)
+* [shipping-section.png]({{site.baseurl}}/attachments/6389844/6586534.png) (image/png)
+* [freeshipping-create-new-method.png]({{site.baseurl}}/attachments/6389844/6586536.png) (image/png)
+* [freeshipping-add-new-rate.png]({{site.baseurl}}/attachments/6389844/6586538.png) (image/png)
+* [freeshipping-checkout.png]({{site.baseurl}}/attachments/6389844/6586539.png) (image/png)
+* [freeshipping-subtotal-range.png]({{site.baseurl}}/attachments/6389844/6586540.png) (image/png)
+* [xc5_prodinfo_free_shipping.png]({{site.baseurl}}/attachments/6389844/9437240.png) (image/png)
+* [xc5_shipping_free_method.png]({{site.baseurl}}/attachments/6389844/9437241.png) (image/png)
+* [xc5_shipping_free_method1.png]({{site.baseurl}}/attachments/6389844/9437242.png) (image/png)
+* [xc5_shipping_free_over50.png]({{site.baseurl}}/attachments/6389844/9437243.png) (image/png)
+* [xc5_shipping_free_over50_checkout.png]({{site.baseurl}}/attachments/6389844/9437251.png) (image/png)

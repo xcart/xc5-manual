@@ -1,5 +1,5 @@
 ---
-identifier: ref_swibdCaQ
+identifier: ref_OBh3V1k1
 updated_at: 2015-09-03 00:00
 layout: article_with_sidebar
 lang: en
@@ -35,11 +35,11 @@ _See also:_
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [product-details-seo-relevant-fields.png]({{site.baseurl}}/attachments/6389820/6586490.png) (image/png)  
-![](images/icons/bullet_blue.gif) [product-details-seo-relevant-fields-1.png]({{site.baseurl}}/attachments/6389820/6586491.png) (image/png)  
-![](images/icons/bullet_blue.gif) [product-details-update-product-button.png]({{site.baseurl}}/attachments/6389820/6586494.png) (image/png)  
-![](images/icons/bullet_blue.gif) [category-modify-button.png]({{site.baseurl}}/attachments/6389820/6586495.png) (image/png)  
-![](images/icons/bullet_blue.gif) [category-details-seo-relevant-fields.png]({{site.baseurl}}/attachments/6389820/6586497.png) (image/png)  
-![](images/icons/bullet_blue.gif) [category-details-update-button.png]({{site.baseurl}}/attachments/6389820/6586498.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_seo_product_seo.png]({{site.baseurl}}/attachments/6389820/8719379.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_seo_category_seo.png]({{site.baseurl}}/attachments/6389820/8719380.png) (image/png)
+* [product-details-seo-relevant-fields.png]({{site.baseurl}}/attachments/6389820/6586490.png) (image/png)
+* [product-details-seo-relevant-fields-1.png]({{site.baseurl}}/attachments/6389820/6586491.png) (image/png)
+* [product-details-update-product-button.png]({{site.baseurl}}/attachments/6389820/6586494.png) (image/png)
+* [category-modify-button.png]({{site.baseurl}}/attachments/6389820/6586495.png) (image/png)
+* [category-details-seo-relevant-fields.png]({{site.baseurl}}/attachments/6389820/6586497.png) (image/png)
+* [category-details-update-button.png]({{site.baseurl}}/attachments/6389820/6586498.png) (image/png)
+* [xc5_seo_product_seo.png]({{site.baseurl}}/attachments/6389820/8719379.png) (image/png)
+* [xc5_seo_category_seo.png]({{site.baseurl}}/attachments/6389820/8719380.png) (image/png)

@@ -1,5 +1,5 @@
 ---
-identifier: ref_dFPzhafx
+identifier: ref_2A50nkO9
 updated_at: 2015-12-22 00:00
 layout: article_with_sidebar
 lang: en
@@ -22,36 +22,36 @@ To use the "New arrivals"  feature, make sure that the module **Product Adviso
 ![]({{site.baseurl}}/attachments/6389778/8717811.png?effects=drop-shadow)To adjust the way new arrivals should be displayed to your store's visitors, you will need to adjust some module settings:
 
 1.  Click the **Settings** link near the module icon in the list of your store's installed modules to go to the  "Product Advisor" module settings page.
-2.  On the "Product Advisor" module settings page, adjust the settings in the **"New arrivals" block settings** section.  
-     ![]({{site.baseurl}}/attachments/6389778/8717812.png?effects=drop-shadow)  
-    The settings are as follows:  
+2.  On the "Product Advisor" module settings page, adjust the settings in the **"New arrivals" block settings** section.
+     ![]({{site.baseurl}}/attachments/6389778/8717812.png?effects=drop-shadow)
+    The settings are as follows:
 
     *   **Enable "New arrivals" feature in catalog**: Enable this option to enable the "New arrivals" feature. 
     *   **Number of days to keep products marked as new arrivals**: Use this setting to specify the number of days for which a product should be treated as a "new arrival". Make sure you specify a non-zero value (otherwise "30 days" will be used by default).
-    *   **Maximum number of products to display in complete new arrivals list**: Specify the maximum number of products to be displayed when a user clicks the "All newest products" link in the "New arrivals" block:  
-        ![]({{site.baseurl}}/attachments/6389778/8717847.png?effects=drop-shadow)  
+    *   **Maximum number of products to display in complete new arrivals list**: Specify the maximum number of products to be displayed when a user clicks the "All newest products" link in the "New arrivals" block:
+        ![]({{site.baseurl}}/attachments/6389778/8717847.png?effects=drop-shadow)
         Leave 0 for no limit.
-    *   **Mark new products in catalog**: Enable this option to mark new products in all product lists (except for the list in the New arrivals section) with a label saying "New!"  
+    *   **Mark new products in catalog**: Enable this option to mark new products in all product lists (except for the list in the New arrivals section) with a label saying "New!"
         ![]({{site.baseurl}}/attachments/6389778/8717846.png?effects=drop-shadow)
-    *   **Display "New arrivals" block on sidebar (otherwise in center area)**: This setting defines the location of the "New arrivals" block. Enable if you want the "New arrivals" block to appear in the sidebar:  
-        ![]({{site.baseurl}}/attachments/6389778/8717813.png?effects=drop-shadow)  
-        Disable if you want this block to be displayed in the central area of your store site:  
+    *   **Display "New arrivals" block on sidebar (otherwise in center area)**: This setting defines the location of the "New arrivals" block. Enable if you want the "New arrivals" block to appear in the sidebar:
+        ![]({{site.baseurl}}/attachments/6389778/8717813.png?effects=drop-shadow)
+        Disable if you want this block to be displayed in the central area of your store site:
         ![]({{site.baseurl}}/attachments/6389778/8717845.png?effects=drop-shadow)
     *   **Maximum number of products to display in "New arrivals" block**: This setting defines the maximum number of products that can be displayed in the "New arrivals" block. Specify a non-zero value; otherwise, 3 products will be displayed by default. If the specified value is less than the total amount of products on the complete new arrivals list, that value will be used instead. Drupal block settings can override this option (when the DrupalConnector module is enabled).
-    *   **Show new products only from category being viewed by customer**: Disable this setting to show new arrivals from the entire store. Enable to show only the new arrivals from the category the customer is currently viewing. Drupal block settings can override this option (when the DrupalConnector module is enabled).  
+    *   **Show new products only from category being viewed by customer**: Disable this setting to show new arrivals from the entire store. Enable to show only the new arrivals from the category the customer is currently viewing. Drupal block settings can override this option (when the DrupalConnector module is enabled).
 
 3.  Once you are done configuring the settings, click the **Submit **button at the bottom of the page to save the changes.
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [marketplace-product-advisor (1).png]({{site.baseurl}}/attachments/6389778/6586389.png) (image/png)  
-![](images/icons/bullet_blue.gif) [installed-modules-product-advisor-settings (1).png]({{site.baseurl}}/attachments/6389778/6586390.png) (image/png)  
-![](images/icons/bullet_blue.gif) [new-arrivals-settings.png]({{site.baseurl}}/attachments/6389778/6586391.png) (image/png)  
-![](images/icons/bullet_blue.gif) [product-advisor-settings-submit-button (1).png]({{site.baseurl}}/attachments/6389778/6586392.png) (image/png)  
-![](images/icons/bullet_blue.gif) [frontend-new-arrivals.png]({{site.baseurl}}/attachments/6389778/6586393.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_product_advisor_installed_enabled.png]({{site.baseurl}}/attachments/6389778/8717811.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_product_advisor_settings.png]({{site.baseurl}}/attachments/6389778/8717812.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_new_arrivals_block.png]({{site.baseurl}}/attachments/6389778/8717813.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_new_arrivals_center.png]({{site.baseurl}}/attachments/6389778/8717845.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_new_arrivals_label.png]({{site.baseurl}}/attachments/6389778/8717846.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_all_newest_products.png]({{site.baseurl}}/attachments/6389778/8717847.png) (image/png)
+* [marketplace-product-advisor (1).png]({{site.baseurl}}/attachments/6389778/6586389.png) (image/png)
+* [installed-modules-product-advisor-settings (1).png]({{site.baseurl}}/attachments/6389778/6586390.png) (image/png)
+* [new-arrivals-settings.png]({{site.baseurl}}/attachments/6389778/6586391.png) (image/png)
+* [product-advisor-settings-submit-button (1).png]({{site.baseurl}}/attachments/6389778/6586392.png) (image/png)
+* [frontend-new-arrivals.png]({{site.baseurl}}/attachments/6389778/6586393.png) (image/png)
+* [xc5_product_advisor_installed_enabled.png]({{site.baseurl}}/attachments/6389778/8717811.png) (image/png)
+* [xc5_product_advisor_settings.png]({{site.baseurl}}/attachments/6389778/8717812.png) (image/png)
+* [xc5_new_arrivals_block.png]({{site.baseurl}}/attachments/6389778/8717813.png) (image/png)
+* [xc5_new_arrivals_center.png]({{site.baseurl}}/attachments/6389778/8717845.png) (image/png)
+* [xc5_new_arrivals_label.png]({{site.baseurl}}/attachments/6389778/8717846.png) (image/png)
+* [xc5_all_newest_products.png]({{site.baseurl}}/attachments/6389778/8717847.png) (image/png)

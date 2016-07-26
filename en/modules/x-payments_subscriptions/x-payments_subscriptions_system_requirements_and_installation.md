@@ -1,5 +1,5 @@
 ---
-identifier: ref_4vwNlvWo
+identifier: ref_ou6SkGQn
 updated_at: 2016-06-14 00:00
 layout: article_with_sidebar
 lang: en
@@ -10,13 +10,13 @@ categories:
 ---
 
 
-To install and use the module X-Payments subscriptions, you need a working copy of X-Cart 5.1 or later connected to [X-Payments](https://www.x-payments.com/help/Main_Page) with the module{% link " X-Payments connector" ref_4bUTamX5 %}.
+To install and use the module X-Payments subscriptions, you need a working copy of X-Cart 5.1 or later connected to [X-Payments](https://www.x-payments.com/help/Main_Page) with the module{% link " X-Payments connector" ref_NaZh0d1b %}.
 
 Note that to be able to charge customers for subscriptions periodically you will need to use a payment method with tokenization support. 
 
 The module X-Payments subscriptions can be obtained via X-Cart’s Marketplace.
 
-To install and enable the module on your system, follow the general module installation instructions. See [Installing modules from the Marketplace](http://kb.x-cart.com/display/XDD/Installing+modules+from+the+Marketplace).
+To install and enable the module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
 As a result, you should have the module "X-Payments subscriptions" listed in your store's Installed Modules section:
 
@@ -25,8 +25,8 @@ As a result, you should have the module "X-Payments subscriptions" listed in y
 _Related pages:_
 
 *   {% link "X-Payments connector" X-Payments-connector_8750401.html %} 
-*   {% link "Installing modules from the Marketplace" ref_36GTeW9L %}
+*   {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_xps_module_installed.png]({{site.baseurl}}/attachments/8750957/8719603.png) (image/png)
+* [xc5_xps_module_installed.png]({{site.baseurl}}/attachments/8750957/8719603.png) (image/png)

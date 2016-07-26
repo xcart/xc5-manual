@@ -1,5 +1,5 @@
 ---
-identifier: ref_BTt0A2lE
+identifier: ref_i8rSfTrg
 updated_at: 2015-07-24 00:00
 layout: article_with_sidebar
 lang: en
@@ -12,7 +12,7 @@ categories:
 
 This page provides information on the following actions with abandoned cart reminders:
 
-*   {% link "Creating reminders" ref_BTt0A2lE %};
+*   {% link "Creating reminders" ref_i8rSfTrg %};
 *   {% link "Viewing the reminders list" Managing-reminders_7503950.html %};
 *   {% link "Editing reminders" Managing-reminders_7503950.html %} (changing the sending method, the name, the coupon amount, the email template, etc for individual reminders);
 *   {% link "Deleting reminders" Managing-reminders_7503950.html %}.
@@ -23,31 +23,31 @@ Before you can start sending abandoned cart reminders to owners of abandoned car
 
 To create an abandoned cart reminder:
 
-1.  In your store's Admin area, go to the Email notifications page (**Store setup **>**Email notifications**) and click the **Cart reminders** tab.   
-    ![]({{site.baseurl}}/attachments/7503950/8718924.png?effects=drop-shadow)  
+1.  In your store's Admin area, go to the Email notifications page (**Store setup **>**Email notifications**) and click the **Cart reminders** tab. 
+    ![]({{site.baseurl}}/attachments/7503950/8718924.png?effects=drop-shadow)
 
-2.  On the Abandonded cart reminders panel, click **New reminder**:  
-    ![]({{site.baseurl}}/attachments/7503950/8718923.png?effects=drop-shadow)  
-    This opens the New cart reminder form which you can use to add a new reminder:  
-    ![]({{site.baseurl}}/attachments/7503950/8718927.png?effects=drop-shadow)  
+2.  On the Abandonded cart reminders panel, click **New reminder**:
+    ![]({{site.baseurl}}/attachments/7503950/8718923.png?effects=drop-shadow)
+    This opens the New cart reminder form which you can use to add a new reminder:
+    ![]({{site.baseurl}}/attachments/7503950/8718927.png?effects=drop-shadow)
 
-3.  Complete the form fields to provide the details of the new reminder:  
+3.  Complete the form fields to provide the details of the new reminder:
 
-    *   **Name**: Enter a name by which you will identify the reminder in the store's Admin area (This name will not be visible to customers).  
+    *   **Name**: Enter a name by which you will identify the reminder in the store's Admin area (This name will not be visible to customers).
         **Send automatically**: Select this check box if you want the reminder to be sent automatically. Leave unselected if you are going to send the reminder manually. 
 
         Note
 
         Icon
 
-        For reminders configured to be sent_ automatically_, the sending of reminder emails will be handled using X-Cart's script for scheduled tasks, console.php (Your server needs to be configured to periodically run this script. See {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_07ZoZ3g2 %}).  For reminders configured to be sent _manually_, the sending of reminder emails will need to be handled by you or another admin user with permissions to execute the task. For instructions on how to send reminders manually, see {% link "Sending reminders" ref_cCXqkEfO#Managingabandonedcartsandsendingreminders-Sendingreminders %}.
+        For reminders configured to be sent_ automatically_, the sending of reminder emails will be handled using X-Cart's script for scheduled tasks, console.php (Your server needs to be configured to periodically run this script. See {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}).  For reminders configured to be sent _manually_, the sending of reminder emails will need to be handled by you or another admin user with permissions to execute the task. For instructions on how to send reminders manually, see {% link "Sending reminders" ref_hkTTIuTr#Managingabandonedcartsandsendingreminders-Sendingreminders %}.
 
         The choice of automatic vs. manual sending method for any individual reminder should be made based on the intended audience of the message: for messages intended for all the customers who happened to abandon their shopping cart, choose the automatic sending method; for messages that you wish to be sent only to some of the customers, choose the manual sending method. 
 
     *   **Send**** automatically in (hours)**: Specify the minimum number of hours that X-Cart should wait before sending this reminder to the owner of an abandoned cart (This setting will apply only if the automatic sending method is used). Once a reminder is configured to be sent automatically, you can expect it to be sent after the next time the script console.php is run. At each run of this script, a check will be conducted to determine whether it is already time to send the reminder for any of the abandoned carts present in the system; then, the reminder will be sent for all the carts that have been in the abandoned state for a period of time equal to or longer than the period specified by the "Send automatically in (hours)" setting.
 
     *   **New coupon amount**: If you want a discount coupon to be automatically created for each of the abandoned cart owners to whom this reminder will be sent, specify the coupon discount amount. This can be set to a fixed amount (example: "5") or a percentage off (example: "5%"). If you do not want the reminder to create coupons, leave this field empty, or set this value to "0".
-    *   **Coupon expire**** in (days)**: Specify the number of days in which coupons created by the reminder will expire (This setting will apply only if the reminder is configured to be sent with a coupon).  
+    *   **Coupon expire**** in (days)**: Specify the number of days in which coupons created by the reminder will expire (This setting will apply only if the reminder is configured to be sent with a coupon).
 
 4.  (_Same form - continued_) Configure the template that will be used for the reminder email messages: enter the subject line and the message body.
     *   The fields** E-mail subject (no coupon) **and **E-mail body (no coupon)** are intended for reminder emails that will not create coupons.
@@ -90,8 +90,8 @@ You can view the list of abandoned cart reminders that have been set up for you
 
 To view the list of abandoned cart reminders:
 
-*   In your store's Admin area, go to the Email notifications page (**Store setup **>**Email notifications**) and click the **Cart reminders** tab. This opens the Abandoned cart reminders panel where you can see the list of cart reminders in the form of a table:  
-    ![]({{site.baseurl}}/attachments/7503950/8718928.png?effects=drop-shadow)  
+*   In your store's Admin area, go to the Email notifications page (**Store setup **>**Email notifications**) and click the **Cart reminders** tab. This opens the Abandoned cart reminders panel where you can see the list of cart reminders in the form of a table:
+    ![]({{site.baseurl}}/attachments/7503950/8718928.png?effects=drop-shadow)
 
 For each reminder on the list the following information is provided:
 
@@ -107,16 +107,16 @@ You can edit any abandoned cart reminders that have been created in your store, 
 
 To edit a reminder:
 
-1.  In the {% link "Abandoned cart reminders list" Managing-reminders_7503950.html %}, click on the name of the reminder that needs to be edited. This opens the page where you can review and edit the reminder details:  
-    ![]({{site.baseurl}}/attachments/7503950/8718932.png?effects=drop-shadow)  
+1.  In the {% link "Abandoned cart reminders list" Managing-reminders_7503950.html %}, click on the name of the reminder that needs to be edited. This opens the page where you can review and edit the reminder details:
+    ![]({{site.baseurl}}/attachments/7503950/8718932.png?effects=drop-shadow)
 
 2.  Edit the parameters of the reminder and/or make changes to the email template.
 3.  Click **Update** to save the changes. The reminder will be updated.
 
 The sending method for a reminder can also be changed directly on the Abandoned cart reminders list page. To change the sending method:
 
-1.  Use the Clock control  in the first column of the table opposite the reminder name to activate or deactivate the automatic sending of the reminder emails:  
-    ![]({{site.baseurl}}/attachments/7503950/8718929.png) (green icon) = the reminder must be sent automatically;  
+1.  Use the Clock control  in the first column of the table opposite the reminder name to activate or deactivate the automatic sending of the reminder emails:
+    ![]({{site.baseurl}}/attachments/7503950/8718929.png) (green icon) = the reminder must be sent automatically;
     ![]({{site.baseurl}}/attachments/7503950/8718931.png) (gray icon) = the reminder must be sent manually.
 2.  Click the **Save changes** button at the bottom of the list to save the changes. The sending method will be updated.
 
@@ -137,36 +137,36 @@ To delete a reminder:
 
 _Related pages:_
 
-*   {% link "Abandoned Cart Reminder" ref_uiJLGVkG %}
+*   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
 *   {% link "Managing abandoned carts and sending reminders" Managing-abandoned-carts-and-sending-reminders_7503954.html %}
-*   {% link "Viewing cart recovery statistics" ref_TaPKiO6m %}
+*   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [reminder-templates.png]({{site.baseurl}}/attachments/7503950/7602215.png) (image/png)  
-![](images/icons/bullet_blue.gif) [edit-reminder.png]({{site.baseurl}}/attachments/7503950/7602216.png) (image/png)  
-![](images/icons/bullet_blue.gif) [reminders_list_empty.png]({{site.baseurl}}/attachments/7503950/7602221.png) (image/png)  
-![](images/icons/bullet_blue.gif) [add_reminder.png]({{site.baseurl}}/attachments/7503950/7602220.png) (image/png)  
-![](images/icons/bullet_blue.gif) [reminders_list_empty.png]({{site.baseurl}}/attachments/7503950/7602219.png) (image/png)  
-![](images/icons/bullet_blue.gif) [on_icon.jpg]({{site.baseurl}}/attachments/7503950/7602224.jpg) (image/jpeg)  
-![](images/icons/bullet_blue.gif) [off_icon.png]({{site.baseurl}}/attachments/7503950/7602225.png) (image/png)  
-![](images/icons/bullet_blue.gif) [on_icon.jpg]({{site.baseurl}}/attachments/7503950/7602222.jpg) (image/jpeg)  
-![](images/icons/bullet_blue.gif) [off_icon.png]({{site.baseurl}}/attachments/7503950/7602223.png) (image/png)  
-![](images/icons/bullet_blue.gif) [reminders_list.png]({{site.baseurl}}/attachments/7503950/7602226.png) (image/png)  
-![](images/icons/bullet_blue.gif) [reminders_list1.png]({{site.baseurl}}/attachments/7503950/7602227.png) (image/png)  
-![](images/icons/bullet_blue.gif) [trash.png]({{site.baseurl}}/attachments/7503950/7602229.png) (image/png)  
-![](images/icons/bullet_blue.gif) [trash.png]({{site.baseurl}}/attachments/7503950/8718936.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_acr_new_reminder_button.png]({{site.baseurl}}/attachments/7503950/8718923.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_acr_cart_reminders_tab.png]({{site.baseurl}}/attachments/7503950/8718925.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_acr_cart_reminders_tab.png]({{site.baseurl}}/attachments/7503950/8718926.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_acr_cart_reminders_tab.png]({{site.baseurl}}/attachments/7503950/8718924.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_acr_new_cart_reminder_form.png]({{site.baseurl}}/attachments/7503950/8718927.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_acr_reminder_list_view.png]({{site.baseurl}}/attachments/7503950/8718928.png) (image/png)  
-![](images/icons/bullet_blue.gif) [Clock_green.png]({{site.baseurl}}/attachments/7503950/8718930.png) (image/png)  
-![](images/icons/bullet_blue.gif) [Clock_green.png]({{site.baseurl}}/attachments/7503950/8718929.png) (image/png)  
-![](images/icons/bullet_blue.gif) [Clock_grey.png]({{site.baseurl}}/attachments/7503950/8718931.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_acr_reminder_edit.png]({{site.baseurl}}/attachments/7503950/8718933.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_acr_reminder_edit.png]({{site.baseurl}}/attachments/7503950/8718934.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_acr_reminder_edit.png]({{site.baseurl}}/attachments/7503950/8718932.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_acr_reminder_list_view_edit.png]({{site.baseurl}}/attachments/7503950/8718935.png) (image/png)  
-![](images/icons/bullet_blue.gif) [trash.png]({{site.baseurl}}/attachments/7503950/7602228.png) (image/png)
+* [reminder-templates.png]({{site.baseurl}}/attachments/7503950/7602215.png) (image/png)
+* [edit-reminder.png]({{site.baseurl}}/attachments/7503950/7602216.png) (image/png)
+* [reminders_list_empty.png]({{site.baseurl}}/attachments/7503950/7602221.png) (image/png)
+* [add_reminder.png]({{site.baseurl}}/attachments/7503950/7602220.png) (image/png)
+* [reminders_list_empty.png]({{site.baseurl}}/attachments/7503950/7602219.png) (image/png)
+* [on_icon.jpg]({{site.baseurl}}/attachments/7503950/7602224.jpg) (image/jpeg)
+* [off_icon.png]({{site.baseurl}}/attachments/7503950/7602225.png) (image/png)
+* [on_icon.jpg]({{site.baseurl}}/attachments/7503950/7602222.jpg) (image/jpeg)
+* [off_icon.png]({{site.baseurl}}/attachments/7503950/7602223.png) (image/png)
+* [reminders_list.png]({{site.baseurl}}/attachments/7503950/7602226.png) (image/png)
+* [reminders_list1.png]({{site.baseurl}}/attachments/7503950/7602227.png) (image/png)
+* [trash.png]({{site.baseurl}}/attachments/7503950/7602229.png) (image/png)
+* [trash.png]({{site.baseurl}}/attachments/7503950/8718936.png) (image/png)
+* [xc5_acr_new_reminder_button.png]({{site.baseurl}}/attachments/7503950/8718923.png) (image/png)
+* [xc5_acr_cart_reminders_tab.png]({{site.baseurl}}/attachments/7503950/8718925.png) (image/png)
+* [xc5_acr_cart_reminders_tab.png]({{site.baseurl}}/attachments/7503950/8718926.png) (image/png)
+* [xc5_acr_cart_reminders_tab.png]({{site.baseurl}}/attachments/7503950/8718924.png) (image/png)
+* [xc5_acr_new_cart_reminder_form.png]({{site.baseurl}}/attachments/7503950/8718927.png) (image/png)
+* [xc5_acr_reminder_list_view.png]({{site.baseurl}}/attachments/7503950/8718928.png) (image/png)
+* [Clock_green.png]({{site.baseurl}}/attachments/7503950/8718930.png) (image/png)
+* [Clock_green.png]({{site.baseurl}}/attachments/7503950/8718929.png) (image/png)
+* [Clock_grey.png]({{site.baseurl}}/attachments/7503950/8718931.png) (image/png)
+* [xc5_acr_reminder_edit.png]({{site.baseurl}}/attachments/7503950/8718933.png) (image/png)
+* [xc5_acr_reminder_edit.png]({{site.baseurl}}/attachments/7503950/8718934.png) (image/png)
+* [xc5_acr_reminder_edit.png]({{site.baseurl}}/attachments/7503950/8718932.png) (image/png)
+* [xc5_acr_reminder_list_view_edit.png]({{site.baseurl}}/attachments/7503950/8718935.png) (image/png)
+* [trash.png]({{site.baseurl}}/attachments/7503950/7602228.png) (image/png)

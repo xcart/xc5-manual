@@ -1,5 +1,5 @@
 ---
-identifier: ref_II05AOGF
+identifier: ref_MQB8GDLT
 updated_at: 2014-04-09 00:00
 layout: article_with_sidebar
 lang: en
@@ -52,13 +52,13 @@ When the order is created, appropriate order notifications are sent to the email
 
 _Related pages:_
 
-*   {% link "Configuring the Pay with Amazon module" ref_T3zMut4t %}
-*   {% link "Pay with Amazon admin experience" ref_iDgFCnRt %}
+*   {% link "Configuring the Pay with Amazon module" ref_0UssH5KP %}
+*   {% link "Pay with Amazon admin experience" ref_meqXfPIt %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [PwA_button_cart.png]({{site.baseurl}}/attachments/7504625/7602347.png) (image/png)  
-![](images/icons/bullet_blue.gif) [PwA_button_minicart.png]({{site.baseurl}}/attachments/7504625/7602348.png) (image/png)  
-![](images/icons/bullet_blue.gif) [PwA_button_add2cart.png]({{site.baseurl}}/attachments/7504625/7602349.png) (image/png)  
-![](images/icons/bullet_blue.gif) [PwA_amazon_signin_popup.png]({{site.baseurl}}/attachments/7504625/7602350.png) (image/png)  
-![](images/icons/bullet_blue.gif) [PwA_widgets.png]({{site.baseurl}}/attachments/7504625/7602351.png) (image/png)
+* [PwA_button_cart.png]({{site.baseurl}}/attachments/7504625/7602347.png) (image/png)
+* [PwA_button_minicart.png]({{site.baseurl}}/attachments/7504625/7602348.png) (image/png)
+* [PwA_button_add2cart.png]({{site.baseurl}}/attachments/7504625/7602349.png) (image/png)
+* [PwA_amazon_signin_popup.png]({{site.baseurl}}/attachments/7504625/7602350.png) (image/png)
+* [PwA_widgets.png]({{site.baseurl}}/attachments/7504625/7602351.png) (image/png)

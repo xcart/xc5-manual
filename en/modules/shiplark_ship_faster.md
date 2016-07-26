@@ -1,5 +1,5 @@
 ---
-identifier: ref_5iBhSHMs
+identifier: ref_M0akODBp
 updated_at: 2014-06-09 00:00
 layout: article_with_sidebar
 lang: en
@@ -15,31 +15,31 @@ categories:
 To start using Webgility's Shiplark solution with X-Cart 5:
 
 1.  Download and install Shiplark software. You will need to go to [shiplark.com](http://kb.x-cart.com/www.shiplark.com/?utm_source=X-Cart%205%20Help%20Desk&utm_medium=Shiplark%20Help%20Article&utm_campaign=Partnership%3A%20X-Cart) and sign up for a Webgility account or use your existing account. 
-2.  In your X-Cart store's Admin area, go to the Modules Marketplace section (**Extensions > Marketplace**), search for the module **Shiplark: Ship Faster** and install it in your store:  
-    ![]({{site.baseurl}}/attachments/7505368/7602644.png?effects=drop-shadow)  
-    Once the installation process is completed, the module will be added to the list of your store's installed modules in the Installed modules section (**Extensions > Installed modules**).  
+2.  In your X-Cart store's Admin area, go to the Modules Marketplace section (**Extensions > Marketplace**), search for the module **Shiplark: Ship Faster** and install it in your store:
+    ![]({{site.baseurl}}/attachments/7505368/7602644.png?effects=drop-shadow)
+    Once the installation process is completed, the module will be added to the list of your store's installed modules in the Installed modules section (**Extensions > Installed modules**).
     ![]({{site.baseurl}}/attachments/7505368/7602645.png?effects=drop-shadow)
-3.  Use the <u>Settings</u> link to go to the module's setting page:  
-    ![]({{site.baseurl}}/attachments/7505368/7602643.png?effects=drop-shadow)  
-    The module settings page provides your store's connection details: **Store Module URL** and **Access Key**.  
+3.  Use the <u>Settings</u> link to go to the module's setting page:
+    ![]({{site.baseurl}}/attachments/7505368/7602643.png?effects=drop-shadow)
+    The module settings page provides your store's connection details: **Store Module URL** and **Access Key**.
     ![]({{site.baseurl}}/attachments/7505368/7602642.png?effects=drop-shadow)
-4.  Connect your X-Cart store to Shiplark using the instructions from [Webgility's Help Desk article on connecting Shiplark to X-Cart](https://help.webgility.com/hc/en-us/articles/200421636-Connect-Shiplark-to-X-Cart-?utm_source=X-Cart%205%20Help%20Desk&utm_medium=Shiplark%20Help%20Article&utm_campaign=Partnership%3A%20X-Cart).  
+4.  Connect your X-Cart store to Shiplark using the instructions from [Webgility's Help Desk article on connecting Shiplark to X-Cart](https://help.webgility.com/hc/en-us/articles/200421636-Connect-Shiplark-to-X-Cart-?utm_source=X-Cart%205%20Help%20Desk&utm_medium=Shiplark%20Help%20Article&utm_campaign=Partnership%3A%20X-Cart).
 
 For more information, visit [shiplark.com/x-cart](http://www.shiplark.com/shipping-software-x-cart.php) or call **(877)753-5373 ext. 1**
 
 _See also:_
 
-*   {% link "eCC Desktop: Quickbooks integration" ref_4zKInlcb %}  
+*   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
 
-*   {% link "eCC Cloud: Quickbooks integration" ref_ewdkTIrk %}  
+*   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [shiplark_settings.png]({{site.baseurl}}/attachments/7505368/7602657.png) (image/png)  
-![](images/icons/bullet_blue.gif) [shiplark_settings_link.png]({{site.baseurl}}/attachments/7505368/7602656.png) (image/png)  
-![](images/icons/bullet_blue.gif) [shiplark_install.png]({{site.baseurl}}/attachments/7505368/7602654.png) (image/png)  
-![](images/icons/bullet_blue.gif) [shiplark_installed.png]({{site.baseurl}}/attachments/7505368/7602655.png) (image/png)  
-![](images/icons/bullet_blue.gif) [shiplark_install.png]({{site.baseurl}}/attachments/7505368/7602644.png) (image/png)  
-![](images/icons/bullet_blue.gif) [shiplark_installed.png]({{site.baseurl}}/attachments/7505368/7602645.png) (image/png)  
-![](images/icons/bullet_blue.gif) [shiplark_settings_link.png]({{site.baseurl}}/attachments/7505368/7602643.png) (image/png)  
-![](images/icons/bullet_blue.gif) [shiplark_settings.png]({{site.baseurl}}/attachments/7505368/7602642.png) (image/png)
+* [shiplark_settings.png]({{site.baseurl}}/attachments/7505368/7602657.png) (image/png)
+* [shiplark_settings_link.png]({{site.baseurl}}/attachments/7505368/7602656.png) (image/png)
+* [shiplark_install.png]({{site.baseurl}}/attachments/7505368/7602654.png) (image/png)
+* [shiplark_installed.png]({{site.baseurl}}/attachments/7505368/7602655.png) (image/png)
+* [shiplark_install.png]({{site.baseurl}}/attachments/7505368/7602644.png) (image/png)
+* [shiplark_installed.png]({{site.baseurl}}/attachments/7505368/7602645.png) (image/png)
+* [shiplark_settings_link.png]({{site.baseurl}}/attachments/7505368/7602643.png) (image/png)
+* [shiplark_settings.png]({{site.baseurl}}/attachments/7505368/7602642.png) (image/png)

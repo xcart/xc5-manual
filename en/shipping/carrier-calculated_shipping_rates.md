@@ -1,5 +1,5 @@
 ---
-identifier: ref_Idb6piw8
+identifier: ref_ybdiN8r0
 updated_at: 2016-01-04 00:00
 layout: article_with_sidebar
 lang: en
@@ -30,37 +30,37 @@ Because the shipping costs are calculated automatically by the carrier at the ex
 
 To use carrier-calculated shipping rates, configure shipping as outlined below:
 
-1.  In your store's Admin area, go to the Shipping methods section (**Store setup** > **Shipping**):  
+1.  In your store's Admin area, go to the Shipping methods section (**Store setup** > **Shipping**):
     ![]({{site.baseurl}}/attachments/9306236/9437257.png?effects=drop-shadow)
-2.  Click the **Add shipping method** button:  
-    ![]({{site.baseurl}}/attachments/9306236/9437259.png?effects=drop-shadow)  
-    A popup window allowing you to choose what type of shipping rates you would like to use will be displayed:  
+2.  Click the **Add shipping method** button:
+    ![]({{site.baseurl}}/attachments/9306236/9437259.png?effects=drop-shadow)
+    A popup window allowing you to choose what type of shipping rates you would like to use will be displayed:
     ![]({{site.baseurl}}/attachments/9306236/9437260.png?effects=drop-shadow)
-3.  On the **Carrier-calculated rates** tab within the popup window, locate the carrier whose real-time rate calculation service you would like to use. Click on the respective icon:  
-    ![]({{site.baseurl}}/attachments/9306236/9437261.png?effects=drop-shadow)  
-    If the selected shipping integration module is installed and enabled at your store, you will be redirected to its settings page. If not, you will be redirected to X-Cart's Modules marketplace from where you will need to install the respective module.   
+3.  On the **Carrier-calculated rates** tab within the popup window, locate the carrier whose real-time rate calculation service you would like to use. Click on the respective icon:
+    ![]({{site.baseurl}}/attachments/9306236/9437261.png?effects=drop-shadow)
+    If the selected shipping integration module is installed and enabled at your store, you will be redirected to its settings page. If not, you will be redirected to X-Cart's Modules marketplace from where you will need to install the respective module. 
 
-4.  Configure the settings of the selected shipping integration module and save the changes.   
+4.  Configure the settings of the selected shipping integration module and save the changes. 
     We have instructions for some popular shipping modules:
-    *   {% link "Canada Post" ref_AQAwH4pf %}
-    *   {% link "U.S.P.S." ref_nP6ZOw21 %}  
+    *   {% link "Canada Post" ref_XsHLxUwv %}
+    *   {% link "U.S.P.S." ref_whrpZnV3 %}
 
-5.  If necessary, configure a surcharge that will be added on top of carrier calculated shipping rates to accommodate additional expenses. For details, see the article on {% link "Handling fee" ref_DOIZsDJ1 %}.  
+5.  If necessary, configure a surcharge that will be added on top of carrier calculated shipping rates to accommodate additional expenses. For details, see the article on {% link "Handling fee" ref_nFJTxPMR %}.
 
-6.  Make sure the shipping method you have configured is active.  
+6.  Make sure the shipping method you have configured is active.
 
-7.  Make sure you have specified your company address in the store's settings. When calculating shipping rates for an order, the carrier's shipping rate service will use this information as the origin address from which the order will be shipped. For more info on how to set up your company address, see the article {% link "Specifying your company's identity and contact information" ref_wGWuxib3 %}.   
+7.  Make sure you have specified your company address in the store's settings. When calculating shipping rates for an order, the carrier's shipping rate service will use this information as the origin address from which the order will be shipped. For more info on how to set up your company address, see the article {% link "Specifying your company's identity and contact information" ref_HcSs9eFL %}. 
 
 8.  Make sure that all the products that will be shipped using the shipping method you have set up:
     *   have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled; 
-    *   have a non-zero product weight specified.  
+    *   have a non-zero product weight specified.
 
 That is all. Now you should be able to get shipping rates for your products.
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_shipping_section.png]({{site.baseurl}}/attachments/9306236/9437257.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_section1.png]({{site.baseurl}}/attachments/9306236/9437258.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_new_method.png]({{site.baseurl}}/attachments/9306236/9437259.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_new_method1.png]({{site.baseurl}}/attachments/9306236/9437260.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_shipping_new_method_usps.png]({{site.baseurl}}/attachments/9306236/9437261.png) (image/png)
+* [xc5_shipping_section.png]({{site.baseurl}}/attachments/9306236/9437257.png) (image/png)
+* [xc5_shipping_section1.png]({{site.baseurl}}/attachments/9306236/9437258.png) (image/png)
+* [xc5_shipping_new_method.png]({{site.baseurl}}/attachments/9306236/9437259.png) (image/png)
+* [xc5_shipping_new_method1.png]({{site.baseurl}}/attachments/9306236/9437260.png) (image/png)
+* [xc5_shipping_new_method_usps.png]({{site.baseurl}}/attachments/9306236/9437261.png) (image/png)

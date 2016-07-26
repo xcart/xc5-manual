@@ -1,5 +1,5 @@
 ---
-identifier: ref_kzn6kQxC
+identifier: ref_0l095Fro
 updated_at: 2015-07-07 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,18 +14,18 @@ To be able to successfully install and use the module "Booking", you need a wor
 
 The module can be obtained via X-Cart’s Marketplace.
 
-To install and enable the module on your system, follow the general module installation instructions. See [Installing modules from the Marketplace](http://kb.x-cart.com/display/XDD/Installing+modules+from+the+Marketplace).
+To install and enable the module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
 As a result, you should have the module "Booking" listed in your store's Installed Modules section:
 
 ![]({{site.baseurl}}/attachments/8749988/8718713.png?effects=drop-shadow)
 
-If you want your bookable products to have variants, you also need to make sure the module "{% link "Product Variants" ref_9HKMmLxm %}" is enabled.
+If you want your bookable products to have variants, you also need to make sure the module "{% link "Product Variants" ref_0uApuQfx %}" is enabled.
 
 _Related pages:_
 
-*   {% link ""Booking" module: Getting started" ref_WtQyACcU %}
+*   {% link ""Booking" module: Getting started" ref_mUn67cLl %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_booking_module_installed.png]({{site.baseurl}}/attachments/8749988/8718713.png) (image/png)
+* [xc5_booking_module_installed.png]({{site.baseurl}}/attachments/8749988/8718713.png) (image/png)

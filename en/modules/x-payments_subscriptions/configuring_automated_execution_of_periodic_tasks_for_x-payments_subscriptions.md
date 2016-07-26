@@ -1,5 +1,5 @@
 ---
-identifier: ref_QDSyoUAo
+identifier: ref_pTgcx1sg
 updated_at: 2015-11-21 00:00
 layout: article_with_sidebar
 lang: en
@@ -18,17 +18,17 @@ For correct operation, the module X-Payments subscriptions requires periodic ex
 
 The execution of the above tasks needs to be triggered automatically. This can be implemented through the use of a scheduling service that allows users to schedule jobs (commands or shell scripts) at defined times or regular intervals. Such a service is provided by most operating systems. For example, on Unix-like systems, you can set up a cron job that will trigger the execution of the required periodic tasks with the following command: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 php console.php --target=x_payments_subscriptions_cron
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 every 24 hours. You can set up the respective cron job by manually editing the crontab file in your home directory or by using your hosting provider's web interface for managing cron jobs. The part "console.php" needs to be replaced with the full path to the console.php script in your X-Cart installation. It is the script used by X-Cart 5 to run periodic tasks. The command above allows you to run this script with the parameter "--target=x_payments_subscriptions_cron" which tells X-Cart which X-Payments subscriptions related tasks need to be run.
 
 The recommended setup for running the script console.php via crontab is as follows:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 0 0 * * * cd /path/to/xcart_dir;  /path/to/php/bin -f php console.php --target=x_payments_subscriptions_cron
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 *   0 0 * * * - to run the script every day
 *   cd /path/to/xcart_dir - to change dir to X-Cart folder on your server

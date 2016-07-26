@@ -1,5 +1,5 @@
 ---
-identifier: ref_XPIRnJ6k
+identifier: ref_BiSy9eBE
 updated_at: 2014-01-03 00:00
 layout: article_with_sidebar
 lang: en
@@ -20,6 +20,6 @@ If your store uses the Coupons module along with the Abandoned Cart Reminder mo
 
 _Related pages:_
 
-*   {% link "Getting started with Abandoned Cart Reminder" ref_2Ealp80H %}
-*   {% link "Abandoned Cart Reminder FAQ" ref_SSNDTFrI %}
-*   {% link "Abandoned Cart Reminder" ref_uiJLGVkG %}
+*   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
+*   {% link "Abandoned Cart Reminder FAQ" ref_P3v5Wzvf %}
+*   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}

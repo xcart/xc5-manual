@@ -1,5 +1,5 @@
 ---
-identifier: ref_quEqZzq1
+identifier: ref_GawMeTST
 updated_at: 2015-05-26 00:00
 layout: article_with_sidebar
 lang: en
@@ -51,25 +51,25 @@ The product taxability rules in AvaTax system are associated with specific produ
 
 When sales tax calculation needs to be performed, the module passes on to AvaTax all the information it requires to do the calculation. AvaTax uses this information to determine the necessary taxing jurisdiction and select the taxing rules that need to be applied. The results of sales tax calculation for an order are provided directly on the checkout page before the order is placed:
 
-![]({{site.baseurl}}/attachments/8749288/8717988.png?effects=drop-shadow)  
+![]({{site.baseurl}}/attachments/8749288/8717988.png?effects=drop-shadow)
 
 _Related pages:_
 
-*   {% link "AvaTax Sales Tax Automation module: system requirements and installation" ref_7sCnJ9Fn %}
-*   {% link "Getting started with AvaTax Sales Tax Automation" ref_hqOqXrfu %}
-*   {% link "Configuring the AvaTax Sales Tax Automation module" ref_e7Bik73T %}
-*   {% link "Mapping products to AvaTax tax codes" ref_OxmufIdA %}
-*   {% link "Managing sales tax exemption for customers (AvaTax settings)" ref_Zt2I0fgM %}
+*   {% link "AvaTax Sales Tax Automation module: system requirements and installation" ref_RGbuM3KA %}
+*   {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
+*   {% link "Configuring the AvaTax Sales Tax Automation module" ref_havNFG9i %}
+*   {% link "Mapping products to AvaTax tax codes" ref_SXNVD8TL %}
+*   {% link "Managing sales tax exemption for customers (AvaTax settings)" ref_9WS5DtDB %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [avatax_wrong_address.png]({{site.baseurl}}/attachments/8749288/8717982.png) (image/png)  
-![](images/icons/bullet_blue.gif) [avatax_wrong_address1.png]({{site.baseurl}}/attachments/8749288/8717557.png) (image/png)  
-![](images/icons/bullet_blue.gif) [avatax_wrong_address.png]({{site.baseurl}}/attachments/8749288/8717556.png) (image/png)  
-![](images/icons/bullet_blue.gif) [avatax_check_address_button.png]({{site.baseurl}}/attachments/8749288/8717983.png) (image/png)  
-![](images/icons/bullet_blue.gif) [avatax_address_validation_address_book0.png]({{site.baseurl}}/attachments/8749288/8717984.png) (image/png)  
-![](images/icons/bullet_blue.gif) [avatax_address_validation_address_book.png]({{site.baseurl}}/attachments/8749288/8717985.png) (image/png)  
-![](images/icons/bullet_blue.gif) [avatax_address_validation_address_book_a.png]({{site.baseurl}}/attachments/8749288/8717986.png) (image/png)  
-![](images/icons/bullet_blue.gif) [avatax_address_validation_address_book_a0.png]({{site.baseurl}}/attachments/8749288/8717987.png) (image/png)  
-![](images/icons/bullet_blue.gif) [avatax_tax_calculation.png]({{site.baseurl}}/attachments/8749288/8717988.png) (image/png)  
-![](images/icons/bullet_blue.gif) [avatax_code_field.png]({{site.baseurl}}/attachments/8749288/8717989.png) (image/png)
+* [avatax_wrong_address.png]({{site.baseurl}}/attachments/8749288/8717982.png) (image/png)
+* [avatax_wrong_address1.png]({{site.baseurl}}/attachments/8749288/8717557.png) (image/png)
+* [avatax_wrong_address.png]({{site.baseurl}}/attachments/8749288/8717556.png) (image/png)
+* [avatax_check_address_button.png]({{site.baseurl}}/attachments/8749288/8717983.png) (image/png)
+* [avatax_address_validation_address_book0.png]({{site.baseurl}}/attachments/8749288/8717984.png) (image/png)
+* [avatax_address_validation_address_book.png]({{site.baseurl}}/attachments/8749288/8717985.png) (image/png)
+* [avatax_address_validation_address_book_a.png]({{site.baseurl}}/attachments/8749288/8717986.png) (image/png)
+* [avatax_address_validation_address_book_a0.png]({{site.baseurl}}/attachments/8749288/8717987.png) (image/png)
+* [avatax_tax_calculation.png]({{site.baseurl}}/attachments/8749288/8717988.png) (image/png)
+* [avatax_code_field.png]({{site.baseurl}}/attachments/8749288/8717989.png) (image/png)

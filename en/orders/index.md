@@ -1,5 +1,5 @@
 ---
-identifier: ref_CdTgLZOn
+identifier: ref_r4PbRx4Z
 updated_at: 2015-12-21 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,5 +14,5 @@ description: Learn how to manage orders from your customers
 
 _In this section:_
 
-*   [Understanding X-Cart order statuses](http://kb.x-cart.com/display/XDD/Understanding+X-Cart+order+statuses)
-*   [Managing X-Cart order statuses (X-Cart 5.2.7 and later)](http://kb.x-cart.com/pages/viewpage.action?pageId=8750763)
+*   {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}
+*   {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" ref_7FIU2sxJ %}

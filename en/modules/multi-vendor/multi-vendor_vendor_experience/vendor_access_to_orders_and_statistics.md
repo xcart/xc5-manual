@@ -1,5 +1,5 @@
 ---
-identifier: ref_w2GOgSNg
+identifier: ref_Q16T5ZnW
 updated_at: 2015-11-28 00:00
 layout: article_with_sidebar
 lang: en
@@ -27,7 +27,7 @@ In the "_Vendors as separate shops_" mode, a separate order is formed for the pr
 *   can view the list of ordered items, the payment method, the shipping method and the shipping cost;
 *   can view and update the payment and shipping order statuses;
 *   can edit any order details (for example, if a mistake was made when placing an order);
-*   can add order tracking information.  
+*   can add order tracking information.
 
 Vendors can access their statistics on orders and bestsellers via the Statistics section (**Orders** > **Statistics**). The order statistics can be viewed via the **Order statistics** tab:
 
@@ -43,13 +43,13 @@ Vendors can also track the movement of the money from the sales of their product
 
 _Related pages:_
 
-*   {% link "Vendor login and first steps" ref_LAI14FMl %}
-*   {% link "Multi-vendor: Admin experience" ref_as9skdeA %}
+*   {% link "Vendor login and first steps" ref_SZycMdTx %}
+*   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_vendor_orders_list.png]({{site.baseurl}}/attachments/8749511/8717244.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_tracking.png]({{site.baseurl}}/attachments/8749511/8717245.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_order_statistics1.png]({{site.baseurl}}/attachments/8749511/8717246.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_bestsellers1.png]({{site.baseurl}}/attachments/8749511/8717247.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_multi_transactions_history_vendor.png]({{site.baseurl}}/attachments/8749511/8719641.png) (image/png)
+* [xc5_vendor_orders_list.png]({{site.baseurl}}/attachments/8749511/8717244.png) (image/png)
+* [xc5_vendor_tracking.png]({{site.baseurl}}/attachments/8749511/8717245.png) (image/png)
+* [xc5_vendor_order_statistics1.png]({{site.baseurl}}/attachments/8749511/8717246.png) (image/png)
+* [xc5_vendor_bestsellers1.png]({{site.baseurl}}/attachments/8749511/8717247.png) (image/png)
+* [xc5_multi_transactions_history_vendor.png]({{site.baseurl}}/attachments/8749511/8719641.png) (image/png)

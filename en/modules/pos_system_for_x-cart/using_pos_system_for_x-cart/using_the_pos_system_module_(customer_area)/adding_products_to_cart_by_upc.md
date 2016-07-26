@@ -1,5 +1,5 @@
 ---
-identifier: ref_pPfLTeRv
+identifier: ref_f2VGke4W
 updated_at: 2014-02-17 00:00
 layout: article_with_sidebar
 lang: en
@@ -32,6 +32,6 @@ If the store's database contains a product with the UPC that was submitted, the 
 
 _Related pages:_
 
-*   {% link "Getting started with POS system for X-Cart" ref_TwJ1dw8a %}
-*   {% link "Using the POS system module (Admin area)" ref_zJ80TT16 %}
-*   {% link "Using the POS system module (Customer area)" ref_DOa2LTNI %}
+*   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}
+*   {% link "Using the POS system module (Admin area)" ref_9gJU76EN %}
+*   {% link "Using the POS system module (Customer area)" ref_hV0rfAb6 %}

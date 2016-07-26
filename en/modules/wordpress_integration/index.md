@@ -1,5 +1,5 @@
 ---
-identifier: ref_02iibnZk
+identifier: ref_rJ8hCpkQ
 updated_at: 2015-09-27 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,4 +14,4 @@ Want to make money from your blog page? The module WordPress Integration for X-C
 
 See also:
 
-*   {% link "Blog System in X-Cart" ref_kWBEgKsP %}
+*   {% link "Blog System in X-Cart" ref_T5FrnC4x %}

@@ -1,5 +1,5 @@
 ---
-identifier: ref_k4DWqNTo
+identifier: ref_slH6gvha
 updated_at: 2015-07-07 00:00
 layout: article_with_sidebar
 lang: en
@@ -19,15 +19,15 @@ For example, let's change the phrase "Check dates (1-night stay)" shown in the 
 Do the following:
 
 1.  In Admin, go to the Language labels section (**Store setup** > **Translations**) and select the **Edit labels** tab. 
-2.  If your store uses multiple languages, select the language in which you will be searching for the phrase. On our demo site, we have just one language, English, so we do not have to select anything - English is already selected.  
+2.  If your store uses multiple languages, select the language in which you will be searching for the phrase. On our demo site, we have just one language, English, so we do not have to select anything - English is already selected.
     ![]({{site.baseurl}}/attachments/8750032/8718813.png?effects=drop-shadow)
-3.  Use the filter at the top of the list of text labels to locate the label that needs to be edited. We'll simply type in a part of the phrase - "night stay" - and click **Search**.  
-    ![]({{site.baseurl}}/attachments/8750032/8718814.png?effects=drop-shadow)  
-    X-Cart will search for the words you have entered and leave displayed only those labels that contain them. As you can see below, the label responsible for displying the phrase "Check dates (1-night stay)" is titled "Check dates (X-night stay)":  
+3.  Use the filter at the top of the list of text labels to locate the label that needs to be edited. We'll simply type in a part of the phrase - "night stay" - and click **Search**.
+    ![]({{site.baseurl}}/attachments/8750032/8718814.png?effects=drop-shadow)
+    X-Cart will search for the words you have entered and leave displayed only those labels that contain them. As you can see below, the label responsible for displying the phrase "Check dates (1-night stay)" is titled "Check dates (X-night stay)":
     ![]({{site.baseurl}}/attachments/8750032/8718811.png?effects=drop-shadow)
-4.  Click on the title of the label you would like to edit. The value of the selected label will be displayed below as editable:  
+4.  Click on the title of the label you would like to edit. The value of the selected label will be displayed below as editable:
     ![]({{site.baseurl}}/attachments/8750032/8718815.png?effects=drop-shadow)
-5.  Change the wording as you require for all your languages. We'll change the phrase "Check dates ({{nights}}-night stay)" to "Rental period ({{nights}} day rental)":  
+5.  Change the wording as you require for all your languages. We'll change the phrase "Check dates ({{nights}}-night stay)" to "Rental period ({{nights}} day rental)":
     ![]({{site.baseurl}}/attachments/8750032/8718816.png?effects=drop-shadow)
 6.  Click **Save changes**.
 
@@ -37,14 +37,14 @@ After a page refresh, your site should now show the new phrase:
 
 _Related pages:_
 
-*   {% link ""Booking" module: Getting started" ref_WtQyACcU %}
+*   {% link ""Booking" module: Getting started" ref_mUn67cLl %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [booking_labels.png]({{site.baseurl}}/attachments/8750032/8718811.png) (image/png)  
-![](images/icons/bullet_blue.gif) [check_dates.png]({{site.baseurl}}/attachments/8750032/8718812.png) (image/png)  
-![](images/icons/bullet_blue.gif) [booking_labels1.png]({{site.baseurl}}/attachments/8750032/8718813.png) (image/png)  
-![](images/icons/bullet_blue.gif) [booking_labels0.png]({{site.baseurl}}/attachments/8750032/8718814.png) (image/png)  
-![](images/icons/bullet_blue.gif) [booking_labels2.png]({{site.baseurl}}/attachments/8750032/8718815.png) (image/png)  
-![](images/icons/bullet_blue.gif) [booking_labels3.png]({{site.baseurl}}/attachments/8750032/8718816.png) (image/png)  
-![](images/icons/bullet_blue.gif) [rental_period.png]({{site.baseurl}}/attachments/8750032/8718817.png) (image/png)
+* [booking_labels.png]({{site.baseurl}}/attachments/8750032/8718811.png) (image/png)
+* [check_dates.png]({{site.baseurl}}/attachments/8750032/8718812.png) (image/png)
+* [booking_labels1.png]({{site.baseurl}}/attachments/8750032/8718813.png) (image/png)
+* [booking_labels0.png]({{site.baseurl}}/attachments/8750032/8718814.png) (image/png)
+* [booking_labels2.png]({{site.baseurl}}/attachments/8750032/8718815.png) (image/png)
+* [booking_labels3.png]({{site.baseurl}}/attachments/8750032/8718816.png) (image/png)
+* [rental_period.png]({{site.baseurl}}/attachments/8750032/8718817.png) (image/png)

@@ -1,5 +1,5 @@
 ---
-identifier: ref_hqOqXrfu
+identifier: ref_I9wiGy4c
 updated_at: 2015-06-10 00:00
 layout: article_with_sidebar
 lang: en
@@ -22,12 +22,12 @@ To enable AvaTax Sales Tax Automation at your X-Cart store, follow these steps:
 
     1.  Specify your company details (This includes setting a "Company Code" for your X-Cart store - you will need to enter it on the "AvaTax Sales Tax Automation" module settings page in X-Cart).
     2.  Select Nexus Jurisdictions (where your company needs to calculate sales and use tax due to "substantial physical presence" in a taxing jurisdiction).
-    3.  Create tax codes and specify distinctive tax rules as needed for your store. For example, if certain products at your store need to be listed as non-taxable, or if you need to have specific rates for different products, this needs to be configured in your Avalara account. Note that Avalara provides hundreds of pre-defined tax codes (AvaTax System Tax Codes) and thousands of pre-configured related tax rules for AvaTax Pro subscribers. Instead of creating custom tax codes and tax rules, AvaTax Pro subscribers can take advantage of these tax codes and rules.  
+    3.  Create tax codes and specify distinctive tax rules as needed for your store. For example, if certain products at your store need to be listed as non-taxable, or if you need to have specific rates for different products, this needs to be configured in your Avalara account. Note that Avalara provides hundreds of pre-defined tax codes (AvaTax System Tax Codes) and thousands of pre-configured related tax rules for AvaTax Pro subscribers. Instead of creating custom tax codes and tax rules, AvaTax Pro subscribers can take advantage of these tax codes and rules.
 
 3.  Enable AvaTax Sales Tax Automation in your X-Cart store:
-    1.  Make sure the AvaTax Sales Tax Automation module is installed and enabled (See {% link "AvaTax Sales Tax Automation module: system requirements and installation" ref_7sCnJ9Fn %}).
-    2.  Configure the module (See {% link "Configuring the AvaTax Sales Tax Automation module" ref_e7Bik73T %}).
-    3.  Map the products in your store's catalog to specific AvaTax tax codes (See {% link "Mapping products to AvaTax tax codes" ref_OxmufIdA %}).
+    1.  Make sure the AvaTax Sales Tax Automation module is installed and enabled (See {% link "AvaTax Sales Tax Automation module: system requirements and installation" ref_RGbuM3KA %}).
+    2.  Configure the module (See {% link "Configuring the AvaTax Sales Tax Automation module" ref_havNFG9i %}).
+    3.  Map the products in your store's catalog to specific AvaTax tax codes (See {% link "Mapping products to AvaTax tax codes" ref_SXNVD8TL %}).
 
 _Related pages:_
 

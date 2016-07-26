@@ -1,5 +1,5 @@
 ---
-identifier: ref_NKGaxzXt
+identifier: ref_SwbyhUn5
 updated_at: 2015-11-14 00:00
 layout: article_with_sidebar
 lang: en
@@ -22,8 +22,8 @@ If necessary, vendor coupons and discounts can be edited by the store administra
 
 Related pages:
 
-*   {% link "Multi-vendor: Vendor experience" ref_B0aoGSmO %}
+*   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_multi_vendor_promotions.png]({{site.baseurl}}/attachments/8751033/8719622.png) (image/png)
+* [xc5_multi_vendor_promotions.png]({{site.baseurl}}/attachments/8751033/8719622.png) (image/png)

@@ -1,5 +1,5 @@
 ---
-identifier: ref_gvkSUN5A
+identifier: ref_1e1MaOuk
 updated_at: 2016-04-25 00:00
 layout: article_with_sidebar
 lang: en
@@ -30,4 +30,4 @@ The certificate can be downloaded here: [https://code.google.com/p/jzebra/downl
 
 _Related pages:_
 
-*   {% link "Getting started with POS system for X-Cart" ref_TwJ1dw8a %}
+*   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}

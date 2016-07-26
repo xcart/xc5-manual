@@ -1,5 +1,5 @@
 ---
-identifier: ref_5WN1Fv4N
+identifier: ref_QdN8kJnH
 updated_at: 2015-12-21 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,5 +14,5 @@ description: Adjust users profile fields, provide different memberships for your
 
 _In this section:_
 
-*   [Adding user membership levels](http://kb.x-cart.com/display/XDD/Adding+user+membership+levels)
-*   [Editing user profile fields](http://kb.x-cart.com/display/XDD/Editing+user+profile+fields)
+*   {% link "Adding user membership levels" ref_9ITFspcC %}
+*   {% link "Editing user profile fields" ref_gg1fQDgB %}

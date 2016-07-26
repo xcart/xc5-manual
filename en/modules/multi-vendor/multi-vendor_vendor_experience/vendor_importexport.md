@@ -1,5 +1,5 @@
 ---
-identifier: ref_KPdT60VD
+identifier: ref_pa3oqbXz
 updated_at: 2015-04-30 00:00
 layout: article_with_sidebar
 lang: en
@@ -30,14 +30,14 @@ Using the **vendor** column in the import CSV file is not mandatory: even if a 
 
 _Related pages:_
 
-*   {% link "Vendor login and first steps" ref_LAI14FMl %}
-*   {% link "Managing vendor catalog" ref_9gsHuW0K %}
-*   {% link "Multi-vendor: Admin experience" ref_as9skdeA %}
+*   {% link "Vendor login and first steps" ref_SZycMdTx %}
+*   {% link "Managing vendor catalog" ref_r4mcwiho %}
+*   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_vendor_import_export.png]({{site.baseurl}}/attachments/8749505/8717239.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_import.png]({{site.baseurl}}/attachments/8749505/8717241.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_import.png]({{site.baseurl}}/attachments/8749505/8717240.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_export.png]({{site.baseurl}}/attachments/8749505/8717243.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_export.png]({{site.baseurl}}/attachments/8749505/8717242.png) (image/png)
+* [xc5_vendor_import_export.png]({{site.baseurl}}/attachments/8749505/8717239.png) (image/png)
+* [xc5_vendor_import.png]({{site.baseurl}}/attachments/8749505/8717241.png) (image/png)
+* [xc5_vendor_import.png]({{site.baseurl}}/attachments/8749505/8717240.png) (image/png)
+* [xc5_vendor_export.png]({{site.baseurl}}/attachments/8749505/8717243.png) (image/png)
+* [xc5_vendor_export.png]({{site.baseurl}}/attachments/8749505/8717242.png) (image/png)

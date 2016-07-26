@@ -1,5 +1,5 @@
 ---
-identifier: ref_BZaI41FK
+identifier: ref_TANvG2De
 updated_at: 2016-06-15 00:00
 layout: article_with_sidebar
 lang: en
@@ -12,11 +12,11 @@ categories:
 
 _In this section:_
 
-*   [How to import data](http://kb.x-cart.com/pages/viewpage.action?pageId=6389817)
-*   {% link "CSV format by X-Cart data type" ref_sKWAkGEN %}
-*   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_vVk323ru %}
-*   [Integration with Doba (drop shipping services)](http://kb.x-cart.com/pages/viewpage.action?pageId=7505683)
+*   {% link "How to import data" http://kb.x-cart.com/pages/viewpage.action?pageId=6389817 %}
+*   {% link "CSV format by X-Cart data type" ref_iy9cOdWS %}
+*   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}
+*   {% link "Integration with Doba (drop shipping services)" ref_HOfdxO3E %}
 
 _Related pages_:
 
-*   {% link "Import and Export of Categories: Tutorial by Mike White" ref_s7FAgtfw %} (video)
+*   {% link "Import and Export of Categories: Tutorial by Mike White" ref_VXdfNsVw %} (video)

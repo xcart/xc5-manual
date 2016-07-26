@@ -1,5 +1,5 @@
 ---
-identifier: ref_15OKBWVw
+identifier: ref_lh4nFlzm
 updated_at: 2016-04-27 00:00
 layout: article_with_sidebar
 lang: en
@@ -12,12 +12,12 @@ categories:
 
 For full-featured printing with QZ Tray, complete the following steps:
 
-1.  Visit [http://buy.qz.io/](http://buy.qz.io/) and purchase QZ Premium Support. Note that printing with QZ Tray will work without purchasing QZ Premium Support, but you will experience frequent warnings saying that an untrusted host is being used.  
+1.  Visit [http://buy.qz.io/](http://buy.qz.io/) and purchase QZ Premium Support. Note that printing with QZ Tray will work without purchasing QZ Premium Support, but you will experience frequent warnings saying that an untrusted host is being used.
     ![]({{site.baseurl}}/attachments/9306976/9439605.png?effects=drop-shadow)
 2.  Obtain your product key.
-3.  Go to [https://qz.io/login/](https://qz.io/login/) and sign in using your product key:  
+3.  Go to [https://qz.io/login/](https://qz.io/login/) and sign in using your product key:
     ![]({{site.baseurl}}/attachments/9306976/9439604.png?effects=drop-shadow)
-4.  Choose QZ Tray:  
+4.  Choose QZ Tray:
     ![]({{site.baseurl}}/attachments/9306976/9439606.png?effects=drop-shadow)
 5.  Complete a registration form with your information.
 6.  Generate a signed certificate for QZ Tray. Once the process is completed, you should be provided with buttons allowing you to download your QZ Tray certificate, public key and private key. 
@@ -26,10 +26,10 @@ For full-featured printing with QZ Tray, complete the following steps:
 
 _Related pages:_
 
-*   {% link "Getting started with POS system for X-Cart" ref_TwJ1dw8a %}
+*   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_pos_qztray_productkey_login.png]({{site.baseurl}}/attachments/9306976/9439604.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_pos_qztray_premiumsupport.png]({{site.baseurl}}/attachments/9306976/9439605.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_pos_qztray_choose_qztray.png]({{site.baseurl}}/attachments/9306976/9439606.png) (image/png)
+* [xc5_pos_qztray_productkey_login.png]({{site.baseurl}}/attachments/9306976/9439604.png) (image/png)
+* [xc5_pos_qztray_premiumsupport.png]({{site.baseurl}}/attachments/9306976/9439605.png) (image/png)
+* [xc5_pos_qztray_choose_qztray.png]({{site.baseurl}}/attachments/9306976/9439606.png) (image/png)

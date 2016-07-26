@@ -1,5 +1,5 @@
 ---
-identifier: ref_LLaMGa9w
+identifier: ref_NH3w8sSS
 updated_at: 2015-09-30 00:00
 layout: article_with_sidebar
 lang: en
@@ -18,7 +18,7 @@ However, you can turn your X-Cart into a truly multi-language solution by instal
 *   French
 *   German
 *   Dutch
-*   British English  
+*   British English
 
 Icon
 
@@ -27,10 +27,10 @@ If you want to translate X-Cart into some other language, contact us at {% link
 To install a language translation module from X-Cart Marketplace:
 
 1.  In your store's Admin area, select **Modules**, then click <u style="line-height: 1.4285715;">View more addons in Marketplace</u> to go to X-Cart Marketplace.
-2.  Locate the translation you require. For example, enter "translation" in the search field to find all translation modules in the Marketplace:  
-    ![]({{site.baseurl}}/attachments/6389832/8716781.png?effects=drop-shadow)  
+2.  Locate the translation you require. For example, enter "translation" in the search field to find all translation modules in the Marketplace:
+    ![]({{site.baseurl}}/attachments/6389832/8716781.png?effects=drop-shadow)
 
-3.  Install and activate the translations you require like you do with any other modules from the Marketplace. See {% link "Installing modules from the Marketplace" ref_36GTeW9L %}.
+3.  Install and activate the translations you require like you do with any other modules from the Marketplace. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
 As a result, the translation modules you have installed should appear in the Installed Modules section in your store's Admin area:
 
@@ -57,34 +57,34 @@ You may notice that some texts and labels do not get translated when you switch 
 So it's only natural that a lot of things will not be translated automatically. Luckily, you can fix any text label lacking a translation in any of the installed languages by editing it manually. For example, to add a German translation for the link "<u>View more addons in Marketplace</u>", do the following:
 
 1.  In the Languages section (**Store setup** > **Translations**) of the Admin area, select the **Edit labels** tab.
-2.  Search for the label "View more addons in Marketplace":  
-    ![]({{site.baseurl}}/attachments/6389832/8719456.png?effects=drop-shadow)  
-    Now that we have found the label, we can see all the languages in which the label does not have a translation - the codes for these languages are greyed out (see the "DE" language code displayed in pale grey):  
+2.  Search for the label "View more addons in Marketplace":
+    ![]({{site.baseurl}}/attachments/6389832/8719456.png?effects=drop-shadow)
+    Now that we have found the label, we can see all the languages in which the label does not have a translation - the codes for these languages are greyed out (see the "DE" language code displayed in pale grey):
     ![]({{site.baseurl}}/attachments/6389832/8719457.png?effects=drop-shadow)
-3.  Use the Global edit feature to add the translation you require. Be sure to save your changes.  
-    ![]({{site.baseurl}}/attachments/6389832/8719458.png?effects=drop-shadow)  
-    (More dtailed instructions for editing text labels and their translations can be found in the {% link "Editing text labels" ref_RG5ITTiG#Managingtextslabelsinyourstore-EditingTextLabels %} section of this manual.)
+3.  Use the Global edit feature to add the translation you require. Be sure to save your changes.
+    ![]({{site.baseurl}}/attachments/6389832/8719458.png?effects=drop-shadow)
+    (More dtailed instructions for editing text labels and their translations can be found in the {% link "Editing text labels" ref_IyGxQ1DN#Managingtextslabelsinyourstore-EditingTextLabels %} section of this manual.)
 
 That is all. After switching the language in your store's Admin area to "DE" you should be able to see the link text translated.
 
 _Related pages:_
 
-*   {% link "Switching the language in Admin area" ref_8QXiJTuq %}
+*   {% link "Switching the language in Admin area" ref_x5oSN86B %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [marketplace-menu.png]({{site.baseurl}}/attachments/6389832/6586511.png) (image/png)  
-![](images/icons/bullet_blue.gif) [marketplace-translation.png]({{site.baseurl}}/attachments/6389832/6586513.png) (image/png)  
-![](images/icons/bullet_blue.gif) [marketplace-translation.png]({{site.baseurl}}/attachments/6389832/6586512.png) (image/png)  
-![](images/icons/bullet_blue.gif) [language-selector.png]({{site.baseurl}}/attachments/6389832/6586515.png) (image/png)  
-![](images/icons/bullet_blue.gif) [frontend-language-selector.png]({{site.baseurl}}/attachments/6389832/6586517.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_translations_installed.png]({{site.baseurl}}/attachments/6389832/8716778.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_admin_language_selector.png]({{site.baseurl}}/attachments/6389832/8716779.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_customer_language_selector.png]({{site.baseurl}}/attachments/6389832/8716780.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_translation_search.png]({{site.baseurl}}/attachments/6389832/8716781.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_modules_page_german_installed_enabled.png]({{site.baseurl}}/attachments/6389832/8719384.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_modules_page_german.png]({{site.baseurl}}/attachments/6389832/8719385.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_translations_labels.png]({{site.baseurl}}/attachments/6389832/8719455.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_translations_search_viewmoreaddons.png]({{site.baseurl}}/attachments/6389832/8719456.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_translations_de_missing.png]({{site.baseurl}}/attachments/6389832/8719457.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_translations_enter_your_translation.png]({{site.baseurl}}/attachments/6389832/8719458.png) (image/png)
+* [marketplace-menu.png]({{site.baseurl}}/attachments/6389832/6586511.png) (image/png)
+* [marketplace-translation.png]({{site.baseurl}}/attachments/6389832/6586513.png) (image/png)
+* [marketplace-translation.png]({{site.baseurl}}/attachments/6389832/6586512.png) (image/png)
+* [language-selector.png]({{site.baseurl}}/attachments/6389832/6586515.png) (image/png)
+* [frontend-language-selector.png]({{site.baseurl}}/attachments/6389832/6586517.png) (image/png)
+* [xc5_translations_installed.png]({{site.baseurl}}/attachments/6389832/8716778.png) (image/png)
+* [xc5_admin_language_selector.png]({{site.baseurl}}/attachments/6389832/8716779.png) (image/png)
+* [xc5_customer_language_selector.png]({{site.baseurl}}/attachments/6389832/8716780.png) (image/png)
+* [xc5_translation_search.png]({{site.baseurl}}/attachments/6389832/8716781.png) (image/png)
+* [xc5_modules_page_german_installed_enabled.png]({{site.baseurl}}/attachments/6389832/8719384.png) (image/png)
+* [xc5_modules_page_german.png]({{site.baseurl}}/attachments/6389832/8719385.png) (image/png)
+* [xc5_translations_labels.png]({{site.baseurl}}/attachments/6389832/8719455.png) (image/png)
+* [xc5_translations_search_viewmoreaddons.png]({{site.baseurl}}/attachments/6389832/8719456.png) (image/png)
+* [xc5_translations_de_missing.png]({{site.baseurl}}/attachments/6389832/8719457.png) (image/png)
+* [xc5_translations_enter_your_translation.png]({{site.baseurl}}/attachments/6389832/8719458.png) (image/png)

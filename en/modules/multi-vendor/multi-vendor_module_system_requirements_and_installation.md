@@ -1,5 +1,5 @@
 ---
-identifier: ref_3cEoIo9L
+identifier: ref_MRQEvicQ
 updated_at: 2015-04-14 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,9 +14,9 @@ To be able to successfully install and use the Multi-vendor module, you need a w
 
 The module can be obtained via X-Cart’s Marketplace.
 
-![]({{site.baseurl}}/attachments/8749137/8716516.png?effects=drop-shadow)  
+![]({{site.baseurl}}/attachments/8749137/8716516.png?effects=drop-shadow)
 
-For general module installation instructions, see [Installing modules from the Marketplace](http://kb.x-cart.com/display/XDD/Installing+modules+from+the+Marketplace).
+For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
 As a result, you should have the module "Multi-vendor" listed in your store's Installed Modules section:
 
@@ -24,10 +24,10 @@ As a result, you should have the module "Multi-vendor" listed in your store's 
 
 _Related pages:_
 
-*   {% link "Configuring the Multi-vendor module" ref_XdaiZ5DP %}  
+*   {% link "Configuring the Multi-vendor module" ref_nFq48dhr %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [mv_module.png]({{site.baseurl}}/attachments/8749137/8716515.png) (image/png)  
-![](images/icons/bullet_blue.gif) [mv_module_install.png]({{site.baseurl}}/attachments/8749137/8716516.png) (image/png)  
-![](images/icons/bullet_blue.gif) [mv_module_installed.png]({{site.baseurl}}/attachments/8749137/8716517.png) (image/png)
+* [mv_module.png]({{site.baseurl}}/attachments/8749137/8716515.png) (image/png)
+* [mv_module_install.png]({{site.baseurl}}/attachments/8749137/8716516.png) (image/png)
+* [mv_module_installed.png]({{site.baseurl}}/attachments/8749137/8716517.png) (image/png)

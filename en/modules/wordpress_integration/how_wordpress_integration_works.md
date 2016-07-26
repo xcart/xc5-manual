@@ -1,5 +1,5 @@
 ---
-identifier: ref_n57CHGM2
+identifier: ref_9IwXqwiT
 updated_at: 2015-09-26 00:00
 layout: article_with_sidebar
 lang: en
@@ -56,22 +56,22 @@ By clicking the **CHECKOUT** button a user can proceed to checkout; when this h
 
 Related pages:
 
-*   {% link "WordPress Integration: System requirements and installation" ref_LPIMPVGv %}
-*   {% link "Configuring the X-Cart Intergration plugin in WordPress" ref_VTpNMkKt %}
-*   {% link "Adding products and categories to your WordPress blog" ref_MmNXCs8G %}
-*   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_KtdabhP3 %}
+*   {% link "WordPress Integration: System requirements and installation" ref_qe4N0rTZ %}
+*   {% link "Configuring the X-Cart Intergration plugin in WordPress" ref_wacvoZl5 %}
+*   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
+*   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_wp_int_category.png]({{site.baseurl}}/attachments/8750580/8719398.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_product.png]({{site.baseurl}}/attachments/8750580/8719399.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_minicart.png]({{site.baseurl}}/attachments/8750580/8719400.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_category1.png]({{site.baseurl}}/attachments/8750580/8719401.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_previous_next_product.png]({{site.baseurl}}/attachments/8750580/8719402.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_category_nav.png]({{site.baseurl}}/attachments/8750580/8719403.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_category_menu_in_post.png]({{site.baseurl}}/attachments/8750580/8719405.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_category_menu_in_post.png]({{site.baseurl}}/attachments/8750580/8719404.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_category_menu_in_sidebar.png]({{site.baseurl}}/attachments/8750580/8719406.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_product_search_widget.png]({{site.baseurl}}/attachments/8750580/8719409.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_cart_contents.png]({{site.baseurl}}/attachments/8750580/8719410.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_checkout.png]({{site.baseurl}}/attachments/8750580/8719411.png) (image/png)
+* [xc5_wp_int_category.png]({{site.baseurl}}/attachments/8750580/8719398.png) (image/png)
+* [xc5_wp_int_product.png]({{site.baseurl}}/attachments/8750580/8719399.png) (image/png)
+* [xc5_wp_int_minicart.png]({{site.baseurl}}/attachments/8750580/8719400.png) (image/png)
+* [xc5_wp_int_category1.png]({{site.baseurl}}/attachments/8750580/8719401.png) (image/png)
+* [xc5_wp_int_previous_next_product.png]({{site.baseurl}}/attachments/8750580/8719402.png) (image/png)
+* [xc5_wp_int_category_nav.png]({{site.baseurl}}/attachments/8750580/8719403.png) (image/png)
+* [xc5_wp_int_category_menu_in_post.png]({{site.baseurl}}/attachments/8750580/8719405.png) (image/png)
+* [xc5_wp_int_category_menu_in_post.png]({{site.baseurl}}/attachments/8750580/8719404.png) (image/png)
+* [xc5_wp_int_category_menu_in_sidebar.png]({{site.baseurl}}/attachments/8750580/8719406.png) (image/png)
+* [xc5_wp_int_product_search_widget.png]({{site.baseurl}}/attachments/8750580/8719409.png) (image/png)
+* [xc5_wp_int_cart_contents.png]({{site.baseurl}}/attachments/8750580/8719410.png) (image/png)
+* [xc5_wp_int_checkout.png]({{site.baseurl}}/attachments/8750580/8719411.png) (image/png)

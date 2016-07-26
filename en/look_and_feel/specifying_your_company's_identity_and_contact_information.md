@@ -1,5 +1,5 @@
 ---
-identifier: ref_wGWuxib3
+identifier: ref_HcSs9eFL
 updated_at: 2015-05-22 00:00
 layout: article_with_sidebar
 lang: en
@@ -28,12 +28,12 @@ Company name and year in which the store opened will be used in the copyright no
 
 _Related pages:_
 
-*   {% link "Specifying your company info, changing the text on the Add to Cart button and editing the Contact Us page in X-Cart 5" ref_AzphTEQR %} (video)
+*   {% link "Specifying your company info, changing the text on the Add to Cart button and editing the Contact Us page in X-Cart 5" ref_r41l3HIn %} (video)
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [store-info.png]({{site.baseurl}}/attachments/6389857/6586564.png) (image/png)  
-![](images/icons/bullet_blue.gif) [company_info_admin.png]({{site.baseurl}}/attachments/6389857/7602603.png) (image/png)  
-![](images/icons/bullet_blue.gif) [thank_you_company_info1.png]({{site.baseurl}}/attachments/6389857/7602604.png) (image/png)  
-![](images/icons/bullet_blue.gif) [copyright_year1.png]({{site.baseurl}}/attachments/6389857/7602605.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_contact_info.png]({{site.baseurl}}/attachments/6389857/8716523.png) (image/png)
+* [store-info.png]({{site.baseurl}}/attachments/6389857/6586564.png) (image/png)
+* [company_info_admin.png]({{site.baseurl}}/attachments/6389857/7602603.png) (image/png)
+* [thank_you_company_info1.png]({{site.baseurl}}/attachments/6389857/7602604.png) (image/png)
+* [copyright_year1.png]({{site.baseurl}}/attachments/6389857/7602605.png) (image/png)
+* [xc5_contact_info.png]({{site.baseurl}}/attachments/6389857/8716523.png) (image/png)

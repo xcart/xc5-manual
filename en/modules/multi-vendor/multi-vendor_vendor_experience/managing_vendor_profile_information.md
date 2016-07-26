@@ -1,5 +1,5 @@
 ---
-identifier: ref_XbtJFiMB
+identifier: ref_b7PTQMgf
 updated_at: 2015-12-04 00:00
 layout: article_with_sidebar
 lang: en
@@ -34,7 +34,7 @@ The following information can be provided:
     *   **CleanURL**: Human readable and SEO friendly web address for the vendor profile page in the Customer area.
     *   **Image**: Vendor image.
     *   **Location**: Vendor location.
-    *   **Description**: Vendor description for the vendor profile page.  
+    *   **Description**: Vendor description for the vendor profile page.
 
 The** Financial info** section is where vendor can specify an account that they wish to use to accept money from sales through this store. 
 
@@ -44,22 +44,22 @@ This can be either a PayPal account or a bank account. If the store uses PayPa
 
 _Related pages:_
 
-*   {% link "Vendor login and first steps" ref_LAI14FMl %}
-*   {% link "Managing vendor catalog" ref_9gsHuW0K %}
-*   {% link "Managing vendor shipping methods" ref_lTlMruZ5 %}
-*   {% link "Specifying vendor ship-from address" ref_WOQPBDQd %}
-*   {% link "Vendor import/export" ref_KPdT60VD %}
+*   {% link "Vendor login and first steps" ref_SZycMdTx %}
+*   {% link "Managing vendor catalog" ref_r4mcwiho %}
+*   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
+*   {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}
+*   {% link "Vendor import/export" ref_pa3oqbXz %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_vendor_details.png]({{site.baseurl}}/attachments/8749390/8716909.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_profile_settings.png]({{site.baseurl}}/attachments/8749390/8716911.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_account_details.png]({{site.baseurl}}/attachments/8749390/8716927.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_account_details.png]({{site.baseurl}}/attachments/8749390/8716926.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_address book.png]({{site.baseurl}}/attachments/8749390/8716929.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_address book.png]({{site.baseurl}}/attachments/8749390/8716928.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_multi_vendor_profile_settings.png]({{site.baseurl}}/attachments/8749390/8719613.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_multi_vendor_account_details.png]({{site.baseurl}}/attachments/8749390/8719614.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_multi_vendor_address_book.png]({{site.baseurl}}/attachments/8749390/8719615.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_multi_vendor_details.png]({{site.baseurl}}/attachments/8749390/8719616.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_multi_vendor_financial_info.png]({{site.baseurl}}/attachments/8749390/8719617.png) (image/png)
+* [xc5_vendor_details.png]({{site.baseurl}}/attachments/8749390/8716909.png) (image/png)
+* [xc5_vendor_profile_settings.png]({{site.baseurl}}/attachments/8749390/8716911.png) (image/png)
+* [xc5_vendor_account_details.png]({{site.baseurl}}/attachments/8749390/8716927.png) (image/png)
+* [xc5_vendor_account_details.png]({{site.baseurl}}/attachments/8749390/8716926.png) (image/png)
+* [xc5_vendor_address book.png]({{site.baseurl}}/attachments/8749390/8716929.png) (image/png)
+* [xc5_vendor_address book.png]({{site.baseurl}}/attachments/8749390/8716928.png) (image/png)
+* [xc5_multi_vendor_profile_settings.png]({{site.baseurl}}/attachments/8749390/8719613.png) (image/png)
+* [xc5_multi_vendor_account_details.png]({{site.baseurl}}/attachments/8749390/8719614.png) (image/png)
+* [xc5_multi_vendor_address_book.png]({{site.baseurl}}/attachments/8749390/8719615.png) (image/png)
+* [xc5_multi_vendor_details.png]({{site.baseurl}}/attachments/8749390/8719616.png) (image/png)
+* [xc5_multi_vendor_financial_info.png]({{site.baseurl}}/attachments/8749390/8719617.png) (image/png)

@@ -9,8 +9,8 @@
 title: X-Cart 5 Knowledge Base
 email: daemos@x-cart.com
 description: X-Cart is the free shopping cart software & solutions for high‑performing online stores
-baseurl: "/xc5-manual" # the subpath of your site, e.g. /blog
-url: "https://devkb.x-cart.biz" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://kb5.x-cart.com" # the base hostname & protocol for your site
 encoding: utf-8
 repository: xcart/xc5-manual
 
@@ -20,11 +20,16 @@ markdown: kramdown
 incremental: false
 lsi: true
 
+kramdown:
+  input: GFM
+
 index_path: "links.xml"
 
 elasticsearch:
     host: "localhost:9200"
-    js_host: "kb.x-cart.com:9200"
+    js_host: "devs.x-cart.com"
+    js_user: "kbuser"
+    js_pass: "53cr37p4"
     index: "usermanual"
     type: "articles"
 

@@ -1,5 +1,5 @@
 ---
-identifier: ref_4Vs2TFPX
+identifier: ref_40Al0Nky
 updated_at: 2016-03-14 00:00
 layout: article_with_sidebar
 lang: en
@@ -15,40 +15,40 @@ The eBay Integration module allows you to export product information from your s
 **To export product information to eBay from a product list**:
 
 1.  Go to the Products section of your X-Cart store's back end (**Catalog** > **Products**).
-2.  Find the products that need to be exported and select these products by clicking the checkboxes to the left of their names.  
-    ![]({{site.baseurl}}/attachments/9306473/9439178.png?effects=drop-shadow)  
-    If you need to export to eBay all the products in your store, there's no need to select specific products; just make sure the filter above the product list is not setting any limitations.  
+2.  Find the products that need to be exported and select these products by clicking the checkboxes to the left of their names.
+    ![]({{site.baseurl}}/attachments/9306473/9439178.png?effects=drop-shadow)
+    If you need to export to eBay all the products in your store, there's no need to select specific products; just make sure the filter above the product list is not setting any limitations.
 
 3.  Select the operation that needs to be performed:
     *   If you need to export to eBay all the products that have been found and are now displayed in the product list, click the **Export all found to EBay** button:![]({{site.baseurl}}/attachments/9306473/9439182.png?effects=drop-shadow)
-    *   If you need to export to eBay just the products you have selected, click the **More actions for selected** button in the second row of buttons and select the action you require from the button menu:  
+    *   If you need to export to eBay just the products you have selected, click the **More actions for selected** button in the second row of buttons and select the action you require from the button menu:
 
         *   __End products on eBay _-_ Select this to end the existing eBay listings;
         *   _Export products to eBay_ - Select this to export all the information pertaining to the products;
         *   _Export inventories to eBay_ - Select this to update the product quantities in your eBay listings (only inventory data will be exported);
-        *   _Export images to eBay_ - Select this to update only the images of the products.  
+        *   _Export images to eBay_ - Select this to update only the images of the products.
             ![]({{site.baseurl}}/attachments/9306473/9439179.png?effects=drop-shadow)
-4.  Confirm your wish to export the products to eBay. The products will be exported to eBay:  
-    ![]({{site.baseurl}}/attachments/9306473/9439183.png?effects=drop-shadow)  
+4.  Confirm your wish to export the products to eBay. The products will be exported to eBay:
+    ![]({{site.baseurl}}/attachments/9306473/9439183.png?effects=drop-shadow)
     When the process is completed, a success message will be displayed.
 
 **To export product information to eBay from a product details page**:
 
 1.  Go to the Products section of your X-Cart store's back end (**Catalog** > **Products**).
-2.  Find the product whose information you want to export to eBay and click on the product name to go to the product's details page.  
+2.  Find the product whose information you want to export to eBay and click on the product name to go to the product's details page.
     ![]({{site.baseurl}}/attachments/9306473/9439184.png?effects=drop-shadow)
-3.  On the product details page, go to the **eBay product options** section:  
-    ![]({{site.baseurl}}/attachments/9306473/9439185.png?effects=drop-shadow)  
+3.  On the product details page, go to the **eBay product options** section:
+    ![]({{site.baseurl}}/attachments/9306473/9439185.png?effects=drop-shadow)
 
 4.  Make sure the eBay options for the product are set correctly. 
-5.  Click the **Export of item** button at the bottom of the page:  
-    ![]({{site.baseurl}}/attachments/9306473/9439186.png?effects=drop-shadow)  
+5.  Click the **Export of item** button at the bottom of the page:
+    ![]({{site.baseurl}}/attachments/9306473/9439186.png?effects=drop-shadow)
 
-    The product will be exported to eBay.  
-    ![]({{site.baseurl}}/attachments/9306473/9439187.png?effects=drop-shadow)  
+    The product will be exported to eBay.
+    ![]({{site.baseurl}}/attachments/9306473/9439187.png?effects=drop-shadow)
 
-    After the product has been exported to eBay for the first time, you get more eBay export options for the product:  
-    ![]({{site.baseurl}}/attachments/9306473/9439189.png?effects=drop-shadow)  
+    After the product has been exported to eBay for the first time, you get more eBay export options for the product:
+    ![]({{site.baseurl}}/attachments/9306473/9439189.png?effects=drop-shadow)
     Depending on the type of data that you want to export, you can perform further exports of product information for this product using the following buttons:
     *   **Export Item** - will export the entire scope of product information;
     *   **Export Inventory** - will export only the product inventory information;
@@ -57,16 +57,16 @@ The eBay Integration module allows you to export product information from your s
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_ebay_products_list.png]({{site.baseurl}}/attachments/9306473/9439180.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_products_list1.png]({{site.baseurl}}/attachments/9306473/9439181.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_products_list.png]({{site.baseurl}}/attachments/9306473/9439178.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_products_list1.png]({{site.baseurl}}/attachments/9306473/9439179.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_products_list2.png]({{site.baseurl}}/attachments/9306473/9439182.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_export.png]({{site.baseurl}}/attachments/9306473/9439183.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_detpage.png]({{site.baseurl}}/attachments/9306473/9439184.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_detpage1.png]({{site.baseurl}}/attachments/9306473/9439185.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_detpage2.png]({{site.baseurl}}/attachments/9306473/9439186.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_detpage3.png]({{site.baseurl}}/attachments/9306473/9439188.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_detpage3.png]({{site.baseurl}}/attachments/9306473/9439187.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_detpage4.png]({{site.baseurl}}/attachments/9306473/9439190.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_detpage4.png]({{site.baseurl}}/attachments/9306473/9439189.png) (image/png)
+* [xc5_ebay_products_list.png]({{site.baseurl}}/attachments/9306473/9439180.png) (image/png)
+* [xc5_ebay_products_list1.png]({{site.baseurl}}/attachments/9306473/9439181.png) (image/png)
+* [xc5_ebay_products_list.png]({{site.baseurl}}/attachments/9306473/9439178.png) (image/png)
+* [xc5_ebay_products_list1.png]({{site.baseurl}}/attachments/9306473/9439179.png) (image/png)
+* [xc5_ebay_products_list2.png]({{site.baseurl}}/attachments/9306473/9439182.png) (image/png)
+* [xc5_ebay_export.png]({{site.baseurl}}/attachments/9306473/9439183.png) (image/png)
+* [xc5_ebay_detpage.png]({{site.baseurl}}/attachments/9306473/9439184.png) (image/png)
+* [xc5_ebay_detpage1.png]({{site.baseurl}}/attachments/9306473/9439185.png) (image/png)
+* [xc5_ebay_detpage2.png]({{site.baseurl}}/attachments/9306473/9439186.png) (image/png)
+* [xc5_ebay_detpage3.png]({{site.baseurl}}/attachments/9306473/9439188.png) (image/png)
+* [xc5_ebay_detpage3.png]({{site.baseurl}}/attachments/9306473/9439187.png) (image/png)
+* [xc5_ebay_detpage4.png]({{site.baseurl}}/attachments/9306473/9439190.png) (image/png)
+* [xc5_ebay_detpage4.png]({{site.baseurl}}/attachments/9306473/9439189.png) (image/png)

@@ -1,5 +1,5 @@
 ---
-identifier: ref_VkzBVzCT
+identifier: ref_aD2kfoVa
 updated_at: 2015-02-10 00:00
 layout: article_with_sidebar
 lang: en
@@ -24,7 +24,7 @@ In the module settings you can specify whether this block needs to be displayed 
 
 On your store's pages, auction listings stand out from the rest of the products as each of them has a clock counting down the time till the end of the auction displayed next to them and is marked by labels "Auction!" and "X percent off" (the X shows how much cheaper the current price of the product in the auction is - compared to the product's base price defined in the product details). 
 
-![]({{site.baseurl}}/attachments/8225140/8356111.png?effects=drop-shadow)  
+![]({{site.baseurl}}/attachments/8225140/8356111.png?effects=drop-shadow)
 
 Only registered customers who are logged in can bid on auctioned items:
 
@@ -68,21 +68,21 @@ The store administrator can edit and remove any existing auction listings, no ma
 
 _Related pages:_
 
-*   {% link "Configuring the module "Auction in X-Cart 5"" ref_aWG9lo2T %}
-*   {% link "Managing auction listings" ref_rWo4QRxJ %}
+*   {% link "Configuring the module "Auction in X-Cart 5"" ref_HvGNMnhG %}
+*   {% link "Managing auction listings" ref_56sCmm0k %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [auction_section_customer.png]({{site.baseurl}}/attachments/8225140/8356098.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_sidebox.png]({{site.baseurl}}/attachments/8225140/8356100.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_sidebox.png]({{site.baseurl}}/attachments/8225140/8356099.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_labels.png]({{site.baseurl}}/attachments/8225140/8356111.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_only_registered.png]({{site.baseurl}}/attachments/8225140/8356112.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_bid.png]({{site.baseurl}}/attachments/8225140/8356113.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_automatic_bidding.png]({{site.baseurl}}/attachments/8225140/8356114.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_24hours.png]({{site.baseurl}}/attachments/8225140/8356115.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_qty_edit_blocked.png]({{site.baseurl}}/attachments/8225140/8356116.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_awaiting_payment.png]({{site.baseurl}}/attachments/8225140/8356117.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_sold.png]({{site.baseurl}}/attachments/8225140/8356118.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_bid_status.png]({{site.baseurl}}/attachments/8225140/8356119.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_outbid.png]({{site.baseurl}}/attachments/8225140/8356121.png) (image/png)
+* [auction_section_customer.png]({{site.baseurl}}/attachments/8225140/8356098.png) (image/png)
+* [auction_sidebox.png]({{site.baseurl}}/attachments/8225140/8356100.png) (image/png)
+* [auction_sidebox.png]({{site.baseurl}}/attachments/8225140/8356099.png) (image/png)
+* [auction_labels.png]({{site.baseurl}}/attachments/8225140/8356111.png) (image/png)
+* [auction_only_registered.png]({{site.baseurl}}/attachments/8225140/8356112.png) (image/png)
+* [auction_bid.png]({{site.baseurl}}/attachments/8225140/8356113.png) (image/png)
+* [auction_automatic_bidding.png]({{site.baseurl}}/attachments/8225140/8356114.png) (image/png)
+* [auction_24hours.png]({{site.baseurl}}/attachments/8225140/8356115.png) (image/png)
+* [auction_qty_edit_blocked.png]({{site.baseurl}}/attachments/8225140/8356116.png) (image/png)
+* [auction_awaiting_payment.png]({{site.baseurl}}/attachments/8225140/8356117.png) (image/png)
+* [auction_sold.png]({{site.baseurl}}/attachments/8225140/8356118.png) (image/png)
+* [auction_bid_status.png]({{site.baseurl}}/attachments/8225140/8356119.png) (image/png)
+* [auction_outbid.png]({{site.baseurl}}/attachments/8225140/8356121.png) (image/png)

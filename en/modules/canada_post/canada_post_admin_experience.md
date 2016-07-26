@@ -1,5 +1,5 @@
 ---
-identifier: ref_Gcd74haE
+identifier: ref_N6PsLLrM
 updated_at: 2014-09-12 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,7 +14,7 @@ This page provides information on the user experience in the Admin area of an X-
 
 This includes the following topics:
 
-*   {% link "Contract and non-contract shipping" ref_Gcd74haE %};
+*   {% link "Contract and non-contract shipping" ref_N6PsLLrM %};
 *   {% link "Creating shipments" Canada-Post-admin-experience_7505660.html %};
 *   {% link "Obtaining shipping labels" Canada-Post-admin-experience_7505660.html %};
 *   {% link "Transmitting shipments" Canada-Post-admin-experience_7505660.html %};
@@ -57,7 +57,7 @@ In this section, you need to provide information about the parcels that you will
 
 When you open the Shipments section for a new order, you will notice that it already contains a list of shipments. This list reflects the way in which the module proposes to split the items from this order into parcels based on the weight limit for one package. For example, in the snapshot below you can see how a large order was split into two parcels so the weight of each parcel does not exceed 30 kilograms:
 
-![]({{site.baseurl}}/attachments/7505660/7602861.png?effects=drop-shadow)  
+![]({{site.baseurl}}/attachments/7505660/7602861.png?effects=drop-shadow)
 
 Please note that when the module splits an order into parcels, it does not take into account the dimensions of the individual items in the order nor the dimensions of the box into which they will be packed. As a result, the method does not guarantee that the items placed by the module into one parcel will actually fit in. It is your responsibility as a merchant to verify not only that the weight of the items in each shipment does not exceed the Package maximum weight limit, but also to make sure the items placed into each parcel do actually fit into the box of the specified dimensions. 
 
@@ -67,7 +67,7 @@ In the example demonstrated by the snapshot above, we have exactly this type of 
 
 The size of the box can be easily adjusted by editing the **Dimensions** fields:
 
-![]({{site.baseurl}}/attachments/7505660/7602863.png?effects=drop-shadow)  
+![]({{site.baseurl}}/attachments/7505660/7602863.png?effects=drop-shadow)
 
 The distribution of the ordered items into parcels can be adjusted by moving items from one parcel to another. If necesary, more parcels can be added by moving items to a new parcel.
 
@@ -77,7 +77,7 @@ To move items from one parcel to another:
 2.  Choose the item you will remove.
 3.  In the **Move item** field, specify the number of units of the item that will be removed
 4.  From the drop-down box provided on the right side of this field, select the parcel to which the items will need to be moved (Select "_New parcel_" to create a new parcel).
-5.  Click **Save changes**.   
+5.  Click **Save changes**. 
     The items will be moved.
 
 The snapshot below demonstrates the creation of an additional parcel by moving five units of the product "Bare Metal Bender Wind-up" out of Parcel #1 to a new parcel (After the changes have been saved, a new parcel - Parcel #3 containing five wind-up Bender robots - will be added to the list; the number of Bender robots in Parcel #1 will be decreased):
@@ -159,8 +159,8 @@ To void a created shipment, do one of the following:
 
 OR:
 
-*   (This method is available only for shipments that were created while using CanadaPost contract services): In the CanadaPost shipments section (**Orders** > **CanadaPost shipments**), locate the shipment that needs to be voided and click the **x VOID** button opposite it:  
-    ![]({{site.baseurl}}/attachments/7505660/7602870.png?effects=drop-shadow)  
+*   (This method is available only for shipments that were created while using CanadaPost contract services): In the CanadaPost shipments section (**Orders** > **CanadaPost shipments**), locate the shipment that needs to be voided and click the **x VOID** button opposite it:
+    ![]({{site.baseurl}}/attachments/7505660/7602870.png?effects=drop-shadow)
 
 You will be asked to confirm the Void shipment action. What happens after you confirm this action depends on the type of services being used:
 
@@ -219,30 +219,30 @@ To process a return request, simply select the status you require (_Approved_ or
 
 _Related pages:_
 
-*   {% link "Canada Post customer experience" ref_BK0xzwUe %}
-*   {% link "Getting started with Canada Post" ref_tnMZiKav %}
+*   {% link "Canada Post customer experience" ref_ooBRtSLz %}
+*   {% link "Getting started with Canada Post" ref_zfNLsPus %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [cp_returns_admin.png]({{site.baseurl}}/attachments/7505660/7602855.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_returns_admin1.png]({{site.baseurl}}/attachments/7505660/7602856.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_return_details.png]({{site.baseurl}}/attachments/7505660/7602857.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_shipping_method.png]({{site.baseurl}}/attachments/7505660/7602858.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_shipments_tab.png]({{site.baseurl}}/attachments/7505660/7602859.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_parcels.png]({{site.baseurl}}/attachments/7505660/7602860.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_parcels1.png]({{site.baseurl}}/attachments/7505660/7602861.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_move2newparcel1.png]({{site.baseurl}}/attachments/7505660/7602862.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_adjust_dimensions.png]({{site.baseurl}}/attachments/7505660/7602863.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_save_create_shipment.png]({{site.baseurl}}/attachments/7505660/7602864.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_shipment_info.png]({{site.baseurl}}/attachments/7505660/7602865.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_void.png]({{site.baseurl}}/attachments/7505660/7602866.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_shipments_list.png]({{site.baseurl}}/attachments/7505660/7602867.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_transmit.png]({{site.baseurl}}/attachments/7505660/7602868.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_transmit1.png]({{site.baseurl}}/attachments/7505660/7602869.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_void2.png]({{site.baseurl}}/attachments/7505660/7602870.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_manifest_created.png]({{site.baseurl}}/attachments/7505660/7602871.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_manifest_update.png]({{site.baseurl}}/attachments/7505660/7602872.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_manifest_approved.png]({{site.baseurl}}/attachments/7505660/7602873.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_manifest_link.png]({{site.baseurl}}/attachments/7505660/7602874.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_tracking_admin.png]({{site.baseurl}}/attachments/7505660/7602876.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_tracking_admin.png]({{site.baseurl}}/attachments/7505660/7602875.png) (image/png)
+* [cp_returns_admin.png]({{site.baseurl}}/attachments/7505660/7602855.png) (image/png)
+* [cp_returns_admin1.png]({{site.baseurl}}/attachments/7505660/7602856.png) (image/png)
+* [cp_return_details.png]({{site.baseurl}}/attachments/7505660/7602857.png) (image/png)
+* [cp_shipping_method.png]({{site.baseurl}}/attachments/7505660/7602858.png) (image/png)
+* [cp_shipments_tab.png]({{site.baseurl}}/attachments/7505660/7602859.png) (image/png)
+* [cp_parcels.png]({{site.baseurl}}/attachments/7505660/7602860.png) (image/png)
+* [cp_parcels1.png]({{site.baseurl}}/attachments/7505660/7602861.png) (image/png)
+* [cp_move2newparcel1.png]({{site.baseurl}}/attachments/7505660/7602862.png) (image/png)
+* [cp_adjust_dimensions.png]({{site.baseurl}}/attachments/7505660/7602863.png) (image/png)
+* [cp_save_create_shipment.png]({{site.baseurl}}/attachments/7505660/7602864.png) (image/png)
+* [cp_shipment_info.png]({{site.baseurl}}/attachments/7505660/7602865.png) (image/png)
+* [cp_void.png]({{site.baseurl}}/attachments/7505660/7602866.png) (image/png)
+* [cp_shipments_list.png]({{site.baseurl}}/attachments/7505660/7602867.png) (image/png)
+* [cp_transmit.png]({{site.baseurl}}/attachments/7505660/7602868.png) (image/png)
+* [cp_transmit1.png]({{site.baseurl}}/attachments/7505660/7602869.png) (image/png)
+* [cp_void2.png]({{site.baseurl}}/attachments/7505660/7602870.png) (image/png)
+* [cp_manifest_created.png]({{site.baseurl}}/attachments/7505660/7602871.png) (image/png)
+* [cp_manifest_update.png]({{site.baseurl}}/attachments/7505660/7602872.png) (image/png)
+* [cp_manifest_approved.png]({{site.baseurl}}/attachments/7505660/7602873.png) (image/png)
+* [cp_manifest_link.png]({{site.baseurl}}/attachments/7505660/7602874.png) (image/png)
+* [cp_tracking_admin.png]({{site.baseurl}}/attachments/7505660/7602876.png) (image/png)
+* [cp_tracking_admin.png]({{site.baseurl}}/attachments/7505660/7602875.png) (image/png)

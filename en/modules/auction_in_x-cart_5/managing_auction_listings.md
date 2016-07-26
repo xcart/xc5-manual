@@ -1,5 +1,5 @@
 ---
-identifier: ref_rWo4QRxJ
+identifier: ref_56sCmm0k
 updated_at: 2014-12-17 00:00
 layout: article_with_sidebar
 lang: en
@@ -12,7 +12,7 @@ categories:
 
 This page provides information on the following actions with auction listings:
 
-*   {% link "Creating auction listings" ref_rWo4QRxJ %};
+*   {% link "Creating auction listings" ref_56sCmm0k %};
 *   {% link "Viewing existing auction listings" Managing-auction-listings_8225026.html %};
 *   {% link "Editing auction listings" Managing-auction-listings_8225026.html %};
 *   {% link "Deleting auction listings" Managing-auction-listings_8225026.html %}.
@@ -23,23 +23,23 @@ To enable auction style bidding for a product in your store, you need to create 
 
 To create an auction listing:
 
-1.  In your store's Admin area, go to the  Installed Modules section (**Extensions** >** Installed modules**), locate the entry for "Auction in X-Cart 5" and click the **Settings **link below it:  
-    ![]({{site.baseurl}}/attachments/8225026/8356065.png?effects=drop-shadow)  
+1.  In your store's Admin area, go to the  Installed Modules section (**Extensions** >** Installed modules**), locate the entry for "Auction in X-Cart 5" and click the **Settings **link below it:
+    ![]({{site.baseurl}}/attachments/8225026/8356065.png?effects=drop-shadow)
     This opens the '"Auction in X-Crat 5" module settings' page.
-2.  Select the **Products** tab:  
+2.  Select the **Products** tab:
     ![]({{site.baseurl}}/attachments/8225026/8356064.png?effects=drop-shadow)
-3.  Click **Add product**:  
-    ![]({{site.baseurl}}/attachments/8225026/8356066.png?effects=drop-shadow)  
-    A popup window titled "Create auction listing" will be displayed:  
+3.  Click **Add product**:
+    ![]({{site.baseurl}}/attachments/8225026/8356066.png?effects=drop-shadow)
+    A popup window titled "Create auction listing" will be displayed:
     ![]({{site.baseurl}}/attachments/8225026/8356067.png?effects=drop-shadow)
 4.  In the Create auction listing window, provide the auction listing details:
-    *   **Product**: Select the product you wish to sell at auction:   
+    *   **Product**: Select the product you wish to sell at auction: 
         Simply start typing the product name or SKU and enter at least three characters. As you type, products with matching names / SKU will be displayed as a drop-down list below the Product field. Locate the product for which you want to add an auction and click on its name. The product name will be entered in the Product field.
     *   **Auction type**: Choose an auction type for this listing. Currently an only type - _Classic auction_ - is supported.
     *   **Quantity**: Specify the number of product units that you want to sell at auction as a single lot. 
     *   **Starting price (for specified quantity)**: Specfy the starting price of this lot. This will be the initial point from which bidding will start for this lot. The value specified here will be displayed as the "Current price" of this lot before any bids are offered. The suggested first bid amount in the "Your bid" field will be calculated as "Starting price + Minimum bid increment". 
     *   **Minimum bid increment**: Set the minimum bid increment amount (the minimum amount by which an auction participant's bid will be raised).
-    *   **Duration**: Set the listing duration.  
+    *   **Duration**: Set the listing duration.
         ![]({{site.baseurl}}/attachments/8225026/8356068.png?effects=drop-shadow)
 5.  Click the **Create auction listing** button in the lower part of the popup window to save the changes.
 
@@ -53,12 +53,12 @@ You can view your store's currently existing auction listings. Currently existin
 
 To view your store's currently existing auction listings:
 
-1.  In your store's Admin area, go to the  Installed Modules section (**Extensions** >** Installed modules**), locate the entry for "Auction in X-Cart 5" and click the **Settings **link below it.  
+1.  In your store's Admin area, go to the  Installed Modules section (**Extensions** >** Installed modules**), locate the entry for "Auction in X-Cart 5" and click the **Settings **link below it.
     This opens the '"Auction in X-Crat 5" module settings' page.
-2.  Select the **Products** tab:  
-    ![]({{site.baseurl}}/attachments/8225026/8356064.png?effects=drop-shadow)  
-    This opens the section where you can see the list of your store's auction listngs in the form of a table:  
-    ![]({{site.baseurl}}/attachments/8225026/8356077.png?effects=drop-shadow)  
+2.  Select the **Products** tab:
+    ![]({{site.baseurl}}/attachments/8225026/8356064.png?effects=drop-shadow)
+    This opens the section where you can see the list of your store's auction listngs in the form of a table:
+    ![]({{site.baseurl}}/attachments/8225026/8356077.png?effects=drop-shadow)
 
 For each listing in the table the following information is provided:
 
@@ -81,9 +81,9 @@ It is possible to edit currently exising auction listings, no matter if they are
 
 To edit an auction listing:
 
-1.  In the {% link "list of currently existing auction listings" Managing-auction-listings_8225026.html %}, locate the listing you want to edit and click on the Edit button ![]({{site.baseurl}}/attachments/8225026/8356084.png) at the far right of the respective table row:  
-    ![]({{site.baseurl}}/attachments/8225026/8356081.png?effects=drop-shadow)  
-    A popup window titled "Edit auction listing" will be displayed:  
+1.  In the {% link "list of currently existing auction listings" Managing-auction-listings_8225026.html %}, locate the listing you want to edit and click on the Edit button ![]({{site.baseurl}}/attachments/8225026/8356084.png) at the far right of the respective table row:
+    ![]({{site.baseurl}}/attachments/8225026/8356081.png?effects=drop-shadow)
+    A popup window titled "Edit auction listing" will be displayed:
     ![]({{site.baseurl}}/attachments/8225026/8356104.png?effects=drop-shadow)
 2.  In the Edit auction listing popup window, edit the parameters of the listing you want to change.
 3.  Click the **Save changes** button to save the changes.
@@ -94,33 +94,33 @@ You can delete auction listings before they expire. 
 
  To delete an  auction listings:
 
-1.  In the {% link "list of currently existing auction listings" Managing-auction-listings_8225026.html %}, locate the listing you wish to delete and select it for removal by clicking on the Trash icon ![]({{site.baseurl}}/attachments/8225026/8356083.png) at the far right of the respective table row:  
+1.  In the {% link "list of currently existing auction listings" Managing-auction-listings_8225026.html %}, locate the listing you wish to delete and select it for removal by clicking on the Trash icon ![]({{site.baseurl}}/attachments/8225026/8356083.png) at the far right of the respective table row:
     ![]({{site.baseurl}}/attachments/8225026/8356079.png?effects=drop-shadow)
-2.  Click **Save changes**:  
-    ![]({{site.baseurl}}/attachments/8225026/8356080.png?effects=drop-shadow)  
+2.  Click **Save changes**:
+    ![]({{site.baseurl}}/attachments/8225026/8356080.png?effects=drop-shadow)
     The listing will be removed.
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [auction_products_tab.png]({{site.baseurl}}/attachments/8225026/8356078.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_settings_link.png]({{site.baseurl}}/attachments/8225026/8356065.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_add_product_button.png]({{site.baseurl}}/attachments/8225026/8356066.png) (image/png)  
-![](images/icons/bullet_blue.gif) [create_auction_listing.png]({{site.baseurl}}/attachments/8225026/8356067.png) (image/png)  
-![](images/icons/bullet_blue.gif) [create_auction_listing1.png]({{site.baseurl}}/attachments/8225026/8356069.png) (image/png)  
-![](images/icons/bullet_blue.gif) [create_auction_listing1.png]({{site.baseurl}}/attachments/8225026/8356070.png) (image/png)  
-![](images/icons/bullet_blue.gif) [create_auction_listing1.png]({{site.baseurl}}/attachments/8225026/8356068.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_list.png]({{site.baseurl}}/attachments/8225026/8356072.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_list.png]({{site.baseurl}}/attachments/8225026/8356071.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_list1.png]({{site.baseurl}}/attachments/8225026/8356077.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_products_tab.png]({{site.baseurl}}/attachments/8225026/8356064.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_delete.png]({{site.baseurl}}/attachments/8225026/8356079.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_delete1.png]({{site.baseurl}}/attachments/8225026/8356080.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_edit.png]({{site.baseurl}}/attachments/8225026/8356081.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_filter.png]({{site.baseurl}}/attachments/8225026/8356082.png) (image/png)  
-![](images/icons/bullet_blue.gif) [trash.png]({{site.baseurl}}/attachments/8225026/8356085.png) (image/png)  
-![](images/icons/bullet_blue.gif) [edit_icon.png]({{site.baseurl}}/attachments/8225026/8356084.png) (image/png)  
-![](images/icons/bullet_blue.gif) [trash.png]({{site.baseurl}}/attachments/8225026/8356086.png) (image/png)  
-![](images/icons/bullet_blue.gif) [trash.png]({{site.baseurl}}/attachments/8225026/8356083.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_edit1.png]({{site.baseurl}}/attachments/8225026/8356105.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_edit1.png]({{site.baseurl}}/attachments/8225026/8356120.png) (image/png)  
-![](images/icons/bullet_blue.gif) [auction_edit1.png]({{site.baseurl}}/attachments/8225026/8356104.png) (image/png)
+* [auction_products_tab.png]({{site.baseurl}}/attachments/8225026/8356078.png) (image/png)
+* [auction_settings_link.png]({{site.baseurl}}/attachments/8225026/8356065.png) (image/png)
+* [auction_add_product_button.png]({{site.baseurl}}/attachments/8225026/8356066.png) (image/png)
+* [create_auction_listing.png]({{site.baseurl}}/attachments/8225026/8356067.png) (image/png)
+* [create_auction_listing1.png]({{site.baseurl}}/attachments/8225026/8356069.png) (image/png)
+* [create_auction_listing1.png]({{site.baseurl}}/attachments/8225026/8356070.png) (image/png)
+* [create_auction_listing1.png]({{site.baseurl}}/attachments/8225026/8356068.png) (image/png)
+* [auction_list.png]({{site.baseurl}}/attachments/8225026/8356072.png) (image/png)
+* [auction_list.png]({{site.baseurl}}/attachments/8225026/8356071.png) (image/png)
+* [auction_list1.png]({{site.baseurl}}/attachments/8225026/8356077.png) (image/png)
+* [auction_products_tab.png]({{site.baseurl}}/attachments/8225026/8356064.png) (image/png)
+* [auction_delete.png]({{site.baseurl}}/attachments/8225026/8356079.png) (image/png)
+* [auction_delete1.png]({{site.baseurl}}/attachments/8225026/8356080.png) (image/png)
+* [auction_edit.png]({{site.baseurl}}/attachments/8225026/8356081.png) (image/png)
+* [auction_filter.png]({{site.baseurl}}/attachments/8225026/8356082.png) (image/png)
+* [trash.png]({{site.baseurl}}/attachments/8225026/8356085.png) (image/png)
+* [edit_icon.png]({{site.baseurl}}/attachments/8225026/8356084.png) (image/png)
+* [trash.png]({{site.baseurl}}/attachments/8225026/8356086.png) (image/png)
+* [trash.png]({{site.baseurl}}/attachments/8225026/8356083.png) (image/png)
+* [auction_edit1.png]({{site.baseurl}}/attachments/8225026/8356105.png) (image/png)
+* [auction_edit1.png]({{site.baseurl}}/attachments/8225026/8356120.png) (image/png)
+* [auction_edit1.png]({{site.baseurl}}/attachments/8225026/8356104.png) (image/png)

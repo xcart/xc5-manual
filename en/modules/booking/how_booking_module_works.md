@@ -1,5 +1,5 @@
 ---
-identifier: ref_BZ5OnUnC
+identifier: ref_8LMQvd29
 updated_at: 2015-07-03 00:00
 layout: article_with_sidebar
 lang: en
@@ -30,11 +30,11 @@ The module is mobile-friendly: by using responsive design techniques, it can di
 
 Related pages:
 
-*   {% link ""Booking" module: System requirements and installation" ref_kzn6kQxC %}
-*   {% link ""Booking" module: Getting started" ref_WtQyACcU %}
+*   {% link ""Booking" module: System requirements and installation" ref_0l095Fro %}
+*   {% link ""Booking" module: Getting started" ref_mUn67cLl %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [available-booking-variants.png]({{site.baseurl}}/attachments/8749986/8718798.png) (image/png)  
-![](images/icons/bullet_blue.gif) [product-no-dates-selected.png]({{site.baseurl}}/attachments/8749986/8718800.png) (image/png)  
-![](images/icons/bullet_blue.gif) [mobile-view-collapsed.png]({{site.baseurl}}/attachments/8749986/8718802.png) (image/png)
+* [available-booking-variants.png]({{site.baseurl}}/attachments/8749986/8718798.png) (image/png)
+* [product-no-dates-selected.png]({{site.baseurl}}/attachments/8749986/8718800.png) (image/png)
+* [mobile-view-collapsed.png]({{site.baseurl}}/attachments/8749986/8718802.png) (image/png)

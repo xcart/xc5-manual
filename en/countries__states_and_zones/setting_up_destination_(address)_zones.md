@@ -1,5 +1,5 @@
 ---
-identifier: ref_BR33Qe4e
+identifier: ref_r68iO5Rm
 updated_at: 2016-02-14 00:00
 layout: article_with_sidebar
 lang: en
@@ -34,25 +34,25 @@ For example, we need to create a zone "Atlantic Canada" that would include four
 
 Let's do it:
 
-1.  In your store's Admin area, go to **Store setup > Countries, states and zones**.  
+1.  In your store's Admin area, go to **Store setup > Countries, states and zones**.
     ![]({{site.baseurl}}/attachments/6389840/9437215.png)
-2.  Click the **Zones** tab:  
-    ![]({{site.baseurl}}/attachments/6389840/9437216.png)  
-    This opens the Zones section where you can create and manage your address zones:  
-    ![]({{site.baseurl}}/attachments/6389840/9437225.png)  
+2.  Click the **Zones** tab:
+    ![]({{site.baseurl}}/attachments/6389840/9437216.png)
+    This opens the Zones section where you can create and manage your address zones:
+    ![]({{site.baseurl}}/attachments/6389840/9437225.png)
 
-3.  Click the **Create zone** button.  
-    ![]({{site.baseurl}}/attachments/6389840/9437217.png)  
-    In the list of your store's zones, a new blank line will be added:  
+3.  Click the **Create zone** button.
+    ![]({{site.baseurl}}/attachments/6389840/9437217.png)
+    In the list of your store's zones, a new blank line will be added:
     ![]({{site.baseurl}}/attachments/6389840/9437224.png)
 4.  Use the new blank line in the list of zones to specify the name of the destination zone you will be creating (For the sake of example, we will use the name "Atlantic Canada"); then click the **Save changes** button at the bottom of the page:
 
-    ![]({{site.baseurl}}/attachments/6389840/9437218.png)The new zone will be added to the list:  
+    ![]({{site.baseurl}}/attachments/6389840/9437218.png)The new zone will be added to the list:
     ![]({{site.baseurl}}/attachments/6389840/9437219.png)
 
-5.  Hover your cursor over the name of the zone you have created. The field with the zone name will be displayed as editable, and an **Edit** button will be displayed next to it. If necessary, you can edit the zone name right here. To configure the zone details, click the **Edit** button:  
-    ![]({{site.baseurl}}/attachments/6389840/9437220.png)  
-    A page with the zone details will be displayed:  
+5.  Hover your cursor over the name of the zone you have created. The field with the zone name will be displayed as editable, and an **Edit** button will be displayed next to it. If necessary, you can edit the zone name right here. To configure the zone details, click the **Edit** button:
+    ![]({{site.baseurl}}/attachments/6389840/9437220.png)
+    A page with the zone details will be displayed:
     ![]({{site.baseurl}}/attachments/6389840/9437221.png)
 
 6.  Adjust the zone details as needed. 
@@ -61,7 +61,7 @@ Let's do it:
 
     *   Use the sections **Countries**, **States **and **Zip/postal code masks** to specify the regions/territories that belong to the zone being edited. In the sections **Countries** and **States**, you need to select all the countries and states that should be part of the zone from the box(es) on the left-hand side and move them to the box(es) on the right-hand side using the "**>>**" button. In the section Zip/postal masks, you need to specify the zip/postal codes (or zip/postal code masks) that should belong to the zone. 
 
-        ![]({{site.baseurl}}/attachments/6389840/9437222.png)  
+        ![]({{site.baseurl}}/attachments/6389840/9437222.png)
         To configure the zone "Atlantic Canada", we would need to select the following territories:
 
         *   in the section **Counties** - Canada;
@@ -70,8 +70,8 @@ Let's do it:
 
         *   in the section **Zip/postal code masks** - nothing.
 
-7.  Once you are done configuring the zone, click the **Save changes** button at the bottom of the page to save the changes.  
-    ![]({{site.baseurl}}/attachments/6389840/9437223.png)  
+7.  Once you are done configuring the zone, click the **Save changes** button at the bottom of the page to save the changes.
+    ![]({{site.baseurl}}/attachments/6389840/9437223.png)
     The zone details will be saved.
 
 # The "All Addresses" (default) zone
@@ -82,18 +82,18 @@ The first time you choose to view the details of the "All Addresses" zone, this
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [storesetup-destinationzones.png]({{site.baseurl}}/attachments/6389840/6586521.png) (image/png)  
-![](images/icons/bullet_blue.gif) [destination-zones.png]({{site.baseurl}}/attachments/6389840/6586528.png) (image/png)  
-![](images/icons/bullet_blue.gif) [atlantic-canada-zone.png]({{site.baseurl}}/attachments/6389840/6586529.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_section.png]({{site.baseurl}}/attachments/6389840/9437215.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_zones_tab.png]({{site.baseurl}}/attachments/6389840/9437216.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_create_zone.png]({{site.baseurl}}/attachments/6389840/9437217.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_new_zone1.png]({{site.baseurl}}/attachments/6389840/9437226.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_new_zone2.png]({{site.baseurl}}/attachments/6389840/9437219.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_new_zone3.png]({{site.baseurl}}/attachments/6389840/9437220.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_new_zone4.png]({{site.baseurl}}/attachments/6389840/9437221.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_new_zone5.png]({{site.baseurl}}/attachments/6389840/9437222.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_new_zone6.png]({{site.baseurl}}/attachments/6389840/9437223.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_new_zone0.png]({{site.baseurl}}/attachments/6389840/9437224.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_new_zone00.png]({{site.baseurl}}/attachments/6389840/9437225.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_destzones_new_zone1.png]({{site.baseurl}}/attachments/6389840/9437218.png) (image/png)
+* [storesetup-destinationzones.png]({{site.baseurl}}/attachments/6389840/6586521.png) (image/png)
+* [destination-zones.png]({{site.baseurl}}/attachments/6389840/6586528.png) (image/png)
+* [atlantic-canada-zone.png]({{site.baseurl}}/attachments/6389840/6586529.png) (image/png)
+* [xc5_destzones_section.png]({{site.baseurl}}/attachments/6389840/9437215.png) (image/png)
+* [xc5_destzones_zones_tab.png]({{site.baseurl}}/attachments/6389840/9437216.png) (image/png)
+* [xc5_destzones_create_zone.png]({{site.baseurl}}/attachments/6389840/9437217.png) (image/png)
+* [xc5_destzones_new_zone1.png]({{site.baseurl}}/attachments/6389840/9437226.png) (image/png)
+* [xc5_destzones_new_zone2.png]({{site.baseurl}}/attachments/6389840/9437219.png) (image/png)
+* [xc5_destzones_new_zone3.png]({{site.baseurl}}/attachments/6389840/9437220.png) (image/png)
+* [xc5_destzones_new_zone4.png]({{site.baseurl}}/attachments/6389840/9437221.png) (image/png)
+* [xc5_destzones_new_zone5.png]({{site.baseurl}}/attachments/6389840/9437222.png) (image/png)
+* [xc5_destzones_new_zone6.png]({{site.baseurl}}/attachments/6389840/9437223.png) (image/png)
+* [xc5_destzones_new_zone0.png]({{site.baseurl}}/attachments/6389840/9437224.png) (image/png)
+* [xc5_destzones_new_zone00.png]({{site.baseurl}}/attachments/6389840/9437225.png) (image/png)
+* [xc5_destzones_new_zone1.png]({{site.baseurl}}/attachments/6389840/9437218.png) (image/png)

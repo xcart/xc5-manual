@@ -1,5 +1,5 @@
 ---
-identifier: ref_JQLJNOwT
+identifier: ref_TvmooKW9
 updated_at: 2015-11-13 00:00
 layout: article_with_sidebar
 lang: en
@@ -28,17 +28,17 @@ Vendors can access the section for the management of product classes and attribu
 *   via the **Attributes** tab of the product details view of a specific product;
 *   via the **Classes & attributes** menu item in the **Products** menu.
 
-More information on the management of product classes and attributes can be found in the {% link "Product classes and attributes" ref_F1TNi0gL %} section of this manual.
+More information on the management of product classes and attributes can be found in the {% link "Product classes and attributes" ref_T90ZcEpP %} section of this manual.
 
 _Related pages_:
 
-*   {% link "Vendor login and first steps" ref_LAI14FMl %}
-*   {% link "Managing vendor catalog" ref_9gsHuW0K %}
-*   {% link "Vendor import/export" ref_KPdT60VD %}
-*   {% link "Managing vendor shipping methods" ref_lTlMruZ5 %}
-*   {% link "Vendor access to orders and statistics" ref_w2GOgSNg %}
+*   {% link "Vendor login and first steps" ref_SZycMdTx %}
+*   {% link "Managing vendor catalog" ref_r4mcwiho %}
+*   {% link "Vendor import/export" ref_pa3oqbXz %}
+*   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
+*   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_vendor_ceramics_product_class.png]({{site.baseurl}}/attachments/8749481/8717109.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749481/8717110.png) (image/png)
+* [xc5_vendor_ceramics_product_class.png]({{site.baseurl}}/attachments/8749481/8717109.png) (image/png)
+* [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749481/8717110.png) (image/png)

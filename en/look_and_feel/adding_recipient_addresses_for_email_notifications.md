@@ -1,5 +1,5 @@
 ---
-identifier: ref_GSfsWt68
+identifier: ref_wKcxbiUf
 updated_at: 2016-04-08 00:00
 layout: article_with_sidebar
 lang: en
@@ -78,4 +78,4 @@ This email is used as the 'to' address for messages sent by store visitors via t
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [contacts.png]({{site.baseurl}}/attachments/7505260/7602606.png) (image/png)
+* [contacts.png]({{site.baseurl}}/attachments/7505260/7602606.png) (image/png)

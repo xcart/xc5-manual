@@ -1,5 +1,5 @@
 ---
-identifier: ref_l3wFaS2a
+identifier: ref_eOsVsftg
 updated_at: 2016-04-27 00:00
 layout: article_with_sidebar
 lang: en
@@ -20,9 +20,9 @@ Beginning with version 5.2.6, the module allows you to connect to printers using
 
 The requirements depend on the connection method you require:
 
-*   For printing with the QZ Print Java applet, the module requires Java 5 or higher to be installed on your machine. For help installing Java on your platform, see the Java tutorial ([https://code.google.com/p/jzebra/wiki/TutorialJavaInstall](https://code.google.com/p/jzebra/wiki/TutorialJavaInstall)). Also, see [https://java.com/en/download/help/enable_browser.xml](https://java.com/en/download/help/enable_browser.xml) for help on enabling Java in your web browser. For more info on QZ Print, see {% link "Getting started with QZ Print Java applet" ref_gvkSUN5A %}.
-*   For printing with QZ Tray 2.x, it is recommended to purchase QZ premium support at [http://buy.qz.io/](http://buy.qz.io/).  For more info, see {% link "Getting started with QZ Tray 2.x" ref_15OKBWVw %}.
-*   For printing with PrintNode, you need to register an account with PrintNode at [https://app.printnode.com/account/register](https://app.printnode.com/account/register). For more info, see {% link "Getting started with PrintNode" ref_kFBiA8W7 %}.  
+*   For printing with the QZ Print Java applet, the module requires Java 5 or higher to be installed on your machine. For help installing Java on your platform, see the Java tutorial ([https://code.google.com/p/jzebra/wiki/TutorialJavaInstall](https://code.google.com/p/jzebra/wiki/TutorialJavaInstall)). Also, see [https://java.com/en/download/help/enable_browser.xml](https://java.com/en/download/help/enable_browser.xml) for help on enabling Java in your web browser. For more info on QZ Print, see {% link "Getting started with QZ Print Java applet" ref_1e1MaOuk %}.
+*   For printing with QZ Tray 2.x, it is recommended to purchase QZ premium support at [http://buy.qz.io/](http://buy.qz.io/).  For more info, see {% link "Getting started with QZ Tray 2.x" ref_lh4nFlzm %}.
+*   For printing with PrintNode, you need to register an account with PrintNode at [https://app.printnode.com/account/register](https://app.printnode.com/account/register). For more info, see {% link "Getting started with PrintNode" ref_L2vV8Twt %}.
 
 # Hardware requirements
 
@@ -52,12 +52,12 @@ The module POS system for X-Cart can be obtained via X-Cart’s Marketplace. It 
 
 Note that the module POS system requires another module by X-Cart team to be installed and enabled - System fields. Be sure to enable this module prior to enabling the module POS system.
 
-The general module installation instructions are available here: {% link "Installing modules from the Marketplace" ref_36GTeW9L %}.
+The general module installation instructions are available here: {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
 _Related pages:_
 
-*   {% link "Getting started with POS system for X-Cart" ref_TwJ1dw8a %}
+*   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [POS_module.png]({{site.baseurl}}/attachments/7504375/8718937.png) (image/png)
+* [POS_module.png]({{site.baseurl}}/attachments/7504375/8718937.png) (image/png)

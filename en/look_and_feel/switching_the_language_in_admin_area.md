@@ -1,5 +1,5 @@
 ---
-identifier: ref_8QXiJTuq
+identifier: ref_x5oSN86B
 updated_at: 2015-09-30 00:00
 layout: article_with_sidebar
 lang: en
@@ -16,11 +16,11 @@ If you do not see the language selector in the Admin panel header, then you prob
 
 _Related pages:_
 
-*   {% link "Translating your store's user interface to other languages" ref_LLaMGa9w %}  
+*   {% link "Translating your store's user interface to other languages" ref_NH3w8sSS %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [2464376.png]({{site.baseurl}}/attachments/6389822/6586501.png) (image/png)  
-![](images/icons/bullet_blue.gif) [1858315.png]({{site.baseurl}}/attachments/6389822/6586502.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_translation_search.png]({{site.baseurl}}/attachments/6389822/8716776.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_admin_language_selector.png]({{site.baseurl}}/attachments/6389822/8716777.png) (image/png)
+* [2464376.png]({{site.baseurl}}/attachments/6389822/6586501.png) (image/png)
+* [1858315.png]({{site.baseurl}}/attachments/6389822/6586502.png) (image/png)
+* [xc5_translation_search.png]({{site.baseurl}}/attachments/6389822/8716776.png) (image/png)
+* [xc5_admin_language_selector.png]({{site.baseurl}}/attachments/6389822/8716777.png) (image/png)

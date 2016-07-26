@@ -1,5 +1,5 @@
 ---
-identifier: ref_iDgFCnRt
+identifier: ref_meqXfPIt
 updated_at: 2014-04-09 00:00
 layout: article_with_sidebar
 lang: en
@@ -16,24 +16,24 @@ In your store's Admin area, orders that were placed by customers using Pay with 
 
 The order details page for such orders includes a section titled "Pay with Amazon available order actions". Depending on the order status, this section may include the following buttons:
 
-*   **Capture and Void**: These buttons are displayed when "Authorization then capture" mode is used, and the order is in the "Authorized" status. The **Capture** button allows you to collect payment from the buyer after the respective payment amount has been authorized. The **Void** button allows you to void the authorization.  
+*   **Capture and Void**: These buttons are displayed when "Authorization then capture" mode is used, and the order is in the "Authorized" status. The **Capture** button allows you to collect payment from the buyer after the respective payment amount has been authorized. The **Void** button allows you to void the authorization.
     ![]({{site.baseurl}}/attachments/7504753/7602405.png?effects=drop-shadow)
-*   **Refund**: This button allows you to refund the payment if you already captured funds. It is displayed when the order is "Processed" or "Completed".  
-    ![]({{site.baseurl}}/attachments/7504753/7602406.png?effects=drop-shadow)  
+*   **Refund**: This button allows you to refund the payment if you already captured funds. It is displayed when the order is "Processed" or "Completed".
+    ![]({{site.baseurl}}/attachments/7504753/7602406.png?effects=drop-shadow)
 
-*   **Refresh status**: This button is displayed if Instant Payment Notification with the results of processing the payment on the side of Amazon Payments was not received by the store. This may be the case if IPN was not configured or was not working for some reason at the time of the transaction. The **Refresh status** button provides a workaround solution allowing you to obtain information on the current status of the payment in Amazon Payments and to synchronize the status of the order in X-Cart with it. When you click this button, your store sends a request to Amazon Payments; after a response from Amazon is received, the status of the order in X-Cart is updated appropriately, and the respective buttons for available order actions ("Capture" and "Void", or "Refund") get displayed in the "Pay with Amazon available order actions" section.  
-    ![]({{site.baseurl}}/attachments/7504753/7602407.png?effects=drop-shadow)  
+*   **Refresh status**: This button is displayed if Instant Payment Notification with the results of processing the payment on the side of Amazon Payments was not received by the store. This may be the case if IPN was not configured or was not working for some reason at the time of the transaction. The **Refresh status** button provides a workaround solution allowing you to obtain information on the current status of the payment in Amazon Payments and to synchronize the status of the order in X-Cart with it. When you click this button, your store sends a request to Amazon Payments; after a response from Amazon is received, the status of the order in X-Cart is updated appropriately, and the respective buttons for available order actions ("Capture" and "Void", or "Refund") get displayed in the "Pay with Amazon available order actions" section.
+    ![]({{site.baseurl}}/attachments/7504753/7602407.png?effects=drop-shadow)
 
 At the moment, X-Cart's Pay with Amazon integration supports Authorize, Capture, Void and Refund operations only for the sum equalling the original order amount. Changes to the original authorization amount, partial captures and partial refunds are not supported. In situations calling for transactions with amounts that are more or less than the original order amount, we recommended cancelling the original order and working with the customer to place the order again. For example, if, after receiving an order, you find out that some of the items in the order have gone out of stock and cannot be fulfilled, you should Void or Refund the transaction and ask the customer to re-submit the order. 
 
 _Related pages:_
 
-*   {% link "Configuring the Pay with Amazon module" ref_T3zMut4t %}
-*   {% link "Pay with Amazon customer experience" ref_II05AOGF %}
+*   {% link "Configuring the Pay with Amazon module" ref_0UssH5KP %}
+*   {% link "Pay with Amazon customer experience" ref_MQB8GDLT %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [capture_void.png]({{site.baseurl}}/attachments/7504753/7602405.png) (image/png)  
-![](images/icons/bullet_blue.gif) [refund.png]({{site.baseurl}}/attachments/7504753/7602406.png) (image/png)  
-![](images/icons/bullet_blue.gif) [refresh_status.png]({{site.baseurl}}/attachments/7504753/7602407.png) (image/png)  
-![](images/icons/bullet_blue.gif) [PwA_method.png]({{site.baseurl}}/attachments/7504753/7602408.png) (image/png)
+* [capture_void.png]({{site.baseurl}}/attachments/7504753/7602405.png) (image/png)
+* [refund.png]({{site.baseurl}}/attachments/7504753/7602406.png) (image/png)
+* [refresh_status.png]({{site.baseurl}}/attachments/7504753/7602407.png) (image/png)
+* [PwA_method.png]({{site.baseurl}}/attachments/7504753/7602408.png) (image/png)

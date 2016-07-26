@@ -1,5 +1,5 @@
 ---
-identifier: ref_MmNXCs8G
+identifier: ref_TmUz8Bkv
 updated_at: 2015-09-26 00:00
 layout: article_with_sidebar
 lang: en
@@ -15,9 +15,9 @@ You do not need programming knowledge to add ecommerce blocks with product or ca
 Adding a category or a product to a blog post is "cut and paste" easy:
 
 1.  In your X-Cart store's back end, locate the product or category that you want to show on your WordPress blog.
-2.  Open the details of this product or category. Provided that the module has been installed successfully, you should now be able to see a new tab added to the product/category deails page - **WP code**:  
+2.  Open the details of this product or category. Provided that the module has been installed successfully, you should now be able to see a new tab added to the product/category deails page - **WP code**:
     ![]({{site.baseurl}}/attachments/8750584/8719412.png?effects=drop-shadow)
-3.  Select the **WP code** tab. On the page that opens you should now see a bit of code like the following:  
+3.  Select the **WP code** tab. On the page that opens you should now see a bit of code like the following:
     ![]({{site.baseurl}}/attachments/8750584/8719413.png?effects=drop-shadow)
 4.  Click on the code (this will allow you to select it). 
 5.  Copy the code to clipboard.
@@ -30,10 +30,10 @@ Now check the post in your WordPress blog; you should be able to see the product
 
 Related pages:
 
-*   {% link "How WordPress Integration works" ref_n57CHGM2 %}
-*   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_KtdabhP3 %}
+*   {% link "How WordPress Integration works" ref_9IwXqwiT %}
+*   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_wp_int_wp_code_tab.png]({{site.baseurl}}/attachments/8750584/8719412.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_wp_int_wp_code_tab1.png]({{site.baseurl}}/attachments/8750584/8719413.png) (image/png)
+* [xc5_wp_int_wp_code_tab.png]({{site.baseurl}}/attachments/8750584/8719412.png) (image/png)
+* [xc5_wp_int_wp_code_tab1.png]({{site.baseurl}}/attachments/8750584/8719413.png) (image/png)

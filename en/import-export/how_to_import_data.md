@@ -1,5 +1,5 @@
 ---
-identifier: ref_FEOkKayb
+identifier: ref_glDc6kA1
 updated_at: 2016-06-15 00:00
 layout: article_with_sidebar
 lang: en
@@ -27,11 +27,11 @@ There are two ways to create a CSV file for import:
 ## Creating a CSV file from scratch
 
 1.  Create a new table in your favourite spreadsheet editor (_MS Excel_, _LibreOffice Calc_, etc).
-2.  Define what parameters you want to import. To do so, specify these parameters in the cells of the first line in your spreadsheet file. Links to articles with detailed information on the supported parameters can be found in the section {% link "CSV format by X-Cart data type" ref_sKWAkGEN %} of this manual.
+2.  Define what parameters you want to import. To do so, specify these parameters in the cells of the first line in your spreadsheet file. Links to articles with detailed information on the supported parameters can be found in the section {% link "CSV format by X-Cart data type" ref_iy9cOdWS %} of this manual.
 3.  Specify the actual details in the cells of the second and all the subsequent lines. Ultimately, your file will look similar to this:![]({{site.baseurl}}/attachments/6389817/6586496.png?effects=drop-shadow)
 4.  Export the file to CSV format.
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [product-import.png]({{site.baseurl}}/attachments/6389817/7602467.png) (image/png)  
-![](images/icons/bullet_blue.gif) [product-import.png]({{site.baseurl}}/attachments/6389817/6586496.png) (image/png)
+* [product-import.png]({{site.baseurl}}/attachments/6389817/7602467.png) (image/png)
+* [product-import.png]({{site.baseurl}}/attachments/6389817/6586496.png) (image/png)

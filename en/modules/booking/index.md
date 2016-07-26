@@ -1,5 +1,5 @@
 ---
-identifier: ref_PXe8rB1L
+identifier: ref_iTdd1QoP
 updated_at: 2015-07-13 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,4 +14,4 @@ The module **Booking** for X-Cart 5 is an extension allowing you to set up a boo
 
 _Related pages:_
 
-*   {% link "Booking module (video)" ref_Cncykni8 %}
+*   {% link "Booking module (video)" ref_TquQiTqG %}

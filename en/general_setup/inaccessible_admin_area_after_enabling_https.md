@@ -1,5 +1,5 @@
 ---
-identifier: ref_Twl3kXpf
+identifier: ref_q171FiKp
 updated_at: 2015-07-20 00:00
 layout: article_with_sidebar
 lang: en
@@ -18,16 +18,17 @@ If this warning is too late, and your X-Cart Admin area is already inaccessible 
 
 If, however, HTTPS may not be enabled properly at this time, you can restore access to X-Cart Admin by completing the following steps:
 
-1.  Reset the values of the fields **admin_security** and **customer_security** in your store's database. These fields can be found in the table **x****c_config**, provided that during X-Cart installation you chose to use the MySQL table prefix "xc_".   
+1.  Reset the values of the fields **admin_security** and **customer_security** in your store's database. These fields can be found in the table **x****c_config**, provided that during X-Cart installation you chose to use the MySQL table prefix "xc_". 
     The following MySQL statement will select the fields in question from the database table xc_config:
 
-    {% highlight php %}{% raw %}
+    {% raw %}```php
     SELECT * FROM `xc_config` WHERE `name` LIKE "%security%";
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     The following statement will reset the field values:
 
-    {% highlight php %}{% raw %}
+    {% raw %}```php
     UPDATE `xc_config` SET `value`=0 WHERE `name`="admin_security" OR `name`="customer_security";
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
+
 2.  Remove the folder **var/datacache/** in your X-Cart insallation directory.

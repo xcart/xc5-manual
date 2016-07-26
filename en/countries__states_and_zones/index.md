@@ -1,5 +1,5 @@
 ---
-identifier: ref_MlRU6aEe
+identifier: ref_DmCBnKwz
 updated_at: 2015-12-24 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,4 +14,4 @@ description: Setup various geographic zones used to configure shipping and tax r
 
 _In this section:_
 
-*   [Setting up destination (address) zones](http://kb.x-cart.com/display/XDD/Setting+up+destination+%28address%29+zones)
+*   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}

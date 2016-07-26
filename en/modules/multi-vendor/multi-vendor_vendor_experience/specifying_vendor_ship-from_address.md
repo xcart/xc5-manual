@@ -1,5 +1,5 @@
 ---
-identifier: ref_WOQPBDQd
+identifier: ref_TWPnoz7h
 updated_at: 2015-11-13 00:00
 layout: article_with_sidebar
 lang: en
@@ -18,8 +18,8 @@ In the "Warehouse" mode, vendors do not have access to the above section, as the
 
 _Related pages:_
 
-*   {% link "Managing vendor profile information" ref_XbtJFiMB %}
+*   {% link "Managing vendor profile information" ref_b7PTQMgf %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_multi_vendor_store_address.png]({{site.baseurl}}/attachments/8750997/8719618.png) (image/png)
+* [xc5_multi_vendor_store_address.png]({{site.baseurl}}/attachments/8750997/8719618.png) (image/png)

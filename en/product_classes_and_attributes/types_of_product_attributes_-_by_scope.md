@@ -1,5 +1,5 @@
 ---
-identifier: ref_UdUa8HcM
+identifier: ref_uaJk8ete
 updated_at: 2014-05-15 00:00
 layout: article_with_sidebar
 lang: en
@@ -26,7 +26,7 @@ Then, if one of your products has a property not found in any other products in 
 
 _Related pages:_
 
-*   {% link "Managing product classes" ref_sOTxdt4h %}
-*   {% link "Managing product-specific attributes" ref_GM544D3Q %}
-*   {% link "Managing product class attributes" ref_qopTMhrU %}
-*   {% link "Managing global attributes" ref_VL5PeU5w %}
+*   {% link "Managing product classes" ref_EVqNSaZy %}
+*   {% link "Managing product-specific attributes" ref_d4ktum3z %}
+*   {% link "Managing product class attributes" ref_kEKoAxJB %}
+*   {% link "Managing global attributes" ref_HzMkgc0q %}

@@ -1,11 +1,11 @@
 ---
-identifier: ref_zFzVWTIG
+identifier: ref_VG5mIoLT
 updated_at: 2016-06-07 00:00
 layout: article_with_sidebar
 lang: en
 title: 'Installation Guide'
 categories:
-  - User manual
+  - General setup
 
 ---
 
@@ -61,43 +61,15 @@ Here is the system requirements list:
 *   [DocBlock](http://www.phpdoc.org/) supported
 *   `memory_limit` set to 128M or higher (if you are using 64-bit processors in your server environment, the `memory_limit value` must be 256M or higher)
 *   GDLib 2.0 or ImageMagick (recommended for proper image resizing routines)
-*   {% link "PHP time limit" ref_R2bCFpaS %} properly set according to your server config
-*   mod_rewrite-like components to enable proper work of {% link "SEO-friendly URLs" ref_BvyxeQSQ %}
+*   {% link "PHP time limit" ref_xqnpttd4 %} properly set according to your server config
+*   mod_rewrite-like components to enable proper work of {% link "SEO-friendly URLs" ref_nJxrzFEZ %}
 *   if xdebug is enabled, xdebug.max_nesting_level must be set to 300
 
 ## Hardware requirements
 
-<table class="confluenceTable">
-
-<tbody>
-
-<tr>
-
-<th style="text-align: center;" class="confluenceTh"> </th>
-
-<th colspan="3" style="text-align: center;" class="confluenceTh">Traffic</th>
-
-</tr>
-
-<tr>
-
-<th style="text-align: center;" class="confluenceTh">Catalog size</th>
-
-<th class="confluenceTh">up to 100 visitors/day</th>
-
-<th class="confluenceTh">up to 5 000 visitors/day</th>
-
-<th class="confluenceTh">up to 15 000 visitors/day</th>
-
-</tr>
-
-<tr>
-
-<th class="confluenceTh">1 500 SKUs</th>
-
-<td class="confluenceTd">a good shared/cloud hosting</td>
-
-<td class="confluenceTd">
+|   | Traffic |
+| Catalog size | up to 100 visitors/day | up to 5 000 visitors/day | up to 15 000 visitors/day |
+| 1 500 SKUs | a good shared/cloud hosting | 
 
 VPS / Dedicated server
 
@@ -105,9 +77,7 @@ VPS / Dedicated server
 *   RAM 1 GB
 *   250 Mbps connection
 
-</td>
-
-<td class="confluenceTd">
+ | 
 
 Dedicated server
 
@@ -115,17 +85,8 @@ Dedicated server
 *   RAM 8 GB, SAS HDD
 *   500 Mbps connection
 
-</td>
-
-</tr>
-
-<tr>
-
-<th class="confluenceTh">20 000 SKUs</th>
-
-<td class="confluenceTd">a good shared/cloud hosting</td>
-
-<td class="confluenceTd">
+ |
+| 20 000 SKUs | a good shared/cloud hosting | 
 
 VPS / Dedicated server
 
@@ -133,9 +94,7 @@ VPS / Dedicated server
 *   RAM 2 GB
 *   250 Mbps connection
 
-</td>
-
-<td class="confluenceTd">
+ | 
 
 Dedicated server
 
@@ -143,15 +102,8 @@ Dedicated server
 *   RAM 16 GB, SAS HDD
 *   500 Mbps connection
 
-</td>
-
-</tr>
-
-<tr>
-
-<th class="confluenceTh">300 000 SKUs</th>
-
-<td class="confluenceTd">
+ |
+| 300 000 SKUs | 
 
 VPS hosting
 
@@ -159,9 +111,7 @@ VPS hosting
 *   RAM 2 GB
 *   100 Mbps connection
 
-</td>
-
-<td class="confluenceTd">
+ | 
 
 Dedicated server
 
@@ -169,9 +119,7 @@ Dedicated server
 *   RAM 4 GB, SAS HDD
 *   250 Mbps connection
 
-</td>
-
-<td class="confluenceTd">
+ | 
 
 Dedicated server
 
@@ -179,13 +127,7 @@ Dedicated server
 *   RAM 16 GB, SAS HDD
 *   500 Mbps connection
 
-</td>
-
-</tr>
-
-</tbody>
-
-</table>
+ |
 
 # Browser compatibility
 
@@ -198,7 +140,7 @@ X-Cart 5 supports following browsers:
 
 # Installation process
 
-This article covers the process of installation for X-Cart versions 5.2.5 and later. For earlier versions the process is similar; however, the installation wizard steps are a bit different. A video guide for installing X-Cart versions prior to 5.2.5 is available {% link "here" ref_mvTqdO0R %}.
+This article covers the process of installation for X-Cart versions 5.2.5 and later. For earlier versions the process is similar; however, the installation wizard steps are a bit different. A video guide for installing X-Cart versions prior to 5.2.5 is available {% link "here" ref_OgodT8pE %}.
 
 ## Upload X-Cart 5 onto your server
 
@@ -208,15 +150,15 @@ This article covers the process of installation for X-Cart versions 5.2.5 and la
 
     for zip archive: 
 
-    {% highlight php %}{% raw %}
+    {% raw %}```php
     unzip x-cart-5.2.13-en.zip
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     for tgz archive: 
 
-    {% highlight php %}{% raw %}
+    {% raw %}```php
     tar -xzpf x-cart-5.2.13-en.tgz
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     (Be sure to replace the file name with the actual name of the archive you have downloaded).
 
@@ -267,7 +209,7 @@ In this section, you can adjust the following settings:
 
 *   **MySQL server port**: The port for connection to your MySQL server. In most cases, it is **3306** and can be omitted.
 *   **MySQL server socket**: This should be defined if the connection to your MySQL server is done via a socket, not via specifying a server and a port. To be honest, it is quite a rare situation, and you almost always run the connection via specifying a server and a port. Anyway, if using a socket is your case, **do not specify** a server and a port. Just define the socket.
-*   **MySQL tables prefix**: The prefix of tables in order to distinguish ones related to X-Cart from others in your database. However, it is highly recommended to use a separate database for X-Cart 5 and not to put any other applications' tables into this database.  
+*   **MySQL tables prefix**: The prefix of tables in order to distinguish ones related to X-Cart from others in your database. However, it is highly recommended to use a separate database for X-Cart 5 and not to put any other applications' tables into this database.
 
 And here is the **Advanced server settings** section:
 
@@ -304,26 +246,26 @@ Such problems generally mean that MySQL credentials were specified incorrectly o
 
 Examples:
 
-1.  {% highlight php %}{% raw %}
+1.  {% raw %}```php
     FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[28000] [1045] Access denied for user 'tony'@'localhost' (using password: YES) Click the 'BACK' button and review the MySQL server settings provided
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
-    Such error message means that your MySQL login or password are incorrect. You need to double check your MySQL credentials and input them correctly.  
+    Such error message means that your MySQL login or password are incorrect. You need to double check your MySQL credentials and input them correctly.
     _Note: sometimes this problem can happen even when you correctly specify login and password, but there is actually the problem with **MySQL user** preferences. You can check it in a following manner: go to the **phpMyAdmin** console of your server and check the MySQL user's **Host** field. If it is specified as **% (Any host)**, then you should remove this MySQL user and create new one with the same name but specify Host field as **localhost (Local)**._
 
-2.  {% highlight php %}{% raw %}
+2.  {% raw %}```php
     FATAL ERROR: Cannot connect to specified MySQL server : SQLSTATE[HY000] [1044] Access denied for user 'tony'@'localhost' to database 'xcart' Click the 'BACK' button and review the MySQL server settings you have provided.
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     Such error message means that your MySQL login/password allowed X-Cart to log to MySQL server, but your database does not exist or your MySQL user cannot access it. You should log into your MySQL dashboard and make sure that your database exists and the MySQL user has an access to it.
 
 3.  Other MySQL errors like:
 
-    {% highlight php %}{% raw %}
+    {% raw %}```php
     FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
     FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[HY000] [2002] The requested address is not valid in its context.
     FATAL ERROR: MySQL server doesn't support InnoDB engine. It is required for X-Cart 5 operation(current version is 5.1.73-cll)
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     mean that there is something wrong with your MySQL server settings. You need to send such error message to your hosting team and ask them to fix it.
 
@@ -331,7 +273,7 @@ Examples:
 
 Such error messages may look like this:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 Permissions checking failed. Please make sure that the following file permissions are assigned (UNIX only):
 chmod 666 /home/tony/public_html/xcart/.htaccess
 
@@ -347,29 +289,29 @@ find /Applications/MAMP/htdocs/xcart/files -type d -exec chmod 0777 {} \;
 find /Applications/MAMP/htdocs/xcart/files -type f -exec chmod 0666 {} \;
 chmod 666 /Applications/MAMP/htdocs/xcart/etc/config.php
 chmod 666 /Applications/MAMP/htdocs/xcart/.htaccess
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 Such error messages mean that some files do not have suitable permissions and you must correct them manually. Copy the instructions suggested and run them using **Terminal** section in your Control Panel.
 
 There are several examples of error message for better understanding of the process:
 
-1.  {% highlight php %}{% raw %}
+1.  {% raw %}```php
     chmod 666 /home/tony/public_html/xcart/.htaccess
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     Such instruction means that all users must have readable and writable permissions for the  `/home/tony/public_html/xcart/.htaccess` file.
 
-2.  {% highlight php %}{% raw %}
+2.  {% raw %}```php
     find /Applications/MAMP/htdocs/xcart/var -type d -exec chmod 0777 {} \;
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     Such instruction means that all users must have all possible permissions (`chmod 0777`) to all directories `(-type d`) inside `/Applications/MAMP/htdocs/xcart/var` folder.
 
 3.  Similarly to above
 
-    {% highlight php %}{% raw %}
+    {% raw %}```php
     find /Applications/MAMP/htdocs/xcart/files -type f -exec chmod 0666 {} \;
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     this instruction means that all users must have readable and writeable permissions (`chmod 0666`) to all files `(-type f`) inside `/Applications/MAMP/htdocs/xcart/var` folder.
 
@@ -377,9 +319,9 @@ There are several examples of error message for better understanding of the proc
 
 Your hosting company may disable several default PHP functions and X-Cart 5 cannot work while they are disabled. In this case, you will get the error message like this:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 There are disabled functions (phpinfo, escapeshellcmd, escapeshellarg, openlog, syslog, exec, popen) that may be used by software in some cases and should be enabled
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 The list of disable functions can be different.
 
@@ -389,47 +331,47 @@ In order to solve this issue, you should send the list of disableв PHP function
 
 If you are getting an error message like this: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 PDO extension with MySQL support must be installed.
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 it means that your server does not support library to work with MySQL via PDO. PDO is an extension that ensures safe work with database and it is required for proper X-Cart 5 work. Ask your hosting team to enable it for your hosting account.
 
 If you are on local machine, you need to edit your php.ini file, uncomment the following line there and restart Apache.
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 ;extension=pdo_mysql.so
 
 it should become
 extension=pdo_mysql.so
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 ## 5\. HTTPS bouncer is not installed
 
 If you are getting an error message like this:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 libcurl extension not found
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 it means that libCurl system library is not enabled in your account and your PHP scripts cannot create connections to other services. Ask your hosting team to enable libCurl for you.
 
-{% link "Setting up cURL" ref_iChZ9HIV %} article may be helpful if you are installing X-Cart 5 on your local server.
+{% link "Setting up cURL" ref_sshnMtN7 %} article may be helpful if you are installing X-Cart 5 on your local server.
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [installation-step1.png]({{site.baseurl}}/attachments/524295/7602252.png) (image/png)  
-![](images/icons/bullet_blue.gif) [installation-step-2.png]({{site.baseurl}}/attachments/524295/7602253.png) (image/png)  
-![](images/icons/bullet_blue.gif) [installation-step-3.png]({{site.baseurl}}/attachments/524295/7602254.png) (image/png)  
-![](images/icons/bullet_blue.gif) [installation-step-6.png]({{site.baseurl}}/attachments/524295/7602255.png) (image/png)  
-![](images/icons/bullet_blue.gif) [installation-step-7.png]({{site.baseurl}}/attachments/524295/7602256.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_installation_step1.png]({{site.baseurl}}/attachments/524295/8719152.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_installation_step2.png]({{site.baseurl}}/attachments/524295/8719153.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_installation_step1.png]({{site.baseurl}}/attachments/524295/8719150.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_installation_step2.png]({{site.baseurl}}/attachments/524295/8719151.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_installation_step3.png]({{site.baseurl}}/attachments/524295/8719154.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_installation_step4.png]({{site.baseurl}}/attachments/524295/8719155.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_installation_step4_1.png]({{site.baseurl}}/attachments/524295/8719156.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_installation_step4_2.png]({{site.baseurl}}/attachments/524295/8719157.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_installation_step5.png]({{site.baseurl}}/attachments/524295/8719158.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_installation_step7.png]({{site.baseurl}}/attachments/524295/8719159.png) (image/png)
+* [installation-step1.png]({{site.baseurl}}/attachments/524295/7602252.png) (image/png)
+* [installation-step-2.png]({{site.baseurl}}/attachments/524295/7602253.png) (image/png)
+* [installation-step-3.png]({{site.baseurl}}/attachments/524295/7602254.png) (image/png)
+* [installation-step-6.png]({{site.baseurl}}/attachments/524295/7602255.png) (image/png)
+* [installation-step-7.png]({{site.baseurl}}/attachments/524295/7602256.png) (image/png)
+* [xc5_installation_step1.png]({{site.baseurl}}/attachments/524295/8719152.png) (image/png)
+* [xc5_installation_step2.png]({{site.baseurl}}/attachments/524295/8719153.png) (image/png)
+* [xc5_installation_step1.png]({{site.baseurl}}/attachments/524295/8719150.png) (image/png)
+* [xc5_installation_step2.png]({{site.baseurl}}/attachments/524295/8719151.png) (image/png)
+* [xc5_installation_step3.png]({{site.baseurl}}/attachments/524295/8719154.png) (image/png)
+* [xc5_installation_step4.png]({{site.baseurl}}/attachments/524295/8719155.png) (image/png)
+* [xc5_installation_step4_1.png]({{site.baseurl}}/attachments/524295/8719156.png) (image/png)
+* [xc5_installation_step4_2.png]({{site.baseurl}}/attachments/524295/8719157.png) (image/png)
+* [xc5_installation_step5.png]({{site.baseurl}}/attachments/524295/8719158.png) (image/png)
+* [xc5_installation_step7.png]({{site.baseurl}}/attachments/524295/8719159.png) (image/png)

@@ -1,5 +1,5 @@
 ---
-identifier: ref_nP6ZOw21
+identifier: ref_whrpZnV3
 updated_at: 2015-12-28 00:00
 layout: article_with_sidebar
 lang: en
@@ -12,12 +12,12 @@ categories:
 
 The [U.S.P.S. module](http://www.x-cart.com/extensions/addons/usps.html) for X-Cart 5 allows you to use online shipping rate calculation via [USPS Web Tools Ecommerce API](http://www.usps.com/webtools).
 
-This article assumes that the U.S.P.S module has already been {% link "installed and activated" ref_FBqE6f5B %} at your store.
+This article assumes that the U.S.P.S module has already been {% link "installed and activated" ref_0fGEpvrh %} at your store.
 
 To start using the module, you need to configure it. The module configuration settings can be accessed using one of the following methods:
 
-*   In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), select the **U.S.P.S settings** tab:  
-    ![]({{site.baseurl}}/attachments/8225090/8356090.png?effects=drop-shadow)  
+*   In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), select the **U.S.P.S settings** tab:
+    ![]({{site.baseurl}}/attachments/8225090/8356090.png?effects=drop-shadow)
     OR
 *   In the Installed Modules section of your X-Cart store’s Admin area (**Extensions** >** Installed modules**), locate the entry for U.S.P.S. module and click the **Settings **link below it:![]({{site.baseurl}}/attachments/8225090/8356089.png?effects=drop-shadow)
 
@@ -25,7 +25,7 @@ The U.S.P.S. settings page looks like the following:
 
 ![]({{site.baseurl}}/attachments/8225090/8356091.png?effects=drop-shadow)
 
-Below is an explanation of the settings that can be found on the U.S.P.S. settings page.  
+Below is an explanation of the settings that can be found on the U.S.P.S. settings page.
 
 # Authentication options
 
@@ -75,18 +75,18 @@ These are some options that are helpful, but do not affect shipping rates calcul
 
 ![]({{site.baseurl}}/attachments/8225090/8356034.png?effects=drop-shadow)
 
-*   **Log all communication between shopping cart and USPS server**:Thisoption enables logging of requests to the USPS server and responses from it. The logs are saved to **USPS.log** files in the `<X-Cart>/var/log/` folder.  
+*   **Log all communication between shopping cart and USPS server**:Thisoption enables logging of requests to the USPS server and responses from it. The logs are saved to **USPS.log** files in the `<X-Cart>/var/log/` folder.
 
 *   **Auto enable new USPS shipping methods**: This option will automatically add all new USPS shipping methods to your system. They will not be enabled for customers automatically though.
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [usps-settings.png]({{site.baseurl}}/attachments/8225090/8356029.png) (image/png)  
-![](images/icons/bullet_blue.gif) [usps-auth-options.png]({{site.baseurl}}/attachments/8225090/8356030.png) (image/png)  
-![](images/icons/bullet_blue.gif) [usps-common-options.png]({{site.baseurl}}/attachments/8225090/8356031.png) (image/png)  
-![](images/icons/bullet_blue.gif) [usps-domestic-usps.png]({{site.baseurl}}/attachments/8225090/8356032.png) (image/png)  
-![](images/icons/bullet_blue.gif) [usps-international.png]({{site.baseurl}}/attachments/8225090/8356033.png) (image/png)  
-![](images/icons/bullet_blue.gif) [usps-additional-options.png]({{site.baseurl}}/attachments/8225090/8356034.png) (image/png)  
-![](images/icons/bullet_blue.gif) [usps_settings_link.png]({{site.baseurl}}/attachments/8225090/8356089.png) (image/png)  
-![](images/icons/bullet_blue.gif) [usps_settings_tab.png]({{site.baseurl}}/attachments/8225090/8356090.png) (image/png)  
-![](images/icons/bullet_blue.gif) [usps_settings_page.png]({{site.baseurl}}/attachments/8225090/8356091.png) (image/png)
+* [usps-settings.png]({{site.baseurl}}/attachments/8225090/8356029.png) (image/png)
+* [usps-auth-options.png]({{site.baseurl}}/attachments/8225090/8356030.png) (image/png)
+* [usps-common-options.png]({{site.baseurl}}/attachments/8225090/8356031.png) (image/png)
+* [usps-domestic-usps.png]({{site.baseurl}}/attachments/8225090/8356032.png) (image/png)
+* [usps-international.png]({{site.baseurl}}/attachments/8225090/8356033.png) (image/png)
+* [usps-additional-options.png]({{site.baseurl}}/attachments/8225090/8356034.png) (image/png)
+* [usps_settings_link.png]({{site.baseurl}}/attachments/8225090/8356089.png) (image/png)
+* [usps_settings_tab.png]({{site.baseurl}}/attachments/8225090/8356090.png) (image/png)
+* [usps_settings_page.png]({{site.baseurl}}/attachments/8225090/8356091.png) (image/png)

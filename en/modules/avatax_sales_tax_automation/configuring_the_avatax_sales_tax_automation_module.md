@@ -1,5 +1,5 @@
 ---
-identifier: ref_e7Bik73T
+identifier: ref_havNFG9i
 updated_at: 2015-05-26 00:00
 layout: article_with_sidebar
 lang: en
@@ -10,20 +10,20 @@ categories:
 ---
 
 
-After the module has been {% link "installed and enabled" ref_7sCnJ9Fn %}, it needs to be configured.
+After the module has been {% link "installed and enabled" ref_RGbuM3KA %}, it needs to be configured.
 
 To configure the module:
 
-1.  In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for the AvaTax Sales Tax Automation module and click the **Settings **link below it:  
-    ![]({{site.baseurl}}/attachments/8749239/8717991.png?effects=drop-shadow)  
-    The "AvaTax Sales Tax Automation" module settings page opens.  
+1.  In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for the AvaTax Sales Tax Automation module and click the **Settings **link below it:
+    ![]({{site.baseurl}}/attachments/8749239/8717991.png?effects=drop-shadow)
+    The "AvaTax Sales Tax Automation" module settings page opens.
     ![]({{site.baseurl}}/attachments/8749239/8717393.png?effects=drop-shadow)
-2.  Provide your authentication information in the _Account settings_ section:  
+2.  Provide your authentication information in the _Account settings_ section:
 
     *   **Account number**: Enter the account number that was provided to you via the AvaTax Admin Console. This is a ten-digit number (e.g. 1100012345) which is used to authenticate your API call.
     *   **License Key**: Enter the license key that was provided to you via the AvaTax Admin Console. This is a 13-character string (e.g. 1A2BC3D4E5F6G7).
     *   **Company code**: Enter the company code that was declared during the company setup in the AvaTax Admin Console. 
-3.  Adjust the rest of the fields on the page:  
+3.  Adjust the rest of the fields on the page:
     _Tax Calculation settings_
     *   **Enable tax calculation**: Use this setting to enable/disable the use of Avalara's tax calculation services for your store.
     *   **Commit on Order**: When this setting is enabled, your store sends a request to AvaTax to commit the sales invoice (i.e. to record the invoice in AvaTax for reporting) as soon as the buyer completes creating their order. When this setting is disabled, at the time of order placement  the sales invoice is saved on the Admin Console but not committed.  It is recommended to keep the "Commit on order" option enabled if you know that according to you store's business processes the AvaTax invoice document will no longer need to be changed once the order has been placed. If you know there may be changes, it is better to disable this option so the document remains uncommitted until the transaction is finilized; then you will need to commit the document manually. Please note that while the "Commit on order" option is disabled, Avalara charges you for every request that your store sends to AvaTax related to a change in an uncommitted order. 
@@ -36,9 +36,9 @@ To configure the module:
 
 _Related pages:_
 
-*   {% link "Getting started with AvaTax Sales Tax Automation" ref_hqOqXrfu %}
+*   {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [avatax_module_confsettings.png]({{site.baseurl}}/attachments/8749239/8717393.png) (image/png)  
-![](images/icons/bullet_blue.gif) [avatax_settings_link.png]({{site.baseurl}}/attachments/8749239/8717991.png) (image/png)
+* [avatax_module_confsettings.png]({{site.baseurl}}/attachments/8749239/8717393.png) (image/png)
+* [avatax_settings_link.png]({{site.baseurl}}/attachments/8749239/8717991.png) (image/png)

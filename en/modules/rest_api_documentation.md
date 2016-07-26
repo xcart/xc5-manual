@@ -1,5 +1,5 @@
 ---
-identifier: ref_E3tQpFao
+identifier: ref_RSR29iWL
 updated_at: 2015-10-07 00:00
 layout: article_with_sidebar
 lang: en
@@ -43,15 +43,15 @@ If you want to exchange data with X-Cart through an external script, [REST API]
 
 # Installing and configuring REST API
 
-In order to be able to access X-Cart's data externally, you have to {% link "install" ref_36GTeW9L %} the **REST API** module.  
+In order to be able to access X-Cart's data externally, you have to {% link "install" ref_Vn1mMUw9 %} the **REST API** module.
 After the module has been installed, you need to set it up.
 
-1.  Go to the **Settings** section for the REST API module:   
+1.  Go to the **Settings** section for the REST API module: 
     ![]({{site.baseurl}}/attachments/3768321/8356021.png?effects=drop-shadow)
 2.  On the setting page specify one of the following:
     *   **API key (read/write)** - a key allowing an external application to have full access to X-Cart data (reading and writing);
-    *   **API key (only read)** - a key allowing an external application to only read data.  
-        ![]({{site.baseurl}}/attachments/3768321/8718906.png?effects=drop-shadow)  
+    *   **API key (only read)** - a key allowing an external application to only read data.
+        ![]({{site.baseurl}}/attachments/3768321/8718906.png?effects=drop-shadow)
         For instance, we set **read/write key** as "_key-to-do-everything" _and **read key** as "_key-for-reading_".
 
         Security disclaimer
@@ -60,225 +60,227 @@ After the module has been installed, you need to set it up.
 
         REST API allows to operate with absolutely all data of your store. External scripts will be able to fetch, edit and remove absolutely any data. That is why you should not give REST API keys to people and companies you do not trust. Also, make a point of providing read-only keys rather than read/write ones.
 
-3.  In order to test REST API functionality, we are trying to open the following page:   
-    `http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=key-to-do-everything&_path=product/1  
-    `_(Be sure to replace the <MY-XCART-PATH> portion with the actual path to where your X-Cart is installed and the "key-to-do-everything" portion with your actual REST API key)._  
+3.  In order to test REST API functionality, we are trying to open the following page: 
+    `http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=key-to-do-everything&_path=product/1
+    `_(Be sure to replace the <MY-XCART-PATH> portion with the actual path to where your X-Cart is installed and the "key-to-do-everything" portion with your actual REST API key)._
 
 4.  If product with ID = 1 exists in your database, you will get a result similar to the following:
 
     ![]({{site.baseurl}}/images/icons/grey_arrow_down.png)JSON product data...
 
+    ```
+    {
+      "freeShip": false,
+      "freightFixedFee": 0,
+      "isCustomerAttachmentsAvailable": false,
+      "isCustomerAttachmentsRequired": false,
+      "participateSale": false,
+      "discountType": "sale_price",
+      "salePriceValue": 0,
+      "pinCodesEnabled": false,
+      "autoPinCodes": false,
+      "marketPrice": 0,
+      "ogMeta": "",
+      "useCustomOG": false,
+      "product_id": 1,
+      "price": 19.99,
+      "sku": "10001",
+      "enabled": true,
+      "weight": 0.32,
+      "useSeparateBox": false,
+      "boxWidth": 0,
+      "boxLength": 0,
+      "boxHeight": 0,
+      "itemsPerBox": 1,
+      "free_shipping": false,
+      "taxable": true,
+      "javascript": "",
+      "arrivalDate": 1424506256,
+      "date": 1437466241,
+      "updateDate": 1437466242,
+      "needProcess": false,
+      "attrSepTab": true,
+      "metaDescType": "A",
+      "upsellingProducts": [
+
+      ],
+      "upsellingParentProducts": [
+
+      ],
+      "reviews": [
+
+      ],
+      "variants": [
+
+      ],
+      "variantsAttributes": [
+
+      ],
+      "vendor": null,
+      "tabs": [
+
+      ],
+      "views_stats": [
+
+      ],
+      "purchase_stats": [
+
+      ],
+      "pinCodes": [
+
+      ],
+      "attachments": [
+
+      ],
+      "featuredProducts": [
+
+      ],
+      "categoryProducts": [
         {
-          "freeShip": false,
-          "freightFixedFee": 0,
-          "isCustomerAttachmentsAvailable": false,
-          "isCustomerAttachmentsRequired": false,
-          "participateSale": false,
-          "discountType": "sale_price",
-          "salePriceValue": 0,
-          "pinCodesEnabled": false,
-          "autoPinCodes": false,
-          "marketPrice": 0,
-          "ogMeta": "",
-          "useCustomOG": false,
-          "product_id": 1,
-          "price": 19.99,
-          "sku": "10001",
-          "enabled": true,
-          "weight": 0.32,
-          "useSeparateBox": false,
-          "boxWidth": 0,
-          "boxLength": 0,
-          "boxHeight": 0,
-          "itemsPerBox": 1,
-          "free_shipping": false,
-          "taxable": true,
-          "javascript": "",
-          "arrivalDate": 1424506256,
-          "date": 1437466241,
-          "updateDate": 1437466242,
-          "needProcess": false,
-          "attrSepTab": true,
-          "metaDescType": "A",
-          "upsellingProducts": [
-
-          ],
-          "upsellingParentProducts": [
-
-          ],
-          "reviews": [
-
-          ],
-          "variants": [
-
-          ],
-          "variantsAttributes": [
-
-          ],
-          "vendor": null,
-          "tabs": [
-
-          ],
-          "views_stats": [
-
-          ],
-          "purchase_stats": [
-
-          ],
-          "pinCodes": [
-
-          ],
-          "attachments": [
-
-          ],
-          "featuredProducts": [
-
-          ],
-          "categoryProducts": [
-            {
-              "id": 1,
-              "orderby": 0
-            }
-          ],
-          "order_items": [
-            {
-              "xpcFakeItem": false,
-              "item_id": 10,
-              "name": "Planet Express Babydoll",
-              "sku": "10001",
-              "price": 19.99,
-              "itemNetPrice": 19.99,
-              "discountedSubtotal": 17.979,
-              "amount": 1,
-              "total": 19.99,
-              "subtotal": 19.99
-            }
-          ],
-          "images": [
-            {
-              "orderby": -10,
-              "alt": "Planet Express Babydoll",
-              "s3icons": [
-
-              ],
-              "width": 500,
-              "height": 494,
-              "hash": null,
-              "needProcess": true,
-              "id": 1,
-              "path": "demo_p4003.jpeg",
-              "fileName": "",
-              "mime": "image\/jpeg",
-              "storageType": "r",
-              "size": 29749,
-              "date": 1280310731
-            }
-          ],
-          "inventory": {
-            "inventoryId": 1,
-            "enabled": true,
-            "amount": 50,
-            "lowLimitEnabled": true,
-            "lowLimitAmount": 10
-          },
-          "productClass": {
-            "id": 1,
-            "position": 0
-          },
-          "taxClass": null,
-          "attributes": [
-
-          ],
-          "attributeValueC": [
-
-          ],
-          "attributeValueT": [
-
-          ],
-          "attributeValueS": [
-            {
-              "priceModifier": 0,
-              "priceModifierType": "a",
-              "weightModifier": 0,
-              "weightModifierType": "a",
-              "defaultValue": false,
-              "id": 1
-            },
-            {
-              "priceModifier": 0,
-              "priceModifierType": "a",
-              "weightModifier": 0,
-              "weightModifierType": "a",
-              "defaultValue": false,
-              "id": 2
-            },
-            {
-              "priceModifier": 0,
-              "priceModifierType": "a",
-              "weightModifier": 0,
-              "weightModifierType": "a",
-              "defaultValue": false,
-              "id": 3
-            },
-            {
-              "priceModifier": 0,
-              "priceModifierType": "a",
-              "weightModifier": 0,
-              "weightModifierType": "a",
-              "defaultValue": false,
-              "id": 4
-            },
-            {
-              "priceModifier": 0,
-              "priceModifierType": "a",
-              "weightModifier": 0,
-              "weightModifierType": "a",
-              "defaultValue": false,
-              "id": 244
-            }
-          ],
-          "quickData": [
-            {
-              "id": 13,
-              "price": 19.99
-            },
-            {
-              "id": 14,
-              "price": 19.99
-            }
-          ],
-          "memberships": [
-
-          ],
-          "cleanURLs": [
-            {
-              "id": 1,
-              "cleanURL": "planet-express-babydoll.html"
-            }
-          ],
-          "translations": [
-            {
-              "name": "Planet Express Babydoll",
-              "description": "",
-              "briefDescription": "",
-              "metaTags": "",
-              "metaDesc": "",
-              "metaTitle": "",
-              "label_id": 1,
-              "code": "en"
-            },
-            {
-              "name": "\u0424\u0443\u0442\u0431\u043e\u043b\u043a\u0430 \"Planet Express Babydoll\"",
-              "description": "",
-              "briefDescription": "",
-              "metaTags": "",
-              "metaDesc": "",
-              "metaTitle": "",
-              "label_id": 46,
-              "code": "ru"
-            }
-          ]
+          "id": 1,
+          "orderby": 0
         }
+      ],
+      "order_items": [
+        {
+          "xpcFakeItem": false,
+          "item_id": 10,
+          "name": "Planet Express Babydoll",
+          "sku": "10001",
+          "price": 19.99,
+          "itemNetPrice": 19.99,
+          "discountedSubtotal": 17.979,
+          "amount": 1,
+          "total": 19.99,
+          "subtotal": 19.99
+        }
+      ],
+      "images": [
+        {
+          "orderby": -10,
+          "alt": "Planet Express Babydoll",
+          "s3icons": [
+
+          ],
+          "width": 500,
+          "height": 494,
+          "hash": null,
+          "needProcess": true,
+          "id": 1,
+          "path": "demo_p4003.jpeg",
+          "fileName": "",
+          "mime": "image\/jpeg",
+          "storageType": "r",
+          "size": 29749,
+          "date": 1280310731
+        }
+      ],
+      "inventory": {
+        "inventoryId": 1,
+        "enabled": true,
+        "amount": 50,
+        "lowLimitEnabled": true,
+        "lowLimitAmount": 10
+      },
+      "productClass": {
+        "id": 1,
+        "position": 0
+      },
+      "taxClass": null,
+      "attributes": [
+
+      ],
+      "attributeValueC": [
+
+      ],
+      "attributeValueT": [
+
+      ],
+      "attributeValueS": [
+        {
+          "priceModifier": 0,
+          "priceModifierType": "a",
+          "weightModifier": 0,
+          "weightModifierType": "a",
+          "defaultValue": false,
+          "id": 1
+        },
+        {
+          "priceModifier": 0,
+          "priceModifierType": "a",
+          "weightModifier": 0,
+          "weightModifierType": "a",
+          "defaultValue": false,
+          "id": 2
+        },
+        {
+          "priceModifier": 0,
+          "priceModifierType": "a",
+          "weightModifier": 0,
+          "weightModifierType": "a",
+          "defaultValue": false,
+          "id": 3
+        },
+        {
+          "priceModifier": 0,
+          "priceModifierType": "a",
+          "weightModifier": 0,
+          "weightModifierType": "a",
+          "defaultValue": false,
+          "id": 4
+        },
+        {
+          "priceModifier": 0,
+          "priceModifierType": "a",
+          "weightModifier": 0,
+          "weightModifierType": "a",
+          "defaultValue": false,
+          "id": 244
+        }
+      ],
+      "quickData": [
+        {
+          "id": 13,
+          "price": 19.99
+        },
+        {
+          "id": 14,
+          "price": 19.99
+        }
+      ],
+      "memberships": [
+
+      ],
+      "cleanURLs": [
+        {
+          "id": 1,
+          "cleanURL": "planet-express-babydoll.html"
+        }
+      ],
+      "translations": [
+        {
+          "name": "Planet Express Babydoll",
+          "description": "",
+          "briefDescription": "",
+          "metaTags": "",
+          "metaDesc": "",
+          "metaTitle": "",
+          "label_id": 1,
+          "code": "en"
+        },
+        {
+          "name": "\u0424\u0443\u0442\u0431\u043e\u043b\u043a\u0430 \"Planet Express Babydoll\"",
+          "description": "",
+          "briefDescription": "",
+          "metaTags": "",
+          "metaDesc": "",
+          "metaTitle": "",
+          "label_id": 46,
+          "code": "ru"
+        }
+      ]
+    }
+    ```
 
     This is product information in JSON format.
 
@@ -286,15 +288,15 @@ After the module has been installed, you need to set it up.
 
 Once your REST API module is installed, you can start receiving data from X-Cart. REST API allows to pull a particular entity identified by ID, e.g. pulling a product with ID=1 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<MY-XCART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/1
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 or entities of a certain type, e.g. pulling all products 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<MY-XCART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 As you can see, in first case we passed the path as **_path=product/1** (where 1 is the ID of a product we want to fetch) and in the second case we passed it as **_path=product **(because we want to pull the info of all products).
 
@@ -304,7 +306,7 @@ Each REST API request must contain three parameters:
 
 1.  **target**=RESTAPI;
 2.  **_key**=<your rest api key>;
-3.  **_path** param that identifies what entity you are pulling. This parameter is combined of an **{% link "entity name" ref_E3tQpFao %}** and an optional **entity ID** separated by the **/** character. Should contain **/0** (e.g. product/0) when used to create an entity with **POST** method.
+3.  **_path** param that identifies what entity you are pulling. This parameter is combined of an **{% link "entity name" ref_RSR29iWL %}** and an optional **entity ID** separated by the **/** character. Should contain **/0** (e.g. product/0) when used to create an entity with **POST** method.
 
 In addition to that, you can pass the** _method** parameter that will define what you are going to do within this request. Here are the possible values:
 
@@ -325,9 +327,9 @@ For example, product "**orderBy**" condition can be set through this query: `_c
 
 Another example is the product "**inventory**" condition, which filters product by their stock status. Possible statuses are "all" (every product, no filtration), "low" (low amount), "out" (out of stock) and "in" (in stock). If we need to find all products which are out of stock, we set query param like this: `_cnd[inventory]=out`. The whole request now looks like this: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<MY-XCART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product&_cnd[inventory]=out
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 To find out which conditions you can apply to various model, you should find the corresponding Model/Repo/<entity>.php script in your X-Cart distributive (See {% link "How to work with different entities in the Default schema?" REST-API-documentation_3768321.html %} to get more information about different entites). We can't provide you a full list here because there are lots of types of entities, many of them are added by addons, and there are lots of conditions for each entity.
 
@@ -337,17 +339,17 @@ For methods that require the model param, you should prepare an array of data an
 
 Model as a query param looks like this (this is a _product_ entity):
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 &model[sku]=sweatshirt  		  			// defining product data
 &model[price]=10.00
 &model[inventory][amount]=100     			// Inventory is linked model, that is why we use 2 dimensional array
 &model[translations][0][code]=en  			// Name is a part of translations model that is why we are using 2 dimensional array as well
 &model[translations][0][name]=sweatshirt
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 Model as a JSON object looks like this (a _category_ entity is used as an example):
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 {
   "parent": { 					// ManyToOne relation
     "category_id": 1 				// integer field
@@ -363,13 +365,14 @@ Model as a JSON object looks like this (a _category_ entity is used as an exampl
     }
   ]
 }
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 As you can see, non-required fields can be omitted, and there are different types of data here: **integers**, **booleans**, **strings**, and **decimals****.** For a reference of which type is used for a model field, you should refer to your X-Cart model classes. Some fields can represent a relation to other models. There are 3 types of relationship between entities: **OneToMany**, **ManyToOne**, and **ManyToMany**.
 
 The **OneToMany** relationship is used when the entity is linked to many (0+) entities of another type (e.g. one Category is related to many child Categories). You should pass an array of objects of certain type here. 
 
-**Category children example (OneToMany)**{% highlight php %}{% raw %}
+**Category children example (OneToMany)**
+{% raw %}```php
 // QUERY
 ...
 &model[children][0][category_id]=2
@@ -388,13 +391,14 @@ The **OneToMany** relationship is used when the entity is linked to many (0+) e
 	]
 	...
 }
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 The **ManyToOne** relationship is used when the entity and, possibly, other entities of such type are linked to one entity (e.g. many Orders are related to one particular Profile). You should pass an object with a set of fields used as an identifier for an entity (for example, entity ID).
 
 The **ManyToMany** relationship is a combination of the two aforemented relations and is used when many entities of one type are related to many entities of another type (e.g. one Product can relate to several Categories, and one Category can group several Products). You prepare your data in the same manner as in ManyToOne relationship (because ManyToMany type is basically made of two linked ManyToOne relationships from both sides).
 
-**Category parent example (ManyToOne, ManyToMany)**{% highlight php %}{% raw %}
+**Category parent example (ManyToOne, ManyToMany)**
+{% raw %}```php
 // QUERY
 ...
 &model[parent][category_id]=1
@@ -407,7 +411,7 @@ The **ManyToMany** relationship is a combination of the two aforemented relation
 	},
 	...
 }
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 ## Security protection
 
@@ -443,22 +447,22 @@ If you do not want to bother making requests via pure cURL and then parse result
 
 1.  [Install Guzzle](https://github.com/guzzle/guzzle#installing-guzzle) via Composer to the folder where your script working with REST API is located. Please note that you'll need **Guzzle 5.0.*** for a client to work, **not** the 6.0 version. That is because Guzzle [switched to PSR-7](https://github.com/guzzle/guzzle/releases/tag/6.0.0) for HTTP message and our REST API Client is not compatible with that. You might need to call 
 
-    {% highlight php %}{% raw %}
+    {% raw %}```php
     php composer.phar require guzzlehttp/guzzle:5.0.3
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     instead of
 
-    {% highlight php %}{% raw %}
+    {% raw %}```php
     composer require guzzlehttp/guzzle:5.0.3
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     during Guzzle installation.
 
 2.  Download the latest version of the **RESTAPIClient.php** script from [https://github.com/xcart/next-sdk/tree/master/lib/RESTAPI](https://github.com/xcart/next-sdk/tree/master/lib/RESTAPI) and put it into the same folder where Guzzle lib is installed.
 3.  Create your script (for example, _test.php_) with the following content: 
 
-    {% highlight php %}{% raw %}
+    {% raw %}```php
     <?php
 
     error_reporting(-1);
@@ -476,7 +480,7 @@ If you do not want to bother making requests via pure cURL and then parse result
     $product = $client->get('product/1')->json();
 
     var_dump($product);
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     In this script, we first initialize REST API libs, then we create a **$client** object that will work with X-Cart REST API, pull product info and var_dump the returned data to a screen.
 
@@ -489,7 +493,7 @@ X-Cart REST API supports two data schemes:
 
 You can reasonably ask what format you should choose. The best answer is to show you an example. For instance, you need to pull product info such as **sku**, **name**, **description**, **price** and **quantity** for all your products. Using the default format it would look as follows: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 <?php
 
 // init REST API
@@ -514,13 +518,13 @@ foreach ($products as $product) {
 	echo 'Quantity: ' . $extendedProductInfo['inventory']['amount'] . PHP_EOL;
 	echo 'Price: ' . $product['price'] . PHP_EOL;
 }
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 As you can see, you have to make multiple requests in order to pull the needed product info (name, description, quantity) if you use the **Default** format.
 
 As has been said earlier, the **Complex** schema serves the typical integration use-cases; that is why in order to pull the same product info you would need to make only one request as follows:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 <?php
 
 // init REST API
@@ -543,7 +547,7 @@ foreach ($products as $product) {
 	echo 'Quantity: ' . $product['quantity'] . PHP_EOL;
 	echo 'Price: ' . $product['price'] . PHP_EOL;
 }
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 Answering the question what format is for you, we would say that if you need general info about products, orders and users, then choose the **Complex** schema, if you need some specific info or you need to pull info about other entities (categories, payment methods, etc), then use the **Default** schema.
 
@@ -555,19 +559,19 @@ If you feel that the existing schemes don't suit your needs, you can always buil
 
 If you want to use the **Default** schema, you should instantiate the REST API client as follows: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey, 'default');
 
 // or simply
 
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 If you want to create the REST API client with the **Complex** schema, then do it as follows: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey, 'complex');
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 ## Data available in the Complex schema
 
@@ -679,7 +683,7 @@ $client = \RESTAPIClient::factory($storeUrl, $restApiKey, 'complex');
 
 What entity you are working with via REST API is entirely defined by the **_path** parameter in request. Basically, you are working with X-Cart models, which is described in the `<X-Cart>/classes/XLite/Model/` folder. You can also work with models of the modules. They are described in the `<X-Cart>/classes/XLite/<DEVELOPER-ID>/<MODULE-ID>/Model/` folder, where <DEVELOPER-ID> and <MODULE-ID> are module identifiers.
 
-In order to work with orders via REST API, you specify **_path=order**, because the order model is described in the `\XLite\Model\Order` class (see the {% link "article about class names" ref_w5qN2evm %}). If you want to work with users via REST API, you specify **_path=profile**. The general principle is to find a class that describes the entity you need and then create the **_path** parameter based on the classname of this entity.
+In order to work with orders via REST API, you specify **_path=order**, because the order model is described in the `\XLite\Model\Order` class (see the {% link "article about class names" ref_FAgFbEx9 %}). If you want to work with users via REST API, you specify **_path=profile**. The general principle is to find a class that describes the entity you need and then create the **_path** parameter based on the classname of this entity.
 
 ## Building _path for core models
 
@@ -742,21 +746,21 @@ For the sake of example, we will show examples for product entities only, but th
 
 Direct request: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product&_cnd[price][0]=10&_cnd[price][1]=20
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 Explanation of this request:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product   //We are using GET method to pull the data
 &_cnd[price][0]=10   // We use _cnd param here. "price" is the condition and it is consists of two values: min and max. Here we define "min" part of the range - 10.
 &_cnd[price][1]=20   // Second part of the price condition. Here we define "max" part of the range - 20.
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 With REST API Client:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 // preparing product data
@@ -768,7 +772,7 @@ $query = array(
 
 // sending request
 $result = $client->get('product', array('query' => $query))->json();
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 Such a request will create a product and then return the same product info in JSON as a result.
 
@@ -776,13 +780,13 @@ Such a request will create a product and then return the same product info in JS
 
 Direct request: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/0&_method=post&model[sku]=sweatshirt&model[price]=10.00&model[inventory][amount]=100&model[translations][0][code]=en&model[translations][0][name]=sweatshirt
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 Explanation of this request:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/0
 &_method=post           // we use POST method for creating products and we specify _path as product/0, where /0 tells X-Cart that new entity is being created
 &model[sku]=sweatshirt  // defining product data
@@ -790,11 +794,11 @@ http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/0
 &model[inventory][amount]=100     // Inventory is linked model, that is why we use 2 dimensional array
 &model[translations][0][code]=en  // Name is a part of translations model that is why we are using 2 dimensional array as well
 &model[translations][0][name]=sweatshirt
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 With REST API Client:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 // preparing product data
@@ -812,7 +816,7 @@ $product = array(
 
 // sending request
 $result = $client->post('product/0', array('body' => $product))->json();
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 Such a request will create a product and then return the same product info in JSON as a result.
 
@@ -820,13 +824,13 @@ Such a request will create a product and then return the same product info in JS
 
 Direct request: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product&_method=post&model[0][sku]=red-apple&model[0][price]=5.00&model[0][inventory][amount]=100&model[0][translations][0][code]=en&model[0][translations][0][name]=Red%20apple&model[1][sku]=green-apple&model[1][price]=5.00&model[1][inventory][amount]=100&model[1][translations][1][code]=en&model[1][translations][0][name]=Green%20apple
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 With REST API Client:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 // preparing products data
@@ -861,7 +865,7 @@ $products = array(
 
 // sending request
 $result = $client->post('product', array('body' => $products))->json();
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 Note that we make a request to **_path=product** (not _path=product/0) in order to create several products.
 
@@ -871,15 +875,15 @@ Such a request will create two products and then return their info as a result.
 
 Direct request: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/1&_method=put&model[sku]=new-sku
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 We are using the parameter** _**path=product/1**** since we want to update a product with ID=1\. If we wanted to update a product with ID=14, we would use **_path=product/14.**
 
 With REST API Client:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey); 
 // preparing product data
 $product = array(
@@ -888,7 +892,7 @@ $product = array(
 
 // sending request
 $result = $client->put('product/1', array('body' => $product))->json();
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 Such a request will change the sku of the product with ID=1 and then return this product info as a result.
 
@@ -896,13 +900,13 @@ Such a request will change the sku of the product with ID=1 and then return this
 
 Direct request:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product&_method=put&model[0][product_id]=1&model[0][sku]=new-sku-1&model[1][product_id]=3&model[0][sku]=new-sku-3
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 With REST API Client:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 $products = array(
@@ -918,19 +922,19 @@ $products = array(
 
 // sending request
 $result = $client->put('product', array('body' => $products))->json();
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 ## Assigning a product to a category
 
 Direct request:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=categoryproducts/0&_method=post&model[product][product_id]=1&model[category][category_id]=1
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 With REST API Client:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 $link = array(
@@ -943,51 +947,51 @@ $link = array(
 );
 // sending request
 $result = $client->post('categoryproducts/0', array('body' => $link))->json();
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 ## Removing a product with ID=1
 
 Direct request: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/1&_method=delete
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 With REST API Client:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 // sending request
 $result = $client->delete('product/1')->json();
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 ## Removing all products
 
 Direct request: 
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product&_method=delete
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 With REST API Client:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 // sending request
 $result = $client->delete('product')->json();
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [rest-api-module.png]({{site.baseurl}}/attachments/3768321/8356020.png) (image/png)  
-![](images/icons/bullet_blue.gif) [rest-api-module-settings.png]({{site.baseurl}}/attachments/3768321/8356021.png) (image/png)  
-![](images/icons/bullet_blue.gif) [rest-api-read-only-key.png]({{site.baseurl}}/attachments/3768321/8356022.png) (image/png)  
-![](images/icons/bullet_blue.gif) [rest-api-read-write-key.png]({{site.baseurl}}/attachments/3768321/8356023.png) (image/png)  
-![](images/icons/bullet_blue.gif) [rest-api-test-api-key.png]({{site.baseurl}}/attachments/3768321/8356024.png) (image/png)  
-![](images/icons/bullet_blue.gif) [rest-api-result.png]({{site.baseurl}}/attachments/3768321/8356025.png) (image/png)  
-![](images/icons/bullet_blue.gif) [X Cart online store builder Installed Modules.png]({{site.baseurl}}/attachments/3768321/8718905.png) (image/png)  
-![](images/icons/bullet_blue.gif) [X Cart online store builder Installed Modules.png]({{site.baseurl}}/attachments/3768321/8718904.png) (image/png)  
-![](images/icons/bullet_blue.gif) [X Cart online store builder REST API module settings.png]({{site.baseurl}}/attachments/3768321/8718906.png) (image/png)  
-![](images/icons/bullet_blue.gif) [Tony-RESTExtension-v5_2_0.tar]({{site.baseurl}}/attachments/3768321/8718940.tar) (application/x-tar)
+* [rest-api-module.png]({{site.baseurl}}/attachments/3768321/8356020.png) (image/png)
+* [rest-api-module-settings.png]({{site.baseurl}}/attachments/3768321/8356021.png) (image/png)
+* [rest-api-read-only-key.png]({{site.baseurl}}/attachments/3768321/8356022.png) (image/png)
+* [rest-api-read-write-key.png]({{site.baseurl}}/attachments/3768321/8356023.png) (image/png)
+* [rest-api-test-api-key.png]({{site.baseurl}}/attachments/3768321/8356024.png) (image/png)
+* [rest-api-result.png]({{site.baseurl}}/attachments/3768321/8356025.png) (image/png)
+* [X Cart online store builder Installed Modules.png]({{site.baseurl}}/attachments/3768321/8718905.png) (image/png)
+* [X Cart online store builder Installed Modules.png]({{site.baseurl}}/attachments/3768321/8718904.png) (image/png)
+* [X Cart online store builder REST API module settings.png]({{site.baseurl}}/attachments/3768321/8718906.png) (image/png)
+* [Tony-RESTExtension-v5_2_0.tar]({{site.baseurl}}/attachments/3768321/8718940.tar) (application/x-tar)

@@ -1,5 +1,5 @@
 ---
-identifier: ref_fZhxTUgP
+identifier: ref_025khQBN
 updated_at: 2015-08-10 00:00
 layout: article_with_sidebar
 lang: en
@@ -12,8 +12,8 @@ categories:
 
 Typically, your X-Cart 5 store will have the X-Payments connector module installed and enabled from the very start:
 
-![]({{site.baseurl}}/attachments/8750401/8719140.png?effects=drop-shadow)  
+![]({{site.baseurl}}/attachments/8750401/8719140.png?effects=drop-shadow)
 
 If not, you can install it from the X-Cart 5 Marketplace.
 
-For instructions on how to configure the connection, see {% link "Connecting X-Cart 5 and X-Payments" ref_GezA4zcO %}.
+For instructions on how to configure the connection, see {% link "Connecting X-Cart 5 and X-Payments" ref_UFLdTRDQ %}.

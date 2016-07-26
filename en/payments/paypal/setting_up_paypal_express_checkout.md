@@ -1,5 +1,5 @@
 ---
-identifier: ref_WODhSiHG
+identifier: ref_vHffMFLk
 updated_at: 2015-12-11 00:00
 layout: article_with_sidebar
 lang: en
@@ -74,5 +74,5 @@ Creating a custom payment page allows you to co-brand the PayPal checkout pages 
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [paypal-express-checkout-email.png]({{site.baseurl}}/attachments/7505722/7602853.png) (image/png)  
-![](images/icons/bullet_blue.gif) [paypal-express-checkout-api-credentials.png]({{site.baseurl}}/attachments/7505722/7602854.png) (image/png)
+* [paypal-express-checkout-email.png]({{site.baseurl}}/attachments/7505722/7602853.png) (image/png)
+* [paypal-express-checkout-api-credentials.png]({{site.baseurl}}/attachments/7505722/7602854.png) (image/png)

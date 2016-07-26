@@ -1,5 +1,5 @@
 ---
-identifier: ref_K7EAEZIB
+identifier: ref_z5KmbFAu
 updated_at: 2016-01-05 00:00
 layout: article_with_sidebar
 lang: en
@@ -16,8 +16,8 @@ Intangible goods (software programs, documents, online cards and the like) do no
 
 _Related pages:_
 
-*   {% link "Adding digital goods" ref_zlCqKExl %}
+*   {% link "Adding digital goods" ref_lxNH6TFr %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_shipping_disable_shipping.png]({{site.baseurl}}/attachments/9306284/9437372.png) (image/png)
+* [xc5_shipping_disable_shipping.png]({{site.baseurl}}/attachments/9306284/9437372.png) (image/png)

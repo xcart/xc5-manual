@@ -1,5 +1,5 @@
 ---
-identifier: ref_fq7JXeQE
+identifier: ref_WpUdcBgJ
 updated_at: 2014-11-13 00:00
 layout: article_with_sidebar
 lang: en
@@ -16,9 +16,9 @@ When an order is shipped, ShippingEasy sends shipment related information back t
 
 _Related pages:_
 
-*   {% link "Updating order statuses for shipped orders" ref_vFSh6V7O %}
+*   {% link "Updating order statuses for shipped orders" ref_cTn6pCxX %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [shippingeasy_xc5_staff_note.png]({{site.baseurl}}/attachments/8224949/8355928.png) (image/png)  
-![](images/icons/bullet_blue.gif) [shippingeasy_xc5_shipping_info.png]({{site.baseurl}}/attachments/8224949/8355929.png) (image/png)
+* [shippingeasy_xc5_staff_note.png]({{site.baseurl}}/attachments/8224949/8355928.png) (image/png)
+* [shippingeasy_xc5_shipping_info.png]({{site.baseurl}}/attachments/8224949/8355929.png) (image/png)

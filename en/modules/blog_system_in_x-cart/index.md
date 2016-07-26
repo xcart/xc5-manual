@@ -1,5 +1,5 @@
 ---
-identifier: ref_kWBEgKsP
+identifier: ref_T5FrnC4x
 updated_at: 2015-09-27 00:00
 layout: article_with_sidebar
 lang: en
@@ -16,4 +16,4 @@ WordPress is a freely distributed, standards-compliant, fast, light and f
 
 _See also:_
 
-*   {% link "WordPress Integration" ref_02iibnZk %}
+*   {% link "WordPress Integration" ref_rJ8hCpkQ %}

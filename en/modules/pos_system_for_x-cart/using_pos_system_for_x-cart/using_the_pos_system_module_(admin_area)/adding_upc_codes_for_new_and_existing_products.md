@@ -1,5 +1,5 @@
 ---
-identifier: ref_MXVQJlQS
+identifier: ref_7IpFrTes
 updated_at: 2015-08-25 00:00
 layout: article_with_sidebar
 lang: en
@@ -28,13 +28,13 @@ Once a UPC code is added for a product, a new tab titled "Barcode" appears on th
 
 _Related pages:_
 
-*   {% link "Getting started with POS system for X-Cart" ref_TwJ1dw8a %}
-*   {% link "Using the POS system module (Admin area)" ref_zJ80TT16 %}
-*   {% link "Using the POS system module (Customer area)" ref_DOa2LTNI %}
-*   {% link "Using barcodes to find products" ref_7a8cHgQt %}
+*   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}
+*   {% link "Using the POS system module (Admin area)" ref_9gJU76EN %}
+*   {% link "Using the POS system module (Customer area)" ref_hV0rfAb6 %}
+*   {% link "Using barcodes to find products" ref_zEkCsuWQ %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [pos_upc.png]({{site.baseurl}}/attachments/7504429/7602273.png) (image/png)  
-![](images/icons/bullet_blue.gif) [pos_barcode_tab.png]({{site.baseurl}}/attachments/7504429/7602274.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_POS_UPC_field.png]({{site.baseurl}}/attachments/7504429/8719206.png) (image/png)
+* [pos_upc.png]({{site.baseurl}}/attachments/7504429/7602273.png) (image/png)
+* [pos_barcode_tab.png]({{site.baseurl}}/attachments/7504429/7602274.png) (image/png)
+* [xc5_POS_UPC_field.png]({{site.baseurl}}/attachments/7504429/8719206.png) (image/png)

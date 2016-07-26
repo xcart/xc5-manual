@@ -1,5 +1,5 @@
 ---
-identifier: ref_4IFnTOZl
+identifier: ref_RLhkriEJ
 updated_at: 2016-06-15 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,9 +14,9 @@ After the module has been installed and enabled, it needs to be configured.
 
 To configure the module:
 
-1.  In the list of your store's installed modules, locate the entry for X-Payments subscriptions and click the **Settings **link below it.  
-    The "X-Payments subscriptions" module settings page opens:  
-    ![]({{site.baseurl}}/attachments/9666610/9633864.png?effects=drop-shadow)  
+1.  In the list of your store's installed modules, locate the entry for X-Payments subscriptions and click the **Settings **link below it.
+    The "X-Payments subscriptions" module settings page opens:
+    ![]({{site.baseurl}}/attachments/9666610/9633864.png?effects=drop-shadow)
 
 2.  Adjust the module settings:
     *   **Number of** **rebill attempts for an unsuccessful charge**: Normally, the module will charge a subscription customer according to the schedule defined for their specific subscription. However, sometimes the processing of such payments may fail. In this case, the module will attempt to charge the customer's card again in a few days (The number of days is defined by the setting "How often to attempt rebills for an unsuccessful charge (in days)" below). The setting "Number of rebill attempts for an unsuccessful charge" allows you to set the maximum number of times that your store must try to charge the customer's card after the initial attempt to process the subscription payment was unsuccessful. If this number is exceeded, the module will stop the subscription and send an email notification both to the customer and the store's orders department.
@@ -26,10 +26,10 @@ To configure the module:
 
 _Related pages:_
 
-*   {% link "Getting started with X-Payments subscriptions" ref_o6OUxcm7 %}  
+*   {% link "Getting started with X-Payments subscriptions" ref_tGCSZi8x %}
 
-*   {% link "Setting up a subscription" ref_QpGw0HC9 %}  
+*   {% link "Setting up a subscription" ref_8JXKSRah %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_xpsubscr_module_settings.png]({{site.baseurl}}/attachments/9666610/9633864.png) (image/png)
+* [xc5_xpsubscr_module_settings.png]({{site.baseurl}}/attachments/9666610/9633864.png) (image/png)

@@ -1,5 +1,5 @@
 ---
-identifier: ref_PUr3Wh0n
+identifier: ref_8VFoqBFZ
 updated_at: 2016-06-15 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,12 +14,12 @@ The module **X-Payments subscriptions** is a recurring billing solution for st
 
 _In this section:_
 
-*   {% link "Getting started with X-Payments subscriptions" ref_o6OUxcm7 %}
-*   {% link "X-Payments subscriptions: System requirements and installation" ref_4vwNlvWo %}
-*   {% link "Configuring automated execution of periodic tasks for X-Payments subscriptions" ref_QDSyoUAo %}
-*   {% link "Configuring the X-Payments subscriptions module" ref_4IFnTOZl %}
-*   {% link "Setting up a subscription" ref_QpGw0HC9 %}
+*   {% link "Getting started with X-Payments subscriptions" ref_tGCSZi8x %}
+*   {% link "X-Payments subscriptions: System requirements and installation" ref_ou6SkGQn %}
+*   {% link "Configuring automated execution of periodic tasks for X-Payments subscriptions" ref_pTgcx1sg %}
+*   {% link "Configuring the X-Payments subscriptions module" ref_RLhkriEJ %}
+*   {% link "Setting up a subscription" ref_8JXKSRah %}
 
 _Related pages:_
 
-*   {% link "Subscriptions in X-Cart 5 powered by X-Payments" ref_MKl34vmQ %} (video)
+*   {% link "Subscriptions in X-Cart 5 powered by X-Payments" ref_Ae8Qd8lq %} (video)

@@ -1,5 +1,5 @@
 ---
-identifier: ref_B0aoGSmO
+identifier: ref_COgF04Tz
 updated_at: 2015-12-21 00:00
 layout: article_with_sidebar
 lang: en
@@ -12,12 +12,12 @@ categories:
 
 _In this section:_
 
-*   [Vendor login and first steps](http://kb.x-cart.com/display/XDD/Vendor+login+and+first+steps)
-*   [Managing vendor profile information](http://kb.x-cart.com/display/XDD/Managing+vendor+profile+information)
-*   [Specifying vendor ship-from address](http://kb.x-cart.com/display/XDD/Specifying+vendor+ship-from+address)
-*   [Managing vendor catalog](http://kb.x-cart.com/display/XDD/Managing+vendor+catalog)
-*   [Vendor access to product classes and attributes](http://kb.x-cart.com/display/XDD/Vendor+access+to+product+classes+and+attributes)
-*   [Adding coupons and discounts for vendor products](http://kb.x-cart.com/display/XDD/Adding+coupons+and+discounts+for+vendor+products)
-*   [Managing vendor shipping methods](http://kb.x-cart.com/display/XDD/Managing+vendor+shipping+methods)
-*   [Vendor access to orders and statistics](http://kb.x-cart.com/display/XDD/Vendor+access+to+orders+and+statistics)
-*   [Vendor import/export](http://kb.x-cart.com/pages/viewpage.action?pageId=8749505)
+*   {% link "Vendor login and first steps" ref_SZycMdTx %}
+*   {% link "Managing vendor profile information" ref_b7PTQMgf %}
+*   {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}
+*   {% link "Managing vendor catalog" ref_r4mcwiho %}
+*   {% link "Vendor access to product classes and attributes" ref_TvmooKW9 %}
+*   {% link "Adding coupons and discounts for vendor products" ref_SwbyhUn5 %}
+*   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
+*   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
+*   {% link "Vendor import/export" ref_pa3oqbXz %}

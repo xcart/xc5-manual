@@ -1,5 +1,5 @@
 ---
-identifier: ref_cdeh3OQO
+identifier: ref_UxlB19Fr
 updated_at: 2016-03-14 00:00
 layout: article_with_sidebar
 lang: en
@@ -24,7 +24,7 @@ After a product has been published on eBay, you may need to change the informati
 
 *   **Export Item** allows to export the entire scope of product information;
 *   **Export Inventory** allows to export only the product inventory information;
-*   **Export Images** allows to export just the product images.  
+*   **Export Images** allows to export just the product images.
     ![]({{site.baseurl}}/attachments/9306771/9439192.png?effects=drop-shadow)
 
 There may be times when you need to change a product's eBay item ID - that is when you need to associate a product in X-Cart with a different eBay listing. The **eBay item ID** field is edit protected to prevent the product owner from changing the ID accidentally. To change the eBay item ID, use the <u>Change eBay item ID</u> link located close to the **eBay item ID** field:
@@ -45,10 +45,10 @@ Once the item is ended on eBay, a success message will be displayed. Also, a not
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_ebay_current_item_id.png]({{site.baseurl}}/attachments/9306771/9439191.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_export_opts.png]({{site.baseurl}}/attachments/9306771/9439192.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_change_item_id.png]({{site.baseurl}}/attachments/9306771/9439193.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_change_item_id1.png]({{site.baseurl}}/attachments/9306771/9439194.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_end_item.png]({{site.baseurl}}/attachments/9306771/9439195.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_item_ended.png]({{site.baseurl}}/attachments/9306771/9439196.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_ebay_product_icons.png]({{site.baseurl}}/attachments/9306771/9439197.png) (image/png)
+* [xc5_ebay_current_item_id.png]({{site.baseurl}}/attachments/9306771/9439191.png) (image/png)
+* [xc5_ebay_export_opts.png]({{site.baseurl}}/attachments/9306771/9439192.png) (image/png)
+* [xc5_ebay_change_item_id.png]({{site.baseurl}}/attachments/9306771/9439193.png) (image/png)
+* [xc5_ebay_change_item_id1.png]({{site.baseurl}}/attachments/9306771/9439194.png) (image/png)
+* [xc5_ebay_end_item.png]({{site.baseurl}}/attachments/9306771/9439195.png) (image/png)
+* [xc5_ebay_item_ended.png]({{site.baseurl}}/attachments/9306771/9439196.png) (image/png)
+* [xc5_ebay_product_icons.png]({{site.baseurl}}/attachments/9306771/9439197.png) (image/png)

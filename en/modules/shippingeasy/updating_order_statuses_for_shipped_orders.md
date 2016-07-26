@@ -1,5 +1,5 @@
 ---
-identifier: ref_vFSh6V7O
+identifier: ref_cTn6pCxX
 updated_at: 2014-11-13 00:00
 layout: article_with_sidebar
 lang: en
@@ -17,4 +17,4 @@ When an order is shipped via ShippingEasy, ShippingEasy notifies your X-Cart sto
 
 _Related pages:_
 
-*   {% link "Canceling orders" ref_izPIxXzE %}
+*   {% link "Canceling orders" ref_QU6Aanr9 %}

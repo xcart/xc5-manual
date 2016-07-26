@@ -1,5 +1,5 @@
 ---
-identifier: ref_fhnQtCC2
+identifier: ref_fhzzxDTy
 updated_at: 2015-04-13 00:00
 layout: article_with_sidebar
 lang: en
@@ -10,7 +10,7 @@ categories:
 ---
 
 
-You can add products to your store via [import](https://xcart.zendesk.com/entries/23396176-How-to-import-products-) or {% link "manually" ref_fhnQtCC2 %}. 
+You can add products to your store via [import](https://xcart.zendesk.com/entries/23396176-How-to-import-products-) or {% link "manually" ref_fhzzxDTy %}. 
 
 # Video guide
 
@@ -22,15 +22,15 @@ This video captures the process of adding a new product in X-Cart 5.1.9\. Please
 
 To add a new product:
 
-1.  In your store's Admin area, go to the Products section (**Catalog** > **Products**).  
+1.  In your store's Admin area, go to the Products section (**Catalog** > **Products**).
     ![]({{site.baseurl}}/attachments/6389859/8716836.png?effects=drop-shadow)
-2.  Click the **Add product** button.  
-    ![]({{site.baseurl}}/attachments/6389859/8716837.png?effects=drop-shadow)  
-    The page for adding a new product opens.   
+2.  Click the **Add product** button.
+    ![]({{site.baseurl}}/attachments/6389859/8716837.png?effects=drop-shadow)
+    The page for adding a new product opens. 
     ![]({{site.baseurl}}/attachments/6389859/8716838.png?effects=drop-shadow)
 3.  Use the fields on the Add product page to provide information about the product. The only required field is **Product name**. 
-4.  Once you're done, click **Add product** button at the bottom of the page.   
-    ![]({{site.baseurl}}/attachments/6389859/8716867.png?effects=drop-shadow)  
+4.  Once you're done, click **Add product** button at the bottom of the page. 
+    ![]({{site.baseurl}}/attachments/6389859/8716867.png?effects=drop-shadow)
     The product will be added. 
 
 # Product information that can be specified
@@ -42,7 +42,7 @@ When creating a new product, you can specify the following product details:
 *   **Category**: The category (or categories) to which this product belongs. 
 *   **Images**: Use this section to add images of the product.
 *   **Memberships**: Membership levels to which this product should be available. Non-members and users belonging to other membership levels will not be able to see the product on the storefront.
-*   **Tax class**: The tax class to which the product belongs (Defines what taxes should be applied to the product). For more info on tax classes, see: {% link "Setting up tax classes" ref_5Mr9DJPu %}.
+*   **Tax class**: The tax class to which the product belongs (Defines what taxes should be applied to the product). For more info on tax classes, see: {% link "Setting up tax classes" ref_pAWOdG8N %}.
 *   **Price**: The product price.
 *   **Product on sale**: Use this to put the product on sale.
 *   **Quantity in stock**: The exact current quantity in stock, or any value if you do not intend to track the inventory of this product. (In the latter case you will need to disable inventory tracking after the product has been created.) 
@@ -65,11 +65,11 @@ When creating a new product, you can specify the following product details:
 Once a product has been created, you can specify inventory tracking options for it. 
 
 1.  In the store's Admin area, open the details of the product for which you want to specify inventory tracking options.
-2.  Go to the Inventory Tracking section of the product details page by either selecting the **Inventory tracking** tab:  
-    ![]({{site.baseurl}}/attachments/6389859/8716870.png?effects=drop-shadow)  
-    or by clicking the <u>Inventory tracking options</u> link to the right of the **Quantity in stock** field:  
-    ![]({{site.baseurl}}/attachments/6389859/8716871.png?effects=drop-shadow)  
-    The Inventory tracking section opens:  
+2.  Go to the Inventory Tracking section of the product details page by either selecting the **Inventory tracking** tab:
+    ![]({{site.baseurl}}/attachments/6389859/8716870.png?effects=drop-shadow)
+    or by clicking the <u>Inventory tracking options</u> link to the right of the **Quantity in stock** field:
+    ![]({{site.baseurl}}/attachments/6389859/8716871.png?effects=drop-shadow)
+    The Inventory tracking section opens:
     ![]({{site.baseurl}}/attachments/6389859/8716869.png?effects=drop-shadow)
 3.  Adjust the product's inventory tracking options as you require:
     *   **Inventory tracking for this product is** (Enabled / Disabled): To enable inventory tracking for this product, set this option to _Enabled_. If the product quantity is unlimited and does not need to be tracked, set the option to _Disabled_.
@@ -86,26 +86,26 @@ You can add these additional parameters as attributes via the **Attributes** tab
 
 Buyers will be able to view these parameters via the **Specification** tab of the product page.
 
-For detailed information on product attributes, see {% link "Product classes and attributes" ref_F1TNi0gL %}.
+For detailed information on product attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}.
 
 # Specifying product options (color, size, etc.)
 
-In X-Cart 5, product options can be configured based on product attributes. You add an attribute like "Size" and specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". The buyer will then be able to choose the option they require. Some examples of how you can set product options based on attributes are provided in the article {% link "Managing attribute values" ref_uKVHuBU6 %}. For detailed information on product attributes, see {% link "Product classes and attributes" Product-classes-and-attributes_7504847.html %}.
+In X-Cart 5, product options can be configured based on product attributes. You add an attribute like "Size" and specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". The buyer will then be able to choose the option they require. Some examples of how you can set product options based on attributes are provided in the article {% link "Managing attribute values" ref_bTfJ9bTS %}. For detailed information on product attributes, see {% link "Product classes and attributes" Product-classes-and-attributes_7504847.html %}.
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [menu-add-product.png]({{site.baseurl}}/attachments/6389859/6586565.png) (image/png)  
-![](images/icons/bullet_blue.gif) [market-price-product-lists.png]({{site.baseurl}}/attachments/6389859/6586566.png) (image/png)  
-![](images/icons/bullet_blue.gif) [product-on-sale-badge.png]({{site.baseurl}}/attachments/6389859/6586567.png) (image/png)  
-![](images/icons/bullet_blue.gif) [available-for-sale-option.png]({{site.baseurl}}/attachments/6389859/6586568.png) (image/png)  
-![](images/icons/bullet_blue.gif) [inventory-tracking-section-admin.png]({{site.baseurl}}/attachments/6389859/6586569.png) (image/png)  
-![](images/icons/bullet_blue.gif) [product-details-categories.png]({{site.baseurl}}/attachments/6389859/7602741.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_products_section.png]({{site.baseurl}}/attachments/6389859/8716836.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_products_add.png]({{site.baseurl}}/attachments/6389859/8716837.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_products_add_page.png]({{site.baseurl}}/attachments/6389859/8716838.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_products_add_product.png]({{site.baseurl}}/attachments/6389859/8716867.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_attributes_tab.png]({{site.baseurl}}/attachments/6389859/8716868.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_inventory_tracking.png]({{site.baseurl}}/attachments/6389859/8716872.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_inventory_tracking0.png]({{site.baseurl}}/attachments/6389859/8716870.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_inventory_tracking_options.png]({{site.baseurl}}/attachments/6389859/8716871.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_inventory_tracking.png]({{site.baseurl}}/attachments/6389859/8716869.png) (image/png)
+* [menu-add-product.png]({{site.baseurl}}/attachments/6389859/6586565.png) (image/png)
+* [market-price-product-lists.png]({{site.baseurl}}/attachments/6389859/6586566.png) (image/png)
+* [product-on-sale-badge.png]({{site.baseurl}}/attachments/6389859/6586567.png) (image/png)
+* [available-for-sale-option.png]({{site.baseurl}}/attachments/6389859/6586568.png) (image/png)
+* [inventory-tracking-section-admin.png]({{site.baseurl}}/attachments/6389859/6586569.png) (image/png)
+* [product-details-categories.png]({{site.baseurl}}/attachments/6389859/7602741.png) (image/png)
+* [xc5_products_section.png]({{site.baseurl}}/attachments/6389859/8716836.png) (image/png)
+* [xc5_products_add.png]({{site.baseurl}}/attachments/6389859/8716837.png) (image/png)
+* [xc5_products_add_page.png]({{site.baseurl}}/attachments/6389859/8716838.png) (image/png)
+* [xc5_products_add_product.png]({{site.baseurl}}/attachments/6389859/8716867.png) (image/png)
+* [xc5_attributes_tab.png]({{site.baseurl}}/attachments/6389859/8716868.png) (image/png)
+* [xc5_inventory_tracking.png]({{site.baseurl}}/attachments/6389859/8716872.png) (image/png)
+* [xc5_inventory_tracking0.png]({{site.baseurl}}/attachments/6389859/8716870.png) (image/png)
+* [xc5_inventory_tracking_options.png]({{site.baseurl}}/attachments/6389859/8716871.png) (image/png)
+* [xc5_inventory_tracking.png]({{site.baseurl}}/attachments/6389859/8716869.png) (image/png)

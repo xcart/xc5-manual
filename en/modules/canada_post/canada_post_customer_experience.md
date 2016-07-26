@@ -1,5 +1,5 @@
 ---
-identifier: ref_BK0xzwUe
+identifier: ref_ooBRtSLz
 updated_at: 2014-09-14 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,7 +14,7 @@ This page provides information on the user experience in the storefront/customer
 
 This includes the following topics:
 
-*   {% link "Shipping methods and rating" ref_BK0xzwUe %} (How buyers see Canada Post shipping methods and get an estimation of the shipping cost at checkout);
+*   {% link "Shipping methods and rating" ref_ooBRtSLz %} (How buyers see Canada Post shipping methods and get an estimation of the shipping cost at checkout);
 *   {% link "Deliver to Post Office " Canada-Post-customer-experience_7505658.html %}(How buyers can request that their order be shipped not to their home or business address, but a nearby Post Office);
 *   {% link "Tracking" Canada-Post-customer-experience_7505658.html %} (How buyers can track their Canada Post parcel online);
 *   {% link "Returns" Canada-Post-customer-experience_7505658.html %} (How buyers can request a Canada Post return label for their order).
@@ -25,7 +25,7 @@ In a store using the Canada Post module, during checkout a buyer can select a Ca
 
 # Deliver to Post Office
 
-Customers who choose the _Xpresspost™_ or _Expedited Parcel_™ shipping method at checkout can select a delivery option called _Deliver to Post Office_. ![](attachments/7505658/7602816.png?effects=drop-shadow)The _Deliver to Post Office_ option allows your customers the choice to have purchases delivered directly to the Post Office of their choice—such as one near their home, office or cottage.When a customer selects this option at checkout, a listing of post offices near the shipping address provided by the customer for this order is displayed. The customer can then specify the post office at which they prefer to collect their purchase:![](attachments/7505658/7602815.png?effects=drop-shadow)(The number of nearby post offices that should be displayed to a customer for the _Deliver to Post Office_ option can be limited via the Canada Post settings page in the store's Admin area).The address of the post office selected by the customer is included into the order invoice:![]({{site.baseurl}}/attachments/7505658/7602818.png?effects=drop-shadow)  
+Customers who choose the _Xpresspost™_ or _Expedited Parcel_™ shipping method at checkout can select a delivery option called _Deliver to Post Office_. ![](attachments/7505658/7602816.png?effects=drop-shadow)The _Deliver to Post Office_ option allows your customers the choice to have purchases delivered directly to the Post Office of their choice—such as one near their home, office or cottage.When a customer selects this option at checkout, a listing of post offices near the shipping address provided by the customer for this order is displayed. The customer can then specify the post office at which they prefer to collect their purchase:![](attachments/7505658/7602815.png?effects=drop-shadow)(The number of nearby post offices that should be displayed to a customer for the _Deliver to Post Office_ option can be limited via the Canada Post settings page in the store's Admin area).The address of the post office selected by the customer is included into the order invoice:![]({{site.baseurl}}/attachments/7505658/7602818.png?effects=drop-shadow)
 
 # Tracking
 
@@ -39,21 +39,21 @@ After completing the form, the customer submits the return request by clicking t
 
 _Related pages:_
 
-*   {% link "Canada Post admin experience" ref_Gcd74haE %}
-*   {% link "Getting started with Canada Post" ref_tnMZiKav %}  
+*   {% link "Canada Post admin experience" ref_N6PsLLrM %}
+*   {% link "Getting started with Canada Post" ref_zfNLsPus %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [tracking_details_customer_area_with_files.jpg]({{site.baseurl}}/attachments/7505658/7602810.jpg) (image/jpeg)  
-![](images/icons/bullet_blue.gif) [tracking_details_customer.png]({{site.baseurl}}/attachments/7505658/7602812.png) (image/png)  
-![](images/icons/bullet_blue.gif) [tracking_details_customer.png]({{site.baseurl}}/attachments/7505658/7602811.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_rating.png]({{site.baseurl}}/attachments/7505658/7602814.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_rating.png]({{site.baseurl}}/attachments/7505658/7602813.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_deliver_po1.png]({{site.baseurl}}/attachments/7505658/7602815.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_deliver_po.png]({{site.baseurl}}/attachments/7505658/7602817.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_deliver_po.png]({{site.baseurl}}/attachments/7505658/7602816.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_deliver_po2.png]({{site.baseurl}}/attachments/7505658/7602818.png) (image/png)  
-![](images/icons/bullet_blue.gif) [tracking_pin.png]({{site.baseurl}}/attachments/7505658/7602820.png) (image/png)  
-![](images/icons/bullet_blue.gif) [tracking_pin.png]({{site.baseurl}}/attachments/7505658/7602819.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_return_products_button.png]({{site.baseurl}}/attachments/7505658/7602824.png) (image/png)  
-![](images/icons/bullet_blue.gif) [cp_return_customer.png]({{site.baseurl}}/attachments/7505658/7602825.png) (image/png)
+* [tracking_details_customer_area_with_files.jpg]({{site.baseurl}}/attachments/7505658/7602810.jpg) (image/jpeg)
+* [tracking_details_customer.png]({{site.baseurl}}/attachments/7505658/7602812.png) (image/png)
+* [tracking_details_customer.png]({{site.baseurl}}/attachments/7505658/7602811.png) (image/png)
+* [cp_rating.png]({{site.baseurl}}/attachments/7505658/7602814.png) (image/png)
+* [cp_rating.png]({{site.baseurl}}/attachments/7505658/7602813.png) (image/png)
+* [cp_deliver_po1.png]({{site.baseurl}}/attachments/7505658/7602815.png) (image/png)
+* [cp_deliver_po.png]({{site.baseurl}}/attachments/7505658/7602817.png) (image/png)
+* [cp_deliver_po.png]({{site.baseurl}}/attachments/7505658/7602816.png) (image/png)
+* [cp_deliver_po2.png]({{site.baseurl}}/attachments/7505658/7602818.png) (image/png)
+* [tracking_pin.png]({{site.baseurl}}/attachments/7505658/7602820.png) (image/png)
+* [tracking_pin.png]({{site.baseurl}}/attachments/7505658/7602819.png) (image/png)
+* [cp_return_products_button.png]({{site.baseurl}}/attachments/7505658/7602824.png) (image/png)
+* [cp_return_customer.png]({{site.baseurl}}/attachments/7505658/7602825.png) (image/png)

@@ -1,5 +1,5 @@
 ---
-identifier: ref_kFBiA8W7
+identifier: ref_L2vV8Twt
 updated_at: 2016-04-27 00:00
 layout: article_with_sidebar
 lang: en
@@ -30,4 +30,4 @@ To enable printing with PrintNode:
 
 _Related pages:_
 
-*   {% link "Getting started with POS system for X-Cart" ref_TwJ1dw8a %}
+*   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}

@@ -1,5 +1,5 @@
 ---
-identifier: ref_G0aTQx1L
+identifier: ref_xWLlmcLL
 updated_at: 2015-08-26 00:00
 layout: article_with_sidebar
 lang: en
@@ -32,11 +32,11 @@ Note that customers can use the **Differences only** check box option to chose w
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [product-comparison-marketplace.png]({{site.baseurl}}/attachments/6389834/6586514.png) (image/png)  
-![](images/icons/bullet_blue.gif) [product-comparison-compare-button.png]({{site.baseurl}}/attachments/6389834/6586516.png) (image/png)  
-![](images/icons/bullet_blue.gif) [product-comparison-table.png]({{site.baseurl}}/attachments/6389834/6586518.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_prod_comparison_module.png]({{site.baseurl}}/attachments/6389834/8719217.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_prod_comparison_compare.png]({{site.baseurl}}/attachments/6389834/8719218.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_prod_comparison_xproducts_selected.png]({{site.baseurl}}/attachments/6389834/8719219.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_prod_comparison_table.png]({{site.baseurl}}/attachments/6389834/8719220.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_prod_comparison_differences_only.png]({{site.baseurl}}/attachments/6389834/8719221.png) (image/png)
+* [product-comparison-marketplace.png]({{site.baseurl}}/attachments/6389834/6586514.png) (image/png)
+* [product-comparison-compare-button.png]({{site.baseurl}}/attachments/6389834/6586516.png) (image/png)
+* [product-comparison-table.png]({{site.baseurl}}/attachments/6389834/6586518.png) (image/png)
+* [xc5_prod_comparison_module.png]({{site.baseurl}}/attachments/6389834/8719217.png) (image/png)
+* [xc5_prod_comparison_compare.png]({{site.baseurl}}/attachments/6389834/8719218.png) (image/png)
+* [xc5_prod_comparison_xproducts_selected.png]({{site.baseurl}}/attachments/6389834/8719219.png) (image/png)
+* [xc5_prod_comparison_table.png]({{site.baseurl}}/attachments/6389834/8719220.png) (image/png)
+* [xc5_prod_comparison_differences_only.png]({{site.baseurl}}/attachments/6389834/8719221.png) (image/png)

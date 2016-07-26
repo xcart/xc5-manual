@@ -1,5 +1,5 @@
 ---
-identifier: ref_LTe9h8qU
+identifier: ref_Ibr5EziH
 updated_at: 2016-01-05 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,7 +14,7 @@ description: Optimize your catalog for search engine and setup up special offers
 
 _In this section:_
 
-*   [Optimizing your catalog pages for SEO](http://kb.x-cart.com/display/XDD/Optimizing+your+catalog+pages+for+SEO)
-*   [Submitting your shop to search engines](http://kb.x-cart.com/display/XDD/Submitting+your+shop+to+search+engines)
-*   [Setting up discount coupons](http://kb.x-cart.com/display/XDD/Setting+up+discount+coupons)
-*   [Setting up volume discounts for products](http://kb.x-cart.com/display/XDD/Setting+up+volume+discounts+for+products)
+*   {% link "Optimizing your catalog pages for SEO" ref_OBh3V1k1 %}
+*   {% link "Submitting your shop to search engines" ref_OqJ2oZTE %}
+*   {% link "Setting up discount coupons" ref_SGI1FqdC %}
+*   {% link "Setting up volume discounts for products" ref_xEadpu9F %}

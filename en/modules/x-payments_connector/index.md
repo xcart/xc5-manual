@@ -1,5 +1,5 @@
 ---
-identifier: ref_4bUTamX5
+identifier: ref_NaZh0d1b
 updated_at: 2015-08-10 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,8 +14,8 @@ The **X-Payments connector** module for X-Cart 5 is a means to connect your X-C
 
 _Related pages:_
 
-*   {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_LX4GHX6l %} (video)
+*   {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %} (video)
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_xp_connector_installed_enabled.png]({{site.baseurl}}/attachments/8750401/8719140.png) (image/png)
+* [xc5_xp_connector_installed_enabled.png]({{site.baseurl}}/attachments/8750401/8719140.png) (image/png)

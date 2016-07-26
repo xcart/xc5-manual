@@ -1,5 +1,5 @@
 ---
-identifier: ref_ZF3SXuLv
+identifier: ref_p1OTDpSI
 updated_at: 2016-04-15 00:00
 layout: article_with_sidebar
 lang: en
@@ -14,4 +14,4 @@ The iDEAL Payments module by X-Cart team provides a low-cost and virtually risk-
 
 _In this section:_
 
-*   {% link "Getting started with iDEAL Payments" ref_5Fk4GUbA %}
+*   {% link "Getting started with iDEAL Payments" ref_h6SlMCLe %}

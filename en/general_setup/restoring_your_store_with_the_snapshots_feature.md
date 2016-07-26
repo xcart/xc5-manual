@@ -1,5 +1,5 @@
 ---
-identifier: ref_91KgU4el
+identifier: ref_h7Oh5T8T
 updated_at: 2015-10-19 00:00
 layout: article_with_sidebar
 lang: en
@@ -10,13 +10,13 @@ categories:
 ---
 
 
-A great deal of your store's functionality will depend on add-on modules that you will {% link "install from X-Cart Marketplace" ref_36GTeW9L %} or {% link "deploy using the "Upload add-on" feature" ref_TOAPwLmq %}. Since modules may come from different sources and not always be tested for mutual compatibility, you should expect that at some point your store may experience problems or even stop working completely after you enable a module that does not work well with the rest of your store's configuration. Some problems caused by adding a new module or enabling a new feature may not manifest themselves until a bit later, so it may be difficult to say which one of the recent configuration changes prevents your store from operating correctly. To pinpoint the "bad" module, you may try {% link "running X-Cart in safe mode" ref_lB0f1x4W#Whattodoifyourstoresays"Wearedeployingnewchanges"andyoucannotaccessit-HardSoftReset %} (This mode helps you to disable your store's recently installed modules using a Soft reset or Hard reset link, after which you can re-enable the modules one by one doing the necessary testing to see which of the modules is causing the problem). There is, however, a feature that can work as an ultimate time saver for you in this case. That feature is "Snapshots" introduced in X-Cart version 5.2.5.
+A great deal of your store's functionality will depend on add-on modules that you will {% link "install from X-Cart Marketplace" ref_Vn1mMUw9 %} or {% link "deploy using the "Upload add-on" feature" ref_GZQ9vTq6 %}. Since modules may come from different sources and not always be tested for mutual compatibility, you should expect that at some point your store may experience problems or even stop working completely after you enable a module that does not work well with the rest of your store's configuration. Some problems caused by adding a new module or enabling a new feature may not manifest themselves until a bit later, so it may be difficult to say which one of the recent configuration changes prevents your store from operating correctly. To pinpoint the "bad" module, you may try {% link "running X-Cart in safe mode" ref_3zSHgdQk#Whattodoifyourstoresays"Wearedeployingnewchanges"andyoucannotaccessit-HardSoftReset %} (This mode helps you to disable your store's recently installed modules using a Soft reset or Hard reset link, after which you can re-enable the modules one by one doing the necessary testing to see which of the modules is causing the problem). There is, however, a feature that can work as an ultimate time saver for you in this case. That feature is "Snapshots" introduced in X-Cart version 5.2.5.
 
 The "Snapshots" feature allows X-Cart to automatically take a snapshot of your X-Cart system every time the list of your store's active modules changes and write this information to **files/service/.modules.migrations.php**.
 
 A typical snapshot looks something like the following:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 <?php
 return array (
   '2015_06_22_10_50_27' => 
@@ -127,7 +127,7 @@ return array (
     ),
   ),
 );
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 A separate snapshot is created for each change, so you may find that your file **files/service/.modules.migrations.php** already contains more than one snapshot.
 
@@ -152,13 +152,13 @@ Reverting to a snapshot will cause your store to be re-deployed with a module se
 
 After a snapshot restoration, a new snapshot will be written to the snapshots file. The format of this snapshot should be similar to the following:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 '2015_06_22_10_56_56' => 
  array (
    'date' => '2015_06_22_10_56_56',
    'restoredTo' => '2015_06_22_10_50_27',
  ),
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 This new snapshot will provide the following information:
 

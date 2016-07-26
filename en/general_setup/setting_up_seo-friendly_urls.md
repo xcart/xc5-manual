@@ -1,5 +1,5 @@
 ---
-identifier: ref_BvyxeQSQ
+identifier: ref_nJxrzFEZ
 updated_at: 2016-01-08 00:00
 layout: article_with_sidebar
 lang: en
@@ -43,21 +43,21 @@ If your server environment is not compatible with handling redirects properly an
 
 ![]({{site.baseurl}}/attachments/7505785/9437500.png?effects=drop-shadow)
 
-It means, you need to set up your server before you can use SEO-friendly URLs. This setting up may differ depending on your server software. This article describes how you can set up {% link "Apache" ref_BvyxeQSQ %}, {% link "IIS" Setting-up-seo-friendly-URLs_7505785.html %} or {% link "nginx" Setting-up-seo-friendly-URLs_7505785.html %}.
+It means, you need to set up your server before you can use SEO-friendly URLs. This setting up may differ depending on your server software. This article describes how you can set up {% link "Apache" ref_nJxrzFEZ %}, {% link "IIS" Setting-up-seo-friendly-URLs_7505785.html %} or {% link "nginx" Setting-up-seo-friendly-URLs_7505785.html %}.
 
 # Setting up Apache
 
 You need to enable Apache's module [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) and it will enable the **Enable clean URLs** button in the **Environment** section described above. Typically, you should edit the **httpd.conf** file of your Apache and replace there the following line:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 #LoadModule rewrite_module modules/mod_rewrite.so
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 with the next one:
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 LoadModule rewrite_module modules/mod_rewrite.so
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 After that, restart your Apache server and check the results.
 
@@ -69,7 +69,7 @@ Use the [Import of Apache rules](http://www.iis.net/learn/extensions/url-rewrite
 
 You should put the following lines into the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) into your nginx configuration file (nginx.conf):
 
-{% highlight php %}{% raw %}
+{% raw %}```php
 # Example nginx configuration
 location / {
   index cart.php;
@@ -79,7 +79,7 @@ location / {
      rewrite ^/((([/_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)(/?)(\.([_A-Za-z0-9-]+))?$ /cart.php?url=$5&last=$4&rest=$3&ext=$7 last;
   }
 }
-{% endraw %}{% endhighlight %}
+```{% endraw %}
 
 You should obviously set location to corresponding directory in case your X-Cart installation is placed in subdirectory of your web-root.
 
@@ -95,27 +95,27 @@ Steps listed below usually fix the problem that SEO-friendly URLs cannot be enab
 
 1.  Make sure that the following line in your `.htaccess` file reflects an actual path to your store: 
 
-    {% highlight php %}{% raw %}
+    {% raw %}```php
     RewriteBase /
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
     It must be the same as the value specified in the `web_dir` variable in the `<X-Cart>/etc/config.php` file.
 
 2.  Make sure that the `AllowOverride` directive is set to `All` in the `conf.httpd` file on your server: 
 
-    {% highlight php %}{% raw %}
+    {% raw %}```php
      AllowOverride All
-    {% endraw %}{% endhighlight %}
+    ```{% endraw %}
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [system-settings-enviroment.png]({{site.baseurl}}/attachments/7505785/7995393.png) (image/png)  
-![](images/icons/bullet_blue.gif) [enable-clean-urls-button.png]({{site.baseurl}}/attachments/7505785/7995394.png) (image/png)  
-![](images/icons/bullet_blue.gif) [clean-urls-enabled-message.png]({{site.baseurl}}/attachments/7505785/7995395.png) (image/png)  
-![](images/icons/bullet_blue.gif) [clean-urls-disbaled-message.png]({{site.baseurl}}/attachments/7505785/7995396.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_environment.png]({{site.baseurl}}/attachments/7505785/8716521.png) (image/png)  
-![](images/icons/bullet_blue.gif) [X Cart online store builder Environment.png]({{site.baseurl}}/attachments/7505785/9437501.png) (image/png)  
-![](images/icons/bullet_blue.gif) [X Cart online store builder Environment2.png]({{site.baseurl}}/attachments/7505785/9437499.png) (image/png)  
-![](images/icons/bullet_blue.gif) [X Cart online store builder Environment3.png]({{site.baseurl}}/attachments/7505785/9437500.png) (image/png)  
-![](images/icons/bullet_blue.gif) [X Cart online store builder Environment.png]({{site.baseurl}}/attachments/7505785/9437498.png) (image/png)  
-![](images/icons/bullet_blue.gif) [X Cart online store builder Environment4.png]({{site.baseurl}}/attachments/7505785/9437502.png) (image/png)
+* [system-settings-enviroment.png]({{site.baseurl}}/attachments/7505785/7995393.png) (image/png)
+* [enable-clean-urls-button.png]({{site.baseurl}}/attachments/7505785/7995394.png) (image/png)
+* [clean-urls-enabled-message.png]({{site.baseurl}}/attachments/7505785/7995395.png) (image/png)
+* [clean-urls-disbaled-message.png]({{site.baseurl}}/attachments/7505785/7995396.png) (image/png)
+* [xc5_environment.png]({{site.baseurl}}/attachments/7505785/8716521.png) (image/png)
+* [X Cart online store builder Environment.png]({{site.baseurl}}/attachments/7505785/9437501.png) (image/png)
+* [X Cart online store builder Environment2.png]({{site.baseurl}}/attachments/7505785/9437499.png) (image/png)
+* [X Cart online store builder Environment3.png]({{site.baseurl}}/attachments/7505785/9437500.png) (image/png)
+* [X Cart online store builder Environment.png]({{site.baseurl}}/attachments/7505785/9437498.png) (image/png)
+* [X Cart online store builder Environment4.png]({{site.baseurl}}/attachments/7505785/9437502.png) (image/png)

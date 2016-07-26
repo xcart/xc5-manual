@@ -1,5 +1,5 @@
 ---
-identifier: ref_WZfcbEVr
+identifier: ref_IapN8lJ8
 updated_at: 2014-03-14 00:00
 layout: article_with_sidebar
 lang: en
@@ -28,6 +28,6 @@ When a user clicks on any of the above for the first time, they will need to gra
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [icons.png]({{site.baseurl}}/attachments/7504573/7602323.png) (image/png)  
-![](images/icons/bullet_blue.gif) [signin.png]({{site.baseurl}}/attachments/7504573/7602324.png) (image/png)  
-![](images/icons/bullet_blue.gif) [register.png]({{site.baseurl}}/attachments/7504573/7602325.png) (image/png)
+* [icons.png]({{site.baseurl}}/attachments/7504573/7602323.png) (image/png)
+* [signin.png]({{site.baseurl}}/attachments/7504573/7602324.png) (image/png)
+* [register.png]({{site.baseurl}}/attachments/7504573/7602325.png) (image/png)

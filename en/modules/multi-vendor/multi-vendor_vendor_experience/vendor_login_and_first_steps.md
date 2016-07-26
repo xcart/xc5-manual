@@ -1,5 +1,5 @@
 ---
-identifier: ref_LAI14FMl
+identifier: ref_SZycMdTx
 updated_at: 2015-11-13 00:00
 layout: article_with_sidebar
 lang: en
@@ -24,21 +24,21 @@ The first time a registered vendor logs in to the store's back end, there won't 
 
 To start selling with X-Cart, a vendor user needs to complete the following steps:
 
-1.  Check their user profile and provide the necessary information (vendor details, financial info, etc.) See {% link "Managing vendor profile information" ref_XbtJFiMB %}.  
+1.  Check their user profile and provide the necessary information (vendor details, financial info, etc.) See {% link "Managing vendor profile information" ref_b7PTQMgf %}.
 
-2.  Add the products they are going to sell. See {% link "Managing vendor catalog" ref_9gsHuW0K %} for information on how vendors can add products manually. See {% link "Vendor import/export" ref_KPdT60VD %} for information on how vendors can add products using CSV import.  
+2.  Add the products they are going to sell. See {% link "Managing vendor catalog" ref_r4mcwiho %} for information on how vendors can add products manually. See {% link "Vendor import/export" ref_pa3oqbXz %} for information on how vendors can add products using CSV import.
 
-3.  If the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_XdaiZ5DP#ConfiguringtheMulti-vendormodule-MultivendorMode %}:
-    1.  Specify the address from which their products will be shipped. See {% link "Specifying vendor ship-from address" ref_WOQPBDQd %}.
-    2.  Specify the shipping methods they are going to use. See {% link "Managing vendor shipping methods" ref_lTlMruZ5 %}.  
+3.  If the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_nFq48dhr#ConfiguringtheMulti-vendormodule-MultivendorMode %}:
+    1.  Specify the address from which their products will be shipped. See {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}.
+    2.  Specify the shipping methods they are going to use. See {% link "Managing vendor shipping methods" ref_IvXmtLKI %}.
 
-        (In "_Warehouse_" mode, the products of different vendors are shipped from the same warehouse, so the "ship-from" address and shipping methods are the same for all the vendors; they must be configured by the store administrator.)  
+        (In "_Warehouse_" mode, the products of different vendors are shipped from the same warehouse, so the "ship-from" address and shipping methods are the same for all the vendors; they must be configured by the store administrator.)
 
-Once customers start placing orders for products owned by a vendor, the vendor will be able to view these orders via the Orders section. The vendor will also have access to sales statistics including their order statistics and best selling products. See {% link "Vendor access to orders and statistics" ref_w2GOgSNg %}.
+Once customers start placing orders for products owned by a vendor, the vendor will be able to view these orders via the Orders section. The vendor will also have access to sales statistics including their order statistics and best selling products. See {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}.
 
 _Related pages:_
 
-*   {% link "Vendor registration" ref_6dXZktFm %}
+*   {% link "Vendor registration" ref_SkW62BgH %}
 *   {% link "Managing vendor profile information" Managing-vendor-profile-information_8749390.html %}
 *   {% link "Managing vendor catalog" Managing-vendor-catalog_8749388.html %}
 *   {% link "Managing vendor shipping methods" Managing-vendor-shipping-methods_8749392.html %}
@@ -48,7 +48,7 @@ _Related pages:_
 
 ## Attachments:
 
-![](images/icons/bullet_blue.gif) [xc5_first_vendor_login.png]({{site.baseurl}}/attachments/8749377/8716900.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749377/8716902.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749377/8716901.png) (image/png)  
-![](images/icons/bullet_blue.gif) [xc5_multi_vendor_need_paypal.png]({{site.baseurl}}/attachments/8749377/8719610.png) (image/png)
+* [xc5_first_vendor_login.png]({{site.baseurl}}/attachments/8749377/8716900.png) (image/png)
+* [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749377/8716902.png) (image/png)
+* [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749377/8716901.png) (image/png)
+* [xc5_multi_vendor_need_paypal.png]({{site.baseurl}}/attachments/8749377/8719610.png) (image/png)
