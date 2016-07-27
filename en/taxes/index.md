@@ -7,7 +7,7 @@ title: 'Taxes'
 categories:
   - home
 order: 80
-icon: percent
+icon: calculator
 description: Define the rules for correct charge of various tax types
 ---
 

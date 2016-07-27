@@ -7,7 +7,7 @@ title: 'Products'
 categories:
   - home
 order: 30
-icon: shopping bag
+icon: cube
 description: Fill your catalog with detailed product pages and various promotional blocks
 ---
 

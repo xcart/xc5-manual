@@ -18,9 +18,7 @@ _In this section:_
 *   {% link "Activating your license" ref_qwhmJtqW %}
 *   {% link "Changing the domain name" ref_P12xhEF6 %}
 *   {% link "Changing the domain name if you are using Bluehost as domain name registrar" ref_PVcLZCAC %}
-
 *   {% link "Installing and activating modules" ref_0fGEpvrh %}
-
 *   {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
 *   {% link "What to do if your store says "We are deploying new changes" and you cannot access it" ref_3zSHgdQk %}
 *   {% link "Restoring your store with the Snapshots feature" ref_h7Oh5T8T %}
