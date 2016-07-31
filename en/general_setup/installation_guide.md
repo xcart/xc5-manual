@@ -1,12 +1,13 @@
 ---
-identifier: ref_VG5mIoLT
-updated_at: 2016-06-07 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Installation Guide'
+layout: article_with_sidebar
+updated_at: '2016-06-07 00:00'
+identifier: ref_VG5mIoLT
+title: Installation Guide
 categories:
   - General setup
-
+published: true
+order: 100
 ---
 
 
@@ -44,7 +45,7 @@ Before you get started you might want to check whether your web server spec meet
 
 Here is the system requirements list:
 
-*   PHP 5.3.10 or higher
+*   PHP 5.4 or higher
 *   PHP:PDO extension with MySQL driver
 *   PHP:Phar extension
 *   MySQL 5.1.31 or higher. You can also use MySQL-compatible database engine MariaDB.
