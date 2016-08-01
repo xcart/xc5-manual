@@ -68,12 +68,14 @@ Here is the system requirements list:
 
 ## Hardware requirements
 
-<table class="confluenceTable">
-  <tbody>
+<table class="ui celled padded compact small table">
+  <thead>
     <tr>
       <th style="text-align: center;" class="confluenceTh">&nbsp;</th>
       <th colspan="3" style="text-align: center;" class="confluenceTh">Traffic</th>
     </tr>
+  </thead>
+  <tbody>
     <tr>
       <th style="text-align: center;" class="confluenceTh">Catalog size</th>
       <th class="confluenceTh"><span style="color: rgb(0,0,0);">up to 100 visitors/day</span>
