@@ -68,67 +68,92 @@ Here is the system requirements list:
 
 ## Hardware requirements
 
-|   | Traffic |
-| Catalog size | up to 100 visitors/day | up to 5 000 visitors/day | up to 15 000 visitors/day |
-| 1 500 SKUs | a good shared/cloud hosting | 
-
-VPS / Dedicated server
-
-*   Dual-core CPU
-*   RAM 1 GB
-*   250 Mbps connection
-
- | 
-
-Dedicated server
-
-*   Dual CPU dual-core
-*   RAM 8 GB, SAS HDD
-*   500 Mbps connection
-
- |
-| 20 000 SKUs | a good shared/cloud hosting | 
-
-VPS / Dedicated server
-
-*   Dual-core CPU
-*   RAM 2 GB
-*   250 Mbps connection
-
- | 
-
-Dedicated server
-
-*   Dual CPU dual-core
-*   RAM 16 GB, SAS HDD
-*   500 Mbps connection
-
- |
-| 300 000 SKUs | 
-
-VPS hosting
-
-*   Dual-core CPU
-*   RAM 2 GB
-*   100 Mbps connection
-
- | 
-
-Dedicated server
-
-*   Dual-core CPU
-*   RAM 4 GB, SAS HDD
-*   250 Mbps connection
-
- | 
-
-Dedicated server
-
-*   Dual CPU quad-core
-*   RAM 16 GB, SAS HDD
-*   500 Mbps connection
-
- |
+<table class="confluenceTable">
+  <tbody>
+    <tr>
+      <th style="text-align: center;" class="confluenceTh">&nbsp;</th>
+      <th colspan="3" style="text-align: center;" class="confluenceTh">Traffic</th>
+    </tr>
+    <tr>
+      <th style="text-align: center;" class="confluenceTh">Catalog size</th>
+      <th class="confluenceTh"><span style="color: rgb(0,0,0);">up to 100 visitors/day</span>
+      </th>
+      <th class="confluenceTh"><span style="color: rgb(0,0,0);">up to 5 000 visitors/day</span>
+      </th>
+      <th class="confluenceTh"><span style="color: rgb(0,0,0);">up to 15 000 visitors/day</span>
+      </th>
+    </tr>
+    <tr>
+      <th class="confluenceTh">1 500 SKUs</th>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">a good shared/cloud hosting</span>
+      </td>
+      <td class="confluenceTd">
+        <p>VPS / Dedicated server</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Dual-core CPU</li>
+          <li>RAM 1 GB</li>
+          <li>250 Mbps connection</li>
+        </ul>
+      </td>
+      <td class="confluenceTd">
+        <p>Dedicated server</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Dual CPU dual-core</li>
+          <li>RAM 8 GB, SAS HDD</li>
+          <li>500 Mbps connection</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th class="confluenceTh">20 000 SKUs</th>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">a good shared/cloud hosting</span>
+      </td>
+      <td class="confluenceTd">
+        <p>VPS / Dedicated server</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Dual-core CPU</li>
+          <li>RAM 2 GB</li>
+          <li>250 Mbps connection</li>
+        </ul>
+      </td>
+      <td class="confluenceTd">
+        <p>Dedicated server</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Dual CPU dual-core</li>
+          <li>RAM 16 GB, SAS HDD</li>
+          <li>500 Mbps connection</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th class="confluenceTh">300 000 SKUs</th>
+      <td class="confluenceTd">
+        <p>VPS hosting</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Dual-core CPU</li>
+          <li>RAM 2 GB</li>
+          <li>100 Mbps connection</li>
+        </ul>
+      </td>
+      <td class="confluenceTd">
+        <p>Dedicated server</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Dual-core CPU</li>
+          <li>RAM 4 GB, SAS HDD</li>
+          <li>250 Mbps connection</li>
+        </ul>
+      </td>
+      <td class="confluenceTd">
+        <p>Dedicated server</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Dual CPU quad-core</li>
+          <li>RAM 16 GB, SAS HDD</li>
+          <li>500 Mbps connection</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 # Browser compatibility
 
