@@ -9,7 +9,6 @@ categories:
 
 ---
 
-
 When your store is in the process of rebuilding its cache, upgrading the core or installing new modules, it is not operational, and your customers see the maintenance page instead:
 
 ![]({{site.baseurl}}/attachments/8750554/8719382.png?effects=drop-shadow)
@@ -17,7 +16,8 @@ When your store is in the process of rebuilding its cache, upgrading the core or
 If you want to provide additional information to help your customers contact you during the rebuild process, you should change the file **`<X-Cart folder>/public/maintenance.html`**. For instance, we will show how to add a phone number below the existing text. The mentioned file has the following HTML tags with text:
 
 **public/maintenance.html**
-```php
+
+```html
 <body class="maintenance">
   <div class="header"></div>
   <div class="container">
@@ -34,7 +34,8 @@ If you want to provide additional information to help your customers contact you
 We will add the line "`<div class="text">If you have any questions, contact us: 8-800-555-0100</div>`" to show our phone number:
 
 **changed maintenance.html**
-```php
+
+```html
 <body class="maintenance">
   <div class="header"></div>
   <div class="container">
