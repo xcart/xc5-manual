@@ -57,16 +57,16 @@ If you are going to use a self-signed certificate, you can create your public an
 
 2.  Generate an “RSA private key” using the following command (choose your own password for the field [privateKeyPass]):
 
-    {% raw %}```php
+    ```php
     openssl genrsa –aes-128 –out priv.pem –passout pass:[privateKeyPass] 2048 
-    ```{% endraw %}
+    ```
 
 3.  Create a certificate based on the “RSA private key”  (use the same password as in the previous step for the field [privateKeyPass]): 
 
-    {% raw %}```php
+    ```php
     openssl req –x509 –sha256 –new –key priv.pem –passin pass:[privateKeyPass]  
     -days 1825 –out cert.cer
-    ```{% endraw %}
+    ```
 
     The previous OpenSSL command will generate a certificate in X.509 format, with a validity period of 5 years (1825 days), the maximum for iDEAL signing certificates.
 

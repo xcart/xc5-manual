@@ -16,7 +16,7 @@ The "Snapshots" feature allows X-Cart to automatically take a snapshot of your X
 
 A typical snapshot looks something like the following:
 
-{% raw %}```php
+```php
 <?php
 return array (
   '2015_06_22_10_50_27' => 
@@ -127,7 +127,7 @@ return array (
     ),
   ),
 );
-```{% endraw %}
+```
 
 A separate snapshot is created for each change, so you may find that your file **files/service/.modules.migrations.php** already contains more than one snapshot.
 
@@ -152,13 +152,13 @@ Reverting to a snapshot will cause your store to be re-deployed with a module se
 
 After a snapshot restoration, a new snapshot will be written to the snapshots file. The format of this snapshot should be similar to the following:
 
-{% raw %}```php
+```php
 '2015_06_22_10_56_56' => 
  array (
    'date' => '2015_06_22_10_56_56',
    'restoredTo' => '2015_06_22_10_50_27',
  ),
-```{% endraw %}
+```
 
 This new snapshot will provide the following information:
 

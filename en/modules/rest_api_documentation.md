@@ -288,15 +288,15 @@ After the module has been installed, you need to set it up.
 
 Once your REST API module is installed, you can start receiving data from X-Cart. REST API allows to pull a particular entity identified by ID, e.g. pulling a product with ID=1 
 
-{% raw %}```php
+```php
 http://<MY-XCART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/1
-```{% endraw %}
+```
 
 or entities of a certain type, e.g. pulling all products 
 
-{% raw %}```php
+```php
 http://<MY-XCART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product
-```{% endraw %}
+```
 
 As you can see, in first case we passed the path as **_path=product/1** (where 1 is the ID of a product we want to fetch) and in the second case we passed it as **_path=product **(because we want to pull the info of all products).
 
@@ -327,9 +327,9 @@ For example, product "**orderBy**" condition can be set through this query: `_c
 
 Another example is the product "**inventory**" condition, which filters product by their stock status. Possible statuses are "all" (every product, no filtration), "low" (low amount), "out" (out of stock) and "in" (in stock). If we need to find all products which are out of stock, we set query param like this: `_cnd[inventory]=out`. The whole request now looks like this: 
 
-{% raw %}```php
+```php
 http://<MY-XCART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product&_cnd[inventory]=out
-```{% endraw %}
+```
 
 To find out which conditions you can apply to various model, you should find the corresponding Model/Repo/<entity>.php script in your X-Cart distributive (See {% link "How to work with different entities in the Default schema?" REST-API-documentation_3768321.html %} to get more information about different entites). We can't provide you a full list here because there are lots of types of entities, many of them are added by addons, and there are lots of conditions for each entity.
 
@@ -339,17 +339,17 @@ For methods that require the model param, you should prepare an array of data an
 
 Model as a query param looks like this (this is a _product_ entity):
 
-{% raw %}```php
+```php
 &model[sku]=sweatshirt  		  			// defining product data
 &model[price]=10.00
 &model[inventory][amount]=100     			// Inventory is linked model, that is why we use 2 dimensional array
 &model[translations][0][code]=en  			// Name is a part of translations model that is why we are using 2 dimensional array as well
 &model[translations][0][name]=sweatshirt
-```{% endraw %}
+```
 
 Model as a JSON object looks like this (a _category_ entity is used as an example):
 
-{% raw %}```php
+```php
 {
   "parent": { 					// ManyToOne relation
     "category_id": 1 				// integer field
@@ -365,14 +365,14 @@ Model as a JSON object looks like this (a _category_ entity is used as an exampl
     }
   ]
 }
-```{% endraw %}
+```
 
 As you can see, non-required fields can be omitted, and there are different types of data here: **integers**, **booleans**, **strings**, and **decimals****.** For a reference of which type is used for a model field, you should refer to your X-Cart model classes. Some fields can represent a relation to other models. There are 3 types of relationship between entities: **OneToMany**, **ManyToOne**, and **ManyToMany**.
 
 The **OneToMany** relationship is used when the entity is linked to many (0+) entities of another type (e.g. one Category is related to many child Categories). You should pass an array of objects of certain type here. 
 
 **Category children example (OneToMany)**
-{% raw %}```php
+```php
 // QUERY
 ...
 &model[children][0][category_id]=2
@@ -391,14 +391,14 @@ The **OneToMany** relationship is used when the entity is linked to many (0+) e
 	]
 	...
 }
-```{% endraw %}
+```
 
 The **ManyToOne** relationship is used when the entity and, possibly, other entities of such type are linked to one entity (e.g. many Orders are related to one particular Profile). You should pass an object with a set of fields used as an identifier for an entity (for example, entity ID).
 
 The **ManyToMany** relationship is a combination of the two aforemented relations and is used when many entities of one type are related to many entities of another type (e.g. one Product can relate to several Categories, and one Category can group several Products). You prepare your data in the same manner as in ManyToOne relationship (because ManyToMany type is basically made of two linked ManyToOne relationships from both sides).
 
 **Category parent example (ManyToOne, ManyToMany)**
-{% raw %}```php
+```php
 // QUERY
 ...
 &model[parent][category_id]=1
@@ -411,7 +411,7 @@ The **ManyToMany** relationship is a combination of the two aforemented relation
 	},
 	...
 }
-```{% endraw %}
+```
 
 ## Security protection
 
@@ -447,22 +447,22 @@ If you do not want to bother making requests via pure cURL and then parse result
 
 1.  [Install Guzzle](https://github.com/guzzle/guzzle#installing-guzzle) via Composer to the folder where your script working with REST API is located. Please note that you'll need **Guzzle 5.0.*** for a client to work, **not** the 6.0 version. That is because Guzzle [switched to PSR-7](https://github.com/guzzle/guzzle/releases/tag/6.0.0) for HTTP message and our REST API Client is not compatible with that. You might need to call 
 
-    {% raw %}```php
+    ```php
     php composer.phar require guzzlehttp/guzzle:5.0.3
-    ```{% endraw %}
+    ```
 
     instead of
 
-    {% raw %}```php
+    ```php
     composer require guzzlehttp/guzzle:5.0.3
-    ```{% endraw %}
+    ```
 
     during Guzzle installation.
 
 2.  Download the latest version of the **RESTAPIClient.php** script from [https://github.com/xcart/next-sdk/tree/master/lib/RESTAPI](https://github.com/xcart/next-sdk/tree/master/lib/RESTAPI) and put it into the same folder where Guzzle lib is installed.
 3.  Create your script (for example, _test.php_) with the following content: 
 
-    {% raw %}```php
+    ```php
     <?php
 
     error_reporting(-1);
@@ -480,7 +480,7 @@ If you do not want to bother making requests via pure cURL and then parse result
     $product = $client->get('product/1')->json();
 
     var_dump($product);
-    ```{% endraw %}
+    ```
 
     In this script, we first initialize REST API libs, then we create a **$client** object that will work with X-Cart REST API, pull product info and var_dump the returned data to a screen.
 
@@ -493,7 +493,7 @@ X-Cart REST API supports two data schemes:
 
 You can reasonably ask what format you should choose. The best answer is to show you an example. For instance, you need to pull product info such as **sku**, **name**, **description**, **price** and **quantity** for all your products. Using the default format it would look as follows: 
 
-{% raw %}```php
+```php
 <?php
 
 // init REST API
@@ -518,13 +518,13 @@ foreach ($products as $product) {
 	echo 'Quantity: ' . $extendedProductInfo['inventory']['amount'] . PHP_EOL;
 	echo 'Price: ' . $product['price'] . PHP_EOL;
 }
-```{% endraw %}
+```
 
 As you can see, you have to make multiple requests in order to pull the needed product info (name, description, quantity) if you use the **Default** format.
 
 As has been said earlier, the **Complex** schema serves the typical integration use-cases; that is why in order to pull the same product info you would need to make only one request as follows:
 
-{% raw %}```php
+```php
 <?php
 
 // init REST API
@@ -547,7 +547,7 @@ foreach ($products as $product) {
 	echo 'Quantity: ' . $product['quantity'] . PHP_EOL;
 	echo 'Price: ' . $product['price'] . PHP_EOL;
 }
-```{% endraw %}
+```
 
 Answering the question what format is for you, we would say that if you need general info about products, orders and users, then choose the **Complex** schema, if you need some specific info or you need to pull info about other entities (categories, payment methods, etc), then use the **Default** schema.
 
@@ -559,19 +559,19 @@ If you feel that the existing schemes don't suit your needs, you can always buil
 
 If you want to use the **Default** schema, you should instantiate the REST API client as follows: 
 
-{% raw %}```php
+```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey, 'default');
 
 // or simply
 
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
-```{% endraw %}
+```
 
 If you want to create the REST API client with the **Complex** schema, then do it as follows: 
 
-{% raw %}```php
+```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey, 'complex');
-```{% endraw %}
+```
 
 ## Data available in the Complex schema
 
@@ -746,21 +746,21 @@ For the sake of example, we will show examples for product entities only, but th
 
 Direct request: 
 
-{% raw %}```php
+```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product&_cnd[price][0]=10&_cnd[price][1]=20
-```{% endraw %}
+```
 
 Explanation of this request:
 
-{% raw %}```php
+```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product   //We are using GET method to pull the data
 &_cnd[price][0]=10   // We use _cnd param here. "price" is the condition and it is consists of two values: min and max. Here we define "min" part of the range - 10.
 &_cnd[price][1]=20   // Second part of the price condition. Here we define "max" part of the range - 20.
-```{% endraw %}
+```
 
 With REST API Client:
 
-{% raw %}```php
+```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 // preparing product data
@@ -772,7 +772,7 @@ $query = array(
 
 // sending request
 $result = $client->get('product', array('query' => $query))->json();
-```{% endraw %}
+```
 
 Such a request will create a product and then return the same product info in JSON as a result.
 
@@ -780,13 +780,13 @@ Such a request will create a product and then return the same product info in JS
 
 Direct request: 
 
-{% raw %}```php
+```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/0&_method=post&model[sku]=sweatshirt&model[price]=10.00&model[inventory][amount]=100&model[translations][0][code]=en&model[translations][0][name]=sweatshirt
-```{% endraw %}
+```
 
 Explanation of this request:
 
-{% raw %}```php
+```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/0
 &_method=post           // we use POST method for creating products and we specify _path as product/0, where /0 tells X-Cart that new entity is being created
 &model[sku]=sweatshirt  // defining product data
@@ -794,11 +794,11 @@ http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/0
 &model[inventory][amount]=100     // Inventory is linked model, that is why we use 2 dimensional array
 &model[translations][0][code]=en  // Name is a part of translations model that is why we are using 2 dimensional array as well
 &model[translations][0][name]=sweatshirt
-```{% endraw %}
+```
 
 With REST API Client:
 
-{% raw %}```php
+```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 // preparing product data
@@ -816,7 +816,7 @@ $product = array(
 
 // sending request
 $result = $client->post('product/0', array('body' => $product))->json();
-```{% endraw %}
+```
 
 Such a request will create a product and then return the same product info in JSON as a result.
 
@@ -824,13 +824,13 @@ Such a request will create a product and then return the same product info in JS
 
 Direct request: 
 
-{% raw %}```php
+```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product&_method=post&model[0][sku]=red-apple&model[0][price]=5.00&model[0][inventory][amount]=100&model[0][translations][0][code]=en&model[0][translations][0][name]=Red%20apple&model[1][sku]=green-apple&model[1][price]=5.00&model[1][inventory][amount]=100&model[1][translations][1][code]=en&model[1][translations][0][name]=Green%20apple
-```{% endraw %}
+```
 
 With REST API Client:
 
-{% raw %}```php
+```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 // preparing products data
@@ -865,7 +865,7 @@ $products = array(
 
 // sending request
 $result = $client->post('product', array('body' => $products))->json();
-```{% endraw %}
+```
 
 Note that we make a request to **_path=product** (not _path=product/0) in order to create several products.
 
@@ -875,15 +875,15 @@ Such a request will create two products and then return their info as a result.
 
 Direct request: 
 
-{% raw %}```php
+```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/1&_method=put&model[sku]=new-sku
-```{% endraw %}
+```
 
 We are using the parameter** _**path=product/1**** since we want to update a product with ID=1\. If we wanted to update a product with ID=14, we would use **_path=product/14.**
 
 With REST API Client:
 
-{% raw %}```php
+```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey); 
 // preparing product data
 $product = array(
@@ -892,7 +892,7 @@ $product = array(
 
 // sending request
 $result = $client->put('product/1', array('body' => $product))->json();
-```{% endraw %}
+```
 
 Such a request will change the sku of the product with ID=1 and then return this product info as a result.
 
@@ -900,13 +900,13 @@ Such a request will change the sku of the product with ID=1 and then return this
 
 Direct request:
 
-{% raw %}```php
+```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product&_method=put&model[0][product_id]=1&model[0][sku]=new-sku-1&model[1][product_id]=3&model[0][sku]=new-sku-3
-```{% endraw %}
+```
 
 With REST API Client:
 
-{% raw %}```php
+```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 $products = array(
@@ -922,19 +922,19 @@ $products = array(
 
 // sending request
 $result = $client->put('product', array('body' => $products))->json();
-```{% endraw %}
+```
 
 ## Assigning a product to a category
 
 Direct request:
 
-{% raw %}```php
+```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=categoryproducts/0&_method=post&model[product][product_id]=1&model[category][category_id]=1
-```{% endraw %}
+```
 
 With REST API Client:
 
-{% raw %}```php
+```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 $link = array(
@@ -947,41 +947,41 @@ $link = array(
 );
 // sending request
 $result = $client->post('categoryproducts/0', array('body' => $link))->json();
-```{% endraw %}
+```
 
 ## Removing a product with ID=1
 
 Direct request: 
 
-{% raw %}```php
+```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product/1&_method=delete
-```{% endraw %}
+```
 
 With REST API Client:
 
-{% raw %}```php
+```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 // sending request
 $result = $client->delete('product/1')->json();
-```{% endraw %}
+```
 
 ## Removing all products
 
 Direct request: 
 
-{% raw %}```php
+```php
 http://<X-CART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product&_method=delete
-```{% endraw %}
+```
 
 With REST API Client:
 
-{% raw %}```php
+```php
 $client = \RESTAPIClient::factory($storeUrl, $restApiKey);
 
 // sending request
 $result = $client->delete('product')->json();
-```{% endraw %}
+```
 
 ## Attachments:
 

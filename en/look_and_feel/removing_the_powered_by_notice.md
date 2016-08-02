@@ -18,11 +18,11 @@ categories:
 
 4.  Insert the following CSS code into the field below:
 
-    {% raw %}```php
+    ```php
     .powered-by .powered-by-label {
         display: none;
     }
-    ```{% endraw %}
+    ```
 
 5.  Click **Save**.
     ![]({{site.baseurl}}/attachments/6389847/8716775.png?effects=drop-shadow)
@@ -31,11 +31,11 @@ categories:
 
 7.  If you need to remove the "Powered by" notice on the Mobile Mode, just go to **Mobile custom CSS** section, enable **Use mobile custom css** check-box, add the below code to the corresponding field,and click **Save**:
 
-    {% raw %}```php
+    ```php
     p.powered-by-label {
         display: none;
     }
-    ```{% endraw %}
+    ```
 
     ![]({{site.baseurl}}/attachments/6389847/9437792.png?effects=drop-shadow)
 

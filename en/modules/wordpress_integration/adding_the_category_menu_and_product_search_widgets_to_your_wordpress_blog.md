@@ -56,17 +56,17 @@ To add a widget to a blog post:
 2.  Open the post for editing.
 3.  In the post - at the location where you want the widget to be displayed - insert one of the following:
 
-    {% raw %}```php
+    ```php
     [xcart widget='categorymenu']
-    ```{% endraw %}
+    ```
 
     (for the Category menu widget)
 
     or
 
-    {% raw %}```php
+    ```php
     [xcart widget='search']
-    ```{% endraw %}
+    ```
 
     (for the Product search widget).
 

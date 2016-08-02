@@ -17,7 +17,7 @@ When your store is in the process of rebuilding its cache, upgrading the core or
 If you want to provide additional information to help your customers contact you during the rebuild process, you should change the file **`<X-Cart folder>/public/maintenance.html`**. For instance, we will show how to add a phone number below the existing text. The mentioned file has the following HTML tags with text:
 
 **public/maintenance.html**
-{% raw %}```php
+```php
 <body class="maintenance">
   <div class="header"></div>
   <div class="container">
@@ -29,12 +29,12 @@ If you want to provide additional information to help your customers contact you
 
   </div>
 </body>
-```{% endraw %}
+```
 
 We will add the line "`<div class="text">If you have any questions, contact us: 8-800-555-0100</div>`" to show our phone number:
 
 **changed maintenance.html**
-{% raw %}```php
+```php
 <body class="maintenance">
   <div class="header"></div>
   <div class="container">
@@ -46,7 +46,7 @@ We will add the line "`<div class="text">If you have any questions, contact us: 
 
   </div>
 </body>
-```{% endraw %}
+```
 
 Likewise, you can add links to your social accounts and images, or any other info you find necessary. After saving this file, the store's maintenance page will look like this:
 

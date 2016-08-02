@@ -21,14 +21,14 @@ If, however, HTTPS may not be enabled properly at this time, you can restore acc
 1.  Reset the values of the fields **admin_security** and **customer_security** in your store's database. These fields can be found in the table **x****c_config**, provided that during X-Cart installation you chose to use the MySQL table prefix "xc_". 
     The following MySQL statement will select the fields in question from the database table xc_config:
 
-    {% raw %}```php
+    ```php
     SELECT * FROM `xc_config` WHERE `name` LIKE "%security%";
-    ```{% endraw %}
+    ```
 
     The following statement will reset the field values:
 
-    {% raw %}```php
+    ```php
     UPDATE `xc_config` SET `value`=0 WHERE `name`="admin_security" OR `name`="customer_security";
-    ```{% endraw %}
+    ```
 
 2.  Remove the folder **var/datacache/** in your X-Cart insallation directory.

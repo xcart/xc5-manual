@@ -49,15 +49,15 @@ It means, you need to set up your server before you can use SEO-friendly URLs. T
 
 You need to enable Apache's module [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) and it will enable the **Enable clean URLs** button in the **Environment** section described above. Typically, you should edit the **httpd.conf** file of your Apache and replace there the following line:
 
-{% raw %}```php
+```php
 #LoadModule rewrite_module modules/mod_rewrite.so
-```{% endraw %}
+```
 
 with the next one:
 
-{% raw %}```php
+```php
 LoadModule rewrite_module modules/mod_rewrite.so
-```{% endraw %}
+```
 
 After that, restart your Apache server and check the results.
 
@@ -69,7 +69,7 @@ Use the [Import of Apache rules](http://www.iis.net/learn/extensions/url-rewrite
 
 You should put the following lines into the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) into your nginx configuration file (nginx.conf):
 
-{% raw %}```php
+```php
 # Example nginx configuration
 location / {
   index cart.php;
@@ -79,7 +79,7 @@ location / {
      rewrite ^/((([/_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)(/?)(\.([_A-Za-z0-9-]+))?$ /cart.php?url=$5&last=$4&rest=$3&ext=$7 last;
   }
 }
-```{% endraw %}
+```
 
 You should obviously set location to corresponding directory in case your X-Cart installation is placed in subdirectory of your web-root.
 
@@ -95,17 +95,17 @@ Steps listed below usually fix the problem that SEO-friendly URLs cannot be enab
 
 1.  Make sure that the following line in your `.htaccess` file reflects an actual path to your store: 
 
-    {% raw %}```php
+    ```php
     RewriteBase /
-    ```{% endraw %}
+    ```
 
     It must be the same as the value specified in the `web_dir` variable in the `<X-Cart>/etc/config.php` file.
 
 2.  Make sure that the `AllowOverride` directive is set to `All` in the `conf.httpd` file on your server: 
 
-    {% raw %}```php
+    ```php
      AllowOverride All
-    ```{% endraw %}
+    ```
 
 ## Attachments:
 

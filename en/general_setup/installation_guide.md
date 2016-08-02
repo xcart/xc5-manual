@@ -178,15 +178,15 @@ This article covers the process of installation for X-Cart versions 5.2.5 and la
 
     for zip archive: 
 
-    {% raw %}```php
+    ```php
     unzip x-cart-5.2.13-en.zip
-    ```{% endraw %}
+    ```
 
     for tgz archive: 
 
-    {% raw %}```php
+    ```php
     tar -xzpf x-cart-5.2.13-en.tgz
-    ```{% endraw %}
+    ```
 
     (Be sure to replace the file name with the actual name of the archive you have downloaded).
 
@@ -274,26 +274,26 @@ Such problems generally mean that MySQL credentials were specified incorrectly o
 
 Examples:
 
-1.  {% raw %}```php
+1.  ```php
     FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[28000] [1045] Access denied for user 'tony'@'localhost' (using password: YES) Click the 'BACK' button and review the MySQL server settings provided
-    ```{% endraw %}
+    ```
 
     Such error message means that your MySQL login or password are incorrect. You need to double check your MySQL credentials and input them correctly.
     _Note: sometimes this problem can happen even when you correctly specify login and password, but there is actually the problem with **MySQL user** preferences. You can check it in a following manner: go to the **phpMyAdmin** console of your server and check the MySQL user's **Host** field. If it is specified as **% (Any host)**, then you should remove this MySQL user and create new one with the same name but specify Host field as **localhost (Local)**._
 
-2.  {% raw %}```php
+2.  ```php
     FATAL ERROR: Cannot connect to specified MySQL server : SQLSTATE[HY000] [1044] Access denied for user 'tony'@'localhost' to database 'xcart' Click the 'BACK' button and review the MySQL server settings you have provided.
-    ```{% endraw %}
+    ```
 
     Such error message means that your MySQL login/password allowed X-Cart to log to MySQL server, but your database does not exist or your MySQL user cannot access it. You should log into your MySQL dashboard and make sure that your database exists and the MySQL user has an access to it.
 
 3.  Other MySQL errors like:
 
-    {% raw %}```php
+    ```php
     FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
     FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[HY000] [2002] The requested address is not valid in its context.
     FATAL ERROR: MySQL server doesn't support InnoDB engine. It is required for X-Cart 5 operation(current version is 5.1.73-cll)
-    ```{% endraw %}
+    ```
 
     mean that there is something wrong with your MySQL server settings. You need to send such error message to your hosting team and ask them to fix it.
 
@@ -301,7 +301,7 @@ Examples:
 
 Such error messages may look like this:
 
-{% raw %}```php
+```php
 Permissions checking failed. Please make sure that the following file permissions are assigned (UNIX only):
 chmod 666 /home/tony/public_html/xcart/.htaccess
 
@@ -317,29 +317,29 @@ find /Applications/MAMP/htdocs/xcart/files -type d -exec chmod 0777 {} \;
 find /Applications/MAMP/htdocs/xcart/files -type f -exec chmod 0666 {} \;
 chmod 666 /Applications/MAMP/htdocs/xcart/etc/config.php
 chmod 666 /Applications/MAMP/htdocs/xcart/.htaccess
-```{% endraw %}
+```
 
 Such error messages mean that some files do not have suitable permissions and you must correct them manually. Copy the instructions suggested and run them using **Terminal** section in your Control Panel.
 
 There are several examples of error message for better understanding of the process:
 
-1.  {% raw %}```php
+1.  ```php
     chmod 666 /home/tony/public_html/xcart/.htaccess
-    ```{% endraw %}
+    ```
 
     Such instruction means that all users must have readable and writable permissions for the  `/home/tony/public_html/xcart/.htaccess` file.
 
-2.  {% raw %}```php
+2.  ```php
     find /Applications/MAMP/htdocs/xcart/var -type d -exec chmod 0777 {} \;
-    ```{% endraw %}
+    ```
 
     Such instruction means that all users must have all possible permissions (`chmod 0777`) to all directories `(-type d`) inside `/Applications/MAMP/htdocs/xcart/var` folder.
 
 3.  Similarly to above
 
-    {% raw %}```php
+    ```php
     find /Applications/MAMP/htdocs/xcart/files -type f -exec chmod 0666 {} \;
-    ```{% endraw %}
+    ```
 
     this instruction means that all users must have readable and writeable permissions (`chmod 0666`) to all files `(-type f`) inside `/Applications/MAMP/htdocs/xcart/var` folder.
 
@@ -347,9 +347,9 @@ There are several examples of error message for better understanding of the proc
 
 Your hosting company may disable several default PHP functions and X-Cart 5 cannot work while they are disabled. In this case, you will get the error message like this:
 
-{% raw %}```php
+```php
 There are disabled functions (phpinfo, escapeshellcmd, escapeshellarg, openlog, syslog, exec, popen) that may be used by software in some cases and should be enabled
-```{% endraw %}
+```
 
 The list of disable functions can be different.
 
@@ -359,28 +359,28 @@ In order to solve this issue, you should send the list of disableв PHP function
 
 If you are getting an error message like this: 
 
-{% raw %}```php
+```php
 PDO extension with MySQL support must be installed.
-```{% endraw %}
+```
 
 it means that your server does not support library to work with MySQL via PDO. PDO is an extension that ensures safe work with database and it is required for proper X-Cart 5 work. Ask your hosting team to enable it for your hosting account.
 
 If you are on local machine, you need to edit your php.ini file, uncomment the following line there and restart Apache.
 
-{% raw %}```php
+```php
 ;extension=pdo_mysql.so
 
 it should become
 extension=pdo_mysql.so
-```{% endraw %}
+```
 
 ## 5\. HTTPS bouncer is not installed
 
 If you are getting an error message like this:
 
-{% raw %}```php
+```php
 libcurl extension not found
-```{% endraw %}
+```
 
 it means that libCurl system library is not enabled in your account and your PHP scripts cannot create connections to other services. Ask your hosting team to enable libCurl for you.
 
