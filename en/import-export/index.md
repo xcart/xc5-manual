@@ -9,10 +9,9 @@ categories:
 
 ---
 
-
 _In this section:_
 
-*   {% link "How to import data" http://kb.x-cart.com/pages/viewpage.action?pageId=6389817 %}
+*   {% link "How to import data" ref_glDc6kA1 %}
 *   {% link "CSV format by X-Cart data type" ref_iy9cOdWS %}
 *   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}
 *   {% link "Integration with Doba (drop shipping services)" ref_HOfdxO3E %}

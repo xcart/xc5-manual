@@ -9,7 +9,6 @@ categories:
 
 ---
 
-
 The X-Cart 5 package available for download from the [www.x-cart.com](http://www.x-cart.com/) website is a 30-day feature-complete trial of the X-Cart 5 Business edition. This trial package is licensed for evaluation purposes only. To use your X-Cart 5 installation for purposes other than evaluation, you need a Full X-Cart 5 license (Free, Business, Multivendor or Ultimate) which must be activated for your store. A Free license can be obtained and activated by anyone through the use of the Activate free license feature of the X-Cart 5 trial. The rest of the license types (Business, Multivendor and Ultimate) are non-free and must be purchased; for each X-Cart 5 license you purchase you get a license activation key which you must use to activate your license. Here are the instructions for activating X-Cart 5 licenses:
 
 *   [Activating a Free X-Cart 5 license](#activate-a-free-x-cart-5-license)
@@ -23,9 +22,7 @@ Commercial (non-free) modules for X-Cart 5 are also provided with licenses tha
 
 This section explains how to activate a Free X-Cart 5 license to turn your X-Cart trial installation into a real X-Cart 5 Free edition store.
 
-<div class="ui blue segment">
 A {% link "video instruction on X-Cart 5 Free license activation" ref_X5ZLmSJV %}  is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
-</div>
 
 To activate a Free X-Cart 5 license, do the following:
 
@@ -69,9 +66,7 @@ To activate a Free X-Cart 5 license, do the following:
 
 This section explains how to activate the license for X-Cart 5 Business, Multivendor and Ultimate editions.
 
-<div class="ui blue segment">
 A {% link "video instruction on X-Cart 5 Business license activation" ref_UUrbypsh %}  is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
-</div>
 
 When you purchase X-Cart 5 Business, Multivendor or Ultimate, a message is sent to your license registration email address with the subject "**Your X-Cart 5 license key**". This message contains a 16-letter code that you must use to activate your license. 
 
@@ -80,9 +75,7 @@ The key is also stored in your personal HelpDesk account in the section **My Li
 
 Be sure to have this key at the ready when you are going to activate your license.
 
-<div class="ui yellow segment">
 If you lost the email message with your license key and experience problems logging in to your HelpDesk account, please contact X-Cart's Customer Service at **[support@x-cart.com](mailto:support@x-cart.com)**.
-</div>
 
 To activate your license, do the following:
 
@@ -115,11 +108,7 @@ To activate your license, do the following:
 
 This section covers the topic of license activation for commercial (paid, non-free) modules for X-Cart 5.
 
-Info
-
-Icon
-
-A {% link "video instruction on X-Cart 5 module license activation" ref_hU6Rb4tw %}  is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
+A {% link "video instruction on X-Cart 5 module license activation" ref_hU6Rb4tw %} is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
 
 When you purchase an X-Cart 5 module license, you need to activate it. Within minutes of the purchase you get an email message with the subject '**Your **"**Module_name**"** addon key**', where Module_name is the actual name of the module. You should use this key to activate your module license. As soon as the license has been activated, the module will be automatically installed at your store.
 
@@ -149,53 +138,7 @@ That is all. Your module license has been activated, and the module has been ins
 
 _Related pages:_
 
-*   Video: {% link "X-Cart 5 Free License Activation" X-Cart-5-Free-License-Activation_8225277.html %}
-*   Video: {% link "X-Cart 5 Business License Activation" X-Cart-5-Business-License-Activation_8224856.html %}
-*   Video: {% link "X-Cart 5 Module License Activation" X-Cart-5-Module-License-Activation_8224858.html %}
+*   Video: {% link "X-Cart 5 Free License Activation" ref_X5ZLmSJV %}
+*   Video: {% link "X-Cart 5 Business License Activation" ref_UUrbypsh %}
+*   Video: {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %}
 *   {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}
-
-## Attachments:
-
-* [activate_free_license_button.png]({{site.baseurl}}/attachments/8225232/8356124.png) (image/png)
-* [activate_free_license1x.png]({{site.baseurl}}/attachments/8225232/8356125.png) (image/png)
-* [activate_free_license2.png]({{site.baseurl}}/attachments/8225232/8356126.png) (image/png)
-* [activate_free_license3.png]({{site.baseurl}}/attachments/8225232/8356127.png) (image/png)
-* [activate_free_license4.png]({{site.baseurl}}/attachments/8225232/8356128.png) (image/png)
-* [activate_free_license5.png]({{site.baseurl}}/attachments/8225232/8356129.png) (image/png)
-* [activate_button_marketplace.png]({{site.baseurl}}/attachments/8225232/8356130.png) (image/png)
-* [activate_popup_marketplace.png]({{site.baseurl}}/attachments/8225232/8356131.png) (image/png)
-* [activate_popup_marketplace1x.png]({{site.baseurl}}/attachments/8225232/8356148.png) (image/png)
-* [activate_popup_marketplace2x.png]({{site.baseurl}}/attachments/8225232/8356150.png) (image/png)
-* [activate_xc_link.png]({{site.baseurl}}/attachments/8225232/8356143.png) (image/png)
-* [no_key_required.png]({{site.baseurl}}/attachments/8225232/8356144.png) (image/png)
-* [evaluation_notice.png]({{site.baseurl}}/attachments/8225232/8356145.png) (image/png)
-* [activate_installation_first.png]({{site.baseurl}}/attachments/8225232/8356146.png) (image/png)
-* [activate_popup_marketplace1x.png]({{site.baseurl}}/attachments/8225232/8356132.png) (image/png)
-* [my_licenses.png]({{site.baseurl}}/attachments/8225232/8356149.png) (image/png)
-* [activate_popup_marketplace2x.png]({{site.baseurl}}/attachments/8225232/8356153.png) (image/png)
-* [activate_popup_marketplace2xx.png]({{site.baseurl}}/attachments/8225232/8356152.png) (image/png)
-* [activate_popup_marketplace2xx.png]({{site.baseurl}}/attachments/8225232/8356151.png) (image/png)
-* [activate_popup_marketplace2x.png]({{site.baseurl}}/attachments/8225232/8356133.png) (image/png)
-* [xc_business.png]({{site.baseurl}}/attachments/8225232/8356154.png) (image/png)
-* [activate_module1.png]({{site.baseurl}}/attachments/8225232/8356155.png) (image/png)
-* [activate_module2.png]({{site.baseurl}}/attachments/8225232/8356156.png) (image/png)
-* [activate_module3.png]({{site.baseurl}}/attachments/8225232/8356157.png) (image/png)
-* [activate_module4.png]({{site.baseurl}}/attachments/8225232/8356158.png) (image/png)
-* [module_activated_installed.png]({{site.baseurl}}/attachments/8225232/8356159.png) (image/png)
-* [module_activate_key1.png]({{site.baseurl}}/attachments/8225232/8356160.png) (image/png)
-* [xc5_evaluation_notice.png]({{site.baseurl}}/attachments/8225232/8716595.png) (image/png)
-* [xc5_evaluation_notice.png]({{site.baseurl}}/attachments/8225232/8716594.png) (image/png)
-* [xc5_activate_key.png]({{site.baseurl}}/attachments/8225232/8716596.png) (image/png)
-* [xc_activate_key_marketplace.png]({{site.baseurl}}/attachments/8225232/8716597.png) (image/png)
-* [xc_activate_key_marketplace_expand.png]({{site.baseurl}}/attachments/8225232/8716598.png) (image/png)
-* [xc5_free_license_activation.png]({{site.baseurl}}/attachments/8225232/8716599.png) (image/png)
-* [xc5_activate_free.png]({{site.baseurl}}/attachments/8225232/8716600.png) (image/png)
-* [xc5_free_license_activated.png]({{site.baseurl}}/attachments/8225232/8716601.png) (image/png)
-* [xc5_free_version.png]({{site.baseurl}}/attachments/8225232/8716602.png) (image/png)
-* [xc5_activate_business.png]({{site.baseurl}}/attachments/8225232/8716603.png) (image/png)
-* [xc5_activate_installed_modules_sect.png]({{site.baseurl}}/attachments/8225232/8716604.png) (image/png)
-* [xc5_business_activated.png]({{site.baseurl}}/attachments/8225232/8716605.png) (image/png)
-* [xc5_business_license.png]({{site.baseurl}}/attachments/8225232/8716606.png) (image/png)
-* [xc5_activate_module_key.png]({{site.baseurl}}/attachments/8225232/8716608.png) (image/png)
-* [xc5_module_key_form.png]({{site.baseurl}}/attachments/8225232/8716609.png) (image/png)
-* [xc5_module_key_activate.png]({{site.baseurl}}/attachments/8225232/8716610.png) (image/png)

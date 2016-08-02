@@ -9,18 +9,17 @@ categories:
 
 ---
 
-
 To accept payments from buyers, you need to enable one or more payment methods for your store. Payment methods are managed via the **Payment methods** section (**Store setup > Payments**):
 
 ![]({{site.baseurl}}/attachments/6389794/7602367.png?effects=drop-shadow)
 
 In this section, you can:
 
-*   {% link "view your store's list of payment methods" ref_Jq6Bsdrt %};
-*   {% link "add new payment methods" Accepting-payments_6389794.html %};
-*   {% link "edit the settings of existing payment methods" Accepting-payments_6389794.html %};
-*   {% link "change the availability of specific payment methods" Accepting-payments_6389794.html %} (disable a payment method for customers, re-enable a previously disabled method);
-*   {% link "delete payment methods" Accepting-payments_6389794.html %}.
+*   [view your store’s list of payment methods](#viewingyour-stores-payment-methods-list);
+*   [add new payment methods](#adding-payment-methods);
+*   [edit the settings of existing payment methods](#editing-existing-payment-methods);
+*   [change the availability of specific payment methods](#enabling--disabling-payment-methods);
+*   [delete payment methods](#deleting-payment-methods).
 
 # Viewing your store's payment methods list
 
@@ -98,7 +97,7 @@ It is possible to edit previously added payment methods.
 
 To edit an existing method:
 
-1.  On the **Payment methods** page (**Store setup > Payments**), locate the payment method that needs to be edited and click on the Gearicon ![]({{site.baseurl}}/plugins/servlet/confluence/placeholder/unknown-attachment "gear_icon.png") opposite its name.
+1.  On the **Payment methods** page (**Store setup > Payments**), locate the payment method that needs to be edited and click on the gear icon opposite its name.
     This opens the page with the payment method's settings.
     ![]({{site.baseurl}}/attachments/6389794/7602388.png?effects=drop-shadow)
 2.  Edit the settings. 
@@ -113,34 +112,3 @@ You can change the availability of a payment method by switching the On/Off cont
 # Deleting payment methods
 
 To remove a payment method from your store's payment methods list, click on the Trash icon ![]({{site.baseurl}}/attachments/7503950/8718936.png) opposite its name.
-
-## Attachments:
-
-* [payment-methods-menu.png]({{site.baseurl}}/attachments/6389794/6586409.png) (image/png)
-* [offline-payment-methods.png]({{site.baseurl}}/attachments/6389794/6586401.png) (image/png)
-* [payment-methods-settings-buttons.png]({{site.baseurl}}/attachments/6389794/6586403.png) (image/png)
-* [add-new-payment-method-form.png]({{site.baseurl}}/attachments/6389794/6586427.png) (image/png)
-* [payment-methods-switch-buttons.png]({{site.baseurl}}/attachments/6389794/6586408.png) (image/png)
-* [payment-methods-menu.png]({{site.baseurl}}/attachments/6389794/6586397.png) (image/png)
-* [payment-methods-go-to-marketplace.png]({{site.baseurl}}/attachments/6389794/6586411.png) (image/png)
-* [marketplace-search-for-paypal.png]({{site.baseurl}}/attachments/6389794/6586413.png) (image/png)
-* [marketplace-install-paypal-modules.png]({{site.baseurl}}/attachments/6389794/6586415.png) (image/png)
-* [payment-methods-accepting-credit-card.png]({{site.baseurl}}/attachments/6389794/6586419.png) (image/png)
-* [payment-methods-add-payment-processor.png]({{site.baseurl}}/attachments/6389794/6586421.png) (image/png)
-* [add-new-payment-method-form.png]({{site.baseurl}}/attachments/6389794/6586406.png) (image/png)
-* [payment-methods-adding-paypal-advnaced.png]({{site.baseurl}}/attachments/6389794/6586428.png) (image/png)
-* [paypal-advanced-details.png]({{site.baseurl}}/attachments/6389794/6586430.png) (image/png)
-* [payment_methods.png]({{site.baseurl}}/attachments/6389794/7602380.png) (image/png)
-* [no_payment_modulesXC5.png]({{site.baseurl}}/attachments/6389794/7602368.png) (image/png)
-* [accepting_cc_alternative.png]({{site.baseurl}}/attachments/6389794/7602382.png) (image/png)
-* [offline_methods.png]({{site.baseurl}}/attachments/6389794/7602381.png) (image/png)
-* [pp_advanced_settings.png]({{site.baseurl}}/attachments/6389794/7602385.png) (image/png)
-* [payment_methods.png]({{site.baseurl}}/attachments/6389794/7602367.png) (image/png)
-* [offline_methods.png]({{site.baseurl}}/attachments/6389794/7602370.png) (image/png)
-* [accepting_cc_alternative.png]({{site.baseurl}}/attachments/6389794/7602369.png) (image/png)
-* [on_off_payment_methods.png]({{site.baseurl}}/attachments/6389794/7602383.png) (image/png)
-* [settings_payment_methods.png]({{site.baseurl}}/attachments/6389794/7602384.png) (image/png)
-* [pp_advanced_settings.png]({{site.baseurl}}/attachments/6389794/7602371.png) (image/png)
-* [add_offline_payment_method.png]({{site.baseurl}}/attachments/6389794/7602386.png) (image/png)
-* [add_offline_payment_method1.png]({{site.baseurl}}/attachments/6389794/7602387.png) (image/png)
-* [phone_ordering.png]({{site.baseurl}}/attachments/6389794/7602388.png) (image/png)
