@@ -52,11 +52,11 @@
         <div class="tagline">{{ site.data.labels['Build the tools that will shape the future of commerce'][page.lang] }}</div>
       </h1>
       <div class="ui hidden divider"></div>
-      <a href="{{ '/general_setup/' | prepend: baseurl_lang }}" class="ui huge inverted basic button">
-          Get Started
+      <a href="{{ site.data.labels['general_setup_link'][page.lang] | prepend: baseurl_lang }}" class="ui huge inverted basic button">
+          {{ site.data.labels['Get started'][page.lang] }}
       </a>
-      <a href="{{ '/general_setup/installation_guide.html' | prepend: baseurl_lang }}" class="ui huge inverted basic button">
-          How to install
+      <a href="{{ site.data.labels['installation_guide_link'][page.lang] | prepend: baseurl_lang }}" class="ui huge inverted basic button">
+          {{ site.data.labels['How to install'][page.lang] }}
       </a>
     </div>
   {% endif %}
