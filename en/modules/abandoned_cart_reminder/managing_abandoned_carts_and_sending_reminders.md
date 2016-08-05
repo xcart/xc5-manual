@@ -12,9 +12,9 @@ categories:
 
 This page provides information on the following actions with abandoned carts:
 
-*   {% link "Viewing/filtering the abandoned carts list" ref_hkTTIuTr %};
-*   {% link "Sending reminders" Managing-abandoned-carts-and-sending-reminders_7503954.html %};
-*   {% link "Deleting abandoned carts" Managing-abandoned-carts-and-sending-reminders_7503954.html %}.
+*   [Viewing/filtering the abandoned carts list](#viewingfiltering-the-abandoned-carts-list);
+*   [Sending reminders](#sending-reminders);
+*   [Deleting abandoned carts](#deleting-abandoned-carts).
 
 # Viewing/filtering the abandoned carts list
 
@@ -45,7 +45,7 @@ If a reminder needs to be sent not to all, but just some of the abandoned carts 
 
 To send a reminder email to owners of specific carts:
 
-1.  In the {% link "Abandoned carts list" Managing-abandoned-carts-and-sending-reminders_7503954.html %}, locate the carts for which you wish to send the reminder message and select them by selecting the respective check boxes in the first column. The **Remind selected** **customers** button below the list becomes active:
+1.  In the [Viewing/filtering the abandoned carts list](#viewingfiltering-the-abandoned-carts-list), locate the carts for which you wish to send the reminder message and select them by selecting the respective check boxes in the first column. The **Remind selected** **customers** button below the list becomes active:
     ![]({{site.baseurl}}/attachments/7503954/8719194.png?effects=drop-shadow)
 
 2.  Click **Remind selected** **customers**. A popup titled **Choose reminder** appears: 
@@ -59,7 +59,7 @@ When you no longer need an abandoned cart to be stored, you can delete it.
 
 To deleted an abandoned cart:
 
-1.  In the {% link "Abandoned carts list" Managing-abandoned-carts-and-sending-reminders_7503954.html %}, find the abandoned cart you wish to delete and select it by selecting the respective check box in the first column.
+1.  In the [Viewing/filtering the abandoned carts list](#viewingfiltering-the-abandoned-carts-list), find the abandoned cart you wish to delete and select it by selecting the respective check box in the first column.
 2.  Click the <u>**More actions for selected**</u> link below the list and select **Clear selected carts**. 
 
     ![]({{site.baseurl}}/attachments/7503954/8719196.png?effects=drop-shadow)

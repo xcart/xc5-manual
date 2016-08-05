@@ -12,12 +12,12 @@ categories:
 
 This page provides information on the following actions with abandoned cart reminders:
 
-*   {% link "Creating reminders" ref_i8rSfTrg %};
-*   {% link "Viewing the reminders list" Managing-reminders_7503950.html %};
-*   {% link "Editing reminders" Managing-reminders_7503950.html %} (changing the sending method, the name, the coupon amount, the email template, etc for individual reminders);
-*   {% link "Deleting reminders" Managing-reminders_7503950.html %}.
+*   [Creating reminders](#creating-reminders);
+*   [Viewing the reminders list](#viewing-the-reminders-list);
+*   [Editing reminders](#editing-reminders) (changing the sending method, the name, the coupon amount, the email template, etc for individual reminders);
+*   [Deleting reminders](#deleting-reminders).
 
-# Creating reminders
+## Creating reminders
 
 Before you can start sending abandoned cart reminders to owners of abandoned carts, you need to set up the reminders that will be sent. It is possible to set up multiple reminders and to specify a sending method (automatic or manual) for each of them. If Coupons module is installed in your store, you can also specify whether sending a reminder should create a discount coupon for the customer, or not. 
 
@@ -36,11 +36,7 @@ To create an abandoned cart reminder:
     *   **Name**: Enter a name by which you will identify the reminder in the store's Admin area (This name will not be visible to customers).
         **Send automatically**: Select this check box if you want the reminder to be sent automatically. Leave unselected if you are going to send the reminder manually. 
 
-        Note
-
-        Icon
-
-        For reminders configured to be sent_ automatically_, the sending of reminder emails will be handled using X-Cart's script for scheduled tasks, console.php (Your server needs to be configured to periodically run this script. See {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}).  For reminders configured to be sent _manually_, the sending of reminder emails will need to be handled by you or another admin user with permissions to execute the task. For instructions on how to send reminders manually, see {% link "Sending reminders" ref_hkTTIuTr#Managingabandonedcartsandsendingreminders-Sendingreminders %}.
+        For reminders configured to be sent_ automatically_, the sending of reminder emails will be handled using X-Cart's script for scheduled tasks, console.php (Your server needs to be configured to periodically run this script. See {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}).  For reminders configured to be sent _manually_, the sending of reminder emails will need to be handled by you or another admin user with permissions to execute the task. For instructions on how to send reminders manually, see {% link "Sending reminders" ref_hkTTIuTr#sending-reminders %}.
 
         The choice of automatic vs. manual sending method for any individual reminder should be made based on the intended audience of the message: for messages intended for all the customers who happened to abandon their shopping cart, choose the automatic sending method; for messages that you wish to be sent only to some of the customers, choose the manual sending method. 
 
@@ -53,10 +49,6 @@ To create an abandoned cart reminder:
     *   The fields** E-mail subject (no coupon) **and **E-mail body (no coupon)** are intended for reminder emails that will not create coupons.
 
     *   The fields **E-mail subject (with coupon)** and **E-mail body (with coupon) **are intended for reminder emails that will be sent with a coupon.
-
-        Note
-
-        Icon
 
         The fields **E-mail subject (no coupon) **and **E-mail body (no coupon)** are required and need to be completed anyway - even if you are setting up a reminder that will create coupons. Just complete them with the same values as the **E-mail subject (with coupon)** and **E-mail body (with coupon)** fields.
 
@@ -76,15 +68,11 @@ To create an abandoned cart reminder:
 
         *   [COUPON_EXPIRES] - Coupon expiration date.
 
-        Note
-
-        Icon
-
         A sample reminder template making use of the above tokens can be found in the _Default e-mail reminder_ in your store's reminders list.
 
-5.  Click **Create** to save the changes. The new reminder will be created and added to the {% link "Abandoned cart reminders list" Managing-reminders_7503950.html %}.
+5.  Click **Create** to save the changes. The new reminder will be created and added to the [abandoned cart reminders list](#viewing-the-reminders-list).
 
-# Viewing the reminders list
+## Viewing the reminders list
 
 You can view the list of abandoned cart reminders that have been set up for your store.
 
@@ -101,13 +89,13 @@ For each reminder on the list the following information is provided:
 *   **Coupon discount**: The discount amount that will be offered to the customer. "0" or empty value means that sending the reminder will not create coupons.
 *   **Expire**** (days)**: The number of days in which coupons created by the reminder will expire.
 
-# Editing reminders
+## Editing reminders
 
 You can edit any abandoned cart reminders that have been created in your store, including both the email message template and such parameters as the sending method, the coupon amount, etc.
 
 To edit a reminder:
 
-1.  In the {% link "Abandoned cart reminders list" Managing-reminders_7503950.html %}, click on the name of the reminder that needs to be edited. This opens the page where you can review and edit the reminder details:
+1.  In the [abandoned cart reminders list](#viewing-the-reminders-list), click on the name of the reminder that needs to be edited. This opens the page where you can review and edit the reminder details:
     ![]({{site.baseurl}}/attachments/7503950/8718932.png?effects=drop-shadow)
 
 2.  Edit the parameters of the reminder and/or make changes to the email template.
@@ -126,47 +114,17 @@ It is also possible to quickly edit the numeric parameters of individual reminde
 
 Make the required change and click outside the field to close it. You can also use the Tab key to close the current field and open the next one for editing. When you're done editing, be sure to save the changes using the **Save changes** button at the bottom of the list.
 
-# Deleting reminders
+## Deleting reminders
 
 You can delete the abandoned cart reminders you no longer need.
 
 To delete a reminder:
 
-1.  In the {% link "Abandoned cart reminders list" Managing-reminders_7503950.html %}, locate the reminder you wish to delete and select it for removal by clicking on the respective Trash icon ![]({{site.baseurl}}/attachments/7503950/7602228.png) at the right. 
+1.  In the [abandoned cart reminders list](#viewing-the-reminders-list), locate the reminder you wish to delete and select it for removal by clicking on the respective Trash icon ![]({{site.baseurl}}/attachments/7503950/7602228.png) at the right. 
 2.  Click **Save changes**. The reminder will be removed.
 
 _Related pages:_
 
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
-*   {% link "Managing abandoned carts and sending reminders" Managing-abandoned-carts-and-sending-reminders_7503954.html %}
+*   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
 *   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
-
-## Attachments:
-
-* [reminder-templates.png]({{site.baseurl}}/attachments/7503950/7602215.png) (image/png)
-* [edit-reminder.png]({{site.baseurl}}/attachments/7503950/7602216.png) (image/png)
-* [reminders_list_empty.png]({{site.baseurl}}/attachments/7503950/7602221.png) (image/png)
-* [add_reminder.png]({{site.baseurl}}/attachments/7503950/7602220.png) (image/png)
-* [reminders_list_empty.png]({{site.baseurl}}/attachments/7503950/7602219.png) (image/png)
-* [on_icon.jpg]({{site.baseurl}}/attachments/7503950/7602224.jpg) (image/jpeg)
-* [off_icon.png]({{site.baseurl}}/attachments/7503950/7602225.png) (image/png)
-* [on_icon.jpg]({{site.baseurl}}/attachments/7503950/7602222.jpg) (image/jpeg)
-* [off_icon.png]({{site.baseurl}}/attachments/7503950/7602223.png) (image/png)
-* [reminders_list.png]({{site.baseurl}}/attachments/7503950/7602226.png) (image/png)
-* [reminders_list1.png]({{site.baseurl}}/attachments/7503950/7602227.png) (image/png)
-* [trash.png]({{site.baseurl}}/attachments/7503950/7602229.png) (image/png)
-* [trash.png]({{site.baseurl}}/attachments/7503950/8718936.png) (image/png)
-* [xc5_acr_new_reminder_button.png]({{site.baseurl}}/attachments/7503950/8718923.png) (image/png)
-* [xc5_acr_cart_reminders_tab.png]({{site.baseurl}}/attachments/7503950/8718925.png) (image/png)
-* [xc5_acr_cart_reminders_tab.png]({{site.baseurl}}/attachments/7503950/8718926.png) (image/png)
-* [xc5_acr_cart_reminders_tab.png]({{site.baseurl}}/attachments/7503950/8718924.png) (image/png)
-* [xc5_acr_new_cart_reminder_form.png]({{site.baseurl}}/attachments/7503950/8718927.png) (image/png)
-* [xc5_acr_reminder_list_view.png]({{site.baseurl}}/attachments/7503950/8718928.png) (image/png)
-* [Clock_green.png]({{site.baseurl}}/attachments/7503950/8718930.png) (image/png)
-* [Clock_green.png]({{site.baseurl}}/attachments/7503950/8718929.png) (image/png)
-* [Clock_grey.png]({{site.baseurl}}/attachments/7503950/8718931.png) (image/png)
-* [xc5_acr_reminder_edit.png]({{site.baseurl}}/attachments/7503950/8718933.png) (image/png)
-* [xc5_acr_reminder_edit.png]({{site.baseurl}}/attachments/7503950/8718934.png) (image/png)
-* [xc5_acr_reminder_edit.png]({{site.baseurl}}/attachments/7503950/8718932.png) (image/png)
-* [xc5_acr_reminder_list_view_edit.png]({{site.baseurl}}/attachments/7503950/8718935.png) (image/png)
-* [trash.png]({{site.baseurl}}/attachments/7503950/7602228.png) (image/png)

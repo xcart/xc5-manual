@@ -12,8 +12,8 @@ categories:
 
 To add the "Login with Facebook" feature to your X-Cart store site, complete the following steps:
 
-1.  Create and configure a new App on Facebook (See {% link "Creating a Facebook App" ref_vpEKPoyM %}).
-2.  Obtain your Facebook App ID and App Secret and enter them on the "Social Login" module settings page in your X-Cart store's Admin area (See {% link "Configuring the Social Login module: Facebook" Setting-up-Facebook-Login-for-your-store_7504575.html %})
+1.  Create and configure a new App on Facebook (See [Creating a Facebook App](#creating-a-facebook-app)).
+2.  Obtain your Facebook App ID and App Secret and enter them on the "Social Login" module settings page in your X-Cart store's Admin area (See [Configuring the Social Login module: Facebook](#configuring-the-social-login-module-facebook))
 
 # Creating a Facebook App
 
@@ -84,43 +84,3 @@ _Related pages:_
 
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Setting up Google Login for your store" ref_LMCQeIrv %}
-
-## Attachments:
-
-* [apps.png]({{site.baseurl}}/attachments/7504575/7602302.png) (image/png)
-* [create_new_app1.png]({{site.baseurl}}/attachments/7504575/7602303.png) (image/png)
-* [step1.jpg]({{site.baseurl}}/attachments/7504575/7602304.jpg) (image/jpeg)
-* [create_new_app.png]({{site.baseurl}}/attachments/7504575/7602305.png) (image/png)
-* [create_new_app2.png]({{site.baseurl}}/attachments/7504575/7602306.png) (image/png)
-* [dashboard.png]({{site.baseurl}}/attachments/7504575/7602307.png) (image/png)
-* [settings.png]({{site.baseurl}}/attachments/7504575/7602308.png) (image/png)
-* [platform.png]({{site.baseurl}}/attachments/7504575/7602309.png) (image/png)
-* [step1-settings.jpg]({{site.baseurl}}/attachments/7504575/7602310.jpg) (image/jpeg)
-* [website.png]({{site.baseurl}}/attachments/7504575/7602311.png) (image/png)
-* [website1.png]({{site.baseurl}}/attachments/7504575/7602312.png) (image/png)
-* [app_secret.png]({{site.baseurl}}/attachments/7504575/7602313.png) (image/png)
-* [app_secret1.png]({{site.baseurl}}/attachments/7504575/7602314.png) (image/png)
-* [facebook_settings.png]({{site.baseurl}}/attachments/7504575/7602315.png) (image/png)
-* [facebook_login_setup.png]({{site.baseurl}}/attachments/7504575/7602316.png) (image/png)
-* [sl_modules_list.png]({{site.baseurl}}/attachments/7504575/7602322.png) (image/png)
-* [status-and-review-to-yes.png]({{site.baseurl}}/attachments/7504575/8355856.png) (image/png)
-* [xc5_sociallogin_new_app.png]({{site.baseurl}}/attachments/7504575/9439746.png) (image/png)
-* [xc5_sociallogin_new_app1.png]({{site.baseurl}}/attachments/7504575/9439747.png) (image/png)
-* [xc5_sociallogin_new_app2.png]({{site.baseurl}}/attachments/7504575/9439748.png) (image/png)
-* [xc5_sociallogin_new_app3.png]({{site.baseurl}}/attachments/7504575/9439749.png) (image/png)
-* [xc5_sociallogin_new_app4.png]({{site.baseurl}}/attachments/7504575/9439750.png) (image/png)
-* [xc5_sociallogin_new_app6.png]({{site.baseurl}}/attachments/7504575/9439751.png) (image/png)
-* [xc5_sociallogin_new_app5.png]({{site.baseurl}}/attachments/7504575/9439752.png) (image/png)
-* [xc5_sociallogin_new_app7.png]({{site.baseurl}}/attachments/7504575/9439782.png) (image/png)
-* [xc5_sociallogin_new_app7.png]({{site.baseurl}}/attachments/7504575/9439781.png) (image/png)
-* [xc5_sociallogin_new_app8.png]({{site.baseurl}}/attachments/7504575/9439783.png) (image/png)
-* [xc5_sociallogin_new_app9.png]({{site.baseurl}}/attachments/7504575/9439784.png) (image/png)
-* [xc5_sociallogin_new_app10.png]({{site.baseurl}}/attachments/7504575/9439785.png) (image/png)
-* [xc5_sociallogin_new_app11.png]({{site.baseurl}}/attachments/7504575/9439786.png) (image/png)
-* [xc5_sociallogin_new_app12.png]({{site.baseurl}}/attachments/7504575/9439787.png) (image/png)
-* [xc5_sociallogin_new_app13.png]({{site.baseurl}}/attachments/7504575/9439788.png) (image/png)
-* [xc5_sociallogin_new_app14.png]({{site.baseurl}}/attachments/7504575/9439789.png) (image/png)
-* [xc5_sociallogin_new_app15.png]({{site.baseurl}}/attachments/7504575/9439790.png) (image/png)
-* [xc5_sociallogin_module_settings.png]({{site.baseurl}}/attachments/7504575/9439791.png) (image/png)
-* [xc5_sociallogin_facebook_settings.png]({{site.baseurl}}/attachments/7504575/9439792.png) (image/png)
-* [xc5_sociallogin_facebook_settings_submit.png]({{site.baseurl}}/attachments/7504575/9439793.png) (image/png)

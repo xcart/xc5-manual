@@ -9,7 +9,6 @@ categories:
 
 ---
 
-
 To create a simple bookable product (without product variants), follow these steps:
 
 1.  Start creating a new product the normal way: specify a product name, choose a category, add images, etc. 
@@ -37,20 +36,9 @@ By clicking on the arrow icon next to the product name in the booking table, you
 
 ![]({{site.baseurl}}/attachments/8749984/8718727.png?effects=drop-shadow)
 
-Note that the default wording used by the module "Booking" may not work well for your type of bookable products. For example, our demo wedding rentals website, on which the screenshot above was taken, would really benefit from replacing the phrases  "Room type" and  "Check dates (N-night stay)" with something like "Item" and  "Rental period (N day rental)". Not to worry - the wording can be fixed by editing the "Booking" module text labels. For details see {% link "Editing "Booking" module text labels to your needs" ref_slH6gvha %}.
+Note that the default wording used by the module "Booking" may not work well for your type of bookable products. For example, our demo wedding rentals website, on which the screenshot above was taken, would really benefit from replacing the phrases  "Room type" and  "Check dates (N-night stay)" with something like "Item" and  "Rental period (N day rental)". Not to worry - the wording can be fixed by editing the "Booking" module text labels. For details see {% link "Editing «Booking» module text labels to your needs" ref_slH6gvha %}.
 
 _Related pages:_
 
 *   {% link "Setting up a bookable product with variants" ref_5BTPsMUx %}
-*   {% link "Editing "Booking" module text labels to your needs" 8750032.html %}
-
-## Attachments:
-
-* [add_bookable_product.png]({{site.baseurl}}/attachments/8749984/8718719.png) (image/png)
-* [price_quantity_shippable.png]({{site.baseurl}}/attachments/8749984/8718723.png) (image/png)
-* [add_tree.png]({{site.baseurl}}/attachments/8749984/8718722.png) (image/png)
-* [price_quantity_shippable.png]({{site.baseurl}}/attachments/8749984/8718720.png) (image/png)
-* [product_booking_enabled.png]({{site.baseurl}}/attachments/8749984/8718724.png) (image/png)
-* [tree_attributes.png]({{site.baseurl}}/attachments/8749984/8718725.png) (image/png)
-* [tree_storefront1.png]({{site.baseurl}}/attachments/8749984/8718726.png) (image/png)
-* [tree_storefront2.png]({{site.baseurl}}/attachments/8749984/8718727.png) (image/png)
+*   {% link "Editing «Booking» module text labels to your needs" ref_slH6gvha %}

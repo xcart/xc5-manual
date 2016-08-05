@@ -69,16 +69,7 @@ To start using Pay with Amazon:
 
 _Related pages:_
 
-*   {% link "Pay with Amazon module system requirements and installation" Pay-with-Amazon-module-system-requirements-and-installation_7504633.html %}
-*   {% link "Configuring the Pay with Amazon module" Configuring-the-Pay-with-Amazon-module_7504637.html %}
+*   {% link "Pay with Amazon module system requirements and installation" ref_iCibZ9wD %}
+*   {% link "Configuring the Pay with Amazon module" ref_0UssH5KP %}
 *   {% link "Pay with Amazon customer experience" ref_MQB8GDLT %}
 *   {% link "Pay with Amazon admin experience" ref_meqXfPIt %}
-
-## Attachments:
-
-* [amazon_services.png]({{site.baseurl}}/attachments/7504636/7602352.png) (image/png)
-* [amazon_test_accounts1.png]({{site.baseurl}}/attachments/7504636/7602353.png) (image/png)
-* [amazon_tax_interview_bank_account1.png]({{site.baseurl}}/attachments/7504636/7602354.png) (image/png)
-* [amazon_merchant_id1.png]({{site.baseurl}}/attachments/7504636/7602355.png) (image/png)
-* [amazon_merchant_id2.png]({{site.baseurl}}/attachments/7504636/7602356.png) (image/png)
-* [amazon_secret_keys2.png]({{site.baseurl}}/attachments/7504636/7602357.png) (image/png)

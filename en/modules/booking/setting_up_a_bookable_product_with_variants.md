@@ -9,7 +9,6 @@ categories:
 
 ---
 
-
 To create a bookable product with product variants, follow these steps:
 
 1.  Start creating a new product the normal way: specify a product name, choose a category, add images, etc. 
@@ -70,7 +69,7 @@ To create a bookable product with product variants, follow these steps:
 
 That is all; you have configured a bookable product with product variants.
 
-Now, if you haven't yet done so, go to the "Booking" module settings page and specify which of the attributes you have added for your bookable products need to be used to display your product variants in the form of a table on the product details page on the storefront. For example, if you want the individual lines of your booking table corresponding to the product variants to have titles based on the values of the product's main variant-forming attribute ("Room type", "Car type" or similar), this attribute needs to be specified as the "Room type" attribute for your site. If you want your booking table to have a column for the number of guests per room / number of seats per car / etc., specify which of your attributes ("Number of guests", "Number of seats" or similar) should be used as the "Number of guests" attribute for your site. See {% link "Configuring the module "Booking"" ref_PGtil8wm %} for more information.
+Now, if you haven't yet done so, go to the "Booking" module settings page and specify which of the attributes you have added for your bookable products need to be used to display your product variants in the form of a table on the product details page on the storefront. For example, if you want the individual lines of your booking table corresponding to the product variants to have titles based on the values of the product's main variant-forming attribute ("Room type", "Car type" or similar), this attribute needs to be specified as the "Room type" attribute for your site. If you want your booking table to have a column for the number of guests per room / number of seats per car / etc., specify which of your attributes ("Number of guests", "Number of seats" or similar) should be used as the "Number of guests" attribute for your site. See {% link "Configuring the module «Booking»" ref_PGtil8wm %} for more information.
 
 We have adjusted the module settings as follows:
 
@@ -108,54 +107,10 @@ we only see them in the Specification section:
 
 ![]({{site.baseurl}}/attachments/8750040/8718827.png?effects=drop-shadow)
 
-Note that the default wording used by the module "Booking" may not work well for your type of bookable products. For example, the phrases  "Room type" and  "Check dates (N-night stay)" will not work for a car rental website. Not to worry - the wording can be fixed by editing the "Booking" module text labels. For details see {% link "Editing "Booking" module text labels to your needs" ref_slH6gvha %}.
+Note that the default wording used by the module "Booking" may not work well for your type of bookable products. For example, the phrases  "Room type" and  "Check dates (N-night stay)" will not work for a car rental website. Not to worry - the wording can be fixed by editing the "Booking" module text labels. For details see {% link "Editing «Booking» module text labels to your needs" ref_slH6gvha %}.
 
 _Related pages:_
 
-*   *   {% link "Configuring the module "Booking"" 8749990.html %}
-    *   {% link "Editing "Booking" module text labels to your needs" 8750032.html %}
-    *   {% link "Setting up a simple bookable product" ref_7o088Cca %}
-
-## Attachments:
-
-* [new_class_hotel.png]({{site.baseurl}}/attachments/8750040/8718728.png) (image/png)
-* [new_class_hotel1.png]({{site.baseurl}}/attachments/8750040/8718729.png) (image/png)
-* [edit_attr_for_hotel.png]({{site.baseurl}}/attachments/8750040/8718737.png) (image/png)
-* [new_attr_hotel.png]({{site.baseurl}}/attachments/8750040/8718738.png) (image/png)
-* [add_hotel.png]({{site.baseurl}}/attachments/8750040/8718732.png) (image/png)
-* [quantity_price_default.png]({{site.baseurl}}/attachments/8750040/8718734.png) (image/png)
-* [quantity_price_default.png]({{site.baseurl}}/attachments/8750040/8718733.png) (image/png)
-* [hotel_shippable_no.png]({{site.baseurl}}/attachments/8750040/8718735.png) (image/png)
-* [product_booking_enabled_hotel.png]({{site.baseurl}}/attachments/8750040/8718736.png) (image/png)
-* [edit_attr_for_hotel.png]({{site.baseurl}}/attachments/8750040/8718730.png) (image/png)
-* [new_attr_hotel.png]({{site.baseurl}}/attachments/8750040/8718731.png) (image/png)
-* [new_attr_room_type.png]({{site.baseurl}}/attachments/8750040/8718739.png) (image/png)
-* [new_attr_value.png]({{site.baseurl}}/attachments/8750040/8718740.png) (image/png)
-* [attr_values_for_room_type2.png]({{site.baseurl}}/attachments/8750040/8718741.png) (image/png)
-* [image2015-6-28 17:0:47.png]({{site.baseurl}}/attachments/8750040/8718742.png) (image/png)
-* [image2015-6-28 17:1:10.png]({{site.baseurl}}/attachments/8750040/8718743.png) (image/png)
-* [hotel_added.png]({{site.baseurl}}/attachments/8750040/8718744.png) (image/png)
-* [guests_attr.png]({{site.baseurl}}/attachments/8750040/8718745.png) (image/png)
-* [assign_attr.png]({{site.baseurl}}/attachments/8750040/8718748.png) (image/png)
-* [all_attr_hotel.png]({{site.baseurl}}/attachments/8750040/8718753.png) (image/png)
-* [assign_attr.png]({{site.baseurl}}/attachments/8750040/8718749.png) (image/png)
-* [assign_attr.png]({{site.baseurl}}/attachments/8750040/8718754.png) (image/png)
-* [create_variants.png]({{site.baseurl}}/attachments/8750040/8718757.png) (image/png)
-* [hotel_variants.png]({{site.baseurl}}/attachments/8750040/8718756.png) (image/png)
-* [hotel_variants1.png]({{site.baseurl}}/attachments/8750040/8718755.png) (image/png)
-* [all_attr_hotel.png]({{site.baseurl}}/attachments/8750040/8718747.png) (image/png)
-* [assign_attr.png]({{site.baseurl}}/attachments/8750040/8718746.png) (image/png)
-* [hotel_variants1.png]({{site.baseurl}}/attachments/8750040/8718752.png) (image/png)
-* [hotel_variants.png]({{site.baseurl}}/attachments/8750040/8718751.png) (image/png)
-* [create_variants.png]({{site.baseurl}}/attachments/8750040/8718750.png) (image/png)
-* [module-settings.png]({{site.baseurl}}/attachments/8750040/8718758.png) (image/png)
-* [hotel_variants_booking.png]({{site.baseurl}}/attachments/8750040/8718819.png) (image/png)
-* [hotel_variants_booking.png]({{site.baseurl}}/attachments/8750040/8718818.png) (image/png)
-* [hotel_variants_booking1.png]({{site.baseurl}}/attachments/8750040/8718820.png) (image/png)
-* [multi-value.png]({{site.baseurl}}/attachments/8750040/8718821.png) (image/png)
-* [checkbox_option.png]({{site.baseurl}}/attachments/8750040/8718822.png) (image/png)
-* [wifi_variants.png]({{site.baseurl}}/attachments/8750040/8718823.png) (image/png)
-* [non-checkbox.png]({{site.baseurl}}/attachments/8750040/8718824.png) (image/png)
-* [non-multi.png]({{site.baseurl}}/attachments/8750040/8718826.png) (image/png)
-* [non-multi.png]({{site.baseurl}}/attachments/8750040/8718825.png) (image/png)
-* [specification.png]({{site.baseurl}}/attachments/8750040/8718827.png) (image/png)
+*   {% link "Configuring the module «Booking»" ref_PGtil8wm %}
+*   {% link "Editing «Booking» module text labels to your needs" ref_slH6gvha %}
+*   {% link "Setting up a simple bookable product" ref_7o088Cca %}

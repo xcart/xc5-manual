@@ -16,6 +16,6 @@ The module Social Login is included in X-Cart 5 Business edition. 
 
 _Related pages:_
 
-*   {% link "Installing modules from the Marketplace" Installing-modules-from-the-Marketplace_7503967.html %}
+*   {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}
 *   {% link "Setting up Facebook Login for your store" ref_vpEKPoyM %}
 *   {% link "Setting up Google Login for your store" ref_LMCQeIrv %}

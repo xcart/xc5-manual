@@ -77,7 +77,7 @@ That is all. The payment method is enabled and ready to use.
 
 #### **Offline payment methods:**
 
-In a newly installed X-Cart store, the **Offline methods** section on the **Payment methods** page already contains some pre-configured offline payment methods. If needed, you can {% link "edit" Accepting-payments_6389794.html %} them, or add more offline methods.
+In a newly installed X-Cart store, the **Offline methods** section on the **Payment methods** page already contains some pre-configured offline payment methods. If needed, you can [edit](#editing-existing-payment-methods) them, or add more offline methods.
 
 To add a new offline payment method:
 

@@ -63,12 +63,5 @@ _Related pages:_
 
 *   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}
 *   {% link "Getting started with QZ Print Java applet" ref_1e1MaOuk %}
-*   {% link "Getting started with QZ Tray 2.x" Getting-started-with-QZ-Tray-2.x_9306976.html %}
-*   {% link "Getting started with PrintNode" Getting-started-with-PrintNode_9306978.html %}
-
-## Attachments:
-
-* [xc5_POS_settings_link.png]({{site.baseurl}}/attachments/7504496/8718938.png) (image/png)
-* [xc5_POS_settings.png]({{site.baseurl}}/attachments/7504496/8718939.png) (image/png)
-* [Barcode_line_width1.png]({{site.baseurl}}/attachments/7504496/9439602.png) (image/png)
-* [Barcode_line_width2.png]({{site.baseurl}}/attachments/7504496/9439603.png) (image/png)
+*   {% link "Getting started with QZ Tray 2.x" ref_lh4nFlzm %}
+*   {% link "Getting started with PrintNode" ref_L2vV8Twt %}

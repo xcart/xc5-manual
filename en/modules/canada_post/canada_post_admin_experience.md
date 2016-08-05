@@ -14,14 +14,14 @@ This page provides information on the user experience in the Admin area of an X-
 
 This includes the following topics:
 
-*   {% link "Contract and non-contract shipping" ref_N6PsLLrM %};
-*   {% link "Creating shipments" Canada-Post-admin-experience_7505660.html %};
-*   {% link "Obtaining shipping labels" Canada-Post-admin-experience_7505660.html %};
-*   {% link "Transmitting shipments" Canada-Post-admin-experience_7505660.html %};
-*   {% link "Voiding shipments" Canada-Post-admin-experience_7505660.html %};
-*   {% link "Obtaining manifests" Canada-Post-admin-experience_7505660.html %};
-*   {% link "Tracking shipments" Canada-Post-admin-experience_7505660.html %};
-*   {% link "Handling returns" Canada-Post-admin-experience_7505660.html %}.
+*   [Contract and non-contract shipping](#contract-and-non-contract-shipping);
+*   [Creating shipments](#creating-shipments);
+*   [Obtaining shipping labels](#obtaining-shipping labels);
+*   [Transmitting shipments](#transmitting-shipments);
+*   [Voiding shipments](#voiding-shipments);
+*   [Obtaining manifests](#obtaining-manifests);
+*   [Tracking shipments](#tracking-shipments);
+*   [Handling returns](#handling-returns).
 
 # Contract and non-contract shipping
 
@@ -29,15 +29,15 @@ When shipping orders with Canada Post, your workflow will depend on whether you 
 
 For **contract** shipping, you will need to take the following steps:
 
-1.  Prepare the packages for shipping by Canada Post and create the respective "shipments" via your store's back end. By "shipment" here we mean a collection of data about a package that your store will provide to Canada Post so that Canada Post can deliver it according to your preferences and specifications (See {% link "Creating shipments" Canada-Post-admin-experience_7505660.html %}).
-2.  Obtain the shipping labels and affix them to your packages (See {% link "Obtaining shipping labels" Canada-Post-admin-experience_7505660.html %}). 
-3.  Once a group of shipments is ready for pickup by Canada Post or drop-off to a Canada Post location, initiate the delivery process by transmitting these shipments (See {% link "Transmitting shipments" Canada-Post-admin-experience_7505660.html %}).
-4.  Obtain and print out your Canada Post manifest for the transmitted shipments (See {% link "Obtaining manifests" Canada-Post-admin-experience_7505660.html %}). If you are a commercial customer and you use contract shipping services, you must produce a hard copy of your manifest and provide to Canada Post when they pick up your shipments or when you drop off your shipments at a mail processing plant.
+1.  Prepare the packages for shipping by Canada Post and create the respective "shipments" via your store's back end. By "shipment" here we mean a collection of data about a package that your store will provide to Canada Post so that Canada Post can deliver it according to your preferences and specifications (See [Creating shipments](#creating-shipments)).
+2.  Obtain the shipping labels and affix them to your packages (See [Obtaining shipping labels](#obtaining-shipping labels)). 
+3.  Once a group of shipments is ready for pickup by Canada Post or drop-off to a Canada Post location, initiate the delivery process by transmitting these shipments (See [Transmitting shipments](#transmitting-shipments)).
+4.  Obtain and print out your Canada Post manifest for the transmitted shipments (See [Obtaining manifests](#obtaining-manifests)). If you are a commercial customer and you use contract shipping services, you must produce a hard copy of your manifest and provide to Canada Post when they pick up your shipments or when you drop off your shipments at a mail processing plant.
 
 For **non-contract** shipping, you will need to take the following steps:
 
-1.  Prepare the packages for shipping by Canada Post and create the respective "shipments" in your store's back end (See {% link "Creating shipments" Canada-Post-admin-experience_7505660.html %}).
-2.  Obtain the shipping labels and affix them to your shipments (See {% link "Obtaining shipping labels" Canada-Post-admin-experience_7505660.html %} ).
+1.  Prepare the packages for shipping by Canada Post and create the respective "shipments" in your store's back end (See [Creating shipments](#creating-shipments)).
+2.  Obtain the shipping labels and affix them to your shipments (See [Obtaining shipping labels](#obtaining-shipping labels) ).
 
 In the non-contract shipping flow, no manifests are required, so you do not need to transmit your shipments.
 
@@ -93,10 +93,6 @@ Once you have adjusted the number of parcels, the parcel dimensions and the dist
 *   specify the insurance coverage amount, 
 *   specify whether a signature is required, etc.
 
-Note
-
-Icon
-
 The maximum allowed parcel weight and the set of available parcel options may differ depending on the parcel destination and shipping method selected.
 
 You should also specify the intended method of payment (_Credit card_ or _Account_).
@@ -123,15 +119,11 @@ Once you have chosen to save and create a new shipment, the module contacts Cana
 
 If you are using contract shipping services, from time to time you will need to "transmit" your created shipments. The step of transmitting shipments needs to be performed when you have saved and created one or more shipments and are ready to hand them over to Canada Post. Normally you will create a few shipments and transmit them together as a group, but it is also possible to transmit a single shipment, if necessary. Transmitting shipment triggers billing and sends shipping info to Canada Post.
 
-Warning
-
-Icon
-
 Please only transmit shipments if you are sure they have been configured, packaged and labelled correctly; you will not be able to void a shipment after it has been transmitted.
 
 Here's how you transmit shipments:
 
-Once you {% link "create" Canada-Post-admin-experience_7505660.html %} a new shipment by clicking the **Save & Create shipment** button on the order details' **Shipments** tab, the shipment is added to your store's list of created Canada Post shipments in the CanadaPost shipments section (**Orders** > **CanadaPost shipments**):
+Once you [create](#creating-shipments) a new shipment by clicking the **Save & Create shipment** button on the order details' **Shipments** tab, the shipment is added to your store's list of created Canada Post shipments in the CanadaPost shipments section (**Orders** > **CanadaPost shipments**):
 
 ![]({{site.baseurl}}/attachments/7505660/7602867.png?effects=drop-shadow)
 
@@ -143,7 +135,7 @@ The selected shipments will be transmitted. You should see a success message at 
 
 ![]({{site.baseurl}}/attachments/7505660/7602869.png?effects=drop-shadow)
 
-Once a shipment has been transmitted, it is removed from the CanadaPost shipments section (**Orders** > **CanadaPost shipments**). The respective manifest is created. Now you can go to the CanadaPost manifests section (**Orders** > **CanadaPost manifests**) to {% link "obtain your manifest" Canada-Post-admin-experience_7505660.html %}.
+Once a shipment has been transmitted, it is removed from the CanadaPost shipments section (**Orders** > **CanadaPost shipments**). The respective manifest is created. Now you can go to the CanadaPost manifests section (**Orders** > **CanadaPost manifests**) to [obtaining your manifest](#obtaining-manifests).
 
 # Voiding shipments
 
@@ -171,7 +163,7 @@ You will be asked to confirm the Void shipment action. What happens after you c
 
 For Canada Post contract holders, the module offers the ability to generate Canada Post shipping manifests. A manifest is required so that Canada Post will bill you properly and readily accept your shipments. 
 
-The step of obtaining a manifest for your shipments takes place after you have {% link "transmitted" Canada-Post-admin-experience_7505660.html %} them. To obtain a manifest, go to the CanadaPost manifests section (**Orders** > **CanadaPost manifests**). This section is where the list of manifests that have been created via your store can be seen. At the top of the list, you should be able to see the manifest for the group of shipments you have transmitted recently; you can recognize this manifest by its status, which should be "_Created_":
+The step of obtaining a manifest for your shipments takes place after you have [transmit](#transmitting-shipments) them. To obtain a manifest, go to the CanadaPost manifests section (**Orders** > **CanadaPost manifests**). This section is where the list of manifests that have been created via your store can be seen. At the top of the list, you should be able to see the manifest for the group of shipments you have transmitted recently; you can recognize this manifest by its status, which should be "_Created_":
 
 ![]({{site.baseurl}}/attachments/7505660/7602871.png?effects=drop-shadow)
 
@@ -221,28 +213,3 @@ _Related pages:_
 
 *   {% link "Canada Post customer experience" ref_ooBRtSLz %}
 *   {% link "Getting started with Canada Post" ref_zfNLsPus %}
-
-## Attachments:
-
-* [cp_returns_admin.png]({{site.baseurl}}/attachments/7505660/7602855.png) (image/png)
-* [cp_returns_admin1.png]({{site.baseurl}}/attachments/7505660/7602856.png) (image/png)
-* [cp_return_details.png]({{site.baseurl}}/attachments/7505660/7602857.png) (image/png)
-* [cp_shipping_method.png]({{site.baseurl}}/attachments/7505660/7602858.png) (image/png)
-* [cp_shipments_tab.png]({{site.baseurl}}/attachments/7505660/7602859.png) (image/png)
-* [cp_parcels.png]({{site.baseurl}}/attachments/7505660/7602860.png) (image/png)
-* [cp_parcels1.png]({{site.baseurl}}/attachments/7505660/7602861.png) (image/png)
-* [cp_move2newparcel1.png]({{site.baseurl}}/attachments/7505660/7602862.png) (image/png)
-* [cp_adjust_dimensions.png]({{site.baseurl}}/attachments/7505660/7602863.png) (image/png)
-* [cp_save_create_shipment.png]({{site.baseurl}}/attachments/7505660/7602864.png) (image/png)
-* [cp_shipment_info.png]({{site.baseurl}}/attachments/7505660/7602865.png) (image/png)
-* [cp_void.png]({{site.baseurl}}/attachments/7505660/7602866.png) (image/png)
-* [cp_shipments_list.png]({{site.baseurl}}/attachments/7505660/7602867.png) (image/png)
-* [cp_transmit.png]({{site.baseurl}}/attachments/7505660/7602868.png) (image/png)
-* [cp_transmit1.png]({{site.baseurl}}/attachments/7505660/7602869.png) (image/png)
-* [cp_void2.png]({{site.baseurl}}/attachments/7505660/7602870.png) (image/png)
-* [cp_manifest_created.png]({{site.baseurl}}/attachments/7505660/7602871.png) (image/png)
-* [cp_manifest_update.png]({{site.baseurl}}/attachments/7505660/7602872.png) (image/png)
-* [cp_manifest_approved.png]({{site.baseurl}}/attachments/7505660/7602873.png) (image/png)
-* [cp_manifest_link.png]({{site.baseurl}}/attachments/7505660/7602874.png) (image/png)
-* [cp_tracking_admin.png]({{site.baseurl}}/attachments/7505660/7602876.png) (image/png)
-* [cp_tracking_admin.png]({{site.baseurl}}/attachments/7505660/7602875.png) (image/png)

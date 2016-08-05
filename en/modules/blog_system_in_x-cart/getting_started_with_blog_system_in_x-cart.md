@@ -57,7 +57,7 @@ To start using Blog System in X-Cart:
 
 _Related pages:_
 
-*   {% link "Blog System in X-Cart module installation" Blog-System-in-X-Cart-module-installation_7505491.html %}
+*   {% link "Blog System in X-Cart module installation" ref_ayU7G1y0 %}
 *   {% link "Configuring the Blog System in X-Cart module" ref_vpkSAB5T %}
 
 ## Attachments:

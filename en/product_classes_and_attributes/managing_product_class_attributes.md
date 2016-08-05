@@ -12,12 +12,12 @@ categories:
 
 This page provides information on the following actions with product class attributes:
 
-*   {% link "Adding product class attributes" ref_kEKoAxJB %}
-*   {% link "Viewing the list of attributes configured for a product class" Managing-product-class-attributes_7504855.html %}
-*   {% link "Viewing a product's "product class"-level attributes" Managing-product-class-attributes_7504855.html %}
-*   {% link "Assigning "product class"-level attributes to products" Managing-product-class-attributes_7504855.html %}
-*   {% link "Editing product class attributes" Managing-product-class-attributes_7504855.html %}
-*   {% link "Deleting product class attributes" Managing-product-class-attributes_7504855.html %}
+*   [Adding product class attributes](#adding-product-class-attributes)
+*   [Viewing the list of attributes configured for a product class](#viewing-the-list-of-attributes-configured-for-a-product-class)
+*   [Viewing a product's «product class»-level attributes](#viewing-a-products-product-class-level-attributes)
+*   [Assigning «product class»-level attributes to products](#assigning-product-class-level-attributes-to-products)
+*   [Editing product class attributes](#editing-product-class-attributes)
+*   [Deleting product class attributes](#deleting-product-class-attributes)
 
 # Adding product class attributes
 
@@ -54,7 +54,7 @@ The process is as follows:
     ![]({{site.baseurl}}/attachments/7504855/8719265.png?effects=drop-shadow)
     The attribute value(s) should be saved. 
 
-    You have added the attribute "Print color..........Orange" for the class "Plates". If at step 7 you chose to enable the Check mark icon opposite the attribute value "Orange", the attribute "Print color..........Orange" will be assigned automatically to all new products that will be added to the product class "Plates". Any products that already belong to this product class will retain previously assigned attributes; if you need the new attribute to be assigned to an existing product of the poduct class "Plates", you can visit the **Attributes** tab of this product, select the attribute value you require and manually assign it. See {% link "Assigning "product class"-level attributes to products" Managing-product-class-attributes_7504855.html %} for more info.
+    You have added the attribute "Print color..........Orange" for the class "Plates". If at step 7 you chose to enable the Check mark icon opposite the attribute value "Orange", the attribute "Print color..........Orange" will be assigned automatically to all new products that will be added to the product class "Plates". Any products that already belong to this product class will retain previously assigned attributes; if you need the new attribute to be assigned to an existing product of the poduct class "Plates", you can visit the **Attributes** tab of this product, select the attribute value you require and manually assign it. See [Assigning «product class»-level attributes to products](#assigning-product-class-level-attributes-to-products) for more info.
 
 **Method 2:**
 
@@ -69,13 +69,13 @@ The process is as follows:
     ![]({{site.baseurl}}/attachments/7504855/8719267.png?effects=drop-shadow)
 3.  On the page that opens, make sure that the product has been assigned an appropriate product class:
     ![]({{site.baseurl}}/attachments/7504855/8719268.png?effects=drop-shadow)
-    (If the product does not have a product class assigned, or needs to be assigned a different product class, take a moment to {% link "assign an appropriate product class to it" ref_EVqNSaZy#Managingproductclasses-AssigningProductClasses %}).
+    (If the product does not have a product class assigned, or needs to be assigned a different product class, take a moment to {% link "assign an appropriate product class to it" ref_EVqNSaZy#assigning-product-classes %}).
 4.  Add attributes via the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "<Product class name> attributes"; in our example, this will be "Plates attributes"):
     ![]({{site.baseurl}}/attachments/7504855/8719269.png?effects=drop-shadow)
 
     1.  Create a new empty entry in the attributes list (This is where you will specify your attribute name and value(s)): click the "down arrow" part of the **Add attribute** button and select the type of attribute value you require (_Plain field_, _Textarea_ or _Yes/No_) from the drop-down button menu. 
         ![]({{site.baseurl}}/attachments/7504855/8719270.png?effects=drop-shadow)
-        (For an explanation of the different attribute value field types, see {% link "Managing attribute values" Managing-attribute-values_7504859.html %}). 
+        (For an explanation of the different attribute value field types, see {% link "Managing attribute values" ref_bTfJ9bTS %}). 
         As we are going to add the attribute  "Print color.......Orange", we should select the attribute value type "_Plain field_". "_Plain field_" is the default value, so we don't even need to use the drop-down menu: simply clicking **Add attribute** will create the empty fields we require:
         ![]({{site.baseurl}}/attachments/7504855/8719271.png?effects=drop-shadow)
     2.  Use the **Attribute name** and **Attribute option** fields to specify, respectively, the attribute name and value(s):
@@ -212,79 +212,5 @@ Sometimes you may need to delete an attribute created at the level of a product 
 _Related pages:_
 
 *   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Managing product classes" Managing-product-classes_7504877.html %}
+*   {% link "Managing product classes" ref_EVqNSaZy %}
 *   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
-
-## Attachments:
-
-* [attr_tab.png]({{site.baseurl}}/attachments/7504855/7602460.png) (image/png)
-* [global_attr_subsection.png]({{site.baseurl}}/attachments/7504855/7602461.png) (image/png)
-* [assign_product_class.png]({{site.baseurl}}/attachments/7504855/7602462.png) (image/png)
-* [assign_product_class1.png]({{site.baseurl}}/attachments/7504855/7602463.png) (image/png)
-* [assign_product_class2.png]({{site.baseurl}}/attachments/7504855/7602464.png) (image/png)
-* [assign_product_class3.png]({{site.baseurl}}/attachments/7504855/7602465.png) (image/png)
-* [assign_product_class4.png]({{site.baseurl}}/attachments/7504855/7602480.png) (image/png)
-* [plates_attr_section.png]({{site.baseurl}}/attachments/7504855/7602481.png) (image/png)
-* [field_type_selector.png]({{site.baseurl}}/attachments/7504855/7602482.png) (image/png)
-* [new_product_class_attr_field.png]({{site.baseurl}}/attachments/7504855/7602483.png) (image/png)
-* [new_product_class_attr.png]({{site.baseurl}}/attachments/7504855/7602484.png) (image/png)
-* [new_product_class_attr1.png]({{site.baseurl}}/attachments/7504855/7602485.png) (image/png)
-* [attr_values_applied_globally.png]({{site.baseurl}}/attachments/7504855/7602486.png) (image/png)
-* [new_product_class_attr2.png]({{site.baseurl}}/attachments/7504855/7602487.png) (image/png)
-* [new_product_class_attr01.png]({{site.baseurl}}/attachments/7504855/7602488.png) (image/png)
-* [new_product_class_attr02.png]({{site.baseurl}}/attachments/7504855/7602494.png) (image/png)
-* [new_product_class_attr03.png]({{site.baseurl}}/attachments/7504855/7602495.png) (image/png)
-* [new_product_class_attr04.png]({{site.baseurl}}/attachments/7504855/7602496.png) (image/png)
-* [new_product_class_attr05.png]({{site.baseurl}}/attachments/7504855/7602497.png) (image/png)
-* [edit_attr_values.png]({{site.baseurl}}/attachments/7504855/7602498.png) (image/png)
-* [edit_attr_values1.png]({{site.baseurl}}/attachments/7504855/7602499.png) (image/png)
-* [edit_attr_values2.png]({{site.baseurl}}/attachments/7504855/7602500.png) (image/png)
-* [edit_attr_values3.png]({{site.baseurl}}/attachments/7504855/7602501.png) (image/png)
-* [edit_product_class_attr.png]({{site.baseurl}}/attachments/7504855/7602502.png) (image/png)
-* [add_global_attr.png]({{site.baseurl}}/attachments/7504855/7602503.png) (image/png)
-* [product_class_level_attributes.png]({{site.baseurl}}/attachments/7504855/7602544.png) (image/png)
-* [edit_product_class_attr1.png]({{site.baseurl}}/attachments/7504855/7602553.png) (image/png)
-* [edit_product_class_attr2.png]({{site.baseurl}}/attachments/7504855/7602552.png) (image/png)
-* [edit_product_class_attr1.png]({{site.baseurl}}/attachments/7504855/7602551.png) (image/png)
-* [edit_product_class_attr3.png]({{site.baseurl}}/attachments/7504855/7602554.png) (image/png)
-* [assign_product_class_attr1.png]({{site.baseurl}}/attachments/7504855/7602555.png) (image/png)
-* [assign_product_class_attr2.png]({{site.baseurl}}/attachments/7504855/7602556.png) (image/png)
-* [assign_product_class_attr3.png]({{site.baseurl}}/attachments/7504855/7602557.png) (image/png)
-* [assign_product_class_attr4.png]({{site.baseurl}}/attachments/7504855/7602558.png) (image/png)
-* [xc5_classes_attr_edit_class_attributes.png]({{site.baseurl}}/attachments/7504855/8719277.png) (image/png)
-* [xc5_classes_attr_attributes_4_plates_class.png]({{site.baseurl}}/attachments/7504855/8719258.png) (image/png)
-* [xc5_classes_attr_new_attr_4_plates_class.png]({{site.baseurl}}/attachments/7504855/8719259.png) (image/png)
-* [xc5_classes_attr_new_attr_popup.png]({{site.baseurl}}/attachments/7504855/8719260.png) (image/png)
-* [xc5_classes_attr_new_attr_popup1.png]({{site.baseurl}}/attachments/7504855/8719261.png) (image/png)
-* [xc5_classes_attr_new_attr_popup2.png]({{site.baseurl}}/attachments/7504855/8719262.png) (image/png)
-* [xc5_classes_attr_new_attr_popup3.png]({{site.baseurl}}/attachments/7504855/8719263.png) (image/png)
-* [xc5_classes_attr_new_attr_popup4.png]({{site.baseurl}}/attachments/7504855/8719264.png) (image/png)
-* [xc5_classes_attr_new_attr_popup5.png]({{site.baseurl}}/attachments/7504855/8719265.png) (image/png)
-* [xc5_classes_attr_attributes_tab.png]({{site.baseurl}}/attachments/7504855/8719282.png) (image/png)
-* [xc5_classes_attr_global_tab.png]({{site.baseurl}}/attachments/7504855/8719283.png) (image/png)
-* [xc5_classes_attr_class_assigned.png]({{site.baseurl}}/attachments/7504855/8719268.png) (image/png)
-* [xc5_classes_attr_plates_class_attributes.png]({{site.baseurl}}/attachments/7504855/8719269.png) (image/png)
-* [xc5_classes_attr_add_attr.png]({{site.baseurl}}/attachments/7504855/8719270.png) (image/png)
-* [xc5_classes_attr_blank_attr_for_plates.png]({{site.baseurl}}/attachments/7504855/8719272.png) (image/png)
-* [xc5_classes_attr_blank_attr_for_plates.png]({{site.baseurl}}/attachments/7504855/8719271.png) (image/png)
-* [xc5_classes_attr_plates_attributes.png]({{site.baseurl}}/attachments/7504855/8719284.png) (image/png)
-* [xc5_classes_attr_apply_attr_globally.png]({{site.baseurl}}/attachments/7504855/8719285.png) (image/png)
-* [xc5_classes_attr_apply_attr_locally.png]({{site.baseurl}}/attachments/7504855/8719290.png) (image/png)
-* [xc5_classes_attr_plates_print_color_orange.png]({{site.baseurl}}/attachments/7504855/8719276.png) (image/png)
-* [xc5_classes_attr_edit_class_attributes.png]({{site.baseurl}}/attachments/7504855/8719291.png) (image/png)
-* [xc5_classes_attr_plates_print_color.png]({{site.baseurl}}/attachments/7504855/8719292.png) (image/png)
-* [xc5_classes_attr_plates_print_color_edit.png]({{site.baseurl}}/attachments/7504855/8719293.png) (image/png)
-* [xc5_classes_attr_edit_attribute_values_popup.png]({{site.baseurl}}/attachments/7504855/8719280.png) (image/png)
-* [xc5_classes_attr_bags_class_attr.png]({{site.baseurl}}/attachments/7504855/8719281.png) (image/png)
-* [xc5_classes_attr_attributes_tab.png]({{site.baseurl}}/attachments/7504855/8719266.png) (image/png)
-* [xc5_classes_attr_global_tab.png]({{site.baseurl}}/attachments/7504855/8719267.png) (image/png)
-* [xc5_classes_attr_plates_attributes.png]({{site.baseurl}}/attachments/7504855/8719273.png) (image/png)
-* [xc5_classes_attr_apply_attr_globally.png]({{site.baseurl}}/attachments/7504855/8719274.png) (image/png)
-* [xc5_classes_attr_plates_print_color0.png]({{site.baseurl}}/attachments/7504855/8719286.png) (image/png)
-* [xc5_classes_attr_plates0.png]({{site.baseurl}}/attachments/7504855/8719288.png) (image/png)
-* [xc5_classes_attr_plates0.png]({{site.baseurl}}/attachments/7504855/8719287.png) (image/png)
-* [xc5_classes_attr_print_color_dropdown.png]({{site.baseurl}}/attachments/7504855/8719289.png) (image/png)
-* [xc5_classes_attr_apply_attr_locally.png]({{site.baseurl}}/attachments/7504855/8719275.png) (image/png)
-* [xc5_classes_attr_edit_class_attributes.png]({{site.baseurl}}/attachments/7504855/8719257.png) (image/png)
-* [xc5_classes_attr_plates_print_color.png]({{site.baseurl}}/attachments/7504855/8719278.png) (image/png)
-* [xc5_classes_attr_plates_print_color_edit.png]({{site.baseurl}}/attachments/7504855/8719279.png) (image/png)

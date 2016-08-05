@@ -83,7 +83,7 @@ Starting with X-Cart version 5.2.7, the Safe mode section of your store's Admin 
 
 _See also:_
 
-*   {% link "Restoring your store with the Snapshots feature" Restoring-your-store-with-the-Snapshots-feature_8749995.html %}
+*   {% link "Restoring your store with the Snapshots feature" ref_h7Oh5T8T %}
 
 ## Attachments:
 

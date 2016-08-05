@@ -46,20 +46,7 @@ Related pages:
 
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
 *   {% link "Managing vendor profile information" ref_b7PTQMgf %}
-*   {% link "Vendor access to product classes and attributes" Vendor-access-to-product-classes-and-attributes_8749481.html %}
+*   {% link "Vendor access to product classes and attributes" ref_Q16T5ZnW %}
 *   {% link "Vendor import/export" ref_pa3oqbXz %}
 *   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
 *   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
-
-## Attachments:
-
-* [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749388/8716910.png) (image/png)
-* [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749388/8716908.png) (image/png)
-* [xc5_vendor_ceramics_product_class.png]({{site.baseurl}}/attachments/8749388/8717005.png) (image/png)
-* [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749388/8717007.png) (image/png)
-* [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749388/8717006.png) (image/png)
-* [xc5_vendor_product_info.png]({{site.baseurl}}/attachments/8749388/8717029.png) (image/png)
-* [xc5_vendor_add_product.png]({{site.baseurl}}/attachments/8749388/8717030.png) (image/png)
-* [xc5_vendor_add_product1.png]({{site.baseurl}}/attachments/8749388/8717031.png) (image/png)
-* [xc5_vendor_product_list.png]({{site.baseurl}}/attachments/8749388/8717111.png) (image/png)
-* [xc5_vendor_product_details_view.png]({{site.baseurl}}/attachments/8749388/8717120.png) (image/png)

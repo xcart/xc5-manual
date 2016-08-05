@@ -60,7 +60,7 @@ Multirow
 
 <sub>* Required field.</sub>
 
-<sub>** See {% link "CSV field attributes" CSV-field-attributes_9306552.html %} for more info.</sub>
+<sub>** See {% link "CSV field attributes" ref_2LwMTTTW %} for more info.</sub>
 
 **Tips**: 
 

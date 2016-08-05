@@ -39,19 +39,6 @@ To start shipping with Canada Post:
 
 _Related pages:_
 
-*   {% link "Configuring the Canada Post module" Configuring-the-Canada-Post-module_7505449.html %}
+*   {% link "Configuring the Canada Post module" ref_XsHLxUwv %}
 *   {% link "Canada Post admin experience" ref_N6PsLLrM %}
 *   {% link "Canada Post customer experience" ref_ooBRtSLz %}
-
-## Attachments:
-
-* [cp_enabled.png]({{site.baseurl}}/attachments/7505231/7602599.png) (image/png)
-* [cp_signin_signup.png]({{site.baseurl}}/attachments/7505231/7602671.png) (image/png)
-* [cp_wizard.png]({{site.baseurl}}/attachments/7505231/7602673.png) (image/png)
-* [cp_wizard.png]({{site.baseurl}}/attachments/7505231/7602672.png) (image/png)
-* [cp_install1.png]({{site.baseurl}}/attachments/7505231/7602674.png) (image/png)
-* [cp_settings_link.png]({{site.baseurl}}/attachments/7505231/7602675.png) (image/png)
-* [cp_shipping_methods.png]({{site.baseurl}}/attachments/7505231/7602676.png) (image/png)
-* [cp_shipping_methods1.png]({{site.baseurl}}/attachments/7505231/7602677.png) (image/png)
-* [cp_settings_top.png]({{site.baseurl}}/attachments/7505231/7602686.png) (image/png)
-* [cp_settings_top.png]({{site.baseurl}}/attachments/7505231/7602685.png) (image/png)

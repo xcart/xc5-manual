@@ -10,7 +10,7 @@ categories:
 ---
 
 
-To install and use the module X-Payments subscriptions, you need a working copy of X-Cart 5.1 or later connected to [X-Payments](https://www.x-payments.com/help/Main_Page) with the module{% link " X-Payments connector" ref_NaZh0d1b %}.
+To install and use the module X-Payments subscriptions, you need a working copy of X-Cart 5.1 or later connected to [X-Payments](https://www.x-payments.com/help/Main_Page) with the module {% link "X-Payments connector" ref_NaZh0d1b %}.
 
 Note that to be able to charge customers for subscriptions periodically you will need to use a payment method with tokenization support. 
 
@@ -24,9 +24,5 @@ As a result, you should have the module "X-Payments subscriptions" listed in y
 
 _Related pages:_
 
-*   {% link "X-Payments connector" X-Payments-connector_8750401.html %} 
+*   {% link "X-Payments connector" ref_NaZh0d1b %} 
 *   {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}
-
-## Attachments:
-
-* [xc5_xps_module_installed.png]({{site.baseurl}}/attachments/8750957/8719603.png) (image/png)

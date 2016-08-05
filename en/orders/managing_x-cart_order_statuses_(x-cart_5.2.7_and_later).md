@@ -4,6 +4,7 @@ updated_at: 2015-10-15 00:00
 layout: article_with_sidebar
 lang: en
 title: 'Managing X-Cart order statuses (X-Cart 5.2.7 and later)'
+version: X-Cart 5.2.7 and higher
 categories:
   - User manual
 
@@ -16,14 +17,10 @@ In X-Cart versions 5.2.7 and later, order statuses can be managed using the modu
 
 With this module you can:
 
-*   {% link "view and manage the list of order statuses" ref_7FIU2sxJ %} supported by your X-Cart store;
-*   {% link "add your own custom order statuses" 8750763.html %};
-*   {% link "rename existing order statuses" 8750763.html %} (both {% link "system" ref_DkbTi1qJ#UnderstandingX-Cartorderstatuses-DefaultOrderStatuses %} and custom ones);
-*   {% link "delete custom order statuses" 8750763.html %} (NB: {% link "System" Understanding-X-Cart-order-statuses_8750830.html#UnderstandingX-Cartorderstatuses-DefaultOrderStatuses %} order statuses cannot be deleted). 
-
-Note
-
-Icon
+*   [view and manage the list of order statuses](#viewing-order-statuses) supported by your X-Cart store;
+*   [add your own custom order statuses](#adding-custom-order-statuses);
+*   [rename existing order statuses](#renaming-order-statuses) (both {% link "system" ref_DkbTi1qJ#system-order-statuses %} and custom ones);
+*   [delete custom order statuses](#deleting-order-statuses) (NB: {% link "system" ref_DkbTi1qJ#system-order-statuses %} order statuses cannot be deleted). 
 
 The module Custom Order Statuses is not compatible with X-Cart versions prior to X-Cart 5.2.7\. For these older X-Cart versions, custom order statuses can be added using the method described in the article {% link "Adding new shipping/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}.
 
@@ -68,11 +65,7 @@ You can rearrange this order by dragging and dropping specific statuses in the l
 
 # Adding custom order statuses
 
-If X-Cart's {% link "system order statuses" Understanding-X-Cart-order-statuses_8750830.html#UnderstandingX-Cartorderstatuses-DefaultOrderStatuses %} do not meet the needs of your business, you can create your own statuses. It is possible to create both payment order statuses and shipping order statuses. 
-
-Note
-
-Icon
+If X-Cart's {% link "system order statuses" ref_DkbTi1qJ#system-order-statuses %} do not meet the needs of your business, you can create your own statuses. It is possible to create both payment order statuses and shipping order statuses. 
 
 Custom order statuses do not currently have the ability to change the inventory levels of products in the order, but we are hoping to implement this feature in the nearest future.
 
@@ -117,11 +110,7 @@ To rename an order status:
 
 It is possible to delete custom order statuses. 
 
-Note
-
-Icon
-
-System order statuses cannot be deleted. If you are not happy with the name of a system order status, you may want to consider {% link "renaming" 8750763.html %} it.
+System order statuses cannot be deleted. If you are not happy with the name of a system order status, you may want to consider [renaming](#renaming-order-statuses) it.
 
 To delete an order status:
 
@@ -139,8 +128,8 @@ To delete an order status:
 
 _Related pages:_
 
-*   {% link "Understanding X-Cart order statuses" Understanding-X-Cart-order-statuses_8750830.html %}
-*   {% link "Adding new shipping/payment statuses (X-Cart 5.2.6 and earlier)" 8224873.html %}
+*   {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}
+*   {% link "Adding new shipping/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}
 
 ## Attachments:
 

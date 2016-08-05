@@ -12,10 +12,10 @@ categories:
 
 This page provides information on the following actions with auction listings:
 
-*   {% link "Creating auction listings" ref_56sCmm0k %};
-*   {% link "Viewing existing auction listings" Managing-auction-listings_8225026.html %};
-*   {% link "Editing auction listings" Managing-auction-listings_8225026.html %};
-*   {% link "Deleting auction listings" Managing-auction-listings_8225026.html %}.
+*   [Creating auction listings](#creating-auction-listings);
+*   [Viewing existing auction listings](#viewing-existing-auction-listings);
+*   [Editing auction listings](#editing-auction-listings);
+*   [Deleting auction listings](#deleting-auction-listings).
 
 # Creating auction listings
 
@@ -81,7 +81,7 @@ It is possible to edit currently exising auction listings, no matter if they are
 
 To edit an auction listing:
 
-1.  In the {% link "list of currently existing auction listings" Managing-auction-listings_8225026.html %}, locate the listing you want to edit and click on the Edit button ![]({{site.baseurl}}/attachments/8225026/8356084.png) at the far right of the respective table row:
+1.  In the [list of currently existing auction listings](#viewing-existing-auction-listings), locate the listing you want to edit and click on the Edit button ![]({{site.baseurl}}/attachments/8225026/8356084.png) at the far right of the respective table row:
     ![]({{site.baseurl}}/attachments/8225026/8356081.png?effects=drop-shadow)
     A popup window titled "Edit auction listing" will be displayed:
     ![]({{site.baseurl}}/attachments/8225026/8356104.png?effects=drop-shadow)
@@ -90,37 +90,10 @@ To edit an auction listing:
 
 # Deleting auction listings
 
-You can delete auction listings before they expire. 
+You can delete auction listings before they expire. To delete an auction listing:
 
- To delete an  auction listings:
-
-1.  In the {% link "list of currently existing auction listings" Managing-auction-listings_8225026.html %}, locate the listing you wish to delete and select it for removal by clicking on the Trash icon ![]({{site.baseurl}}/attachments/8225026/8356083.png) at the far right of the respective table row:
+1.  In the [Viewing existing auction listings](#viewing-existing-auction-listings), locate the listing you wish to delete and select it for removal by clicking on the Trash icon ![]({{site.baseurl}}/attachments/8225026/8356083.png) at the far right of the respective table row:
     ![]({{site.baseurl}}/attachments/8225026/8356079.png?effects=drop-shadow)
 2.  Click **Save changes**:
     ![]({{site.baseurl}}/attachments/8225026/8356080.png?effects=drop-shadow)
     The listing will be removed.
-
-## Attachments:
-
-* [auction_products_tab.png]({{site.baseurl}}/attachments/8225026/8356078.png) (image/png)
-* [auction_settings_link.png]({{site.baseurl}}/attachments/8225026/8356065.png) (image/png)
-* [auction_add_product_button.png]({{site.baseurl}}/attachments/8225026/8356066.png) (image/png)
-* [create_auction_listing.png]({{site.baseurl}}/attachments/8225026/8356067.png) (image/png)
-* [create_auction_listing1.png]({{site.baseurl}}/attachments/8225026/8356069.png) (image/png)
-* [create_auction_listing1.png]({{site.baseurl}}/attachments/8225026/8356070.png) (image/png)
-* [create_auction_listing1.png]({{site.baseurl}}/attachments/8225026/8356068.png) (image/png)
-* [auction_list.png]({{site.baseurl}}/attachments/8225026/8356072.png) (image/png)
-* [auction_list.png]({{site.baseurl}}/attachments/8225026/8356071.png) (image/png)
-* [auction_list1.png]({{site.baseurl}}/attachments/8225026/8356077.png) (image/png)
-* [auction_products_tab.png]({{site.baseurl}}/attachments/8225026/8356064.png) (image/png)
-* [auction_delete.png]({{site.baseurl}}/attachments/8225026/8356079.png) (image/png)
-* [auction_delete1.png]({{site.baseurl}}/attachments/8225026/8356080.png) (image/png)
-* [auction_edit.png]({{site.baseurl}}/attachments/8225026/8356081.png) (image/png)
-* [auction_filter.png]({{site.baseurl}}/attachments/8225026/8356082.png) (image/png)
-* [trash.png]({{site.baseurl}}/attachments/8225026/8356085.png) (image/png)
-* [edit_icon.png]({{site.baseurl}}/attachments/8225026/8356084.png) (image/png)
-* [trash.png]({{site.baseurl}}/attachments/8225026/8356086.png) (image/png)
-* [trash.png]({{site.baseurl}}/attachments/8225026/8356083.png) (image/png)
-* [auction_edit1.png]({{site.baseurl}}/attachments/8225026/8356105.png) (image/png)
-* [auction_edit1.png]({{site.baseurl}}/attachments/8225026/8356120.png) (image/png)
-* [auction_edit1.png]({{site.baseurl}}/attachments/8225026/8356104.png) (image/png)

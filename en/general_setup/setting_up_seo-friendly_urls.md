@@ -43,7 +43,7 @@ If your server environment is not compatible with handling redirects properly an
 
 ![]({{site.baseurl}}/attachments/7505785/9437500.png?effects=drop-shadow)
 
-It means, you need to set up your server before you can use SEO-friendly URLs. This setting up may differ depending on your server software. This article describes how you can set up {% link "Apache" ref_nJxrzFEZ %}, {% link "IIS" Setting-up-seo-friendly-URLs_7505785.html %} or {% link "nginx" Setting-up-seo-friendly-URLs_7505785.html %}.
+It means, you need to set up your server before you can use SEO-friendly URLs. This setting up may differ depending on your server software. This article describes how you can set up [Apache](#setting-up-apache), [IIS](#setting-up-iis) or [nginx](#setting-up-nginx).
 
 # Setting up Apache
 

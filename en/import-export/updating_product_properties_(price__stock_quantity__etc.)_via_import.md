@@ -9,7 +9,6 @@ categories:
 
 ---
 
-
 Import is a powerful feature, and it allows you not only to create new items, but also to update the existing items in your store. This can be used to update the properties of the items in the store's catalog, including - but not limited to - prices and products quantities.
 
 As some of you may already know, we have a module named {% link "Update inventory" ref_uSIvmuTh %} that can be used to update product quantities via the import process. We have been asked more than once to extend the functionality of that module so it can be used to update product prices as well. We, however, have made a conscious choice not to implement this feature in the module because, with the release of X-Cart 5.2.13, this module is no longer necessary: now you can achieve just the same (and more!) using X-Cart's core functionality. In X-Cart 5.2.13, we implemented the ability to properly update any existing items in your store, and you have two import modes to choose from:
@@ -36,10 +35,10 @@ Note that, in both the import modes, any missing items that are dependent on the
 
 Let's take a closer look at how you can update the stock quantities and prices of your existing products. We will consider the following cases:
 
-*   {% link "Updating the price and quantity of simple products" ref_OEpBdtQ6 %};
-*   {% link "Updating the price of products with options configured using price modifiers" 9306814.html %};
-*   {% link "Updating the price and quantity of product variants" 9306814.html %};
-*   {% link "Updating the price of products with wholesale prices" 9306814.html %}.
+*   [Updating the price and quantity of simple products](#updating-the-price-and-quantity-of-simple-products);
+*   [Updating the price of products with options configured using price modifiers](#updating-the-price-of-products-with-options-configured-using-price-modifiers);
+*   [Updating the price and quantity of product variants](#updating-the-price-and-quantity-of-product-variants);
+*   [Updating the price of products with wholesale prices](#updating-the-price-of-products-with-wholesale-prices).
 
 ## Updating the price and quantity of simple products
 
@@ -61,7 +60,7 @@ After the import process is completed, you should be able to see the updated pro
 
 ## Updating the price of products with options configured using price modifiers
 
-Now let us consider another case - when you use {% link "multi-value attributes" ref_bTfJ9bTS#Managingattributevalues-MultiValueAttributes %} for some of your products, and set the price on the specific product options by adjusting the base product price with {% link "price modifiers" http://kb.x-cart.com/display/XDD/Managing+attribute+values#Managingattributevalues-PriceWeightModifiers %}. Let us imagine that you have a product SKU 10001 "Planet Express Babydoll", which is a t-shirt. The t-shirt is available in the sizes S-M-L-XL. The base price of the product is set at $9.99, and this price applies to the sizing options S, M and L, whereas the price on the XL option equals "base price + $2":
+Now let us consider another case - when you use {% link "multi-value attributes" ref_bTfJ9bTS#multi-value-attributes-product-options %} for some of your products, and set the price on the specific product options by adjusting the base product price with {% link "price modifiers" ref_bTfJ9bTS#price-and-weight-modifiers %}. Let us imagine that you have a product SKU 10001 "Planet Express Babydoll", which is a t-shirt. The t-shirt is available in the sizes S-M-L-XL. The base price of the product is set at $9.99, and this price applies to the sizing options S, M and L, whereas the price on the XL option equals "base price + $2":
 
 ![]({{site.baseurl}}/attachments/9306814/9439216.png?effects=drop-shadow)
 
@@ -104,7 +103,7 @@ Here's how you can do it:
 1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
     ![]({{site.baseurl}}/attachments/9306814/9439225.png?effects=drop-shadow)
 2.  Download the resulting export file and import it into our favorite spreadsheet editor.
-3.  Edit the file removing the columns whose contents will not need to be updated. Care not to remove the required columns. According to the section {% link "CSV import: Products" 7503877.html %}of this manual, the required columns for the import of products are **sku** and **name**; you will need to keep those columns. Because we are dealing not just with simple products, but with product variants, you will also need to keep the column **variantSKU** - the values in this column are necessary to identify the specific variants. As we are going to update the prices and quantities for variants, you should also keep the columns **variantPrice** and **variantQuantity**. Now if you look at the lines presenting the details of the variants of "Binary Mom", you should have something like the following:
+3.  Edit the file removing the columns whose contents will not need to be updated. Care not to remove the required columns. According to the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual, the required columns for the import of products are **sku** and **name**; you will need to keep those columns. Because we are dealing not just with simple products, but with product variants, you will also need to keep the column **variantSKU** - the values in this column are necessary to identify the specific variants. As we are going to update the prices and quantities for variants, you should also keep the columns **variantPrice** and **variantQuantity**. Now if you look at the lines presenting the details of the variants of "Binary Mom", you should have something like the following:
     ![]({{site.baseurl}}/attachments/9306814/9439234.png?effects=drop-shadow)
 4.  Adjust the values in the file:
 
@@ -133,7 +132,7 @@ We are going to achieve the same result without editing the Wholesale pricing se
 1.  Use the "Export in CSV" section of your store's back end (**Catalog** > **Export**) to export your existing products:
     ![]({{site.baseurl}}/attachments/9306814/9439225.png?effects=drop-shadow)
 2.  Download the resulting export file and import it into our favorite spreadsheet editor. 
-3.  Edit the file removing the columns whose contents will not need to be updated. As you can find out from the section {% link "CSV import: Products" 7503877.html %} of this manual, the columns required for the import of products with wholesale prices are **sku** and **name** (required for products) + **wholesalePrices** and **variantWholesalePrices** (the fields added by the module Wholesale). So, keep those columns in your file. It may also be a good idea to keep the columns **price** and **stockLevel** - just so you have information about the product's base price and quantity in stock close at hand. The rest of the columns can be safely removed. Now if you look at the line of SKU 10001, you should see something like the following:
+3.  Edit the file removing the columns whose contents will not need to be updated. As you can find out from the section {% link "CSV import: Products" ref_WmJBfwxA %} of this manual, the columns required for the import of products with wholesale prices are **sku** and **name** (required for products) + **wholesalePrices** and **variantWholesalePrices** (the fields added by the module Wholesale). So, keep those columns in your file. It may also be a good idea to keep the columns **price** and **stockLevel** - just so you have information about the product's base price and quantity in stock close at hand. The rest of the columns can be safely removed. Now if you look at the line of SKU 10001, you should see something like the following:
     ![]({{site.baseurl}}/attachments/9306814/9633886.png?effects=drop-shadow)
 4.  Now add the wholesale price tiers you require. In our example, SKU 10001 "Planet Express Babydoll" is a simple product without variants, which means we need to add our wholesale prices in the **wholesalePrices** column. The format to write out wholesale price tiers in your file is as follows:
     **N1**(**Membership1**)=**Price1**&&**N2**(**Membership2**)=**Price2**,
@@ -153,24 +152,3 @@ After the import process is completed, you should be able to see the wholesale p
 For products with variants, the process of adding wholesale prices is similar, only you need to add the wholesale pricing information via the **variantWholesalePrices** column. Below you can see an example of a file that will add wholesale pricing for the variants of SKU 10000 (variantSKUs 100001, 100002, 100003 and 100004):
 
 ![]({{site.baseurl}}/attachments/9306814/9633888.png?effects=drop-shadow)
-
-## Attachments:
-
-* [xc5_import_mode.png]({{site.baseurl}}/attachments/9306814/9439207.png) (image/png)
-* [xc5_import_base_price1.png]({{site.baseurl}}/attachments/9306814/9439208.png) (image/png)
-* [xc5_import_base_price2.png]({{site.baseurl}}/attachments/9306814/9439209.png) (image/png)
-* [xc5_import_price_modifier.png]({{site.baseurl}}/attachments/9306814/9439224.png) (image/png)
-* [xc5_import_price_modifier.png]({{site.baseurl}}/attachments/9306814/9439216.png) (image/png)
-* [xc5_import_export_products.png]({{site.baseurl}}/attachments/9306814/9439225.png) (image/png)
-* [xc5_import_export_prod_attr_values.png]({{site.baseurl}}/attachments/9306814/9439230.png) (image/png)
-* [xc5_import_prod_attr_values.png]({{site.baseurl}}/attachments/9306814/9439231.png) (image/png)
-* [xc5_import_prod_attr_values1.png]({{site.baseurl}}/attachments/9306814/9439232.png) (image/png)
-* [xc5_import_variants.png]({{site.baseurl}}/attachments/9306814/9439233.png) (image/png)
-* [xc5_import_variants1.png]({{site.baseurl}}/attachments/9306814/9439234.png) (image/png)
-* [xc5_import_variants2.png]({{site.baseurl}}/attachments/9306814/9439236.png) (image/png)
-* [xc5_import_variants2.png]({{site.baseurl}}/attachments/9306814/9439235.png) (image/png)
-* [xc5_import_wholesale1.png]({{site.baseurl}}/attachments/9306814/9633885.png) (image/png)
-* [xc5_import_wholesale1.png]({{site.baseurl}}/attachments/9306814/9633884.png) (image/png)
-* [xc5_import_wholesale2.png]({{site.baseurl}}/attachments/9306814/9633886.png) (image/png)
-* [xc5_import_wholesale3.png]({{site.baseurl}}/attachments/9306814/9633887.png) (image/png)
-* [xc5_import_wholesale4.png]({{site.baseurl}}/attachments/9306814/9633888.png) (image/png)

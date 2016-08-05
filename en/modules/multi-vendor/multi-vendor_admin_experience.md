@@ -35,18 +35,18 @@ This article lists the multi-vendor related features and functions of the store 
     *   edit and delete product classes created by vendors;
     *   create attributes and attribute values for vendors to use (including attributes at the level of specific products, product classes and the global level);
     *   edit and delete attributes and attribute values created by vendors;
-    *   determine whether vendors should be able to add their own values for global attributes and attributes created by admin or other vendors at the level of product classes, or whether they should just be able to use the existing values (See the setting "Vendor access to global attributes" on the {% link ""Multi-vendor" module settings page" Configuring-the-Multi-vendor-module_8749139.html %}).When displayed to the administrator, product classes and attributes created by vendors are marked with the name and email of the vendor who owns them ("Vendor: Vendor name [(vendor_email@example.com)](http://localhost/x-cart-5.2.8-en/admin.php?target=profile&profile_id=11)"), so the administrator can easily tell which product class or attribute is owned by whom.  
+    *   determine whether vendors should be able to add their own values for global attributes and attributes created by admin or other vendors at the level of product classes, or whether they should just be able to use the existing values (See the setting "Vendor access to global attributes" on the {% link "«Multi-vendor» module settings page" ref_MRQEvicQ %}).When displayed to the administrator, product classes and attributes created by vendors are marked with the name and email of the vendor who owns them ("Vendor: Vendor name [(vendor_email@example.com)](http://localhost/x-cart-5.2.8-en/admin.php?target=profile&profile_id=11)"), so the administrator can easily tell which product class or attribute is owned by whom.  
 
 7.  The store administrator can view, edit and delete coupons and volume discounts created by vendors (However, the administrator cannot tell, which discount or coupon is owned by which vendor). The administrator can create coupons and discounts, but the coupons and discounts created by them are not visible to vendors and can be applied only to the products owned by the administrator.
 
-8.  The store administrator determines the store's multivendor mode ("_Warehouse_" or "_Vendors as separate shops_"); see the article {% link "Configuring the Multi-vendor module" Configuring-the-Multi-vendor-module_8749139.html %} for more information.
+8.  The store administrator determines the store's multivendor mode ("_Warehouse_" or "_Vendors as separate shops_"); see the article {% link "Configuring the Multi-vendor module" ref_nFq48dhr %} for more information.
 
     *   In the "_Warehouse_" mode, the administrator sets the address that will be used as the ship-from address for all the vendors (The address can be added via the Company address section in the store's {% link "Contact information" ref_HcSs9eFL %}). The administrator also configures the shipping methods that will be used to ship orders from that address. 
     *   In the "_Vendors as separate shops_" mode, there is no common ship-from address: each vendor ships orders from their own business location, which means a separate ship-from address for every vendor. Also, every vendor configures their own shipping methods (The administrator does not have anything to do with that). 
 
 9.  The store administrator configures and enables the store's payment methods. Most of the payment methods supported by X-Cart 5 support a single payment recepient account. So, for the vast majority of payment methods, it will be the administrator who will receive the money from all the sales at their account; the administrator will then have to distribute the earnings to the specific vendors. There is, however, one payment method that supports automated payments of earnings to the vendors - PayPal Adaptive Payments. For details, see the article {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}.
 
-10.  The store administrator determines the size of commissions that vendors must pay to the storefront operator on each sale through the store; see the article {% link "Configuring the Multi-vendor module" Configuring-the-Multi-vendor-module_8749139.html %} for more information.
+10.  The store administrator determines the size of commissions that vendors must pay to the storefront operator on each sale through the store; see the article {% link "Configuring the Multi-vendor module" ref_nFq48dhr %} for more information.
 
 11.  The store administrator has full access to all the orders in the store. 
 
@@ -86,21 +86,7 @@ This article lists the multi-vendor related features and functions of the store 
 
 Related pages:
 
-*   {% link "Configuring the Multi-vendor module" Configuring-the-Multi-vendor-module_8749139.html %}
-*   {% link "Vendor registration" Vendor-registration_8749143.html %}
+*   {% link "Configuring the Multi-vendor module" ref_nFq48dhr %}
+*   {% link "Vendor registration" ref_SkW62BgH %}
 *   {% link "Multi-vendor: Customer experience" ref_fxTL6F2z %}
-*   {% link "PayPal Adaptive Payments" PayPal-Adaptive-Payments_8751079.html %}
-
-## Attachments:
-
-* [xc5_product_vendor.png]({{site.baseurl}}/attachments/8749416/8717003.png) (image/png)
-* [xc5_products_admin_view.png]({{site.baseurl}}/attachments/8749416/8717004.png) (image/png)
-* [xc5_vendor_role.png]({{site.baseurl}}/attachments/8749416/8717112.png) (image/png)
-* [xc5_admin_aom.png]({{site.baseurl}}/attachments/8749416/8717183.png) (image/png)
-* [xc5_shipping_per_vendor.png]({{site.baseurl}}/attachments/8749416/8717184.png) (image/png)
-* [xc5_admin_send_tracking_info.png]({{site.baseurl}}/attachments/8749416/8717185.png) (image/png)
-* [xc5_vendor_order_statistics.png]({{site.baseurl}}/attachments/8749416/8717225.png) (image/png)
-* [xc5_vendor_bestsellers.png]({{site.baseurl}}/attachments/8749416/8717226.png) (image/png)
-* [xc5_multi_vendor_statictics.png]({{site.baseurl}}/attachments/8749416/8719636.png) (image/png)
-* [xc5_multi_transactions_history.png]({{site.baseurl}}/attachments/8749416/8719638.png) (image/png)
-* [xc5_multi_transactions_history.png]({{site.baseurl}}/attachments/8749416/8719637.png) (image/png)
+*   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}

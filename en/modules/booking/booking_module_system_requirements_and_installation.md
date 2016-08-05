@@ -9,7 +9,6 @@ categories:
 
 ---
 
-
 To be able to successfully install and use the module "Booking", you need a working copy of X-Cart 5 installed on your server.
 
 The module can be obtained via X-Cart’s Marketplace.
@@ -24,8 +23,4 @@ If you want your bookable products to have variants, you also need to make sure 
 
 _Related pages:_
 
-*   {% link ""Booking" module: Getting started" ref_mUn67cLl %}
-
-## Attachments:
-
-* [xc5_booking_module_installed.png]({{site.baseurl}}/attachments/8749988/8718713.png) (image/png)
+*   {% link "«Booking» module: Getting started" ref_mUn67cLl %}

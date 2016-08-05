@@ -36,14 +36,6 @@ _Related pages:_
 
 *   {% link "How WordPress Integration works" ref_9IwXqwiT %}
 
-*   {% link "Configuring the X-Cart Intergration plugin in WordPress" Configuring-the-X-Cart-Intergration-plugin-in-WordPress_8750648.html %}
+*   {% link "Configuring the X-Cart Intergration plugin in WordPress" ref_wacvoZl5 %}
 
 *   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
-
-## Attachments:
-
-* [xc5_wp_int_rest_api_installed_enabled.png]({{site.baseurl}}/attachments/8750578/8719391.png) (image/png)
-* [xc5_wp_int_xcart_int_plugin_installed_enabled.png]({{site.baseurl}}/attachments/8750578/8719392.png) (image/png)
-* [xc5_wp_int_module_in_marketplace.png]({{site.baseurl}}/attachments/8750578/8719393.png) (image/png)
-* [xc5_wp_int_xcart_int_module_installed_enabled.png]({{site.baseurl}}/attachments/8750578/8719394.png) (image/png)
-* [xc5_wp_int_xcart_int_plugin_installed_.png]({{site.baseurl}}/attachments/8750578/8719414.png) (image/png)

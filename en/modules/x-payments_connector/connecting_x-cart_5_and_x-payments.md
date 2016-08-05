@@ -12,8 +12,8 @@ categories:
 
 To connect your X-Cart 5 online store and X-Payments, follow the steps below:
 
-1.  {% link "Configure the connection in the X-Payments back" ref_UFLdTRDQ %} end to enable your X-Payments installation to connect to your X-Cart 5 store and to the payment gateway through which your customers' payments will be processed. More information on configuring X-Payments is available in the section "[Configuring X-Payments](http://www.x-payments.com/help1/X-Payments:User_manual#ConfiguringXPayments "X-Payments:User manual")" of the [X-Payments user manual](http://www.x-payments.com/help1/X-Payments:User_manual "X-Payments:User manual").
-2.  {% link "Configure the connection in the Admin area of your X-Cart 5 store" Connecting-X-Cart-5-and-X-Payments_8750414.html %}.
+1.  [Configure the connection in the X-Payments back](#configuring-the-connection-in-the-x-payments-back-end) end to enable your X-Payments installation to connect to your X-Cart 5 store and to the payment gateway through which your customers' payments will be processed. More information on configuring X-Payments is available in the section "[Configuring X-Payments](http://www.x-payments.com/help1/X-Payments:User_manual#ConfiguringXPayments "X-Payments:User manual")" of the [X-Payments user manual](http://www.x-payments.com/help1/X-Payments:User_manual "X-Payments:User manual").
+2.  [Configure the connection in the Admin area of your X-Cart 5 store](#configure-the-connection-in-the-admin-area-of-your-x-cart-5-store).
 
 # Configuring the connection in the X-Payments back end
 
@@ -105,39 +105,3 @@ Complete the following steps:
     Please note that if you enable this option in X-Cart, you must also select an iframe based template for your X-Cart 5 store in the X-Payments admin back end.
 
 That's it. Now you are all set and ready to process payments in your X-Cart 5 store using X-Payments.
-
-## Attachments:
-
-* [Xp_settings_paymentconfig.png]({{site.baseurl}}/attachments/8750414/8719160.png) (image/png)
-* [Xp_settings_paymentconfig.png]({{site.baseurl}}/attachments/8750414/8719161.png) (image/png)
-* [Xp_settings_paymentconfig.png]({{site.baseurl}}/attachments/8750414/8719141.png) (image/png)
-* [Xp_settings_onlinestores.png]({{site.baseurl}}/attachments/8750414/8719162.png) (image/png)
-* [xc5_xp_connector_settings.png]({{site.baseurl}}/attachments/8750414/8719163.png) (image/png)
-* [xc5_xp_connector_settings_connection_tab.png]({{site.baseurl}}/attachments/8750414/8719164.png) (image/png)
-* [xc5_xp_connector_settings_page.png]({{site.baseurl}}/attachments/8750414/8719165.png) (image/png)
-* [xc5_xp_connector_configuration_bundle.png]({{site.baseurl}}/attachments/8750414/8719166.png) (image/png)
-* [xc5_xp_connector_bundle_deployed.png]({{site.baseurl}}/attachments/8750414/8719167.png) (image/png)
-* [xc5_xp_connector_payment_methods.png]({{site.baseurl}}/attachments/8750414/8719168.png) (image/png)
-* [xc5_xp_connector_enable_method.png]({{site.baseurl}}/attachments/8750414/8719169.png) (image/png)
-* [xc5_xp_connector_method_save_cc_enable.png]({{site.baseurl}}/attachments/8750414/8719170.png) (image/png)
-* [xc5_xp_connector_mapping.png]({{site.baseurl}}/attachments/8750414/8719171.png) (image/png)
-* [bundle.png]({{site.baseurl}}/attachments/8750414/8719172.png) (image/png)
-* [xc5_xp_connector_payment_conf_add.png]({{site.baseurl}}/attachments/8750414/8719173.png) (image/png)
-* [xc5_xp_connector_payment_conf_add1.png]({{site.baseurl}}/attachments/8750414/8719174.png) (image/png)
-* [xc5_xp_connector_payment_conf_add2.png]({{site.baseurl}}/attachments/8750414/8719175.png) (image/png)
-* [xc5_xp_connector_payment_conf_add3.png]({{site.baseurl}}/attachments/8750414/8719176.png) (image/png)
-* [xc5_xp_connector_payment_conf_add4.png]({{site.baseurl}}/attachments/8750414/8719178.png) (image/png)
-* [xc5_xp_connector_payment_conf_add4.png]({{site.baseurl}}/attachments/8750414/8719180.png) (image/png)
-* [xc5_xp_connector_add_store.png]({{site.baseurl}}/attachments/8750414/8719179.png) (image/png)
-* [xc5_xp_connector_payment_conf_add4.png]({{site.baseurl}}/attachments/8750414/8719177.png) (image/png)
-* [xc5_xp_connector_add_store1.png]({{site.baseurl}}/attachments/8750414/8719183.png) (image/png)
-* [xc5_xp_connector_add_store2.png]({{site.baseurl}}/attachments/8750414/8719184.png) (image/png)
-* [xc5_xp_connector_add_store1.png]({{site.baseurl}}/attachments/8750414/8719181.png) (image/png)
-* [xc5_xp_connector_add_store2.png]({{site.baseurl}}/attachments/8750414/8719182.png) (image/png)
-* [xc5_xp_connector_card_setup.png]({{site.baseurl}}/attachments/8750414/8719185.png) (image/png)
-* [xc5_xp_connector_add_payment_method.png]({{site.baseurl}}/attachments/8750414/8719186.png) (image/png)
-* [xc5_xp_connector_search_method.png]({{site.baseurl}}/attachments/8750414/8719187.png) (image/png)
-* [xc5_xp_connector_add_used_saved_cc_method.png]({{site.baseurl}}/attachments/8750414/8719188.png) (image/png)
-* [xc5_xp_connector_use_saved_cc_inactive_active.png]({{site.baseurl}}/attachments/8750414/8719189.png) (image/png)
-* [xc5_xp_connector_use_iframe.png]({{site.baseurl}}/attachments/8750414/8719191.png) (image/png)
-* [xc5_xp_connector_use_iframe.png]({{site.baseurl}}/attachments/8750414/8719190.png) (image/png)

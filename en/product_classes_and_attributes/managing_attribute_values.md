@@ -9,22 +9,21 @@ categories:
 
 ---
 
-
 This page covers the following topics:
 
-*   {% link "attribute value field types" ref_bTfJ9bTS %} supported by X-Cart 5;
-*   how to specify product options through the use of {% link "multi-value attributes" Managing-attribute-values_7504859.html %};
-*   how to allow {% link "personalization options" Managing-attribute-values_7504859.html %} for products (i.e. provide an editable text area on the product page on the storefront so buyers can use it to enter their own custom text; for example, a monogram);
-*   how to set up product options as {% link "price and weight modifiers" Managing-attribute-values_7504859.html %} so that the price and/or weight of the product will change depending on the product options selected by the buyer;
-*   how to {% link "set one of the defined attribute values as default" Managing-attribute-values_7504859.html %}.
+*   [attribute value field types](#attribute-value-field-types) supported by X-Cart 5;
+*   how to specify product options through the use of [multi-value attributes](#multi-value-attributes-product-options);
+*   how to allow [personalization options](#personilization-options-editable-textarea) for products (i.e. provide an editable text area on the product page on the storefront so buyers can use it to enter their own custom text; for example, a monogram);
+*   how to set up product options as [price and weight modifiers](#price-and-weight-modifiers) so that the price and/or weight of the product will change depending on the product options selected by the buyer;
+*   how to [set one of the defined attribute values as default](#setting-the-default-attribute-value).
 
-# Attribute value field types
+## Attribute value field types
 
 X-Cart supports three field types for attribute values:
 
-*   {% link "Plain field" Managing-attribute-values_7504859.html %}
-*   {% link "Textarea" Managing-attribute-values_7504859.html %}
-*   {% link "Yes/No" Managing-attribute-values_7504859.html %}
+*   [Plain field](#plain-field)
+*   [Textarea](#textarea)
+*   [Yes/No](#yesno)
 
 When configuring an attribute, select the field type that best suits your needs. Below we provide detailed explanation of each type.
 
@@ -38,7 +37,7 @@ On the storefront, it shows as follows:
 
 ![]({{site.baseurl}}/attachments/7504859/7602527.png?effects=drop-shadow)
 
-Note that this field type can be used to specify multiple values for one attribute. For details, see {% link "Multi-value attributes (product options)" Managing-attribute-values_7504859.html %}.
+Note that this field type can be used to specify multiple values for one attribute. For details, see [Multi-value attributes (product options)](#multi-value-attributes-product-options).
 
 ### Textarea
 
@@ -50,7 +49,7 @@ On the storefront, it shows as follows:
 
 ![]({{site.baseurl}}/attachments/7504859/7602525.png?effects=drop-shadow)
 
-Starting with X-Cart 5.1, the _Textarea_ attribute value field type can be used to add personalization options for products (i.e. provide an editable text area on the product page on the storefront so buyers can use it to enter their own custom text). For details, see {% link "Personalization options" Managing-attribute-values_7504859.html %}.
+Starting with X-Cart 5.1, the _Textarea_ attribute value field type can be used to add personalization options for products (i.e. provide an editable text area on the product page on the storefront so buyers can use it to enter their own custom text). For details, see [Personalization options](#personilization-options-editable-textarea).
 
 ### **Yes/No**
 
@@ -62,9 +61,9 @@ On the storefront, it looks like this:
 
 ![]({{site.baseurl}}/attachments/7504859/7602541.png?effects=drop-shadow)
 
-Note that the _Yes/No_ field type can also be used to specify "Yes or No" options for products. For details, see {% link "Multi-value attributes (product options)" Managing-attribute-values_7504859.html %}.
+Note that the _Yes/No_ field type can also be used to specify "Yes or No" options for products. For details, see [Multi-value attributes (product options)](#multi-value-attributes-product-options).
 
-# Multi-value attributes (product options)
+## Multi-value attributes (product options)
 
 The _Plain text_ and _Yes/No_ attribute value field types allow you to use the **_multi-value_** feature, i.e. to specify multiple values for one attribute. In X-Cart 5 this feature is used to specify the product options that customers will be able to choose. For example, you can use _Plain field_ attribute values to provide information about the available sizes of a garment. Specific sizes like XS, S, M and L can be made into product options if you add them as values for the attribute "Size" like so:
 
@@ -99,7 +98,7 @@ On the storefront, customers can choose the option they require by adjusting the
 
 It should be noted that the method for specifying product options described above does not provide a way to track how many product units with a specific option you have sold and how many you still have on hand. Also, if the product has more than one multi-valued attribute, there is no way to specify, which option combinations (product variants) are actually available. If you need these features, consider installing X-Cart's [Product Variants](http://www.x-cart.com/extensions/addons/product-variants.html) module. This module allows you to create product variants from options and make them have their own prices, SKUs and stock levels.
 
-# Personilization options (editable Textarea)
+## Personilization options (editable Textarea)
 
 Starting with X-Cart 5.1, it is possible to add _**editable**_ _Textarea_ attribute values. Adding an editable attribute value  for some product attribute creates an empty editable text area field on the product page where buyers can enter their own custom text before adding the product to their shopping cart. This feature may be used if you are going to provide personalization options for products, like monogramming, embroidery, etc.
 
@@ -113,7 +112,7 @@ On the storefront, it looks like this:
 
 ![]({{site.baseurl}}/attachments/7504859/7602536.png?effects=drop-shadow)
 
-# Price and weight modifiers
+## Price and weight modifiers
 
 Attribute values for multi-value product attributes can be configured as _price and/or weight modifier_ options that will increase or decrease the price and/or weight of the product (the product's weight affects the shipping cost). 
 
@@ -142,7 +141,7 @@ To configure attribute values as price/weight modifiers:
     ![]({{site.baseurl}}/attachments/7504859/8719340.png?effects=drop-shadow)
     The settings will be saved.
 
-# Setting the default attribute value
+## Setting the default attribute value
 
 When configuring multi-value attributes, you can control which of the attribute values should be shown to customers by default.
 
@@ -163,60 +162,3 @@ _Related pages:_
 
 *   {% link "Product classes and attributes" ref_T90ZcEpP %}
 *   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
-
-## Attachments:
-
-* [textarea_admin.png]({{site.baseurl}}/attachments/7504859/7602524.png) (image/png)
-* [textarea_storefront.png]({{site.baseurl}}/attachments/7504859/7602525.png) (image/png)
-* [plain_field_admin.png]({{site.baseurl}}/attachments/7504859/7602526.png) (image/png)
-* [plain_field_storefront.png]({{site.baseurl}}/attachments/7504859/7602527.png) (image/png)
-* [plain_field_multi_value1.png]({{site.baseurl}}/attachments/7504859/7602528.png) (image/png)
-* [plain_field_multi_value2.png]({{site.baseurl}}/attachments/7504859/7602529.png) (image/png)
-* [plain_field_multi_value.png]({{site.baseurl}}/attachments/7504859/7602531.png) (image/png)
-* [plain_field_multi_value.png]({{site.baseurl}}/attachments/7504859/7602530.png) (image/png)
-* [plain_field_multi_value_storefront.png]({{site.baseurl}}/attachments/7504859/7602533.png) (image/png)
-* [plain_field_multi_value_storefront.png]({{site.baseurl}}/attachments/7504859/7602532.png) (image/png)
-* [plain_field_multi_value3.png]({{site.baseurl}}/attachments/7504859/7602534.png) (image/png)
-* [editable_textarea_admin.png]({{site.baseurl}}/attachments/7504859/7602535.png) (image/png)
-* [editable_textarea_storefront.png]({{site.baseurl}}/attachments/7504859/7602536.png) (image/png)
-* [yes_no_multi_storefront.png]({{site.baseurl}}/attachments/7504859/7602538.png) (image/png)
-* [yes_no_multi_storefront.png]({{site.baseurl}}/attachments/7504859/7602576.png) (image/png)
-* [yes_no_multi_admin.png]({{site.baseurl}}/attachments/7504859/7602539.png) (image/png)
-* [yes_no_single_admin.png]({{site.baseurl}}/attachments/7504859/7602542.png) (image/png)
-* [yes_no_single_storefront.png]({{site.baseurl}}/attachments/7504859/7602541.png) (image/png)
-* [yes_no_single_admin.png]({{site.baseurl}}/attachments/7504859/7602540.png) (image/png)
-* [price_modifier.png]({{site.baseurl}}/attachments/7504859/7602575.png) (image/png)
-* [yes_no_multi_storefront.png]({{site.baseurl}}/attachments/7504859/7602537.png) (image/png)
-* [price_modifier_storefront.png]({{site.baseurl}}/attachments/7504859/7602578.png) (image/png)
-* [price_modifier_storefront.png]({{site.baseurl}}/attachments/7504859/7602580.png) (image/png)
-* [price_modifier_storefront1.png]({{site.baseurl}}/attachments/7504859/7602579.png) (image/png)
-* [price_modifier_storefront.png]({{site.baseurl}}/attachments/7504859/7602577.png) (image/png)
-* [price_modifier1.png]({{site.baseurl}}/attachments/7504859/7602581.png) (image/png)
-* [price_modifier2.png]({{site.baseurl}}/attachments/7504859/7602582.png) (image/png)
-* [price_modifier3.png]({{site.baseurl}}/attachments/7504859/7602583.png) (image/png)
-* [price_modifier4.png]({{site.baseurl}}/attachments/7504859/7602584.png) (image/png)
-* [default_attr_value.png]({{site.baseurl}}/attachments/7504859/7602585.png) (image/png)
-* [default_attr_value1.png]({{site.baseurl}}/attachments/7504859/7602586.png) (image/png)
-* [default_attr_value2.png]({{site.baseurl}}/attachments/7504859/7602587.png) (image/png)
-* [default_attr_value3.png]({{site.baseurl}}/attachments/7504859/7602588.png) (image/png)
-* [default_attr_value4.png]({{site.baseurl}}/attachments/7504859/7602590.png) (image/png)
-* [default_attr_value4.png]({{site.baseurl}}/attachments/7504859/7602589.png) (image/png)
-* [xc5_classes_attr_bag_dimensions.png]({{site.baseurl}}/attachments/7504859/8719327.png) (image/png)
-* [xc5_classes_attr_boho_top.png]({{site.baseurl}}/attachments/7504859/8719328.png) (image/png)
-* [xc5_classes_attr_headphones_wireless_yes.png]({{site.baseurl}}/attachments/7504859/8719329.png) (image/png)
-* [xc5_classes_attr_apparel_sizes.png]({{site.baseurl}}/attachments/7504859/8719330.png) (image/png)
-* [xc5_classes_attr_multi_value.png]({{site.baseurl}}/attachments/7504859/8719331.png) (image/png)
-* [xc5_classes_attr_new_blank_multi_value_line.png]({{site.baseurl}}/attachments/7504859/8719332.png) (image/png)
-* [xc5_classes_attr_another_blank_multi_value_line.png]({{site.baseurl}}/attachments/7504859/8719333.png) (image/png)
-* [xc5_classes_attr_monogram_multi_value.png]({{site.baseurl}}/attachments/7504859/8719334.png) (image/png)
-* [xc5_classes_attr_editable_textarea.png]({{site.baseurl}}/attachments/7504859/8719335.png) (image/png)
-* [xc5_classes_attr_price_modifier_10.png]({{site.baseurl}}/attachments/7504859/8719336.png) (image/png)
-* [xc5_classes_attr_modifier_link.png]({{site.baseurl}}/attachments/7504859/8719337.png) (image/png)
-* [xc5_classes_attr_modifiers_setup.png]({{site.baseurl}}/attachments/7504859/8719338.png) (image/png)
-* [xc5_classes_attr_modifiers_setup1.png]({{site.baseurl}}/attachments/7504859/8719339.png) (image/png)
-* [xc5_classes_attr_towel_save.png]({{site.baseurl}}/attachments/7504859/8719340.png) (image/png)
-* [xc5_classes_attr_modifier_link1.png]({{site.baseurl}}/attachments/7504859/8719341.png) (image/png)
-* [xc5_classes_attr_modifiers_setup2.png]({{site.baseurl}}/attachments/7504859/8719344.png) (image/png)
-* [xc5_classes_attr_modifiers_setup3.png]({{site.baseurl}}/attachments/7504859/8719343.png) (image/png)
-* [xc5_classes_attr_modifiers_setup2.png]({{site.baseurl}}/attachments/7504859/8719342.png) (image/png)
-* [xc5_classes_attr_modifier_globally.png]({{site.baseurl}}/attachments/7504859/8719345.png) (image/png)

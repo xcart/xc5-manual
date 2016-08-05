@@ -331,7 +331,7 @@ Another example is the product "**inventory**" condition, which filters product 
 http://<MY-XCART-PATH>/admin.php?target=RESTAPI&_key=rest-api-key&_path=product&_cnd[inventory]=out
 ```
 
-To find out which conditions you can apply to various model, you should find the corresponding Model/Repo/<entity>.php script in your X-Cart distributive (See {% link "How to work with different entities in the Default schema?" REST-API-documentation_3768321.html %} to get more information about different entites). We can't provide you a full list here because there are lots of types of entities, many of them are added by addons, and there are lots of conditions for each entity.
+To find out which conditions you can apply to various model, you should find the corresponding Model/Repo/<entity>.php script in your X-Cart distributive (See [How to work with different entities in the Default schema?](#how-to-work-with-different-entities-in-the-default-schema?) to get more information about different entites). We can't provide you a full list here because there are lots of types of entities, many of them are added by addons, and there are lots of conditions for each entity.
 
 ## Model data and types
 

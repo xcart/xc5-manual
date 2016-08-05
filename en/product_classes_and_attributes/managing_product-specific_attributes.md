@@ -12,10 +12,10 @@ categories:
 
 This page provides information on the following actions with product-specific attributes:
 
-*   {% link "Adding product-specific attributes" ref_d4ktum3z %};
-*   {% link "Viewing a product's list of product-specific attributes" Managing-product-specific-attributes_7504853.html %}
-*   {% link "Editing product-specific attributes" Managing-product-specific-attributes_7504853.html %};
-*   {% link "Deleting product-specific attributes" Managing-product-specific-attributes_7504853.html %}.
+*   [Adding product-specific attributes](#adding-product-specific-attributes);
+*   [Viewing a product's list of product-specific attributes](#viewing-a-products-list-of-product-specific-attributes);
+*   [Editing product-specific attributes](#editing-product-specific-attributes);
+*   [Deleting product-specific attributes](#deleting-product-specific-attributes).
 
 # Adding product-specific attributes 
 
@@ -32,7 +32,9 @@ To add a new attribute at the level of a specific product, follow the instructio
 
     *   Plain field
     *   Textarea
-    *   Yes/NoYou must select the type that best suits your needs (For an explanation of the different attribute value field types, see {% link "Managing attribute values" ref_bTfJ9bTS %}). By default, clicking **Add attribute** creates a Plain field. To select a different field type, click on the "down arrow" expandable part of the **Add attribute **button and select the type you require from the drop-down button menu:
+    *   Yes/No
+
+    You must select the type that best suits your needs (For an explanation of the different attribute value field types, see {% link "Managing attribute values" ref_bTfJ9bTS %}). By default, clicking **Add attribute** creates a Plain field. To select a different field type, click on the "down arrow" expandable part of the **Add attribute **button and select the type you require from the drop-down button menu:
     ![]({{site.baseurl}}/attachments/7504853/8719253.png?effects=drop-shadow)
 3.  The new attribute field will appear on a new line in the Product-Specific attributes list. For the sake of example, the snapshot below demonstrates a newly added Plain field:
     ![]({{site.baseurl}}/attachments/7504853/8719254.png?effects=drop-shadow)
@@ -77,22 +79,3 @@ _Related pages:_
 
 *   {% link "Product classes and attributes" ref_T90ZcEpP %}
 *   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
-
-## Attachments:
-
-* [attr_tab.png]({{site.baseurl}}/attachments/7504853/7602453.png) (image/png)
-* [product_specific_attr.png]({{site.baseurl}}/attachments/7504853/7602454.png) (image/png)
-* [product_specific_attr_list_empty.png]({{site.baseurl}}/attachments/7504853/7602455.png) (image/png)
-* [field_type_selector.png]({{site.baseurl}}/attachments/7504853/7602456.png) (image/png)
-* [product_specific_new_plain_field.png]({{site.baseurl}}/attachments/7504853/7602457.png) (image/png)
-* [plain_field_example.png]({{site.baseurl}}/attachments/7504853/7602458.png) (image/png)
-* [specification_color_orange.png]({{site.baseurl}}/attachments/7504853/7602459.png) (image/png)
-* [product_specific_attr_list.png]({{site.baseurl}}/attachments/7504853/7602567.png) (image/png)
-* [product_specific_attr_list.png]({{site.baseurl}}/attachments/7504853/7602545.png) (image/png)
-* [xc5_classes_attr_attributes_tab.png]({{site.baseurl}}/attachments/7504853/8719250.png) (image/png)
-* [xc5_classes_attr_product_specific_tab.png]({{site.baseurl}}/attachments/7504853/8719251.png) (image/png)
-* [xc5_classes_attr_no_prod_spec_attr.png]({{site.baseurl}}/attachments/7504853/8719252.png) (image/png)
-* [xc5_classes_attr_add_attr.png]({{site.baseurl}}/attachments/7504853/8719253.png) (image/png)
-* [xc5_classes_attr_blank_plain_field.png]({{site.baseurl}}/attachments/7504853/8719254.png) (image/png)
-* [xc5_classes_attr_critter_print_orange.png]({{site.baseurl}}/attachments/7504853/8719255.png) (image/png)
-* [xc5_classes_attr_prod_spec_attr_list.png]({{site.baseurl}}/attachments/7504853/8719256.png) (image/png)

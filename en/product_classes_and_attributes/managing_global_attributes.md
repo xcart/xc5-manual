@@ -12,12 +12,12 @@ categories:
 
 This page provides information on the following actions with global attributes:
 
-*   {% link "Adding global attributes" ref_HzMkgc0q %};
-*   {% link "Viewing your store's list of global attributes" Managing-global-attributes_7504857.html %};
-*   {% link "Assigning global attributes to products" Managing-global-attributes_7504857.html %};
-*   {% link "Viewing a product's global attributes" Managing-global-attributes_7504857.html %};
-*   {% link "Editing global attributes" Managing-global-attributes_7504857.html %};
-*   {% link "Deleting global attributes" Managing-global-attributes_7504857.html %}.
+*   [Adding global attributes](#adding-global-attributes);
+*   [Viewing your store's list of global attributes](#viewing-your-stores-list-of-global-attributes);
+*   [Assigning global attributes to products](#assigning-global-attributes-to-products);
+*   [Viewing a products global attributes](#viewing-a-products-global-attributes);
+*   [Editing global attributes](#editing-global-attributes);
+*   [Deleting global attributes](#deleting-global-attributes).
 
 # Adding global attributes
 
@@ -72,7 +72,7 @@ The process is as follows:
 3.  Use the **Global attributes** section to add information about the new attribute:
     1.  Create a new empty entry in the attributes list (This is where you will specify your attribute name and value(s)): click the "down arrow" part of the **Add attribute** button and select the type of attribute value you require (_Plain field_, _Textarea_ or _Yes/No_) from the drop-down button menu. 
         ![]({{site.baseurl}}/attachments/7504857/8719306.png?effects=drop-shadow)
-        (For an explanation of the different attribute value field types, see {% link "Managing attribute values" http://kb.x-cart.com/display/XDD/Managing+attribute+values %}). 
+        (For an explanation of the different attribute value field types, see {% link "Managing attribute values" ref_bTfJ9bTS %}). 
         As we are going to add the attribute  "Color" with values like "Orange", "Blue", etc., we should select the attribute value type "_Plain field_". "_Plain field_" is the default value, so we don't even need to use the drop-down menu: simply clicking **Add attribute** will create the empty fields we require:
         ![]({{site.baseurl}}/attachments/7504857/8719307.png)
 
@@ -143,7 +143,7 @@ In the following example, we will assign the global attribute "Color.....Orange"
 
 # Viewing a product's global attributes
 
-If a product has any global attributes assigned, you can view their list in the"Global attributes"section of the product's details (**Attributes** tab** >** **Global **subsection):
+If a product has any global attributes assigned, you can view their list in the "Global attributes" section of the product's details (**Attributes** tab** >** **Global **subsection):
 
 ![]({{site.baseurl}}/attachments/7504857/8719308.png?effects=drop-shadow)
 
@@ -205,75 +205,3 @@ _Related pages:_
 
 *   {% link "Product classes and attributes" ref_T90ZcEpP %}
 *   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
-
-## Attachments:
-
-* [new_global_attribute.png]({{site.baseurl}}/attachments/7504857/7602466.png) (image/png)
-* [add_global_attr.png]({{site.baseurl}}/attachments/7504857/7602504.png) (image/png)
-* [global_attributes.png]({{site.baseurl}}/attachments/7504857/7602505.png) (image/png)
-* [new_global_attribute1.png]({{site.baseurl}}/attachments/7504857/7602506.png) (image/png)
-* [new_global_attribute2.png]({{site.baseurl}}/attachments/7504857/7602507.png) (image/png)
-* [new_global_attribute3.png]({{site.baseurl}}/attachments/7504857/7602508.png) (image/png)
-* [new_global_attribute4.png]({{site.baseurl}}/attachments/7504857/7602509.png) (image/png)
-* [new_global_attribute5.png]({{site.baseurl}}/attachments/7504857/7602510.png) (image/png)
-* [global_attr_value_check_mark.png]({{site.baseurl}}/attachments/7504857/7602511.png) (image/png)
-* [new_global_attribute6.png]({{site.baseurl}}/attachments/7504857/7602512.png) (image/png)
-* [attr_tab.png]({{site.baseurl}}/attachments/7504857/7602513.png) (image/png)
-* [global_attr_subsection.png]({{site.baseurl}}/attachments/7504857/7602514.png) (image/png)
-* [global_attr_section.png]({{site.baseurl}}/attachments/7504857/7602515.png) (image/png)
-* [field_type_selector.png]({{site.baseurl}}/attachments/7504857/7602516.png) (image/png)
-* [new_global_attr.png]({{site.baseurl}}/attachments/7504857/7602517.png) (image/png)
-* [new_global_attr1.png]({{site.baseurl}}/attachments/7504857/7602518.png) (image/png)
-* [new_global_attr2.png]({{site.baseurl}}/attachments/7504857/7602519.png) (image/png)
-* [new_global_attr3.png]({{site.baseurl}}/attachments/7504857/7602520.png) (image/png)
-* [new_global_attr4.png]({{site.baseurl}}/attachments/7504857/7602521.png) (image/png)
-* [edit_global_attr.png]({{site.baseurl}}/attachments/7504857/7602522.png) (image/png)
-* [edit_global_attr1.png]({{site.baseurl}}/attachments/7504857/7602523.png) (image/png)
-* [global_attr_list.png]({{site.baseurl}}/attachments/7504857/7602547.png) (image/png)
-* [global_attr_list.png]({{site.baseurl}}/attachments/7504857/7602548.png) (image/png)
-* [global_attr_list.png]({{site.baseurl}}/attachments/7504857/7602546.png) (image/png)
-* [stores_global_attr_list.png]({{site.baseurl}}/attachments/7504857/7602549.png) (image/png)
-* [global_attr_values.png]({{site.baseurl}}/attachments/7504857/7602550.png) (image/png)
-* [assign_global_attributes.png]({{site.baseurl}}/attachments/7504857/7602571.png) (image/png)
-* [assign_global_attributes1.png]({{site.baseurl}}/attachments/7504857/7602573.png) (image/png)
-* [assign_global_attributes2.png]({{site.baseurl}}/attachments/7504857/7602574.png) (image/png)
-* [attr_tab1.png]({{site.baseurl}}/attachments/7504857/7602570.png) (image/png)
-* [global_attr_subsection1.png]({{site.baseurl}}/attachments/7504857/7602569.png) (image/png)
-* [attr_tab1.png]({{site.baseurl}}/attachments/7504857/7602568.png) (image/png)
-* [assign_global_attributes.png]({{site.baseurl}}/attachments/7504857/7602572.png) (image/png)
-* [assign_global_attributes.png]({{site.baseurl}}/attachments/7504857/7602559.png) (image/png)
-* [assign_global_attributes1.png]({{site.baseurl}}/attachments/7504857/7602560.png) (image/png)
-* [assign_global_attributes2.png]({{site.baseurl}}/attachments/7504857/7602561.png) (image/png)
-* [xc5_classes_attr_edit_global_attr.png]({{site.baseurl}}/attachments/7504857/8719312.png) (image/png)
-* [xc5_classes_attr_global_attr_page.png]({{site.baseurl}}/attachments/7504857/8719295.png) (image/png)
-* [xc5_classes_attr_new_global_attr.png]({{site.baseurl}}/attachments/7504857/8719296.png) (image/png)
-* [xc5_classes_attr_new_attr_popup.png]({{site.baseurl}}/attachments/7504857/8719297.png) (image/png)
-* [xc5_classes_attr_color_global_attr.png]({{site.baseurl}}/attachments/7504857/8719298.png) (image/png)
-* [xc5_classes_attr_edit_color_global_attr_values.png]({{site.baseurl}}/attachments/7504857/8719299.png) (image/png)
-* [xc5_classes_attr_edit_color_global_attr_values1.png]({{site.baseurl}}/attachments/7504857/8719300.png) (image/png)
-* [xc5_classes_attr_edit_color_global_attr_values2.png]({{site.baseurl}}/attachments/7504857/8719301.png) (image/png)
-* [xc5_classes_attr_edit_color_global_attr_values3.png]({{site.baseurl}}/attachments/7504857/8719302.png) (image/png)
-* [xc5_classes_attr_cup_attributes_tab.png]({{site.baseurl}}/attachments/7504857/8719317.png) (image/png)
-* [xc5_classes_attr_cup_global_tab.png]({{site.baseurl}}/attachments/7504857/8719318.png) (image/png)
-* [xc5_classes_attr_global_attributes_section.png]({{site.baseurl}}/attachments/7504857/8719305.png) (image/png)
-* [xc5_classes_attr_add_attr.png]({{site.baseurl}}/attachments/7504857/8719306.png) (image/png)
-* [xc5_classes_attr_new_blank_global.png]({{site.baseurl}}/attachments/7504857/8719307.png) (image/png)
-* [xc5_classes_attr_global_color_orange.png]({{site.baseurl}}/attachments/7504857/8719321.png) (image/png)
-* [xc5_classes_attr_color_globally.png]({{site.baseurl}}/attachments/7504857/8719322.png) (image/png)
-* [xc5_classes_attr_color_globally_save.png]({{site.baseurl}}/attachments/7504857/8719323.png) (image/png)
-* [xc5_classes_attr_global_color_orange_saved.png]({{site.baseurl}}/attachments/7504857/8719311.png) (image/png)
-* [xc5_classes_attr_edit_global_attr.png]({{site.baseurl}}/attachments/7504857/8719294.png) (image/png)
-* [xc5_classes_attr_edit_global_attr1.png]({{site.baseurl}}/attachments/7504857/8719325.png) (image/png)
-* [xc5_classes_attr_global_attr_list.png]({{site.baseurl}}/attachments/7504857/8719314.png) (image/png)
-* [xc5_classes_attr_global_color_edit.png]({{site.baseurl}}/attachments/7504857/8719326.png) (image/png)
-* [xc5_classes_attr_color_global_attr_values.png]({{site.baseurl}}/attachments/7504857/8719316.png) (image/png)
-* [xc5_classes_attr_cup_attributes_tab.png]({{site.baseurl}}/attachments/7504857/8719303.png) (image/png)
-* [xc5_classes_attr_cup_global_tab.png]({{site.baseurl}}/attachments/7504857/8719304.png) (image/png)
-* [xc5_classes_attr_cup_global_color.png]({{site.baseurl}}/attachments/7504857/8719319.png) (image/png)
-* [xc5_classes_attr_global_color_dropdown.png]({{site.baseurl}}/attachments/7504857/8719320.png) (image/png)
-* [xc5_classes_attr_global_color_orange.png]({{site.baseurl}}/attachments/7504857/8719324.png) (image/png)
-* [xc5_classes_attr_color_globally.png]({{site.baseurl}}/attachments/7504857/8719309.png) (image/png)
-* [xc5_classes_attr_color_globally_save.png]({{site.baseurl}}/attachments/7504857/8719310.png) (image/png)
-* [xc5_classes_attr_global_color_orange.png]({{site.baseurl}}/attachments/7504857/8719308.png) (image/png)
-* [xc5_classes_attr_edit_global_attr1.png]({{site.baseurl}}/attachments/7504857/8719313.png) (image/png)
-* [xc5_classes_attr_global_color_edit.png]({{site.baseurl}}/attachments/7504857/8719315.png) (image/png)

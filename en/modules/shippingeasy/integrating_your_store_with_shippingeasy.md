@@ -9,11 +9,6 @@ categories:
 
 ---
 
-
-Important
-
-Icon
-
 X-Cart's ShippingEasy module requires the SEO-friendly URLs feature for correct operation, so be sure to {% link "enable SEO-friendly URLs" ref_nJxrzFEZ %} at your X-Cart store before you proceed.
 
 To integrate your X-Cart store with ShippingEasy, complete the following steps:
@@ -60,21 +55,6 @@ That is all. You have completed integrating your X-Cart store with ShippingEasy.
 
 _Related pages:_
 
-*   {% link "ShippingEasy module: system requirements and installation" 8224909.html %}
-*   {% link "Activating and deactivating modules" Activating-and-deactivating-modules_7503971.html %}
-*   {% link "Order status mapping" Order-status-mapping_8224919.html %}
-
-## Attachments:
-
-* [shippingeasy_stores.png]({{site.baseurl}}/attachments/8224894/8355897.png) (image/png)
-* [shippingeasy_add_new_store.png]({{site.baseurl}}/attachments/8224894/8355898.png) (image/png)
-* [shippingeasy_platform.png]({{site.baseurl}}/attachments/8224894/8355899.png) (image/png)
-* [shippingeasy_store_details.png]({{site.baseurl}}/attachments/8224894/8355921.png) (image/png)
-* [shippingeasy_xc5_enabled.png]({{site.baseurl}}/attachments/8224894/8355901.png) (image/png)
-* [shippingeasy_xc5_settings.png]({{site.baseurl}}/attachments/8224894/8355902.png) (image/png)
-* [shippingeasy_xc5_settings0.png]({{site.baseurl}}/attachments/8224894/8355903.png) (image/png)
-* [shippingeasy_store_api_key.png]({{site.baseurl}}/attachments/8224894/8355922.png) (image/png)
-* [shippingeasy_api_credentials.png]({{site.baseurl}}/attachments/8224894/8355905.png) (image/png)
-* [shippingeasy_api_credentials1.png]({{site.baseurl}}/attachments/8224894/8355906.png) (image/png)
-* [shippingeasy_store_details.png]({{site.baseurl}}/attachments/8224894/8355900.png) (image/png)
-* [shippingeasy_store_api_key.png]({{site.baseurl}}/attachments/8224894/8355904.png) (image/png)
+*   {% link "ShippingEasy module: system requirements and installation" ref_KF7JDnSv %}
+*   {% link "Activating and deactivating modules" ref_uEnDBBA7 %}
+*   {% link "Order status mapping" ref_o506IWMl %}

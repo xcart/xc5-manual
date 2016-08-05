@@ -99,7 +99,7 @@ So, everything is fine: the vendor has received their earnings, and we have rece
 
 _Related pages:_
 
-*   {% link "Multi-vendor" Multi-vendor_8749135.html %}
+*   {% link "Multi-vendor" ref_cvwmAuRi %}
 
 ## Attachments:
 

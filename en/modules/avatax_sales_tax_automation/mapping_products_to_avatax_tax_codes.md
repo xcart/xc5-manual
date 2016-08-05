@@ -12,7 +12,7 @@ categories:
 
 To ensure the correct choice of taxing scenario for each transaction in your store, you must map the products in your catalog to the tax codes defined in AvaTax system.
 
-For this purpose a special field is provided on the product information page: the field **Tax code**** (AvaTax)**:
+For this purpose a special field is provided on the product information page: the field **Tax code****(AvaTax)**:
 
 ![]({{site.baseurl}}/attachments/8749241/8717394.png?effects=drop-shadow)
 

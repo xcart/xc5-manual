@@ -28,7 +28,7 @@ To start selling with X-Cart, a vendor user needs to complete the following step
 
 2.  Add the products they are going to sell. See {% link "Managing vendor catalog" ref_r4mcwiho %} for information on how vendors can add products manually. See {% link "Vendor import/export" ref_pa3oqbXz %} for information on how vendors can add products using CSV import.
 
-3.  If the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_nFq48dhr#ConfiguringtheMulti-vendormodule-MultivendorMode %}:
+3.  If the store is set to work in the "_Vendors as separate shops_" {% link "multivendor mode" ref_nFq48dhr %}:
     1.  Specify the address from which their products will be shipped. See {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}.
     2.  Specify the shipping methods they are going to use. See {% link "Managing vendor shipping methods" ref_IvXmtLKI %}.
 
@@ -39,16 +39,9 @@ Once customers start placing orders for products owned by a vendor, the vendor w
 _Related pages:_
 
 *   {% link "Vendor registration" ref_SkW62BgH %}
-*   {% link "Managing vendor profile information" Managing-vendor-profile-information_8749390.html %}
-*   {% link "Managing vendor catalog" Managing-vendor-catalog_8749388.html %}
-*   {% link "Managing vendor shipping methods" Managing-vendor-shipping-methods_8749392.html %}
-*   {% link "Vendor access to orders and statistics" Vendor-access-to-orders-and-statistics_8749511.html %}
-*   {% link "Specifying vendor ship-from address" Specifying-vendor-ship-from-address_8750997.html %}
-*   {% link "Vendor import/export" 8749505.html %}
-
-## Attachments:
-
-* [xc5_first_vendor_login.png]({{site.baseurl}}/attachments/8749377/8716900.png) (image/png)
-* [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749377/8716902.png) (image/png)
-* [xc5_vendor_products.png]({{site.baseurl}}/attachments/8749377/8716901.png) (image/png)
-* [xc5_multi_vendor_need_paypal.png]({{site.baseurl}}/attachments/8749377/8719610.png) (image/png)
+*   {% link "Managing vendor profile information" ref_b7PTQMgf %}
+*   {% link "Managing vendor catalog" ref_r4mcwiho %}
+*   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
+*   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
+*   {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}
+*   {% link "Vendor import/export" ref_pa3oqbXz %}

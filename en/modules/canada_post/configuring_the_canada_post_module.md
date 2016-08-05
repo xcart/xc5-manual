@@ -117,18 +117,8 @@ The settings in this section allow you to specify the default option values for 
     *   _Return to Sender,_
     *   _Abandon_ (The parcel will not be returned but will be disposed of by Canada Post).
 
-Note
-
-Icon
-
 For detailed information on Canada Post rules and practices, please refer to the [Canada Postal Guide](http://kb.x-cart.com/www.canadapost.ca/postalguide).
 
 _Related pages:_
 
 *   {% link "Getting started with Canada Post" ref_zfNLsPus %}
-
-## Attachments:
-
-* [cp_settings_link.png]({{site.baseurl}}/attachments/7505449/7602821.png) (image/png)
-* [cp_settings_tab.png]({{site.baseurl}}/attachments/7505449/7602822.png) (image/png)
-* [cp_settings_top.png]({{site.baseurl}}/attachments/7505449/7602823.png) (image/png)

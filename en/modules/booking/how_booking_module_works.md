@@ -30,8 +30,8 @@ The module is mobile-friendly: by using responsive design techniques, it can di
 
 Related pages:
 
-*   {% link ""Booking" module: System requirements and installation" ref_0l095Fro %}
-*   {% link ""Booking" module: Getting started" ref_mUn67cLl %}
+*   {% link "«Booking» module: System requirements and installation" ref_0l095Fro %}
+*   {% link "«Booking» module: Getting started" ref_mUn67cLl %}
 
 ## Attachments:
 

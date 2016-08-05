@@ -29,7 +29,7 @@ A prerequisite for printing barcodes is that the products for which you are goin
 2.  Click the <u>**More actions**</u> link below the list of products and select **Print barcodes** to access the page where you will be able to print barcodes for the products that have been selected:
     ![]({{site.baseurl}}/attachments/7504442/7602284.png?effects=drop-shadow)
 
-    Once the {% link "QZ Print applet has loaded" 7504386.html %}, you will see a page like following:
+    Once the {% link "QZ Print applet has loaded" ref_8E7oRDXS %}, you will see a page like following:
     ![]({{site.baseurl}}/attachments/7504442/7602285.png?effects=drop-shadow)
 
 3.  Use the **N items** input box to specify the number of copies that need to be printed and click **Print barcodes(s)**.
@@ -40,9 +40,3 @@ _Related pages:_
 *   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}
 *   {% link "Using the POS system module (Admin area)" ref_9gJU76EN %}
 *   {% link "Using the POS system module (Customer area)" ref_hV0rfAb6 %}
-
-## Attachments:
-
-* [pos_print barcode.png]({{site.baseurl}}/attachments/7504442/7602283.png) (image/png)
-* [pos_print_barcodes_multiple.png]({{site.baseurl}}/attachments/7504442/7602284.png) (image/png)
-* [pos_print_barcodes_multiple1.png]({{site.baseurl}}/attachments/7504442/7602285.png) (image/png)

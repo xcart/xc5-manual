@@ -46,10 +46,6 @@ The statuses Awaiting payment, Paid and Authorized cause the inventory levels 
 | R | Returned | The buyer is returning the ordered items; the items have been sent back to the merchant. |
 | NF | Not Finished | (Enabled by the module Not Finished Orders). After the buyer's attempt to pay for the order, the payment system has returned the "cancelled" or "failed" callback, so the order payment status has been set to "Declined". |
 
-Note
-
-Icon
-
 What you see in the first columns of the above tables is letter codes by which X-Cart's system order statuses are represented in the software code; these codes are used only internally.
 
 For information on _custom order statuses_, see the {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" ref_7FIU2sxJ %} section of this manual.
@@ -70,4 +66,4 @@ For orders paid using online payment processors, the regular order processing w
 
 _Related pages:_
 
-*   {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" 8750763.html %}
+*   {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" ref_7FIU2sxJ %}

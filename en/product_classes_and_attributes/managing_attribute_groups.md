@@ -20,10 +20,10 @@ and in the Admin area:
 
 This page provides information on the following actions with attribute groups:
 
-*   {% link "Adding attribute groups" ref_otIvC7NR %};
-*   {% link "Assigning attributes to an attribute group" Managing-attribute-groups_7504788.html %};
-*   {% link "Editing attribute groups" Managing-attribute-groups_7504788.html %} (renaming groups, changing the order of groups);
-*   {% link "Deleting attribute groups" Managing-attribute-groups_7504788.html %}.
+*   [Adding attribute groups](#adding-attribute-groups);
+*   [Assigning attributes to an attribute group](#assigning-attributes-to-an-attribute-group);
+*   [Editing attribute groups](#editing-attribute-groups);
+*   [Deleting attribute groups](#deleting-attribute-groups).
 
 ## Adding attribute groups
 
@@ -46,7 +46,7 @@ To add a new attribute group:
 6.  Click **Save changes**. The group will be added:
     ![]({{site.baseurl}}/attachments/7504788/8719352.png?effects=drop-shadow)
 
-After a new attribute group has been added, it does not yet have any attributes in it. To add attributes to the group, follow the guidelines in the section {% link "Assigning attributes to an attribute group" Managing-attribute-groups_7504788.html %}.
+After a new attribute group has been added, it does not yet have any attributes in it. To add attributes to the group, follow the guidelines in the section [Assigning attributes to an attribute group](#assigning-attributes-to-an-attribute-group).
 
 ## Assigning attributes to an attribute group
 
@@ -101,55 +101,3 @@ _Related pages:_
 
 *   {% link "Product classes and attributes" ref_T90ZcEpP %}
 *   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
-
-## Attachments:
-
-* [attr_tab.png]({{site.baseurl}}/attachments/7504788/7602419.png) (image/png)
-* [attr_groups.png]({{site.baseurl}}/attachments/7504788/7602421.png) (image/png)
-* [attr_groups.png]({{site.baseurl}}/attachments/7504788/7602420.png) (image/png)
-* [specification_tab.png]({{site.baseurl}}/attachments/7504788/7602422.png) (image/png)
-* [product_specific_attr.png]({{site.baseurl}}/attachments/7504788/7602423.png) (image/png)
-* [product_specific_attr_list_empty.png]({{site.baseurl}}/attachments/7504788/7602424.png) (image/png)
-* [field_type_selector.png]({{site.baseurl}}/attachments/7504788/7602425.png) (image/png)
-* [product_specific_new_plain_field.png]({{site.baseurl}}/attachments/7504788/7602426.png) (image/png)
-* [plain_field_example.png]({{site.baseurl}}/attachments/7504788/7602427.png) (image/png)
-* [specification_color_orange.png]({{site.baseurl}}/attachments/7504788/7602428.png) (image/png)
-* [edit_attributes.png]({{site.baseurl}}/attachments/7504788/7602429.png) (image/png)
-* [attributes_page.png]({{site.baseurl}}/attachments/7504788/7602431.png) (image/png)
-* [attributes_page.png]({{site.baseurl}}/attachments/7504788/7602430.png) (image/png)
-* [manage_attr_groups.png]({{site.baseurl}}/attachments/7504788/7602432.png) (image/png)
-* [manage_attr_groups1.png]({{site.baseurl}}/attachments/7504788/7602433.png) (image/png)
-* [made_by_attr_group.png]({{site.baseurl}}/attachments/7504788/7602434.png) (image/png)
-* [made_by_attr_group1.png]({{site.baseurl}}/attachments/7504788/7602436.png) (image/png)
-* [made_by_attr_group1.png]({{site.baseurl}}/attachments/7504788/7602435.png) (image/png)
-* [new_global_attribute.png]({{site.baseurl}}/attachments/7504788/7602437.png) (image/png)
-* [assign_attr_group_new.png]({{site.baseurl}}/attachments/7504788/7602438.png) (image/png)
-* [assign_attr_group_edit.png]({{site.baseurl}}/attachments/7504788/7602439.png) (image/png)
-* [delete_attr_group.png]({{site.baseurl}}/attachments/7504788/7602440.png) (image/png)
-* [edit_attributes1.png]({{site.baseurl}}/attachments/7504788/7602441.png) (image/png)
-* [manage_groups_button.png]({{site.baseurl}}/attachments/7504788/7602443.png) (image/png)
-* [manage_groups_button.png]({{site.baseurl}}/attachments/7504788/7602442.png) (image/png)
-* [rename_attr_group.png]({{site.baseurl}}/attachments/7504788/7602444.png) (image/png)
-* [move_attr_group.png]({{site.baseurl}}/attachments/7504788/7602445.png) (image/png)
-* [global_attr_subsection.png]({{site.baseurl}}/attachments/7504788/7602446.png) (image/png)
-* [assign_product_class.png]({{site.baseurl}}/attachments/7504788/7602447.png) (image/png)
-* [assign_product_class1.png]({{site.baseurl}}/attachments/7504788/7602448.png) (image/png)
-* [assign_product_class2.png]({{site.baseurl}}/attachments/7504788/7602449.png) (image/png)
-* [assign_product_class3.png]({{site.baseurl}}/attachments/7504788/7602451.png) (image/png)
-* [assign_product_class3.png]({{site.baseurl}}/attachments/7504788/7602450.png) (image/png)
-* [attr_groups1.png]({{site.baseurl}}/attachments/7504788/7602470.png) (image/png)
-* [xc5_classes_attr_manage_attrgroups.png]({{site.baseurl}}/attachments/7504788/8719346.png) (image/png)
-* [xc5_classes_attr_global_attr_page.png]({{site.baseurl}}/attachments/7504788/8719347.png) (image/png)
-* [xc5_classes_attr_manage_attrgroups1.png]({{site.baseurl}}/attachments/7504788/8719348.png) (image/png)
-* [xc5_classes_attr_manage_attrgroups2.png]({{site.baseurl}}/attachments/7504788/8719349.png) (image/png)
-* [xc5_classes_attr_manage_attrgroups3.png]({{site.baseurl}}/attachments/7504788/8719350.png) (image/png)
-* [xc5_classes_attr_manage_attrgroups4.png]({{site.baseurl}}/attachments/7504788/8719351.png) (image/png)
-* [xc5_classes_attr_attrgroup_added.png]({{site.baseurl}}/attachments/7504788/8719352.png) (image/png)
-* [xc5_classes_attr_assign_attrgroup1.png]({{site.baseurl}}/attachments/7504788/8719353.png) (image/png)
-* [xc5_classes_attr_assign_attrgroup2.png]({{site.baseurl}}/attachments/7504788/8719354.png) (image/png)
-* [xc5_classes_attr_manage_attrgroups_popup.png]({{site.baseurl}}/attachments/7504788/8719355.png) (image/png)
-* [xc5_classes_attr_edit_attr_link.png]({{site.baseurl}}/attachments/7504788/8719356.png) (image/png)
-* [xc5_classes_attr_manage_attrgroups_x.png]({{site.baseurl}}/attachments/7504788/8719357.png) (image/png)
-* [xc5_classes_attr_attrgroup_name_edit.png]({{site.baseurl}}/attachments/7504788/8719358.png) (image/png)
-* [xc5_classes_attr_delete_attrgroup.png]({{site.baseurl}}/attachments/7504788/8719359.png) (image/png)
-* [xc5_classes_attr_attrgroup_move.png]({{site.baseurl}}/attachments/7504788/8719360.png) (image/png)

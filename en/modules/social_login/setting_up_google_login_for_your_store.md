@@ -12,8 +12,8 @@ categories:
 
 To add the Google Login feature to your X-Cart store site, complete the following steps:
 
-1.  Create OAuth2 client ID for your store site (See {% link "Creating OAuth2 client ID" ref_LMCQeIrv %}).
-2.  Obtain your Google Client ID and Google Client secret and enter them on the "Social Login" module settings page in your X-Cart store's Admin area (See {% link "Configuring the Social Login module: Google" Setting-up-Google-Login-for-your-store_7504602.html %})
+1.  Create OAuth2 client ID for your store site (See [Creating OAuth2 client ID](#creating-oauth2-client-id)).
+2.  Obtain your Google Client ID and Google Client secret and enter them on the "Social Login" module settings page in your X-Cart store's Admin area (See [Configuring the Social Login module: Google](#configuring-the-social-login-module-google))
 
 # Creating OAuth2 client ID 
 

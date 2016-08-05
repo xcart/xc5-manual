@@ -20,7 +20,7 @@ After the Shopgate plugin has been installed successfully, two simple tasks ne
 3.  In the drop-down box labeled **Select a system**, type _X-Cart_ and select it.![]({{site.baseurl}}/attachments/7505735/7602834.png?effects=drop-shadow)
 
 4.  A popup opens. Look for **Customer number**, **Shop number**, **API** **key**, and** Alias **under **2\. Configure_. _**These are the API credentials the plugin needs to authenticate at the Shopgate backend. Leave this page open - we will come back to enter the URL (explained in the {% link "Connecting your store to Shopgate" ref_9v2iKQ2a %} section below).![]({{site.baseurl}}/attachments/7505735/7602835.png?effects=drop-shadow)
-5.  Copy **Customer number**, **Shop number**, **API** **key**, and** Alias,**and paste them individually onto the "Shopgate - Mobile Commerce" module configuration page you left open from the last chapter. Copy the URL at the bottom of the page to a text editing file - you will need this in the next step. The rest of the options can be configured later (This is explained in the {% link "Configuring the "Shopgate - Mobile Commerce" module" ref_LPT5lDvl %} section). Click **Submit**. ![]({{site.baseurl}}/attachments/7505735/7602836.png?effects=drop-shadow)
+5.  Copy **Customer number**, **Shop number**, **API** **key**, and** Alias,**and paste them individually onto the "Shopgate - Mobile Commerce" module configuration page you left open from the last chapter. Copy the URL at the bottom of the page to a text editing file - you will need this in the next step. The rest of the options can be configured later (This is explained in the {% link "Configuring the «Shopgate - Mobile Commerce» module" ref_LPT5lDvl %} section). Click **Submit**. ![]({{site.baseurl}}/attachments/7505735/7602836.png?effects=drop-shadow)
 
 # Connecting your store to Shopgate
 
@@ -37,16 +37,5 @@ After the Shopgate plugin has been installed successfully, two simple tasks ne
 
 _Related pages:_
 
-*   {% link "Getting started with "Shopgate - Mobile Commerce"" ref_ifsTnMAq %}
-*   {% link "Configuring the "Shopgate - Mobile Commerce" module" 7505737.html %}
-
-## Attachments:
-
-* [link.png]({{site.baseurl}}/attachments/7505735/7602831.png) (image/png)
-* [plus-square.png]({{site.baseurl}}/attachments/7505735/7602832.png) (image/png)
-* [shopgate_install_interface.png]({{site.baseurl}}/attachments/7505735/7602833.png) (image/png)
-* [shopgate_select_system.png]({{site.baseurl}}/attachments/7505735/7602834.png) (image/png)
-* [shopgate_api_credentials.png]({{site.baseurl}}/attachments/7505735/7602835.png) (image/png)
-* [shopgate_api_credentials1.png]({{site.baseurl}}/attachments/7505735/7602836.png) (image/png)
-* [shopgate_enter_url.png]({{site.baseurl}}/attachments/7505735/7602837.png) (image/png)
-* [shopgate_assign_jobs.png]({{site.baseurl}}/attachments/7505735/7602838.png) (image/png)
+*   {% link "Getting started with «Shopgate - Mobile Commerce»" ref_ifsTnMAq %}
+*   {% link "Configuring the «Shopgate - Mobile Commerce» module" ref_LPT5lDvl %}

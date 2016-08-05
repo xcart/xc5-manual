@@ -22,9 +22,9 @@ Now your store can keep track of shopping carts that get abandoned and allows yo
 
 First, you should **create some abandoned cart reminders**. To create an abandoned cart reminder means to add a message that will be sent to the users who abandoned their cart and to define some essential properties for this message, such as whether it should be sent automatically or manually, whether sending the message should or should not create a discount coupon for the customer, and so on. For full instructions on creating a reminder, see {% link "Creating reminders" ref_i8rSfTrg %}.
 
-To **review the carts that are currently in the abandoned state**, use your store's Abandoned carts list. For instructions on how to read the information provided by this list and manage abandoned carts, see {% link "Abandoned carts list" ref_hkTTIuTr#Managingabandonedcartsandsendingreminders-CartsList %}.
+To **review the carts that are currently in the abandoned state**, use your store's Abandoned carts list. For instructions on how to read the information provided by this list and manage abandoned carts, see {% link "Abandoned carts list" ref_hkTTIuTr#viewingfiltering-the-abandoned-carts-list %}.
 
-To **send reminders to the owners of abandoned carts**, follow the instructions in {% link "Sending reminders" Managing-abandoned-carts-and-sending-reminders_7503954.html#Managingabandonedcartsandsendingreminders-SendingReminders %}. 
+To **send reminders to the owners of abandoned carts**, follow the instructions in {% link "Sending reminders" ref_hkTTIuTr#sending-reminders %}. 
 
 To find out about the number of carts and the amount of revenue recaptured through using the module, **view your store's Cart recovery statistics** (See {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}).
 
