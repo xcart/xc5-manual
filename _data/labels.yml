@@ -26,6 +26,10 @@
     en: 'Home'
     ru: 'Главная'
 
+'Menu':
+    en: 'Menu'
+    ru: 'Меню'
+
 'Get started':
     en: 'Get started'
     ru: 'C чего начать?'

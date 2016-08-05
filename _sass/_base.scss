@@ -53,7 +53,7 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    margin-left: 0;
 }
 
 li {
@@ -102,22 +102,32 @@ li {
 }
 
 aside.sidebar {
-    padding: 0 !important;
-    margin-top: 1rem;
+    padding: 1rem 0 0 0 !important;
+
     #navigation-menu {
         border-right-color: rgba(34, 36, 38, 0.05);
 
         width: 100%;
         margin: 0px;
 
+        .menu .item {
+            font-size: 0.95em;
+        }
+
         .anchor-link.item {
             padding: 0.25em 0;
             a {
+                cursor: pointer;
                 line-height: 1.5em;
             }
 
             .title {
+                cursor: default;
                 padding: 0.5rem 1.5rem 0.5rem 1rem;
+
+                .link {
+                    @include flex-grow(1);
+                }
 
                 .link:hover, .opener:hover {
                     color: #43BEEC;
@@ -135,13 +145,13 @@ aside.sidebar {
 
         .anchor-link.item.has-sub {
             .title {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
+                @include flexbox;
+                @include align-items(center);
+                @include justify-content(space-between);
             }
 
             .title.active, .title.active + .content {
-                border-left: 2px solid rgba(0,0,0,0.2);
+                border-left: 2px solid rgba(65,131,196,0.2);
             }
 
             > .content {
