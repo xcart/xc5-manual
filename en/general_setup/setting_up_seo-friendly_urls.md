@@ -69,8 +69,26 @@ Use the [Import of Apache rules](http://www.iis.net/learn/extensions/url-rewrite
 
 You should put the following lines into the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) into your nginx configuration file (nginx.conf):
 
+## Configuration for X-Cart 5.3.1 and earlier
+
 ```php
 # Example nginx configuration
+location / {
+  index cart.php;
+
+  if (!-e $request_filename){
+     rewrite ^/sitemap.xml(\?.+)?$ /cart.php?target=sitemap;
+     rewrite ^/((([/_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)(/?)(\.([_A-Za-z0-9-]+))?$ /cart.php?url=$5&last=$4&rest=$3&ext=$7 last;
+  }
+}
+```
+
+## Configuration for X-Cart 5.3.2 and later
+
+Starting from X-Cart 5.3.2, configuration has to be changed to accept dots(.) in url path.
+
+```php
+# Example nginx configuration (X-Cart 5.3.2+)
 location / {
   index cart.php;
 
