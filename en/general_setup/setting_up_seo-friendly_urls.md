@@ -76,7 +76,7 @@ location / {
 
   if (!-e $request_filename){
      rewrite ^/sitemap.xml(\?.+)?$ /cart.php?target=sitemap;
-     rewrite ^/((([/_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)/)?([_A-Za-z0-9-]+)(/?)(\.([_A-Za-z0-9-]+))?$ /cart.php?url=$5&last=$4&rest=$3&ext=$7 last;
+     rewrite ^((([./_a-z0-9-]+?)/)?([._a-z0-9-]+?)/)?([._a-z0-9-]+?)(/?)(\.([_a-z0-9-]+))?$ /cart.php?url=$5&last=$4&rest=$3&ext=$7 last;
   }
 }
 ```
