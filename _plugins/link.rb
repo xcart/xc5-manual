@@ -27,6 +27,10 @@ module Jekyll
         @config = context.registers[:site].config
         @page = context.environments.first["page"]
 
+        unless @site.data['links'][@id]
+          puts 'Identifier not found: ' + @id
+        end
+
         url = @site.data['links'][@id] ? @site.data['links'][@id][:link] + @hash : '404.html'
         lang = @site.data['links'][@id] ? @site.data['links'][@id][:lang] : @config['lang_default']
 
