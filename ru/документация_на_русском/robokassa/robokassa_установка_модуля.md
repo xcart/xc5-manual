@@ -14,7 +14,7 @@ categories:
 
 ![]({{site.baseurl}}/attachments/7504676/7602389.png?effects=drop-shadow)
 
-Инструкция по установке модулей из X-Cart Marketplace (на английском языке) доступна здесь: {% link "Installing modules from the Marketplace" http://kb.x-cart.com/display/XDD/Installing+modules+from+the+Marketplace %}.
+Инструкция по установке модулей из X-Cart Marketplace (на английском языке) доступна здесь: {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
 После установки модуль будет автоматически активирован. 
 

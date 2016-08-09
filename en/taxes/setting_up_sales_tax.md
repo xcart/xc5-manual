@@ -112,26 +112,4 @@ Once configured and enabled, sales tax calculation can be disabled/re-enabled us
 
 _Related pages:_
 
-*   {% link "Setting up tax classes" Setting-up-tax-classes_6389861.html %}
-
-## Attachments:
-
-* [sales_tax_module.png]({{site.baseurl}}/attachments/8225533/8356388.png) (image/png)
-* [store_setup_taxes.png]({{site.baseurl}}/attachments/8225533/8716413.png) (image/png)
-* [sales_tax_tab.png]({{site.baseurl}}/attachments/8225533/8716416.png) (image/png)
-* [sales_tax_options.png]({{site.baseurl}}/attachments/8225533/8716418.png) (image/png)
-* [sales_tax_options.png]({{site.baseurl}}/attachments/8225533/8716419.png) (image/png)
-* [sales_tax_options.png]({{site.baseurl}}/attachments/8225533/8716417.png) (image/png)
-* [taxable_base_selector.png]({{site.baseurl}}/attachments/8225533/8716427.png) (image/png)
-* [general_tax_rates.png]({{site.baseurl}}/attachments/8225533/8716424.png) (image/png)
-* [rates_4_shipping_charges.png]({{site.baseurl}}/attachments/8225533/8716425.png) (image/png)
-* [tax_rates_on_shipping_cost.png]({{site.baseurl}}/attachments/8225533/8716426.png) (image/png)
-* [general_tax_rates.png]({{site.baseurl}}/attachments/8225533/8716421.png) (image/png)
-* [rates_4_shipping_charges.png]({{site.baseurl}}/attachments/8225533/8716422.png) (image/png)
-* [tax_rates_on_shipping_cost.png]({{site.baseurl}}/attachments/8225533/8716423.png) (image/png)
-* [taxable_base_selector.png]({{site.baseurl}}/attachments/8225533/8716420.png) (image/png)
-* [sales_tax_enabled.png]({{site.baseurl}}/attachments/8225533/8716428.png) (image/png)
-* [two_add_new_buttons.png]({{site.baseurl}}/attachments/8225533/8716430.png) (image/png)
-* [two_add_new_buttons.png]({{site.baseurl}}/attachments/8225533/8716429.png) (image/png)
-* [add_tax_rate.png]({{site.baseurl}}/attachments/8225533/8716431.png) (image/png)
-* [tax_save_changes.png]({{site.baseurl}}/attachments/8225533/8716432.png) (image/png)
+*   {% link "Setting up tax classes" ref_pAWOdG8N %}

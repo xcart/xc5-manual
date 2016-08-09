@@ -62,16 +62,3 @@ Before you set up VAT rates, you need to decide how you want to display VATs to 
     ![]({{site.baseurl}}/attachments/6389863/6586581.png)
 3.  Add some other VAT rates if needed and click the **Save changes** button.
     ![]({{site.baseurl}}/attachments/6389863/6586582.png)
-
-## Attachments:
-
-* [vat-icon.png]({{site.baseurl}}/attachments/6389863/6586573.png) (image/png)
-* [vat-section-admin.png]({{site.baseurl}}/attachments/6389863/6586574.png) (image/png)
-* [vat-title-admin.png]({{site.baseurl}}/attachments/6389863/6586575.png) (image/png)
-* [display-vat-in-catalog.png]({{site.baseurl}}/attachments/6389863/6586576.png) (image/png)
-* [display-vat-prices-setting.png]({{site.baseurl}}/attachments/6389863/6586577.png) (image/png)
-* [product-prices-defined-based-on.png]({{site.baseurl}}/attachments/6389863/6586578.png) (image/png)
-* [save-vat-settings-changes.png]({{site.baseurl}}/attachments/6389863/6586579.png) (image/png)
-* [new-rate-button-admin.png]({{site.baseurl}}/attachments/6389863/6586580.png) (image/png)
-* [vat-rate-1.png]({{site.baseurl}}/attachments/6389863/6586581.png) (image/png)
-* [var-rates-admin.png]({{site.baseurl}}/attachments/6389863/6586582.png) (image/png)

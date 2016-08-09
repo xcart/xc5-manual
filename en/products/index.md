@@ -17,9 +17,9 @@ _In this section:_
 *   {% link "Adding products" ref_fhzzxDTy %}
 *   {% link "Adding featured products" ref_4iFdpTdv %}
 *   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
-*   {% link "Enabling the "New arrivals" block" ref_2A50nkO9 %}
-*   {% link "Enabling the "Recently viewed" block" ref_9aKsqqeK %}
-*   {% link "Enabling the "Coming soon" block" ref_hQnN8cAT %}
+*   {% link "Enabling the «New arrivals» block" ref_2A50nkO9 %}
+*   {% link "Enabling the «Recently viewed» block" ref_9aKsqqeK %}
+*   {% link "Enabling the «Coming soon» block" ref_hQnN8cAT %}
 *   {% link "Enabling the Bestsellers block" ref_p1CIVmy6 %}
 *   {% link "Enabling product comparison" ref_xWLlmcLL %}
 *   {% link "Adding digital goods" ref_lxNH6TFr %}

@@ -12,8 +12,8 @@ categories:
 
 X-Cart allows you to configure:
 
-*   {% link "Free shipping on specific products" ref_rOT8GezP %} (or all products);
-*   {% link "Free shipping on orders that meet certain conditions" Free-shipping_6389844.html %} (for example, orders delivered to addresses in the immediate vicinity of your store, or orders with a subtotal over a certain amount).
+*   [Free shipping on specific products](#free-shipping-on-specific-products-or-all-products) (or all products);
+*   [Free shipping on orders that meet certain conditions](#free-shipping-on-orders-that-meet-certain-conditions) (for example, orders delivered to addresses in the immediate vicinity of your store, or orders with a subtotal over a certain amount).
 
 # Free shipping on specific products (or all products)
 
@@ -64,16 +64,3 @@ You can also set up your free method based on:
 *   Weight range;
 *   Items range;
 *   Any combination of subtotal, weight and items ranges.
-
-## Attachments:
-
-* [shipping-section.png]({{site.baseurl}}/attachments/6389844/6586534.png) (image/png)
-* [freeshipping-create-new-method.png]({{site.baseurl}}/attachments/6389844/6586536.png) (image/png)
-* [freeshipping-add-new-rate.png]({{site.baseurl}}/attachments/6389844/6586538.png) (image/png)
-* [freeshipping-checkout.png]({{site.baseurl}}/attachments/6389844/6586539.png) (image/png)
-* [freeshipping-subtotal-range.png]({{site.baseurl}}/attachments/6389844/6586540.png) (image/png)
-* [xc5_prodinfo_free_shipping.png]({{site.baseurl}}/attachments/6389844/9437240.png) (image/png)
-* [xc5_shipping_free_method.png]({{site.baseurl}}/attachments/6389844/9437241.png) (image/png)
-* [xc5_shipping_free_method1.png]({{site.baseurl}}/attachments/6389844/9437242.png) (image/png)
-* [xc5_shipping_free_over50.png]({{site.baseurl}}/attachments/6389844/9437243.png) (image/png)
-* [xc5_shipping_free_over50_checkout.png]({{site.baseurl}}/attachments/6389844/9437251.png) (image/png)

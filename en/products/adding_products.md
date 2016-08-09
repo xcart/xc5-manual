@@ -90,22 +90,4 @@ For detailed information on product attributes, see {% link "Product classes an
 
 # Specifying product options (color, size, etc.)
 
-In X-Cart 5, product options can be configured based on product attributes. You add an attribute like "Size" and specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". The buyer will then be able to choose the option they require. Some examples of how you can set product options based on attributes are provided in the article {% link "Managing attribute values" ref_bTfJ9bTS %}. For detailed information on product attributes, see {% link "Product classes and attributes" Product-classes-and-attributes_7504847.html %}.
-
-## Attachments:
-
-* [menu-add-product.png]({{site.baseurl}}/attachments/6389859/6586565.png) (image/png)
-* [market-price-product-lists.png]({{site.baseurl}}/attachments/6389859/6586566.png) (image/png)
-* [product-on-sale-badge.png]({{site.baseurl}}/attachments/6389859/6586567.png) (image/png)
-* [available-for-sale-option.png]({{site.baseurl}}/attachments/6389859/6586568.png) (image/png)
-* [inventory-tracking-section-admin.png]({{site.baseurl}}/attachments/6389859/6586569.png) (image/png)
-* [product-details-categories.png]({{site.baseurl}}/attachments/6389859/7602741.png) (image/png)
-* [xc5_products_section.png]({{site.baseurl}}/attachments/6389859/8716836.png) (image/png)
-* [xc5_products_add.png]({{site.baseurl}}/attachments/6389859/8716837.png) (image/png)
-* [xc5_products_add_page.png]({{site.baseurl}}/attachments/6389859/8716838.png) (image/png)
-* [xc5_products_add_product.png]({{site.baseurl}}/attachments/6389859/8716867.png) (image/png)
-* [xc5_attributes_tab.png]({{site.baseurl}}/attachments/6389859/8716868.png) (image/png)
-* [xc5_inventory_tracking.png]({{site.baseurl}}/attachments/6389859/8716872.png) (image/png)
-* [xc5_inventory_tracking0.png]({{site.baseurl}}/attachments/6389859/8716870.png) (image/png)
-* [xc5_inventory_tracking_options.png]({{site.baseurl}}/attachments/6389859/8716871.png) (image/png)
-* [xc5_inventory_tracking.png]({{site.baseurl}}/attachments/6389859/8716869.png) (image/png)
+In X-Cart 5, product options can be configured based on product attributes. You add an attribute like "Size" and specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". The buyer will then be able to choose the option they require. Some examples of how you can set product options based on attributes are provided in the article {% link "Managing attribute values" ref_bTfJ9bTS %}. For detailed information on product attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}.

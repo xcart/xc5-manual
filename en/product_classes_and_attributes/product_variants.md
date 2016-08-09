@@ -14,11 +14,11 @@ The _attributes_ feature of X-Cart 5 is extended by the **Product variants**
 
 For a detailed explanation of what product variants are, see: 
 
-*   {% link "What are product variants and why you may need them" ref_0uApuQfx %}
+*   [What are product variants and why you may need them](#what-are-product-variants-and-why-you-may-need-them)
 
 For information on how to configure product variants in your store, see: 
 
-*   {% link "Managing product variants" Product-variants_7504786.html %}
+*   [Managing product variants](#managing-product-variants)
 
 # Video tutorial
 
@@ -70,8 +70,6 @@ If we configure the above option combinations as product variants for the produ
 
 ![]({{site.baseurl}}/attachments/7504786/7602670.png?effects=drop-shadow)
 
-For detailed information on how to configure product variants in X-Cart, see [Managing product variants](http://kb.x-cart.com#ManagingProductVariants).
-
 # Managing product variants
 
 To use product variants in your store, you will need to install the module **Product variants** by X-Cart team. For installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
@@ -88,7 +86,7 @@ To configure product variants for a product:
 
 3.  Click on the **Attributes** tab to access the section where you will be able to edit the product's attributes: 
     ![]({{site.baseurl}}/attachments/7504786/8719363.png?effects=drop-shadow)
-4.  On the page that opens, add the {% link "multi-value product attributes" ref_bTfJ9bTS#Managingattributevalues-MultiValueAttributes %} whose values will be combined to create specific product variants. For the sake of example, we added two attributes - "Kitty print color" and "Kitty print pattern" - with their respective values "Blue", "Mint", "Orange", "Dotted" and "Plain":
+4.  On the page that opens, add the {% link "multi-value product attributes" ref_bTfJ9bTS#multi-value-attributes-product-options %} whose values will be combined to create specific product variants. For the sake of example, we added two attributes - "Kitty print color" and "Kitty print pattern" - with their respective values "Blue", "Mint", "Orange", "Dotted" and "Plain":
     ![]({{site.baseurl}}/attachments/7504786/8719364.png?effects=drop-shadow)
     (We configured our attribute values using the _Plain field_ option; to emphasize the presence or absence of some property or feature, use the _Yes/No_ field type).
     Do not worry about setting any price modifiers - you will not need them as prices will be set individually for each product variant.
@@ -131,57 +129,4 @@ Note that you can use the <u>Create all possible variants (N)</u> link at any ti
 _Related pages:_
 
 *   {% link "Product classes and attributes" ref_T90ZcEpP %}
-*   {% link "Managing attribute values" Managing-attribute-values_7504859.html %}
-
-## Attachments:
-
-* [orange_sadcat.png]({{site.baseurl}}/attachments/7504786/7602409.png) (image/png)
-* [orange_oneeyecat.png]({{site.baseurl}}/attachments/7504786/7602410.png) (image/png)
-* [blue_sadcat.png]({{site.baseurl}}/attachments/7504786/7602411.png) (image/png)
-* [blue_oneeyecat.png]({{site.baseurl}}/attachments/7504786/7602412.png) (image/png)
-* [blue_oneeye_dottedcat.png]({{site.baseurl}}/attachments/7504786/7602413.png) (image/png)
-* [blue_kitty_plate.png]({{site.baseurl}}/attachments/7504786/7602414.png) (image/png)
-* [blue_oneeyed_kitty_plate.png]({{site.baseurl}}/attachments/7504786/7602415.png) (image/png)
-* [dotted_kitty_plate.png]({{site.baseurl}}/attachments/7504786/7602602.png) (image/png)
-* [orange_kitty_plate.png]({{site.baseurl}}/attachments/7504786/7602417.png) (image/png)
-* [orange_oneeyed_kitty_plate.png]({{site.baseurl}}/attachments/7504786/7602418.png) (image/png)
-* [blue_dottedcat.png]({{site.baseurl}}/attachments/7504786/7602600.png) (image/png)
-* [dotted_oneeye_kitty_plate.png]({{site.baseurl}}/attachments/7504786/7602601.png) (image/png)
-* [dotted_kitty_plate.png]({{site.baseurl}}/attachments/7504786/7602416.png) (image/png)
-* [mint_kitty_plate.png]({{site.baseurl}}/attachments/7504786/7602617.png) (image/png)
-* [mint_dotted_kitty_plate.png]({{site.baseurl}}/attachments/7504786/7602618.png) (image/png)
-* [product_variants_module.png]({{site.baseurl}}/attachments/7504786/7602627.png) (image/png)
-* [orange_dotted_kitty_plate.png]({{site.baseurl}}/attachments/7504786/7602628.png) (image/png)
-* [kitty_plate_attr_admin.png]({{site.baseurl}}/attachments/7504786/7602629.png) (image/png)
-* [kitty_plate_attributes.png]({{site.baseurl}}/attachments/7504786/7602630.png) (image/png)
-* [details_of_product_with_variants.png]({{site.baseurl}}/attachments/7504786/7602658.png) (image/png)
-* [variants_attr_tab.png]({{site.baseurl}}/attachments/7504786/7602659.png) (image/png)
-* [variants_attributes.png]({{site.baseurl}}/attachments/7504786/7602660.png) (image/png)
-* [variants_tab.png]({{site.baseurl}}/attachments/7504786/7602661.png) (image/png)
-* [variants_optional_attr.png]({{site.baseurl}}/attachments/7504786/7602662.png) (image/png)
-* [variants_generated.png]({{site.baseurl}}/attachments/7504786/7602663.png) (image/png)
-* [variants_delete.png]({{site.baseurl}}/attachments/7504786/7602664.png) (image/png)
-* [variants_delete_multi.png]({{site.baseurl}}/attachments/7504786/7602665.png) (image/png)
-* [variants_configured.png]({{site.baseurl}}/attachments/7504786/7602666.png) (image/png)
-* [variants_manually.png]({{site.baseurl}}/attachments/7504786/7602667.png) (image/png)
-* [variant_add.png]({{site.baseurl}}/attachments/7504786/7602668.png) (image/png)
-* [variant_add1.png]({{site.baseurl}}/attachments/7504786/7602669.png) (image/png)
-* [variant_unavailable.png]({{site.baseurl}}/attachments/7504786/7602670.png) (image/png)
-* [xc5_classes_attr_dotted_modifier.png]({{site.baseurl}}/attachments/7504786/8719361.png) (image/png)
-* [xc5_classes_attr_kitty_print_plate_product.png]({{site.baseurl}}/attachments/7504786/8719372.png) (image/png)
-* [xc5_classes_attr_kitty_print_plate_attr_tab.png]({{site.baseurl}}/attachments/7504786/8719373.png) (image/png)
-* [xc5_classes_attr_kitty_print_plate_attributes.png]({{site.baseurl}}/attachments/7504786/8719364.png) (image/png)
-* [xc5_classes_attr_variants_tab.png]({{site.baseurl}}/attachments/7504786/8719366.png) (image/png)
-* [xc5_classes_attr_variants_tab.png]({{site.baseurl}}/attachments/7504786/8719365.png) (image/png)
-* [xc5_classes_attr_variants.png]({{site.baseurl}}/attachments/7504786/8719367.png) (image/png)
-* [xc5_classes_attr_variants_attr_selected.png]({{site.baseurl}}/attachments/7504786/8719368.png) (image/png)
-* [xc5_classes_6variants.png]({{site.baseurl}}/attachments/7504786/8719369.png) (image/png)
-* [xc5_classes_attr_variants_delete1.png]({{site.baseurl}}/attachments/7504786/8719370.png) (image/png)
-* [xc5_classes_attr_variants_delete2.png]({{site.baseurl}}/attachments/7504786/8719371.png) (image/png)
-* [xc5_classes_attr_kitty_print_plate_product.png]({{site.baseurl}}/attachments/7504786/8719362.png) (image/png)
-* [xc5_classes_attr_kitty_print_plate_attr_tab.png]({{site.baseurl}}/attachments/7504786/8719363.png) (image/png)
-* [xc5_classes_5variants.png]({{site.baseurl}}/attachments/7504786/8719374.png) (image/png)
-* [xc5_classes_attr_variants_manual_add1.png]({{site.baseurl}}/attachments/7504786/8719375.png) (image/png)
-* [xc5_classes_attr_variants_manual_add2.png]({{site.baseurl}}/attachments/7504786/8719376.png) (image/png)
-* [xc5_classes_attr_variants_manual_add3.png]({{site.baseurl}}/attachments/7504786/8719377.png) (image/png)
-* [xc5_classes_attr_product_variants_module.png]({{site.baseurl}}/attachments/7504786/8719378.png) (image/png)
+*   {% link "Managing attribute values" ref_bTfJ9bTS %}

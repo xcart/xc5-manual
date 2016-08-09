@@ -9,9 +9,6 @@ categories:
 
 ---
 
-
-Icon
-
 The **Tax classes** feature is enabled in X-Cart 5 by the module Sales Tax. Before you proceed, make sure this module is installed and enabled.
 
 # What are tax classes?
@@ -56,7 +53,7 @@ Once the tax class has been assigned to a product, this product will use the tax
 
 _Related pages:_
 
-*   {% link "Specifying sales tax for your products" Specifying-sales-tax-for-your-products_6389865.html %}
+*   {% link "Specifying sales tax for your products" ref_aJPK4DHN %}
 
 ## Attachments:
 

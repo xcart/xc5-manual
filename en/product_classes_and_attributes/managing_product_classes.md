@@ -9,7 +9,6 @@ categories:
 
 ---
 
-
 When some products in your catalog have certain characteristics in common and need to be handled together as a group, it may be a good idea to configure a product class for them. The process is as follows:
 
 1.  Create a product class (i.e., name this group of products that will be handled together);
@@ -17,13 +16,15 @@ When some products in your catalog have certain characteristics in common and ne
 
 For more information on managing product classes, see:
 
-*   {% link "Creating product classes" ref_EVqNSaZy %};
+*   [Creating product classes](#creating-product-classes);
 
-*   {% link "Viewing your store's product class list" Managing-product-classes_7504877.html %};
+*   [Viewing your store's product class list](#viewing-your-stores-product-class-list);
 
-*   {% link "Assigning product classes to products" Managing-product-classes_7504877.html %};
-*   {% link "Editing product class names" Managing-product-classes_7504877.html %};
-*   {% link "Deleting product classes" Managing-product-classes_7504877.html %}.
+*   [Assigning product classes to products](#assigning-product-classes-to-products);
+
+*   [Editing product class names](#editing-product-class-names);
+
+*   [Deleting product classes](#deleting-product-classes).
 
 # Creating product classes
 
@@ -43,9 +44,9 @@ To create a new product class:
     The new product class will be saved and added to the product class list:
     ![]({{site.baseurl}}/attachments/7504877/8719239.png?effects=drop-shadow)
 
-After a product class has been created, you can {% link "assign it to products" Managing-product-classes_7504877.html %} and, if necessary, {% link "add attributes" ref_kEKoAxJB#Managingproductclassattributes-AddingProductClassAttributes %} for it.
+After a product class has been created, you can [assign it to products](#assigning-product-classes-to-products) and, if necessary, {% link "add attributes" ref_kEKoAxJB#adding-product-class-attributes %} for it.
 
-If necessary, you can {% link "edit the product class name" Managing-product-classes_7504877.html %} or {% link "delete the product class" Managing-product-classes_7504877.html %} altogether.
+If necessary, you can [edit the product class name](#editing-product-class-names) or [delete the product class](#deleting-product-classes) altogether.
 
 # Viewing your store's product class list
 
@@ -106,32 +107,4 @@ _Related pages:_
 
 *   {% link "Product classes and attributes" ref_T90ZcEpP %}
 *   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
-*   {% link "Managing product class attributes" Managing-product-class-attributes_7504855.html %}
-
-## Attachments:
-
-* [new_product_class.png]({{site.baseurl}}/attachments/7504877/7602471.png) (image/png)
-* [new_product_class1.png]({{site.baseurl}}/attachments/7504877/7602472.png) (image/png)
-* [product_classes.png]({{site.baseurl}}/attachments/7504877/7602473.png) (image/png)
-* [new_product_class2.png]({{site.baseurl}}/attachments/7504877/7602474.png) (image/png)
-* [new_product_class3.png]({{site.baseurl}}/attachments/7504877/7602475.png) (image/png)
-* [new_product_class4.png]({{site.baseurl}}/attachments/7504877/7602476.png) (image/png)
-* [attr_tab.png]({{site.baseurl}}/attachments/7504877/7602477.png) (image/png)
-* [global_attr_subsection.png]({{site.baseurl}}/attachments/7504877/7602478.png) (image/png)
-* [assign_product_class4.png]({{site.baseurl}}/attachments/7504877/7602479.png) (image/png)
-* [edit_product_class.png]({{site.baseurl}}/attachments/7504877/7602543.png) (image/png)
-* [xc5_classes_attr_new_product_class.png]({{site.baseurl}}/attachments/7504877/8719235.png) (image/png)
-* [xc5_classes_attr_product_class_new_line.png]({{site.baseurl}}/attachments/7504877/8719236.png) (image/png)
-* [xc5_classes_attr_new_product_class1.png]({{site.baseurl}}/attachments/7504877/8719237.png) (image/png)
-* [xc5_classes_attr_new_product_class2.png]({{site.baseurl}}/attachments/7504877/8719238.png) (image/png)
-* [xc5_classes_attr_new_product_class3.png]({{site.baseurl}}/attachments/7504877/8719239.png) (image/png)
-* [xc5_classes_attr_product_classes.png]({{site.baseurl}}/attachments/7504877/8719240.png) (image/png)
-* [xc5_classes_attr_attributes_tab.png]({{site.baseurl}}/attachments/7504877/8719241.png) (image/png)
-* [xc5_classes_attr_global_tab.png]({{site.baseurl}}/attachments/7504877/8719242.png) (image/png)
-* [xc5_classes_attr_assign_class.png]({{site.baseurl}}/attachments/7504877/8719243.png) (image/png)
-* [xc5_classes_attr_assign_class1.png]({{site.baseurl}}/attachments/7504877/8719244.png) (image/png)
-* [xc5_classes_attr_assign_class2.png]({{site.baseurl}}/attachments/7504877/8719246.png) (image/png)
-* [xc5_classes_attr_assign_class2.png]({{site.baseurl}}/attachments/7504877/8719245.png) (image/png)
-* [xc5_classes_attr_assign_class3.png]({{site.baseurl}}/attachments/7504877/8719247.png) (image/png)
-* [xc5_classes_attr_class_assigned.png]({{site.baseurl}}/attachments/7504877/8719248.png) (image/png)
-* [xc5_classes_edit_class.png]({{site.baseurl}}/attachments/7504877/8719249.png) (image/png)
+*   {% link "Managing product class attributes" ref_kEKoAxJB %}
