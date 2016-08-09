@@ -1,3 +1,11 @@
+# encoding: utf-8
+
+# Jekyll plugin for maintaining links and referencis.
+# adds {% link %} and {% ref %} tags
+#
+# Author: Eugene Dementjev
+# Version: 0.2.0
+
 require 'pathname'
 require 'xmlsimple'
 
@@ -18,11 +26,35 @@ module Jekyll
         @site = context.registers[:site]
         @config = context.registers[:site].config
         @page = context.environments.first["page"]
-        baseurl = context['baseurl_lang']
 
         url = @site.data['links'][@id] ? @site.data['links'][@id][:link] + @hash : '404.html'
+        lang = @site.data['links'][@id] ? @site.data['links'][@id][:lang] : @config['lang_default']
+
+        baseurl = @config['baseurl'] + '/' + lang
 
         markup = "[#{@title}](#{baseurl}/#{url})"
+
+        return markup
+      end
+    end
+
+    class RefTag < Liquid::Tag
+      def initialize(tag_name, args, tokens)
+        super
+        @id = args.strip
+      end
+
+      def render(context)
+        @site = context.registers[:site]
+        @config = context.registers[:site].config
+        @page = context.environments.first["page"]
+
+        url = @site.data['links'][@id] ? @site.data['links'][@id][:link] + @hash : '404.html'
+        lang = @site.data['links'][@id] ? @site.data['links'][@id][:lang] : @config['lang_default']
+
+        baseurl = @config['baseurl'] + '/' + lang
+
+        markup = "#{baseurl}/#{url}"
 
         return markup
       end
@@ -43,7 +75,7 @@ module Jekyll
             link_parts = page['path'].split('/').slice(1..-1)
             link_parts.last.gsub!('md', 'html')
             link = link_parts.join('/')
-            memo.store(page['identifier'], { "title": page['title'], "link": link })
+            memo.store(page['identifier'], { "title": page['title'], "link": link, "lang": page['lang'] })
           end
           memo
         end
@@ -63,3 +95,4 @@ module Jekyll
 end
 
 Liquid::Template.register_tag('link', Jekyll::ReferencePlugin::LinkTag)
+Liquid::Template.register_tag('ref', Jekyll::ReferencePlugin::RefTag)
