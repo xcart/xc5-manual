@@ -52,13 +52,4 @@ _Related pages:_
 
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-*   {% link "Customizing the Admin and Vendor Signup pages" ref_f4ohXara %}
-
-## Attachments:
-
-* [xc5_vendor_registration.png]({{site.baseurl}}/attachments/8749143/8716877.png) (image/png)
-* [xc5_registered_vendor.png]({{site.baseurl}}/attachments/8749143/8716878.png) (image/png)
-* [xc5_approve_decline_vendor.png]({{site.baseurl}}/attachments/8749143/8716879.png) (image/png)
-* [xc5_vendor_create_from_admin.png]({{site.baseurl}}/attachments/8749143/8716890.png) (image/png)
-* [xc5_first_vendor_login.png]({{site.baseurl}}/attachments/8749143/8716891.png) (image/png)
-* [xc5_multi_access_lvl_vendor.png]({{site.baseurl}}/attachments/8749143/8719604.png) (image/png)
+*   [Customizing the Admin and Vendor Signup pages](http://devs.x-cart.com/en/design_changes/customizing_the_admin_and_vendor_signup_pages.html)

@@ -17,7 +17,7 @@ A prerequisite for printing barcodes is that the products for which you are goin
 **To print a barcode for a single product**:
 
 1.  In the Products section of your store's Admin area (**Catalog > Products**), find the product for which you need to print a barcode and open it for editing.
-2.  Click on the "Barcode" tab to access the page where you can print the product's barcode and {% link "wait for the QZ Print applet to load" ref_8E7oRDXS %}:
+2.  Click on the "Barcode" tab to access the page where you can print the product's barcode and wait for the QZ Print applet to load:
     ![]({{site.baseurl}}/attachments/7504442/7602283.png?effects=drop-shadow)
 3.  Use the **N items** input box to specify the number of barcode labels that needs to be printed and click the **Print barcode(s)** button. 
 
@@ -29,7 +29,7 @@ A prerequisite for printing barcodes is that the products for which you are goin
 2.  Click the <u>**More actions**</u> link below the list of products and select **Print barcodes** to access the page where you will be able to print barcodes for the products that have been selected:
     ![]({{site.baseurl}}/attachments/7504442/7602284.png?effects=drop-shadow)
 
-    Once the {% link "QZ Print applet has loaded" ref_8E7oRDXS %}, you will see a page like following:
+    Once the QZ Print applet has loaded, you will see a page like following:
     ![]({{site.baseurl}}/attachments/7504442/7602285.png?effects=drop-shadow)
 
 3.  Use the **N items** input box to specify the number of copies that need to be printed and click **Print barcodes(s)**.

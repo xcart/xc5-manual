@@ -683,7 +683,7 @@ $client = \RESTAPIClient::factory($storeUrl, $restApiKey, 'complex');
 
 What entity you are working with via REST API is entirely defined by the **_path** parameter in request. Basically, you are working with X-Cart models, which is described in the `<X-Cart>/classes/XLite/Model/` folder. You can also work with models of the modules. They are described in the `<X-Cart>/classes/XLite/<DEVELOPER-ID>/<MODULE-ID>/Model/` folder, where <DEVELOPER-ID> and <MODULE-ID> are module identifiers.
 
-In order to work with orders via REST API, you specify **_path=order**, because the order model is described in the `\XLite\Model\Order` class (see the {% link "article about class names" ref_FAgFbEx9 %}). If you want to work with users via REST API, you specify **_path=profile**. The general principle is to find a class that describes the entity you need and then create the **_path** parameter based on the classname of this entity.
+In order to work with orders via REST API, you specify **_path=order**, because the order model is described in the `\XLite\Model\Order` class (see the [article about class names](http://devs.x-cart.com/en/misc/x-cart_classes_structure_and_namespaces.html)). If you want to work with users via REST API, you specify **_path=profile**. The general principle is to find a class that describes the entity you need and then create the **_path** parameter based on the classname of this entity.
 
 ## Building _path for core models
 

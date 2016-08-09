@@ -38,7 +38,7 @@ _Related pages:_
 *   {% link "Changing the Terms and conditions page" ref_r5b4EKhF %}
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
 
-*   {% link "Adding a New Page in X Cart 5: Tutorial by Mike White" ref_qpNKW8m1 %}
+*   {% link "Adding a New Page in X Cart 5: Tutorial by Mike White" ref_dycXnOI1 %}
 
 ## Attachments:
 

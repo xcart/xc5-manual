@@ -33,7 +33,7 @@ _Related pages:_
 
 *   {% link "Adding pages to your store" ref_Ptf5vaPn %}
 *   {% link "Changing the Terms and conditions page" ref_r5b4EKhF %}
-*   {% link "Adding a New Page in X Cart 5: Tutorial by Mike White" ref_qpNKW8m1 %}
+*   {% link "Adding a New Page in X Cart 5: Tutorial by Mike White" ref_dycXnOI1 %}
 *   {% link "Advanced menu management with Extended Simple CMS" ref_aWT2i7z1 %}
 
 ## Attachments:

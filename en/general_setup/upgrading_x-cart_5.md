@@ -138,17 +138,5 @@ Below the description of full manual upgrade:
 
 _Related pages:_
 
-*   {% link "X-Cart Upgrade General Steps" ref_xCPLmTHT %}
-*   {% link "Upgrade hooks" ref_WOuwAgsI %}
-
-## Attachments:
-
-* [updates-available]({{site.baseurl}}/attachments/7505469/7602687) (application/octet-stream)
-* [updates-available.png]({{site.baseurl}}/attachments/7505469/7602688.png) (image/png)
-* [upgrade-purchase-license.png]({{site.baseurl}}/attachments/7505469/7602689.png) (image/png)
-* [update-minor-upgrade.png]({{site.baseurl}}/attachments/7505469/7602690.png) (image/png)
-* [upgrade-major-update.png]({{site.baseurl}}/attachments/7505469/7602691.png) (image/png)
-* [modules-must-be-either-activated-or-disabled]({{site.baseurl}}/attachments/7505469/7602768) (application/octet-stream)
-* [modules-must-be-either-activated-or-disabled.png]({{site.baseurl}}/attachments/7505469/7602769.png) (image/png)
-* [some-files-are-modified.png]({{site.baseurl}}/attachments/7505469/7602770.png) (image/png)
-* [create-a-backup.png]({{site.baseurl}}/attachments/7505469/7602771.png) (image/png)
+*   [X-Cart Upgrade General Steps](http://devs.x-cart.com/en/misc/x-cart_upgrade_general_steps.html)
+*   [Upgrade hooks](http://devs.x-cart.com/en/misc/upgrade_hooks.html)
