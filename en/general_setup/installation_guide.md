@@ -4,6 +4,7 @@ layout: article_with_sidebar
 updated_at: '2016-06-07 00:00'
 identifier: ref_VG5mIoLT
 title: Installation Guide
+version: X-Cart 5.2.5 and later
 categories:
   - General setup
 published: true
@@ -179,13 +180,13 @@ This article covers the process of installation for X-Cart versions 5.2.5 and la
     for zip archive: 
 
     ```php
-    unzip x-cart-5.2.13-en.zip
+    unzip x-cart-5.3.1.1.en.zip
     ```
 
     for tgz archive: 
 
     ```php
-    tar -xzpf x-cart-5.2.13-en.tgz
+    tar -xzpf x-cart-5.3.1.1.en.tgz
     ```
 
     (Be sure to replace the file name with the actual name of the archive you have downloaded).
@@ -198,7 +199,7 @@ Create an empty database in your MySQL storage.
 
 ### Step 1\. License agreement
 
-Open the link: **http://<your-domain>/<x-cart-5-directory>/install.php** in your browser. It will start the installation wizard. Accept the license agreement and click **Next**.
+Open the link: **`http://<your-domain>/<x-cart-5-directory>/install.php`** in your browser. It will start the installation wizard. Accept the license agreement and click **Next**.
 
 ![]({{site.baseurl}}/attachments/524295/8719150.png?effects=drop-shadow)
 
