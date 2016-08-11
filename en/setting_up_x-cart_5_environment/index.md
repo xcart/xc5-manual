@@ -6,7 +6,7 @@ lang: en
 title: 'Setting up X-Cart 5 environment'
 categories:
   - home
-order: 9
+order: 15
 icon: server
 description: Discover how to setup an environment for your X-Cart store
 ---
