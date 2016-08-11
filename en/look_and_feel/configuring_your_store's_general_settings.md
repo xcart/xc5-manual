@@ -9,7 +9,6 @@ categories:
 
 ---
 
-
 The most general settings that determine your store's appearance and behavior can be found in the **Store setup > Cart & checkout** section, on the **General** tab:
 
 ![]({{site.baseurl}}/attachments/7505478/8716538.png?effects=drop-shadow)
@@ -53,15 +52,14 @@ Below you can find some of the settings explained.
 
 *   **Maximum allowed order subtotal**: This setting allows you to set the maximum order amount. A shopper will be allowed to check out only if their order subtotal amount is less than this value.
     ![]({{site.baseurl}}/attachments/7505478/7602714.png?effects=drop-shadow)
-*   **Maximum order quantity (per product) **(used to be "Default purchase limit" in earlier X-Cart 5 versions): This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added; the buyer will be notified of the quantity adjustment with an appropriate message (For example, "Sorry, there's a limit of 1 per order for the product <Product name>. 1 unit(s) already in cart.")
+*   **Maximum order quantity (per product) **(used to be "Default purchase limit" in earlier X-Cart 5 versions): This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added; the buyer will be notified of the quantity adjustment with an appropriate message (For example, "Sorry, there's a limit of 1 per order for the product `<Product name>`. 1 unit(s) already in cart.")
 
-*   <label for="force-choose-product-options">**Force customer to choose product options before adding a product to cart**: This setting affects the add to cart behavior of products with modifier options and products with product variants. When the option "Force customer to choose product options before adding a product to cart" is disabled, a shopper can drag and drop such products to cart without having to select any product options manually; the products are added to cart with default options:</label>
+*   **Force customer to choose product options before adding a product to cart**: This setting affects the add to cart behavior of products with modifier options and products with product variants. When the option "Force customer to choose product options before adding a product to cart" is disabled, a shopper can drag and drop such products to cart without having to select any product options manually; the products are added to cart with default options:
     ![]({{site.baseurl}}/attachments/7505478/7602715.png?effects=drop-shadow)
     When this option is enabled, the "Drag and drop me to the cart" hint is not displayed for products with modifiers/variants, and the drag-and-drop to cart feature for such products is disabled. Instead, a shopper hovering their mouse over a product with modifiers/variants will see a note "Choose the product options first":
     ![]({{site.baseurl}}/attachments/7505478/7602716.png?effects=drop-shadow)
     The shopper will need to click on the product to access its details and make a selection of product options with which they want to add the product to cart.
-    <label for="force-choose-product-options">
-    </label>
+
 *   **Redirect customer to the cart page after a product is added to cart**: When this option is enabled, after adding a product to cart a shopper is redirected to the cart page where they can see the item they just added. When the option is disabled, the shopper remains on the same page. Please note that this setting is not compatible with X-Cart's Add to Cart module: when the module Add to Cart popup is enabled, adding a product to cart results in a popup being displayed.
 
 *   **Display "Add to cart" buttons for products in grid view**: This setting defines whether "Add to cart" buttons should be displayed for products in grid view, or not. The snapshot below demonstrates products in grid view with "Add to cart" buttons enabled: 
@@ -78,9 +76,8 @@ Below you can find some of the settings explained.
 
 *   **Terms and conditions relative URL**: You can create a static page for Terms and conditions using Simple CMS module and specify its relative url here. if field is empty (for example, Simple CMS is not installed, but you still need T&c), then lang var from ?target=terms (Terms and conditions text) is used (text will be displayed in a popup for Terms and conditions on checkout).  (Core, Simple CMS module not necessary)
 
-*   <label for="order-number-counter">**Next order #**: This field allows you to increase the order number starting from which orders in your store will be numbered. For example, if your store has just went into production and does not yet have many orders, your first customers may be scared off by the order numbers they get. For new customers, a business with order numbers like #1 or #2 may not seem trustworthy enough. To generate more trust, you can set this field, for example, to 103 (In practice, this value can be set to any number - the only requirement is that this number must be greater than the number of the latest order in your database). Your next order will then be #103, and after that you will get the order numbers #104, #105, etc.</label>
-    <label for="order-number-counter">
-    </label>
+*   **Next order #**: This field allows you to increase the order number starting from which orders in your store will be numbered. For example, if your store has just went into production and does not yet have many orders, your first customers may be scared off by the order numbers they get. For new customers, a business with order numbers like #1 or #2 may not seem trustworthy enough. To generate more trust, you can set this field, for example, to 103 (In practice, this value can be set to any number - the only requirement is that this number must be greater than the number of the latest order in your database). Your next order will then be #103, and after that you will get the order numbers #104, #105, etc.
+
 *   **Cart TTL (days)**: When a new visitor comes to an X-Cart based store for the first time, a "cart" is created for them in the store's database. Since a lot of visitors will leave the store without creating an account, it's no use storing their carts forever (For visitors who become registered customers, the "cart" is stored for the lifetime of the respective user account). The setting "Cart TTL (days)" allows you to limit the time period for which anonymous shopping carts (carts of visitors who do not have an account) should be stored in the database. Anonymous carts older than the number of days specified here will be considered old (expired) and will be scheduled for deletion by the internal cron service (See the setting below).
 
 *   **Enable internal cron service**: This setting allows you to enable/disable the use of your store's internal cron service. This service schedules the run of certain maintenance tasks required to keep your store running smoothly and problem-free (like removing the expired shopping carts of visitors who do not have an account with your store or performing other tasks implemented via X-Cart modules) at the periodicity of once per 100 user sessions (i.e. every time after your store gets 100 unique visitors). Your store's internal cron service is not related to {% link "console.php" ref_lLqNzAaq %} and does not require any external setup of the crontab on your system. If using the internal cron service causes performance problems for your store, we recommend disabling this option and using an external cron setup to run console.php. 
@@ -92,30 +89,3 @@ Below you can find some of the settings explained.
 *   **Orders per page**:  This setting allows you to specify the maximum number of orders that can be displayed on a search results page in the store's back end.
 *   **The number of orders in the recent order list**: This setting allows you to specify the maximum number of orders that can be displayed in the "Recent orders" list in the store's back end.
 *   **Number of days to store the last login data**: This setting defines the lifespan of a "recent_login" cookie that is set by the store on a customer's computer when they log in. While being stored, the cookie allows the customer to return to the store without having to re-enter their user authentication details (username and password).
-
-## Attachments:
-
-* [subcategory_listings_format_icons.png]({{site.baseurl}}/attachments/7505478/7602697.png) (image/png)
-* [subcategory_listings_format_list.png]({{site.baseurl}}/attachments/7505478/7602698.png) (image/png)
-* [recommended_sort_order.png]({{site.baseurl}}/attachments/7505478/7602717.png) (image/png)
-* [arrow_up.png]({{site.baseurl}}/attachments/7505478/7602701.png) (image/png)
-* [arrow_up.png]({{site.baseurl}}/attachments/7505478/7602703.png) (image/png)
-* [arrow_down.png]({{site.baseurl}}/attachments/7505478/7602704.png) (image/png)
-* [arrow_up.png]({{site.baseurl}}/attachments/7505478/7602700.png) (image/png)
-* [arrow_down.png]({{site.baseurl}}/attachments/7505478/7602702.png) (image/png)
-* [product_pagination.png]({{site.baseurl}}/attachments/7505478/7602705.png) (image/png)
-* [product_img_width_height.png]({{site.baseurl}}/attachments/7505478/7602706.png) (image/png)
-* [magic_zoom.png]({{site.baseurl}}/attachments/7505478/7602708.png) (image/png)
-* [magic_zoom.png]({{site.baseurl}}/attachments/7505478/7602707.png) (image/png)
-* [add_to_cart_grid.png]({{site.baseurl}}/attachments/7505478/7602709.png) (image/png)
-* [min_subtotal.png]({{site.baseurl}}/attachments/7505478/7602713.png) (image/png)
-* [max_subtotal.png]({{site.baseurl}}/attachments/7505478/7602714.png) (image/png)
-* [drag_drop_2_cart.png]({{site.baseurl}}/attachments/7505478/7602715.png) (image/png)
-* [choose_options_first.png]({{site.baseurl}}/attachments/7505478/7602716.png) (image/png)
-* [recommended_sort_order.png]({{site.baseurl}}/attachments/7505478/7602699.png) (image/png)
-* [existing_customer_page.png]({{site.baseurl}}/attachments/7505478/7602723.png) (image/png)
-* [checkout_sign_in.png]({{site.baseurl}}/attachments/7505478/7602724.png) (image/png)
-* [checkout_sign_in1.png]({{site.baseurl}}/attachments/7505478/7602725.png) (image/png)
-* [cart_checkout_general_settings.png]({{site.baseurl}}/attachments/7505478/7602740.png) (image/png)
-* [xc5_general_settings.png]({{site.baseurl}}/attachments/7505478/8716538.png) (image/png)
-* [product_order_in_category.png]({{site.baseurl}}/attachments/7505478/8716548.png) (image/png)

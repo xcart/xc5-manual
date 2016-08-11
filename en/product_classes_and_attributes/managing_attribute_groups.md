@@ -30,7 +30,7 @@ This page provides information on the following actions with attribute groups:
 To add a new attribute group:
 
 1.  In your store's Admin area, go to the **Classes & attributes** section (**Catalog > Classes & attributes**).
-2.  Depending on whether you will be creating the new group for gobal attributes or for the attributes of a specific product class, click on the <u>Edit attributes (N)</u> link either opposite the _Global attributes_ title or opposite the name of the product class:
+2.  Depending on whether you will be creating the new group for gobal attributes or for the attributes of a specific product class, click on the Edit attributes (N) link either opposite the _Global attributes_ title or opposite the name of the product class:
     ![]({{site.baseurl}}/attachments/7504788/8719346.png?effects=drop-shadow)
     This will open a page where you can manage attributes and attribute groups:
     ![]({{site.baseurl}}/attachments/7504788/8719347.png?effects=drop-shadow)
@@ -64,7 +64,7 @@ It is possible to rename any existing attribute group and change the order in wh
 Here's how this can be done:
 
 1.  In your store's Admin area, go to the **Classes & attributes** section (**Catalog > Classes & attributes**).
-2.  Go to the appropriate list of attributes and attribute groups by clicking on the <u>Edit attributes (N)</u> link. For example, if we want to edit a group of global attributes, we should use the link opposite the _Global attributes_ title:
+2.  Go to the appropriate list of attributes and attribute groups by clicking on the Edit attributes (N) link. For example, if we want to edit a group of global attributes, we should use the link opposite the _Global attributes_ title:
     ![]({{site.baseurl}}/attachments/7504788/8719356.png?effects=drop-shadow)
 3.  On the page that opens, click the **Manage groups** button:
     ![]({{site.baseurl}}/attachments/7504788/8719357.png?effects=drop-shadow)
@@ -87,7 +87,7 @@ When you no longer need a certain attribute group, you can delete it. Note that 
 To delete an attribute group:
 
 1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  Go to the appropriate list of attributes and attribute groups by clicking on the <u>Edit attributes (N)</u> link. For example, if we want to delete a group of global attributes, we should use the link opposite the _Global attributes_ title:
+2.  Go to the appropriate list of attributes and attribute groups by clicking on the Edit attributes (N) link. For example, if we want to delete a group of global attributes, we should use the link opposite the _Global attributes_ title:
     ![]({{site.baseurl}}/attachments/7504788/8719356.png?effects=drop-shadow)
 3.  On the page that opens, click the **Manage groups** button:
     ![]({{site.baseurl}}/attachments/7504788/8719357.png?effects=drop-shadow)

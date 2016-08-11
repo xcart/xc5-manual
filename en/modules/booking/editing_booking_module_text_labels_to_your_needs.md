@@ -26,7 +26,7 @@ Do the following:
     ![]({{site.baseurl}}/attachments/8750032/8718811.png?effects=drop-shadow)
 4.  Click on the title of the label you would like to edit. The value of the selected label will be displayed below as editable:
     ![]({{site.baseurl}}/attachments/8750032/8718815.png?effects=drop-shadow)
-5.  Change the wording as you require for all your languages. We'll change the phrase "Check dates (<<nights>>-night stay)" to "Rental period (<<nights>> day rental)":
+5.  Change the wording as you require for all your languages. We'll change the phrase `Check dates (<<nights>>-night stay)` to `Rental period (<<nights>> day rental)`:
     ![]({{site.baseurl}}/attachments/8750032/8718816.png?effects=drop-shadow)
 6.  Click **Save changes**.
 

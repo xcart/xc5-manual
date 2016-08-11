@@ -29,7 +29,7 @@ To start shipping with Canada Post:
     ![]({{site.baseurl}}/attachments/7505231/7602685.png?effects=drop-shadow)
 
 4.  Configure the Canada Post module by adjusting the settings on the Canada Post settings page. See the section {% link "Configuring the Canada Post module" ref_XsHLxUwv %} for more information.
-5.  While still in the Shipping section of your store's Admin area, select the **Methods** tab, then go to the <u>Canada Post</u> subsection:
+5.  While still in the Shipping section of your store's Admin area, select the **Methods** tab, then go to the Canada Post subsection:
     ![]({{site.baseurl}}/attachments/7505231/7602676.png?effects=drop-shadow)
     This opens a list of supported Canada Post shipping methods:
     ![]({{site.baseurl}}/attachments/7505231/7602677.png?effects=drop-shadow)

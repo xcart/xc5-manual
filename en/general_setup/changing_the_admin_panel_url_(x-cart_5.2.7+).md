@@ -28,7 +28,7 @@ To change the admin panel URL, follow the steps below:
     admin_self = "new_admin.php"
     ```
 
-2.  Either rename the **admin.php** file to the new name (e.g. **new_admin.php**) or reconfigure your server to rewrite the requested url to **admin.php** (<u>Just be sure not to do both at the same time!</u>). If your server is _Apache_, you can enter the following code into `<X-Cart>/.htaccess` file (obviously, you should replace **new_admin** in the last line with your URL):
+2.  Either rename the **admin.php** file to the new name (e.g. **new_admin.php**) or reconfigure your server to rewrite the requested url to **admin.php** (Just be sure not to do both at the same time!). If your server is _Apache_, you can enter the following code into `<X-Cart>/.htaccess` file (obviously, you should replace **new_admin** in the last line with your URL):
 
     ```php
     # Admin.php redirect rules.

@@ -34,7 +34,7 @@ The module allows you to assign feed categories to each product sepatately or to
 **To mass-assign feed categories to multiple products at once**:
 
 1.  In the Products section of your store's Admin area (**Catalog > Products**), find the products for which you need to assign a feed category and select them by putting tick marks in the check boxes opposite their names.
-2.  Click the <u>**More actions**</u> link below the list of products and select **Update categories** (In earlier module versions, this option is named **Update feed categories**):
+2.  Click the **More actions** link below the list of products and select **Update categories** (In earlier module versions, this option is named **Update feed categories**):
     ![]({{site.baseurl}}/attachments/7504361/7602258.png?effects=drop-shadow)
     This opens a form where you can specify the feed categories into which the selected products must go:
     ![]({{site.baseurl}}/attachments/7504361/7602262.png)

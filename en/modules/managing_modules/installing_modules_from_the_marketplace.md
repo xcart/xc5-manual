@@ -15,7 +15,7 @@ To install a module from X-Cart Marketplace:
 1.  Log in to your store's Admin area and go to the** Modules Marketplace** section.
     Click **Modules**:
     ![]({{site.baseurl}}/attachments/7503967/8716496.png?effects=drop-shadow)
-    Then click on the <u>View more addons in the Marketplace</u> link to go to the **Modules Marketplace** section:
+    Then click on the View more addons in the Marketplace link to go to the **Modules Marketplace** section:
     ![]({{site.baseurl}}/attachments/7503967/8716498.png?effects=drop-shadow)
     Your store will connect to X-Cart Marketplace to obtain the list of modules available there. You should see a page like the following:
     ![]({{site.baseurl}}/attachments/7503967/8716499.png?effects=drop-shadow)

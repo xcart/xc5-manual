@@ -130,9 +130,9 @@ Notice how the price of the product changes when the check box "Monogram this it
 
 To configure attribute values as price/weight modifiers:
 
-1.  Hover your cursor over the field displaying the attribute value that you want to make a price modifier. For example, we want the option "Monogram this item?.....Yes" to have the price of $10, so we hover over the attriibute value "Yes". A link titled **<u>Modifiers</u>** is revealed:
+1.  Hover your cursor over the field displaying the attribute value that you want to make a price modifier. For example, we want the option "Monogram this item?.....Yes" to have the price of $10, so we hover over the attriibute value "Yes". A link titled **Modifiers** is revealed:
     ![]({{site.baseurl}}/attachments/7504859/8719337.png?effects=drop-shadow)
-2.  Click on the <u>**Modifiers**</u> link. This displays a popup panel allowing you to specify the price and/or weight by which this option will alter the product's price and/or weight:
+2.  Click on the **Modifiers** link. This displays a popup panel allowing you to specify the price and/or weight by which this option will alter the product's price and/or weight:
     ![]({{site.baseurl}}/attachments/7504859/8719338.png?effects=drop-shadow)
 3.  Use the **Price** and/or **Weight** field(s) on the popup panel to specify the modifier values you require. These can be In our case, we need to specify the price modifier:
     ![]({{site.baseurl}}/attachments/7504859/8719339.png?effects=drop-shadow)
@@ -147,9 +147,9 @@ When configuring multi-value attributes, you can control which of the attribute 
 
 To set the default attribute value:
 
-1.  Hover your cursor over the field displaying the attribute value that you want to make the default one. For example, we want the option "Monogram this item?.....No" to be available to users by default, so we hover over the attriibute value "No". A link titled **<u>Modifiers</u>** is revealed:
+1.  Hover your cursor over the field displaying the attribute value that you want to make the default one. For example, we want the option "Monogram this item?.....No" to be available to users by default, so we hover over the attriibute value "No". A link titled **Modifiers** is revealed:
     ![]({{site.baseurl}}/attachments/7504859/8719341.png?effects=drop-shadow)
-2.  Click on the <u>**Modifiers**</u> link. This displays a popup panel:
+2.  Click on the **Modifiers** link. This displays a popup panel:
     ![]({{site.baseurl}}/attachments/7504859/8719342.png?effects=drop-shadow)
 3.  Select the _Default option_ check box:
     ![]({{site.baseurl}}/attachments/7504859/8719343.png?effects=drop-shadow)

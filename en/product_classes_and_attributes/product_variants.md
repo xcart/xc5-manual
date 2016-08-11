@@ -100,7 +100,7 @@ To configure product variants for a product:
 
     ![]({{site.baseurl}}/attachments/7504786/8719368.png?effects=drop-shadow)
 
-7.  Choose how you want to create variants: manually or automatially. For manual setup of product variants, click **Add variants manually**. To let X-Cart generate product variants for you automatically, click <u>Create all possible variants (N)</u> (The number in brackets shows the number of product variants that X-Cart will create).
+7.  Choose how you want to create variants: manually or automatially. For manual setup of product variants, click **Add variants manually**. To let X-Cart generate product variants for you automatically, click Create all possible variants (N) (The number in brackets shows the number of product variants that X-Cart will create).
     We recommend using the manual method if you need to create just a couple of variants. If you need to create a larger number of variants, it will be easier to use the automated generation method; in this case, your X-Cart store will create all possible combinations of the product options, and you will need to disable any combinations that you do not stock.
 8.  If you have chosen to let X-Cart to generate variants for you, the next page will look similar to the following:
     ![]({{site.baseurl}}/attachments/7504786/8719369.png?effects=drop-shadow)
@@ -124,7 +124,7 @@ To configure product variants for a product:
     ![]({{site.baseurl}}/attachments/7504786/8719377.png?effects=drop-shadow)
     The variant will be added. Add the rest of the variants you require using the same method.
 
-Note that you can use the <u>Create all possible variants (N)</u> link at any time to generate the missing product variants. Don't worry, this will not ruin the variants you have already configured.
+Note that you can use the Create all possible variants (N) link at any time to generate the missing product variants. Don't worry, this will not ruin the variants you have already configured.
 
 _Related pages:_
 

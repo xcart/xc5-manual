@@ -13,7 +13,7 @@ categories:
 The "New arrivals" feature in X-Cart 5 is available through the use of **Product Advisor** module by X-Cart team.  With this feature your store can showcase newly added products:
 
 *   in a separate block titled "New arrivals";
-*   on a separate page (**http://<your-domain>/<x-cart-5-directory>/?target=new_arrivals**) available by default through the "New arrivals" item in your store's Primary menu.
+*   on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=new_arrivals`) available by default through the "New arrivals" item in your store's Primary menu.
 
 In addition to that, newly added products can be marked with "New!" labels in all product lists in the Customer front end.
 
@@ -33,25 +33,25 @@ To use the "New arrivals"  feature, make sure that the module **Product Adviso
         Leave 0 for no limit.
     *   **Mark new products in catalog**: Enable this option to mark new products in all product lists (except for the list in the New arrivals section) with a label saying "New!"
         ![]({{site.baseurl}}/attachments/6389778/8717846.png?effects=drop-shadow)
-    *   **Display "New arrivals" block on sidebar (otherwise in center area)**: This setting defines the location of the "New arrivals" block. Enable if you want the "New arrivals" block to appear in the sidebar:
+    *   (X-Cart 5.2.x) **Display "New arrivals" block on sidebar (otherwise in center area)**: This setting defines the location of the "New arrivals" block. Enable if you want the "New arrivals" block to appear in the sidebar:
         ![]({{site.baseurl}}/attachments/6389778/8717813.png?effects=drop-shadow)
         Disable if you want this block to be displayed in the central area of your store site:
         ![]({{site.baseurl}}/attachments/6389778/8717845.png?effects=drop-shadow)
-    *   **Maximum number of products to display in "New arrivals" block**: This setting defines the maximum number of products that can be displayed in the "New arrivals" block. Specify a non-zero value; otherwise, 3 products will be displayed by default. If the specified value is less than the total amount of products on the complete new arrivals list, that value will be used instead. Drupal block settings can override this option (when the DrupalConnector module is enabled).
-    *   **Show new products only from category being viewed by customer**: Disable this setting to show new arrivals from the entire store. Enable to show only the new arrivals from the category the customer is currently viewing. Drupal block settings can override this option (when the DrupalConnector module is enabled).
+
+        {% note info %}
+        This setting is removed in X-Cart 5.3.x versions in favor of Layout editor mode, which allows you to drag "New arrivals" block to appropriate place either in sidebar or center area.
+        {% endnote %}
+
+    *   **Maximum number of products to display in "New arrivals" block**: This setting defines the maximum number of products that can be displayed in the "New arrivals" block. Specify a non-zero value; otherwise, 3 products will be displayed by default. If the specified value is less than the total amount of products on the complete new arrivals list, that value will be used instead. 
+
+    {% note yellow %}
+    __X-Cart 5.1.x__: Drupal block settings can override this option (when the DrupalConnector module is enabled).
+    {% endnote %}
+
+    *   **Show new products only from category being viewed by customer**: Disable this setting to show new arrivals from the entire store. Enable to show only the new arrivals from the category the customer is currently viewing.
+
+    {% note yellow %}
+    __X-Cart 5.1.x__: Drupal block settings can override this option (when the DrupalConnector module is enabled).
+    {% endnote %}
 
 3.  Once you are done configuring the settings, click the **Submit **button at the bottom of the page to save the changes.
-
-## Attachments:
-
-* [marketplace-product-advisor (1).png]({{site.baseurl}}/attachments/6389778/6586389.png) (image/png)
-* [installed-modules-product-advisor-settings (1).png]({{site.baseurl}}/attachments/6389778/6586390.png) (image/png)
-* [new-arrivals-settings.png]({{site.baseurl}}/attachments/6389778/6586391.png) (image/png)
-* [product-advisor-settings-submit-button (1).png]({{site.baseurl}}/attachments/6389778/6586392.png) (image/png)
-* [frontend-new-arrivals.png]({{site.baseurl}}/attachments/6389778/6586393.png) (image/png)
-* [xc5_product_advisor_installed_enabled.png]({{site.baseurl}}/attachments/6389778/8717811.png) (image/png)
-* [xc5_product_advisor_settings.png]({{site.baseurl}}/attachments/6389778/8717812.png) (image/png)
-* [xc5_new_arrivals_block.png]({{site.baseurl}}/attachments/6389778/8717813.png) (image/png)
-* [xc5_new_arrivals_center.png]({{site.baseurl}}/attachments/6389778/8717845.png) (image/png)
-* [xc5_new_arrivals_label.png]({{site.baseurl}}/attachments/6389778/8717846.png) (image/png)
-* [xc5_all_newest_products.png]({{site.baseurl}}/attachments/6389778/8717847.png) (image/png)

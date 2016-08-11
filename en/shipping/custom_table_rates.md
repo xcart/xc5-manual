@@ -34,7 +34,7 @@ To configure a shipping method with custom table based rates, follow the steps b
 
     *   **Method name**: Enter a name for this shipping method. This name will be shown to buyers.
     *   **Delivery time**: Provide information about the estimated delivery time.
-    *   **Address zone**: Select the Address zone for which the shipping method should be available. If you haven't yet configured the zone you require, use the <u>Manage zones</u> link to go to the Zones section and configure it.
+    *   **Address zone**: Select the Address zone for which the shipping method should be available. If you haven't yet configured the zone you require, use the Manage zones link to go to the Zones section and configure it.
     *   **Table based on**: A bit later you will configure a custom table of rates for this shipping method. Now use the "Table based on" field to specify the parameter (or parameters) based on which you are going to define your rates.
         *   _Subtotal_ - Choose this parameter if you want to define rates for specific order amounts; for example, $7 flat rate shipping for orders with a subtotal of up to $50 and free shipping for orders over that amount.
         *   _Weight_ - Choose this parameter if you want order shipping cost to be determined based on the weight of items in the order; for example, £28.13 flat rate shipping for orders weighing up to 5 kg and £9.99 shipping per kg for orders over 5 kg. If you use this type of rates, make sure that all your products that require shipping have a correct weight specified in the product details.

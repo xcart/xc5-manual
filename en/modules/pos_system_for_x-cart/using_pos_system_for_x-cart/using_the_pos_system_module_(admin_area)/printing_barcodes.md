@@ -26,7 +26,7 @@ A prerequisite for printing barcodes is that the products for which you are goin
 **To mass-print barcodes for multiple products**:
 
 1.  In the Products section of your store's Admin area (**Catalog > Products**), find the products for which you need to print barcodes and select them by putting tick marks in the check boxes opposite their names. 
-2.  Click the <u>**More actions**</u> link below the list of products and select **Print barcodes** to access the page where you will be able to print barcodes for the products that have been selected:
+2.  Click the **More actions** link below the list of products and select **Print barcodes** to access the page where you will be able to print barcodes for the products that have been selected:
     ![]({{site.baseurl}}/attachments/7504442/7602284.png?effects=drop-shadow)
 
     Once the QZ Print applet has loaded, you will see a page like following:

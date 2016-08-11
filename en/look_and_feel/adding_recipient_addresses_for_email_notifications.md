@@ -74,8 +74,6 @@ This email is used as the 'to' address for the following email messages:
 
 *   **HelpDesk/Support service e-mail**: 
 
-This email is used as the 'to' address for messages sent by store visitors via the Contact us form. It is also used in the message "No payment methods available. Please contact the <a href=\"mailto:{{email}}\">store administrator</a>.", which is displayed to customers when there aren't any payment methods available to them at checkout. Note that a separate recipient email address for the Contact us form may be configured on the module settings page for the Contact Us module.
+This email is used as the 'to' address for messages sent by store visitors via the Contact us form. It is also used in the message "No payment methods available. Please contact the `<a href=\"mailto:{{email}}\">store administrator</a>`.", which is displayed to customers when there aren't any payment methods available to them at checkout. Note that a separate recipient email address for the Contact us form may be configured on the module settings page for the Contact Us module.
 
 ## Attachments:
-
-* [contacts.png]({{site.baseurl}}/attachments/7505260/7602606.png) (image/png)

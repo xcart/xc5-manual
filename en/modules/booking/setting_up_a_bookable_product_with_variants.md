@@ -32,7 +32,7 @@ To create a bookable product with product variants, follow these steps:
     2.  Provide a name for the new product class (in our case, "Hotel") and save the changes:
         ![]({{site.baseurl}}/attachments/8750040/8718729.png?effects=drop-shadow)
 
-    3.  Click the <u>Edit attributes</u> link opposite the product class name to go to a page where you can configure attributes:
+    3.  Click the Edit attributes link opposite the product class name to go to a page where you can configure attributes:
         ![]({{site.baseurl}}/attachments/8750040/8718730.png?effects=drop-shadow)
 
     4.  On the page that opens, select to add a new attribute:
@@ -59,7 +59,7 @@ To create a bookable product with product variants, follow these steps:
 
 8.  Use the **Variants** tab to create specific bookable variants for the product. 
 
-    1.  Choose the attributes on which your variants will be based and select how you would like to create the variants (manually or automatically). We have selected to create variants based on the "Group type" attribute only and are going to use the link <u>Create all possible variants (2)</u> for the variants to be generated automatically:
+    1.  Choose the attributes on which your variants will be based and select how you would like to create the variants (manually or automatically). We have selected to create variants based on the "Group type" attribute only and are going to use the link Create all possible variants (2) for the variants to be generated automatically:
         ![]({{site.baseurl}}/attachments/8750040/8718750.png?effects=drop-shadow)
         Once all the necessary variants have been created based on the available option combinations, you should have a list like the following:
         ![]({{site.baseurl}}/attachments/8750040/8718751.png?effects=drop-shadow)

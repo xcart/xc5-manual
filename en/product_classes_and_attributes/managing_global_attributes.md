@@ -30,7 +30,7 @@ When using this method, you configure global attributes via the Classes & attri
 The process is as follows:
 
 1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  Click on the <u>Edit attributes (N)</u> link opposite the **Global attributes** title:
+2.  Click on the Edit attributes (N) link opposite the **Global attributes** title:
     ![]({{site.baseurl}}/attachments/7504857/8719294.png?effects=drop-shadow)
     This opens a page where you will be able to manage global attributes:
     ![]({{site.baseurl}}/attachments/7504857/8719295.png?effects=drop-shadow)
@@ -64,7 +64,7 @@ The process is as follows:
 1.  In your store's Admin area, open the deails of any product that needs to be assigned a new global attribute and click on the** Attributes** tab:
     ![]({{site.baseurl}}/attachments/7504857/8719303.png?effects=drop-shadow)
     This will open a page where you can manage attributes for this product. 
-2.  Click on the <u style="font-size: 14.0px;line-height: 1.4285715;">Global</u> link at the top of the page to access the subsection where you can add and assign global and "product class"-level attributes to this product:
+2.  Click on the __Global__ link at the top of the page to access the subsection where you can add and assign global and "product class"-level attributes to this product:
     ![]({{site.baseurl}}/attachments/7504857/8719304.png?effects=drop-shadow)
     On the page that opens there will be the **Global attributes** section where you will add new attributes on the global level:
     ![]({{site.baseurl}}/attachments/7504857/8719305.png?effects=drop-shadow)
@@ -97,7 +97,7 @@ The process is as follows:
 To view your store's global attributes:
 
 1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  Click on the <u>Edit attributes (N)</u> link opposite the **Global attributes** title:
+2.  Click on the Edit attributes (N) link opposite the **Global attributes** title:
     ![]({{site.baseurl}}/attachments/7504857/8719313.png?effects=drop-shadow)
     This opens a page with your store's global attributes list:
     ![]({{site.baseurl}}/attachments/7504857/8719314.png?effects=drop-shadow)
@@ -120,7 +120,7 @@ In the following example, we will assign the global attribute "Color.....Orange"
 1.  In your store's Admin area, find the product to which you need to assign a global attribute, open its details and click on the** Attributes** tab:
     ![]({{site.baseurl}}/attachments/7504857/8719303.png?effects=drop-shadow)
     This will open a page where you can manage attributes for this product. 
-2.  Click on the <u style="font-size: 14.0px;line-height: 1.4285715;">Global</u> link at the top of the page to access the subsection where you can add and assign global and "product class"-level attributes to this product:
+2.  Click on the __Global__ link at the top of the page to access the subsection where you can add and assign global and "product class"-level attributes to this product:
     ![]({{site.baseurl}}/attachments/7504857/8719304.png?effects=drop-shadow)
 
 3.  On the page that opens, scroll down to the **Global attributes** section and look at the list of attributes displayed in it:
@@ -154,7 +154,7 @@ Sometimes you may need to change the name and/or values of a global attribute. Y
 **Method 1:**
 
 1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  Click on the <u>Edit attributes (N)</u> link opposite the **Global attributes** title:
+2.  Click on the Edit attributes (N) link opposite the **Global attributes** title:
     ![]({{site.baseurl}}/attachments/7504857/8719313.png?effects=drop-shadow)
     This opens a page where you will be able to manage your store's global attributes.
 3.  In the list of global attributes, locate the attribute you need to edit and hover your cursor over its name. The **Attribute name** field will become visible and an **Edit** button will be displayed next to it:
@@ -166,7 +166,7 @@ Sometimes you may need to change the name and/or values of a global attribute. Y
 **Method 2:**
 
 1.  In your store's Admin area, find the product for which you want to edit a global attribute (This can be any product that has this attribute: you will be able to extend the changes to the other products in your store), open its details and click on the** Attributes** tab.
-2.  On the **Attributes** tab, click <u>Global</u>.
+2.  On the **Attributes** tab, click Global.
 3.  On the page that opens, locate the **Global attributes** page section.
 4.  Find the attribute you want to edit and make any changes you require:
 
@@ -186,7 +186,7 @@ Sometimes you may need to delete a global attribute. You can do so using one of 
 **Method 1:**
 
 1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  Click on the <u>Edit attributes (N)</u> link opposite the **Global attributes** title.
+2.  Click on the Edit attributes (N) link opposite the **Global attributes** title.
     This opens a page where you will be able to manage your store's global attributes.
 3.  In the list of global attributes, locate the attribute you need to delete and click on the **Trash **icon opposite its name. The attribute will be marked for deletion.
 4.  Click **Save changes**.
@@ -195,7 +195,7 @@ Sometimes you may need to delete a global attribute. You can do so using one of 
 **Method 2:**
 
 1.  In your store's Admin area, find any product that has the global attribute you want to delete, open its details and click on the** Attributes** tab.
-2.  On the **Attributes** tab, click <u>Global</u>.
+2.  On the **Attributes** tab, click Global.
 3.  On the page that opens, scroll down to the **Global attributes** section.
 4.  Find the attribute you want to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
 5.  It does not matter whether the option "Apply value changes globally" is selected or not: deleting a global attribute here will be applied globally in any case (The attribute will be deleted from the list of your store's global attributes and will be removed from the details of all products).

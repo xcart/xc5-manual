@@ -9,7 +9,6 @@ categories:
 
 ---
 
-
 Once you download X-Cart from [www.x-cart.com](http://www.x-cart.com/) and install it on your server, you get a store builder with the user interface displayed in the English language. 
 
 However, you can turn your X-Cart into a truly multi-language solution by installing language translation modules. For example, there are some language translations that you can download from X-Cart Marketplace, including:
@@ -26,7 +25,7 @@ If you want to translate X-Cart into some other language, contact us at {% link
 
 To install a language translation module from X-Cart Marketplace:
 
-1.  In your store's Admin area, select **Modules**, then click <u style="line-height: 1.4285715;">View more addons in Marketplace</u> to go to X-Cart Marketplace.
+1.  In your store's Admin area, select **Modules**, then click __View more addons in Marketplace__ to go to X-Cart Marketplace.
 2.  Locate the translation you require. For example, enter "translation" in the search field to find all translation modules in the Marketplace:
     ![]({{site.baseurl}}/attachments/6389832/8716781.png?effects=drop-shadow)
 
@@ -50,11 +49,11 @@ Try switching the language in either of the areas, and you should see at least s
 
 ![]({{site.baseurl}}/attachments/6389832/8719385.png?effects=drop-shadow)
 
-You may notice that some texts and labels do not get translated when you switch the language selector. For example, in the screenshot above you can still see the module description and the link "<u>View more addons in Marketplace</u>" displayed in the English language - instead of German. Well, things like this happen pretty often. In fact, the module description is fetched from the Marketplace,so the translation module has no power over its translation. As to the "<u>View more addons in Marketplace</u>" link, the respective label simply does not have a value for the German language. If we compare our installed translations in the Languages section (**Store setup** > **Translations**), we will see that the English translation has more than twice as many labels than the German translation:
+You may notice that some texts and labels do not get translated when you switch the language selector. For example, in the screenshot above you can still see the module description and the link "View more addons in Marketplace" displayed in the English language - instead of German. Well, things like this happen pretty often. In fact, the module description is fetched from the Marketplace,so the translation module has no power over its translation. As to the "View more addons in Marketplace" link, the respective label simply does not have a value for the German language. If we compare our installed translations in the Languages section (**Store setup** > **Translations**), we will see that the English translation has more than twice as many labels than the German translation:
 
 ![]({{site.baseurl}}/attachments/6389832/8719455.png?effects=drop-shadow)
 
-So it's only natural that a lot of things will not be translated automatically. Luckily, you can fix any text label lacking a translation in any of the installed languages by editing it manually. For example, to add a German translation for the link "<u>View more addons in Marketplace</u>", do the following:
+So it's only natural that a lot of things will not be translated automatically. Luckily, you can fix any text label lacking a translation in any of the installed languages by editing it manually. For example, to add a German translation for the link "View more addons in Marketplace", do the following:
 
 1.  In the Languages section (**Store setup** > **Translations**) of the Admin area, select the **Edit labels** tab.
 2.  Search for the label "View more addons in Marketplace":
@@ -63,28 +62,10 @@ So it's only natural that a lot of things will not be translated automatically. 
     ![]({{site.baseurl}}/attachments/6389832/8719457.png?effects=drop-shadow)
 3.  Use the Global edit feature to add the translation you require. Be sure to save your changes.
     ![]({{site.baseurl}}/attachments/6389832/8719458.png?effects=drop-shadow)
-    (More dtailed instructions for editing text labels and their translations can be found in the {% link "Editing text labels" ref_IyGxQ1DN#Managingtextslabelsinyourstore-EditingTextLabels %} section of this manual.)
+    (More dtailed instructions for editing text labels and their translations can be found in the {% link "Editing text labels" ref_IyGxQ1DN#editing-text-labels %} section of this manual.)
 
 That is all. After switching the language in your store's Admin area to "DE" you should be able to see the link text translated.
 
 _Related pages:_
 
 *   {% link "Switching the language in Admin area" ref_x5oSN86B %}
-
-## Attachments:
-
-* [marketplace-menu.png]({{site.baseurl}}/attachments/6389832/6586511.png) (image/png)
-* [marketplace-translation.png]({{site.baseurl}}/attachments/6389832/6586513.png) (image/png)
-* [marketplace-translation.png]({{site.baseurl}}/attachments/6389832/6586512.png) (image/png)
-* [language-selector.png]({{site.baseurl}}/attachments/6389832/6586515.png) (image/png)
-* [frontend-language-selector.png]({{site.baseurl}}/attachments/6389832/6586517.png) (image/png)
-* [xc5_translations_installed.png]({{site.baseurl}}/attachments/6389832/8716778.png) (image/png)
-* [xc5_admin_language_selector.png]({{site.baseurl}}/attachments/6389832/8716779.png) (image/png)
-* [xc5_customer_language_selector.png]({{site.baseurl}}/attachments/6389832/8716780.png) (image/png)
-* [xc5_translation_search.png]({{site.baseurl}}/attachments/6389832/8716781.png) (image/png)
-* [xc5_modules_page_german_installed_enabled.png]({{site.baseurl}}/attachments/6389832/8719384.png) (image/png)
-* [xc5_modules_page_german.png]({{site.baseurl}}/attachments/6389832/8719385.png) (image/png)
-* [xc5_translations_labels.png]({{site.baseurl}}/attachments/6389832/8719455.png) (image/png)
-* [xc5_translations_search_viewmoreaddons.png]({{site.baseurl}}/attachments/6389832/8719456.png) (image/png)
-* [xc5_translations_de_missing.png]({{site.baseurl}}/attachments/6389832/8719457.png) (image/png)
-* [xc5_translations_enter_your_translation.png]({{site.baseurl}}/attachments/6389832/8719458.png) (image/png)

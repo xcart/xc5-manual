@@ -18,7 +18,7 @@ To export an order to ShippingEasy manually, use one of the following methods:
 
 1.  In the **Orders** section of your X-Cart store's Admin area, find the orders you want to export and select the check boxes to the left of their numbers in the orders list.
     ![]({{site.baseurl}}/attachments/8224939/8355926.png?effects=drop-shadow)
-2.  Click the <u>**More actions**</u> link at the bottom of the screen and select **Export to ShippingEasy**:
+2.  Click the **More actions** link at the bottom of the screen and select **Export to ShippingEasy**:
     ![]({{site.baseurl}}/attachments/8224939/8355927.png?effects=drop-shadow)
     The selected orders will be exported to ShippingEasy. A success message will be displayed at the top of the screen:
     ![]({{site.baseurl}}/attachments/8224939/8355925.png?effects=drop-shadow)

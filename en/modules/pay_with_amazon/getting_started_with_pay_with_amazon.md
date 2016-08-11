@@ -56,7 +56,7 @@ To start using Pay with Amazon:
     *   {% link "Configuring the Pay with Amazon module" ref_0UssH5KP %}
 
 7.  In Seller Central, configure your instant notification settings (IPN):
-    Under "Settings" -> "Integration Settings", enter your **Merchant URL**. The Sandbox and Production accounts each have separate values for this setting, so you must switch the view using the drop-down box at the top of the screen to set both. The URL you'll need to enter is <u>httрs://<YOUR_XCART_STORE>/cart.php?target=amazon_checkout&isipn=Y</u> (HTTPS is required when you configure your IPN URL for the production account. HTTP is only allowed for testing since no private customer data is passed in test mode). 
+    Under "Settings" -> "Integration Settings", enter your **Merchant URL**. The Sandbox and Production accounts each have separate values for this setting, so you must switch the view using the drop-down box at the top of the screen to set both. The URL you'll need to enter is `httрs://<YOUR_XCART_STORE>/cart.php?target=amazon_checkout&isipn=Y` (HTTPS is required when you configure your IPN URL for the production account. HTTP is only allowed for testing since no private customer data is passed in test mode). 
 
 8.  If you wish to use your own graphics (company logo) in the pop-up window where buyers will sign in to Amazon Payments, upload the image in Seller Central (This is called "Pop-up Window Banner" under "Settings" -> "Integration Settings"). Banner images must be 520 pixels wide by 50 pixels tall, and they must have no animation. Image files should be in .jpg or .gif format.
 

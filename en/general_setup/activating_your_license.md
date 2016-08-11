@@ -39,7 +39,7 @@ To activate a Free X-Cart 5 license, do the following:
 
     *   Or the **Activate license key** button in the Modules Marketplace:
         ![]({{site.baseurl}}/attachments/8225232/8716597.png?effects=drop-shadow)
-        You may need to click the <u>**activate your X-Cart license**</u> link to get the form expanded:
+        You may need to click the **activate your X-Cart license** link to get the form expanded:
         ![]({{site.baseurl}}/attachments/8225232/8716598.png?effects=drop-shadow)
 
 2.  Click the **Activate free license** button. Do not enter anything into the field that says "_Enter your icense key here_" (This field needs to be completed for commercial (non-free) products only):
@@ -89,7 +89,7 @@ To activate your license, do the following:
         ![]({{site.baseurl}}/attachments/8225232/8716604.png?effects=drop-shadow)
         or in Modules Marketplace:
         ![]({{site.baseurl}}/attachments/8225232/8716597.png?effects=drop-shadow)
-        You may need to click the <u>**activate your X-Cart license**</u> link to get the form expanded:
+        You may need to click the **activate your X-Cart license** link to get the form expanded:
         ![]({{site.baseurl}}/attachments/8225232/8716598.png?effects=drop-shadow)
     *   If you have activated an X-Cart license previously, you can access the license activation form by using the **Activate license key** button in the Installed Modules section:
         ![]({{site.baseurl}}/attachments/8225232/8716604.png?effects=drop-shadow)
@@ -114,7 +114,7 @@ When you purchase an X-Cart 5 module license, you need to activate it. Within mi
 
 To activate a module license, do the following:
 
-1.  Log in to the Admin area of your X-Cart 5 installation and go to the Modules Marketplace (Select** Modules** in the main menu, then click the <u>View more addons in the Marketplace</u> link).
+1.  Log in to the Admin area of your X-Cart 5 installation and go to the Modules Marketplace (Select** Modules** in the main menu, then click the View more addons in the Marketplace link).
 
 2.  Access the license activation form by clicking either the **Activate license key** button above the module list or the **Activate key **link next to the name of the module for which you are activating a license:
     ![]({{site.baseurl}}/attachments/8225232/8716608.png?effects=drop-shadow)

@@ -13,11 +13,11 @@ categories:
 The "Coming soon" feature in X-Cart 5 is available through the use of **Product Advisor** module by X-Cart team. With this feature your store can showcase products with an arrival date in the future:
 
 *   in a separate block titled "Coming soon";
-*   on a separate page (**http://<your-domain>/<x-cart-5-directory>/?target=coming_soon**) available by default through the "Coming soon" item in your store's Primary menu.
+*   on a separate page (`http://<your-domain>/<x-cart-5-directory>/?target=coming_soon`) available by default through the "Coming soon" item in your store's Primary menu.
 
 In addition to that, products with an arrival date in the future can be marked with "Coming soon" labels in all product lists in the Customer front end.
 
-To use the "Coming soon" feature, make sure that the module **Product Advisor **is installed and enabled at your store:
+To use the "Coming soon" feature, make sure that the module **Product Advisor** is installed and enabled at your store:
 
 ![]({{site.baseurl}}/attachments/6389778/8717811.png?effects=drop-shadow)To configure how the products that are about to appear in your store's catalog should be displayed to your store's visitors, you will need to adjust some module settings:
 

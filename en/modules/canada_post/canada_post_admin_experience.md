@@ -181,7 +181,7 @@ Note that after the status of a manifest changes to "_Approved_", information ab
 
 ![]({{site.baseurl}}/attachments/7505660/7602874.png?effects=drop-shadow)
 
-Here you can see the ID of the manifest into which the shipment was included. The "Document: <u>Artifact</u>" link allows you to save and print out the manifest without going to the CanadaPost manifests page.
+Here you can see the ID of the manifest into which the shipment was included. The "Document: Artifact" link allows you to save and print out the manifest without going to the CanadaPost manifests page.
 
 # Tracking shipments
 

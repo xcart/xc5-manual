@@ -146,9 +146,9 @@ The "Snapshots" feature not only helps you to keep track of any changes to your 
 
 To revert to a particular snapshot, enter the following link in your web browser address bar:
 
-**http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>&date=<restore_date>**
+`http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>&date=<restore_date>`
 
-(Be sure to replace the <shop_domain> portion of the link with the actual address of your store and <restore_date> with the date of the snapshot you wish to restore).
+(Be sure to replace the `<shop_domain>` portion of the link with the actual address of your store and `<restore_date>` with the date of the snapshot you wish to restore).
 
 Reverting to a snapshot will cause your store to be re-deployed with a module set matching the one reflected by the snapshot. Note that your store will not remove any modules that were installed after the date of the snapshot - all it will do is disable any such modules. Neither will it re-install any modules that were active when the snapshot was taken but were removed later on.
 

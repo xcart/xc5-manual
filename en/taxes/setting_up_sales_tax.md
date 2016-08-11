@@ -76,7 +76,7 @@ To configure your sales tax, complete the following steps:
             ![]({{site.baseurl}}/attachments/8225533/8716421.png?effects=drop-shadow)
             For more info, see the section "Setting up your sales tax rates" further in this article.
 
-    *   If you need tax rates to be applied only to shipping charges, click on the link "<u>Click here to specify tax rates that will apply only to shipping charges</u>". 
+    *   If you need tax rates to be applied only to shipping charges, click on the link "Click here to specify tax rates that will apply only to shipping charges". 
         ![]({{site.baseurl}}/attachments/8225533/8716422.png?effects=drop-shadow)
         This will expand a section titled **Tax rates on shipping cost**. 
         ![]({{site.baseurl}}/attachments/8225533/8716423.png?effects=drop-shadow)

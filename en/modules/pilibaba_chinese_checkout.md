@@ -24,7 +24,7 @@ To start using Pilibaba Chinese Checkout with X-Cart 5:
 3.  Use the Pilibaba Registration page (**Registration** tab) to create a Pilibaba merchant account: complete all the fields on the page with your desired settings then click **Click to create Pilibaba account**. 
     ![]({{site.baseurl}}/attachments/9307023/9439627.png?effects=drop-shadow)
 4.  After creating a Pilibaba account, click the **Connection **tab to go to the Pilibaba settings page. All your info will be automatically loaded from your account and displayed in the "Your account settings" section.  
-    To use the Pilibaba gateway in production, be sure to switch the **Test/Live mode** setting to “_Live mode_”. To log in to your Pilibaba account, click the link **<u>My Pilibaba account dashboard</u>**.
+    To use the Pilibaba gateway in production, be sure to switch the **Test/Live mode** setting to “_Live mode_”. To log in to your Pilibaba account, click the link **My Pilibaba account dashboard**.
 
     ![]({{site.baseurl}}/attachments/9307023/9439629.png?effects=drop-shadow)
     Please note that the URL is pre-defined as preen.pilibaba.com when you are in Test mode, and as en.pilibaba.com when you are in Live mode.

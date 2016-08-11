@@ -103,10 +103,14 @@ To adjust the General settings for the eBay Integration module:
     *   **Product condition**: Select the condition of the products you are going to export to eBay. Click the _Condition help_ link for help on item condition for your category.
     *   **Product price modifier**: If necessary, the price of items sold via eBay can be made higher or lower than the price of these items in your X-Cart store. The price difference can be implemented by setting a product price modifier. 
         For example, to add a $1 per item processing fee for eBay orders, you should set the price modifier as "[1.00] + [ $ ]":
-        <img> 
+
+        Image is missing
+
         This way all your items sold on eBay will be $1 more expensive than the items in your X-Cart store.
         To reduce the price of items sold on eBay by 10% of their price in your X-Cart store, you should set the price modifier as "[-10.00] + [ % ]":
-        <img>
+
+        Image is missing
+
         (Note the minus sign before "10.00"; it shows that the price of items on eBay will be _lower_ than the original item price in the X-Cart store).
         The price modifier defined in the eBay Integration General Settings applies to your entire X-Cart store (i.e. all the products that will be exported to eBay). If you need a price modifier only for _some_ of the products, you should set the modifier [at the level of specific categories or individual products](#configuring-ebay-options-for-products-and-categories).
     *   **Exchange rate**: If the type of currency you use in your X-Cart store is different from the currency that will be used for your eBay listings (for example, if the prices at your X-Cart store are in Australian dollars, and the prices on eBay need to be specified in US dollars), use this field to set the exchange rate. The exchange rate will be used both when exporting your products from your X-Cart store to eBay and when importing orders from eBay back to your X-Cart store.

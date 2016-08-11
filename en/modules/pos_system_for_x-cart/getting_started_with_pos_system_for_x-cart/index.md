@@ -17,7 +17,7 @@ To start using the X-Cart POS module on your system, do the following:
     *   {% link "POS system module: system requirements and installation" ref_eOsVsftg %}
 
 2.  Visit the POS module settings page in your X-Cart Admin area and select the mode in which you are going to use the module. This depends on the printing option you are going to use: Java applet, QZ Tray 2.x or PrintNode. 
-    <img>
+    Image is missing
 
 3.  Complete the required setup and configuration steps for your chosen printing option as provided in the respective section below:
 

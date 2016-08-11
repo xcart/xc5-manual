@@ -67,7 +67,7 @@ Once a product has been created, you can specify inventory tracking options for 
 1.  In the store's Admin area, open the details of the product for which you want to specify inventory tracking options.
 2.  Go to the Inventory Tracking section of the product details page by either selecting the **Inventory tracking** tab:
     ![]({{site.baseurl}}/attachments/6389859/8716870.png?effects=drop-shadow)
-    or by clicking the <u>Inventory tracking options</u> link to the right of the **Quantity in stock** field:
+    or by clicking the Inventory tracking options link to the right of the **Quantity in stock** field:
     ![]({{site.baseurl}}/attachments/6389859/8716871.png?effects=drop-shadow)
     The Inventory tracking section opens:
     ![]({{site.baseurl}}/attachments/6389859/8716869.png?effects=drop-shadow)

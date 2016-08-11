@@ -41,7 +41,7 @@ Let's do it:
 
 4.  Review the search results to find the phrase you need to edit. If none of the phrases in the results list exactly match the phrase you searched for, do not worry: the items in the list of search results are text labels, and what you see in the list are their names. Their values are concealed from view and have yet to be revealed. To view the value of any text label, hover your cursor over the respective entry in the list of search results; an _Edit_ link will be revealed:
     ![]({{site.baseurl}}/attachments/6389836/8716744.png?effects=drop-shadow)
-    Click on the <u>Edit</u> link; this will expand a section where you will be able to view/edit the value of the selected text label:
+    Click on the Edit link; this will expand a section where you will be able to view/edit the value of the selected text label:
     ![]({{site.baseurl}}/attachments/6389836/8716745.png?effects=drop-shadow)
 5.  Edit the text label value as you require. In our example, we will need to edit the last two labels in the search results list (the first one is used for the case when the cart contains a single item, the second one - when the cart contains multiple items). So we replace the word "cart" with the word "bag" in both the text label values:
     ![]({{site.baseurl}}/attachments/6389836/8716746.png?effects=drop-shadow)

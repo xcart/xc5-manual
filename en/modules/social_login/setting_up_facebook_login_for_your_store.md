@@ -51,7 +51,7 @@ To create an App for Facebook login:
     ![]({{site.baseurl}}/attachments/7504575/9439785.png?effects=drop-shadow)
     The app details are opened in the Dashboard:
     ![]({{site.baseurl}}/attachments/7504575/9439786.png?effects=drop-shadow)
-10.  As your app is now in **development** mode, to go live with your app, you need to switch the mode to **live**. To do so, click the **App Review** tab and use the switch in the section titled "**Make <your app name> public?**" to make your app available to the general public:
+10.  As your app is now in **development** mode, to go live with your app, you need to switch the mode to **live**. To do so, click the **App Review** tab and use the switch in the section titled `Make <your app name> public?` to make your app available to the general public:
     ![]({{site.baseurl}}/attachments/7504575/9439787.png?effects=drop-shadow)
     Confirm your request:
     ![]({{site.baseurl}}/attachments/7504575/9439788.png?effects=drop-shadow)

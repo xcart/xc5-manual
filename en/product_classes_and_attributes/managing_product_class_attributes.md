@@ -30,7 +30,7 @@ When using this method, you configure "product class"-level attributes via the�
 The process is as follows:
 
 1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  In the list of product classes, locate the name of the product class for which you want to add an attribute and click on the <u>Edit attributes (N)</u> link opposite it:
+2.  In the list of product classes, locate the name of the product class for which you want to add an attribute and click on the Edit attributes (N) link opposite it:
     ![]({{site.baseurl}}/attachments/7504855/8719257.png?effects=drop-shadow)
     This opens a page where you will be able to manage attributes for this product class:
     ![]({{site.baseurl}}/attachments/7504855/8719258.png?effects=drop-shadow)
@@ -65,12 +65,12 @@ The process is as follows:
 1.  In your store's Admin area, find the product for which you want to add a new attribute, open its details and click on the** Attributes** tab:
     ![]({{site.baseurl}}/attachments/7504855/8719266.png?effects=drop-shadow)
     This will open a page where you can manage attributes for this product. 
-2.  Click on the <u>Global</u> link at the top of the page to access the subsection where you can add and assign global and "product class"-level attributes to this product:
+2.  Click on the Global link at the top of the page to access the subsection where you can add and assign global and "product class"-level attributes to this product:
     ![]({{site.baseurl}}/attachments/7504855/8719267.png?effects=drop-shadow)
 3.  On the page that opens, make sure that the product has been assigned an appropriate product class:
     ![]({{site.baseurl}}/attachments/7504855/8719268.png?effects=drop-shadow)
     (If the product does not have a product class assigned, or needs to be assigned a different product class, take a moment to {% link "assign an appropriate product class to it" ref_EVqNSaZy#assigning-product-classes %}).
-4.  Add attributes via the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "<Product class name> attributes"; in our example, this will be "Plates attributes"):
+4.  Add attributes via the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "`<Product class name>` attributes"; in our example, this will be "Plates attributes"):
     ![]({{site.baseurl}}/attachments/7504855/8719269.png?effects=drop-shadow)
 
     1.  Create a new empty entry in the attributes list (This is where you will specify your attribute name and value(s)): click the "down arrow" part of the **Add attribute** button and select the type of attribute value you require (_Plain field_, _Textarea_ or _Yes/No_) from the drop-down button menu. 
@@ -98,7 +98,7 @@ The process is as follows:
  The attributes that have been added for a product class can be viewed as follows:
 
 1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  In the list of product classes, locate the name of the product class whose attributes you would like to view and click on the <u style="font-size: 14.0px;line-height: 1.4285715;">Edit attributes (N)</u> link opposite it:
+2.  In the list of product classes, locate the name of the product class whose attributes you would like to view and click on the __Edit attributes (N)__ link opposite it:
     ![]({{site.baseurl}}/attachments/7504855/8719257.png?effects=drop-shadow)
     This opens a page with the list of attributes for the selected product class:
     ![]({{site.baseurl}}/attachments/7504855/8719278.png?effects=drop-shadow)
@@ -114,7 +114,7 @@ To view the values for a specific attribute:
 
 # Viewing a product's "product class"-level attributes
 
-If a product has any "product class"-level attributes assigned, you can view their list in the"<Product class name> attributes"section of the product's details (**Attributes** tab** >** **Global **subsection):
+If a product has any "product class"-level attributes assigned, you can view their list in the "`<Product class name>` attributes" section of the product's details (**Attributes** tab > **Global** subsection):
 
 ![]({{site.baseurl}}/attachments/7504855/8719281.png?effects=drop-shadow)
 
@@ -124,17 +124,17 @@ After adding attributes for a product class via the Classes & attributes sectio
 
 In the following example, we will assign the attribute "Print color.....Orange" defined at the level of the product class "Plates" to the product named "Critter Print Melamine Plate 10 inch Set of 4, Orange Cat":
 
-1.  In your store's Admin area, find the product to which you need to assign the attribute, open its details and click on the** Attributes** tab:
+1.  In your store's Admin area, find the product to which you need to assign the attribute, open its details and click on the **Attributes** tab:
     ![]({{site.baseurl}}/attachments/7504855/8719266.png?effects=drop-shadow)
     This will open a page where you can manage attributes for this product. 
 
-2.  Click on the <u style="font-size: 14.0px;line-height: 1.4285715;">Global</u> link at the top of the page to access the subsection where you can add and assign global and "product class"-level attributes to this product:
+2.  Click on the __Global__ link at the top of the page to access the subsection where you can add and assign global and "product class"-level attributes to this product:
     ![]({{site.baseurl}}/attachments/7504855/8719267.png?effects=drop-shadow)
 3.  On the page that opens, make sure that the product has been assigned the appropriate product class:
     ![]({{site.baseurl}}/attachments/7504855/8719287.png?effects=drop-shadow)
     (If the product does not have a product class assigned, or needs to be assigned a different product class, take a moment to {% link "assign an appropriate product class to it" ref_EVqNSaZy#Managingproductclasses-AssigningProductClasses %}).
 
-4.  Look at the list of attributes in the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "<Product class name> attributes"; in our example, "Plates attributes"):
+4.  Look at the list of attributes in the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "`<Product class name>` attributes"; in our example, "Plates attributes"):
     ![]({{site.baseurl}}/attachments/7504855/8719286.png?effects=drop-shadow)
     Here you can see the full list of attributes of the selected product class. The attributes for which the **Attribute option** field is empty are not yet assigned to the product and are not shown on the storefront. 
 
@@ -160,7 +160,7 @@ Sometimes you may need to change the name and/or values of an attribute created 
 **Method 1:**
 
 1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  In the list of product classes, locate the name of the product class to which the attribute you need to edit belongs and click on the <u>Edit attributes (N)</u> link opposite it:
+2.  In the list of product classes, locate the name of the product class to which the attribute you need to edit belongs and click on the Edit attributes (N) link opposite it:
     ![]({{site.baseurl}}/attachments/7504855/8719257.png?effects=drop-shadow)
     This opens a page where you will be able to manage attributes for this product class:
     ![]({{site.baseurl}}/attachments/7504855/8719278.png?effects=drop-shadow)
@@ -173,8 +173,8 @@ Sometimes you may need to change the name and/or values of an attribute created 
 **Method 2:**
 
 1.  In your store's Admin area, find the product for which you want to edit a "product class"-level attribute (This can be any product that has this attribute: you will be able to extend the changes to the other products of the same product class), open its details and click on the** Attributes** tab.
-2.  On the **Attributes** tab, click <u>Global</u>.
-3.  On the page that opens, locate the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "<Product class name> attributes").
+2.  On the **Attributes** tab, click Global.
+3.  On the page that opens, locate the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "`<Product class name>` attributes").
 4.  Find the attribute you want to edit and make any changes you require:
 
     *   To edit the attribute name, hover your cursor over it (the **Attribute name** field will become visible), click inside the **Attribute name** field and edit the attribute name as you require. 
@@ -193,7 +193,7 @@ Sometimes you may need to delete an attribute created at the level of a product 
 **Method 1:**
 
 1.  In your store's Admin area, go to the Classes & attributes section (**Catalog > Classes & attributes**).
-2.  In the list of product classes, locate the name of the product class for which you need to delete an attribute and click on the <u>Edit attributes (N)</u> link opposite it.
+2.  In the list of product classes, locate the name of the product class for which you need to delete an attribute and click on the Edit attributes (N) link opposite it.
     This opens a page where you will be able to manage attributes for this product class.
 3.  In the list of product class attributes, locate the attribute you need to delete and click on the **Trash **icon opposite its name. The attribute will be marked for deletion.
 4.  Click **Save changes**.
@@ -202,8 +202,8 @@ Sometimes you may need to delete an attribute created at the level of a product 
 **Method 2:**
 
 1.  In your store's Admin area, find any product that has the "product class"-level attribute you want to delete, open its details and click on the** Attributes** tab.
-2.  On the **Attributes** tab, click <u>Global</u>.
-3.  On the page that opens, locate the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "<Product class name> attributes").
+2.  On the **Attributes** tab, click Global.
+3.  On the page that opens, locate the page section intended for managing the product's "product class"-level attributes (The title of this section is formed based on the name of the product class according to the pattern "`<Product class name>` attributes").
 4.  Find the attribute you want to delete and click on the **Trash** icon opposite its name. The attribute will be marked for deletion.
 5.  It does not matter whether the option "Apply value changes globally" is selected or not: deleting a "product class"-level attribute here will be applied globally in any case (The attribute will be deleted from the list of attributes for this product class and will be removed from the details of all the products that belong to this product class).
 

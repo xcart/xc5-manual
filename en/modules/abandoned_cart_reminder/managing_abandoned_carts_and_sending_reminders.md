@@ -60,7 +60,7 @@ When you no longer need an abandoned cart to be stored, you can delete it.
 To deleted an abandoned cart:
 
 1.  In the [Viewing/filtering the abandoned carts list](#viewingfiltering-the-abandoned-carts-list), find the abandoned cart you wish to delete and select it by selecting the respective check box in the first column.
-2.  Click the <u>**More actions for selected**</u> link below the list and select **Clear selected carts**. 
+2.  Click the **More actions for selected** link below the list and select **Clear selected carts**. 
 
     ![]({{site.baseurl}}/attachments/7503954/8719196.png?effects=drop-shadow)
 

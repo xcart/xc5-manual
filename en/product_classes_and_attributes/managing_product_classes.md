@@ -56,7 +56,7 @@ If necessary, you can [edit the product class name](#editing-product-class-names
 
 For each product class, you can see the number of products to which it has been assigned.
 
-The list of attributes for each specific product class can be viewed by clicking the <u>Edit attributes (N)</u> link opposite the product class name.
+The list of attributes for each specific product class can be viewed by clicking the Edit attributes (N) link opposite the product class name.
 
 # Assigning product classes to products
 
@@ -66,7 +66,7 @@ To assign a product class to a product:
 
 1.  In your store's Admin area, find the product to which you want to assign a product class, open its details and click on the** Attributes** tab. We will do this to a product named "Critter Print Melamine Plate 10 inch Set of 4, Orange Cat" (In this example we will assign the product class "Plates" to it):
     ![]({{site.baseurl}}/attachments/7504877/8719241.png?effects=drop-shadow)
-2.  On the page that opens, click the <u>Global</u> link to access the subsection where you can manage the product's global and product class attributes:
+2.  On the page that opens, click the Global link to access the subsection where you can manage the product's global and product class attributes:
     ![]({{site.baseurl}}/attachments/7504877/8719242.png?effects=drop-shadow)
 3.  On the page that opens, you will see whether the product already has a product class assigned. In our case, no product class is assigned. To assign a new class, click the **Change** button:
     ![]({{site.baseurl}}/attachments/7504877/8719243.png?effects=drop-shadow)

@@ -16,7 +16,7 @@ In your X-Cart store's Admin area, products that have been successfully exported
 
 This way you can easily tell them from the rest of your store's products. By clicking a product's "EBAY" icon, you can access the page of the respective product listing on eBay.
 
-Each of the products from your X-Cart store that is exported to eBay gets a unique eBay item ID. Once a product has been successfully exported to eBay, its eBay item ID is passed to X-Cart and stored in the **eBay Item ID** field on the product details page in X-Cart Admin (in the eBay product options section). Below this field there is the "<u>View eBay Item</u>" link which allows you to access the page of the respective listing on eBay:
+Each of the products from your X-Cart store that is exported to eBay gets a unique eBay item ID. Once a product has been successfully exported to eBay, its eBay item ID is passed to X-Cart and stored in the **eBay Item ID** field on the product details page in X-Cart Admin (in the eBay product options section). Below this field there is the "View eBay Item" link which allows you to access the page of the respective listing on eBay:
 
 ![]({{site.baseurl}}/attachments/9306771/9439191.png?effects=drop-shadow)
 
@@ -27,7 +27,7 @@ After a product has been published on eBay, you may need to change the informati
 *   **Export Images** allows to export just the product images.
     ![]({{site.baseurl}}/attachments/9306771/9439192.png?effects=drop-shadow)
 
-There may be times when you need to change a product's eBay item ID - that is when you need to associate a product in X-Cart with a different eBay listing. The **eBay item ID** field is edit protected to prevent the product owner from changing the ID accidentally. To change the eBay item ID, use the <u>Change eBay item ID</u> link located close to the **eBay item ID** field:
+There may be times when you need to change a product's eBay item ID - that is when you need to associate a product in X-Cart with a different eBay listing. The **eBay item ID** field is edit protected to prevent the product owner from changing the ID accidentally. To change the eBay item ID, use the Change eBay item ID link located close to the **eBay item ID** field:
 
 ![]({{site.baseurl}}/attachments/9306771/9439193.png?effects=drop-shadow)
 

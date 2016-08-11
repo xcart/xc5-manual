@@ -20,7 +20,7 @@ By clicking on the vendor company name link on the **Vendors** menu, store visit
 
 ![]({{site.baseurl}}/attachments/8749408/8717014.png?effects=drop-shadow)
 
-The details pages of specific products also provide some information about the vendor. This includes the vendor's company name, location and image. There is also the <u>View Profile</u> link that allows visitors to access the vendor's profile page:
+The details pages of specific products also provide some information about the vendor. This includes the vendor's company name, location and image. There is also the View Profile link that allows visitors to access the vendor's profile page:
 
 ![]({{site.baseurl}}/attachments/8749408/8717015.png?effects=drop-shadow)
 

@@ -19,7 +19,7 @@ To start using Webgility's Shiplark solution with X-Cart 5:
     ![]({{site.baseurl}}/attachments/7505368/7602644.png?effects=drop-shadow)
     Once the installation process is completed, the module will be added to the list of your store's installed modules in the Installed modules section (**Extensions > Installed modules**).
     ![]({{site.baseurl}}/attachments/7505368/7602645.png?effects=drop-shadow)
-3.  Use the <u>Settings</u> link to go to the module's setting page:
+3.  Use the Settings link to go to the module's setting page:
     ![]({{site.baseurl}}/attachments/7505368/7602643.png?effects=drop-shadow)
     The module settings page provides your store's connection details: **Store Module URL** and **Access Key**.
     ![]({{site.baseurl}}/attachments/7505368/7602642.png?effects=drop-shadow)
