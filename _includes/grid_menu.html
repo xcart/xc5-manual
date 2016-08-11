@@ -1,9 +1,9 @@
 <div class="ui vertical navigation segment">
-  <div class="ui three column grid container">
+  <div class="ui stackable grid container">
     {% assign home_pages = site.pages | sort: 'order' %}
     {% for item in home_pages %}
       {% if item.title and item.categories contains 'home' and item.lang == page.lang %}
-          <div class="column">
+          <div class="sixteen wide mobile eight wide tablet third wide computer column">
               <div class="navigation-item">
                 <a href="{{ item.url | prepend: site.baseurl }}">
                   <h2 class="ui header">
@@ -20,7 +20,7 @@
     {% endfor %}
 
     <!-- link to developer docs -->
-    <div class="column">
+    <div class="sixteen wide mobile eight wide tablet third wide computer column">
       <div class="navigation-item">
         <a href="http://devs.x-cart.com">
           <h2 class="ui header">
