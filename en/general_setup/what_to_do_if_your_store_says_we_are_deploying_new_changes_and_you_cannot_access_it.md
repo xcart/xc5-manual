@@ -55,13 +55,15 @@ The format of the reset links is as follows:
 
 Clicking on a reset link disables some or all of the modules installed at your store (Detailed information on the action of each link is available in the table below). Then X-Cart 5 tries to recover itself.  Once your store is back online, you can try enabling the modules again one by one in order to identify the one causing your site to crash. As soon as you know which module is causing it, you can contact its developer to get it fixed. 
 
-<table class="confluenceTable">
-  <tbody >
-    <tr >
+<table class="ui celled padded compact small table">
+  <thead>
+  <tr >
       <th class="confluenceTh">&nbsp;</th>
       <th  class="confluenceTh">X-Cart versions 5.x-5.2.6</th>
       <th colspan="1"  class="confluenceTh">X-Cart versions 5.2.7</th>
     </tr>
+  </thead>
+  <tbody >
     <tr >
       <td  class="confluenceTd"><strong>Soft reset</strong>
       </td>

@@ -1,6 +1,6 @@
 ---
 identifier: ref_2A50nkO9
-updated_at: 2015-12-22 00:00
+updated_at: 2016-07-11 00:00
 layout: article_with_sidebar
 lang: en
 title: 'Enabling the &quot;New arrivals&quot; block'
