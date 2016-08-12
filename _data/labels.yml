@@ -1,3 +1,7 @@
+'X-Cart Developer Documentation':
+    en: 'X-Cart Developer Documentation'
+    ru: 'Документация для разработчиков X-Cart'
+
 'X-Cart Knowledge Base':
     en: 'X-Cart Knowledge Base'
     ru: 'База знаний X-Cart'
@@ -21,6 +25,10 @@
 'Search':
     en: 'Search'
     ru: 'Искать'
+
+'Navigation':
+    en: 'Also in section'
+    ru: 'Также в секции'
 
 'Home':
     en: 'Home'
