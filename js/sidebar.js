@@ -22,7 +22,8 @@ layout: null
 
   var disableSticky = function () {
     $('#navigation-menu').sticky('destroy');
-    $('aside.sidebar').css('height', 'auto')
+    $('aside.sidebar').css('height', 'auto');
+    $('aside.sidebar').css('min-height', 'auto');
 
     stickyState = false;
   }
