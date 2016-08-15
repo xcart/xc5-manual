@@ -35,7 +35,7 @@ This guide describes the process of installing X-Cart 5 on your server.
         *   [Step 7\. Installation completed](#step-7-installation-completed)
 *   [Possible installation problems](#possible-installation-problems)
     *   [1\. Problems with connection to database](#problems-with-connection-to-database)
-    *   [2. Permission checking failed](#permission-checking-failed)
+    *   [2. Permission checking failed](#permissionchecking-failed)
     *   [3. Disabled functions](#disabled-functions)
     *   [4\. Disabled PHP extensions](#disabled-php-extensions)
     *   [5\. HTTPS bouncer is not installed](#https-bouncer-is-not-installed)

@@ -1,0 +1,31 @@
+---
+identifier: ref_FnFqSysReq
+updated_at: 2016-08-15 00:00
+layout: article_with_sidebar
+lang: en
+title: 'System requirements and installation'
+order: 20
+version: X-Cart 5.2.16 and earlier
+keywords:
+  - Fractional and fixed quantities
+categories:
+  - User manual
+  - Module
+
+---
+
+To be able to successfully install and use the module "Fractional and Fixed quantities", you need a working copy of X-Cart 5 installed on your server.
+
+The module can be obtained via X-Cart’s Marketplace.
+
+To install and enable the module on your system, follow the general module installation instructions. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+
+As a result, you should have the module "Fractional and Fixed quantities" listed in your store's Installed Modules section:
+
+![]({{site.baseurl}}/attachments/9666735/9634070.png?effects=drop-shadow)
+
+_Related pages:_
+
+*   {% link "Fractional and Fixed quantities module: Overview" ref_FnFqOverview %}
+*   {% link "Configuring the module «Fractional and Fixed quantities»" ref_FnFqConfig %}
+*   {% link "Using the module «Fractional and Fixed quantities»" ref_FnFqUsage %}
