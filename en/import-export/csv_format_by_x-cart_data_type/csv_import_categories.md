@@ -176,7 +176,8 @@ Below is a list of supported fields and their respective value types for categor
 *   If necessary, import can be used to clear previously set field values from non-numeric fields. To clear a field value via import, in your CSV file to be imported specify the value of the field as "NULL". After the import process is completed, the fields in which the value "NULL" has been imported will be cleared. 
 
     This feature is supported by the following fields pertaining to categories:
-    - memberships;
-    - image;
-    - banner;
-    - productClasses (processed by the module Product Filter).
+
+    *   memberships;
+    *   image;
+    *   banner;
+    *   productClasses (processed by the module Product Filter).
