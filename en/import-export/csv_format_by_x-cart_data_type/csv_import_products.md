@@ -191,15 +191,21 @@ There are many more fields which you can include into your product CSV file. Bel
 
 *   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
 
-*   If necessary, import can be used to clear previously set field values from non-numeric fields. To clear a field value via import, in your CSV file to be imported specify the value of the field as "NULL". After the import process is completed, the fields in which the value "NULL" has been imported will be cleared. 
+*   If necessary, import can be used to clear previously set field values from non-numeric fields. To clear a field value via import, in your CSV file to be imported specify the value of the field as "NULL". After the import process is completed, the fields in which the value "NULL" has been imported will be cleared.
+
     This feature is supported by the following product fields:
-    - memberships;
-    - categories;
-    - images;
-    - imagesAlt;
-    - attributeValue;
-    - variantImage (Product Variants module).
 
-## Attachments:
+    *   memberships;
+    *   categories;
+    *   images;
+    *   imagesAlt;
+    *   attributeValue;
+    *   variantImage (Product Variants module).
 
-* [import-1.png]({{site.baseurl}}/attachments/7503877/7602177.png) (image/png)
+*   When importing product variants, values of non variant specific fields (i.e. all but the fields added by the Product Variants module) should not be repeated for each variant. This means that such values as memberships, productClass, taxClass, enabled, shippable, categories, inventoryTracking, name, description, etc. need to be specified only once per product variant set; specifying them for each individual variant SKU may result in such undesirable effects as the creation of duplicate values or re-writing of a value by a subsequent value. 
+
+    For example, an import of variants for the product SKU 10000 Binary Mom using the following file:
+
+    ![]({{site.baseurl}}/attachments/7503877/xc5_import_variants_incorrect.jpeg)
+
+    will rename the product SKU 10000 from "Binary Mom" to "BinaryMom" (so you will no longer have a product "Binary Mom" after the import process completes). It will also make all the four variantSKUs (100001, 100002, 100003 and 100004) available to both Wholesale and VIP membership levels.
