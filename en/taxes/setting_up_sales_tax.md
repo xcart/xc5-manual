@@ -23,7 +23,7 @@ This article explains how to set up and enable sales tax calculation using the S
 
 # Video tutorial
 
-# <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/neu9h6xjJe0" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/neu9h6xjJe0" frameborder="0"></iframe>
 
 # Configuring sales tax
 
