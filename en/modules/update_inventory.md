@@ -10,7 +10,6 @@ categories:
 
 ---
 
-
 Starting with X-Cart version 5.2.13, X-Cart has a full-featured import mode for the updating of existing items, which allows you to update your product information (including the stock quantity, price and other product properties) using the standard X-Cart's "Import" feature - without the need to use the module "Update inventory". For more info, see {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}.
 
 The **Update inventory** module by X-Cart team provides a quick and easy way to update product quantities by importing a simple [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file. This module works for both regular products and {% link "product variants" ref_0uApuQfx %}.
@@ -23,13 +22,9 @@ The **Update inventory** module by X-Cart team provides a quick and easy way to 
 
 As you can see, the CSV file has just two fields:
 
+{:.ui.compact.celled.small.padded.table}
 | Field in CSV file | What this field describes | Value type |
-| 
-
-**sku **
-
- | Unique identifier of the product or variant | String,
-Max. length: 32 |
+| **sku** | Unique identifier of the product or variant | String, Max. length: 32 |
 | **qty** | Stock level | Positive integer |
 
 In a store with the module Update inventory installed and enabled, the CSV file for updating product quantities can be imported via the Update quantity section (**Catalog** > **Update quantity**):

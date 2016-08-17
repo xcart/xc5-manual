@@ -4,6 +4,7 @@ updated_at: 2015-02-13 00:00
 layout: article_with_sidebar
 lang: en
 title: 'Setting up tax classes'
+order: 100
 categories:
   - User manual
 

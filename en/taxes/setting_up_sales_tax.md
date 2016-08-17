@@ -4,6 +4,7 @@ updated_at: 2015-12-12 00:00
 layout: article_with_sidebar
 lang: en
 title: 'Setting up sales tax'
+order: 200
 categories:
   - User manual
 

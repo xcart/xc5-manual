@@ -1,15 +1,16 @@
 ---
 identifier: ref_Jq6Bsdrt
-updated_at: 2014-03-28 00:00
+updated_at: 2016-07-16 00:00
 layout: article_with_sidebar
 lang: en
 title: 'Accepting payments'
+version: X-Cart 5.2.14 and later
 categories:
   - User manual
 
 ---
 
-To accept payments from buyers, you need to enable one or more payment methods for your store. Payment methods are managed via the **Payment methods** section (**Store setup > Payments**):
+To accept payments from buyers, you need to enable one or more payment methods for your store. Payment methods are managed via the **Payment methods** section (**Store setup > Payment methods**):
 
 ![]({{site.baseurl}}/attachments/6389794/7602367.png?effects=drop-shadow)
 
@@ -21,94 +22,118 @@ In this section, you can:
 *   [change the availability of specific payment methods](#enabling--disabling-payment-methods);
 *   [delete payment methods](#deleting-payment-methods).
 
-# Viewing your store's payment methods list
+## Viewing your store's payment methods list
 
 X-Cart supports two types of payment methods:
 
-1.  _Offline_ payment methods (methods that allow customers to check out without submitting payment information). For example, Phone Ordering, Check, Wire Transfer, etc.
+1.  _Offline_ payment methods (methods that allow customers to check out without submitting payment information). For example, Phone Ordering, Check, Money Order, Wire Transfer, COD etc.
 2.  _Online_ payment methods (methods that allow customers to enter their payment information online, so you automatically receive the payment via the respective payment system). For example, Paypal, Authorize.Net, 2Checkout, Skrill, etc.
 
-On the **Payment methods** page, offline payment methods can be found in the section **Offline methods**:
+On the **Payment settings** page, offline payment methods can be found in the section **Offline methods** (Scroll down the **Payment settings** page to be able to see it): 
 
 ![]({{site.baseurl}}/attachments/6389794/7602370.png?effects=drop-shadow)
 
-online payment methods - in the sections **Accepting credit cards online** and **Alternative payment methods**:
+Online payment methods can be found in the **Online methods** section:
 
-![]({{site.baseurl}}/attachments/6389794/7602369.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389794/xc5_paymentmethods_online_methods.png)
 
-(The **Accepting credit cards online** section is intended for methods allowing users to pay using their credit card; for example, Paypal Advanced or Paypal Website Payments Pro. The **Alternative payment methods** section is for methods that support other types of payment; for example, Paypal Express Checkout, where customers can pay using their Paypal account).
-
-On the snapshot above, the sections **Accepting credit cards online** and  **Alternative payment methods** do not have any methods listed in them - because the methods yet have to be added. 
-
-The status of the On/Off control to the left of each method's name reflects the availability of the method to customers:
+The INACTIVE/ACTIVE switch displayed for every item on the list of payment methods can be used to control the availability of the method to customers:
 
 ![]({{site.baseurl}}/attachments/6389794/7602383.png?effects=drop-shadow)
 
-![]({{site.baseurl}}/attachments/7503950/7602222.jpg)(green icon) = the method is available on the storefront;
-![]({{site.baseurl}}/attachments/7503950/7602223.png)(gray icon) = the method is not available (not visible to customers).
+ACTIVE (green icon) = the method is available on the storefront;
+INACTIVE (gray icon) = the method is not available (not visible to customers).
 
-The Gear icon ![]({{site.baseurl}}/plugins/servlet/confluence/placeholder/unknown-attachment "gear_icon.png")opposite each payment method's name allows you to access the method's settings:
+The **Configure** button below each payment method name allows you to access the payment method settings:
 
 ![]({{site.baseurl}}/attachments/6389794/7602384.png?effects=drop-shadow)
 
-# Adding payment methods
+## Adding payment methods
 
 How you add a new payment method for your store depends on whether this method will be an _online_ or an _offline_ one.
 
-#### **Online payment methods:**
+### Online payment methods
 
-All online payment methods in X-Cart 5 are implemented as installable modules. Typically, a newly installed X-Cart store will have some payment modules already installed. You can check what modules are installed at your store via the **Installed Modules** section  (**Extensions > Installed modules**). 
+All online payment methods in X-Cart 5 are implemented as installable modules. Typically, a newly installed X-Cart store will have some payment modules already installed. You can check what modules are installed at your store via the **Installed Modules** section of your X-Cart store's Admin area and find the respective payment methods via the **Payment settings** section:
+
+1.  In the **Payment settings** section, click the **Add payment method** button at the top right-hand corner of the Online methods section. 
+
+    ![]({{site.baseurl}}/attachments/6389794/xc5_paymentmethods_add_online_method.png)
+
+    A popup box will be opened displaying the list of payment methods:
+
+    ![]({{site.baseurl}}/attachments/6389794/xc5_paymentmethods_add_online_method1.png)
+
+    You can find out the status of each method by the type of button displayed opposite the method name on the right-hand side of the list:
+
+    *   For methods that are installed and enabled, the button Settings is provided. This button allows you to access the method settings page where you can adjust the method name, description and other configuration settings, as well as deactivate the method if necessary.
+    *   For methods that are installed, but not enabled, the button Add is provided. You can use this button to add the method to your payment methods list and access the method settings page in one click. Note that after adding any online method with the Add button you will still need to configure it.
+    *   For methods that are not installed, the button Install is provided. This button allows you to download from the Marketplace and install the payment module needed to enable the chosen payment method.
 
 To start using a certain online payment method:
 
-1.  Make sure that the payment module you require is installed and enabled. If the payment module you need is not on your store's **Installed Modules** list, try searching X-Cart's Marketplace: you may be able to install the module you require from there. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
-2.  Go to the **Payment methods** section (**Store setup > Payments**) and see if the method you require is already listed on either the **Accepting credit cards online** or the **Alternative payment methods** section. If not, add it: 
-    1.  In the appropriate section (**Accepting credit cards online** or **Alternative payment methods** - depending on the type of method you require), click the **Add payment method** button:
-        ![]({{site.baseurl}}/attachments/6389794/6586421.png?effects=drop-shadow)
-        A popup titled **Add payment method** will be opened.
-    2.  In the **Add payment method** popup, locate the payment method you require and click the **Choose** button opposite its name:
-        ![]({{site.baseurl}}/attachments/6389794/6586428.png?effects=drop-shadow)
-        The chosen method will be added to your store's list of online payment methods. A page with the settings of the new payment method will be opened:
-        ![]({{site.baseurl}}/attachments/6389794/7602371.png?effects=drop-shadow)
-3.  Use the settings on the page to configure the payment method. Once you're done, be sure to save the changes. The settings will be saved, and you will be redirected back to the **Payment methods** page.
-4.  On the **Payment methods** page, enable the payment method you have added and configured (Use the On/Off control opposite the payment method name. The green icon means that the payment method is enabled and available to buyers).
+1.  Make sure that the payment module you require is installed and enabled. If so, you should be able to see the respective payment method on the Online methods list in your store's Payment settings section (**Store setup > Payment methods**).
+2.  If the payment method is not on the Online methods list, click the **Add payment method** button at the top right-hand corner of the Online methods section. 
+    
+    ![]({{site.baseurl}}/attachments/6389794/xc5_paymentmethods_add_online_method_click.png)
+3.  In the popup box that opens, select the section you require: _All payment methods_ or _PayPal all-in-one solutions_.
+4.  Locate the payment method you require and click the **Add (or Install)** button opposite its name.
+5.  Once the chosen method is added to your store's list of online payment methods, configure the method settings and enable it using the **INACTIVE/ACTIVE** switch.
 
-That is all. The payment method is enabled and ready to use.
+That is all. The payment method is active and ready to use.
 
-#### **Offline payment methods:**
+### Offline payment methods
 
 In a newly installed X-Cart store, the **Offline methods** section on the **Payment methods** page already contains some pre-configured offline payment methods. If needed, you can [edit](#editing-existing-payment-methods) them, or add more offline methods.
 
 To add a new offline payment method:
 
-1.  In the the **Offline methods** section of the **Payment methods** page (**Store setup > Payments**), click **Add payment method**:
-    ![]({{site.baseurl}}/attachments/6389794/7602386.png?effects=drop-shadow)
-    A popup allowing you to enter the details of the new payment method will be opened:
+1.  On the **Payment settings** page (**Store setup > Payment methods**), scroll down to the **Offline methods** section and click the **Add payment method** button:
+
+    ![]({{site.baseurl}}/attachments/6389794/xc5_paymentmethods_add_offline_method.png)
+
+    A popup box will appear allowing you to enter the details of the new payment method will be opened:
+
     ![]({{site.baseurl}}/attachments/6389794/7602387.png?effects=drop-shadow)
-2.  Enter a name, instructions and description for the new method. HTML tags are allowed in the **Payment instructions** and **Description** fields.
-3.  Click **Add**. The payment method details will be saved, and you will be redirected back to the **Payment methods** page.
-4.  On the **Payment methods** page, enable the payment method you have added and configured (Use the On/Off control opposite the payment method name. The green icon means that the payment method is enabled and available to buyers).
 
-That is all. The payment method is enabled and ready to use.
+2.  Enter a name, payment instructions and a description for the new method. HTML tags are allowed in the **Payment instructions** and **Description** fields.
 
-# Editing existing payment methods
+3.  Click **Add**. The payment method will be added.
+
+    Now you can see it on the list of your Offline methods:
+
+    ![]({{site.baseurl}}/attachments/6389794/xc5_paymentmethods_add_offline_method3.png)
+
+    Like the rest of your payment methods, the newly added method has the Configure button allowing you to edit the method settings, the Trash icon allowing you to remove the method, and the **INACTIVE/ACTIVE** switch allowing you to control the method availability to customers.
+
+4.  Use the **INACTIVE/ACTIVE** switch to activate the payment method you have added.
+
+That is all. The payment method is active and ready to use.
+
+## Editing existing payment methods
 
 It is possible to edit previously added payment methods.
 
 To edit an existing method:
 
-1.  On the **Payment methods** page (**Store setup > Payments**), locate the payment method that needs to be edited and click on the gear icon opposite its name.
+1.  On the **Payment settings** page (**Store setup > Payment methods**), locate the payment method that needs to be edited and click on the **Configure** button opposite its name.
+
+    ![]({{site.baseurl}}/attachments/6389794/xc5_paymentmethods_configure_method.png)
+
     This opens the page with the payment method's settings.
-    ![]({{site.baseurl}}/attachments/6389794/7602388.png?effects=drop-shadow)
+
+    ![]({{site.baseurl}}/attachments/6389794/xc5_paymentmethods_configure_method1.png)
+
 2.  Edit the settings. 
-3.  Click **Update** to save the changes.
+
+3.  Click **Save changes** to save the changes.
 
 The payment method settings will be updated.
 
-# Enabling / Disabling payment methods
+## Enabling / Disabling payment methods
 
-You can change the availability of a payment method by switching the On/Off control to the left of its name.
+You can change the availability of a payment method by switching the **INACTIVE/ACTIVE** control to the right of its name.
 
-# Deleting payment methods
+## Deleting payment methods
 
-To remove a payment method from your store's payment methods list, click on the Trash icon ![]({{site.baseurl}}/attachments/7503950/8718936.png) opposite its name.
+To remove a payment method from your store's payment methods list, click on the Trash icon icon below the method name.
