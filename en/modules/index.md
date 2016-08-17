@@ -1,14 +1,15 @@
 ---
-identifier: ref_mCs9Q9Uy
-updated_at: 2016-04-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Modules'
+layout: article_with_sidebar
+updated_at: '2016-04-15 00:00'
+identifier: ref_mCs9Q9Uy
+title: Modules
 categories:
   - home
 order: 100
 icon: puzzle
 description: Discover the world of different building blocks for your shop
+published: true
 ---
 
 
@@ -24,6 +25,7 @@ _In this section:_
 *   {% link "eBay Integration" ref_0SnFdXk1 %}
 *   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
+*   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
