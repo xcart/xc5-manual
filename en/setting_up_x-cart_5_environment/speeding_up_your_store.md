@@ -18,14 +18,14 @@ This article aims to provide guidance to X-Cart users who want to improve the pe
 
 *   [Introduction](#introduction)
 *   [Table of Contents](#table-of-contents)
-*   [What is acceptable performance?](#what-is-acceptable-performance?)
-*   [How can I speed up my store?](#how-can-i-speed-up-my-store?)
-    *   [Step 1\. Enable CSS, JS aggregation and widget caching](#step-1.-enable-css,-js-aggregation-and-widget-caching)
-    *   [Step 2\. Disable any unused modules](#step-2.-disable-any-unused-modules)
-    *   [Step 3\. Use CDN for your store](#step-3.-use-cdn-for-your-store)
-    *   [Step 4\. Use compression](#step-4.-use-compression)
-    *   [Step 5\. Use a recent PHP version (5.5+)](#step-5.-use-a-recent-php-version-(5.5+))
-    *   [Step 6\. Use Query Cache (MySQL)](#step-6.-use-query-cache-(mysql))
+*   [What is acceptable performance?](#what-is-acceptable-performance)
+*   [How can I speed up my store?](#how-can-i-speed-up-my-store)
+    *   [Step 1\. Enable CSS, JS aggregation and widget caching](#step-1-enable-css-js-aggregation-and-widget-caching)
+    *   [Step 2\. Disable any unused modules](#step-2-disable-any-unused-modules)
+    *   [Step 3\. Use CDN for your store](#step-3-use-cdn-for-your-store)
+    *   [Step 4\. Use compression](#step-4-use-compression)
+    *   [Step 5\. Use a recent PHP version (5.5+)](#step-5-use-a-recent-php-version-5-5)
+    *   [Step 6\. Use Query Cache (MySQL)](#step-6-use-query-cache-mysql)
 
 # What is acceptable performance?
 

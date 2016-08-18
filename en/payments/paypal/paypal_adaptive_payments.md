@@ -4,6 +4,7 @@ updated_at: 2015-12-12 00:00
 layout: article_with_sidebar
 lang: en
 title: 'PayPal Adaptive Payments'
+version: X-Cart 5.2.7 and later
 categories:
   - User manual
 

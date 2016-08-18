@@ -4,17 +4,15 @@ updated_at: 2015-10-01 00:00
 layout: article_with_sidebar
 lang: en
 title: 'Changing the admin panel URL (X-Cart 5.2.7+)'
+version: X-Cart 5.2.7 and later
 categories:
   - User manual
 
 ---
 
-
-This guide is 5.2.7+ only
-
-Icon
-
+{% note info %}
 Please note that this guide is applicable to X-Cart versions 5.2.7 and newer. You can try to use this guide - [https://community.bitnami.com/t/rename-admin-page-url-in-x-cart/36580](https://community.bitnami.com/t/rename-admin-page-url-in-x-cart/36580) for older versions.
+{% endnote %}
 
 You can change the default URL of the X-Cart admin panel to add additional protection for your X-Cart store against hackers and brute-force attacks.
 

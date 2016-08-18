@@ -4,6 +4,7 @@ updated_at: 2016-06-15 00:00
 layout: article_with_sidebar
 lang: en
 title: 'Updating product properties (price, stock quantity, etc.) via import'
+version: X-Cart 5.2.13 and later
 categories:
   - User manual
 

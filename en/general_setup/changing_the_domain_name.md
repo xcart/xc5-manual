@@ -6,6 +6,7 @@ lang: en
 title: 'Changing the domain name'
 categories:
   - User manual
+  - Deprecated
 
 ---
 

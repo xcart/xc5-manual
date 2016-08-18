@@ -4,6 +4,7 @@ updated_at: 2015-09-02 00:00
 layout: article_with_sidebar
 lang: en
 title: 'Product variants'
+version: X-Cart with Product variants module
 categories:
   - User manual
 

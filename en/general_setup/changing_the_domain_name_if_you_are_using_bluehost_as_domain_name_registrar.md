@@ -6,6 +6,7 @@ lang: en
 title: 'Changing the domain name if you are using Bluehost as domain name registrar'
 categories:
   - User manual
+  - Deprecated
 
 ---
 
