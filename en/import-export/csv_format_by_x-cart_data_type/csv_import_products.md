@@ -29,81 +29,51 @@ Example of the simplest product CSV file:
 
 There are many more fields which you can include into your product CSV file. Below we provided a list of supported fields and value types accepted by X-Cart via these fields:
 
-<table class="ui celled padded compact small table">
-  <thead>
+<table class="ui compact padded celled small table">
+  <tbody>
     <tr>
       <th class="confluenceTh">Field in CSV file</th>
       <th colspan="1" class="confluenceTh">What this field describes</th>
-      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Value type**' ref_2LwMTTTW %}</th>
+      <th colspan="1" class="confluenceTh"><a href="/display/XDD/CSV+field+attributes">Value type</a>**</th>
     </tr>
-  </thead>
-  <tbody>
     <tr>
       <td colspan="3" class="confluenceTd"><em> Fields supported by <strong>X-Cart core</strong></em>
       </td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd"><strong>path*</strong>
+      <td colspan="1" class="confluenceTd"><strong><strong>sku*</strong></strong>
       </td>
-      <td colspan="1" class="confluenceTd">Path to category. Serves as identifier.
-        <br>Example: Toys &gt;&gt;&gt; Science Toys&nbsp;</td>
+      <td colspan="1" class="confluenceTd">Unique identifier of the product.</td>
       <td colspan="1" class="confluenceTd">
         <p>String,
           <br>Max. length: 32</p>
       </td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd">enabled</td>
-      <td colspan="1" class="confluenceTd">Is the category enabled?</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
+      <td colspan="1" class="confluenceTd"><strong>name*</strong>
+      </td>
+      <td colspan="1" class="confluenceTd">Product name.</td>
+      <td colspan="1" class="confluenceTd">String,
+        <br>Multilingual&nbsp;</td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd">showTitle</td>
-      <td colspan="1" class="confluenceTd">Option to show category title</td>
-      <td colspan="1" class="confluenceTd">Yes/No</td>
-    </tr>
-    <tr>
-      <td colspan="1" class="confluenceTd">position</td>
-      <td colspan="1" class="confluenceTd">Internal value of the category order. May not be negative. A smaller number means a higher position in the order.</td>
-      <td colspan="1" class="confluenceTd">Integer</td>
+      <td colspan="1" class="confluenceTd">price</td>
+      <td colspan="1" class="confluenceTd">Default product price.</td>
+      <td colspan="1" class="confluenceTd">Float (e.g. 1.00)</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">memberships</td>
-      <td colspan="1" class="confluenceTd">Membership types, which members can see the category. <span style="color: rgb(0,0,0);">Do not set it if you want to make the category visible to all customers. Otherwise, it will be visible to the users assigned to specified membership only.</span>
+      <td colspan="1" class="confluenceTd">
+        <p>Membership types, which members can see the product. Do not set it if you want to make the product visible to all customers. Otherwise it will be visible to the users assigned to specified membership only.
+        </p>
       </td>
       <td colspan="1" class="confluenceTd">String,
         <br>Multiple&nbsp;</td>
     </tr>
     <tr>
-      <td class="confluenceTd">image</td>
-      <td class="confluenceTd">
-        <p>Location of the image representing the category. This can be one of the following:</p>
-        <ul>
-          <li>Image URL</li>
-          <li>Path to the image on the server relative to the &lt;xcart directory&gt;/var/import folder; for example,&nbsp;images/categories/image1.png.</li>
-        </ul>
-        <p>When exporting data from X-Cart, image paths are written to the export file using the latter method (relative path). This way when you need to re-import images back into X-Cart, you simply move the folder &lt;xcart directory&gt;/var/export/images to var/import/ - and use the existing relative paths).</p>
+      <td class="confluenceTd"><span>description
       </td>
-      <td class="confluenceTd">String</td>
-    </tr>
-    <tr>
-      <td class="confluenceTd">cleanURL</td>
-      <td class="confluenceTd">
-        <p>SEO friendly URL of the category page.</p>
-        <p>Example: toys</p>
-      </td>
-      <td class="confluenceTd">String</td>
-    </tr>
-    <tr>
-      <td class="confluenceTd"><strong>*name</strong>
-      </td>
-      <td class="confluenceTd">Category name.</td>
-      <td class="confluenceTd">String,
-        <br>Multilingual&nbsp;</td>
-    </tr>
-    <tr>
-      <td class="confluenceTd">description</td>
-      <td colspan="1" class="confluenceTd">Full description of the category.</td>
+      <td colspan="1" class="confluenceTd">Full description of the product.</td>
       <td colspan="1" class="confluenceTd">
         <p>String,
           <br>Multilingual,
@@ -111,74 +81,475 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd">metaTags</td>
-      <td class="confluenceTd"><span>Defines the content of &lt;meta name="keywords" content="%value%"&gt; meta tag</span>
+      <td class="confluenceTd"><span>briefDescription
       </td>
-      <td class="confluenceTd">String,
+      <td colspan="1" class="confluenceTd">Brief description of the product that is shown on the catalog pages.</td>
+      <td colspan="1" class="confluenceTd">String<span>,
+        <br><span>Multilingual,<br>HTML allowed&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">enabled</td>
+      <td colspan="1" class="confluenceTd">Whether product is enabled.</td>
+      <td colspan="1" class="confluenceTd">Yes/No</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">weight</td>
+      <td colspan="1" class="confluenceTd">Product weight.</td>
+      <td colspan="1" class="confluenceTd">Float (e.g. 8.00)</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">shippable</td>
+      <td colspan="1" class="confluenceTd">Whether product can be shipped</td>
+      <td colspan="1" class="confluenceTd">Yes/No</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">images</td>
+      <td colspan="1" class="confluenceTd">
+        <p>For any image that needs to be imported you need to specify the image location. This can be one of the following:</p>
+        <ul>
+          <li>Image URL</li>
+          <li>Path to the image on the server relative to the &lt;xcart directory&gt;/var/import folder<span>; for example, images/products/image1.png.</li>
+        </ul>
+        <p>When exporting data from X-Cart, image paths are written to the export file using the latter method (relative path).</p>
+        <p>This way when you need to re-import images back into X-Cart, you simply move the folder &lt;xcart directory&gt;/var/export/images to var/import/ - and use the existing relative paths).</p>
+        <p>It is possible to specify more than one images for import by separating the image paths with the '&amp;&amp;' symbols; for example, images/products/image1.png&amp;&amp;images/products/images2.png.</p>
+      </td>
+      <td colspan="1" class="confluenceTd">String,
+        <br>Multiple&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">imagesAlt</td>
+      <td colspan="1" class="confluenceTd">
+        <p>Text for alt property of images. This text will be shown when an image is not loaded for some reason.</p>
+        <p>If many images are assigned to the product, many alt texts can be imported as well. These alt texts must be separated by '&amp;&amp;' construction.</p>
+        <p>Examples:</p>
+        <ul>
+          <li>Alt text for first image (1 alt text)</li>
+          <li>Alt text for first image&amp;&amp;Alt text for second image (2 alt texts)</li>
+        </ul>
+      </td>
+      <td colspan="1" class="confluenceTd">String,
+        <br>Multiple,
+        <br>Max. length: 255&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">arrivalDate</td>
+      <td colspan="1" class="confluenceTd">Date when the product will be available for sale.</td>
+      <td colspan="1" class="confluenceTd">Date (e.g. 1 Jan 2013)</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">date</td>
+      <td colspan="1" class="confluenceTd">Date when the product is created in X-Cart admin area.</td>
+      <td colspan="1" class="confluenceTd">Date (e.g. 1 Jan 2013)</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">updateDate</td>
+      <td colspan="1" class="confluenceTd">Date when the product was updated last time.</td>
+      <td colspan="1" class="confluenceTd">Date (e.g. 1 Jan 2013)</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">inventoryTrackingEnabled</td>
+      <td colspan="1" class="confluenceTd">Whether inventory (stock) tracking is enabled.</td>
+      <td colspan="1" class="confluenceTd">Yes/No</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">stockLevel</td>
+      <td colspan="1" class="confluenceTd">Current stock level.</td>
+      <td colspan="1" class="confluenceTd">Integer</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">lowLimitLevel</td>
+      <td class="confluenceTd">When stock of the product reaches this amount, admin will get a notification about low limit of these goods.</td>
+      <td class="confluenceTd">Integer (e.g. 10)</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">lowLimitEnabled</td>
+      <td colspan="1" class="confluenceTd">Whether low stock notification is enabled</td>
+      <td colspan="1" class="confluenceTd">Yes/No</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">categories</td>
+      <td colspan="1" class="confluenceTd">
+        <p>Defines what categories this product belongs to. Nested categories are separated by &gt;&gt;&gt; construction.</p>
+        <p>It allows to specify multiple categories. They are separated by &amp;&amp; construction.</p>
+        <p>Examples:</p>
+        <ul>
+          <li>Toys (product is assigned to root category Toys)</li>
+          <li>Toys&gt;&gt;&gt;Cube Goodies (product is assigned to the second level category Toys/Cube Goodies)</li>
+          <li>Toys&amp;&amp;Toys&gt;&gt;&gt;Cube Goodies (products is assigned to two categories: Toys and Toys/Cube Goodies)</li>
+        </ul>
+      </td>
+      <td colspan="1" class="confluenceTd">String,
+        <br>Multiple&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">cleanURL</td>
+      <td colspan="1" class="confluenceTd">
+        <p>SEO friendly URL of the product page.</p>
+        <p>Example: apple.html</p>
+      </td>
+      <td colspan="1" class="confluenceTd">String</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">useSeparateBox</td>
+      <td colspan="1" class="confluenceTd">Whether you use separate box for this item when you ship it</td>
+      <td colspan="1" class="confluenceTd">Yes/No</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">boxWidth</td>
+      <td colspan="1" class="confluenceTd">If <strong>useSeparateBox </strong>option is <strong>Yes</strong>, this field defines the width of the custom box for this product</td>
+      <td colspan="1" class="confluenceTd">Float (e.g. 1.00)</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">boxLength</td>
+      <td colspan="1" class="confluenceTd"><span>If <strong>useSeparateBox </strong><span>option <span>is <strong>Yes</strong><span>, this field defines the length of the custom box for this product
+      </td>
+      <td colspan="1" class="confluenceTd"><span>Float (e.g. 1.00)
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">boxHeight</td>
+      <td colspan="1" class="confluenceTd"><span>If <strong>useSeparateBox </strong><span>option <span>is <strong>Yes</strong><span>, this field defines the height of the custom box for this product
+      </td>
+      <td colspan="1" class="confluenceTd"><span>Float (e.g. 1.00)
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">itemsPerBox</td>
+      <td colspan="1" class="confluenceTd"><span>If <strong>useSeparateBox </strong><span>option <span>is <strong>Yes, </strong>this field defines what quantity of the product can be shipped in this box.</td>
+      <td colspan="1" class="confluenceTd">Integer (e.g. 3)</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">metaTags</td>
+      <td colspan="1" class="confluenceTd"><span>Defines the content of &lt;meta name="keywords" content="%value%"&gt; meta tag
+      </td>
+      <td colspan="1" class="confluenceTd">String,
         <br>Multilingual,
         <br>Max. length: 255&nbsp;</td>
     </tr>
     <tr>
-      <td class="confluenceTd">metaDesc</td>
-      <td class="confluenceTd">Defines the content of &lt;meta name="description" content="%value%"&gt; meta tag</td>
-      <td class="confluenceTd">String,
+      <td colspan="1" class="confluenceTd">metaDesc</td>
+      <td colspan="1" class="confluenceTd">Defines the content of &lt;meta name="description" content="%value%"&gt; meta tag</td>
+      <td colspan="1" class="confluenceTd">String,
         <br>Multilingual&nbsp;</td>
     </tr>
     <tr>
-      <td class="confluenceTd">metaDescType</td>
-      <td class="confluenceTd">
+      <td colspan="1" class="confluenceTd">metaDescType</td>
+      <td colspan="1" class="confluenceTd">
         <p>Defines meta description content type. Can be either <strong>A </strong>or <strong>C</strong>, where:</p>
         <ul>
-          <li><strong>A</strong> stands for automatic mode when meta description will be generated from category description;</li>
+          <li><strong>A</strong> stands for automatic mode when meta description will be generated from product description;</li>
           <li>C stands for custom mode when meta desciption will be taken from <strong>metaDesc_* </strong>field in appropriate translation*;
             <br>*this means that if the store is in <em>English</em> language, meta description will be taken from <strong>metaDesc_en</strong> field.</li>
         </ul>
       </td>
-      <td class="confluenceTd">String,
+      <td colspan="1" class="confluenceTd">String,
         <br>Max. length: 1&nbsp;</td>
     </tr>
     <tr>
-      <td class="confluenceTd">metaTitle</td>
-      <td class="confluenceTd"><span>Defines the content of &lt;meta name="title" content="%value%"&gt; meta tag</span>
+      <td colspan="1" class="confluenceTd">metaTitle</td>
+      <td colspan="1" class="confluenceTd"><span>Defines the content of &lt;meta name="title" content="%value%"&gt; meta tag
       </td>
-      <td class="confluenceTd">String<span>,</span>
-        <br><span>Multilingual,</span>
-        <br><span>Max. length: 255&nbsp;</span>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>GoSocial</strong> module</em>
+      <td colspan="1" class="confluenceTd">String<span>,
+        <br><span>Multilingual,
+        <br><span>Max. length: 255&nbsp;
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd"><span><span>useCustomOpenGraphMeta</span></span>
-      </td>
-      <td class="confluenceTd">Defines whether use custom Open Graph meta tags for this product or use default ones</td>
-      <td class="confluenceTd">Yes/No</td>
-    </tr>
-    <tr>
-      <td class="confluenceTd"><span>openGraphMeta</span>
-      </td>
-      <td class="confluenceTd">If <strong><span>useCustomOpenGraphMeta</span></strong> is <strong>Yes</strong>, then defines custom Open Graph meta tags</td>
+      <td class="confluenceTd">productClass</td>
       <td class="confluenceTd">
+        <p>Defines attribute class for a product. See also:</p>
+        <ul>
+          <li><a href="/display/XDD/Product+classes+and+attributes">Product classes and attributes</a>
+          </li>
+        </ul>
+      </td>
+      <td class="confluenceTd">String</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">taxClass</td>
+      <td class="confluenceTd">Defines tax class for a product</td>
+      <td class="confluenceTd">String</td>
+    </tr>
+    <tr>
+      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Go Social</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd"><span><span>useCustomOpenGraphMeta
+      </td>
+      <td colspan="1" class="confluenceTd">Defines whether use custom Open Graph meta tags for this product or use default ones</td>
+      <td colspan="1" class="confluenceTd">Yes/No</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd"><span>openGraphMeta
+      </td>
+      <td colspan="1" class="confluenceTd">If <strong><span>useCustomOpenGraphMeta</strong> is <strong>Yes</strong>, then defines custom Open Graph meta tags</td>
+      <td colspan="1" class="confluenceTd">
         <p>String,
           <br>HTML allowed,
           <br>Scripting allowed&nbsp;</p>
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Product Filter</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Product Attachments</strong> module</em>
       </td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd">productClasses</td>
-      <td colspan="1" class="confluenceTd">&nbsp;</td>
-      <td colspan="1" class="confluenceTd">&nbsp;</td>
+      <td colspan="1" class="confluenceTd">attachments</td>
+      <td colspan="1" class="confluenceTd">
+        <p>Defines what files are attached to this product.</p>
+        <p>Multiple files can be attached and they must be separated by &amp;&amp; construction.</p>
+        <p>Examples:</p>
+        <ul>
+          <li>path/to/my/files/user-manual.pdf (1 file)</li>
+          <li>path/to/my/files/user-manual.pdf&amp;&amp;path/to/my/files/spec.pdf (2 files)</li>
+        </ul>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>String,
+          <br>Multiple&nbsp;</p>
+      </td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd">useClasses</td>
-      <td colspan="1" class="confluenceTd">&nbsp;</td>
-      <td colspan="1" class="confluenceTd">&nbsp;</td>
+      <td colspan="1" class="confluenceTd">attachmentsTitle</td>
+      <td colspan="1" class="confluenceTd">
+        <p>Defines the titles of attachment files.</p>
+        <p>This field supports titles for many attachments and they must be separated by &amp;&amp; construction.</p>
+        <p>Examples:</p>
+        <ul>
+          <li>User manual (title of 1 attachment)</li>
+          <li><span>User manual&amp;&amp;Tech spec (title of 2 attachments)
+          </li>
+        </ul>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>String,
+          <br>Multiple,
+          <br>Multilingual,
+          <br>Max. length: 128&nbsp;</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">
+        <p>attachmentsDescription</p>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>Defines the description of attachments file.</p>
+        <p><span>This field supports descriptions for many attachments and they must be separated by &amp;&amp; construction.
+        </p>
+        <p>Examples:</p>
+        <ul>
+          <li>This is a user manual for the product (description for 1 attachment)</li>
+          <li>This is a user manual for the product&amp;&amp;This is a tech spec for the product (description for 2 attachments)</li>
+        </ul>
+      </td>
+      <td colspan="1" class="confluenceTd">String,
+        <br>Multiple,
+        <br>Multilingual&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>E-Goods</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd"><span>attachmentsPrivate
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>Defines what attachments are private and available after order is paid (e-goods) and what attachments are available right from the product page (m<span>odules <strong>Product Attachments</strong><span> and <strong>E-Goods</strong><span> must be enabled)
+        </p>
+        <p>In case of many attachments, you can mark some of them as private and some as publicly available. Multiple values must be separated by &amp;&amp; construction.</p>
+        <p>Example:</p>
+        <ul>
+          <li>Yes (the product has one attachment and it is private)</li>
+          <li>Yes&amp;&amp;No (the product has two attachments, the first is private and the second is public)</li>
+        </ul>
+      </td>
+      <td colspan="1" class="confluenceTd">Yes/No,
+        <br>Multiple&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Market Price</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">marketPrice</td>
+      <td colspan="1" class="confluenceTd">
+        <p>Defines the market price of the product, so your customers can estimate how much discount they get, if they buy a product from you.</p>
+      </td>
+      <td colspan="1" class="confluenceTd">Float (e.g. 5.00)</td>
+    </tr>
+    <tr>
+      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Sale</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">sale</td>
+      <td colspan="1" class="confluenceTd">
+        <p>Defines your discount for this product.</p>
+        <p>It can have two types of values (absolute discount and percent one):</p>
+        <ul>
+          <li>10.00 means that this product will receive $10 discount, assuming that dollar is your store currency.</li>
+          <li>%10 means that this product will receive 10% discount</li>
+        </ul>
+      </td>
+      <td colspan="1" class="confluenceTd">String</td>
+    </tr>
+    <tr>
+      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Multivendor</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">vendor</td>
+      <td colspan="1" class="confluenceTd">Product vendor login name</td>
+      <td colspan="1" class="confluenceTd">String</td>
+    </tr>
+    <tr>
+      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Product Variants</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">variantSKU</td>
+      <td colspan="1" class="confluenceTd">Product variant SKU<span> (if empty, takes SKU from parent product)
+      </td>
+      <td colspan="1" class="confluenceTd">String,
+        <br>Max. length: 32,
+        <br>Multirow&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">variantPrice</td>
+      <td colspan="1" class="confluenceTd">Product variant price (if empty, takes price from parent product)</td>
+      <td colspan="1" class="confluenceTd">Float<span>,
+        <br><span>Multirow&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">variantQuantity</td>
+      <td colspan="1" class="confluenceTd">Product variant quantity <span>(if empty, takes quantity from parent product)
+      </td>
+      <td colspan="1" class="confluenceTd">Integer<span>,
+        <br><span>Multirow&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">variantWeight</td>
+      <td colspan="1" class="confluenceTd"><span>Product variant weight <span>(if empty, takes weight from parent product)
+      </td>
+      <td colspan="1" class="confluenceTd">Float<span>,
+        <br><span>Multirow&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">variantImage</td>
+      <td colspan="1" class="confluenceTd">Product variant image location</td>
+      <td colspan="1" class="confluenceTd">String<span>,
+        <br><span>Multirow&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">variantImageAlt</td>
+      <td colspan="1" class="confluenceTd">Product variant image alt text</td>
+      <td colspan="1" class="confluenceTd">String,
+        <br>Max. length: 32<span>,
+        <br><span>Multirow&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Wholesale</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">wholesalePrices</td>
+      <td class="confluenceTd">
+        <p>Defines wholesale prices for the product.</p>
+        <p>Examples:</p>
+        <ol>
+          <li>You want to set up price tiers as follows:
+            <br>If a customer buys from 1 to 5 items, each item will cost $50
+            <br><span style="line-height: 1.4285715;">If they buy from 6 items, then the price will be $45<br><br>Then you would need to specify this system as follows in the CSV file:<br><strong>1-5=50.00&amp;&amp;6=45.00</strong>&nbsp;
+            <br><span style="line-height: 1.4285715;"><br>
+          </li>
+          <li><span style="line-height: 1.4285715;">You want to set up price tiers as follows:<br><span>If a customer buys from 1 to 5 items, each item will cost $50
+            <br><span>If they buy from 6 items, then the price will be $45<br>If a customer with Wholesaler membership buys from 3 items, then the price will be $40&nbsp;<br><br><span>Then you would need to specify this system as follows in the CSV file:
+            <br><span>&nbsp;<strong>1-5=50.00&amp;&amp;6=45.00&amp;&amp;3(Wholesaler)=40.00</strong>
+            
+            
+          </li>
+        </ol>
+      </td>
+      <td class="confluenceTd">String,
+        <br>Multiple&nbsp;</td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">variantWholesalePrices</td>
+      <td class="confluenceTd">
+        <p><span>Defines wholesale prices for the product variant.
+        </p>
+        <p><strong>Product Variants</strong> module must be enabled.</p>
+      </td>
+      <td class="confluenceTd">String,
+        <br>Multiple,
+        <br>Multirow&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>System Fields</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">upcIsbn</td>
+      <td class="confluenceTd">UPC/ISBN code</td>
+      <td class="confluenceTd">String,
+        <br>Max. length: 32&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">mnfVendor</td>
+      <td colspan="1" class="confluenceTd">Manufacturer of the product</td>
+      <td colspan="1" class="confluenceTd">String,
+        <br>Max. length: 64&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">
+        <p>variantupcIsbn</p>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>Product variant <span>UPC/ISBN code.
+        </p>
+        <p><span>&nbsp;<strong>Product Variants</strong> module must be enabled.</p>
+      </td>
+      <td colspan="1" class="confluenceTd"><span>String,
+        <br><span>Max. length: 32,<br>Multirow&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd"><span>variantmnfVendor
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p><span>Manufacturer of the product variant.
+        </p>
+        <p><span><strong>Product Variants</strong><span> module must be enabled.
+        </p>
+      </td>
+      <td colspan="1" class="confluenceTd"><span>String,
+        <br><span>Max. length: 64,<br>Multirow&nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3" class="confluenceTd"><em>Fields added by <strong>Upselling Product</strong> module</em>
+      </td>
+    </tr>
+    <tr>
+      <td class="confluenceTd">relatedProducts</td>
+      <td class="confluenceTd">
+        <p>SKUs of related products. You can specify several products separating them with '&amp;&amp;' symbols.</p>
+        <p>Examples:</p>
+        <ul>
+          <li>SKU1 (1 product)</li>
+          <li>SKU1&amp;&amp;SKU2 (2 products)</li>
+        </ul>
+      </td>
+      <td class="confluenceTd">String,
+        <br>Multiple&nbsp;</td>
     </tr>
   </tbody>
 </table>
