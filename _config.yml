@@ -48,3 +48,8 @@ lang:
 # Sort orders
 
 sort_default: order
+
+# Category-wide Page ranking
+
+category_pr:
+    changelog: 0.2
