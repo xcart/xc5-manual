@@ -69,13 +69,13 @@ categories:
     для zip-архива:
 
     ```php
-    unzip x-cart-5.3.1.2-en.zip
+    unzip x-cart-5.3.1.3-en.zip
     ```
 
     для tgz-архива: 
 
     ```php
-    tar -xzpf x-cart-5.3.1.2-en.tgz
+    tar -xzpf x-cart-5.3.1.3-en.tgz
     ```
 
 ## Создайте базу данных
