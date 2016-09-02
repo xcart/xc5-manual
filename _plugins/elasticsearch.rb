@@ -5,13 +5,14 @@
 # See readme file for documenation
 #
 # Author: Junichiro Takagi, Eugene Dementjev
-# Version: 0.2.6
+# Version: 0.2.7
 
 require 'elasticsearch'
 require 'oj'
 require 'digest/md5'
 require 'date'
 require "nokogiri"
+require 'htmlentities'
 
 module Jekyll
 
@@ -261,8 +262,10 @@ module Jekyll
         puts 'in file ' + page['path']
       end
 
+      coder = HTMLEntities.new
+
       doc = Nokogiri::HTML(bare.output)
-      doc.xpath("//text()").to_s
+      coder.encode(doc.xpath("//text()").to_s)
     end
 
   end
