@@ -1,17 +1,18 @@
 ---
-identifier: ref_SkW62BgH
-updated_at: 2016-03-11 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Vendor registration'
+layout: article_with_sidebar
+updated_at: '2016-09-07 17:35 +0400'
+identifier: ref_SkW62BgH
+title: Vendor registration
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 In a multi-vendor X-Cart 5 based store, new vendors are added using one of the following two methods:
 
-## Method 2 
+## Method 1
 
 A prospective vendor registers a vendor profile using a special page; the store administrator is notified of the new vendor registration and can review the registered user profile in the store's Admin area. After reviewing the vendor profile the administrator can either approve the registration or reject it.
 
