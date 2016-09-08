@@ -1,12 +1,13 @@
 ---
-identifier: ref_nJxrzFEZ
-updated_at: 2016-01-08 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up seo-friendly URLs'
+layout: article_with_sidebar
+updated_at: '2016-09-08 09:33 +0400'
+identifier: ref_nJxrzFEZ
+title: Setting up seo-friendly URLs
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -94,7 +95,7 @@ location / {
 
   if (!-e $request_filename){
      rewrite ^/sitemap.xml(\?.+)?$ /cart.php?target=sitemap;
-     rewrite ^((([./_a-z0-9-]+?)/)?([._a-z0-9-]+?)/)?([._a-z0-9-]+?)(/?)(\.([_a-z0-9-]+))?$ /cart.php?url=$5&last=$4&rest=$3&ext=$7 last;
+     rewrite ^(.*)$ /cart.php?url=$1 last;
   }
 }
 ```
