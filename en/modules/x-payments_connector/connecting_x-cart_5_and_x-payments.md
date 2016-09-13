@@ -109,5 +109,6 @@ That's it. Now you are all set and ready to process payments in your X-Cart 5 st
 
 
 _Related pages:_
+
 *   {% link "X-Payments connector: System requirements and installation" ref_025khQBN %}
 
