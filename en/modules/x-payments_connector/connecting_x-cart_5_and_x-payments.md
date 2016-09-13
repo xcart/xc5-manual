@@ -1,12 +1,13 @@
 ---
-identifier: ref_UFLdTRDQ
-updated_at: 2015-08-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Connecting X-Cart 5 and X-Payments'
+layout: article_with_sidebar
+updated_at: '2016-09-13 12:14 +0400'
+identifier: ref_UFLdTRDQ
+title: Connecting X-Cart 5 and X-Payments
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
