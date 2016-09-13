@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-13 12:14 +0400'
+updated_at: '2016-09-13 12:34 +0400'
 identifier: ref_UFLdTRDQ
 title: Connecting X-Cart 5 and X-Payments
 categories:
@@ -106,3 +106,8 @@ Complete the following steps:
     Please note that if you enable this option in X-Cart, you must also select an iframe based template for your X-Cart 5 store in the X-Payments admin back end.
 
 That's it. Now you are all set and ready to process payments in your X-Cart 5 store using X-Payments.
+
+
+_Related pages:_
+*   {% link "X-Payments connector: System requirements and installation" ref_025khQBN %}
+
