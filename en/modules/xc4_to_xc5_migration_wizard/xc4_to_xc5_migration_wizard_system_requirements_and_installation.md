@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-15 16:58 +0400'
+updated_at: '2016-09-15 17:15 +0400'
 identifier: ref_KqsCJNRG
 title: ''
 order: 100
@@ -24,4 +24,4 @@ As a result, you should have the module "XC4 to XC5 Migration wizard" installed 
 
 ![xc5_migration_module_installed.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/xc5_migration_module_installed.png?effects=drop-shadow)
 
-After the module has been installed, you are ready to proceed to the migration of your data and settings. See {% link "Using the module «XC4 to XC5 Migration wizard»" ref_FnFqUsage %} for detailed info.
+After the module has been installed, you are ready to proceed to the migration of your data and settings. See {% link "Using the module 'XC4 to XC5 Migration wizard'" ref_Ah935naM %} for detailed info.
