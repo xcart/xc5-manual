@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-15 17:15 +0400'
+updated_at: '2016-09-16 00:19 +0400'
 identifier: ref_KqsCJNRG
-title: ''
+title: XC4 to XC5 Migration wizard system requirements and installation
 order: 100
 published: false
 version: X-Cart 5.3.0 and later
