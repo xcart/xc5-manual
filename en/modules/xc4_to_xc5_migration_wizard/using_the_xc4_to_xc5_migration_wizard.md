@@ -29,7 +29,15 @@ As a result, the second step of the wizard will be loaded - "2. Connect":
     
     If the standard fields are not enough to provide all the necessary connection details, please use the **Advanced options** section (expands at the click of the respective button): 
 ![xc5_migration_wizard_connect2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect2.png?effects=drop-shadow)
-jn
+
+The **Advanced options** section allows you to enter the following info:
+    * **Host name** (Name of the server where your X-Cart 4 database is located)
+    * **Port number** 
+    * **Socket**
+    * **Table prefix** 
+    
+![xc5_migration_wizard_connect2_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect2_1.png?effects=drop-shadow)
+
 ![xc5_migration_wizard_connect3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect3.png?effects=drop-shadow)
 ,j
 ![xc5_migration_wizard_connect4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect4.png?effects=drop-shadow)
