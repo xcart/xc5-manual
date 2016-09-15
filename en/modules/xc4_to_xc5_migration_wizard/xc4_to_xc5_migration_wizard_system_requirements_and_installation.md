@@ -11,7 +11,7 @@ At the moment of writing this article, the module "XC4 to XC5 Migration wizard"
 
 To migrate your X-Cart 4 store to X-Cart 5, you need:
 1) Your existing X-Cart 4 store. 
-2) A fresh installation of X-Cart 5 (**Important**: Be sure to use the default build configuration that you get right out of the distribution package. Do not install any additional modules and do not attempt any customizations of the X-Cart 5 store's default functionality or look & feel before your X-Cart 4 data and settings have been fully migrated.)
+2) A fresh installation of X-Cart 5. **Important**: Be sure to use the default build configuration that you get right out of the distribution package. Do not install any additional modules and do not attempt any customizations of the X-Cart 5 store's default functionality or look & feel before your X-Cart 4 data and settings have been fully migrated.
 
 The module can be obtained via X-Cart’s Marketplace:
 ![xc5_migration_module_install.png]({{site.baseurl}}/attachments/ref_KqsCJNRG/xc5_migration_module_install.png?effects=drop-shadow)
