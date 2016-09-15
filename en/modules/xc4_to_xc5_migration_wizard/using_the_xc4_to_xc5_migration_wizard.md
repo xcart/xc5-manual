@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-15 17:07 +0400'
+updated_at: '2016-09-15 17:29 +0400'
 identifier: ref_Ah935naM
 title: Using the module "XC4 to XC5 Migration wizard"
-order: 110
+order: 130
 published: false
 version: X-Cart 5.3.0 and later
 ---
@@ -24,9 +24,3 @@ jn
 ![xc5_migration_wizard_connect4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect4.png?effects=drop-shadow)
 kjk
 ![xc5_migration_wizard_connect5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect5.png?effects=drop-shadow)
-
-
-
-
-
-
