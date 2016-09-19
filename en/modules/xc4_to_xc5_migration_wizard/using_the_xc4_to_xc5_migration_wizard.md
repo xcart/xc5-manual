@@ -35,7 +35,7 @@ As a result, the second step of the wizard will be loaded - "2. Connect":
     * **Host name**: The name of the host where your MySQL server is running.
     * **Port number**: The port number to use for the connection, for connections made using TCP/IP. The default port number is 3306.
     * **Socket**: The MySQL Unix socket.
-    * **Table prefix**: The table prefix used in your X-Cart 4 database (as was specified during X-Cart 4 installation). If you do not remember the table prefix that was used for your X-Cart 4 store, you can look it up in the file init.php of your X-Cart 4.x installation (in X-Cart versions 4.5.3 and later, see the value of XC_TBL_PREFIX; in earlier versions - the value of xcart_tbl_prefix). The default table prefix for all X-Cart 4 versions is "xcart_".
+    * **Table prefix**: The table prefix used in your X-Cart 4 database (as was specified during X-Cart 4 installation). If you do not remember the table prefix that was used for your X-Cart 4 store, you can look it up in the file init.php of your X-Cart 4.x installation (in X-Cart versions 4.5.3 and later, see the value of `XC_TBL_PREFIX`; in earlier versions - the value of `xcart_tbl_prefix`). The default table prefix for all X-Cart 4 versions is `xcart_`.
     
 ![xc5_migration_wizard_connect2_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect2_1.png?effects=drop-shadow)
 
