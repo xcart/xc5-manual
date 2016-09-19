@@ -23,7 +23,9 @@ To use the wizard:
 As a result, the second step of the wizard will be loaded - "2. Connect":
 ![xc5_migration_wizard_connect1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect1.png?effects=drop-shadow)
 
-3.  At the second step of the wizard ("2. Connect"), specify your X-Cart 4 store database connection details. The standard set of fields to complete is as follows:
+3.  At the second step of the wizard ("2. Connect"), specify your X-Cart 4 store database connection details. 
+
+The standard set of fields to complete is as follows:
     * **Database name**: The name of your X-Cart 4 database.
     * **Database username**: The username of your MySQL account.
     * **Database password**: The password of your MySQL account.
@@ -36,11 +38,13 @@ As a result, the second step of the wizard will be loaded - "2. Connect":
     * **Port number**: The port number to use for the connection, for connections made using TCP/IP. The default port number is 3306.
     * **Socket**: The MySQL Unix socket.
     * **Table prefix**: The table prefix used in your X-Cart 4 database (as was specified during X-Cart 4 installation). If you do not remember the table prefix that was used for your X-Cart 4 store, you can look it up in the file init.php of your X-Cart 4.x installation (in X-Cart versions 4.5.3 and later, see the value of `XC_TBL_PREFIX`; in earlier versions - the value of `xcart_tbl_prefix`). The default table prefix for all X-Cart 4 versions is `xcart_`.
-    
+
 ![xc5_migration_wizard_connect2_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect2_1.png?effects=drop-shadow)
 
+jlkmlk
 ![xc5_migration_wizard_connect3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect3.png?effects=drop-shadow)
-,j
+
+uyuiy
 ![xc5_migration_wizard_connect4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect4.png?effects=drop-shadow)
 kjk
 ![xc5_migration_wizard_connect5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect5.png?effects=drop-shadow)
