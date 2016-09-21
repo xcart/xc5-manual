@@ -41,8 +41,8 @@ To use the wizard:
     ![xc5_migration_wizard_connect2_1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect2_1.png?effects=drop-shadow)
 
     After specifying the above details, provide the following settings:
-    * Encryption key: 
-    * Site URL: 
+    * Encryption key: Your X-Cart 4 store Blowfish key (the secret key needed for access to certain types of data stored in X-Cart 4 in encrypted form, such as user passwords). For more info on X-Cart 4 Blowfish key, see [X-Cart 4 manual](http://help.x-cart.com/index.php?title=X-Cart:Blowfish#Blowfish_key_based_encryption_method "X-Cart 4 manual").
+    * Site URL: The URL of your X-Cart 4 store.
     ![xc5_migration_wizard_connect3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect3.png?effects=drop-shadow)
     
     Click **Save and continue**:
@@ -52,5 +52,28 @@ To use the wizard:
 
 4.  Using the connection details provided at the previous step, your X-Cart 5 store tries to connect to the specified X-Cart 4 database. Provided that the connection details have been specified correctly, at the third step of the wizard ("3. Step-Check") you should be able to see a summary of information that X-Cart 5 could obtain regarding your X-Cart 4 store:
     ![xc5_migration_wizard_check1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_check1.png?effects=drop-shadow)
+    
+    Click **Continue** to proceed.
+    ![xc5_migration_wizard_check2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_check2.png?effects=drop-shadow)
+
+    
+5. At the fourth step of the wizard ("4. Step-Select"), you will see a list of data types that can be migrated from your X-Cart 4 store to X-Cart 5, with check boxes:
+    ![xc5_migration_wizard_select1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_select1.png?effects=drop-shadow)
+    
+    Use the check boxes to select the data types that you want to be moved to X-Cart 5, then click **Save and continue**:
+    ![xc5_migration_wizard_select2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_select2.png?effects=drop-shadow)
+    
+6. jh
+    ![xc5_migration_wizard_transfer1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer1.png?effects=drop-shadow)
+    
+    jk
+    ![xc5_migration_wizard_transfer2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer2.png?effects=drop-shadow)
+    
+    jjjnn
+    ![xc5_migration_wizard_transfer3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer3.png?effects=drop-shadow)
+
+
+
+
 
 
