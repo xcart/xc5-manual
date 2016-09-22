@@ -57,13 +57,23 @@ To use the wizard:
     ![xc5_migration_wizard_check2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_check2.png?effects=drop-shadow)
 
     
-5. At the fourth step of the wizard ("4. Step-Select"), you will see a list of data types that can be migrated from your X-Cart 4 store to X-Cart 5, with check boxes:
+5.  At the fourth step of the wizard ("4. Step-Select"), you will see a list of data types that can be migrated from your X-Cart 4 store to X-Cart 5, with check boxes:
     ![xc5_migration_wizard_select1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_select1.png?effects=drop-shadow)
     
     Use the check boxes to select the data types that you want to be moved to X-Cart 5, then click **Save and continue**:
     ![xc5_migration_wizard_select2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_select2.png?effects=drop-shadow)
     
-6. jh
+6.  If the module detects that your X-Cart 4 installation has features that are lacking in X-Cart 5 default distribution pack, but can be implemented by enabling certain X-Cart 5 add-on modules, at the next step of the wizard ("5. Step-Enable"), it will provide you with a list of X-Cart 5 modules that you should enable so you can have the same features as in your X-Cart 4 store:
+    ![xc5_migration_wizard_enable1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable1.png?effects=drop-shadow)
+    
+    Click **Enable and continue**:
+    ![xc5_migration_wizard_enable2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable2.png?effects=drop-shadow)
+
+    The modules will be enabled:
+    ![xc5_migration_wizard_enable3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable3.png?effects=drop-shadow)
+
+7.  At the next step ("6. Step-Transfer"),   
+
     ![xc5_migration_wizard_transfer1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer1.png?effects=drop-shadow)
     
     jk
