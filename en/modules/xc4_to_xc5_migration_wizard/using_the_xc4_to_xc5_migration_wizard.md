@@ -69,9 +69,16 @@ To use the wizard:
     Click **Enable and continue**:
     ![xc5_migration_wizard_enable2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable2.png?effects=drop-shadow)
 
-    The modules will be enabled:
+    The modules will be activated:
     ![xc5_migration_wizard_enable3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable3.png?effects=drop-shadow)
+    
+    Note that not all of the activated modules may be free. If any paid modules are installed and activated at this step, you will get a license warning like following:
+    ![xc5_migration_wizard_paid_license.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_paid_license.png?effects=drop-shadow)
+    This means that you have the following options available to you:
+    *   Purchase licenses for the installed paid modules and activate your license keys;
+    *   Remove the installed modules from your store.
 
+    
 7.  At the next step ("6. Step-Transfer"),   
 
     ![xc5_migration_wizard_transfer1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer1.png?effects=drop-shadow)
