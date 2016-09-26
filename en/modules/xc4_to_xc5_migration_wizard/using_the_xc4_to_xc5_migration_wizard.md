@@ -72,24 +72,25 @@ To use the wizard:
     The modules will be activated:
     ![xc5_migration_wizard_enable3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable3.png?effects=drop-shadow)
     
-    Note that not all of the activated modules may be free. If any paid modules are installed and activated at this step, you will get a license warning like following:
+    Note that not all of the activated modules may be free. If any paid modules are installed and activated at this step, you will get a license warning like the following:
     ![xc5_migration_wizard_paid_license.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_paid_license.png?effects=drop-shadow)
-    This means that you have the following options available to you:
+    The warning means that you have two options available to you:
     *   Purchase licenses for the installed paid modules and activate your license keys;
     *   Remove the installed modules from your store.
 
+    After adjusting the module set that will be used by your X-Cart 5 store, you will be able to move on to the next wizard step.
     
-7.  At the next step ("6. Step-Transfer"),   
+7.  By the next step ("6. Step-Transfer"), the wizard has collected all the information it requires and is ready to start the data migration process. You can see a list of X-Cart entities that will be transfered from your X-Cart 4 store to the X-Cart 5 platform:
 
     ![xc5_migration_wizard_transfer1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer1.png?effects=drop-shadow)
     
-    jk
+    Click **Start migration**.
     ![xc5_migration_wizard_transfer2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer2.png?effects=drop-shadow)
     
-    jjjnn
+    The migration process begins:
     ![xc5_migration_wizard_transfer3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer3.png?effects=drop-shadow)
 
-
+    Note that the migration process, which may take a while to complete, only continues while the page is open. So be sure to keep the page open or, if you have to close it for a while, be sure to re-open it to allow the migration module to finish its work.
 
 
 
