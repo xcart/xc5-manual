@@ -1,12 +1,13 @@
 ---
-identifier: ref_xqnpttd4
-updated_at: 2014-09-02 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting time limit of your server'
+layout: article_with_sidebar
+updated_at: '2016-09-27 23:20 +0400'
+identifier: ref_xqnpttd4
+title: Setting the time limit of your server
 categories:
   - Developer docs
-
+published: true
+order: 120
 ---
 
 
