@@ -1,12 +1,13 @@
 ---
-identifier: ref_iy9cOdWS
-updated_at: 2016-01-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'CSV format by X-Cart data type'
+layout: article_with_sidebar
+updated_at: '2016-09-27 22:20 +0400'
+identifier: ref_iy9cOdWS
+title: CSV format by X-Cart data type
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 
