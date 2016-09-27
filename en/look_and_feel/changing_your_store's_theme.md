@@ -1,12 +1,13 @@
 ---
-identifier: ref_GLqVdpgd
-updated_at: 2015-03-31 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:05 +0400'
+identifier: ref_GLqVdpgd
 title: 'Changing your store&#39;s theme'
 categories:
   - User manual
-
+published: true
+order: 190
 ---
 
 
