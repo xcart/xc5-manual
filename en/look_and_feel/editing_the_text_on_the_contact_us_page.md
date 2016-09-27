@@ -39,22 +39,4 @@ _Related pages:_
 
 *   {% link "Enabling the Contact Us form" ref_hfZXkxzT %}
 
-## Attachments:
 
-* [default-contact-us-page.png]({{site.baseurl}}/attachments/7505762/7602846.png) (image/png)
-* [default-contact-us-page.png]({{site.baseurl}}/attachments/7505762/7602845.png) (image/png)
-* [translations-english-language.png]({{site.baseurl}}/attachments/7505762/7602847.png) (image/png)
-* [contact-us-label-search-pattern.png]({{site.baseurl}}/attachments/7505762/7602848.png) (image/png)
-* [contact-us-alternative-text.png]({{site.baseurl}}/attachments/7505762/7602849.png) (image/png)
-* [contact-us-alternative-text-customer.png]({{site.baseurl}}/attachments/7505762/7602850.png) (image/png)
-* [xc5_store_setup_translations.png]({{site.baseurl}}/attachments/7505762/8716728.png) (image/png)
-* [xc5_translations_english.png]({{site.baseurl}}/attachments/7505762/8716729.png) (image/png)
-* [xc5_label_search.png]({{site.baseurl}}/attachments/7505762/8716731.png) (image/png)
-* [xc5_label_search.png]({{site.baseurl}}/attachments/7505762/8716732.png) (image/png)
-* [xc5_label_search.png]({{site.baseurl}}/attachments/7505762/8716730.png) (image/png)
-* [xc5_edit_label.png]({{site.baseurl}}/attachments/7505762/8716733.png) (image/png)
-* [xc5_edit_label_textarea.png]({{site.baseurl}}/attachments/7505762/8716734.png) (image/png)
-* [xc5_contact_us_page_own_text.png]({{site.baseurl}}/attachments/7505762/8716735.png) (image/png)
-* [xc5_contact_us_page_own_text_cust.png]({{site.baseurl}}/attachments/7505762/8716736.png) (image/png)
-* [xc5_contact_us_page.png]({{site.baseurl}}/attachments/7505762/8716738.png) (image/png)
-* [xc5_contact_us_page.png]({{site.baseurl}}/attachments/7505762/8716737.png) (image/png)
