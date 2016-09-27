@@ -1,12 +1,13 @@
 ---
-identifier: ref_o5oJ0AFO
-updated_at: 2016-01-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Removing the &quot;Powered by&quot; notice'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:19 +0400'
+identifier: ref_o5oJ0AFO
+title: Removing the &quot;Powered by&quot; notice
 categories:
   - User manual
-
+published: true
+order: 240
 ---
 
 
@@ -39,13 +40,4 @@ categories:
 
     ![]({{site.baseurl}}/attachments/6389847/9437792.png?effects=drop-shadow)
 
-## Attachments:
 
-* [theme-tweaker-module.png]({{site.baseurl}}/attachments/6389847/6586544.png) (image/png)
-* [look-and-feel-section.png]({{site.baseurl}}/attachments/6389847/6586545.png) (image/png)
-* [custom-css-section.png]({{site.baseurl}}/attachments/6389847/6586546.png) (image/png)
-* [custom-css-remove-powered-by.png]({{site.baseurl}}/attachments/6389847/6586547.png) (image/png)
-* [xc5_theme_tweaker_module.png]({{site.baseurl}}/attachments/6389847/8716763.png) (image/png)
-* [xc5_custom_css.png]({{site.baseurl}}/attachments/6389847/8716764.png) (image/png)
-* [xc5_custom_css_save.png]({{site.baseurl}}/attachments/6389847/8716775.png) (image/png)
-* [Mobile-custom-css-remove-powered-by.png]({{site.baseurl}}/attachments/6389847/9437792.png) (image/png)
