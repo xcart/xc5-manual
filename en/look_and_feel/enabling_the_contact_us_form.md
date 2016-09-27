@@ -1,12 +1,13 @@
 ---
-identifier: ref_hfZXkxzT
-updated_at: 2015-04-02 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Enabling the Contact Us form'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:08 +0400'
+identifier: ref_hfZXkxzT
+title: Enabling the Contact Us form
 categories:
   - User manual
-
+published: true
+order: 200
 ---
 
 
