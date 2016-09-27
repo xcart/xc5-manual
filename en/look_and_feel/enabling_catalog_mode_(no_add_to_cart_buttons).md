@@ -1,12 +1,13 @@
 ---
-identifier: ref_CvAsFxq8
-updated_at: 2015-04-10 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Enabling Catalog mode (no &quot;Add to cart&quot; buttons)'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:26 +0400'
+identifier: ref_CvAsFxq8
+title: Enabling Catalog mode (no &quot;Add to cart&quot; buttons)
 categories:
   - User manual
-
+published: true
+order: 260
 ---
 
 
@@ -16,6 +17,3 @@ It is possible to remove all **Add to cart **buttons from your store and only 
 
 Once the module has been installed, checkout is disabled, and store visitors are not allowed to buy any products.
 
-## Attachments:
-
-* [marketplace-catalog.png]({{site.baseurl}}/attachments/6389782/6586395.png) (image/png)
