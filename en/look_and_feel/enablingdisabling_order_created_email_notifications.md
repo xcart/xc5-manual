@@ -1,12 +1,13 @@
 ---
-identifier: ref_SwKMRaJp
-updated_at: 2014-05-31 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Enabling/Disabling Order created email notifications'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:30 +0400'
+identifier: ref_SwKMRaJp
+title: Enabling/Disabling Order created email notifications
 categories:
   - User manual
-
+published: true
+order: 280
 ---
 
 
