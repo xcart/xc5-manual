@@ -1,12 +1,13 @@
 ---
-identifier: ref_Gz0xMggZ
-updated_at: 2015-07-24 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring the Abandoned Cart Reminder module'
+layout: article_with_sidebar
+updated_at: '2016-09-27 23:14 +0400'
+identifier: ref_Gz0xMggZ
+title: Configuring the Abandoned Cart Reminder module
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -25,9 +26,3 @@ _Related pages:_
 
 *   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
 
-## Attachments:
-
-* [installed-module.png]({{site.baseurl}}/attachments/7503943/7602191.png) (image/png)
-* [acr_configuration_settings.png]({{site.baseurl}}/attachments/7503943/7602257.png) (image/png)
-* [xc5_acr_settings_link.png]({{site.baseurl}}/attachments/7503943/8718921.png) (image/png)
-* [xc5_acr_settings.png]({{site.baseurl}}/attachments/7503943/8718922.png) (image/png)
