@@ -1,12 +1,13 @@
 ---
-identifier: ref_x5oSN86B
-updated_at: 2015-09-30 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Switching the language in Admin area'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:22 +0400'
+identifier: ref_x5oSN86B
+title: Switching the language in Admin area
 categories:
   - User manual
-
+published: true
+order: 250
 ---
 
 
@@ -18,9 +19,3 @@ _Related pages:_
 
 *   {% link "Translating your store's user interface to other languages" ref_NH3w8sSS %}
 
-## Attachments:
-
-* [2464376.png]({{site.baseurl}}/attachments/6389822/6586501.png) (image/png)
-* [1858315.png]({{site.baseurl}}/attachments/6389822/6586502.png) (image/png)
-* [xc5_translation_search.png]({{site.baseurl}}/attachments/6389822/8716776.png) (image/png)
-* [xc5_admin_language_selector.png]({{site.baseurl}}/attachments/6389822/8716777.png) (image/png)
