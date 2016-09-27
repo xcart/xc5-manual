@@ -1,12 +1,13 @@
 ---
-identifier: ref_CsqC5DNX
-updated_at: 2015-04-09 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Editing the text on the Contact Us page'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:12 +0400'
+identifier: ref_CsqC5DNX
+title: Editing the text on the Contact Us page
 categories:
   - User manual
-
+published: true
+order: 210
 ---
 
 
