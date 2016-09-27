@@ -1,12 +1,13 @@
 ---
-identifier: ref_HOfdxO3E
-updated_at: 2014-07-30 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Integration with Doba (drop shipping services)'
+layout: article_with_sidebar
+updated_at: '2016-09-27 22:22 +0400'
+identifier: ref_HOfdxO3E
+title: Integration with Doba (drop shipping services)
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 
