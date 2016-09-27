@@ -1,12 +1,13 @@
 ---
-identifier: ref_TCoIXzX2
-updated_at: 2014-02-05 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up .phar'
+layout: article_with_sidebar
+updated_at: '2016-09-27 23:27 +0400'
+identifier: ref_TCoIXzX2
+title: Setting up .phar
 categories:
   - Developer docs
-
+published: true
+order: 200
 ---
 
 
