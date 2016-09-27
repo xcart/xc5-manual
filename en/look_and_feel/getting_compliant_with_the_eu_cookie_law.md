@@ -1,12 +1,13 @@
 ---
-identifier: ref_IOt4rapT
-updated_at: 2014-05-21 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Getting compliant with the EU Cookie Law'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:29 +0400'
+identifier: ref_IOt4rapT
+title: Getting compliant with the EU Cookie Law
 categories:
   - User manual
-
+published: true
+order: 270
 ---
 
 
