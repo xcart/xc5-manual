@@ -1,13 +1,14 @@
 ---
-identifier: ref_PVcLZCAC
-updated_at: 2014-01-30 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Changing the domain name if you are using Bluehost as domain name registrar'
+layout: article_with_sidebar
+updated_at: '2016-09-27 22:05 +0400'
+identifier: ref_PVcLZCAC
+title: Changing the domain name if you are using Bluehost as domain name registrar
 categories:
   - User manual
   - Deprecated
-
+published: true
+order: 160
 ---
 
 
