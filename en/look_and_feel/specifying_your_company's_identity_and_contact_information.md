@@ -1,12 +1,13 @@
 ---
-identifier: ref_HcSs9eFL
-updated_at: 2015-05-22 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-09-27 23:57 +0400'
+identifier: ref_HcSs9eFL
 title: 'Specifying your company&#39;s identity and contact information'
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 
