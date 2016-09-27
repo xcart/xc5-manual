@@ -1,12 +1,13 @@
 ---
-identifier: ref_lLqNzAaq
-updated_at: 2014-01-29 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Сonfiguring your server to run scheduled X-Cart tasks'
+layout: article_with_sidebar
+updated_at: '2016-09-27 22:07 +0400'
+identifier: ref_lLqNzAaq
+title: Сonfiguring your server to run scheduled X-Cart tasks
 categories:
   - User manual
-
+published: true
+order: 200
 ---
 
 
