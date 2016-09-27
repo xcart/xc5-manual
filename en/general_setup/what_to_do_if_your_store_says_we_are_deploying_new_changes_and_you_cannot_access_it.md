@@ -1,12 +1,15 @@
 ---
-identifier: ref_3zSHgdQk
-updated_at: 2015-12-25 00:00
-layout: article_with_sidebar
 lang: en
-title: 'What to do if your store says &quot;We are deploying new changes&quot; and you cannot access it'
+layout: article_with_sidebar
+updated_at: '2016-09-27 22:07 +0400'
+identifier: ref_3zSHgdQk
+title: >-
+  What to do if your store says &quot;We are deploying new changes&quot; and you
+  cannot access it
 categories:
   - User manual
-
+published: true
+order: 220
 ---
 
 Sometimes site changes like installing a new module, upgrading your X-Cart core or rebuilding your store site's cache may not go as smoothly as planned. A syntax error in the code of a new module, a module's incompatibility with the new X-Cart core after an upgrade or a cache rebuild failure may crash your store's website, so when you attempt to access it you will continuously see a page saying "The site is temporarily closed for maintenance":
