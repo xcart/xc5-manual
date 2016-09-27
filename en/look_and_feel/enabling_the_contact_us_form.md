@@ -44,14 +44,4 @@ _Related pages:_
 
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
 
-## Attachments:
 
-* [marketplace-contact-us.png]({{site.baseurl}}/attachments/6389780/6586394.png) (image/png)
-* [contact_us_module.png]({{site.baseurl}}/attachments/6389780/7602631.png) (image/png)
-* [contact_us_link.png]({{site.baseurl}}/attachments/6389780/7602632.png) (image/png)
-* [contact_us_primary_menu.png]({{site.baseurl}}/attachments/6389780/7602633.png) (image/png)
-* [contact_us_form.png]({{site.baseurl}}/attachments/6389780/7602634.png) (image/png)
-* [contact_us_module_settings.png]({{site.baseurl}}/attachments/6389780/8716625.png) (image/png)
-* [contact_us_module_settings.png]({{site.baseurl}}/attachments/6389780/7602635.png) (image/png)
-* [contact_us_installed_enabled.png]({{site.baseurl}}/attachments/6389780/8716626.png) (image/png)
-* [contact_us_menus.png]({{site.baseurl}}/attachments/6389780/8716627.png) (image/png)
