@@ -1,12 +1,13 @@
 ---
-identifier: ref_cc4sCpa5
-updated_at: 2015-04-09 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Localizing your store'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:17 +0400'
+identifier: ref_cc4sCpa5
+title: Localizing your store
 categories:
   - User manual
-
+published: true
+order: 230
 ---
 
 
@@ -26,9 +27,3 @@ categories:
     *   Import/export charset
 3.  Once you are done, click **Submit** at the bottom of the page to save the changes.
 
-## Attachments:
-
-* [localization-menu.png]({{site.baseurl}}/attachments/6389828/6586505.png) (image/png)
-* [units-and-formats-length.png]({{site.baseurl}}/attachments/6389828/6586507.png) (image/png)
-* [units-and-formats-submit-button.png]({{site.baseurl}}/attachments/6389828/6586508.png) (image/png)
-* [xc5_localization.png]({{site.baseurl}}/attachments/6389828/8716749.png) (image/png)
