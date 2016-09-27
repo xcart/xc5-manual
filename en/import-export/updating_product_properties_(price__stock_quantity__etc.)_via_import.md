@@ -1,13 +1,14 @@
 ---
-identifier: ref_OEpBdtQ6
-updated_at: 2016-06-15 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-09-27 22:21 +0400'
+identifier: ref_OEpBdtQ6
 title: 'Updating product properties (price, stock quantity, etc.) via import'
 version: X-Cart 5.2.13 and later
 categories:
   - User manual
-
+published: true
+order: 130
 ---
 
 Import is a powerful feature, and it allows you not only to create new items, but also to update the existing items in your store. This can be used to update the properties of the items in the store's catalog, including - but not limited to - prices and products quantities.
