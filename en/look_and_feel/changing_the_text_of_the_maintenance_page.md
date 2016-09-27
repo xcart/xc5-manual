@@ -1,12 +1,13 @@
 ---
-identifier: ref_GX9sbLzF
-updated_at: 2015-09-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Changing the text of the maintenance page'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:35 +0400'
+identifier: ref_GX9sbLzF
+title: Changing the text of the maintenance page
 categories:
   - User manual
-
+published: true
+order: 300
 ---
 
 When your store is in the process of rebuilding its cache, upgrading the core or installing new modules, it is not operational, and your customers see the maintenance page instead:
@@ -53,7 +54,4 @@ Likewise, you can add links to your social accounts and images, or any other inf
 
 ![]({{site.baseurl}}/attachments/8750554/8719383.png?effects=drop-shadow)
 
-## Attachments:
 
-* [Closed for maintenance.png]({{site.baseurl}}/attachments/8750554/8719382.png) (image/png)
-* [Closed for maintenanc2e.png]({{site.baseurl}}/attachments/8750554/8719383.png) (image/png)
