@@ -1,20 +1,25 @@
 ---
-identifier: ref_6tPdxAUT
-updated_at: 2015-01-23 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up X-Cart 5 environment'
+layout: article_with_sidebar
+updated_at: '2016-09-27 23:10 +0400'
+identifier: ref_6tPdxAUT
+title: Setting up X-Cart 5 environment
 categories:
   - home
 order: 15
 icon: server
 description: Discover how to setup an environment for your X-Cart store
+published: true
 ---
 
 
-This section contains guides about how to set up your X-Cart environment properly:
+This section contains guides on how to set up your X-Cart environment properly:
 
-*   Basic guide about {% link "speeding up your store" ref_WqHzxAmJ %};
-*   Basic guide about {% link "upgrading your store" ref_pQQ1CLe1 %};
-*   {% link "How to fix time limit parameter" ref_xqnpttd4 %} of your server and allow X-Cart to run long tasks like store re-deployment;
-*   How to set up your server environment for proper communication with marketplace: {% link "cURL lib" ref_sshnMtN7 %}, {% link "openSSL lib" ref_GuFOdboA %}, {% link "creating self-signed SSL certificate" ref_u3gKq6NF %} and {% link "enabling .PHAR" ref_TCoIXzX2 %}.
+*   {% link "Speeding up your store" ref_WqHzxAmJ %};
+*   {% link "Setting the time limit of your server" ref_xqnpttd4 %};
+*   {% link "HTTP to HTTPS redirect configuration" ref_httpredirect %};
+*   Guides for how to set up your server environment for proper communication with the marketplace: 
+    *   {% link "Setting up cURL" ref_sshnMtN7 %};
+    *   {% link "Setting up openSSL" ref_GuFOdboA %};
+    *   {% link "Creating a self-signed SSL certificate" ref_u3gKq6NF %};
+    *   {% link "Setting up .phar" ref_TCoIXzX2 %}.
