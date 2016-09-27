@@ -1,17 +1,16 @@
 ---
-identifier: ref_0fGEpvrh
-updated_at: 2014-01-30 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Installing and activating modules'
+layout: article_with_sidebar
+updated_at: '2016-09-27 21:53 +0400'
+identifier: ref_0fGEpvrh
+title: Installing and activating modules
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
 See {% link "Managing modules" ref_gTOegEua %}.
 
-## Attachments:
 
-* [marketplace-menu.png]({{site.baseurl}}/attachments/6389766/6586369.png) (image/png)
