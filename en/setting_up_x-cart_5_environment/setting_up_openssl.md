@@ -1,12 +1,13 @@
 ---
-identifier: ref_GuFOdboA
-updated_at: 2014-02-05 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up openSSL'
+layout: article_with_sidebar
+updated_at: '2016-09-27 23:24 +0400'
+identifier: ref_GuFOdboA
+title: Setting up openSSL
 categories:
   - Developer docs
-
+published: true
+order: 160
 ---
 
 
