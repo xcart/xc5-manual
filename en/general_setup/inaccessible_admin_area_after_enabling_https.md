@@ -1,12 +1,13 @@
 ---
-identifier: ref_q171FiKp
-updated_at: 2015-07-20 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Inaccessible Admin area after enabling HTTPS'
+layout: article_with_sidebar
+updated_at: '2016-09-27 22:09 +0400'
+identifier: ref_q171FiKp
+title: Inaccessible Admin area after enabling HTTPS
 categories:
   - User manual
-
+published: true
+order: 260
 ---
 
 
