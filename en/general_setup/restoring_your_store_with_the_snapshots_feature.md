@@ -1,13 +1,14 @@
 ---
-identifier: ref_h7Oh5T8T
-updated_at: 2015-10-19 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Restoring your store with the Snapshots feature'
+layout: article_with_sidebar
+updated_at: '2016-09-27 22:08 +0400'
+identifier: ref_h7Oh5T8T
+title: Restoring your store with the Snapshots feature
 version: X-Cart 5.2.5 and later
 categories:
   - User manual
-
+published: true
+order: 240
 ---
 
 
