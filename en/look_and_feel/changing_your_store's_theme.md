@@ -17,11 +17,3 @@ order: 190
 2.  Go to the Layout section (**Look & Feel > Color and Layout**) and select one of the available colour schemes:
     ![]({{site.baseurl}}/attachments/6389826/8716611.png?effects=drop-shadow)
 
-## Attachments:
-
-* [2453999.png]({{site.baseurl}}/attachments/6389826/6586503.png) (image/png)
-* [2504553.png]({{site.baseurl}}/attachments/6389826/6586504.png) (image/png)
-* [2504631.png]({{site.baseurl}}/attachments/6389826/6586506.png) (image/png)
-* [xc5_color_schemes_module.png]({{site.baseurl}}/attachments/6389826/8716562.png) (image/png)
-* [xc5_color_schemes_module.png]({{site.baseurl}}/attachments/6389826/8716561.png) (image/png)
-* [xc5_color_schemes_select.png]({{site.baseurl}}/attachments/6389826/8716611.png) (image/png)
