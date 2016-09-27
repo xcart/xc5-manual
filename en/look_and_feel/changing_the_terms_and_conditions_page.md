@@ -1,12 +1,13 @@
 ---
-identifier: ref_r5b4EKhF
-updated_at: 2015-03-30 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Changing the Terms and conditions page'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:03 +0400'
+identifier: ref_r5b4EKhF
+title: Changing the Terms and conditions page
 categories:
   - User manual
-
+published: true
+order: 170
 ---
 
 
