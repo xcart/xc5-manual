@@ -1,12 +1,13 @@
 ---
-identifier: ref_u3gKq6NF
-updated_at: 2014-08-22 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Creating self-signed SSL certificate'
+layout: article_with_sidebar
+updated_at: '2016-09-27 23:25 +0400'
+identifier: ref_u3gKq6NF
+title: Creating a self-signed SSL certificate
 categories:
   - Developer docs
-
+published: true
+order: 180
 ---
 
 
