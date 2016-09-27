@@ -1,13 +1,14 @@
 ---
-identifier: ref_Ta5fHl8u
-updated_at: 2015-10-01 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Changing the admin panel URL (X-Cart 5.2.7+)'
+layout: article_with_sidebar
+updated_at: '2016-09-27 22:10 +0400'
+identifier: ref_Ta5fHl8u
+title: Changing the admin panel URL (X-Cart 5.2.7+)
 version: X-Cart 5.2.7 and later
 categories:
   - User manual
-
+published: true
+order: 300
 ---
 
 {% note info %}
