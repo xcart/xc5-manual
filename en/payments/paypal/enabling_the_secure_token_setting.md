@@ -1,18 +1,20 @@
 ---
-identifier: ref_rPvvhtm9
-updated_at: 2014-08-25 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Enabling the Secure Token setting'
+layout: article_with_sidebar
+updated_at: '2016-09-27 21:34 +0400'
+identifier: ref_rPvvhtm9
+title: Enabling the Secure Token setting
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
-If you want to secure your **Paypal Advanced** or **Paypal Payflow** account, you should enable **Secure Token** in your account. For that:
+If you want to secure your **Paypal Advanced** or **Paypal Payflow** account, you should enable **Secure Token** in your account. To do so:
 
 1.  Log in to your [PayPal Manager account](https://manager.paypal.com/);
+
 2.  Click **Service Settings**;
 
 3.  Under **Hosted Checkout Pages**, click **Set Up;**
