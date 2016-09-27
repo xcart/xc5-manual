@@ -1,12 +1,13 @@
 ---
-identifier: ref_NH3w8sSS
-updated_at: 2015-09-30 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:25 +0400'
+identifier: ref_NH3w8sSS
 title: 'Translating your store&#39;s user interface to other languages'
 categories:
   - User manual
-
+published: true
+order: 260
 ---
 
 Once you download X-Cart from [www.x-cart.com](http://www.x-cart.com/) and install it on your server, you get a store builder with the user interface displayed in the English language. 
