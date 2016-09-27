@@ -1,12 +1,13 @@
 ---
-identifier: ref_Id69E4GT
-updated_at: 2014-07-15 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-09-27 23:54 +0400'
+identifier: ref_Id69E4GT
 title: 'Changing your store&#39;s Welcome text and banner on the Front page'
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
