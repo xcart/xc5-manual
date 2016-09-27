@@ -1,12 +1,13 @@
 ---
-identifier: ref_wKcxbiUf
-updated_at: 2016-04-08 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding recipient addresses for email notifications'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:01 +0400'
+identifier: ref_wKcxbiUf
+title: Adding recipient addresses for email notifications
 categories:
   - User manual
-
+published: true
+order: 150
 ---
 
 
