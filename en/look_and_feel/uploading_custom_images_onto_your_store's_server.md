@@ -1,12 +1,13 @@
 ---
-identifier: ref_zyQIOcia
-updated_at: 2015-05-20 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:31 +0400'
+identifier: ref_zyQIOcia
 title: 'Uploading custom images onto your store&#39;s server'
 categories:
   - User manual
-
+published: true
+order: 290
 ---
 
 
@@ -31,10 +32,3 @@ _Related pages:_
 *   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
 *   {% link "Changing your store's Welcome text and banner on the Front page" ref_Id69E4GT %}
 
-## Attachments:
-
-* [xc5_simple_cms_installed_enabled.png]({{site.baseurl}}/attachments/8749761/8717800.png) (image/png)
-* [xc5_custom_images.png]({{site.baseurl}}/attachments/8749761/8717801.png) (image/png)
-* [xc5_custom_images_select.png]({{site.baseurl}}/attachments/8749761/8717802.png) (image/png)
-* [xc5_custom_images_upload.png]({{site.baseurl}}/attachments/8749761/8717803.png) (image/png)
-* [xc5_custom_images_uploaded.png]({{site.baseurl}}/attachments/8749761/8717804.png) (image/png)
