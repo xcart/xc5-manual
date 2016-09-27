@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-08 09:33 +0400'
+updated_at: '2016-09-27 22:09 +0400'
 identifier: ref_nJxrzFEZ
 title: Setting up seo-friendly URLs
 categories:
   - User manual
 published: true
-order: 100
+order: 280
 ---
 
 
