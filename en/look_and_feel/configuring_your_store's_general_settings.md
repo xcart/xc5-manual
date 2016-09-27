@@ -1,12 +1,13 @@
 ---
-identifier: ref_qAZlJxZm
-updated_at: 2015-03-30 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-09-27 23:59 +0400'
+identifier: ref_qAZlJxZm
 title: 'Configuring your store&#39;s General settings'
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 The most general settings that determine your store's appearance and behavior can be found in the **Store setup > Cart & checkout** section, on the **General** tab:
