@@ -1,12 +1,13 @@
 ---
-identifier: ref_BDykFBbw
-updated_at: 2015-09-15 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:04 +0400'
+identifier: ref_BDykFBbw
 title: 'Adding new items to your store&#39;s menus'
 categories:
   - User manual
-
+published: true
+order: 180
 ---
 
 
