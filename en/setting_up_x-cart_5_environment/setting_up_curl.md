@@ -1,12 +1,13 @@
 ---
-identifier: ref_sshnMtN7
-updated_at: 2014-02-05 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up cURL'
+layout: article_with_sidebar
+updated_at: '2016-09-27 23:23 +0400'
+identifier: ref_sshnMtN7
+title: Setting up cURL
 categories:
   - Developer docs
-
+published: true
+order: 140
 ---
 
 
