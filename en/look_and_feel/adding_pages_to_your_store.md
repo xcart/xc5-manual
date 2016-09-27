@@ -1,12 +1,13 @@
 ---
-identifier: ref_Ptf5vaPn
-updated_at: 2015-06-29 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding pages to your store'
+layout: article_with_sidebar
+updated_at: '2016-09-28 00:02 +0400'
+identifier: ref_Ptf5vaPn
+title: Adding pages to your store
 categories:
   - User manual
-
+published: true
+order: 160
 ---
 
 
