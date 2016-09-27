@@ -1,10 +1,11 @@
 ---
-identifier: ref_httpredirect
-updated_at: 2016-08-19 00:00
-layout: article_with_sidebar
 lang: en
-title: 'HTTP to HTTPS redirect configuration'
-
+layout: article_with_sidebar
+updated_at: '2016-09-27 23:28 +0400'
+identifier: ref_httpredirect
+title: HTTP to HTTPS redirect configuration
+published: true
+order: 220
 ---
 
 If you have a secure certificate (SSL) on your website, you can automatically redirect visitors to the secured (HTTPS) version of your website to make sure their information is protected.
@@ -118,5 +119,3 @@ To configure redirect on IIS server, you should have **web.config** file in your
 ```
 
 Replace `domain\.ru` with your domain.
-
-
