@@ -1,12 +1,15 @@
 ---
-identifier: ref_ttZa4qgu
-updated_at: 2015-08-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up wholesale prices and minimum purchase quantites for different membership levels'
+layout: article_with_sidebar
+updated_at: '2016-09-28 17:43 +0400'
+identifier: ref_ttZa4qgu
+title: >-
+  Setting up wholesale prices and minimum purchase quantites for different
+  membership levels
 categories:
   - User manual
-
+published: true
+order: 300
 ---
 
 
