@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 17:35 +0400'
+updated_at: '2016-09-28 18:05 +0400'
 identifier: ref_hQnN8cAT
 title: Enabling the &quot;Coming soon&quot; block
 categories:
@@ -42,15 +42,3 @@ To use the "Coming soon" feature, make sure that the module **Product Advisor*
 
 3.  Once you are done configuring the settings, click the **Submit **button at the bottom of the page to save the changes.
 
-## Attachments:
-
-* [marketplace-product-advisor.png]({{site.baseurl}}/attachments/6389776/6586384.png) (image/png)
-* [installed-modules-product-advisor-settings.png]({{site.baseurl}}/attachments/6389776/6586385.png) (image/png)
-* [coming-soon-settings.png]({{site.baseurl}}/attachments/6389776/6586386.png) (image/png)
-* [product-advisor-settings-submit-button.png]({{site.baseurl}}/attachments/6389776/6586387.png) (image/png)
-* [frontend-coming-soon.png]({{site.baseurl}}/attachments/6389776/6586388.png) (image/png)
-* [xc5_product_advisor_coming_soon.png]({{site.baseurl}}/attachments/6389776/8717923.png) (image/png)
-* [xc5_product_advisor_coming_soon_customer.png]({{site.baseurl}}/attachments/6389776/8717924.png) (image/png)
-* [xc5_product_advisor_coming_soon_center.png]({{site.baseurl}}/attachments/6389776/8717925.png) (image/png)
-* [xc5_coming_soon_label.png]({{site.baseurl}}/attachments/6389776/8717926.png) (image/png)
-* [xc5_comin_soon_product_details.png]({{site.baseurl}}/attachments/6389776/8717927.png) (image/png)
