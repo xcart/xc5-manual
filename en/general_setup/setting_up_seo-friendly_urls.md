@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 22:09 +0400'
+updated_at: '2016-09-28 18:18 +0400'
 identifier: ref_nJxrzFEZ
 title: Setting up seo-friendly URLs
 categories:
@@ -126,15 +126,4 @@ Steps listed below usually fix the problem that SEO-friendly URLs cannot be enab
      AllowOverride All
     ```
 
-## Attachments:
 
-* [system-settings-enviroment.png]({{site.baseurl}}/attachments/7505785/7995393.png) (image/png)
-* [enable-clean-urls-button.png]({{site.baseurl}}/attachments/7505785/7995394.png) (image/png)
-* [clean-urls-enabled-message.png]({{site.baseurl}}/attachments/7505785/7995395.png) (image/png)
-* [clean-urls-disbaled-message.png]({{site.baseurl}}/attachments/7505785/7995396.png) (image/png)
-* [xc5_environment.png]({{site.baseurl}}/attachments/7505785/8716521.png) (image/png)
-* [X Cart online store builder Environment.png]({{site.baseurl}}/attachments/7505785/9437501.png) (image/png)
-* [X Cart online store builder Environment2.png]({{site.baseurl}}/attachments/7505785/9437499.png) (image/png)
-* [X Cart online store builder Environment3.png]({{site.baseurl}}/attachments/7505785/9437500.png) (image/png)
-* [X Cart online store builder Environment.png]({{site.baseurl}}/attachments/7505785/9437498.png) (image/png)
-* [X Cart online store builder Environment4.png]({{site.baseurl}}/attachments/7505785/9437502.png) (image/png)
