@@ -1,18 +1,21 @@
 ---
-identifier: ref_2VXSZhKE
-updated_at: 2015-03-27 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-09-28 18:28 +0400'
+identifier: ref_2VXSZhKE
 title: 'Changing your store&#39;s logo and favicon'
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
 It is possible to add your own logo and favicon images for your store's website:
 
- ![](attachments/6389815/7602611.png?effects=drop-shadow)![]({{site.baseurl}}/attachments/6389815/7602610.png?effects=drop-shadow)
+![xc5_company_logo.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/xc5_company_logo.png?effects=drop-shadow)
+
+![]({{site.baseurl}}/attachments/6389815/7602610.png?effects=drop-shadow)
 
 To complete the task, you will need the module **Simple CMS** by X-Cart team. Make sure this module is installed and enabled at your store (If the module is not installed, {% link "install and activate it" ref_Vn1mMUw9 %}):
 
