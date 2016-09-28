@@ -1,12 +1,13 @@
 ---
-identifier: ref_fhzzxDTy
-updated_at: 2015-04-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding products'
+layout: article_with_sidebar
+updated_at: '2016-09-28 17:33 +0400'
+identifier: ref_fhzzxDTy
+title: Adding products
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 
