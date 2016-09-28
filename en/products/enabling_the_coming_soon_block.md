@@ -1,12 +1,13 @@
 ---
-identifier: ref_hQnN8cAT
-updated_at: 2015-12-22 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Enabling the &quot;Coming soon&quot; block'
+layout: article_with_sidebar
+updated_at: '2016-09-28 17:35 +0400'
+identifier: ref_hQnN8cAT
+title: Enabling the &quot;Coming soon&quot; block
 categories:
   - User manual
-
+published: true
+order: 200
 ---
 
 
