@@ -1,12 +1,13 @@
 ---
-identifier: ref_lxNH6TFr
-updated_at: 2015-08-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding digital goods'
+layout: article_with_sidebar
+updated_at: '2016-09-28 17:42 +0400'
+identifier: ref_lxNH6TFr
+title: Adding digital goods
 categories:
   - User manual
-
+published: true
+order: 280
 ---
 
 
