@@ -1,12 +1,13 @@
 ---
-identifier: ref_xWLlmcLL
-updated_at: 2015-08-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Enabling product comparison'
+layout: article_with_sidebar
+updated_at: '2016-09-28 17:38 +0400'
+identifier: ref_xWLlmcLL
+title: Enabling product comparison
 categories:
   - User manual
-
+published: true
+order: 240
 ---
 
 
