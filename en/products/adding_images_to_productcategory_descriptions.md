@@ -1,12 +1,13 @@
 ---
-identifier: ref_VtuUJTh5
-updated_at: 2015-05-20 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding images to product/category descriptions'
+layout: article_with_sidebar
+updated_at: '2016-09-28 17:35 +0400'
+identifier: ref_VtuUJTh5
+title: Adding images to product/category descriptions
 categories:
   - User manual
-
+published: true
+order: 160
 ---
 
 
