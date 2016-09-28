@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 22:05 +0400'
+updated_at: '2016-09-28 18:15 +0400'
 identifier: ref_PVcLZCAC
 title: Changing the domain name if you are using Bluehost as domain name registrar
 categories:
@@ -24,7 +24,3 @@ Once you received your nameservers URLs, go to your Bluehost account.
 
 4.  Check the results. Your shop now should be available at the domain name specified.
 
-## Attachments:
-
-* [1828939.png]({{site.baseurl}}/attachments/6389819/6586499.png) (image/png)
-* [1828968.png]({{site.baseurl}}/attachments/6389819/6586500.png) (image/png)
