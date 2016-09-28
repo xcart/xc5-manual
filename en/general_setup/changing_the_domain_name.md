@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 22:05 +0400'
+updated_at: '2016-09-28 18:14 +0400'
 identifier: ref_P12xhEF6
 title: Changing the domain name
 categories:
@@ -29,11 +29,3 @@ order: 140
 
 {% link "How to change domain name if you registered your domain name on Bluehost" ref_PVcLZCAC %}
 
-## Attachments:
-
-* [theme-tweaker-module.png]({{site.baseurl}}/attachments/6389845/6586541.png) (image/png)
-* [look-and-feel-section.png]({{site.baseurl}}/attachments/6389845/6586542.png) (image/png)
-* [logo-and-favicon-section.png]({{site.baseurl}}/attachments/6389845/6586543.png) (image/png)
-* [2462403.png]({{site.baseurl}}/attachments/6389845/7208961.png) (image/png)
-* [2462444.png]({{site.baseurl}}/attachments/6389845/7208962.png) (image/png)
-* [2462523.png]({{site.baseurl}}/attachments/6389845/7208963.png) (image/png)
