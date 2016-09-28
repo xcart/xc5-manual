@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 17:34 +0400'
+updated_at: '2016-09-28 17:58 +0400'
 identifier: ref_4iFdpTdv
 title: Adding featured products
 categories:
@@ -49,21 +49,4 @@ To make a product "featured", follow the steps below:
     ![]({{site.baseurl}}/attachments/6389852/8717638.png?effects=drop-shadow)
     Now if you check the result on the storefront you should be able to see the products you added as featured in the respective area of your chosen location (category page or Home page).
 
-## Attachments:
 
-* [featured-products-module.png]({{site.baseurl}}/attachments/6389852/6586548.png) (image/png)
-* [categories-menu.png]({{site.baseurl}}/attachments/6389852/6586549.png) (image/png)
-* [admin-featured-products.png]({{site.baseurl}}/attachments/6389852/6586550.png) (image/png)
-* [featured-products-add.png]({{site.baseurl}}/attachments/6389852/6586551.png) (image/png)
-* [customer-feature-products.png]({{site.baseurl}}/attachments/6389852/6586552.png) (image/png)
-* [xc5_featured_products_module_installed_enabled.png]({{site.baseurl}}/attachments/6389852/8717632.png) (image/png)
-* [xc5_featured_front_page.png]({{site.baseurl}}/attachments/6389852/8717633.png) (image/png)
-* [xc5_featured_select_category.png]({{site.baseurl}}/attachments/6389852/8717634.png) (image/png)
-* [xc5_featured_tab_category.png]({{site.baseurl}}/attachments/6389852/8717635.png) (image/png)
-* [xc5_add_featured.png]({{site.baseurl}}/attachments/6389852/8717636.png) (image/png)
-* [xc5_select_featured_product.png]({{site.baseurl}}/attachments/6389852/8717637.png) (image/png)
-* [xc5_featured_added_to_list.png]({{site.baseurl}}/attachments/6389852/8717638.png) (image/png)
-* [featured_products_module_settings.png]({{site.baseurl}}/attachments/6389852/8717748.png) (image/png)
-* [xc5_featured_products_customer1.png]({{site.baseurl}}/attachments/6389852/8717749.png) (image/png)
-* [xc5_featured_products_customer2.png]({{site.baseurl}}/attachments/6389852/8717750.png) (image/png)
-* [xc5_featured_products_customer3.png]({{site.baseurl}}/attachments/6389852/8717751.png) (image/png)
