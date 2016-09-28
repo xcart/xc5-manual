@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 17:38 +0400'
+updated_at: '2016-09-28 18:08 +0400'
 identifier: ref_xWLlmcLL
 title: Enabling product comparison
 categories:
@@ -31,13 +31,4 @@ Note that customers can use the **Differences only** check box option to chose w
 
 ![]({{site.baseurl}}/attachments/6389834/8719221.png?effects=drop-shadow)
 
-## Attachments:
 
-* [product-comparison-marketplace.png]({{site.baseurl}}/attachments/6389834/6586514.png) (image/png)
-* [product-comparison-compare-button.png]({{site.baseurl}}/attachments/6389834/6586516.png) (image/png)
-* [product-comparison-table.png]({{site.baseurl}}/attachments/6389834/6586518.png) (image/png)
-* [xc5_prod_comparison_module.png]({{site.baseurl}}/attachments/6389834/8719217.png) (image/png)
-* [xc5_prod_comparison_compare.png]({{site.baseurl}}/attachments/6389834/8719218.png) (image/png)
-* [xc5_prod_comparison_xproducts_selected.png]({{site.baseurl}}/attachments/6389834/8719219.png) (image/png)
-* [xc5_prod_comparison_table.png]({{site.baseurl}}/attachments/6389834/8719220.png) (image/png)
-* [xc5_prod_comparison_differences_only.png]({{site.baseurl}}/attachments/6389834/8719221.png) (image/png)
