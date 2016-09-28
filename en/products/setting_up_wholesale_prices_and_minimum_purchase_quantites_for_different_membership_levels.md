@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 17:43 +0400'
+updated_at: '2016-09-28 18:10 +0400'
 identifier: ref_ttZa4qgu
 title: >-
   Setting up wholesale prices and minimum purchase quantites for different
@@ -92,18 +92,4 @@ _Related pages:_
 
 *   {% link "Setting up sale and wholesale pricing in X-Cart 5" ref_g2dhS8uC %} (video)
 
-## Attachments:
 
-* [wholesale.png]({{site.baseurl}}/attachments/6389808/6586466.png) (image/png)
-* [New_Tier.png]({{site.baseurl}}/attachments/6389808/6586467.png) (image/png)
-* [Price_tiers.png]({{site.baseurl}}/attachments/6389808/6586469.png) (image/png)
-* [Minimum_Quantity.png]({{site.baseurl}}/attachments/6389808/6586475.png) (image/png)
-* [xc5_wholesale_installed_enabled.png]({{site.baseurl}}/attachments/6389808/8719227.png) (image/png)
-* [xc5_wholesale_installed_enabled.png]({{site.baseurl}}/attachments/6389808/8719226.png) (image/png)
-* [xc5_wholesale_wh_pricing_tab.png]({{site.baseurl}}/attachments/6389808/8719228.png) (image/png)
-* [xc5_wholesale_new_tier.png]({{site.baseurl}}/attachments/6389808/8719229.png) (image/png)
-* [xc5_wholesale_new_blank_tier_line.png]({{site.baseurl}}/attachments/6389808/8719230.png) (image/png)
-* [xc5_wholesale_new_tier1.png]({{site.baseurl}}/attachments/6389808/8719231.png) (image/png)
-* [xc5_wholesale_new_tier2.png]({{site.baseurl}}/attachments/6389808/8719232.png) (image/png)
-* [xc5_wholesale_inventory_tracking.png]({{site.baseurl}}/attachments/6389808/8719233.png) (image/png)
-* [xc5_wholesale_purchase_limits_per_membership.png]({{site.baseurl}}/attachments/6389808/8719234.png) (image/png)
