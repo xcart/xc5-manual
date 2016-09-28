@@ -1,12 +1,13 @@
 ---
-identifier: ref_4iFdpTdv
-updated_at: 2015-05-19 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding featured products'
+layout: article_with_sidebar
+updated_at: '2016-09-28 17:34 +0400'
+identifier: ref_4iFdpTdv
+title: Adding featured products
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 
