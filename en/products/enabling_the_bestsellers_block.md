@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 17:37 +0400'
+updated_at: '2016-09-28 18:07 +0400'
 identifier: ref_p1CIVmy6
 title: Enabling the Bestsellers block
 categories:
@@ -27,17 +27,3 @@ You can configure your X-Cart 5 store to show a block with the most popular prod
 
     *   **Number of products in the bestsellers list**: Use this setting to specify the maximum number of products that can be shown in the "Bestsellers" block. For example, in the screenshots above the "Bestsellers" block shows three products; that is because the "Number of products in the bestsellers list" was set to "3" when we made the screenshots.
 
-## Attachments:
-
-* [marketplace-bestsellers.png]({{site.baseurl}}/attachments/6389774/6586380.png) (image/png)
-* [bestsellers-settings-link.png]({{site.baseurl}}/attachments/6389774/6586381.png) (image/png)
-* [bestsellers-settings.png]({{site.baseurl}}/attachments/6389774/6586382.png) (image/png)
-* [frontend-bestsellers.png]({{site.baseurl}}/attachments/6389774/6586383.png) (image/png)
-* [xc5_bestsellers_installed_enabled.png]({{site.baseurl}}/attachments/6389774/8719209.png) (image/png)
-* [xc5_bestsellers_settings.png]({{site.baseurl}}/attachments/6389774/8719211.png) (image/png)
-* [xc5_bestsellers_settings.png]({{site.baseurl}}/attachments/6389774/8719210.png) (image/png)
-* [xc5_bestsellers_settings_page.png]({{site.baseurl}}/attachments/6389774/8719213.png) (image/png)
-* [xc5_bestsellers_settings_page.png]({{site.baseurl}}/attachments/6389774/8719212.png) (image/png)
-* [xc5_bestsellers_main_column.png]({{site.baseurl}}/attachments/6389774/8719214.png) (image/png)
-* [xc5_bestsellers_side_bar.png]({{site.baseurl}}/attachments/6389774/8719216.png) (image/png)
-* [xc5_bestsellers_side_bar.png]({{site.baseurl}}/attachments/6389774/8719215.png) (image/png)
