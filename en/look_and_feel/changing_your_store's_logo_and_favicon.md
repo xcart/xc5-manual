@@ -29,15 +29,3 @@ To change the logo and/or favicon for your website:
 3.  Once the image has been selected, click **Submit**.
     The image should be uploaded. Now you can check the result on the storefront: after reloading the page, the new image should be displayed instead of the old one.
 
-## Attachments:
-
-* [2453999.png]({{site.baseurl}}/attachments/6389815/6586492.png) (image/png)
-* [1547185.png]({{site.baseurl}}/attachments/6389815/6586493.png) (image/png)
-* [simple_cms.png]({{site.baseurl}}/attachments/6389815/7602608.png) (image/png)
-* [logo_favicon.png]({{site.baseurl}}/attachments/6389815/7602609.png) (image/png)
-* [favicon.png]({{site.baseurl}}/attachments/6389815/7602612.png) (image/png)
-* [company_logo.png]({{site.baseurl}}/attachments/6389815/7602613.png) (image/png)
-* [favicon.png]({{site.baseurl}}/attachments/6389815/7602614.png) (image/png)
-* [company_logo.png]({{site.baseurl}}/attachments/6389815/7602611.png) (image/png)
-* [favicon.png]({{site.baseurl}}/attachments/6389815/7602610.png) (image/png)
-* [xc5_logo_favicon.png]({{site.baseurl}}/attachments/6389815/8716522.png) (image/png)
