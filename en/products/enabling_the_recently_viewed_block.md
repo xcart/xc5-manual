@@ -1,12 +1,13 @@
 ---
-identifier: ref_9aKsqqeK
-updated_at: 2015-05-21 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Enabling the &quot;Recently viewed&quot; block'
+layout: article_with_sidebar
+updated_at: '2016-09-28 17:36 +0400'
+identifier: ref_9aKsqqeK
+title: Enabling the &quot;Recently viewed&quot; block
 categories:
   - User manual
-
+published: true
+order: 190
 ---
 
 
