@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 17:35 +0400'
+updated_at: '2016-09-28 18:02 +0400'
 identifier: ref_VtuUJTh5
 title: Adding images to product/category descriptions
 categories:
@@ -29,25 +29,3 @@ You can easily add images to category/product descriptions.To add an image to th
 
 Now if you find the category or product you have edited in the Customer front end, you should be able to see the image you have added as part of the description.
 
-## Attachments:
-
-* [2453999 (1).png]({{site.baseurl}}/attachments/6389867/6586592.png) (image/png)
-* [upload-image.png]({{site.baseurl}}/attachments/6389867/6586593.png) (image/png)
-* [image-url.png]({{site.baseurl}}/attachments/6389867/6586594.png) (image/png)
-* [1 (1).png]({{site.baseurl}}/attachments/6389867/6586595.png) (image/png)
-* [wysiwyg-image-icon.png]({{site.baseurl}}/attachments/6389867/6586596.png) (image/png)
-* [insert-image.png]({{site.baseurl}}/attachments/6389867/6586597.png) (image/png)
-* [saved-category-1.png]({{site.baseurl}}/attachments/6389867/6586598.png) (image/png)
-* [front-end-with-changed-image.png]({{site.baseurl}}/attachments/6389867/6586599.png) (image/png)
-* [xc5_simple_cms_installed_enabled.png]({{site.baseurl}}/attachments/6389867/8717776.png) (image/png)
-* [xc5_custom_images.png]({{site.baseurl}}/attachments/6389867/8717777.png) (image/png)
-* [xc5_custom_images_select.png]({{site.baseurl}}/attachments/6389867/8717778.png) (image/png)
-* [xc5_custom_images_upload.png]({{site.baseurl}}/attachments/6389867/8717792.png) (image/png)
-* [xc5_custom_images_uploaded.png]({{site.baseurl}}/attachments/6389867/8717793.png) (image/png)
-* [xc5_custom_image_url.png]({{site.baseurl}}/attachments/6389867/8717810.png) (image/png)
-* [xc5_category_descr_insert_edit_image.png]({{site.baseurl}}/attachments/6389867/8717805.png) (image/png)
-* [xc5_edit_image_popup.png]({{site.baseurl}}/attachments/6389867/8717806.png) (image/png)
-* [xc5_category_descr_neko_cat_url.png]({{site.baseurl}}/attachments/6389867/8717807.png) (image/png)
-* [xc5_category_descr_neko_cat_inserted.png]({{site.baseurl}}/attachments/6389867/8717809.png) (image/png)
-* [xc5_category_descr_neko_cat_inserted.png]({{site.baseurl}}/attachments/6389867/8717808.png) (image/png)
-* [xc5_custom_image_url.png]({{site.baseurl}}/attachments/6389867/8717799.png) (image/png)
