@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-06-07 00:00'
+updated_at: '2016-09-28 18:12 +0400'
 identifier: ref_VG5mIoLT
 title: Installation Guide
 version: X-Cart 5.2.5 and later
@@ -387,20 +387,4 @@ it means that libCurl system library is not enabled in your account and your PHP
 
 {% link "Setting up cURL" ref_sshnMtN7 %} article may be helpful if you are installing X-Cart 5 on your local server.
 
-## Attachments:
 
-* [installation-step1.png]({{site.baseurl}}/attachments/524295/7602252.png) (image/png)
-* [installation-step-2.png]({{site.baseurl}}/attachments/524295/7602253.png) (image/png)
-* [installation-step-3.png]({{site.baseurl}}/attachments/524295/7602254.png) (image/png)
-* [installation-step-6.png]({{site.baseurl}}/attachments/524295/7602255.png) (image/png)
-* [installation-step-7.png]({{site.baseurl}}/attachments/524295/7602256.png) (image/png)
-* [xc5_installation_step1.png]({{site.baseurl}}/attachments/524295/8719152.png) (image/png)
-* [xc5_installation_step2.png]({{site.baseurl}}/attachments/524295/8719153.png) (image/png)
-* [xc5_installation_step1.png]({{site.baseurl}}/attachments/524295/8719150.png) (image/png)
-* [xc5_installation_step2.png]({{site.baseurl}}/attachments/524295/8719151.png) (image/png)
-* [xc5_installation_step3.png]({{site.baseurl}}/attachments/524295/8719154.png) (image/png)
-* [xc5_installation_step4.png]({{site.baseurl}}/attachments/524295/8719155.png) (image/png)
-* [xc5_installation_step4_1.png]({{site.baseurl}}/attachments/524295/8719156.png) (image/png)
-* [xc5_installation_step4_2.png]({{site.baseurl}}/attachments/524295/8719157.png) (image/png)
-* [xc5_installation_step5.png]({{site.baseurl}}/attachments/524295/8719158.png) (image/png)
-* [xc5_installation_step7.png]({{site.baseurl}}/attachments/524295/8719159.png) (image/png)
