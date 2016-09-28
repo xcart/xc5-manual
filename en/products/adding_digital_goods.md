@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 17:42 +0400'
+updated_at: '2016-09-28 18:09 +0400'
 identifier: ref_lxNH6TFr
 title: Adding digital goods
 categories:
@@ -29,15 +29,4 @@ X-Cart 5 can be used to sell digital goods. The feature is available through the
     The file will become available to the buyer as soon as payment for the order is received.
     ![]({{site.baseurl}}/attachments/6389800/6586454.png?effects=drop-shadow)
 
-## Attachments:
 
-* [marketplace-egoods-file-attachments.png]({{site.baseurl}}/attachments/6389800/6586442.png) (image/png)
-* [attachments-section (1).png]({{site.baseurl}}/attachments/6389800/6586450.png) (image/png)
-* [attachments-add-button.png]({{site.baseurl}}/attachments/6389800/6586451.png) (image/png)
-* [attachments-upload-file.png]({{site.baseurl}}/attachments/6389800/6586452.png) (image/png)
-* [attachments-properties.png]({{site.baseurl}}/attachments/6389800/6586453.png) (image/png)
-* [frontend-egood.png]({{site.baseurl}}/attachments/6389800/6586454.png) (image/png)
-* [xc5_egoods_egoods_file_attachments.png]({{site.baseurl}}/attachments/6389800/8719222.png) (image/png)
-* [xc5_egoods_shippable_no.png]({{site.baseurl}}/attachments/6389800/8719223.png) (image/png)
-* [xc5_egoods_attachments_tab.png]({{site.baseurl}}/attachments/6389800/8719224.png) (image/png)
-* [xc5_egoods_add_file.png]({{site.baseurl}}/attachments/6389800/8719225.png) (image/png)
