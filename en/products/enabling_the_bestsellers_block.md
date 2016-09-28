@@ -1,12 +1,13 @@
 ---
-identifier: ref_p1CIVmy6
-updated_at: 2015-08-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Enabling the Bestsellers block'
+layout: article_with_sidebar
+updated_at: '2016-09-28 17:37 +0400'
+identifier: ref_p1CIVmy6
+title: Enabling the Bestsellers block
 categories:
   - User manual
-
+published: true
+order: 220
 ---
 
 
