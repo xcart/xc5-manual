@@ -1,12 +1,13 @@
 ---
-identifier: ref_WqHzxAmJ
-updated_at: 2016-02-28 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Speeding up your store'
+layout: article_with_sidebar
+updated_at: '2016-09-28 18:21 +0400'
+identifier: ref_WqHzxAmJ
+title: Speeding up your store
 categories:
   - Developer docs
-
+published: true
+order: 100
 ---
 
 
@@ -107,8 +108,4 @@ SET GLOBAL query_cache_limit = 1048576;
 
 Alternatively, you can adjust these settings in the MySQL configuration file. A good article explaining each aspect of Query Cache configuration is available at [http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html](http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html)
 
-## Attachments:
 
-* [aggregate-css.png]({{site.baseurl}}/attachments/8224875/8355887.png) (image/png)
-* [use-view-cache.png]({{site.baseurl}}/attachments/8224875/8355888.png) (image/png)
-* [X Cart online store builder Look Feel.png]({{site.baseurl}}/attachments/8224875/9437214.png) (image/png)
