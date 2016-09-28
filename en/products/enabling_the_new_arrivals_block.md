@@ -1,12 +1,13 @@
 ---
-identifier: ref_2A50nkO9
-updated_at: 2016-07-11 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Enabling the &quot;New arrivals&quot; block'
+layout: article_with_sidebar
+updated_at: '2016-09-28 17:35 +0400'
+identifier: ref_2A50nkO9
+title: Enabling the &quot;New arrivals&quot; block
 categories:
   - User manual
-
+published: true
+order: 180
 ---
 
 
