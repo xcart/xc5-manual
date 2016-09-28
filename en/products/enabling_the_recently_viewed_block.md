@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 17:36 +0400'
+updated_at: '2016-09-28 18:04 +0400'
 identifier: ref_9aKsqqeK
 title: Enabling the &quot;Recently viewed&quot; block
 categories:
@@ -22,13 +22,3 @@ You can configure your X-Cart 5 store so that it shows a "Recently viewed" block
 
 3.  Once you are done configuring the settings, click the **Submit **button at the bottom of the page to save the changes.
 
-## Attachments:
-
-* [marketplace-product-advisor.png]({{site.baseurl}}/attachments/6389772/6586374.png) (image/png)
-* [marketplace-product-advisor.png]({{site.baseurl}}/attachments/6389772/6586373.png) (image/png)
-* [installed-modules-product-advisor-settings.png]({{site.baseurl}}/attachments/6389772/6586375.png) (image/png)
-* [recently-viewed-settings.png]({{site.baseurl}}/attachments/6389772/6586376.png) (image/png)
-* [product-advisor-settings-submit-button.png]({{site.baseurl}}/attachments/6389772/6586378.png) (image/png)
-* [product-advisor-settings-submit-button.png]({{site.baseurl}}/attachments/6389772/6586377.png) (image/png)
-* [recently-viewed-products.png]({{site.baseurl}}/attachments/6389772/6586379.png) (image/png)
-* [xc5_product_advisor_recently_viewed.png]({{site.baseurl}}/attachments/6389772/8717922.png) (image/png)
