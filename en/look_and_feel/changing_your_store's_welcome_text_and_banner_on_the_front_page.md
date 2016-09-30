@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 23:54 +0400'
+updated_at: '2016-09-28 18:52 +0400'
 identifier: ref_Id69E4GT
 title: 'Changing your store&#39;s Welcome text and banner on the Front page'
 categories:
@@ -48,19 +48,3 @@ Follow these steps:
     The Front page content will be updated. Now if you check your store's Front page, you should be able to see your new image and the updated Welcome message displayed instead of the default ones. In our example, we chose to remove the Welcome text altogether, so, as you can see, no Welcome message is displayed:
     ![]({{site.baseurl}}/attachments/7505546/7602752.png?effects=drop-shadow)
 
-## Attachments:
-
-* [default_front_page_img.png]({{site.baseurl}}/attachments/7505546/7602753.png) (image/png)
-* [custom_images_tab.png]({{site.baseurl}}/attachments/7505546/7602743.png) (image/png)
-* [custom_img_uploaded.png]({{site.baseurl}}/attachments/7505546/7602744.png) (image/png)
-* [custom_img_url.png]({{site.baseurl}}/attachments/7505546/7602745.png) (image/png)
-* [remove_default_img.png]({{site.baseurl}}/attachments/7505546/7602746.png) (image/png)
-* [insert_edit_img.png]({{site.baseurl}}/attachments/7505546/7602747.png) (image/png)
-* [insert_edit_img1.png]({{site.baseurl}}/attachments/7505546/7602748.png) (image/png)
-* [insert_img_url.png]({{site.baseurl}}/attachments/7505546/7602749.png) (image/png)
-* [custom_img_added.png]({{site.baseurl}}/attachments/7505546/7602750.png) (image/png)
-* [update_front_page.png]({{site.baseurl}}/attachments/7505546/7602751.png) (image/png)
-* [custom_welcome_img.png]({{site.baseurl}}/attachments/7505546/7602752.png) (image/png)
-* [default_front_page_img.png]({{site.baseurl}}/attachments/7505546/7602742.png) (image/png)
-* [remove_default_welcome_text.png]({{site.baseurl}}/attachments/7505546/7602754.png) (image/png)
-* [front_page_section.png]({{site.baseurl}}/attachments/7505546/7602755.png) (image/png)
