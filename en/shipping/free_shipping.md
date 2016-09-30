@@ -1,12 +1,13 @@
 ---
-identifier: ref_rOT8GezP
-updated_at: 2016-01-06 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Free shipping'
+layout: article_with_sidebar
+updated_at: '2016-09-30 12:57 +0400'
+identifier: ref_rOT8GezP
+title: Free shipping
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 
