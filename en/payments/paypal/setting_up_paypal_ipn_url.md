@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2015-12-11 00:00'
+updated_at: '2016-09-30 12:34 +0400'
 identifier: ref_2rlawgsT
 title: Setting up PayPal IPN URL
 categories:
   - User manual
 published: true
-order: 100
+order: 220
 ---
 
 # Steps to complete
