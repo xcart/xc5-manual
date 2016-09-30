@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 12:57 +0400'
+updated_at: '2016-09-30 13:07 +0400'
 identifier: ref_kioKBJIM
 title: Shipping freight
 categories:
@@ -36,8 +36,3 @@ That is all. Now every unit of the product "Albert Einstein Action Figure" will
 
 Please note that shipping freight can be set only for tangible goods; i.e. the property **Requires shipping** /** Shippable** in the product details must be set to "Yes" for the setting** Shipping freight** to be visible.
 
-## Attachments:
-
-* [xc5_shipping_freight.png]({{site.baseurl}}/attachments/9306286/9437371.png) (image/png)
-* [xc5_shipping_fixed_rate_shipping.png]({{site.baseurl}}/attachments/9306286/9437373.png) (image/png)
-* [xc5_shipping_fixed_rate_shipping1.png]({{site.baseurl}}/attachments/9306286/9437374.png) (image/png)
