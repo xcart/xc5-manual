@@ -1,13 +1,14 @@
 ---
-identifier: ref_Jq6Bsdrt
-updated_at: 2016-07-16 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Accepting payments'
+layout: article_with_sidebar
+updated_at: '2016-09-30 12:39 +0400'
+identifier: ref_Jq6Bsdrt
+title: Accepting payments
 version: X-Cart 5.2.14 and later
 categories:
   - User manual
-
+published: true
+order: 90
 ---
 
 To accept payments from buyers, you need to enable one or more payment methods for your store. Payment methods are managed via the **Payment methods** section (**Store setup > Payment methods**):
