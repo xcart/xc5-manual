@@ -1,12 +1,13 @@
 ---
-identifier: ref_kioKBJIM
-updated_at: 2016-01-05 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Shipping freight'
+layout: article_with_sidebar
+updated_at: '2016-09-30 12:57 +0400'
+identifier: ref_kioKBJIM
+title: Shipping freight
 categories:
   - User manual
-
+published: true
+order: 160
 ---
 
 
