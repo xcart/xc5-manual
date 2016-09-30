@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 21:34 +0400'
+updated_at: '2016-09-30 12:34 +0400'
 identifier: ref_rPvvhtm9
 title: Enabling the Secure Token setting
 categories:
   - User manual
 published: true
-order: 100
+order: 200
 ---
 
 
