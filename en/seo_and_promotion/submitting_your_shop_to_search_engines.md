@@ -1,12 +1,13 @@
 ---
-identifier: ref_OqJ2oZTE
-updated_at: 2015-12-07 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Submitting your shop to search engines'
+layout: article_with_sidebar
+updated_at: '2016-09-30 13:18 +0400'
+identifier: ref_OqJ2oZTE
+title: Submitting your shop to search engines
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 
@@ -34,13 +35,4 @@ The XML sitemap URL can be submitted to search engines directly. We strongly rec
 
 For more info on sitemaps, see [http://www.sitemaps.org](http://www.sitemaps.org).
 
-## Attachments:
 
-* [marketplace-xml-sitemap.png]({{site.baseurl}}/attachments/6389770/6586370.png) (image/png)
-* [xm-sitemap-menu.png]({{site.baseurl}}/attachments/6389770/6586371.png) (image/png)
-* [xml-sitemap-settings.png]({{site.baseurl}}/attachments/6389770/6586372.png) (image/png)
-* [xc5_xml_sitemap_module.png]({{site.baseurl}}/attachments/6389770/8719381.png) (image/png)
-* [xc5_xml_sitemap_section.png]({{site.baseurl}}/attachments/6389770/8719454.png) (image/png)
-* [xc5_xml_sitemap_section.png]({{site.baseurl}}/attachments/6389770/8719453.png) (image/png)
-* [xc5_xml_generate_sitemap_button.png]({{site.baseurl}}/attachments/6389770/8719785.png) (image/png)
-* [xc5_xml_sitemap_url.png]({{site.baseurl}}/attachments/6389770/8719786.png) (image/png)
