@@ -1,12 +1,13 @@
 ---
-identifier: ref_3TG6AuN0
-updated_at: 2016-01-06 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Custom table rates'
+layout: article_with_sidebar
+updated_at: '2016-09-30 12:55 +0400'
+identifier: ref_3TG6AuN0
+title: Custom table rates
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 
