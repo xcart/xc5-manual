@@ -1,12 +1,13 @@
 ---
-identifier: ref_ybdiN8r0
-updated_at: 2016-01-04 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Carrier-calculated shipping rates'
+layout: article_with_sidebar
+updated_at: '2016-09-30 13:05 +0400'
+identifier: ref_ybdiN8r0
+title: Carrier-calculated shipping rates
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -57,10 +58,4 @@ To use carrier-calculated shipping rates, configure shipping as outlined below:
 
 That is all. Now you should be able to get shipping rates for your products.
 
-## Attachments:
 
-* [xc5_shipping_section.png]({{site.baseurl}}/attachments/9306236/9437257.png) (image/png)
-* [xc5_shipping_section1.png]({{site.baseurl}}/attachments/9306236/9437258.png) (image/png)
-* [xc5_shipping_new_method.png]({{site.baseurl}}/attachments/9306236/9437259.png) (image/png)
-* [xc5_shipping_new_method1.png]({{site.baseurl}}/attachments/9306236/9437260.png) (image/png)
-* [xc5_shipping_new_method_usps.png]({{site.baseurl}}/attachments/9306236/9437261.png) (image/png)
