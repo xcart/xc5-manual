@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 18:21 +0400'
+updated_at: '2016-09-30 11:39 +0400'
 identifier: ref_WqHzxAmJ
 title: Speeding up your store
 categories:
@@ -88,13 +88,7 @@ gzip_vary on;
 
 ## Step 5\. Use a recent PHP version (5.5+)
 
-We've run lots of tests to see if X-Cart works better on later PHP versions like 5.5 and 5.6, and it really does! Typically you can get a two times speedup simply by installing PHP 5.5+.
-
-PHP 7.0 Warning
-
-Icon
-
-Unfortunately, X-Cart does not support PHP 7.0 yet. The reason for that is that PHP 7.0 was released not long ago, and it brings some critical changes. We are working hard to adapt X-Cart to these changes. Stay tuned!
+We've run lots of tests to see if X-Cart works better on later PHP versions like 5.5 and 5.6, and it really does! Typically you can get a two times speedup simply by installing PHP 5.5+. PHP 7.0 is supported by X-Cart versions 5.3.x.
 
 ## Step 6\. Use Query Cache (MySQL)
 
@@ -107,5 +101,3 @@ SET GLOBAL query_cache_limit = 1048576;
 ```
 
 Alternatively, you can adjust these settings in the MySQL configuration file. A good article explaining each aspect of Query Cache configuration is available at [http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html](http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html)
-
-
