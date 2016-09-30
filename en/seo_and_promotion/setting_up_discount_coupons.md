@@ -1,12 +1,13 @@
 ---
-identifier: ref_SGI1FqdC
-updated_at: 2015-09-29 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up discount coupons'
+layout: article_with_sidebar
+updated_at: '2016-09-30 13:19 +0400'
+identifier: ref_SGI1FqdC
+title: Setting up discount coupons
 categories:
   - User manual
-
+published: true
+order: 130
 ---
 
 
@@ -42,21 +43,4 @@ _Related pages:_
 
 *   {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %} (video)
 
-## Attachments:
 
-* [marketplace-coupons.png]({{site.baseurl}}/attachments/6389790/6586410.png) (image/png)
-* [coupons-menu.png]({{site.baseurl}}/attachments/6389790/6586412.png) (image/png)
-* [coupons-new-discount-coupon-button.png]({{site.baseurl}}/attachments/6389790/6586414.png) (image/png)
-* [coupon-new.png]({{site.baseurl}}/attachments/6389790/6586416.png) (image/png)
-* [new-coupon-create-button.png]({{site.baseurl}}/attachments/6389790/6586417.png) (image/png)
-* [checkout-discount-coupon.png]({{site.baseurl}}/attachments/6389790/6586418.png) (image/png)
-* [xc5_coupons_module_installed_enabled.png]({{site.baseurl}}/attachments/6389790/8719428.png) (image/png)
-* [xc5_coupons_promotions_coupons_section.png]({{site.baseurl}}/attachments/6389790/8719429.png) (image/png)
-* [xc5_coupons_new_coupons.png]({{site.baseurl}}/attachments/6389790/8719430.png) (image/png)
-* [xc5_coupons_create_coupon.png]({{site.baseurl}}/attachments/6389790/8719431.png) (image/png)
-* [xc5_coupons_sample_coupon.png]({{site.baseurl}}/attachments/6389790/8719433.png) (image/png)
-* [xc5_coupons_sample_coupon.png]({{site.baseurl}}/attachments/6389790/8719432.png) (image/png)
-* [xc5_coupons_create_button.png]({{site.baseurl}}/attachments/6389790/8719434.png) (image/png)
-* [xc5_coupons_coupon_created.png]({{site.baseurl}}/attachments/6389790/8719435.png) (image/png)
-* [xc5_coupons_happy10.png]({{site.baseurl}}/attachments/6389790/8719436.png) (image/png)
-* [xc5_coupons_happy10_next.png]({{site.baseurl}}/attachments/6389790/8719437.png) (image/png)
