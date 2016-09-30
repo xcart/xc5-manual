@@ -1,12 +1,13 @@
 ---
-identifier: ref_vHffMFLk
-updated_at: 2015-12-11 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up Paypal Express Checkout'
+layout: article_with_sidebar
+updated_at: '2016-09-30 12:28 +0400'
+identifier: ref_vHffMFLk
+title: Setting up Paypal Express Checkout
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -72,7 +73,4 @@ Creating a custom payment page allows you to co-brand the PayPal checkout pages 
 
 10.  Click the radio button next to the new payment page style you just created, and click **Make Primary**. Your custom payment page style will now be used whenever buyers choose to pay with PayPal.
 
-## Attachments:
 
-* [paypal-express-checkout-email.png]({{site.baseurl}}/attachments/7505722/7602853.png) (image/png)
-* [paypal-express-checkout-api-credentials.png]({{site.baseurl}}/attachments/7505722/7602854.png) (image/png)
