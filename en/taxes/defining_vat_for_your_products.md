@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2016-09-30 13:11 +0400'
 identifier: ref_wcorpZyz
 title: Defining VAT for your products
-order: 140
+order: 300
 categories:
   - User manual
 published: true
