@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 00:03 +0400'
+updated_at: '2016-09-30 11:53 +0400'
 identifier: ref_r5b4EKhF
 title: Changing the Terms and conditions page
 categories:
@@ -66,22 +66,3 @@ _Related pages:_
 *   {% link "Adding pages to your store" ref_Ptf5vaPn %}
 *   {% link "Adding new items to your store's menus" ref_BDykFBbw %}
 
-## Attachments:
-
-* [2632837.png]({{site.baseurl}}/attachments/6389830/6586509.png) (image/png)
-* [2632846.png]({{site.baseurl}}/attachments/6389830/6586510.png) (image/png)
-* [terms_conditions_link.png]({{site.baseurl}}/attachments/6389830/7602620.png) (image/png)
-* [terms_conditions_link.png]({{site.baseurl}}/attachments/6389830/7602619.png) (image/png)
-* [terms_conditions_text.png]({{site.baseurl}}/attachments/6389830/7602621.png) (image/png)
-* [simple_cms.png]({{site.baseurl}}/attachments/6389830/7602622.png) (image/png)
-* [terms_conditions_edit.png]({{site.baseurl}}/attachments/6389830/7602623.png) (image/png)
-* [terms_conditions_entry.png]({{site.baseurl}}/attachments/6389830/7602624.png) (image/png)
-* [terms_conditions_delete.png]({{site.baseurl}}/attachments/6389830/7602625.png) (image/png)
-* [terms_conditions_disable.png]({{site.baseurl}}/attachments/6389830/7602626.png) (image/png)
-* [xc5_content_pages.png]({{site.baseurl}}/attachments/6389830/8716552.png) (image/png)
-* [xc5_terms_page.png]({{site.baseurl}}/attachments/6389830/8716553.png) (image/png)
-* [xc5_terms_page1.png]({{site.baseurl}}/attachments/6389830/8716554.png) (image/png)
-* [xc5_terms_page_delete.png]({{site.baseurl}}/attachments/6389830/8716555.png) (image/png)
-* [xc5_terms_page_disable.png]({{site.baseurl}}/attachments/6389830/8716556.png) (image/png)
-* [xc5_content_menus_footer.png]({{site.baseurl}}/attachments/6389830/8716557.png) (image/png)
-* [xc5_terms_disable_from_footer.png]({{site.baseurl}}/attachments/6389830/8716558.png) (image/png)
