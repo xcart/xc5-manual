@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 00:01 +0400'
+updated_at: '2016-09-30 09:37 +0400'
 identifier: ref_wKcxbiUf
 title: Adding recipient addresses for email notifications
 categories:
@@ -77,4 +77,4 @@ This email is used as the 'to' address for the following email messages:
 
 This email is used as the 'to' address for messages sent by store visitors via the Contact us form. It is also used in the message "No payment methods available. Please contact the `<a href=\"mailto:{{email}}\">store administrator</a>`.", which is displayed to customers when there aren't any payment methods available to them at checkout. Note that a separate recipient email address for the Contact us form may be configured on the module settings page for the Contact Us module.
 
-## Attachments:
+
