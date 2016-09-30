@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 13:10 +0400'
+updated_at: '2016-09-30 13:14 +0400'
 identifier: ref_pAWOdG8N
 title: Setting up tax classes
 order: 110
@@ -56,8 +56,3 @@ _Related pages:_
 
 *   {% link "Specifying sales tax for your products" ref_aJPK4DHN %}
 
-## Attachments:
-
-* [taxes-section-admin.png]({{site.baseurl}}/attachments/6389861/6586570.png) (image/png)
-* [create-new-tax-class.png]({{site.baseurl}}/attachments/6389861/6586571.png) (image/png)
-* [tax-class-product-details.png]({{site.baseurl}}/attachments/6389861/6586572.png) (image/png)
