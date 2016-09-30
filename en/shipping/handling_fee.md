@@ -1,12 +1,13 @@
 ---
-identifier: ref_nFJTxPMR
-updated_at: 2015-12-30 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Handling fee'
+layout: article_with_sidebar
+updated_at: '2016-09-30 12:58 +0400'
+identifier: ref_nFJTxPMR
+title: Handling fee
 categories:
   - User manual
-
+published: true
+order: 180
 ---
 
 
