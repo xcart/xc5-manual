@@ -1,13 +1,13 @@
 ---
-identifier: ref_aJPK4DHN
-updated_at: 2015-12-12 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up sales tax'
-order: 200
+layout: article_with_sidebar
+updated_at: '2016-09-30 13:11 +0400'
+identifier: ref_aJPK4DHN
+title: Setting up sales tax
+order: 130
 categories:
   - User manual
-
+published: true
 ---
 
 
