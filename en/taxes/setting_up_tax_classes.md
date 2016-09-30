@@ -1,13 +1,13 @@
 ---
-identifier: ref_pAWOdG8N
-updated_at: 2015-02-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up tax classes'
-order: 100
+layout: article_with_sidebar
+updated_at: '2016-09-30 13:10 +0400'
+identifier: ref_pAWOdG8N
+title: Setting up tax classes
+order: 110
 categories:
   - User manual
-
+published: true
 ---
 
 The **Tax classes** feature is enabled in X-Cart 5 by the module Sales Tax. Before you proceed, make sure this module is installed and enabled.
