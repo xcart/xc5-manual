@@ -19,6 +19,3 @@ _Related pages:_
 
 *   {% link "Adding digital goods" ref_lxNH6TFr %}
 
-## Attachments:
-
-* [xc5_shipping_disable_shipping.png]({{site.baseurl}}/attachments/9306284/9437372.png) (image/png)
