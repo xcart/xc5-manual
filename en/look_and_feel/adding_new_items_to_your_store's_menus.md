@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 00:04 +0400'
+updated_at: '2016-09-30 12:02 +0400'
 identifier: ref_BDykFBbw
 title: 'Adding new items to your store&#39;s menus'
 categories:
@@ -37,16 +37,3 @@ _Related pages:_
 *   {% link "Adding a New Page in X Cart 5: Tutorial by Mike White" ref_dycXnOI1 %}
 *   {% link "Advanced menu management with Extended Simple CMS" ref_aWT2i7z1 %}
 
-## Attachments:
-
-* [marketplace-simple-cms.png]({{site.baseurl}}/attachments/6389788/6586396.png) (image/png)
-* [menus-menu.png]({{site.baseurl}}/attachments/6389788/6586398.png) (image/png)
-* [frontend-top-menus.png]({{site.baseurl}}/attachments/6389788/6586399.png) (image/png)
-* [frontend-footer-menus.png]({{site.baseurl}}/attachments/6389788/6586400.png) (image/png)
-* [menus-menu-types.png]({{site.baseurl}}/attachments/6389788/6586402.png) (image/png)
-* [menus-new-item-button.png]({{site.baseurl}}/attachments/6389788/6586404.png) (image/png)
-* [menus-new-menu.png]({{site.baseurl}}/attachments/6389788/6586405.png) (image/png)
-* [frontend-custom-menus.png]({{site.baseurl}}/attachments/6389788/6586407.png) (image/png)
-* [simple_cms.png]({{site.baseurl}}/attachments/6389788/7602615.png) (image/png)
-* [xc5_content_menus.png]({{site.baseurl}}/attachments/6389788/8716559.png) (image/png)
-* [new_primary_menu_item.png]({{site.baseurl}}/attachments/6389788/8716560.png) (image/png)
