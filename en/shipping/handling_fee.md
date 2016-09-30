@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 12:58 +0400'
+updated_at: '2016-09-30 13:08 +0400'
 identifier: ref_nFJTxPMR
 title: Handling fee
 categories:
@@ -27,11 +27,3 @@ To set up a handling fee for some shipping method:
     ![]({{site.baseurl}}/attachments/9306255/9437274.png?effects=drop-shadow)
     The handling fee value will be updated.
 
-## Attachments:
-
-* [xc5_shipping_section.png]({{site.baseurl}}/attachments/9306255/9437269.png) (image/png)
-* [xc5_shipping_courier.png]({{site.baseurl}}/attachments/9306255/9437270.png) (image/png)
-* [xc5_shipping_courier1.png]({{site.baseurl}}/attachments/9306255/9437271.png) (image/png)
-* [xc5_shipping_courier2.png]({{site.baseurl}}/attachments/9306255/9437273.png) (image/png)
-* [xc5_shipping_courier2.png]({{site.baseurl}}/attachments/9306255/9437272.png) (image/png)
-* [xc5_shipping_courier3.png]({{site.baseurl}}/attachments/9306255/9437274.png) (image/png)
