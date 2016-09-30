@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 00:02 +0400'
+updated_at: '2016-09-30 09:38 +0400'
 identifier: ref_Ptf5vaPn
 title: Adding pages to your store
 categories:
@@ -41,15 +41,4 @@ _Related pages:_
 
 *   {% link "Adding a New Page in X Cart 5: Tutorial by Mike White" ref_dycXnOI1 %}
 
-## Attachments:
 
-* [marketplace-simple-cms.png]({{site.baseurl}}/attachments/6389804/6586455.png) (image/png)
-* [pages-menu.png]({{site.baseurl}}/attachments/6389804/6586456.png) (image/png)
-* [pages-new-page-button (1).png]({{site.baseurl}}/attachments/6389804/6586461.png) (image/png)
-* [pages-new-page.png]({{site.baseurl}}/attachments/6389804/6586462.png) (image/png)
-* [new-page-create-button.png]({{site.baseurl}}/attachments/6389804/6586464.png) (image/png)
-* [pages.png]({{site.baseurl}}/attachments/6389804/6586465.png) (image/png)
-* [simple_cms.png]({{site.baseurl}}/attachments/6389804/7602616.png) (image/png)
-* [xc5_content_pages.png]({{site.baseurl}}/attachments/6389804/8716549.png) (image/png)
-* [xc5_new_page.png]({{site.baseurl}}/attachments/6389804/8716550.png) (image/png)
-* [xc5_our_story.png]({{site.baseurl}}/attachments/6389804/8716551.png) (image/png)
