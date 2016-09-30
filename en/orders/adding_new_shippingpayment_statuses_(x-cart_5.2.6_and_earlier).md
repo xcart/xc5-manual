@@ -1,13 +1,14 @@
 ---
-identifier: ref_NzhAvNte
-updated_at: 2015-10-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding new shipping/payment statuses (X-Cart 5.2.6 and earlier)'
+layout: article_with_sidebar
+updated_at: '2016-09-30 12:52 +0400'
+identifier: ref_NzhAvNte
+title: Adding new shipping/payment statuses (X-Cart 5.2.6 and earlier)
 version: X-Cart 5.2.6 and earlier
 categories:
   - Developer docs
-
+published: true
+order: 120
 ---
 
 # Introduction
