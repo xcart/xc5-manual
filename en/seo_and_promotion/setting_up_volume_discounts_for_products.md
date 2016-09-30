@@ -1,12 +1,13 @@
 ---
-identifier: ref_xEadpu9F
-updated_at: 2015-09-29 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up volume discounts for products'
+layout: article_with_sidebar
+updated_at: '2016-09-30 13:20 +0400'
+identifier: ref_xEadpu9F
+title: Setting up volume discounts for products
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 
@@ -52,26 +53,3 @@ _Related pages:_
 
 *   {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %} (video)
 
-## Attachments:
-
-* [marketplace-volume-discounts.png]({{site.baseurl}}/attachments/6389792/6586420.png) (image/png)
-* [volume-discounts-menu.png]({{site.baseurl}}/attachments/6389792/6586422.png) (image/png)
-* [volume-discount-add-discount-button.png]({{site.baseurl}}/attachments/6389792/6586423.png) (image/png)
-* [volume-discounts.png]({{site.baseurl}}/attachments/6389792/6586424.png) (image/png)
-* [volume-discount-save-changes-button.png]({{site.baseurl}}/attachments/6389792/6586425.png) (image/png)
-* [frontend-checkout-no-volume-discount.png]({{site.baseurl}}/attachments/6389792/6586426.png) (image/png)
-* [xc5_volume_discounts_module_installed_enabled.png]({{site.baseurl}}/attachments/6389792/8719438.png) (image/png)
-* [xc5_volume_discounts_vd_section.png]({{site.baseurl}}/attachments/6389792/8719439.png) (image/png)
-* [xc5_volume_discounts_add_discount0.png]({{site.baseurl}}/attachments/6389792/8719440.png) (image/png)
-* [xc5_volume_discounts_add_discount1.png]({{site.baseurl}}/attachments/6389792/8719441.png) (image/png)
-* [xc5_volume_discounts_add_discount2.png]({{site.baseurl}}/attachments/6389792/8719444.png) (image/png)
-* [xc5_volume_discounts_add_discount3.png]({{site.baseurl}}/attachments/6389792/8719443.png) (image/png)
-* [xc5_volume_discounts_add_discount2.png]({{site.baseurl}}/attachments/6389792/8719442.png) (image/png)
-* [xc5_volume_discounts_checkout.png]({{site.baseurl}}/attachments/6389792/8719447.png) (image/png)
-* [xc5_volume_discounts_get_discount.png]({{site.baseurl}}/attachments/6389792/8719448.png) (image/png)
-* [xc5_volume_discounts_checkout.png]({{site.baseurl}}/attachments/6389792/8719449.png) (image/png)
-* [xc5_volume_discounts_get_discount.png]({{site.baseurl}}/attachments/6389792/8719446.png) (image/png)
-* [xc5_volume_discounts_checkout.png]({{site.baseurl}}/attachments/6389792/8719445.png) (image/png)
-* [xc5_volume_discounts_from100.png]({{site.baseurl}}/attachments/6389792/8719451.png) (image/png)
-* [xc5_volume_discounts_from100.png]({{site.baseurl}}/attachments/6389792/8719450.png) (image/png)
-* [xc5_volume_discounts_list.png]({{site.baseurl}}/attachments/6389792/8719452.png) (image/png)
