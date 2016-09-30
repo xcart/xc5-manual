@@ -1,12 +1,11 @@
 ---
-identifier: ref_sO5X6iBT
-updated_at: 2014-08-01 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up Paypal Payments Advanced'
+layout: article_with_sidebar
+updated_at: '2016-09-30 12:32 +0400'
+identifier: ref_sO5X6iBT
+title: Setting up Paypal Payments Advanced
 categories:
   - User manual
-
+published: true
+order: 140
 ---
-
-
