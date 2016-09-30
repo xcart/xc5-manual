@@ -1,12 +1,13 @@
 ---
-identifier: ref_z5KmbFAu
-updated_at: 2016-01-05 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Shipping setup for downloadable products'
+layout: article_with_sidebar
+updated_at: '2016-09-30 12:58 +0400'
+identifier: ref_z5KmbFAu
+title: Shipping setup for downloadable products
 categories:
   - User manual
-
+published: true
+order: 200
 ---
 
 
