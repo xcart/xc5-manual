@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 12:55 +0400'
+updated_at: '2016-09-30 13:06 +0400'
 identifier: ref_3TG6AuN0
 title: Custom table rates
 categories:
@@ -87,15 +87,3 @@ To configure a shipping method with custom table based rates, follow the steps b
 
 That is all. Now the shipping rates for orders shipped using this method will be calculated based on the custom rates table you have created.
 
-## Attachments:
-
-* [xc5_shipping_section.png]({{site.baseurl}}/attachments/9306242/9437466.png) (image/png)
-* [xc5_shipping_new_method.png]({{site.baseurl}}/attachments/9306242/9437467.png) (image/png)
-* [xc5_shipping_new_method1.png]({{site.baseurl}}/attachments/9306242/9437468.png) (image/png)
-* [xc5_shipping_new_custom.png]({{site.baseurl}}/attachments/9306242/9437469.png) (image/png)
-* [xc5_shipping_new_custom1.png]({{site.baseurl}}/attachments/9306242/9437470.png) (image/png)
-* [xc5_shipping_new_custom2.png]({{site.baseurl}}/attachments/9306242/9437471.png) (image/png)
-* [xc5_shipping_new_custom3.png]({{site.baseurl}}/attachments/9306242/9437472.png) (image/png)
-* [xc5_shipping_new_custom4.png]({{site.baseurl}}/attachments/9306242/9437473.png) (image/png)
-* [xc5_shipping_new_custom5.png]({{site.baseurl}}/attachments/9306242/9437474.png) (image/png)
-* [xc5_shipping_new_custom6.png]({{site.baseurl}}/attachments/9306242/9437475.png) (image/png)
