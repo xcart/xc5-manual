@@ -34,14 +34,14 @@ There are many more fields which you can include into your product CSV file. Bel
     <tr>
       <th class="confluenceTh">Field in CSV file</th>
       <th colspan="1" class="confluenceTh">What this field describes</th>
-      <th colspan="1" class="confluenceTh"><a href="/display/XDD/CSV+field+attributes">Value type</a>**</th>
+      <th colspan="1" class="confluenceTh" markdown="1">{% link 'Value type**' ref_2LwMTTTW %}</th>
     </tr>
     <tr>
       <td colspan="3" class="confluenceTd"><em> Fields supported by <strong>X-Cart core</strong></em>
       </td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd"><strong><strong>sku*</strong></strong>
+      <td colspan="1" class="confluenceTd"><strong>sku*</strong>
       </td>
       <td colspan="1" class="confluenceTd">Unique identifier of the product.</td>
       <td colspan="1" class="confluenceTd">
@@ -71,7 +71,7 @@ There are many more fields which you can include into your product CSV file. Bel
         <br>Multiple&nbsp;</td>
     </tr>
     <tr>
-      <td class="confluenceTd"><span>description
+      <td class="confluenceTd">description
       </td>
       <td colspan="1" class="confluenceTd">Full description of the product.</td>
       <td colspan="1" class="confluenceTd">
@@ -81,11 +81,11 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
     </tr>
     <tr>
-      <td class="confluenceTd"><span>briefDescription
+      <td class="confluenceTd">briefDescription
       </td>
       <td colspan="1" class="confluenceTd">Brief description of the product that is shown on the catalog pages.</td>
-      <td colspan="1" class="confluenceTd">String<span>,
-        <br><span>Multilingual,<br>HTML allowed&nbsp;
+      <td colspan="1" class="confluenceTd">String,
+        <br>Multilingual,<br>HTML allowed&nbsp;
       </td>
     </tr>
     <tr>
@@ -109,7 +109,7 @@ There are many more fields which you can include into your product CSV file. Bel
         <p>For any image that needs to be imported you need to specify the image location. This can be one of the following:</p>
         <ul>
           <li>Image URL</li>
-          <li>Path to the image on the server relative to the &lt;xcart directory&gt;/var/import folder<span>; for example, images/products/image1.png.</li>
+          <li>Path to the image on the server relative to the &lt;xcart directory&gt;/var/import folder; for example, images/products/image1.png.</li>
         </ul>
         <p>When exporting data from X-Cart, image paths are written to the export file using the latter method (relative path).</p>
         <p>This way when you need to re-import images back into X-Cart, you simply move the folder &lt;xcart directory&gt;/var/export/images to var/import/ - and use the existing relative paths).</p>
@@ -203,26 +203,26 @@ There are many more fields which you can include into your product CSV file. Bel
     </tr>
     <tr>
       <td class="confluenceTd">boxLength</td>
-      <td colspan="1" class="confluenceTd"><span>If <strong>useSeparateBox </strong><span>option <span>is <strong>Yes</strong><span>, this field defines the length of the custom box for this product
+      <td colspan="1" class="confluenceTd">If <strong>useSeparateBox </strong>option is <strong>Yes</strong>, this field defines the length of the custom box for this product
       </td>
-      <td colspan="1" class="confluenceTd"><span>Float (e.g. 1.00)
+      <td colspan="1" class="confluenceTd">Float (e.g. 1.00)
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">boxHeight</td>
-      <td colspan="1" class="confluenceTd"><span>If <strong>useSeparateBox </strong><span>option <span>is <strong>Yes</strong><span>, this field defines the height of the custom box for this product
+      <td colspan="1" class="confluenceTd">If <strong>useSeparateBox </strong>option is <strong>Yes</strong>, this field defines the height of the custom box for this product
       </td>
-      <td colspan="1" class="confluenceTd"><span>Float (e.g. 1.00)
+      <td colspan="1" class="confluenceTd">Float (e.g. 1.00)
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">itemsPerBox</td>
-      <td colspan="1" class="confluenceTd"><span>If <strong>useSeparateBox </strong><span>option <span>is <strong>Yes, </strong>this field defines what quantity of the product can be shipped in this box.</td>
+      <td colspan="1" class="confluenceTd">If <strong>useSeparateBox </strong>option is <strong>Yes, </strong>this field defines what quantity of the product can be shipped in this box.</td>
       <td colspan="1" class="confluenceTd">Integer (e.g. 3)</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">metaTags</td>
-      <td colspan="1" class="confluenceTd"><span>Defines the content of &lt;meta name="keywords" content="%value%"&gt; meta tag
+      <td colspan="1" class="confluenceTd">Defines the content of &lt;meta name="keywords" content="%value%"&gt; meta tag
       </td>
       <td colspan="1" class="confluenceTd">String,
         <br>Multilingual,
@@ -249,11 +249,11 @@ There are many more fields which you can include into your product CSV file. Bel
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">metaTitle</td>
-      <td colspan="1" class="confluenceTd"><span>Defines the content of &lt;meta name="title" content="%value%"&gt; meta tag
+      <td colspan="1" class="confluenceTd">Defines the content of &lt;meta name="title" content="%value%"&gt; meta tag
       </td>
-      <td colspan="1" class="confluenceTd">String<span>,
-        <br><span>Multilingual,
-        <br><span>Max. length: 255&nbsp;
+      <td colspan="1" class="confluenceTd">String,
+        <br>Multilingual,
+        <br>Max. length: 255&nbsp;
       </td>
     </tr>
     <tr>
@@ -277,15 +277,15 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd"><span><span>useCustomOpenGraphMeta
+      <td colspan="1" class="confluenceTd">useCustomOpenGraphMeta
       </td>
       <td colspan="1" class="confluenceTd">Defines whether use custom Open Graph meta tags for this product or use default ones</td>
       <td colspan="1" class="confluenceTd">Yes/No</td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd"><span>openGraphMeta
+      <td colspan="1" class="confluenceTd">openGraphMeta
       </td>
-      <td colspan="1" class="confluenceTd">If <strong><span>useCustomOpenGraphMeta</strong> is <strong>Yes</strong>, then defines custom Open Graph meta tags</td>
+      <td colspan="1" class="confluenceTd">If <strong>useCustomOpenGraphMeta</strong> is <strong>Yes</strong>, then defines custom Open Graph meta tags</td>
       <td colspan="1" class="confluenceTd">
         <p>String,
           <br>HTML allowed,
@@ -320,7 +320,7 @@ There are many more fields which you can include into your product CSV file. Bel
         <p>Examples:</p>
         <ul>
           <li>User manual (title of 1 attachment)</li>
-          <li><span>User manual&amp;&amp;Tech spec (title of 2 attachments)
+          <li>User manual&amp;&amp;Tech spec (title of 2 attachments)
           </li>
         </ul>
       </td>
@@ -337,7 +337,7 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
       <td colspan="1" class="confluenceTd">
         <p>Defines the description of attachments file.</p>
-        <p><span>This field supports descriptions for many attachments and they must be separated by &amp;&amp; construction.
+        <p>This field supports descriptions for many attachments and they must be separated by &amp;&amp; construction.
         </p>
         <p>Examples:</p>
         <ul>
@@ -354,10 +354,10 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd"><span>attachmentsPrivate
+      <td colspan="1" class="confluenceTd">attachmentsPrivate
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>Defines what attachments are private and available after order is paid (e-goods) and what attachments are available right from the product page (m<span>odules <strong>Product Attachments</strong><span> and <strong>E-Goods</strong><span> must be enabled)
+        <p>Defines what attachments are private and available after order is paid (e-goods) and what attachments are available right from the product page (modules <strong>Product Attachments</strong> and <strong>E-Goods</strong> must be enabled)
         </p>
         <p>In case of many attachments, you can mark some of them as private and some as publicly available. Multiple values must be separated by &amp;&amp; construction.</p>
         <p>Example:</p>
@@ -411,7 +411,7 @@ There are many more fields which you can include into your product CSV file. Bel
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">variantSKU</td>
-      <td colspan="1" class="confluenceTd">Product variant SKU<span> (if empty, takes SKU from parent product)
+      <td colspan="1" class="confluenceTd">Product variant SKU (if empty, takes SKU from parent product)
       </td>
       <td colspan="1" class="confluenceTd">String,
         <br>Max. length: 32,
@@ -420,39 +420,39 @@ There are many more fields which you can include into your product CSV file. Bel
     <tr>
       <td colspan="1" class="confluenceTd">variantPrice</td>
       <td colspan="1" class="confluenceTd">Product variant price (if empty, takes price from parent product)</td>
-      <td colspan="1" class="confluenceTd">Float<span>,
-        <br><span>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">Float,
+        <br>Multirow&nbsp;
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">variantQuantity</td>
-      <td colspan="1" class="confluenceTd">Product variant quantity <span>(if empty, takes quantity from parent product)
+      <td colspan="1" class="confluenceTd">Product variant quantity (if empty, takes quantity from parent product)
       </td>
-      <td colspan="1" class="confluenceTd">Integer<span>,
-        <br><span>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">Integer,
+        <br>Multirow&nbsp;
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">variantWeight</td>
-      <td colspan="1" class="confluenceTd"><span>Product variant weight <span>(if empty, takes weight from parent product)
+      <td colspan="1" class="confluenceTd">Product variant weight (if empty, takes weight from parent product)
       </td>
-      <td colspan="1" class="confluenceTd">Float<span>,
-        <br><span>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">Float,
+        <br>Multirow&nbsp;
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">variantImage</td>
       <td colspan="1" class="confluenceTd">Product variant image location</td>
-      <td colspan="1" class="confluenceTd">String<span>,
-        <br><span>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">String,
+        <br>Multirow&nbsp;
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">variantImageAlt</td>
       <td colspan="1" class="confluenceTd">Product variant image alt text</td>
       <td colspan="1" class="confluenceTd">String,
-        <br>Max. length: 32<span>,
-        <br><span>Multirow&nbsp;
+        <br>Max. length: 32,
+        <br>Multirow&nbsp;
       </td>
     </tr>
     <tr>
@@ -470,9 +470,9 @@ There are many more fields which you can include into your product CSV file. Bel
             <br><span style="line-height: 1.4285715;">If they buy from 6 items, then the price will be $45<br><br>Then you would need to specify this system as follows in the CSV file:<br><strong>1-5=50.00&amp;&amp;6=45.00</strong>&nbsp;
             <br><span style="line-height: 1.4285715;"><br>
           </li>
-          <li><span style="line-height: 1.4285715;">You want to set up price tiers as follows:<br><span>If a customer buys from 1 to 5 items, each item will cost $50
-            <br><span>If they buy from 6 items, then the price will be $45<br>If a customer with Wholesaler membership buys from 3 items, then the price will be $40&nbsp;<br><br><span>Then you would need to specify this system as follows in the CSV file:
-            <br><span>&nbsp;<strong>1-5=50.00&amp;&amp;6=45.00&amp;&amp;3(Wholesaler)=40.00</strong>
+          <li><span style="line-height: 1.4285715;">You want to set up price tiers as follows:<br>If a customer buys from 1 to 5 items, each item will cost $50
+            <br>If they buy from 6 items, then the price will be $45<br>If a customer with Wholesaler membership buys from 3 items, then the price will be $40&nbsp;<br><br>Then you would need to specify this system as follows in the CSV file:
+            <br>&nbsp;<strong>1-5=50.00&amp;&amp;6=45.00&amp;&amp;3(Wholesaler)=40.00</strong>
             
             
           </li>
@@ -484,7 +484,7 @@ There are many more fields which you can include into your product CSV file. Bel
     <tr>
       <td class="confluenceTd">variantWholesalePrices</td>
       <td class="confluenceTd">
-        <p><span>Defines wholesale prices for the product variant.
+        <p>Defines wholesale prices for the product variant.
         </p>
         <p><strong>Product Variants</strong> module must be enabled.</p>
       </td>
@@ -513,25 +513,25 @@ There are many more fields which you can include into your product CSV file. Bel
         <p>variantupcIsbn</p>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>Product variant <span>UPC/ISBN code.
+        <p>Product variant UPC/ISBN code.
         </p>
-        <p><span>&nbsp;<strong>Product Variants</strong> module must be enabled.</p>
+        <p>&nbsp;<strong>Product Variants</strong> module must be enabled.</p>
       </td>
-      <td colspan="1" class="confluenceTd"><span>String,
-        <br><span>Max. length: 32,<br>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">String,
+        <br>Max. length: 32,<br>Multirow&nbsp;
       </td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd"><span>variantmnfVendor
+      <td colspan="1" class="confluenceTd">variantmnfVendor
       </td>
       <td colspan="1" class="confluenceTd">
-        <p><span>Manufacturer of the product variant.
+        <p>Manufacturer of the product variant.
         </p>
-        <p><span><strong>Product Variants</strong><span> module must be enabled.
+        <p><strong>Product Variants</strong> module must be enabled.
         </p>
       </td>
-      <td colspan="1" class="confluenceTd"><span>String,
-        <br><span>Max. length: 64,<br>Multirow&nbsp;
+      <td colspan="1" class="confluenceTd">String,
+        <br>Max. length: 64,<br>Multirow&nbsp;
       </td>
     </tr>
     <tr>
@@ -558,7 +558,7 @@ There are many more fields which you can include into your product CSV file. Bel
 
 <sub markdown="1">** See {% link "CSV field attributes" ref_2LwMTTTW %} for more info.</sub>
 
-**Tips**:
+### Tips:
 
 *   If you are going to import data into X-Cart and do not wish to update certain X-Cart fields during the import process, you should not include these fields into your CSV file for import. Simply remove the respective column(s) from the file.
 
