@@ -1,12 +1,13 @@
 ---
-identifier: ref_WmJBfwxA
-updated_at: 2016-06-16 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-10-03 15:12 +0400'
+identifier: ref_WmJBfwxA
 title: 'CSV import: Products'
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -467,10 +468,10 @@ There are many more fields which you can include into your product CSV file. Bel
         <ol>
           <li>You want to set up price tiers as follows:
             <br>If a customer buys from 1 to 5 items, each item will cost $50
-            <br><span style="line-height: 1.4285715;">If they buy from 6 items, then the price will be $45<br><br>Then you would need to specify this system as follows in the CSV file:<br><strong>1-5=50.00&amp;&amp;6=45.00</strong>&nbsp;
-            <br><span style="line-height: 1.4285715;"><br>
+            <br>If they buy from 6 items, then the price will be $45<br><br>Then you would need to specify this system as follows in the CSV file:<br><strong>1-5=50.00&amp;&amp;6=45.00</strong>&nbsp;
+            <br><br>
           </li>
-          <li><span style="line-height: 1.4285715;">You want to set up price tiers as follows:<br>If a customer buys from 1 to 5 items, each item will cost $50
+          <li>You want to set up price tiers as follows:<br>If a customer buys from 1 to 5 items, each item will cost $50
             <br>If they buy from 6 items, then the price will be $45<br>If a customer with Wholesaler membership buys from 3 items, then the price will be $40&nbsp;<br><br>Then you would need to specify this system as follows in the CSV file:
             <br>&nbsp;<strong>1-5=50.00&amp;&amp;6=45.00&amp;&amp;3(Wholesaler)=40.00</strong>
             
