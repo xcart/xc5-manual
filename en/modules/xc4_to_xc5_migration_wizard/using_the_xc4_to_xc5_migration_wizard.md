@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-04 09:40 +0400'
+updated_at: '2016-10-04 09:51 +0400'
 identifier: ref_Ah935naM
 title: Using the module "XC4 to XC5 Migration wizard"
 order: 130
@@ -25,6 +25,7 @@ To use the wizard:
 3.  At the second step of the wizard ("2. Connect"), specify your X-Cart 4 store database connection details. 
 
     Start by completing the following fields:
+    
     *   **Database name**: The name of your X-Cart 4 database.
     *   **Database username**: The username of your MySQL account.
     *   **Database password**: The password of your MySQL account.
@@ -33,6 +34,7 @@ To use the wizard:
     ![xc5_migration_wizard_connect2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_connect2.png?effects=drop-shadow)
 
     In the **Advanced options** section, you can enter the following info:
+    
     *   **Host name**: The name of the host where your MySQL server is running.
     *   **Port number**: The port number to use for the connection, for connections made using TCP/IP. The default port number is 3306.
     *   **Socket**: The MySQL Unix socket.
