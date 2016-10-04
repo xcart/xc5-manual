@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-04 09:51 +0400'
+updated_at: '2016-10-04 11:47 +0400'
 identifier: ref_Ah935naM
 title: Using the module "XC4 to XC5 Migration wizard"
 order: 130
@@ -52,8 +52,8 @@ To use the wizard:
     That will take you to the next step of the wizard - "3. Check".
 
 4.  Using the connection details provided at the previous step, your X-Cart 5 store tries to connect to the specified X-Cart 4 database. Provided that the connection details have been specified correctly, at the third step of the wizard ("3. Check") you should be able to see a summary of information that X-Cart 5 could obtain regarding your X-Cart 4 store:
-    ![xc5_migration_wizard_check1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_check1.png?effects=drop-shadow)
-    
+     ![xc5_migration_wizard_check1.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_check1.png?effects=drop-shadow)
+
     Click **Continue** to proceed.
     ![xc5_migration_wizard_check2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_check2.png?effects=drop-shadow)
 
@@ -93,9 +93,29 @@ To use the wizard:
     ![xc5_migration_wizard_transfer2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer2.png?effects=drop-shadow)
     
     The migration process begins:
-    ![xc5_migration_wizard_transfer3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer3.png)
+    ![xc5_migration_wizard_transfer3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer3.png?effects=drop-shadow)
 
     Note that the migration process, which may take a while to complete, only continues while the page is open. 
-    ![xc5_migration_wizard_transfer4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer4.png)
+    ![xc5_migration_wizard_transfer4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer4.png?effects=drop-shadow)
 
     So be sure to keep the page open or, if you have to close it for a while, be sure to re-open it to allow the migration module to finish its work.
+    
+    While your data is being migrated from your X-Cart 4 store to X-Cart 5, you will be able to see the progress on the screen. Here are the stages that will have to be completed:
+    
+    *   Processing products: 
+    ![xc5_migration_wizard_transfer5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer5.png?effects=drop-shadow)
+    
+    *   Removing duplicate images:    
+    ![xc5_migration_wizard_transfer6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer6.png?effects=drop-shadow)
+
+    *   Resizing images:    
+    ![xc5_migration_wizard_transfer7.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_transfer7.png?effects=drop-shadow)
+
+8. Once the transfer has completed, the final step of the wizard will be displayed - "6. Complete":
+    ![xc5_migration_wizard_congrats.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_congrats.png?effects=drop-shadow)
+
+That is all; your data has been successfully migrated.
+
+
+
+    
