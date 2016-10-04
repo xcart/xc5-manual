@@ -17,13 +17,22 @@ published: false
       <td colspan="1" class="confluenceTd"><span>Сonfiguration settings</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>Company;
+        <p>*   Company;
           <br><span>&nbsp;</span>
-          <br>General (Default customer address, Currency, Weight, Length symbols, Purchase limits);
+          <br>*   General (Default customer address, Currency, Weight, Length symbols, Purchase limits);
           <br><span>&nbsp;</span>
-          <br>Contact Us (If your X-Cart 4 database contains an entry for contact_us, the Migration wizard requests that the module "Contact Us" should be enabled in X-Cart 5; your X-Cart 4 store's Contact Us form settings are not checked and not migrated to X-Cart 5);
+          <br>*   Contact Us (If your X-Cart 4 database contains an entry for contact_us, the Migration wizard requests that the module "Contact Us" should be enabled in X-Cart 5; your X-Cart 4 store's Contact Us form settings are not checked and not migrated to X-Cart 5);
           <br><span>&nbsp;</span>
-          <br>CleanURLs (If your X-Cart 4 store has the Clean URLs feature enabled, the Migration wizard automatically enables the respective feature in X-Cart 5.)&nbsp;</p>
+          <br>*   CleanURLs (If your X-Cart 4 store has the Clean URLs feature enabled, the Migration wizard automatically enables the respective feature in X-Cart 5.)&nbsp;</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd"><span>Сontent</span>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>*   Static pages (Only embedded ones; if such pages are present in X-Cart 4, the Migration wizard requires that the module "SimpleCMS" should be enabled in X-Cart 5);
+          <br><span>&nbsp;</span>
+          <br>*   Speed bar (If the feature is used in X-Cart 4, the Migration wizard requires that the module "SimpleCMS" should be enabled in X-Cart 5).&nbsp;</p>
       </td>
     </tr>
   </tbody>
