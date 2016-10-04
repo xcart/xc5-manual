@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-16 00:21 +0400'
+updated_at: '2016-10-04 09:39 +0400'
 title: XC4 to XC5 Migration wizard
 order: 100
-published: false
+published: true
 version: X-Cart 5.3.0 and later
 ---
 
