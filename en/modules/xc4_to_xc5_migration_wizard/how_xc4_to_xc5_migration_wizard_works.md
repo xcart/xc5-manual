@@ -11,7 +11,7 @@ published: true
 
 <table class="ui compact padded celled small table">
   <tbody>
-    <tr>
+    <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Сonfiguration settings</span>
       </td>
       <td colspan="1" class="confluenceTd">
@@ -24,7 +24,7 @@ published: true
           <br>*   CleanURLs (If your X-Cart 4 store has the Clean URLs feature enabled, the Migration wizard automatically enables Clean URLs in X-Cart 5.)&nbsp;</p>
       </td>
     </tr>
-    <tr>
+    <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Сontent</span>
       </td>
       <td colspan="1" class="confluenceTd">
@@ -33,7 +33,7 @@ published: true
           <br>*   Speed bar (In X-Cart 5, similar functionality is available through the module "SimpleCMS", so if the feature is used in X-Cart 4, the Migration wizard requires that the module "SimpleCMS" should be enabled in X-Cart 5).&nbsp;</p>
       </td>
     </tr>
-    <tr>
+    <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Products</span>
       </td>
       <td colspan="1" class="confluenceTd">
@@ -60,7 +60,7 @@ published: true
           <br>*   Wholesale prices (Only for regular products: migration of wholesale prices of product variants is not yet supported).&nbsp;</p>
       </td>
     </tr>  
-    <tr>
+    <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Categories</span>
       </td>
       <td colspan="1" class="confluenceTd">
@@ -71,28 +71,28 @@ published: true
           <br>*   Featured products.&nbsp;</p>
       </td>
     </tr>
-    <tr>   
+    <tr class="top aligned">   
       <td colspan="1" class="confluenceTd"><span>Users</span>
       </td>
       <td colspan="1" class="confluenceTd">
         <p>As is (For older X-Cart 4 versions, user passwords are migrated; not so for newer versions).&nbsp;</p>
       </td>
     </tr>
-    <tr>   
+    <tr class="top aligned">   
       <td colspan="1" class="confluenceTd"><span>Memberships</span>
       </td>
       <td colspan="1" class="confluenceTd">
         <p>As is (Including multilingual data).&nbsp;</p>
       </td>
     </tr>
-    <tr>   
+    <tr class="top aligned">   
       <td colspan="1" class="confluenceTd"><span>Zones</span>
       </td>
       <td colspan="1" class="confluenceTd">
         <p>As is.&nbsp;</p>
       </td>
     </tr>
-    <tr>
+    <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Payment settings</span>
       </td>
       <td colspan="1" class="confluenceTd">
@@ -109,7 +109,7 @@ published: true
           <br>*   2Checkout.&nbsp;</p>
       </td>
     </tr>
-    <tr>
+    <tr class="top aligned">
       <td colspan="1" class="confluenceTd"><span>Shipping settings</span>
       </td>
       <td colspan="1" class="confluenceTd">
@@ -140,49 +140,44 @@ Here's how the migration module determines whether any modules need to be instal
 
 <table class="ui compact padded celled small table">
   <tbody>
-    <tr>
-      <th colspan="4" class="confluenceTh">&nbsp;</th>
-      <th colspan="1" class="confluenceTh">&nbsp;</th>
-      <th colspan="4" class="confluenceTh">&nbsp;</th>
-    </tr>
-    <tr>   
+    <tr class="top aligned">   
       <td colspan="4" class="confluenceTd">
         <p>An X-Cart 4 module is installed; module data is present.&nbsp;</p>
       </td>
-      <td colspan="1" class="confluenceTd">
+      <td colspan="2" class="confluenceTd">
         <p>--></p>
       </td>
       <td colspan="4" class="confluenceTd">
         <p>A counterpart X-Cart 5 module needs to be enabled.&nbsp;</p>
       </td>
     </tr>
-    <tr>   
+    <tr class="top aligned">   
       <td colspan="4" class="confluenceTd">
         <p>A payment method in X-Cart 4 is configured and enabled.&nbsp;</p>
       </td>
-      <td colspan="1" class="confluenceTd">
+      <td colspan="2" class="confluenceTd">
         <p>--></p>
       </td>
       <td colspan="4" class="confluenceTd">
         <p>A counterpart X-Cart 5 payment module needs to be enabled.&nbsp;</p>
       </td>
     </tr>
-    <tr>   
+    <tr class="top aligned">   
       <td colspan="4" class="confluenceTd">
         <p>A shipping method in X-Cart 4 is configured and enabled.&nbsp;</p>
       </td>
-      <td colspan="1" class="confluenceTd">
+      <td colspan="2" class="confluenceTd">
         <p>--></p>
       </td>
       <td colspan="4" class="confluenceTd">
         <p>A counterpart X-Cart 5 shipping module needs to be enabled.&nbsp;</p>
       </td>
     </tr>
-    <tr>   
+    <tr class="top aligned">   
       <td colspan="4" class="confluenceTd">
         <p>A language in X-Cart 4 is enabled.&nbsp;</p>
       </td>
-      <td colspan="1" class="confluenceTd">
+      <td colspan="2" class="confluenceTd">
         <p>--></p>
       </td>
       <td colspan="4" class="confluenceTd">
