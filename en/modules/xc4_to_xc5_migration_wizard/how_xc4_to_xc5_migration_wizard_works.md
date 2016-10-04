@@ -7,10 +7,11 @@ title: ''
 order: 100
 published: false
 ---
+## Data types migratable by the module
 <table class="ui compact padded celled small table">
   <tbody>
     <tr>
-      <th colspan="1" class="confluenceTh">Data types migratable by the module</th>
+      <th colspan="1" class="confluenceTh">&nbsp;</th>
       <th colspan="1" class="confluenceTh">&nbsp;</th>
     </tr>
     <tr>
