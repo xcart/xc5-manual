@@ -73,5 +73,11 @@ published: false
       </td>
     </tr>
     <tr>   
+      <td colspan="1" class="confluenceTd"><span>Users</span>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>As is (For older X-Cart 4 versions, user passwords are migrated; not so for newer versions).&nbsp;</p>
+      </td>
+    </tr>
   </tbody>
 </table>
