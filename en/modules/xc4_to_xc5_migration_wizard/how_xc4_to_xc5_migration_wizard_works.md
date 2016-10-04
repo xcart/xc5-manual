@@ -140,24 +140,57 @@ published: false
 ## Functionality matching
 The module performs a basic check of whether your X-Cart 5 installation has all the necessary modules installed and activated to cover the functionality that was available to you in your X-Cart 4 store. If it determines that a certain module needs to be installed/activated, an additional wizard step will be added to allow for this operation.
 
-The conditions based on which the module determines whether a module needs to be installed and activated are as follows:
+Here's how the migration module determines whether any modules need to be installed and activated in X-Cart 5:
 
 <table class="ui compact padded celled small table">
   <tbody>
     <tr>
+      <th colspan="4" class="confluenceTh">&nbsp;</th>
       <th colspan="1" class="confluenceTh">&nbsp;</th>
-      <th colspan="1" class="confluenceTh">&nbsp;</th>
-      <th colspan="1" class="confluenceTh">&nbsp;</th>
+      <th colspan="4" class="confluenceTh">&nbsp;</th>
     </tr>
     <tr>   
-      <td colspan="1" class="confluenceTd">
-        <p>An X-Cart 4 module is installed; module data is available.&nbsp;</p>
+      <td colspan="4" class="confluenceTd">
+        <p>An X-Cart 4 module is installed; module data is present.&nbsp;</p>
       </td>
       <td colspan="1" class="confluenceTd">
         <p>--></p>
       </td>
-      <td colspan="1" class="confluenceTd">
+      <td colspan="4" class="confluenceTd">
         <p>A counterpart X-Cart 5 module needs to be enabled.&nbsp;</p>
+      </td>
+    </tr>
+    <tr>   
+      <td colspan="4" class="confluenceTd">
+        <p>A payment method in X-Cart 4 is configured and enabled.&nbsp;</p>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>--></p>
+      </td>
+      <td colspan="4" class="confluenceTd">
+        <p>A counterpart X-Cart 5 payment module needs to be enabled.&nbsp;</p>
+      </td>
+    </tr>
+    <tr>   
+      <td colspan="4" class="confluenceTd">
+        <p>A shipping method in X-Cart 4 is configured and enabled.&nbsp;</p>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>--></p>
+      </td>
+      <td colspan="4" class="confluenceTd">
+        <p>A counterpart X-Cart 5 shipping module needs to be enabled.&nbsp;</p>
+      </td>
+    </tr>
+    <tr>   
+      <td colspan="4" class="confluenceTd">
+        <p>A language in X-Cart 4 is enabled.&nbsp;</p>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>--></p>
+      </td>
+      <td colspan="4" class="confluenceTd">
+        <p>An X-Cart 5 language translation module needs to be enabled.&nbsp;</p>
       </td>
     </tr>
   </tbody>
