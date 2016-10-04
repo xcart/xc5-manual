@@ -39,7 +39,7 @@ published: false
       <td colspan="1" class="confluenceTd"><span>Products</span>
       </td>
       <td colspan="1" class="confluenceTd">
-        <p>All the general info, images and Clean URLs for:
+        <p>All the general info, images and Clean URLs for the following entities:
           <br><span>&nbsp;</span>
           <br>*   Bestsellers (If the feature is used in X-Cart 4, the Migration wizard requires that the module "Bestsellers" should be enabled in X-Cart 5; your X-Cart 4 store's Bestsellers settings are not checked and not migrated to X-Cart 5);
           <br><span>&nbsp;</span>
@@ -61,6 +61,17 @@ published: false
           <br><span>&nbsp;</span>
           <br>*   Wholesale prices (Only for regular products: migration of wholesale prices of product variants is not yet supported).&nbsp;</p>
       </td>
+    <tr>
+      <td colspan="1" class="confluenceTd"><span>Categories</span>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>All the general info, images and Clean URLs for the following entities:
+          <br><span>&nbsp;</span>
+          <br>*   International descriptions;
+          <br><span>&nbsp;</span>
+          <br>*   Featured products.&nbsp;</p>
+      </td>
+    </tr>
     <tr>   
   </tbody>
 </table>
