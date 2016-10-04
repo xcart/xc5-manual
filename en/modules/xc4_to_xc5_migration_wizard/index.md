@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-04 12:29 +0400'
+updated_at: '2016-10-04 17:31 +0400'
 title: XC4 to XC5 Migration wizard
 order: 100
 published: true
@@ -13,5 +13,6 @@ The module **XC4 to XC5 Migration wizard** provides an easy method for migrating
 
 _In this section:_
 
+*   {% link "How XC4 to XC5 Migration wizard works" ref_37NAeGlf %}
 *   {% link "XC4 to XC5 Migration wizard system requirements and installation" ref_KqsCJNRG %}
 *   {% link "Using the module 'XC4 to XC5 Migration wizard'" ref_Ah935naM %}
