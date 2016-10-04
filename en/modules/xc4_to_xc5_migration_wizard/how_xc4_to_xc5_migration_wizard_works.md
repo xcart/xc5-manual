@@ -196,3 +196,20 @@ Here's how the migration module determines whether any modules need to be instal
   </tbody>
 </table>
 
+The following modules are enabled automatically:
+*   CDev\RuTranslation
+*   CDev\DeTranslation
+*   CDev\FrTranslation
+*   CDev\NlTranslation
+
+## Migration process
+The migration of data from X-Cart 4 to X-Cart 5 is based on the import model. The data is processed in chunks, and the process may take quite a long time depending on the volume of data that needs to be migrated.
+
+Exising IDs from X-Cart 4 are not saved in X-Cart 5 after the migration. However, records of what X-Cart 4 IDs were replaced with X-Cart 5 IDs are stored in the registry (MigrationRegistry - type of entity, MigrationRegistryEntry - how the ID was changed). When the wizard is restarted, the registry is cleared.
+
+The step for removing duplicate images in the process of data migration has been added to rid the store of redundant image data. At this step, the module checks whether any product variants are using the same image as the main product, and if a duplicate image is found, the image of the main product is removed. Whether any two images are the same is determined based on the image hash.
+
+## Limitations
+The module does not support the migration of order data.
+
+
