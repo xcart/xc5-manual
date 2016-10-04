@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-04 11:47 +0400'
+updated_at: '2016-10-04 17:27 +0400'
 identifier: ref_Ah935naM
 title: Using the module "XC4 to XC5 Migration wizard"
-order: 130
+order: 140
 published: true
 version: X-Cart 5.3.1 and later
 ---
@@ -115,7 +115,3 @@ To use the wizard:
     ![xc5_migration_wizard_congrats.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_congrats.png?effects=drop-shadow)
 
 That is all; your data has been successfully migrated.
-
-
-
-    
