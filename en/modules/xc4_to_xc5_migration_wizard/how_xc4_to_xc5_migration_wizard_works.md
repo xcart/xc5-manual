@@ -144,9 +144,6 @@ Here's how the migration module determines whether any modules need to be instal
       <td colspan="3" class="confluenceTd">
         <p>An X-Cart 4 module is installed; module data is present.&nbsp;</p>
       </td>
-      <td colspan="1" class="confluenceTd">
-        <p>--></p>
-      </td>
       <td colspan="3" class="confluenceTd">
         <p>A counterpart X-Cart 5 module needs to be enabled.&nbsp;</p>
       </td>
@@ -154,9 +151,6 @@ Here's how the migration module determines whether any modules need to be instal
     <tr class="top aligned">   
       <td colspan="3" class="confluenceTd">
         <p>A payment method in X-Cart 4 is configured and enabled.&nbsp;</p>
-      </td>
-      <td colspan="1" class="confluenceTd">
-        <p>--></p>
       </td>
       <td colspan="3" class="confluenceTd">
         <p>A counterpart X-Cart 5 payment module needs to be enabled.&nbsp;</p>
@@ -166,9 +160,6 @@ Here's how the migration module determines whether any modules need to be instal
       <td colspan="3" class="confluenceTd">
         <p>A shipping method in X-Cart 4 is configured and enabled.&nbsp;</p>
       </td>
-      <td colspan="1" class="confluenceTd">
-        <p>--></p>
-      </td>
       <td colspan="3" class="confluenceTd">
         <p>A counterpart X-Cart 5 shipping module needs to be enabled.&nbsp;</p>
       </td>
@@ -176,9 +167,6 @@ Here's how the migration module determines whether any modules need to be instal
     <tr class="top aligned">   
       <td colspan="3" class="confluenceTd">
         <p>A language in X-Cart 4 is enabled.&nbsp;</p>
-      </td>
-      <td colspan="1" class="confluenceTd">
-        <p>--></p>
       </td>
       <td colspan="3" class="confluenceTd">
         <p>An X-Cart 5 language translation module needs to be enabled.&nbsp;</p>
