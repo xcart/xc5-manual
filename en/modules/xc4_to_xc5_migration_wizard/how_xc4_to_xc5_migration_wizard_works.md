@@ -188,10 +188,11 @@ Here's how the migration module determines whether any modules need to be instal
 </table>
 
 The following modules are enabled automatically:
-*   CDev\RuTranslation
-*   CDev\DeTranslation
-*   CDev\FrTranslation
-*   CDev\NlTranslation
+
+   *   CDev\RuTranslation
+   *   CDev\DeTranslation
+   *   CDev\FrTranslation
+   *   CDev\NlTranslation
 
 ## Migration process
 The migration of data from X-Cart 4 to X-Cart 5 is based on the import model. The data is processed in chunks, and the process may take quite a long time depending on the volume of data that needs to be migrated.
