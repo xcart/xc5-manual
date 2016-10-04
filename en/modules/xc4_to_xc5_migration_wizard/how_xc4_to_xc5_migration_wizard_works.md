@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-04 17:30 +0400'
+updated_at: '2016-10-04 17:36 +0400'
 identifier: ref_37NAeGlf
 title: How XC4 to XC5 Migration wizard works
 order: 110
@@ -11,10 +11,6 @@ published: true
 
 <table class="ui compact padded celled small table">
   <tbody>
-    <tr>
-      <th colspan="1" class="confluenceTh">&nbsp;</th>
-      <th colspan="1" class="confluenceTh">&nbsp;</th>
-    </tr>
     <tr>
       <td colspan="1" class="confluenceTd"><span>Сonfiguration settings</span>
       </td>
