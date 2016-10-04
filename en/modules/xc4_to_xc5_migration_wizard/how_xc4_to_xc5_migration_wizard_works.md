@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-04 12:50 +0400'
+updated_at: '2016-10-04 17:30 +0400'
 identifier: ref_37NAeGlf
-title: ''
+title: How XC4 to XC5 Migration wizard works
 order: 110
 published: true
 ---
@@ -211,5 +211,3 @@ The step for removing duplicate images in the process of data migration has been
 
 ## Limitations
 The module does not support the migration of order data.
-
-
