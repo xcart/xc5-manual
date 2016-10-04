@@ -61,6 +61,7 @@ published: false
           <br><span>&nbsp;</span>
           <br>*   Wholesale prices (Only for regular products: migration of wholesale prices of product variants is not yet supported).&nbsp;</p>
       </td>
+    </tr>  
     <tr>
       <td colspan="1" class="confluenceTd"><span>Categories</span>
       </td>
@@ -91,6 +92,44 @@ published: false
       </td>
       <td colspan="1" class="confluenceTd">
         <p>As is.&nbsp;</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd"><span>Payment settings</span>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>Only for the following payment methods:
+          <br><span>&nbsp;</span>
+          <br>*   AuthorizeNet;
+          <br><span>&nbsp;</span>
+          <br>*   EWay;
+          <br><span>&nbsp;</span>
+          <br>*   Moneybookers;
+          <br><span>&nbsp;</span>
+          <br>*   PayPal (Standard, ExpressCheckout, PayflowLink, PayflowTransparentRedirect, PaypalAdvanced, PaypalWPS);
+          <br><span>&nbsp;</span>
+          <br>*   2Checkout.&nbsp;</p>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd"><span>Shipping settings</span>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>*   User defined methods and rates
+          <br><span>&nbsp;</span>
+          <br>Real-time:
+          <br><span>&nbsp;</span>
+          <br>*   Australia Post;
+          <br><span>&nbsp;</span>
+          <br>*   Canada Post;
+          <br><span>&nbsp;</span>
+          <br>*   DHL;
+          <br><span>&nbsp;</span>
+          <br>*   FedEx;
+          <br><span>&nbsp;</span>
+          <br>*   USPS;
+          <br><span>&nbsp;</span>
+          <br>*   UPS (If the method is used in X-Cart 4, the Migration wizard requires that the module "UPS" should be enabled in X-Cart 5; your X-Cart 4 store's UPS settings are not checked and not migrated to X-Cart 5)&nbsp;</p>
       </td>
     </tr>
   </tbody>
