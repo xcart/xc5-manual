@@ -4,8 +4,8 @@ layout: article_with_sidebar
 updated_at: '2016-10-04 12:50 +0400'
 identifier: ref_37NAeGlf
 title: ''
-order: 100
-published: false
+order: 110
+published: true
 ---
 ## Data types migratable by XC4 to XC5 Migration wizard
 
