@@ -1,11 +1,11 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 16:47 +0400'
+updated_at: '2016-10-04 09:40 +0400'
 identifier: ref_Ah935naM
 title: Using the module "XC4 to XC5 Migration wizard"
 order: 130
-published: false
+published: true
 version: X-Cart 5.3.0 and later
 ---
 Once the module "XC4 to XC5 Migration wizard" has been installed on your X-Cart 5 store, you get a new item at the top of the Admin area menu - "Migration wizard":
