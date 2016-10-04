@@ -1,11 +1,11 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-16 00:19 +0400'
+updated_at: '2016-10-04 09:40 +0400'
 identifier: ref_KqsCJNRG
 title: XC4 to XC5 Migration wizard system requirements and installation
 order: 100
-published: false
+published: true
 version: X-Cart 5.3.0 and later
 ---
 At the moment of writing this article, the module "XC4 to XC5 Migration wizard" is available for X-Cart versions 5.3.0 and later. It provides a tool for the migration of data and settings from X-Cart 4 based online stores (versions 4.4.0 or later) to the X-Cart 5 platform. For the most up-to-date information on the module compatibility, please see the [module page](https://market.x-cart.com/addons/migration-wizard.html).
