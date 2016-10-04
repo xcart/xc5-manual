@@ -7,7 +7,8 @@ title: ''
 order: 100
 published: false
 ---
-## Data types migratable by the module
+## Data types migratable by XC4 to XC5 Migration wizard
+
 <table class="ui compact padded celled small table">
   <tbody>
     <tr>
@@ -135,3 +136,11 @@ published: false
     </tr>
   </tbody>
 </table>
+
+## Functionality matching
+The module performs a basic check of whether your X-Cart 5 installation has all the necessary modules installed and activated to cover the functionality that was available to you in your X-Cart 4 store. If it determines that a certain module needs to be installed/activated, an additional wizard step will be added to allow for this operation.
+
+For instance, потребуются модули eWay, Variants, Market price
+
+Полное соответствие условий необходимости установки модулей следующее
+
