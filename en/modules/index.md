@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-04-15 00:00'
+updated_at: '2016-10-04 09:56 +0400'
 identifier: ref_mCs9Q9Uy
 title: Modules
 categories:
@@ -38,5 +38,6 @@ _In this section:_
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Update inventory" ref_uSIvmuTh %}
 *   {% link "WordPress Integration" ref_rJ8hCpkQ %}
+*   {% link "XC4 to XC5 Migration wizard" ref_enOvcLbO %}
 *   {% link "X-Payments connector" ref_NaZh0d1b %}
 *   {% link "X-Payments subscriptions" ref_8VFoqBFZ %}
