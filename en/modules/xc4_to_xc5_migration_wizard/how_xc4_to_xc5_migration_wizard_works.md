@@ -10,11 +10,11 @@ published: false
 <table class="ui compact padded celled small table">
   <tbody>
     <tr>
-      <td colspan="1" class="confluenceTh">Data types migratable by the module</td>
-      <td colspan="1" class="confluenceTh">&nbsp;</td>
+      <th colspan="1" class="confluenceTh">Data types migratable by the module</th>
+      <th colspan="1" class="confluenceTh">&nbsp;</th>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd">Сonfiguration settings
+      <td colspan="1" class="confluenceTd"><span>Сonfiguration settings</span>
       </td>
       <td colspan="1" class="confluenceTd">
         <p>Company;
