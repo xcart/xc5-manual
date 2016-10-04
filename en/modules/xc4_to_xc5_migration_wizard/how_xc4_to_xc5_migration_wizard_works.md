@@ -140,7 +140,26 @@ published: false
 ## Functionality matching
 The module performs a basic check of whether your X-Cart 5 installation has all the necessary modules installed and activated to cover the functionality that was available to you in your X-Cart 4 store. If it determines that a certain module needs to be installed/activated, an additional wizard step will be added to allow for this operation.
 
-For instance, потребуются модули eWay, Variants, Market price
+The conditions based on which the module determines whether a module needs to be installed and activated are as follows:
 
-Полное соответствие условий необходимости установки модулей следующее
+<table class="ui compact padded celled small table">
+  <tbody>
+    <tr>
+      <th colspan="1" class="confluenceTh">&nbsp;</th>
+      <th colspan="1" class="confluenceTh">&nbsp;</th>
+      <th colspan="1" class="confluenceTh">&nbsp;</th>
+    </tr>
+    <tr>   
+      <td colspan="1" class="confluenceTd">
+        <p>An X-Cart 4 module is installed; module data is available.&nbsp;</p>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>--></p>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>A counterpart X-Cart 5 module needs to be enabled.&nbsp;</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
