@@ -18,9 +18,12 @@ published: false
       </td>
       <td colspan="1" class="confluenceTd">
         <p>Company;
+          <br><span>&nbsp;</span>
           <br>General (Default customer address, Currency, Weight, Length symbols, Purchase limits);
-          <br>Contact Us (только включение модуля);
-          <br>CleanURLs (включаются автоматически)&nbsp;</p>
+          <br><span>&nbsp;</span>
+          <br>Contact Us (If your X-Cart 4 database contains an entry for contact_us, the Migration wizard requests that the module "Contact Us" should be enabled in X-Cart 5; your X-Cart 4 store's Contact Us form settings are not checked and not migrated to X-Cart 5);
+          <br><span>&nbsp;</span>
+          <br>CleanURLs (If your X-Cart 4 store has the Clean URLs feature enabled, the Migration wizard automatically enables the respective feature in X-Cart 5.)&nbsp;</p>
       </td>
     </tr>
   </tbody>
