@@ -79,5 +79,19 @@ published: false
         <p>As is (For older X-Cart 4 versions, user passwords are migrated; not so for newer versions).&nbsp;</p>
       </td>
     </tr>
+    <tr>   
+      <td colspan="1" class="confluenceTd"><span>Memberships</span>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>As is (Including multilingual data).&nbsp;</p>
+      </td>
+    </tr>
+    <tr>   
+      <td colspan="1" class="confluenceTd"><span>Zones</span>
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>As is.&nbsp;</p>
+      </td>
+    </tr>
   </tbody>
 </table>
