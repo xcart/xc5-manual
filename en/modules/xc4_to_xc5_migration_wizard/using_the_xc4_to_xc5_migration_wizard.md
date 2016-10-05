@@ -84,6 +84,7 @@ To use the wizard:
     *   Purchase the licenses required to use the installed modules and activate your license keys;
     *   Remove the installed modules from your store.
 
+    
     On our demo, we chose to activate a license key for X-Cart Ultimate. After activating the key, we got a message at the top of the screen showing that the key has been activated successfully:
     ![xc5_migration_wizard_enable5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable5.png?effects=drop-shadow)
     
