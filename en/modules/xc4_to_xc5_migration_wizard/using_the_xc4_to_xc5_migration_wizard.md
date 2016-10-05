@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-04 17:27 +0400'
+updated_at: '2016-10-05 12:22 +0400'
 identifier: ref_Ah935naM
 title: Using the module "XC4 to XC5 Migration wizard"
 order: 140
@@ -76,8 +76,12 @@ To use the wizard:
     Note that not all of the activated modules may be free. If any paid modules are installed and activated at this step, you will get a license warning like the following:
     ![xc5_migration_wizard_enable4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable4.png?effects=drop-shadow)
 
-    The warning means that you have two options available to you:
-    *   Purchase licenses for the installed paid modules and activate your license keys;
+    Also, some of the modules may not be available for your license type. For example, if you hold a free license, and modules for Premium license have been installed, you will get a license warning like the following:
+    
+    
+    Both the warnings described above mean that you have two options available to you:
+    
+    *   Purchase the licenses required to use the installed modules and activate your license keys;
     *   Remove the installed modules from your store.
 
     On our demo, we chose to activate a license key for X-Cart Ultimate. After activating the key, we got a message at the top of the screen showing that the key has been activated successfully:
