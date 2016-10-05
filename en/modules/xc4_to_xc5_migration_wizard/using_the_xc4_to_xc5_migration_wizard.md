@@ -77,7 +77,7 @@ To use the wizard:
     ![xc5_migration_wizard_enable4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable4.png?effects=drop-shadow)
 
     Also, some of the modules may not be available for your license type. For example, if you hold a free license, and modules for Premium license have been installed, you will get a license warning like the following:
-    
+    ![xc5_migration_wizard_license_type.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_license_type.png?effects=drop-shadow)
     
     Both the warnings described above mean that you have two options available to you:
     
