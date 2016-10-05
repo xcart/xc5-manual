@@ -70,25 +70,36 @@ To use the wizard:
     Click **Enable and continue**:
     ![xc5_migration_wizard_enable2.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable2.png?effects=drop-shadow)
 
-    The process of module activation will be started:
+    What happens next depends on whether your X-Cart 5 store is a trial installation or is using some kind of license (free or non-free).
+    
+    On a trial installation, the module installer will activate all the required modules:
     ![xc5_migration_wizard_enable3.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable3.png?effects=drop-shadow)
 
-    Note that not all of the activated modules may be free. If any paid modules are installed and activated at this step, you will get a license warning like the following:
+    If any paid modules are installed and activated at this step, after the store has been deployed you will get a license warning like the following:
     ![xc5_migration_wizard_enable4.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable4.png?effects=drop-shadow)
+    with a list of affected modules.
 
-    Also, some of the modules may not be available for your license type. For example, if you hold a free license, and modules for Premium license have been installed, you will get a license warning like the following:
+    In this case, you have two options available to you:
+    
+    *   Activate a license required to use the modules;
+    *   Remove the modules from your store.
+    
+    You may choose to resolve the licensing problem right away, or you may close the popup window with the warning and continue with the migration process. However, please be aware that the license warning will continue to appear in your X-Cart 5 store (both the store's back end and the storefront) until you resolve the problem with your license or remove the modules. 
+    
+    If your X-Cart 5 store has some kind of license activated, after the **Enable and continue** button has been clicked, the scenario of the wizard step "5. Enable" will be a bit different. If, after downloading the modules recommended for activation in your X-Cart 5 store, the module installer detects that these modules may not be used with your type of X-Cart license, you will get a license warning like the following:
     ![xc5_migration_wizard_license_type.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_license_type.png?effects=drop-shadow)
     
-    Both the warnings described above mean that you have two options available to you:
+    In this case, you will be able to resolve the problem using one of the following methods:
     
-    *   Purchase the licenses required to use the installed modules and activate your license keys;
-    *   Remove the installed modules from your store.
-
+    *   Upgrade your X-Cart license to the license type allowed to use the modules;
+    *   Remove the modules from your store.
     
-    On our demo, we chose to activate a license key for X-Cart Ultimate. After activating the key, we got a message at the top of the screen showing that the key has been activated successfully:
+    Note that the modules will not be installed, and you will not be able to continue with the migration process until you resolve the problem with your license or remove the modules.  
+      
+    On our demo, we used a trial installation, so we got the first type of warning and chose to activate a license key for X-Cart Ultimate. After activating the key, we got a message at the top of the screen showing that the key has been activated successfully:
     ![xc5_migration_wizard_enable5.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable5.png?effects=drop-shadow)
     
-    This means the problem with our module licenses has been resolved, and we can go back to our migration wizard:
+    This means that our licensing problem has been resolved, and we need to go back to our migration wizard to continue with the migration process:
     ![xc5_migration_wizard_enable6.png]({{site.baseurl}}/attachments/ref_Ah935naM/xc5_migration_wizard_enable6.png?effects=drop-shadow)
    
 7.  By the next step ("5. Transfer"), the wizard has collected all the information it requires and is ready to start the data migration process. You can see a list of X-Cart entities that will be transfered from your X-Cart 4 store to the X-Cart 5 platform:
