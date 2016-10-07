@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-07 21:31 +0400'
+updated_at: '2016-10-07 21:52 +0400'
 identifier: ref_9z7v4QHi
 title: General setup
 categories:
@@ -27,3 +27,4 @@ _In this section:_
 *   {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %}
 *   {% link "Changing the admin panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
 *   {% link "Moving X-Cart to another location" ref_6oFmUXC7 %}
+*   {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}
