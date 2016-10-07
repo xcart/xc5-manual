@@ -5,7 +5,7 @@ updated_at: '2016-10-07 23:09 +0400'
 identifier: ref_icEFLRUp
 title: Migration from Litecommerce 3 to X-Cart 5
 order: 400
-published: false
+published: true
 ---
 
 # Introduction
