@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-07 21:52 +0400'
+updated_at: '2016-10-07 22:12 +0400'
 identifier: ref_9z7v4QHi
 title: General setup
 categories:
@@ -16,7 +16,7 @@ published: true
 _In this section:_
 
 *   {% link "Installation guide" ref_VG5mIoLT %}
-*   {% link "Getting started with store migration" ref_enOvsLbT %}
+*   {% link "Getting started with store migration" ref_otTGssNZ %}
 *   {% link "Activating your license" ref_qwhmJtqW %}
 *   {% link "Changing the domain name" ref_P12xhEF6 %}
 *   {% link "Changing the domain name if you are using Bluehost as domain name registrar" ref_PVcLZCAC %}
