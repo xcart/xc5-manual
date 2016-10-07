@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-07 22:44 +0400'
+updated_at: '2016-10-07 23:02 +0400'
 identifier: ref_9z7v4QHi
 title: General setup
 categories:
@@ -16,6 +16,7 @@ published: true
 _In this section:_
 
 *   {% link "Getting started with store migration" ref_otTGssNZ %}
+*   {% link "Migration from X-Cart 4 to X-Cart 5" ref_EntIT03c %}
 *   {% link "Installation guide" ref_VG5mIoLT %}
 *   {% link "Activating your license" ref_qwhmJtqW %}
 *   {% link "Changing the domain name" ref_P12xhEF6 %}
