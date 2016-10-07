@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-07 21:45 +0400'
+updated_at: '2016-10-07 22:14 +0400'
 identifier: ref_otTGssNZ
-title: ''
+title: Getting started with store migration
 order: 105
 published: true
 ---
@@ -97,4 +97,3 @@ After the above steps have been completed, we recommend that you make several te
 Find more info in the [X-Cart user guide](http://kb.x-cart.com/), or [contact us](https://www.x-cart.com/migrate_me.html) for help.
 
 If the migration process scares you a bit, and you do not feel confident in your strength, we will be happy to do the whole data migration for you, just [let us know](https://www.x-cart.com/migrate_me.html)!
-
