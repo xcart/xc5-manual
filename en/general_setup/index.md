@@ -16,6 +16,7 @@ published: true
 _In this section:_
 
 *   {% link "Installation guide" ref_VG5mIoLT %}
+*   {% link "Getting started with store migration" ref_enOvsLbT %}
 *   {% link "Activating your license" ref_qwhmJtqW %}
 *   {% link "Changing the domain name" ref_P12xhEF6 %}
 *   {% link "Changing the domain name if you are using Bluehost as domain name registrar" ref_PVcLZCAC %}
