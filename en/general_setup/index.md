@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-07 23:15 +0400'
+updated_at: '2016-10-07 23:22 +0400'
 identifier: ref_9z7v4QHi
 title: General setup
 categories:
@@ -30,4 +30,4 @@ _In this section:_
 *   {% link "Changing the admin panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
 *   {% link "Moving X-Cart to another location" ref_6oFmUXC7 %}
 *   {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}
-*   {% linl "Migration from Litecommerce 3 to X-Cart 5" ref_EntIT03c %}
+*   {% link "Migration from Litecommerce 3 to X-Cart 5" ref_icEFLRUp %}
