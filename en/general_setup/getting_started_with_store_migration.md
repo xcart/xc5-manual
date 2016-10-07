@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2016-10-07 22:14 +0400'
 identifier: ref_otTGssNZ
 title: Getting started with store migration
-order: 105
+order: 95
 published: true
 ---
 ![migration.jpg]({{site.baseurl}}/attachments/ref_otTGssNZ/migration.jpg)
