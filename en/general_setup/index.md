@@ -30,3 +30,4 @@ _In this section:_
 *   {% link "Changing the admin panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
 *   {% link "Moving X-Cart to another location" ref_6oFmUXC7 %}
 *   {% link "Upgrading X-Cart 5" ref_pQQ1CLe1 %}
+*   {% linl "" %}
