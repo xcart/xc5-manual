@@ -1,14 +1,15 @@
 ---
-identifier: ref_9z7v4QHi
-updated_at: 2016-04-08 00:00
-layout: article_with_sidebar
 lang: en
-title: 'General setup'
+layout: article_with_sidebar
+updated_at: '2016-10-07 21:31 +0400'
+identifier: ref_9z7v4QHi
+title: General setup
 categories:
   - home
 order: 10
 icon: configure
 description: Guides describing the process of installing and configuring your X-Cart 5
+published: true
 ---
 
 
@@ -25,3 +26,4 @@ _In this section:_
 *   {% link "Inaccessible Admin area after enabling HTTPS" ref_q171FiKp %}
 *   {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %}
 *   {% link "Changing the admin panel URL (X-Cart 5.2.7+)" ref_Ta5fHl8u %}
+*   {% link "Moving X-Cart to another location" ref_6oFmUXC7 %}
