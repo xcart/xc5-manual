@@ -4,8 +4,8 @@ layout: article_with_sidebar
 updated_at: '2016-10-07 21:45 +0400'
 identifier: ref_otTGssNZ
 title: ''
-order: 100
-published: false
+order: 105
+published: true
 ---
 ![migration.jpg]({{site.baseurl}}/attachments/ref_otTGssNZ/migration.jpg)
 
