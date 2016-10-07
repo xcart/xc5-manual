@@ -3,9 +3,9 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-07 22:58 +0400'
 identifier: ref_EntIT03c
-title: ''
+title: Migration from X-Cart 4 to X-Cart 5
 order: 97
-published: false
+published: true
 ---
 ## Introduction
 
