@@ -1,12 +1,13 @@
 ---
-identifier: ref_pQQ1CLe1
-updated_at: 2016-01-08 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Upgrading X-Cart 5'
+layout: article_with_sidebar
+updated_at: '2016-10-07 21:50 +0400'
+identifier: ref_pQQ1CLe1
+title: Upgrading X-Cart 5
 categories:
   - Developer docs
-
+published: true
+order: 320
 ---
 
 
