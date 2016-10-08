@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-07 21:30 +0400'
+updated_at: '2016-10-09 00:14 +0400'
 identifier: ref_6oFmUXC7
-title: ''
+title: Moving X-Cart to another location
 order: 310
 published: true
 ---
