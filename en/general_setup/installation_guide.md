@@ -1,14 +1,14 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 18:12 +0400'
+updated_at: '2016-10-09 00:15 +0400'
 identifier: ref_VG5mIoLT
 title: Installation Guide
 version: X-Cart 5.2.5 and later
 categories:
   - General setup
 published: true
-order: 100
+order: 0
 ---
 
 
@@ -386,5 +386,3 @@ libcurl extension not found
 it means that libCurl system library is not enabled in your account and your PHP scripts cannot create connections to other services. Ask your hosting team to enable libCurl for you.
 
 {% link "Setting up cURL" ref_sshnMtN7 %} article may be helpful if you are installing X-Cart 5 on your local server.
-
-
