@@ -61,10 +61,9 @@ This guide will help you achieve this task.
     web_dir = "/xcart"
     ```
 
+    *   You need to specify HTTP and HTTPS hosts. If you transfer X-Cart within the bounds of one server, keep these values as they are.
 
-    * You need to specify HTTP and HTTPS hosts. If you transfer X-Cart within the bounds of one server, keep these values as they are.
-
-    * Define the `web_dir` parameter. To move X-Cart from `http://<HOST>/xcart/` to `http://<HOST>/xcart5/`, you should change its value from `/xcart` to `/xcart5`. If you are moving X-Cart to webroot: `http://<HOST>/`, simply enter `/`.
+    *   Define the `web_dir` parameter. To move X-Cart from `http://<HOST>/xcart/` to `http://<HOST>/xcart5/`, you should change its value from `/xcart` to `/xcart5`. If you are moving X-Cart to webroot: `http://<HOST>/`, simply enter `/`.
 
 6.  Edit the `<X-Cart>/.htaccess` file and define the new path to X-Cart installation in the RewriteBase directive, for example:
 
