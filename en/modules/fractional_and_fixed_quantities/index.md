@@ -1,16 +1,17 @@
 ---
-identifier: ref_FnFqIndex
-updated_at: 2016-08-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Fractional and Fixed quantities'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:40 +0400'
+identifier: ref_FnFqIndex
+title: Fractional and Fixed quantities
 version: X-Cart 5.2.16 and earlier
 keywords:
   - Fractional and fixed quantities
 categories:
   - User manual
   - Module
-
+published: true
+order: 170
 ---
 
 The module "Fractional and Fixed quantities" provides a number of product quantity related features for your X-Cart 5 online store.
