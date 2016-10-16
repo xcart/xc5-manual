@@ -1,12 +1,13 @@
 ---
-identifier: ref_cvwmAuRi
-updated_at: 2015-12-21 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Multi-vendor'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:42 +0400'
+identifier: ref_cvwmAuRi
+title: Multi-vendor
 categories:
   - User manual
-
+published: true
+order: 190
 ---
 
 
