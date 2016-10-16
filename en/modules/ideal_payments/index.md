@@ -1,12 +1,13 @@
 ---
-identifier: ref_p1OTDpSI
-updated_at: 2016-04-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'iDEAL Payments'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:40 +0400'
+identifier: ref_p1OTDpSI
+title: iDEAL Payments
 categories:
   - User manual
-
+published: true
+order: 180
 ---
 
 
