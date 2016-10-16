@@ -1,12 +1,13 @@
 ---
-identifier: ref_P3v5Wzvf
-updated_at: 2014-01-03 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Abandoned Cart Reminder FAQ'
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:42 +0400'
+identifier: ref_P3v5Wzvf
+title: Abandoned Cart Reminder FAQ
 categories:
   - User manual
-
+published: true
+order: 190
 ---
 
 
