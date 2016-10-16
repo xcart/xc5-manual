@@ -1,12 +1,13 @@
 ---
-identifier: ref_BMTUgGt4
-updated_at: 2015-07-27 00:00
-layout: article_with_sidebar
 lang: en
-title: 'POS system for X-Cart'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:43 +0400'
+identifier: ref_BMTUgGt4
+title: POS system for X-Cart
 categories:
   - User manual
-
+published: true
+order: 210
 ---
 
 
