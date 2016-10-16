@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:18 +0400'
+updated_at: '2016-10-16 22:20 +0400'
 identifier: ref_0SnFdXk1
 title: eBay Integration
 categories:
   - User manual
 published: true
-order: 180
+order: 160
 ---
 
 
