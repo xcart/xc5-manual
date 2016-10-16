@@ -1,12 +1,13 @@
 ---
-identifier: ref_fFqHk4rW
-updated_at: 2014-11-30 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Auction in X-Cart 5'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:37 +0400'
+identifier: ref_fFqHk4rW
+title: Auction in X-Cart 5
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
