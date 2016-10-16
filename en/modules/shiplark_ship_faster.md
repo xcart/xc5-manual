@@ -1,12 +1,13 @@
 ---
-identifier: ref_M0akODBp
-updated_at: 2014-06-09 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:57 +0400'
+identifier: ref_M0akODBp
 title: 'Shiplark: Ship Faster'
 categories:
   - User manual
-
+published: true
+order: 230
 ---
 
 
