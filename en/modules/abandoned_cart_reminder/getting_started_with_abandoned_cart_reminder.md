@@ -7,7 +7,7 @@ title: Getting started with Abandoned Cart Reminder
 categories:
   - User manual
 published: true
-order: 130
+order: 140
 ---
 
 
