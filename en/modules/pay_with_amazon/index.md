@@ -1,12 +1,13 @@
 ---
-identifier: ref_mri0tPhM
-updated_at: 2014-03-19 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Pay with Amazon'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:43 +0400'
+identifier: ref_mri0tPhM
+title: Pay with Amazon
 categories:
   - User manual
-
+published: true
+order: 200
 ---
 
 
