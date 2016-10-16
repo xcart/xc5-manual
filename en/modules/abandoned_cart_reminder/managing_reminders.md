@@ -1,12 +1,13 @@
 ---
-identifier: ref_i8rSfTrg
-updated_at: 2015-07-24 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing reminders'
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:41 +0400'
+identifier: ref_i8rSfTrg
+title: Managing reminders
 categories:
   - User manual
-
+published: true
+order: 165
 ---
 
 
