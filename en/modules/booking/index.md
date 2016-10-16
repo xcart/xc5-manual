@@ -1,12 +1,13 @@
 ---
-identifier: ref_iTdd1QoP
-updated_at: 2015-07-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Booking'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:38 +0400'
+identifier: ref_iTdd1QoP
+title: Booking
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 
