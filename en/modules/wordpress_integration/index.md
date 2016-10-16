@@ -1,12 +1,13 @@
 ---
-identifier: ref_rJ8hCpkQ
-updated_at: 2015-09-27 00:00
-layout: article_with_sidebar
 lang: en
-title: 'WordPress Integration'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:46 +0400'
+identifier: ref_rJ8hCpkQ
+title: WordPress Integration
 categories:
   - User manual
-
+published: true
+order: 260
 ---
 
 
