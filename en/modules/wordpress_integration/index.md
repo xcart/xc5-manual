@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 21:46 +0400'
+updated_at: '2016-10-16 22:09 +0400'
 identifier: ref_rJ8hCpkQ
 title: WordPress Integration
 categories:
   - User manual
 published: true
-order: 260
+order: 340
 ---
 
 
