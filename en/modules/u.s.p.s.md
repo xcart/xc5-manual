@@ -1,12 +1,13 @@
 ---
-identifier: ref_whrpZnV3
-updated_at: 2015-12-28 00:00
-layout: article_with_sidebar
 lang: en
-title: 'U.S.P.S.'
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:09 +0400'
+identifier: ref_whrpZnV3
+title: U.S.P.S.
 categories:
   - User manual
-
+published: true
+order: 320
 ---
 
 
