@@ -1,12 +1,13 @@
 ---
-identifier: ref_0gfIXwxH
-updated_at: 2014-02-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Product Feeds'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:44 +0400'
+identifier: ref_0gfIXwxH
+title: Product Feeds
 categories:
   - User manual
-
+published: true
+order: 220
 ---
 
 
