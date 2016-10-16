@@ -1,12 +1,13 @@
 ---
-identifier: ref_tHlhZwW1
-updated_at: 2014-08-07 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Shopgate - Mobile Commerce'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:45 +0400'
+identifier: ref_tHlhZwW1
+title: Shopgate - Mobile Commerce
 categories:
   - User manual
-
+published: true
+order: 240
 ---
 
 
