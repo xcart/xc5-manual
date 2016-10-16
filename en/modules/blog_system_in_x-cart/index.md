@@ -1,12 +1,13 @@
 ---
-identifier: ref_T5FrnC4x
-updated_at: 2015-09-27 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Blog System in X-Cart'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:38 +0400'
+identifier: ref_T5FrnC4x
+title: Blog System in X-Cart
 categories:
   - User manual
-
+published: true
+order: 130
 ---
 
 
