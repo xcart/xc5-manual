@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 21:26 +0400'
+updated_at: '2016-10-16 21:28 +0400'
 identifier: ref_mCs9Q9Uy
 title: Modules
 categories:
@@ -30,6 +30,7 @@ _In this section:_
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 *   {% link "Pay with Amazon" ref_mri0tPhM %}
+*   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "POS system for X-Cart" ref_BMTUgGt4 %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
 *   {% link "REST API documentation" ref_RSR29iWL %}
