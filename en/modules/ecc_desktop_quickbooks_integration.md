@@ -1,12 +1,13 @@
 ---
-identifier: ref_0HbWTUok
-updated_at: 2014-06-05 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:21 +0400'
+identifier: ref_0HbWTUok
 title: 'eCC Desktop: Quickbooks integration'
 categories:
   - User manual
-
+published: true
+order: 164
 ---
 
 
