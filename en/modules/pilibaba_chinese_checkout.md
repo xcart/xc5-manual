@@ -1,12 +1,13 @@
 ---
-identifier: ref_mJQGlNhh
-updated_at: 2016-05-05 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Pilibaba Chinese Checkout'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:50 +0400'
+identifier: ref_mJQGlNhh
+title: Pilibaba Chinese Checkout
 categories:
   - User manual
-
+published: true
+order: 209
 ---
 
 
