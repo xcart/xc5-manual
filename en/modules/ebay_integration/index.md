@@ -1,12 +1,13 @@
 ---
-identifier: ref_0SnFdXk1
-updated_at: 2016-04-07 00:00
-layout: article_with_sidebar
 lang: en
-title: 'eBay Integration'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:39 +0400'
+identifier: ref_0SnFdXk1
+title: eBay Integration
 categories:
   - User manual
-
+published: true
+order: 160
 ---
 
 
