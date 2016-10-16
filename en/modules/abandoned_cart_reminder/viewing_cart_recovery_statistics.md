@@ -1,12 +1,13 @@
 ---
-identifier: ref_rg0Tct2p
-updated_at: 2015-08-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Viewing cart recovery statistics'
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:42 +0400'
+identifier: ref_rg0Tct2p
+title: Viewing cart recovery statistics
 categories:
   - User manual
-
+published: true
+order: 180
 ---
 
 
