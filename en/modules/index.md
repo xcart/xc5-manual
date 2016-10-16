@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-04 09:56 +0400'
+updated_at: '2016-10-16 21:26 +0400'
 identifier: ref_mCs9Q9Uy
 title: Modules
 categories:
@@ -17,8 +17,8 @@ _In this section:_
 
 *   {% link "Managing modules" ref_gTOegEua %}
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
-*   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
+*   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
 *   {% link "Blog System in X-Cart" ref_T5FrnC4x %}
 *   {% link "Booking" ref_iTdd1QoP %}
 *   {% link "Canada Post" ref_ifwLo5ks %}
