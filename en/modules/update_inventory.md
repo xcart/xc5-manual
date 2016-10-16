@@ -1,13 +1,14 @@
 ---
-identifier: ref_uSIvmuTh
-updated_at: 2016-04-01 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Update inventory'
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:08 +0400'
+identifier: ref_uSIvmuTh
+title: Update inventory
 version: X-Cart 5.2.13 and higher
 categories:
   - User manual
-
+published: true
+order: 300
 ---
 
 Starting with X-Cart version 5.2.13, X-Cart has a full-featured import mode for the updating of existing items, which allows you to update your product information (including the stock quantity, price and other product properties) using the standard X-Cart's "Import" feature - without the need to use the module "Update inventory". For more info, see {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}.
