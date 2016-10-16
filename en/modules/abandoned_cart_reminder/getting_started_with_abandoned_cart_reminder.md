@@ -1,12 +1,13 @@
 ---
-identifier: ref_0XDhscNU
-updated_at: 2013-12-20 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Getting started with Abandoned Cart Reminder'
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:37 +0400'
+identifier: ref_0XDhscNU
+title: Getting started with Abandoned Cart Reminder
 categories:
   - User manual
-
+published: true
+order: 130
 ---
 
 
