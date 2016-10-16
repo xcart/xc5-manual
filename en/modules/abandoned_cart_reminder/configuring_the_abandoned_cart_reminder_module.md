@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 23:14 +0400'
+updated_at: '2016-10-16 22:38 +0400'
 identifier: ref_Gz0xMggZ
 title: Configuring the Abandoned Cart Reminder module
 categories:
   - User manual
 published: true
-order: 100
+order: 160
 ---
 
 
@@ -25,4 +25,3 @@ To configure the module:
 _Related pages:_
 
 *   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
-
