@@ -1,12 +1,13 @@
 ---
-identifier: ref_ifwLo5ks
-updated_at: 2014-09-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Canada Post'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:39 +0400'
+identifier: ref_ifwLo5ks
+title: Canada Post
 categories:
   - User manual
-
+published: true
+order: 150
 ---
 
 
