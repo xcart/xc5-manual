@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:38 +0400'
+updated_at: '2016-10-16 22:51 +0400'
 identifier: ref_mT2evKUN
 title: Abandoned Cart Reminder module system requirements and installation
 categories:
@@ -33,6 +33,4 @@ _Related pages:_
 
 *   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
 
-## Attachments:
 
-* [xc5_acr_installed.png]({{site.baseurl}}/attachments/7503940/8718920.png) (image/png)
