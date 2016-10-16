@@ -1,12 +1,13 @@
 ---
-identifier: ref_6880bVvi
-updated_at: 2015-06-10 00:00
-layout: article_with_sidebar
 lang: en
-title: 'AvaTax Sales Tax Automation'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:37 +0400'
+identifier: ref_6880bVvi
+title: AvaTax Sales Tax Automation
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 
