@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 21:45 +0400'
+updated_at: '2016-10-16 22:04 +0400'
 identifier: ref_tHlhZwW1
 title: Shopgate - Mobile Commerce
 categories:
   - User manual
 published: true
-order: 240
+order: 250
 ---
 
 
