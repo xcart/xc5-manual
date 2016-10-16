@@ -28,12 +28,12 @@ _In this section:_
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
-*   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 *   {% link "Pay with Amazon" ref_mri0tPhM %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
 *   {% link "POS system for X-Cart" ref_BMTUgGt4 %}
 *   {% link "Product Feeds" ref_0gfIXwxH %}
 *   {% link "REST API documentation" ref_RSR29iWL %}
+*   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 *   {% link "ShippingEasy" ref_HTml5LyW %}
 *   {% link "Shopgate - Mobile Commerce" ref_tHlhZwW1 %}
 *   {% link "Social Login" ref_IapN8lJ8 %}
