@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-13 12:23 +0400'
+updated_at: '2016-10-16 21:47 +0400'
 identifier: ref_NaZh0d1b
 title: X-Payments connector
 categories:
   - User manual
 published: true
-order: 100
+order: 270
 ---
 
 
