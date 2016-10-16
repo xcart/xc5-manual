@@ -1,12 +1,13 @@
 ---
-identifier: ref_mT2evKUN
-updated_at: 2015-07-24 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Abandoned Cart Reminder module system requirements and installation'
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:38 +0400'
+identifier: ref_mT2evKUN
+title: Abandoned Cart Reminder module system requirements and installation
 categories:
   - User manual
-
+published: true
+order: 150
 ---
 
 
