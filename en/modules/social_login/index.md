@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 21:46 +0400'
+updated_at: '2016-10-16 22:05 +0400'
 identifier: ref_IapN8lJ8
 title: Social Login
 categories:
   - User manual
 published: true
-order: 250
+order: 260
 ---
 
 
