@@ -1,12 +1,13 @@
 ---
-identifier: ref_Vn1mMUw9
-updated_at: 2015-03-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Installing modules from the Marketplace'
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:30 +0400'
+identifier: ref_Vn1mMUw9
+title: Installing modules from the Marketplace
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
