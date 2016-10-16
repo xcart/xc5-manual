@@ -1,12 +1,13 @@
 ---
-identifier: ref_8VFoqBFZ
-updated_at: 2016-06-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'X-Payments subscriptions'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:47 +0400'
+identifier: ref_8VFoqBFZ
+title: X-Payments subscriptions
 categories:
   - User manual
-
+published: true
+order: 280
 ---
 
 
