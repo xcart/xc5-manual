@@ -1,12 +1,13 @@
 ---
-identifier: ref_NRz30m6S
-updated_at: 2014-06-05 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:22 +0400'
+identifier: ref_NRz30m6S
 title: 'eCC Cloud: Quickbooks integration'
 categories:
   - User manual
-
+published: true
+order: 166
 ---
 
 
