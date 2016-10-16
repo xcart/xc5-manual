@@ -1,12 +1,13 @@
 ---
-identifier: ref_BiSy9eBE
-updated_at: 2014-01-03 00:00
-layout: article_with_sidebar
 lang: en
-title: 'How Abandoned Cart Reminder works'
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:35 +0400'
+identifier: ref_BiSy9eBE
+title: How Abandoned Cart Reminder works
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
