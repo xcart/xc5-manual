@@ -38,6 +38,7 @@ _In this section:_
 *   {% link "Shopgate - Mobile Commerce" ref_tHlhZwW1 %}
 *   {% link "Social Login" ref_IapN8lJ8 %}
 *   {% link "Update inventory" ref_uSIvmuTh %}
+*   {% link "U.S.P.S." ref_whrpZnV3 %}
 *   {% link "WordPress Integration" ref_rJ8hCpkQ %}
 *   {% link "XC4 to XC5 Migration wizard" ref_enOvcLbO %}
 *   {% link "X-Payments connector" ref_NaZh0d1b %}
