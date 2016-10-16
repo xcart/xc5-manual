@@ -1,12 +1,13 @@
 ---
-identifier: ref_gTOegEua
-updated_at: 2013-12-02 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing modules'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:41 +0400'
+identifier: ref_gTOegEua
+title: Managing modules
 categories:
   - User manual
-
+published: true
+order: 90
 ---
 
 
