@@ -1,12 +1,13 @@
 ---
-identifier: ref_HTml5LyW
-updated_at: 2014-11-07 00:00
-layout: article_with_sidebar
 lang: en
-title: 'ShippingEasy'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:45 +0400'
+identifier: ref_HTml5LyW
+title: ShippingEasy
 categories:
   - User manual
-
+published: true
+order: 230
 ---
 
 
