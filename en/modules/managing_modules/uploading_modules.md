@@ -1,12 +1,13 @@
 ---
-identifier: ref_GZQ9vTq6
-updated_at: 2013-12-10 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Uploading modules'
+layout: article_with_sidebar
+updated_at: '2016-10-16 22:30 +0400'
+identifier: ref_GZQ9vTq6
+title: Uploading modules
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 
