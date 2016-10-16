@@ -1,12 +1,13 @@
 ---
-identifier: ref_IapN8lJ8
-updated_at: 2014-03-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Social Login'
+layout: article_with_sidebar
+updated_at: '2016-10-16 21:46 +0400'
+identifier: ref_IapN8lJ8
+title: Social Login
 categories:
   - User manual
-
+published: true
+order: 250
 ---
 
 
