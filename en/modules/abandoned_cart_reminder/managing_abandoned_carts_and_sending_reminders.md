@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:39 +0400'
+updated_at: '2016-10-18 18:16 +0400'
 identifier: ref_hkTTIuTr
 title: Managing abandoned carts and sending reminders
 categories:
@@ -72,16 +72,3 @@ _Related pages:_
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
 *   {% link "Managing reminders" ref_i8rSfTrg %}
 *   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
-
-## Attachments:
-
-* [abandoned_carts_list.png]({{site.baseurl}}/attachments/7503954/7602232.png) (image/png)
-* [abandoned_carts_filter.png]({{site.baseurl}}/attachments/7503954/7602233.png) (image/png)
-* [remind_customers1.png]({{site.baseurl}}/attachments/7503954/7602248.png) (image/png)
-* [choose_reminder.png]({{site.baseurl}}/attachments/7503954/7602249.png) (image/png)
-* [clear_carts.png]({{site.baseurl}}/attachments/7503954/7602250.png) (image/png)
-* [xc5_acr_abandoned_cart_list.png]({{site.baseurl}}/attachments/7503954/8719192.png) (image/png)
-* [xc5_acr_cart_list_filter.png]({{site.baseurl}}/attachments/7503954/8719193.png) (image/png)
-* [xc5_acr_remind_selected_customers.png]({{site.baseurl}}/attachments/7503954/8719194.png) (image/png)
-* [xc5_acr_choose_reminder.png]({{site.baseurl}}/attachments/7503954/8719195.png) (image/png)
-* [xc5_acr_clear_selected_carts.png]({{site.baseurl}}/attachments/7503954/8719196.png) (image/png)
