@@ -1,12 +1,13 @@
 ---
-identifier: ref_Mf6yeSBE
-updated_at: 2014-01-30 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Abandoned Cart Reminder'
+layout: article_with_sidebar
+updated_at: '2016-10-18 17:37 +0400'
+identifier: ref_Mf6yeSBE
+title: Abandoned Cart Reminder
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -19,3 +20,16 @@ Depending on your needs, you can automate the process of sending abandoned cart
 When used with the Coupons module, the module Abandoned Cart Reminder allows you to include discount coupons into the abandoned cart e-mails sent to customers.
 
 The module is also capable of gathering cart recovery statistics allowing you to evaluate which of your cart abandonment email campaigns have been successful.
+
+_In this section:_
+
+*   {% link "Abandoned Cart Reminder module system requirements and installation" ref_mT2evKUN %}
+*   {% link "How Abandoned Cart Reminder works" ref_BiSy9eBE %}
+*   {% link "Getting started with Abandoned Cart Reminder" ref_0XDhscNU %}
+*   {% link "Abandoned Cart Reminder module system requirements and installation" ref_mT2evKUN %}
+*   {% link "Configuring the Abandoned Cart Reminder module" ref_Gz0xMggZ %}
+*   {% link "Managing reminders" ref_i8rSfTrg %}
+*   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
+*   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
+*   {% link "Abandoned Cart Reminder FAQ" ref_P3v5Wzvf %}
+
