@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:37 +0400'
+updated_at: '2016-10-18 18:10 +0400'
 identifier: ref_0XDhscNU
 title: Getting started with Abandoned Cart Reminder
 categories:
@@ -32,4 +32,12 @@ To find out about the number of carts and the amount of revenue recaptured throu
 _Related pages:_
 
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
+*   {% link "Abandoned Cart Reminder module system requirements and installation" ref_mT2evKUN %}
+*   {% link "How Abandoned Cart Reminder works" ref_BiSy9eBE %}
+*   {% link "Abandoned Cart Reminder module system requirements and installation" ref_mT2evKUN %}
+*   {% link "Configuring the Abandoned Cart Reminder module" ref_Gz0xMggZ %}
+*   {% link "Managing reminders" ref_i8rSfTrg %}
+*   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
+*   {% link "Viewing cart recovery statistics" ref_rg0Tct2p %}
 *   {% link "Abandoned Cart Reminder FAQ" ref_P3v5Wzvf %}
+
