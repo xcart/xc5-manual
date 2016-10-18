@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:42 +0400'
+updated_at: '2016-10-18 18:31 +0400'
 identifier: ref_rg0Tct2p
 title: Viewing cart recovery statistics
 categories:
@@ -20,8 +20,4 @@ To view your store's cart recovery statistics for a certain period:
 3.  Click **Search**. The statistics will be displayed below, in the Statistics for the period section:
     ![]({{site.baseurl}}/attachments/7503956/8719207.png?effects=drop-shadow)
 
-## Attachments:
 
-* [stats.png]({{site.baseurl}}/attachments/7503956/7602217.png) (image/png)
-* [xc5_acr_cart_recovery_stats.png]({{site.baseurl}}/attachments/7503956/8719208.png) (image/png)
-* [xc5_acr_cart_recovery_stats.png]({{site.baseurl}}/attachments/7503956/8719207.png) (image/png)
