@@ -28,7 +28,7 @@ The U.S.P.S. settings page looks like the following:
 
 Below is an explanation of the settings that can be found on the U.S.P.S. settings page.
 
-# Authentication options
+## Authentication options
 
 These are the most important settings, and after you specify them your X-Cart will start using USPS shipping rates.
 
@@ -38,7 +38,7 @@ You simply need to specify your **User ID** provided by USPS as well as **USPS A
 
 _Note: If you experience a problem that USPS worked fine in test mode, but does not work properly in live mode (usually you receive the **API Authorization failure. RateV4 is not a valid API name for this protocol** error message), you should [contact USPS](https://www.usps.com/help/contact-us.htm)_ _support staff and ask them to transfer your account to production server._
 
-# Common options
+## Common options
 
 These are the options that will be applied to both domestic and international shipments:
 
@@ -48,7 +48,7 @@ These are the options that will be applied to both domestic and international sh
 *   **Maximum package weight**: Specify the top limit of package's weight in pounds (lbs).
 *   **Currency conversion rate**: Use this field to provide a currency convertion rate if your currency is other than the US dollar. If your currency is the US dollar, leave this field set to 1.
 
-# Domestic USPS
+## Domestic USPS
 
 These are the options that will be applied to all your domestic shipping rates:
 
@@ -60,7 +60,7 @@ These are the options that will be applied to all your domestic shipping rates:
 *   **Use a fixed amount Collect on Delivery fee**: Specify whether you want to set the COD fee for USPS methods manually or get it from the USPS side. If you choose to set this value manually, USPS rating will work significantly faster.
 *   **COD fee** (_This needs to be defined if the option "Use a fixed amount Collect on Delivery fee" is enabled_): Set the COD fee amount. Currently the COD fee for all USPS services is $6.95\. As long as this does not change, there is no reason to disable the **Use a fixed amount Collect on Delivery fee** option.
 
-# International USPS
+## International USPS
 
 These are the options that will be applied to your international shipping rates:
 
@@ -70,7 +70,7 @@ These are the options that will be applied to your international shipping rates:
 *   **Container**: Select the package type for international shipments.
 *   **Get commercial base postage**, **Global Express Guarantee (GXG)**, **GXG destination is a post office box**, **GXG package contains a gift**: Theseare advanced options for international shipments.
 
-# Additional options
+## Additional options
 
 These are some options that are helpful, but do not affect shipping rates calculation:
 

@@ -13,13 +13,13 @@ order: 120
 
 You can add products to your store via [import](https://xcart.zendesk.com/entries/23396176-How-to-import-products-) or {% link "manually" ref_fhzzxDTy %}. 
 
-# Video guide
+## Video guide
 
 This video captures the process of adding a new product in X-Cart 5.1.9\. Please note that starting with X-Cart version 5.2.1 the user interface of X-Cart Admin area has been changed quite a bit from 5.1.9 shown in the video; other than that the process of creating a new product in X-Cart 5 remains essentially the same.
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/HKtI-iXFfr8" frameborder="0"></iframe>
 
-# Adding a new product
+## Adding a new product
 
 To add a new product:
 
@@ -34,7 +34,7 @@ To add a new product:
     ![]({{site.baseurl}}/attachments/6389859/8716867.png?effects=drop-shadow)
     The product will be added. 
 
-# Product information that can be specified
+## Product information that can be specified
 
 When creating a new product, you can specify the following product details:
 
@@ -61,7 +61,7 @@ When creating a new product, you can specify the following product details:
 *   **Meta description**: The description to be used in the description META tag on the product page (for SEO purposes).
 *   **Clean URL**: The product page Clean URL (for SEO purposes).
 
-# Inventory tracking
+## Inventory tracking
 
 Once a product has been created, you can specify inventory tracking options for it. 
 
@@ -79,7 +79,7 @@ Once a product has been created, you can specify inventory tracking options for 
     *   **Low limit quantity**: Use this field to specify what product quantity should be considered "low". You will be notified when this quantity is reached.
 4.  Click **Update** to save the changes.
 
-# Specifying additional product parameters (color, material, country of origin, ISBN, etc.)
+## Specifying additional product parameters (color, material, country of origin, ISBN, etc.)
 
 You can add these additional parameters as attributes via the **Attributes** tab of the product details page.
 
@@ -89,6 +89,6 @@ Buyers will be able to view these parameters via the **Specification** tab of th
 
 For detailed information on product attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}.
 
-# Specifying product options (color, size, etc.)
+## Specifying product options (color, size, etc.)
 
 In X-Cart 5, product options can be configured based on product attributes. You add an attribute like "Size" and specify multiple attribute values for it like "XS", "S", "M", "L" and "XL". The buyer will then be able to choose the option they require. Some examples of how you can set product options based on attributes are provided in the article {% link "Managing attribute values" ref_bTfJ9bTS %}. For detailed information on product attributes, see {% link "Product classes and attributes" ref_T90ZcEpP %}.

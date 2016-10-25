@@ -11,13 +11,13 @@ published: true
 order: 120
 ---
 
-# Introduction
+## Introduction
 
 This article shows developers how they can create new shipping and payment statuses for orders. The process is as easy as running 3 MySQL queries.
 
 The solution provided in this article should be used for X-Cart versions 5.2.6 and earlier. Starting with X-Cart version 5.2.7, a special module is available allowing you to manage X-Cart order statuses directly from the store's Admin area. For details, see the {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" ref_7FIU2sxJ %} section of this manual.
 
-# Table of Contents
+## Table of Contents
 
 *   [Introduction](#introduction)
 *   [Table of Contents](#table-of-contents)
@@ -25,7 +25,7 @@ The solution provided in this article should be used for X-Cart versions 5.2.6 a
 *   [Creating shipping status](#creating-shipping-status)
 *   [Translating order statuses](#translating-order-statuses)
 
-# Creating payment status
+## Creating payment status
 
 **Step 1**. Run the following MySQL query to X-Cart database:
 
@@ -53,7 +53,7 @@ This query adds language labels to be displayed for our new payment status. **I
 
 After that, check your store for new payment status. It should be there.
 
-# Creating shipping status
+## Creating shipping status
 
 The process is pretty much the same as for payment statuses, but we make requests to `xc_order_shipping_statuses` and `xc_order_shipping_status_translations` tables instead of `xc_order_payment_statuses`, `xc_order_payment_status_translations` ones.
 
@@ -83,7 +83,7 @@ This query adds language labels to be displayed for our new shipping status. **
 
 After that, check your store for new shipping status.
 
-# Translating order statuses
+## Translating order statuses
 
 If you need to translate payment or shipping statuses to another language, then you need to repeat step 3 from the instructions above with another** code** param.
 

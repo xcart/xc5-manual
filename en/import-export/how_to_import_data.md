@@ -10,14 +10,14 @@ categories:
 ---
 
 
-# Why you may need import
+## Why you may need import
 
 If you run a big store with hundreds of products and decide to update your product descriptions or add many new products, you will realize that it is annoying to update/add each new product via the Admin interface. Instead, you can work in your favourite spreadsheet editor (_MS Excel _or _LibreOffice Calc_), add/change all the needed info there, which is faster, and then upload this document into the store so that your X-Cart 5 will create/update the products for you. The process is as follows:
 
 1.  Prepare a CSV file.
 2.  Upload your CSV file into X-Cart 5 via the **Catalog > Import** section of the store's Admin area; the platform will do the rest for you.
 
-# Preparing a CSV file
+## Preparing a CSV file
 
 There are two ways to create a CSV file for import:
 

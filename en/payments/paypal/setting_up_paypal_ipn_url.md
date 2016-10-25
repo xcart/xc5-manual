@@ -10,7 +10,7 @@ published: true
 order: 220
 ---
 
-# Steps to complete
+## Steps to complete
 
 1. Login to your PayPal account.
 2. Click "Profile >> My Selling Tools" on the "My Account" tab.

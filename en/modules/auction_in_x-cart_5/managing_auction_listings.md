@@ -17,7 +17,7 @@ This page provides information on the following actions with auction listings:
 *   [Editing auction listings](#editing-auction-listings);
 *   [Deleting auction listings](#deleting-auction-listings).
 
-# Creating auction listings
+## Creating auction listings
 
 To enable auction style bidding for a product in your store, you need to create an auction listing for it.
 
@@ -47,7 +47,7 @@ The listing will be created and added to the list of auction listings:
 
 ![]({{site.baseurl}}/attachments/8225026/8356071.png?effects=drop-shadow)
 
-# Viewing existing auction listings
+## Viewing existing auction listings
 
 You can view your store's currently existing auction listings. Currently existing auction listings are listings that are either _Active_ (available for bidding) or _Awaiting payment_ (won by someone and awaiting to be paid for). Information about past listings (listings that got no bids before they expired and listings that were won and successfully paid for) is not stored.
 
@@ -75,7 +75,7 @@ To find one or more specific auction listings, use the filter at the top of the 
 
 ![]({{site.baseurl}}/attachments/8225026/8356082.png?effects=drop-shadow)
 
-# Editing auction listings
+## Editing auction listings
 
 It is possible to edit currently exising auction listings, no matter if they are _Active_ or _Awaiting payment_.
 
@@ -88,7 +88,7 @@ To edit an auction listing:
 2.  In the Edit auction listing popup window, edit the parameters of the listing you want to change.
 3.  Click the **Save changes** button to save the changes.
 
-# Deleting auction listings
+## Deleting auction listings
 
 You can delete auction listings before they expire. To delete an auction listing:
 

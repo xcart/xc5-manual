@@ -11,11 +11,11 @@ order: 320
 ---
 
 
-# Introduction
+## Introduction
 
 The purpose of this article is to describe how X-Cart 5 performs upgrades and give hints about what to do if upgrade fails in the middle of the process.
 
-# Table of Contents
+## Table of Contents
 
 *   [Introduction](#introduction)
 *   [Table of Contents](#table-of-contents)
@@ -23,7 +23,7 @@ The purpose of this article is to describe how X-Cart 5 performs upgrades and gi
 *   [Process of store upgrade](#process-of-store-upgrade)
 *   [Manual upgrade](#manual-upgrade)
 
-# General information
+## General information
 
 There are two types of upgrades in X-Cart: **major upgrade** when the second number in version is changed (e.g. upgrade from 5.0.13 to 5.1.3) and **minor upgrade** when the third number in version is changed (e.g. upgrade from 5.1.3 to 5.1.4). Major upgrade includes big changes of the core so that interfaces of classes and signatures of methods change. It does not happen during minor upgrade. Consequently, minor upgrade does not require any change in modules, but major one requires compatibility changes.
 
@@ -45,7 +45,7 @@ Upgrade hooks of the core are located in the `<X-Cart 5>/upgrade/` folder. If yo
 
 Upgrade hooks may exist in the modules as well, if the module needs to synchronize data between its own versions. Module upgrade hooks can be found in the `<X-Cart 5>/classes/Module/<DEV-ID>/<MODULE-ID>/upgrade/` folders; for example `<X-Cart 5>/classes/XLite/Module/XC/ProductComparison/upgrade/`.
 
-# Process of store upgrade
+## Process of store upgrade
 
 Once per day, each store checks the marketplace for updates. The response from marketplace is cached for a day. If you need to delete this cache, you should open the `admin.php?target=addons_list_marketplace&action=clear_cache` link.
 
@@ -88,7 +88,7 @@ After clicking **Install updates** button, there will be the process as follows:
 6.  Update of language variables happens. Script will take all install.yaml files of modules + yaml file with language variables of the core (`<X-Cart 5>/sql/install.yaml`) and put language variables from these files to the database;
 7.  Upgrade is finished.
 
-# Manual upgrade
+## Manual upgrade
 
 We do our best to provide smooth minor and major upgrade capabilities, but sometimes something goes wrong and you need to deal with it. If upgrade was interrupted, you can continue it manually.
 

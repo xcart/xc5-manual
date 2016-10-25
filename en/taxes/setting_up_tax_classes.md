@@ -12,7 +12,7 @@ published: true
 
 The **Tax classes** feature is enabled in X-Cart 5 by the module Sales Tax. Before you proceed, make sure this module is installed and enabled.
 
-# What are tax classes?
+## What are tax classes?
 
 According to your country's laws, you may need to charge different taxes for different types of products. For instance, you may need to calculate sales tax differently for alcohol and non-alcohol products.
 
@@ -24,7 +24,7 @@ In X-Cart 5, every product needs to have a tax class assigned to it. By default,
 
 This article discusses how to create a new tax class and how to assign a tax class to a product. For information on how to set tax rates for different tax classes, see {% link "Specifying sales tax for your products" ref_aJPK4DHN %}.
 
-# Creating tax classes
+## Creating tax classes
 
 To create a new tax class, do the following:
 
@@ -39,7 +39,7 @@ To create a new tax class, do the following:
 
 That's all, the tax class has been created. Now you can assign it to products and configure tax rates for it. 
 
-# Assigning tax classes to products
+## Assigning tax classes to products
 
 Once you have created the tax classes you require, be sure to assign them to products.
 

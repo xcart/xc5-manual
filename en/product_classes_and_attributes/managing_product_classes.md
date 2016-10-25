@@ -26,7 +26,7 @@ For more information on managing product classes, see:
 
 *   [Deleting product classes](#deleting-product-classes).
 
-# Creating product classes
+## Creating product classes
 
 When you decide you need to group certain products into a product class, you begin by creating this product class.
 
@@ -48,7 +48,7 @@ After a product class has been created, you can [assign it to products](#assigni
 
 If necessary, you can [edit the product class name](#editing-product-class-names) or [delete the product class](#deleting-product-classes) altogether.
 
-# Viewing your store's product class list
+## Viewing your store's product class list
 
  If you have any product classes configured in your store, you can view their list in the Classes & attributes section (**Catalog > Classes & attributes**) of your store's Admin area:
 
@@ -58,7 +58,7 @@ For each product class, you can see the number of products to which it has been 
 
 The list of attributes for each specific product class can be viewed by clicking the Edit attributes (N) link opposite the product class name.
 
-# Assigning product classes to products
+## Assigning product classes to products
 
 To show that a certain product belongs to a certain product class, you need to go to the product's details and assign the product class to it. 
 
@@ -79,7 +79,7 @@ To assign a product class to a product:
     The product class will be assigned to the product:
     ![]({{site.baseurl}}/attachments/7504877/8719248.png?effects=drop-shadow)
 
-# Editing product class names
+## Editing product class names
 
 It is possible to change the name of a product class.
 
@@ -92,7 +92,7 @@ To rename a product class:
 4.  Once you're done editing, click **Save changes**.
     The product class name will be updated. 
 
-# Deleting product classes
+## Deleting product classes
 
 It is possible to delete a previously created product class. Deleting a product class removes it from the product class list; any products to which the product class used to be assigned lose the product class and any attributes that were assigned to it via this product class.
 

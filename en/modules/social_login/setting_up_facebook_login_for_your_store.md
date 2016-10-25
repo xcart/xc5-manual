@@ -15,7 +15,7 @@ To add the "Login with Facebook" feature to your X-Cart store site, complete the
 1.  Create and configure a new App on Facebook (See [Creating a Facebook App](#creating-a-facebook-app)).
 2.  Obtain your Facebook App ID and App Secret and enter them on the "Social Login" module settings page in your X-Cart store's Admin area (See [Configuring the Social Login module: Facebook](#configuring-the-social-login-module-facebook))
 
-# Creating a Facebook App
+## Creating a Facebook App
 
 To create an App for Facebook login:
 
@@ -59,7 +59,7 @@ To create an App for Facebook login:
     ![]({{site.baseurl}}/attachments/7504575/9439789.png?effects=drop-shadow)
     That is all. Your Facebook App has been configured.
 
-# Configuring the Social Login module: Facebook
+## Configuring the Social Login module: Facebook
 
 Once you have created and configured your Facebook App, you will need to obtain two pieces of information: your Facebook App ID and App Secret. These will need to be entered in X-Cart so the module can connect to the App you created on Facebook and generate the Facebook login widget code correctly.
 

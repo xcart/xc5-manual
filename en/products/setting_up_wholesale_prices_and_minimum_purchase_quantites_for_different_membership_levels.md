@@ -21,7 +21,7 @@ Wholesale prices are a way to offer multiple levels of pricing for the same prod
 
 A minimum purchase quantity is a minimum number of product units that can be purchased by a customer at a time. If a customer's cart contains a lesser quantity of product units than is specified by the minimum purchase limit, checkout for the cart is not allowed.
 
-# Setting up wholesale prices
+## Setting up wholesale prices
 
 To configure wholesale prices:
 

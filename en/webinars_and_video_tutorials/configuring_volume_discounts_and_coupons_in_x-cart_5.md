@@ -10,11 +10,11 @@ categories:
 ---
 
 
-# Introduction
+## Introduction
 
 The video below shows how to use the _volume discounts_ and _coupons_ features.
 
-# Video
+## Video
 
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="http://www.youtube.com/embed/SCt9GhQ89LU" frameborder="0"></iframe>
 

@@ -52,7 +52,7 @@ For information on managing product variants, see:
 
 *   {% link "Product variants" ref_0uApuQfx %}
 
-# Video tutorial
+## Video tutorial
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/x6DPVVgZh1o" frameborder="0"></iframe>
 

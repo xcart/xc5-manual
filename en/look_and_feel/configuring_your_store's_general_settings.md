@@ -16,7 +16,7 @@ The most general settings that determine your store's appearance and behavior ca
 
 Below you can find some of the settings explained.
 
-# Customer Zone settings
+## Customer Zone settings
 
 *   **Display check number for eCheck payment method**: This setting is used for stores using the Check payment method. It defines whether the payment information form provided to the customer who has chosen to pay by check should include a field for check number, or not.
 
@@ -83,7 +83,7 @@ Below you can find some of the settings explained.
 
 *   **Enable internal cron service**: This setting allows you to enable/disable the use of your store's internal cron service. This service schedules the run of certain maintenance tasks required to keep your store running smoothly and problem-free (like removing the expired shopping carts of visitors who do not have an account with your store or performing other tasks implemented via X-Cart modules) at the periodicity of once per 100 user sessions (i.e. every time after your store gets 100 unique visitors). Your store's internal cron service is not related to {% link "console.php" ref_lLqNzAaq %} and does not require any external setup of the crontab on your system. If using the internal cron service causes performance problems for your store, we recommend disabling this option and using an external cron setup to run console.php. 
 
-# Administrator Zone settings
+## Administrator Zone settings
 
 *   **Products per page**: This setting allows you to specify the maximum number of products that can be displayed on a search results page in the store's back end.
 *   **Users per page**:  This setting allows you to specify the maximum number of users that can be displayed on a search results page in the store's back end.

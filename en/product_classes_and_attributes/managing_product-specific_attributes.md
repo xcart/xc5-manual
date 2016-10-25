@@ -17,7 +17,7 @@ This page provides information on the following actions with product-specific at
 *   [Editing product-specific attributes](#editing-product-specific-attributes);
 *   [Deleting product-specific attributes](#deleting-product-specific-attributes).
 
-# Adding product-specific attributes 
+## Adding product-specific attributes 
 
 To add a new attribute at the level of a specific product, follow the instructions below:
 
@@ -44,13 +44,13 @@ To add a new attribute at the level of a specific product, follow the instructio
     Now if you check the **Specification** tab on the product details page, you will be able to see the attribute you have added:
     ![]({{site.baseurl}}/attachments/7504853/7602459.png?effects=drop-shadow)
 
-# Viewing a product's list of product-specific attributes
+## Viewing a product's list of product-specific attributes
 
 If a product has any product-specific attributes assigned, you can view their list in the **Product-Specific** section of the **Attributes** tab of the product's details:
 
 ![]({{site.baseurl}}/attachments/7504853/8719256.png?effects=drop-shadow)
 
-# Editing product-specific attributes
+## Editing product-specific attributes
 
 Sometimes you may need to edit the name and/or value(s) of an attribute created at the level of a specific product.
 
@@ -64,7 +64,7 @@ You can do it like so:
     *   To edit the attribute values, edit the **Attribute value** field(s).
 4.  Click **Save changes**.
 
-# Deleting product-specific attributes
+## Deleting product-specific attributes
 
  Sometimes you may need to delete an attribute created at the level of a specific product.
 

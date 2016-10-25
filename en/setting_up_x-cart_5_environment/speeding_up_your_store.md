@@ -11,11 +11,11 @@ order: 100
 ---
 
 
-# Introduction
+## Introduction
 
 This article aims to provide guidance to X-Cart users who want to improve the performance of their X-Cart installation.
 
-# Table of Contents
+## Table of Contents
 
 *   [Introduction](#introduction)
 *   [Table of Contents](#table-of-contents)
@@ -28,7 +28,7 @@ This article aims to provide guidance to X-Cart users who want to improve the pe
     *   [Step 5\. Use a recent PHP version (5.5+)](#step-5-use-a-recent-php-version-5-5)
     *   [Step 6\. Use Query Cache (MySQL)](#step-6-use-query-cache-mysql)
 
-# What is acceptable performance?
+## What is acceptable performance?
 
 With each release we measure X-Cart's performance, and to do it we use the [t2.micro AWS instance](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/t2-instances.html) as a server (1 CPU, 1 PHP Thread, 512Mb RAM). We use an X-Cart installation with 2000 products, 100 categories (10 root categories, each containing 10 sub-categories), 1000 users and 1000 orders. We also use the [jMeter](http://jmeter.apache.org/) application that emulates 3 concurrent users who make 50 requests.
 
@@ -38,9 +38,9 @@ During our tests we measure the _Time to Last Byte_ parameter, the time between 
 *   Category page: faster than 1.5 sec;
 *   Product page: faster than 2 sec.
 
-# How can I speed up my store?
+## How can I speed up my store?
 
-## Step 1\. Enable CSS, JS aggregation and widget caching
+### Step 1\. Enable CSS, JS aggregation and widget caching
 
 In your store's Admin area, go to the **Look & feel** > **Performance** section and tick on the following checkboxes:
 
@@ -56,11 +56,11 @@ If you have custom mods, you may consider [making some of their widgets cached]
 
 ![]({{site.baseurl}}/attachments/8224875/9437214.png?effects=drop-shadow)
 
-## Step 2\. Disable any unused modules
+### Step 2\. Disable any unused modules
 
 Every installed and enabled module increases the time that PHP works, so if you disable all the modules you are not using, it will speed up your store.
 
-## Step 3\. Use CDN for your store
+### Step 3\. Use CDN for your store
 
 CDN does not reduce the time X-Cart scripts take to work, but it delivers images, CSS and JS files to client's browser more quickly. Overall, your pages will be rendered faster.
 
@@ -68,7 +68,7 @@ Module example: 
 
 *   [http://www.x-cart.com/extensions/addons/xcdn-by-cflsystems.html](http://www.x-cart.com/extensions/addons/xcdn-by-cflsystems.html)
 
-## Step 4\. Use compression
+### Step 4\. Use compression
 
 The control panel of your hosting provider may have an option to enable compression of HTML code (for instance, cPanel has the [Optimize website](https://documentation.cpanel.net/display/ALD/Optimize+Website) option). You should enable it.
 
@@ -86,11 +86,11 @@ gzip_vary on;
 # end gzip configuration
 ```
 
-## Step 5\. Use a recent PHP version (5.5+)
+### Step 5\. Use a recent PHP version (5.5+)
 
 We've run lots of tests to see if X-Cart works better on later PHP versions like 5.5 and 5.6, and it really does! Typically you can get a two times speedup simply by installing PHP 5.5+. PHP 7.0 is supported by X-Cart versions 5.3.x.
 
-## Step 6\. Use Query Cache (MySQL)
+### Step 6\. Use Query Cache (MySQL)
 
 MySQL provides a convenient feature that can be used to speed up any queries to the database - Query Cache. To get an optimized and speedy response from your MySQL server, you may want to add the following configuration directives to your MySQL server:
 

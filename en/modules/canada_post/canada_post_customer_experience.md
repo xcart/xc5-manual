@@ -19,7 +19,7 @@ This includes the following topics:
 *   [Tracking](#tracking) (How buyers can track their Canada Post parcel online);
 *   [Returns](#returns) (How buyers can request a Canada Post return label for their order).
 
-# Shipping methods and rating
+## Shipping methods and rating
 
 In a store using the Canada Post module, during checkout a buyer can select a Canada Post shipping method for their order. Canada Post shipping methods that have been enabled by the store admin appear in the **Delivery methods** box along with the other shipping methods enabled in the store. For each shipping method in the list, an estimated shipping cost is displayed. Selecting a payment method applies the respective shipping cost to the order:
 
@@ -27,7 +27,7 @@ In a store using the Canada Post module, during checkout a buyer can select a Ca
 
 The shipping cost estimation for Canada Post methods is provided based on rates obtained from Canada Post in real time; the calculation process takes into account the customer's address, the store's address, the shipping method selected and the weight of the products in the order (If the total weight of the products in the order exceeds the maximum allowed weight for one package, the order is split into several packages; the shipping cost for the order in this case is calculated by summing up the shipping costs for individual packages resulting from the proposed split).
 
-# Deliver to Post Office
+## Deliver to Post Office
 
 Customers who choose the _Xpresspost™_ or _Expedited Parcel_™ shipping method at checkout can select a delivery option called _Deliver to Post Office_. ![](attachments/7505658/7602816.png?effects=drop-shadow)
 
@@ -37,7 +37,7 @@ The _Deliver to Post Office_ option allows your customers the choice to have pur
 
 (The number of nearby post offices that should be displayed to a customer for the _Deliver to Post Office_ option can be limited via the Canada Post settings page in the store's Admin area). The address of the post office selected by the customer is included into the order invoice:![]({{site.baseurl}}/attachments/7505658/7602818.png?effects=drop-shadow)
 
-# Tracking
+## Tracking
 
 The module seamlessly integrates Canada Post tracking (self-check and notifications) into your online store so your customers don't have to go to a third-party website to check delivery status and tracking.Firstly, for each shipment sent from your store via Canada Post there will be a Tracking pin link that the customer will be able to access via the respective Order details page in their account:![](attachments/7505658/7602819.png?effects=drop-shadow)
 
@@ -45,7 +45,7 @@ By clicking on this link the customer will be able to track their order startin
 
 The same link allows the customer to access and view delivery confirmation files such as signature image or delivery confirmation certificate, provided that the respective service options were included for the shipment.
 
-# Returns
+## Returns
 
 The module supports returns for orders shipped by Canada Post. Each order that was shipped to customer using a Canada Post shipping method has a **Return products** button on its details page:![](attachments/7505658/7602824.png?effects=drop-shadow)After a customer clicks this button, a form pops up allowing the customer to select the items that need to be returned and to place some note for the store admin:![]({{site.baseurl}}/attachments/7505658/7602825.png?effects=drop-shadow)
 

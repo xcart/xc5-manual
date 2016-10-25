@@ -19,7 +19,7 @@ This page provides information on the following actions with product class attri
 *   [Editing product class attributes](#editing-product-class-attributes)
 *   [Deleting product class attributes](#deleting-product-class-attributes)
 
-# Adding product class attributes
+## Adding product class attributes
 
 X-Cart supports two methods of adding attributes at the level of a product class. Below, we will show how to add an attribute "Print color.......Orange" for the product class "Plates".
 
@@ -93,7 +93,7 @@ The process is as follows:
         ![]({{site.baseurl}}/attachments/7504855/8719276.png?effects=drop-shadow)
         Now if you view the product on the storefront,  the Specification tab on its details page will show the attribute "Print color..........Orange". If at step 4c you chose to apply the attribute value "Orange" globally, all the products of the product class "Plates" will show the same attribute as well. If you kept the option "Apply value changes locally", the attribute value "Orange" will be applied only for the product you edited (However, you will be able to find "Orange" in the list of attribute values for the attribute "Print color" and apply it to other products of the product class "Plates" manually).
 
-# Viewing the list of attributes configured for a product class
+## Viewing the list of attributes configured for a product class
 
  The attributes that have been added for a product class can be viewed as follows:
 
@@ -112,7 +112,7 @@ To view the values for a specific attribute:
 2.  Click on the **Edit** button. This will display the attribute's details, including the list of its values:
     ![]({{site.baseurl}}/attachments/7504855/8719280.png?effects=drop-shadow)
 
-# Viewing a product's "product class"-level attributes
+## Viewing a product's "product class"-level attributes
 
 If a product has any "product class"-level attributes assigned, you can view their list in the "`<Product class name>` attributes" section of the product's details (**Attributes** tab > **Global** subsection):
 

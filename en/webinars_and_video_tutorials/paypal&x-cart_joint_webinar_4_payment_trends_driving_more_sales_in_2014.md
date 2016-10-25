@@ -10,10 +10,10 @@ categories:
 ---
 
 
-# Introduction
+## Introduction
 
 The video below provides some useful tips to help you increase your sales.
 
-# Video
+## Video
 
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/9F6vdcJDOow" frameborder="0"></iframe>

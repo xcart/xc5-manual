@@ -17,7 +17,7 @@ In such cases, X-Cart 5 tries to alter the server's time limit (via **set_time_l
 
 There are several server configurations that do not allow altering **time limit** via **set_time_limit()** function. We will walk through all configurations that may cause problems with timeout and explain how you can set up **time limit** to 300 seconds. You can apply such changes yourself or ask your hosting team to perform the changes.
 
-# Apache + mod_fcgid
+## Apache + mod_fcgid
 
 Define the following parameters as 300 in your **mod_fcgid** config (usually it is **/etc/httpd/conf.d/fcgid.conf** file) and restart the web server:
 
@@ -29,19 +29,19 @@ Define the following parameters as 300 in your **mod_fcgid** config (usually it 
 
 More info about **mod_fcgid** can be found here: [http://httpd.apache.org/mod_fcgid/mod/mod_fcgid.html](http://httpd.apache.org/mod_fcgid/mod/mod_fcgid.html)
 
-# mod_fastcgi + php-fpm
+## mod_fastcgi + php-fpm
 
 In this case, set the **request_terminate_timeout **parameter in your **php-fpm.conf** file to 300 and restart the web server.
 
 More info about **php-fpm** can be found here: [http://www.php.net/manual/en/install.fpm.configuration.php](http://www.php.net/manual/en/install.fpm.configuration.php)
 
-# Nginx as Proxy
+## Nginx as Proxy
 
 Try adding the **proxy_read_timeout** option into your virtual host configuration, for example:
 
 proxy_read_timeout 300;
 
-# Nginx as standalone server + php-fpm
+## Nginx as standalone server + php-fpm
 
 Try adding the **fastcgi_read_timeout** option into your **php-fpm** configuration, for example:
 

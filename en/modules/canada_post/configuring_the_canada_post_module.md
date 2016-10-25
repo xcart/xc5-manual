@@ -25,11 +25,11 @@ The Canada Post settings page looks as follows:
 
 Below is an explanation of the settings that can be found on the Canada Post settings page.
 
-# Authentication options
+## Authentication options
 
 *   **User** and **Password**: These fields store your Canada Post merchant API key. They are completed automatically as a result of Canada Post registration via the Merchant registration wizard.
 
-# Common options
+## Common options
 
 *   **Quote type**: Choose _Commercial_ to get contracted rates (as contracted between you and Canada Post); choose _Counter_ to get rates you'd get over the counter (without a customer or contract number).
 
@@ -42,7 +42,7 @@ After you have completed the Canada Post registration via the Merchant registra
 
 *   **Currency rate**: This setting is needed for stores whose primary currency is other than the Canadian Dollar. Here you must specify a conversion rate for the currency used by your store (Specify rate X, where 1 CAD = X in shop currency).
 
-# Contract shipping options
+## Contract shipping options
 
 *   **Contract ID**: Your Canada Post contract number. This must be provided for commercial (contracted) rates, if exists. For non-contract rates, this will be empty. This field is completed automatically as a result of registration via the Merchant registration wizard.
 
@@ -52,7 +52,7 @@ After you have completed the Canada Post registration via the Merchant registra
 
 *   **Contact name for the manifest address**: Specify the name that should be used for your manifest address (Character string up to 44 characters; will be printed on the manifest document).
 
-# Deliver to Post Office options
+## Deliver to Post Office options
 
 *   **Enable "Deliver to Post Office" feature**: Enable this to allow your buyers to get their purchases at a nearby post office location of their choice.
 
@@ -64,7 +64,7 @@ After you have completed the Canada Post registration via the Merchant registra
 
 *   **Maximum Post Offices that will be displayed**: Specify the maximum number of post offices that should be displayed for selection to a buyer who chose to use the "Deliver to Post Office" option.
 
-# Parcel characteristics
+## Parcel characteristics
 
 The settings in this section allow you to specify the typical characteristics of a parcel that will be sent from your store via Canada Post. The characteristics specified here will be used as the default values for configuring shipments; if necessary, you will be able to edit these values for specific shipments. 
 
@@ -90,7 +90,7 @@ Icon
 
 Please note that currently X-Cart's Canada Post module does not support the use of package dimensions (**Package length**, **Package width** and **Package height**) for rate calculation and for splitting a single order into multiple packages; only the **Pakage maximum weight** value and the weight of the products in the order are taken into account.
 
-# Parcel options
+## Parcel options
 
 The settings in this section allow you to specify the default option values for your Canada Post shipments.
 

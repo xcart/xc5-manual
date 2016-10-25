@@ -10,7 +10,7 @@ categories:
 ---
 
 
-# Activating modules
+## Activating modules
 
 Sometimes the module you want to use is installed, but not active. To be able to use such a module, you need to activate it. 
 
@@ -25,7 +25,7 @@ To activate an installed module:
 4.  Click the **Save changes** button at the bottom of the screen. This starts the activation process which may take a while to complete. After it is finished, the module will be activated in your store and ready to use:
     ![]({{site.baseurl}}/attachments/7503971/8716507.png?effects=drop-shadow)
 
-# Deactivating modules
+## Deactivating modules
 
 It is possible to temporarily disable (deactivate) an installed module.
 

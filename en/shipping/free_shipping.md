@@ -16,7 +16,7 @@ X-Cart allows you to configure:
 *   [Free shipping on specific products](#free-shipping-on-specific-products-or-all-products) (or all products);
 *   [Free shipping on orders that meet certain conditions](#free-shipping-on-orders-that-meet-certain-conditions) (for example, orders delivered to addresses in the immediate vicinity of your store, or orders with a subtotal over a certain amount).
 
-# Free shipping on specific products (or all products)
+## Free shipping on specific products (or all products)
 
 If you want to provide free shipping on a specific product, use the following method:
 
@@ -39,7 +39,7 @@ Note, however, that for the case when a customer's shopping cart contains only p
 
 ![]({{site.baseurl}}/attachments/6389844/9437242.png?effects=drop-shadow)
 
-# Free shipping on orders that meet certain conditions
+## Free shipping on orders that meet certain conditions
 
 The method described in this section allows you to provide free shipping on orders that meet certain conditions.
 

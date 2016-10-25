@@ -10,7 +10,7 @@ categories:
 ---
 
 
-# Introduction
+## Introduction
 
 The video below demonstrates how to get a prolongation of access to X-Cart 5 updates after your period of free access to updates expires.
 
@@ -36,6 +36,6 @@ See log file for details
 
 You can resolve the problem by following the instructions from the video below.
 
-# Video
+## Video
 
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="http://www.youtube.com/embed/PMnBEjybA7U" frameborder="0"></iframe>

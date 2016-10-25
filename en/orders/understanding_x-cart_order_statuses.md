@@ -10,7 +10,7 @@ categories:
 ---
 
 
-# System order statuses
+## System order statuses
 
 Every order in your X-Cart store has a payment status and a shipping status. These two statuses provide information as to the current state of the order in the {% link "order processing workflow" ref_DkbTi1qJ %}. 
 
@@ -46,7 +46,7 @@ What you see in the first columns of the above tables is letter codes by which X
 
 For information on _custom order statuses_, see the {% link "Managing X-Cart order statuses (X-Cart 5.2.7 and later)" ref_7FIU2sxJ %} section of this manual.
 
-# Order workflow
+## Order workflow
 
 For orders paid using offline payment methods, the order processing workflow is as follows:
 

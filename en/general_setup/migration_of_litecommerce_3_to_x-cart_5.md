@@ -8,7 +8,7 @@ order: 400
 published: true
 ---
 
-# Introduction
+## Introduction
 
 This document describes the process of upgrade Litecommerce 3 to X-Cart 5.
 
@@ -25,7 +25,7 @@ This document describes the process of upgrade Litecommerce 3 to X-Cart 5.
     *   [Problem: X-Cart 5 displays only text without design during the upgrade.](#problem-x-cart-5-displays-only-text-without-design-during-the-upgrade)
     *   [Problem: You are seeing inconsistency in design after upgrade.](#problem-you-are-seeing-inconsistency-in-design-after-upgrade)
 
-# Step 1\. Install the module Migrate2XCN.
+## Step 1\. Install the module Migrate2XCN.
 
 1.  Download the module **Migrate2XCN** here: [http://www.litecommerce.com/download/migrate](http://www.litecommerce.com/download/migrate)
 2.  Open the page 'Manage add-ons' in you admin area (admin.php?target=addons_list_installed)
@@ -33,7 +33,7 @@ This document describes the process of upgrade Litecommerce 3 to X-Cart 5.
 
 **** ![]({{site.baseurl}}/attachments/3309570/7602238.png?effects=drop-shadow)****
 
-# Step 2\. Open the Migrate2XCN module settings page and enter your X-Cart 5 license key.
+## Step 2\. Open the Migrate2XCN module settings page and enter your X-Cart 5 license key.
 
 Once you have installed the Migrate2XCN module, go to its settings:
 
@@ -42,7 +42,7 @@ Once you have installed the Migrate2XCN module, go to its settings:
 and insert your X-Cart 5 license key there (you should have received this license key by email from X-Cart team)****
  ![]({{site.baseurl}}/attachments/3309570/7602240.png?effects=drop-shadow)****
 
-# Step 3\. Change the marketplace URL in the file config.php.
+## Step 3\. Change the marketplace URL in the file config.php.
 
 1.  Open the file `<litecommerce-dir>/etc/config.php` in a text editor
 
@@ -58,13 +58,13 @@ and insert your X-Cart 5 license key there (you should have received this licens
 
     url = "[https://my.x-cart.com/index.php?q=api](https://my.x-cart.com/index.php?q=api)"
 
-# Step 4\. Clear the marketplace cache.
+## Step 4\. Clear the marketplace cache.
 
 Open the page admin.php?target=addons_list_marketplace&action=clear_cache
 
 **** ![]({{site.baseurl}}/attachments/3309570/7602241.png?effects=drop-shadow)****
 
-# Step 5\. Upgrade your store.
+## Step 5\. Upgrade your store.
 
 After that you will see one of the links ('Updates available' or 'Upgrade available') in the header of the Admin area.
 
@@ -82,13 +82,13 @@ After that you will see the following message:
 
 Stock Chart and Wishlist modules are just for example here. You may see other modules during this step as it depends on which modules have been installed in your Litecommerce 3\. At least, the module Migrate2XCN will be displayed there. Do not worry, this is correct behaviour. Click the **Continue** button and follow further upgrade steps.
 
-# Step 6\. Activate the license key.
+## Step 6\. Activate the license key.
 
 ![]({{site.baseurl}}/attachments/3309570/7602246.png?effects=drop-shadow)
 
 ![]({{site.baseurl}}/attachments/3309570/7602247.png?effects=drop-shadow)
 
-# Step 7\. Update your etc/config.php file.
+## Step 7\. Update your etc/config.php file.
 
 It is recommended to adjust the config.php file after upgrade.
 
@@ -108,16 +108,16 @@ It is recommended to adjust the config.php file after upgrade.
 
 5.  If any other sections in your config.php file have been changed, e.g. [clean_urls], [skin_details], etc, transfer them to the new config.php as well.
 
-# FAQ
+## FAQ
 
-## Error: maximum execution time of 30 seconds exceeded during cache regeneration or upgrade operation.
+### Error: maximum execution time of 30 seconds exceeded during cache regeneration or upgrade operation.
 
 This problem might be caused by a large quantity of installed modules. Try to reload the page or adjust the max_execution_time PHP variable.
 
-## Problem: X-Cart 5 displays only text without design during the upgrade.
+### Problem: X-Cart 5 displays only text without design during the upgrade.
 
 Try to reload the pages, it usually happens if there are many installed modules in your LiteCommerce. 
 
-## Problem: You are seeing inconsistency in design after upgrade.
+### Problem: You are seeing inconsistency in design after upgrade.
 
 Try to clear the browser's cache.

@@ -24,7 +24,7 @@ Here you can find detailed explanations to all configuration fields provided on
 
 *   **Encoding**: The encoding type that is used in your X-Cart store. 
 
-# Products export options
+## Products export options
 
 *   **Export language**: Choose the language the products should be exported in.
 
@@ -40,7 +40,7 @@ Here you can find detailed explanations to all configuration fields provided on
 
 *   **Available text for out of stock products**: Text that will be displayed on the product page for products that are out of stock. Please do not leave blank.
 
-# Mobile Redirect-related options
+## Mobile Redirect-related options
 
 *   **Use default mobile skin**: Select this if you want to use bult in X-Cart mobile skin for mobile web browsers instead of your Shopgate mobile site (i.e. if you only want to use Shopgate for mobile applications or have your own customized mobile skin).
 
@@ -48,7 +48,7 @@ Here you can find detailed explanations to all configuration fields provided on
 
 *   **Alias**: The alias is the subdomain of shopgate.com, e.g. myshop.shopgate.com, where your mobile website can be found. This is used as a fallback if no CNAME is configured.
 
-# ShopGate API entry point
+## ShopGate API entry point
 
 *   **Shopgate API entry point URL**: This URL is used to connect your X-Cart shop backend to Shopgate's API.
 

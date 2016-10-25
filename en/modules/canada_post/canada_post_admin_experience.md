@@ -23,7 +23,7 @@ This includes the following topics:
 *   [Tracking shipments](#tracking-shipments);
 *   [Handling returns](#handling-returns).
 
-# Contract and non-contract shipping
+## Contract and non-contract shipping
 
 When shipping orders with Canada Post, your workflow will depend on whether you are using contract or non-contract services (This needs to be defined in the module settings).
 
@@ -41,7 +41,7 @@ For **non-contract** shipping, you will need to take the following steps:
 
 In the non-contract shipping flow, no manifests are required, so you do not need to transmit your shipments.
 
-# Creating shipments
+## Creating shipments
 
 When a buyer selects one of the available Canada Post shipping methods for their order, the module performs calculations to determine the number of packages needed to ship the order to the buyer and provides an estimation of the shipping cost based on the number of packages needed, their respective weights and the shipping rates that the module obtains from Canada Post.
 
@@ -109,13 +109,13 @@ The shipment will be submitted to Canada Post. Once it has been processed, the *
 
 In this section some important information pertaining to the created shipment will be provided, including the Tracking pin (a tracking identifier by which you and the parcel addressee will be able to track the parcel) and the shipping label link.
 
-# Obtaining shipping labels
+## Obtaining shipping labels
 
 Each of the parcels to be shipped by Canada Post needs to have a shipping label affixed to it. X-Cart's Canada Post module allows you to obtain shipping labels for your Canada Post parcels.
 
 Once you have chosen to save and create a new shipment, the module contacts Canada Post and obtains a shipping label for it. You can access this label using a link in the Shipment info section of the shipment details. The label needs to be saved on your system as a PDF file, printed out and affixed to the parcel.
 
-# Transmitting shipments
+## Transmitting shipments
 
 If you are using contract shipping services, from time to time you will need to "transmit" your created shipments. The step of transmitting shipments needs to be performed when you have saved and created one or more shipments and are ready to hand them over to Canada Post. Normally you will create a few shipments and transmit them together as a group, but it is also possible to transmit a single shipment, if necessary. Transmitting shipment triggers billing and sends shipping info to Canada Post.
 
@@ -137,7 +137,7 @@ The selected shipments will be transmitted. You should see a success message at 
 
 Once a shipment has been transmitted, it is removed from the CanadaPost shipments section (**Orders** > **CanadaPost shipments**). The respective manifest is created. Now you can go to the CanadaPost manifests section (**Orders** > **CanadaPost manifests**) to [obtaining your manifest](#obtaining-manifests).
 
-# Voiding shipments
+## Voiding shipments
 
 If the shipping label for a shipment that has been created is spoiled or will otherwise not be used, you may want to void this shipment.
 
@@ -159,7 +159,7 @@ You will be asked to confirm the Void shipment action. What happens after you c
 *   If you are using contract shipping, the module will send a Void Shipment request to the Canada Post API. This will officially cancel the shipment and invalidate the shipping label previously created for it. In your store, the shipment will be switched back to the pre-created status; the shipping label and tracking pin links for the shipment will be removed.
 *   If you are using non-contract shipping, no requests will be sent to the Canada Post API (Canada Post will NOT be informed about the voiding), but in your store the shipment will be switched back to the pre-created status, and the shipping label and the tracking pin links for the shipment will be removed. 
 
-# Obtaining manifests
+## Obtaining manifests
 
 For Canada Post contract holders, the module offers the ability to generate Canada Post shipping manifests. A manifest is required so that Canada Post will bill you properly and readily accept your shipments. 
 
@@ -183,7 +183,7 @@ Note that after the status of a manifest changes to "_Approved_", information ab
 
 Here you can see the ID of the manifest into which the shipment was included. The "Document: Artifact" link allows you to save and print out the manifest without going to the CanadaPost manifests page.
 
-# Tracking shipments
+## Tracking shipments
 
 Canada Post shipments can be tracked via the store's Admin area by clicking the Tracking pin link in the shipment details. The tracking details are displayed in a popup window:
 
@@ -191,7 +191,7 @@ Canada Post shipments can be tracked via the store's Admin area by clicking the 
 
 Where applicable, the same window may provide links to related documents; for example, a signature image or a delivery confirmation certificate. 
 
-# Handling returns
+## Handling returns
 
 Return requests submitted by shoppers wishing to return items shipped to them by Canada Post can be found in the Returns section of the Admin area (**Orders** > **Returns**):
 

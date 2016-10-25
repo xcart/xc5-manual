@@ -10,7 +10,7 @@ categories:
 ---
 
 
-# General requirements
+## General requirements
 
 Beginning with version 5.2.6, the module allows you to connect to printers using the following connection methods:
 
@@ -24,7 +24,7 @@ The requirements depend on the connection method you require:
 *   For printing with QZ Tray 2.x, it is recommended to purchase QZ premium support at [http://buy.qz.io/](http://buy.qz.io/).  For more info, see {% link "Getting started with QZ Tray 2.x" ref_lh4nFlzm %}.
 *   For printing with PrintNode, you need to register an account with PrintNode at [https://app.printnode.com/account/register](https://app.printnode.com/account/register). For more info, see {% link "Getting started with PrintNode" ref_L2vV8Twt %}.
 
-# Hardware requirements
+## Hardware requirements
 
 The minimum set of hardware required to be able to use the module includes a Barcode Scanner and a Receipt Printer. Such a set will be enough for stores that identify products using the barcodes printed by the manufacturer. If you are going to print your own barcodes, you will also need a Barcode Printer.
 
@@ -46,7 +46,7 @@ We guarantee that X-Cart's POS system module is compatible with the following ha
 
 It's possible that other models can be used, but the ones listed above were tested and proved to be fully compatible. 
 
-# Installation
+## Installation
 
 The module POS system for X-Cart can be obtained via X-Cart’s Marketplace. It is a commercial module, so you must purchase a license to be able to use it.
 

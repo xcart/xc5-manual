@@ -21,11 +21,11 @@ For information on how to configure product variants in your store, see: 
 
 *   [Managing product variants](#managing-product-variants)
 
-# Video tutorial
+## Video tutorial
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/bdzNYo4grnw" frameborder="0"></iframe>
 
-# What are product variants and why you may need them
+## What are product variants and why you may need them
 
 Let us use a simple example to show what product variants are and why you may need to use them.
 
@@ -71,7 +71,7 @@ If we configure the above option combinations as product variants for the produ
 
 ![]({{site.baseurl}}/attachments/7504786/7602670.png?effects=drop-shadow)
 
-# Managing product variants
+## Managing product variants
 
 To use product variants in your store, you will need to install the module **Product variants** by X-Cart team. For installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 

@@ -10,10 +10,10 @@ categories:
 ---
 
 
-# Introduction
+## Introduction
 
 This video shows how to activate a Free X-Cart 5 license.
 
-# Video
+## Video
 
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="http://www.youtube.com/embed/MEncqXpJ8qc" frameborder="0"></iframe>

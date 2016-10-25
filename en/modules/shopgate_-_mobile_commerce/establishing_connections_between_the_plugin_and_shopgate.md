@@ -12,7 +12,7 @@ categories:
 
 After the Shopgate plugin has been installed successfully, two simple tasks need to be done to connect your mobile shop at Shopgate to your X-Cart store's backend: to enter API credentials in your X-Cart store's backend, and to enter your X-Cart store's URL in your Shopgate's admin page.
 
-# Getting API credentials
+## Getting API credentials
 
 1.  Log in to your [Shopgate Admin](https://admin.shopgate.com/) page.
 2.  Click on ![](attachments/7505735/7602831.png)Integration from the menu bar, then select ![](attachments/7505735/7602832.png) Install Interface. ![]({{site.baseurl}}/attachments/7505735/7602833.png?effects=drop-shadow)
@@ -22,7 +22,7 @@ After the Shopgate plugin has been installed successfully, two simple tasks ne
 4.  A popup opens. Look for **Customer number**, **Shop number**, **API** **key**, and** Alias **under **2\. Configure_. _**These are the API credentials the plugin needs to authenticate at the Shopgate backend. Leave this page open - we will come back to enter the URL (explained in the {% link "Connecting your store to Shopgate" ref_9v2iKQ2a %} section below).![]({{site.baseurl}}/attachments/7505735/7602835.png?effects=drop-shadow)
 5.  Copy **Customer number**, **Shop number**, **API** **key**, and** Alias,**and paste them individually onto the "Shopgate - Mobile Commerce" module configuration page you left open from the last chapter. Copy the URL at the bottom of the page to a text editing file - you will need this in the next step. The rest of the options can be configured later (This is explained in the {% link "Configuring the «Shopgate - Mobile Commerce» module" ref_LPT5lDvl %} section). Click **Submit**. ![]({{site.baseurl}}/attachments/7505735/7602836.png?effects=drop-shadow)
 
-# Connecting your store to Shopgate
+## Connecting your store to Shopgate
 
 1.  Go back to the pop-up window at your Shopgate merchant page (Step 4). Paste the URL copied from the last step to the text field under **3\. Enter URL**. 
     Click **Connect** to establish the interface.

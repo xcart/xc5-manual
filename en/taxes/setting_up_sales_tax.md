@@ -21,11 +21,11 @@ Setting up sales tax in X-Cart 5 is not difficult, whereas the system provides e
 
 This article explains how to set up and enable sales tax calculation using the Sales Tax module for X-Cart 5. 
 
-# Video tutorial
+## Video tutorial
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/neu9h6xjJe0" frameborder="0"></iframe>
 
-# Configuring sales tax
+## Configuring sales tax
 
 Before you configure sales tax:
 
@@ -33,9 +33,9 @@ Before you configure sales tax:
 
     See:
 
-    *   {% link "Creating tax classes" ref_pAWOdG8N#Settinguptaxclasses-CreatingTaxClasses %};
+    *   {% link "Creating tax classes" ref_pAWOdG8N#creating-tax-classes %};
 
-    *   [Assigning tax classes to products](http://Setting up tax classes#AssigningTaxClassesToProducts).
+    *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}.
 
 2.  Ensure that your store has all the necessary address zones configured.
     See:
@@ -87,7 +87,7 @@ To configure your sales tax, complete the following steps:
     ![]({{site.baseurl}}/attachments/8225533/8716428.png?effects=drop-shadow)
 6.  Click the **Save changes** button at the bottom of the page to save the changes.
 
-# Setting up sales tax rates
+## Setting up sales tax rates
 
 You need to set up sales tax rates to {% link "configure your sales tax" ref_aJPK4DHN %}. Depending on whether you need to set up general tax rates or tax rates that apply only to shipping charges, use the appropriate section: **General tax rates** or **Tax rates on shipping cost**. The procedure for setting up general tax rates and tax rates on shipping cost is essentially the same:
 
@@ -105,7 +105,7 @@ You need to set up sales tax rates to {% link "configure your sales tax" ref_aJP
 4.  Click the **Save changes** button at the bottom of the page to save the changes.
     ![]({{site.baseurl}}/attachments/8225533/8716432.png?effects=drop-shadow)
 
-# Enabling/Disabling sales tax calculation
+## Enabling/Disabling sales tax calculation
 
 Once configured and enabled, sales tax calculation can be disabled/re-enabled using the **On**/**Off** button to the right of the **Tax title** field on the **Sales tax** panel in the Taxes section (**Store setup** > **Taxes**). When sales tax calculation is enabled, the **On/Off** icon on the button is green. When it is disabled, the icon is grey.
 

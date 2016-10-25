@@ -14,6 +14,6 @@ published: true
 
 To install the module, follow the {% link 'general module installation instructions' ref_Vn1mMUw9 %}. Before setting up VAT, be sure to set up the necessary {% link 'destination zones' ref_r68iO5Rm %}, {% link 'user membership levels' ref_9ITFspcC %}, and {% link 'tax classes' ref_pAWOdG8N %}.
 
-# Video tutorial
+## Video tutorial
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/kCS54G0QvvU" frameborder="0"></iframe>

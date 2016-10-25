@@ -10,10 +10,10 @@ categories:
 ---
 
 
-# Introduction
+## Introduction
 
 This video shows how to set shipping rates so your customers can get a shipping quote when they create an order at your store.
 
-# Video
+## Video
 
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/wKpHByus01o" frameborder="0"></iframe>

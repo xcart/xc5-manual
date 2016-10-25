@@ -18,14 +18,14 @@ Sometimes site changes like installing a new module, upgrading your X-Cart core 
 
 This article describes what you can do if you face this major problem and get your store up and running. 
 
-# Table of Contents
+## Table of Contents
 
 *   [Table of Contents](#table-of-contents)
 *   [Drop and re-create your site's cache](#drop-and-re-create-your-site's-cache)
 *   [Contact your hosting team](#contact-your-hosting-team)
 *   [Recover your store using safe mode](#recover-your-store-using-safe-mode)
 
-# Drop and re-create your site's cache
+## Drop and re-create your site's cache
 
 If you suspect the problem is caused by that your site's cache rebuild process was not completed properly, you should try clearing your store's cache and running the cache rebuild process anew.Normally, cache rebuild process takes place when you apply a core upgrade, install a new module, enable/disable an installed module, or manually launch the cache rebuild process by selecting **Re-deploy the store** in the Cache management section (**System settings** > **Cache management**) in your store's Admin area. If your store stopped functioning after one of those actions, chances are high that is because of problems with your site's cache. There are quite a number of reasons why cache re-generation may go wrong for your site, one of the most popular being closing the page where the cache rebuild process is being executed. But no matter what caused the problem, you can try to resolve it using one of the following methods:
 
@@ -35,13 +35,13 @@ If you suspect the problem is caused by that your site's cache rebuild process w
     When you use this link, your existing site cache is dropped, and the cache rebuild process is launched automatically.
 2.  Delete the folder **var/run** and the file **var/.rebuildStarted** in your X-Cart installation folder and go the your store's Admin area. X-Cart will detect the absense of cache and will automatically launch the cache rebuild process.
 
-# Contact your hosting team
+## Contact your hosting team
 
 Good hosting companies back up your entire website (databases and files) every day. Excellent ones - even more often.
 
 If your website crashed for any reason, contact your hosting team and ask them to recover your store from backup.
 
-# Recover your store using safe mode
+## Recover your store using safe mode
 
 It might happen that your hosting provider does not respond to you in time and you have to deal with the situation by yourself. Another possibility is that you are working in development environment and need to find out what exactly crashed your store so you would be able to fix it. In this case you may want to try using safe mode. Safe mode allows you to re-deploy your store with a limited set of modules, which can help you to identify the source of the problem more easily.
 

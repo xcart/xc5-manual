@@ -10,10 +10,10 @@ categories:
 ---
 
 
-# Introduction
+## Introduction
 
 In this tutorial we take an order paid for via X-Payments and edit it using the X-Cart 5 Advanced Order Management feature.
 
-# Video
+## Video
 
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/pmmCHyq-KzQ" frameborder="0"></iframe>

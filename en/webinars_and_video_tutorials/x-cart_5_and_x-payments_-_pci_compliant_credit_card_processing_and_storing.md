@@ -10,10 +10,10 @@ categories:
 ---
 
 
-# Introduction
+## Introduction
 
 This video demonstrates how PCI compliant credit card processing and storing works for your customers in X-Cart 5.
 
-# Video
+## Video
 
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/W8aohHNhGvs" frameborder="0"></iframe>

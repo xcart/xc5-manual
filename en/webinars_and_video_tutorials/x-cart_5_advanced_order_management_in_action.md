@@ -10,10 +10,10 @@ categories:
 ---
 
 
-# Introduction
+## Introduction
 
 This video demonstrates how to edit an order using the AOM feature of X-Cart 5.
 
-# Video
+## Video
 
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="http://www.youtube.com/embed/pX75WRiK4pQ" frameborder="0"></iframe>

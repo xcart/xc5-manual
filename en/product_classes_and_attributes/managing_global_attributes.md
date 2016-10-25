@@ -19,7 +19,7 @@ This page provides information on the following actions with global attributes:
 *   [Editing global attributes](#editing-global-attributes);
 *   [Deleting global attributes](#deleting-global-attributes).
 
-# Adding global attributes
+## Adding global attributes
 
 X-Cart supports two methods of adding global attributes. Below, we will show how to add a global attribute "Color".
 
@@ -92,7 +92,7 @@ The process is as follows:
         ![]({{site.baseurl}}/attachments/7504857/8719311.png?effects=drop-shadow)
         Now if you view the product on the storefront,  the Specification tab on its details page will show the attribute "Color..........Orange". If at step 4c you chose to apply the attribute value "Orange" globally, all the products in your store will show the same attribute as well. If you kept the option "Apply value changes locally", the attribute value "Orange" will be applied only for the product you edited (However, you will be able to find "Orange" in the list of attribute values for the attribute "Color" and apply it to other products in your store manually).
 
-# Viewing your store's list of global attributes
+## Viewing your store's list of global attributes
 
 To view your store's global attributes:
 
@@ -141,13 +141,13 @@ In the following example, we will assign the global attribute "Color.....Orange"
     ![]({{site.baseurl}}/attachments/7504857/8719310.png?effects=drop-shadow)
     The attribute(s) and their selected value(s) will be assigned to the product, after which you will be able to see them on the storefront.
 
-# Viewing a product's global attributes
+## Viewing a product's global attributes
 
 If a product has any global attributes assigned, you can view their list in the "Global attributes" section of the product's details (**Attributes** tab** >** **Global **subsection):
 
 ![]({{site.baseurl}}/attachments/7504857/8719308.png?effects=drop-shadow)
 
-# Editing global attributes
+## Editing global attributes
 
 Sometimes you may need to change the name and/or values of a global attribute. You can do so using one of the following methods:
 
@@ -179,7 +179,7 @@ Sometimes you may need to change the name and/or values of a global attribute. Y
     *   Apply value changes locally => Changes of attribute values will affect only this product. Changes of attribute names and of the attribute list (for example, changes of the order of attributes in the list, or removal of attributes) will affect all the products in your store.
 6.  Click **Save changes**.
 
-# Deleting global attributes
+## Deleting global attributes
 
 Sometimes you may need to delete a global attribute. You can do so using one of the following methods:
 

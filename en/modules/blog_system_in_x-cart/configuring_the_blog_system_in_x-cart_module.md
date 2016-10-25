@@ -25,12 +25,12 @@ The first thing you see on this page is the **Path to WordPress directory (rela
 
 **Tip**: You can use this side effect as an emergency way to disable your blog. Clearing the field contents or changing it to anything other than "blog" will hide your blog from visitors. This will not hide the "Blog" item from your site's Primary menu, but in the Blog section itself visitors will see the "Page not available. Please contact the administrator" message.
 
-# "Bread Crumbs"
+## "Bread Crumbs"
 
 *   **Text to replace blog title in breadcrumbs**: This setting allows you to customize the first breadcrumb element for the Blog section of your site. By default, this element shows the title of your blog as defined by the "Site Title" field in the WordPress General Settings. You can specify a different text here to be used in breadcrumbs instead of the blog title.
     ![]({{site.baseurl}}/attachments/7505612/7602800.png?effects=drop-shadow)
 
-# Pages
+## Pages
 
 This section of the module settings page allows you to configure the look of your blog pages.
 
@@ -47,7 +47,7 @@ This section of the module settings page allows you to configure the look of you
     If this setting is disabled, only "Older posts" and "Newer posts" links are provided:
     ![]({{site.baseurl}}/attachments/7505612/7602802.png?effects=drop-shadow)
 
-# Widget "Recent Posts"
+## Widget "Recent Posts"
 
 The "Recent Posts" widget is a box displaying your latest blog posts. The settings in this section of the "Blog System in X-Cart" module settings page define how and whether this widget should be displayed in your store.
 

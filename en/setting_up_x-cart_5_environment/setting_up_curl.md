@@ -11,13 +11,13 @@ order: 140
 ---
 
 
-# Introduction
+## Introduction
 
 [cURL](http://www.php.net/manual/en/intro.curl.php) is a PHP extension that is used for creating connections to different types of servers. In particular, we are using cURL to connect to our marketplace and install modules from there. Usually hosting teams compile PHP with cURL enabled and everything works fine. If this is not your case, this article is for you.
 
 There are several possible cases when cURL is not configured properly with your PHP and we will explain how to deal with these situations.
 
-# Table of contents
+## Table of contents
 
 *   [Introduction](#introduction)
 *   [Table of contents](#table-of-contents)
@@ -26,15 +26,15 @@ There are several possible cases when cURL is not configured properly with your 
     *   [Windows + XAMPP](#windows-+-xampp)
     *   [Ubuntu/Debian + Apache](#ubuntu/debian-+-apache)
 
-# cURL does not work on your web-server
+## cURL does not work on your web-server
 
 Usually this case can be solved if you contact your hosting team and ask them to [compile PHP with cURL](http://www.php.net/manual/en/curl.installation.php). Some hosting providers allow to enable cURL via Control Panel, so you may want to check this option before contacting hosting team. If you have dedicated server and manage extensions yourself, learn the section below for more instructions.
 
-# cURL does not work on your local machine
+## cURL does not work on your local machine
 
 In this case, the solution will be different depending on the type of your web-server and operation system.
 
-## Windows + XAMPP
+### Windows + XAMPP
 
 1.  Find three files on your PC:
 
@@ -58,7 +58,7 @@ In this case, the solution will be different depending on the type of your web-s
 
 3.  Restart Apache.
 
-## Ubuntu/Debian + Apache
+### Ubuntu/Debian + Apache
 
 1.  Run the following command in your console
 

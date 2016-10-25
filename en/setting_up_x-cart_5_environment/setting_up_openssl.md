@@ -11,7 +11,7 @@ order: 160
 ---
 
 
-# Introduction
+## Introduction
 
 [openSSL](http://www.php.net/manual/en/book.openssl.php) is PHP encryption extension and its purpose to encrypt sensitive data, so malicious users would not be able to access it. If openSSL is not configured properly, your store will not be able to communicate with marketplace and install modules out of there.
 
@@ -19,16 +19,16 @@ If your web-server does not have openSSL configured properly, contact your hosti
 
 If you face this problem on your local machine, check tips below. Solution will depend on your operation system and type of web-server.
 
-# Table of contents
+## Table of contents
 
 *   [Introduction](#introduction)
 *   [Table of contents](#table-of-contents)
 *   [Configuring openSSL](#configuring-openssl)
     *   [Windows + XAMPP](#windows-+-xampp)
 
-# Configuring openSSL
+## Configuring openSSL
 
-## Windows + XAMPP
+### Windows + XAMPP
 
 1.  Edit the **C:\Program Files\xampp\apache\conf\httpd.conf **file and replace there the following piece of code:
 

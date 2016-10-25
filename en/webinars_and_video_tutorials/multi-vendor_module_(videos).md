@@ -10,11 +10,11 @@ categories:
 ---
 
 
-# Introduction
+## Introduction
 
 In this series of video tutorials we provide an overview of the functionality of X-Cart 5 Multi-vendor module - as experienced by Admin, Vendor and Customer.  
 
-# Video
+## Video
 
 Admin experience:
 

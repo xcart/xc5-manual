@@ -17,7 +17,7 @@ This page provides information on the following actions with abandoned carts:
 *   [Sending reminders](#sending-reminders);
 *   [Deleting abandoned carts](#deleting-abandoned-carts).
 
-# Viewing/filtering the abandoned carts list
+## Viewing/filtering the abandoned carts list
 
 When a cart becomes abandoned, it is added to your store's abandoned carts list.
 
@@ -40,7 +40,7 @@ The list of abandoned carts is presented in the form of a table. For each cart�
 *   **Date**: Since when the cart has been in the abandoned state.
 *   **Notified**: Whether any abandoned cart reminder emails have been sent to the cart owner and how many times (+ the date when a reminder email was last sent for the cart).
 
-# Sending reminders 
+## Sending reminders 
 
 If a reminder needs to be sent not to all, but just some of the abandoned carts on your store's abandoned carts list, you must send it manually.
 
@@ -54,7 +54,7 @@ To send a reminder email to owners of specific carts:
 
 3.  In the popup, use the **Reminder** drop-down box to select the reminder message you wish to send and click **Send reminder**. The reminder message will be sent to the owners of all selected carts.
 
-# Deleting abandoned carts
+## Deleting abandoned carts
 
 When you no longer need an abandoned cart to be stored, you can delete it.
 

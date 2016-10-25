@@ -11,11 +11,11 @@ order: 100
 ---
 
 
-# Introduction
+## Introduction
 
 This article aims to explain how you can set up Paypal Express Checkout in X-Cart.
 
-# Table of Contents
+## Table of Contents
 
 *   [Introduction](#introduction)
 *   [Table of Contents](#table-of-contents)
@@ -23,7 +23,7 @@ This article aims to explain how you can set up Paypal Express Checkout in X-Car
 *   [Enabling the Secure Token setting](#enabling-the-secure-token-setting)
 *   [Creating your custom PayPal payment page](#creating-your-custom-paypal-payment-page)
 
-# Setting up Express Checkout with email
+## Setting up Express Checkout with email
 
 The basic setup of Paypal Express Checkout requires you to specify your email only. You should input it into the field shown below:
 
@@ -32,7 +32,7 @@ The basic setup of Paypal Express Checkout requires you to specify your email on
 *   If you already have a Paypal account, then you should input the email you created your Paypal account with.
 *   If you do not yet have a Paypal account, then you can input the email you are going to create your Paypal account with and create the account itself later on.
 
-# Enabling the Secure Token setting
+## Enabling the Secure Token setting
 
 You may need to include this option if you want to capture payments authorized by Paypal via the admin interface of your X-Cart store. Using this option requires you to have a Paypal Advanced Payments or a Paypal Payflow Pro account.
 
@@ -49,7 +49,7 @@ How to enable the Secure Token setting:
 
 6.  Fill in the API credentials into the settings form in X-Cart 5 as per snapshot below: ![]({{site.baseurl}}/attachments/7505722/7602854.png?effects=drop-shadow)
 
-# Creating your custom PayPal payment page
+## Creating your custom PayPal payment page
 
 Creating a custom payment page allows you to co-brand the PayPal checkout pages with your logo and colors.
 

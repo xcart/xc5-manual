@@ -15,7 +15,7 @@ Pilibaba Chinese Checkout payment module for X-Cart 5 provides a solution that 
 
 Pilibaba is a technical company from China providing a unique combined Payment & Logistics solution to overcome the barriers of cross-border E-Commerce to China market. By connecting to Pilibaba all-in-one gateway, you can sell to 1.3 Billion Chinese customers with your existing online store instantly. When you receive an order from a Chinese shopper, you will be able to ship the order to Pilibaba designated domestic warehouse, and Pilibaba will provide efficient re-label, customs clearance and door-to-door delivery anywhere in China.
 
-# Getting started with Pilibaba Chinese Checkout
+## Getting started with Pilibaba Chinese Checkout
 
 To start using Pilibaba Chinese Checkout with X-Cart 5:
 
@@ -31,7 +31,7 @@ To start using Pilibaba Chinese Checkout with X-Cart 5:
     Please note that the URL is pre-defined as preen.pilibaba.com when you are in Test mode, and as en.pilibaba.com when you are in Live mode.
     ![]({{site.baseurl}}/attachments/9307023/9439630.png?effects=drop-shadow)
 
-# Pilibaba account overview
+## Pilibaba account overview
 
 You can login to your Pilibaba account at [http://en.pilibaba.com](http://en.pilibaba.com/)
 

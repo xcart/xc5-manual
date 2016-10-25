@@ -19,7 +19,7 @@ Commercial (non-free) modules for X-Cart 5 are also provided with licenses tha
 
 *   [Activating an X-Cart 5 module license](#activating-an-x-cart-5-module-license)
 
-# Activate a Free X-Cart 5 license
+## Activate a Free X-Cart 5 license
 
 This section explains how to activate a Free X-Cart 5 license to turn your X-Cart trial installation into a real X-Cart 5 Free edition store.
 
@@ -63,7 +63,7 @@ To activate a Free X-Cart 5 license, do the following:
     Now your Admin area header should be showing the license type you have activated:
     ![]({{site.baseurl}}/attachments/8225232/8716602.png?effects=drop-shadow)
 
-# Activating a Business / Multivendor / Ultimate X-Cart 5 license
+## Activating a Business / Multivendor / Ultimate X-Cart 5 license
 
 This section explains how to activate the license for X-Cart 5 Business, Multivendor and Ultimate editions.
 
@@ -105,7 +105,7 @@ To activate your license, do the following:
     ![]({{site.baseurl}}/attachments/8225232/8716606.png?effects=drop-shadow)
     (The screenshot above demonstrates the result of activating a Business license; for Multivendor license this would be "Multivendor", and for Ultimate license this would be "Ultimate").
 
-# Activating an X-Cart 5 module license
+## Activating an X-Cart 5 module license
 
 This section covers the topic of license activation for commercial (paid, non-free) modules for X-Cart 5.
 
