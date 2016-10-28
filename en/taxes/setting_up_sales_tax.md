@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 13:11 +0400'
+updated_at: '2016-10-28 16:42 +0400'
 identifier: ref_aJPK4DHN
 title: Setting up sales tax
 order: 130
@@ -37,11 +37,12 @@ Before you configure sales tax:
 
     *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}.
 
-2.  Ensure that your store has all the necessary address zones configured.
+2.  Ensure that your store has all the necessary address zones configured. You will need these zones to use different tax rates based on the customer address.
     See:
 
     *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
-3.  Ensure that the necessary user membership levels have been set up for your customers.
+    
+3.  If you are going to need different tax rates for different customer membership levels, ensure that the necessary user membership levels have been set up.
     See:
 
     *   {% link "Adding user membership levels" ref_9ITFspcC %}
@@ -52,7 +53,7 @@ To configure your sales tax, complete the following steps:
     ![]({{site.baseurl}}/attachments/8225533/8716413.png?effects=drop-shadow)
 2.  Make sure you are viewing the **Sales tax** tab.
     ![]({{site.baseurl}}/attachments/8225533/8716416.png?effects=drop-shadow)
-3.  Configure the tax options:
+3.  Configure the tax options in the **Common tax settings** section:
     ![]({{site.baseurl}}/attachments/8225533/8716417.png?effects=drop-shadow)
 
     *   Use the **Tax title** field to enter a general name describing the type of tax applied to orders in your store. This name will show on your store's checkout and on your customers' invoices. Suggested values for this field include _Tax_, _Sales Tax_, _GST_ and the like.
