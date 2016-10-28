@@ -36,14 +36,14 @@ Before you configure your VAT / GST tax:
 
 To configure your VAT / GST tax, complete the following steps:
 1.  In your store's Admin area, go to the Taxes section (**Store setup** > **Taxes**).
-    ![xc5_taxes_vat_taxes_section.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_taxes_section.png)
+    ![xc5_taxes_vat_taxes_section.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_taxes_section.png?effects=drop-shadow)
 2.  Make sure you are viewing the **VAT / GST** tab.
-    ![]({{site.baseurl}}/attachments/8225533/8716416.png?effects=drop-shadow)
+    <img>
 3.  Configure the tax options in the **Common tax settings** section:
-    ![]({{site.baseurl}}/attachments/8225533/8716417.png?effects=drop-shadow)
+    <img>
 
     *   Use the **Tax title** field to enter a general name describing the type of tax applied to orders in your store. This name will show on your store's checkout and on your customers' invoices. By default, _VAT_ is used as the tax title, but you can change it to _GST_ or any other name you require.
     *   Specify whether tax calculation rules for the tax you are configuring (we'll come to configuring these rules a bit later) should be the same for all your store's users, irrespective of their membership, or should be different depending on the users' membership. If the rules need to be the same for all your buyers, enable the option **Use the same tax rates for all user membership levels** by selecting the respective check box. If different membership levels need the tax to be calculated differently, leave this check box unselected.
     *   Use the selectbox titled **Address for VAT / GST calculation** to specify the address type based on which your VAT / GST tax needs to be calculated. The available options here are _Shipping address_ and _Billing address._ The address type you select here will be used to determine the customer's zone, which in its turn will be used to determine the tax rate that needs to be applied. For example, to charge sales tax based on where the product is being shipped to (not where it was purchased), you would need to choose the _Shipping address_ option in this field.
-    *   Use
+    *   Use 
 
