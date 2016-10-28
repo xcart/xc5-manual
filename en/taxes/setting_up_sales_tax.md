@@ -51,14 +51,17 @@ To configure your sales tax, complete the following steps:
 
 1.  In your store's Admin area, go to the Taxes section (**Store setup** > **Taxes**).
     ![]({{site.baseurl}}/attachments/8225533/8716413.png?effects=drop-shadow)
+    
 2.  Make sure you are viewing the **Sales tax** tab.
     ![]({{site.baseurl}}/attachments/8225533/8716416.png?effects=drop-shadow)
+    
 3.  Configure the tax options in the **Common tax settings** section:
     ![]({{site.baseurl}}/attachments/8225533/8716417.png?effects=drop-shadow)
 
     *   Use the **Tax title** field to enter a general name describing the type of tax applied to orders in your store. This name will show on your store's checkout and on your customers' invoices. Suggested values for this field include _Tax_, _Sales Tax_, _GST_ and the like.
     *   Specify whether tax calculation rules for the tax you are configuring (we'll come to configuring these rules a bit later) should be the same for all your store's users, irrespective of their membership, or should be different depending on the users' membership. If the rules need to be the same for all your buyers, enable the option **Use the same tax rates for all user membership levels** by selecting the respective check box. If different membership levels need their sales tax to be calculated differently, leave this check box unselected.
     *   Use the selectbox titled **Address for sales tax calculation** to specify the address type based on which your sales tax needs to be calculated. The available options here are _Shipping address_ and _Billing address._ The address type you select here will be used to determine the customer's zone, which in its turn will be used to determine the tax rate that needs to be applied. In the United States, ecommerce businesses are supposed to charge sales tax based on where the product is being shipped to, and not where it was purchased; so, a store shipping within the United States would need to choose the _Shipping address_ option in this field.
+    
 4.  Set up one or more tax calculation rules:
 
     *   If you need tax rates to be applied to the cost of products in a customer's order (product subtotal or discounted subtotal), or to the cost of products plus shipping (subtotal + shipping cost or discounted subtotal + shipping cost), set up tax rates using the **General tax rates** section_:_
@@ -86,6 +89,7 @@ To configure your sales tax, complete the following steps:
 
 5.  Make sure sales tax calculation is enabled in your store. This is controlled by the **On**/**Off** button to the right of the **Tax title** field. When sales tax calculation is enabled, the On/Off icon on the button is green.
     ![]({{site.baseurl}}/attachments/8225533/8716428.png?effects=drop-shadow)
+    
 6.  Click the **Save changes** button at the bottom of the page to save the changes.
 
 ## Setting up sales tax rates
