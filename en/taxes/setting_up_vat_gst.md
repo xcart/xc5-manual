@@ -36,7 +36,7 @@ Before you configure your VAT / GST tax:
 
 To configure your VAT / GST tax, complete the following steps:
 1.  In your store's Admin area, go to the Taxes section (**Store setup** > **Taxes**).
-    ![]({{site.baseurl}}/attachments/8225533/8716413.png?effects=drop-shadow)
+    ![xc5_taxes_vat_taxes_section.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_taxes_section.png)
 2.  Make sure you are viewing the **VAT / GST** tab.
     ![]({{site.baseurl}}/attachments/8225533/8716416.png?effects=drop-shadow)
 3.  Configure the tax options in the **Common tax settings** section:
