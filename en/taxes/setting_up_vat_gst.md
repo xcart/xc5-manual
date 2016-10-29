@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-28 13:57 +0400'
+updated_at: '2016-10-29 01:22 +0400'
 identifier: ref_Rzp45QlN
 title: Setting up  VAT / GST (for EU and UK)
 order: 100
@@ -45,5 +45,6 @@ To configure your VAT / GST tax, complete the following steps:
     *   Use the **Tax title** field to enter a general name describing the type of tax applied to orders in your store. This name will show on your store's checkout and on your customers' invoices. By default, _VAT_ is used as the tax title, but you can change it to _GST_ or any other name you require.
     *   Specify whether tax calculation rules for the tax you are configuring (we'll come to configuring these rules a bit later) should be the same for all your store's users, irrespective of their membership, or should be different depending on the users' membership. If the rules need to be the same for all your buyers, enable the option **Use the same tax rates for all user membership levels** by selecting the respective check box. If different membership levels need the tax to be calculated differently, leave this check box unselected.
     *   Use the selectbox titled **Address for VAT / GST calculation** to specify the address type based on which your VAT / GST tax needs to be calculated. The available options here are _Shipping address_ and _Billing address._ The address type you select here will be used to determine the customer's zone, which in its turn will be used to determine the tax rate that needs to be applied. For example, to charge sales tax based on where the product is being shipped to (not where it was purchased), you would need to choose the _Shipping address_ option in this field.
-    *   Use 
+    *   If in your country/state the law requires that you include VAT/GST into product prices, you might already have set the product prices in your store's catalog including the VAT/GST tax rate for your location. If, however, you expect to serve customers not only from that location, but also from other regions, for which you must not charge the VAT/GST tax at all, or must charge a different VAT/GST rate, you will need to somehow deduct the included VAT/GST tax amount from the prices or to use a different VAT/GST rate to calculate the prices correctly. To automate this process, we provided the setting **The VAT inclusive prices as defined in the product details are intended for**. Use this setting to specify the address zone (or the membership and the address zone), the VAT/GST tax for which was included into product prices when you defined the prices for the products in your catalog. This way the VAT/GST amount applied to a product will be adjusted based on the location and membership of the customer: customers whose location and membership level match the location and membership level specified in the section "The VAT inclusive prices as defined in the product details are intended for" will get exactly the prices defined in the product details. For customers with a location and a membership level different from those specified in the section "The VAT inclusive prices as defined in the product details are intended for", product prices will be recalculated based on the VAT rate for their respective location and membership level.
 
+  If specified, this value will be displayed on the invoices of orders with VAT applied
