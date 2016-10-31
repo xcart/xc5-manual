@@ -9,6 +9,10 @@ published: true
 ---
 If you are required to charge buyers a value added tax (VAT) or a goods and services tax (GST), we recommend using the module **Value Added Tax / Goods and Services Tax** for tax setup. This module is specifically designed for businesses in the UK, EU, Australia and other countries where you need to be able to charge VAT / GST. The module allows you to use different tax rates based on the membership level and address of the customer. It also supports tax exemption based on customer's VAT ID.
 
+{% note info %}
+Note that we have a special module for {% link "Canadian taxes" ref_hxmof6xX %}.
+{% endnote %}
+
 To start using the module "Value Added Tax / Goods and Services Tax", ensure that it is installed and enabled in your store's Installed Modules section.
 
 This article explains how to set up and enable VAT / GST calculation using the module "Value Added Tax / Goods and Services Tax" for X-Cart 5. 
