@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-31 16:22 +0400'
+updated_at: '2016-10-31 17:10 +0400'
 identifier: ref_kJmd7K27
 title: Taxes
 categories:
@@ -18,3 +18,4 @@ _In this section:_
 *   {% link "Setting up tax classes" ref_pAWOdG8N %}
 *   {% link "Setting up sales tax" ref_aJPK4DHN %}
 *   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %}
+*   {% link "Setting up Canadian taxes" ref_hxmof6xX %}
