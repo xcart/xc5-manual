@@ -22,6 +22,7 @@ Before you configure your VAT / GST tax:
     See:
     
     *   {% link "Creating tax classes" ref_pAWOdG8N#creating-tax-classes %};
+    
     *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}.
 
 2.  Ensure that your store has all the necessary address zones configured. You will need these zones to use different tax rates based on the customer address.
