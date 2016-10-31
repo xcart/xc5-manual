@@ -43,9 +43,50 @@ To configure your VAT / GST tax, complete the following steps:
     <img>
 
     *   Use the **Tax title** field to enter a general name describing the type of tax applied to orders in your store. This name will show on your store's checkout and on your customers' invoices. By default, _VAT_ is used as the tax title, but you can change it to _GST_ or any other name you require.
+    
     *   Specify whether tax calculation rules for the tax you are configuring (we'll come to configuring these rules a bit later) should be the same for all your store's users, irrespective of their membership, or should be different depending on the users' membership. If the rules need to be the same for all your buyers, enable the option **Use the same tax rates for all user membership levels** by selecting the respective check box. If different membership levels need the tax to be calculated differently, leave this check box unselected.
+    
     *   Use the selectbox titled **Address for VAT / GST calculation** to specify the address type based on which your VAT / GST tax needs to be calculated. The available options here are _Shipping address_ and _Billing address._ The address type you select here will be used to determine the customer's zone, which in its turn will be used to determine the tax rate that needs to be applied. For example, to charge sales tax based on where the product is being shipped to (not where it was purchased), you would need to choose the _Shipping address_ option in this field.
+    
     *   If in your country/state the law requires that you include VAT/GST into product prices, you might already have set the product prices in your store's catalog including the VAT/GST tax rate for your location. If, however, you expect to serve customers not only from that location, but also from other regions, for which you must not charge the VAT/GST tax at all, or must charge a different VAT/GST rate, you will need to somehow deduct the included VAT/GST tax amount from the prices or to use a different VAT/GST rate to calculate the prices correctly. To automate this process, we provided the setting **The VAT inclusive prices as defined in the product details are intended for**. Use this setting to specify the address zone (or the membership and the address zone), the VAT/GST tax for which was included into product prices when you defined the prices for the products in your catalog. This way the VAT/GST amount applied to a product will be adjusted based on the location and membership of the customer: customers whose location and membership level match the location and membership level specified in the section "The VAT inclusive prices as defined in the product details are intended for" will get exactly the prices defined in the product details. For customers with a location and a membership level different from those specified in the section "The VAT inclusive prices as defined in the product details are intended for", product prices will be recalculated based on the VAT rate for their respective location and membership level.
+    
     *   Use the setting **Display prices in catalog including VAT / GST** to specify, whether the product prices in your store's catalog should be displayed with VAT / GST included, or not. Note that this setting affects only the way the prices are *displayed*. If the prices in the database do not include VAT / GST, enabling the option "Display prices in catalog including VAT / GST" will result in that an appropriate tax rate will be added to the price before it is displayed in the catalog. If the prices in the database are set including VAT / GST, enabling the option "Display prices in catalog including VAT / GST" will result in that the tax rate will be subtracted from the price before the price is displayed.
+    
     *   Use the setting **Display 'inc/ex VAT' labels next to prices** to specify, whether the prices should  be displayed with the label "inc. VAT" or "ex. VAT" displayed next to them, or without such a label.
+    
     *   In the **Merchant Tax Number** field, specify your tax number. Note that this value will be shown on the invoice. If necessary, follow the "Rename label" link below the field name to change the wording of this phrase. 
+    
+4.  Set up the VAT/GST tax rates you require. For more info, see the section "Setting up your VAT / GST tax rates" further in this article.
+
+5.  Make sure the VAT/GST tax calculation is enabled in your store. This is controlled by the **Tax enabled**/**Tax disabled** button to the right of the "Tax title" field. 
+    ![]({{site.baseurl}}/attachments/8225533/8716428.png?effects=drop-shadow)
+    
+6.  Click the **Save changes** button at the bottom of the page to save the changes.
+
+## Setting up your VAT / GST tax rates
+
+You need to set up VAT / GST rates to configure VAT / GST tax calculation:
+
+1.  In the section **Rates / Conditions** in the lower part of the page, click the button **New rate**.
+    ![]({{site.baseurl}}/attachments/8225533/8716429.png?effects=drop-shadow) 
+2.  In the section that expands below, provide information about a new VAT/GST rate:
+    ![]({{site.baseurl}}/attachments/8225533/8716431.png?effects=drop-shadow)
+    
+     *   **Tax class**: Specify the type of products (tax class) to which the tax rate should be applied. For example, if you select the _Default tax class_ option here, the tax rate will be applied to all the products that have the default tax class assigned. 
+     
+    *   **User membership**: Specify the user membership level for which the tax rate should be applied. The option _Ignore membership_ allows you to create a tax rate that will be applied to all orders irrespective of the buyer's membership (**Note**: The "User membership" column becomes available when the option "Use the same tax rates for all user membership levels" is disabled in the sales tax configuration).
+    
+    *   **Zone**: Specify the address zone to which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected address zone. Whether it is their Billing or Shipping address depends on the option selected in the **Address for sales tax calculation** field of the sales tax configuration.
+    
+    *   **Rate**: Specify the tax rate amount as a percentage of the selected taxable base.
+
+3.  If necessary, use the **New rate** button to add rows for more tax rates. Complete the fields in each row as you require.
+
+4.  Click the **Save changes** button at the bottom of the page to save the changes.
+    ![]({{site.baseurl}}/attachments/8225533/8716432.png?effects=drop-shadow)
+
+## Enabling/Disabling sales tax calculation
+
+Once configured and enabled, VAT / GST calculation can be disabled/re-enabled using the  **Tax enabled**/**Tax disabled** button to the right of the **Tax title** field on the **VAT / GST** panel in the Taxes section (**Store setup** > **Taxes**). When VAT / GST calculation is enabled, the button shows as **Tax enabled**, and the On/Off icon on the button is green. When it is disabled, the button shows as **Tax disabled**, and the icon is grey.
+
+
