@@ -48,7 +48,7 @@ To configure Canadian taxes, complete the following steps:
     ![xc5_taxes_canada_canadian_taxes_tab.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_canadian_taxes_tab.png?effects=drop-shadow)
 
 3.  Configure the tax options in the **Common tax settings** section:
-    ![xc5_taxes_canada_common_settings.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_common_settings.png)
+    ![xc5_taxes_canada_common_settings.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_common_settings.png?effects=drop-shadow)
 
     *   Specify whether tax calculation rules (we'll come to configuring these rules a bit later) should be the same for all your store's users, irrespective of their membership, or should be different depending on the users' membership. If the rules need to be the same for all your buyers, enable the option **Use the same tax rates for all user membership levels** by selecting the respective check box. If different membership levels need the taxes to be calculated differently, leave this check box unselected.
     
@@ -75,7 +75,7 @@ To enable X-Cart to calculate tax amounts that need to be applied, you need to s
 1.  In the section **Provincial tax rates** in the lower part of the page, click the button **New rate**.
     
 2.  In the section that expands below, provide information about a new rate:
-    ![xc5_taxes_canada_rates2.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_rates2.png)
+    ![xc5_taxes_canada_rates2.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_rates2.png?effects=drop-shadow)
     
      *   **Province**: Specify the province in which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected province. Whether it is their Billing or Shipping address depends on the option selected in the "Address for Canadian taxes calculation" field of common tax settings.
      
