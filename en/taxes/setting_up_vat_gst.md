@@ -55,8 +55,8 @@ To configure your VAT / GST tax, complete the following steps:
     
     *   Use the setting **Display prices in catalog including VAT / GST** to specify, whether the product prices in your store's catalog should be displayed with VAT / GST included, or not. Note that this setting affects only the way the prices are *displayed*. If the prices in the database do not include VAT / GST, enabling the option "Display prices in catalog including VAT / GST" will result in that an appropriate tax rate will be added to the price before it is displayed in the catalog. If the prices in the database are set including VAT / GST, enabling the option "Display prices in catalog including VAT / GST" will result in that the tax rate will be subtracted from the price before the price is displayed.
     
-    *   Use the setting **Display 'inc/ex VAT' labels next to prices** to specify, when/where the prices should be displayed with the label "inc. VAT" or "ex. VAT" displayed next to them.
-        * *Never* means that such labels will not be used anywhere in the catalog.
+    *   X-Cart can display product prices with the label 'inc VAT' or 'ex VAT' displayed next to them - depending on whether VAT / GST is included into the price or not. Use the setting **Display 'inc/ex VAT' labels next to prices** to specify, whether you want to use such labels, and if so, on which pages the labels should be shown. 
+        * *Never* means that the labels will not be used anywhere in the catalog.
         * *On product details pages only* means that the labels will be used only for the prices displayed on the pages showing detailed product info, and not used on any other pages.
         * *On all catalog pages* means that the labels will be used everywhere in the catalog where product prices are shown.
     
@@ -95,6 +95,7 @@ You need to set up VAT / GST rates to configure VAT / GST tax calculation:
 ## Enabling/Disabling sales tax calculation
 
 Once configured and enabled, VAT / GST calculation can be disabled/re-enabled using the  **Tax enabled**/**Tax disabled** button to the right of the **Tax title** field on the **VAT / GST** panel in the Taxes section (**Store setup** > **Taxes**). 
+
 ![xc5_taxes_vat_tax_enabled.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_tax_enabled.png?effects=drop-shadow)
 
 When VAT / GST calculation is enabled, the button shows as **Tax enabled**, and the On/Off icon on the button is green. When it is disabled, the button shows as **Tax disabled**, and the icon is grey.
