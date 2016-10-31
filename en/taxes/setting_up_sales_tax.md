@@ -58,7 +58,8 @@ To configure your sales tax, complete the following steps:
     ![]({{site.baseurl}}/attachments/8225533/8716416.png?effects=drop-shadow)
     
 3.  Configure the tax options in the **Common tax settings** section:
-    ![]({{site.baseurl}}/attachments/8225533/8716417.png?effects=drop-shadow)
+    ![xc5_taxes_sales_tax_common_settings.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/xc5_taxes_sales_tax_common_settings.png?effects=drop-shadow)
+
 
     *   Use the **Tax title** field to enter a general name describing the type of tax applied to orders in your store. This name will show on your store's checkout and on your customers' invoices. Suggested values for this field include _Tax_, _Sales Tax_, _GST_ and the like.
     *   Specify whether tax calculation rules for the tax you are configuring (we'll come to configuring these rules a bit later) should be the same for all your store's users, irrespective of their membership, or should be different depending on the users' membership. If the rules need to be the same for all your buyers, enable the option **Use the same tax rates for all user membership levels** by selecting the respective check box. If different membership levels need their sales tax to be calculated differently, leave this check box unselected.
