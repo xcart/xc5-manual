@@ -120,5 +120,5 @@ _Related pages:_
 *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
 *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
 *   {% link "Adding user membership levels" ref_9ITFspcC %}
-*   {% link "Setting up VAT with the module "EU and UK VAT / GST"" ref_wcorpZyz %}
+*   {% link "Setting up sales tax" ref_aJPK4DHN %}
 *   {% link "Setting up Canadian taxes" ref_hxmof6xX %}
