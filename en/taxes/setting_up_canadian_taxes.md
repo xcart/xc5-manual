@@ -56,15 +56,15 @@ To configure Canadian taxes, complete the following steps:
     
     *   Use the **Taxable base** selector to specify the type of costs on the basis of which your tax rates should be calculated. 
         The available options are as follows:
-        *   _Subtotal + shipping cost;_
-        *   _Discounted subtotal + shipping cost;_
+        *   _Subtotal + Shipping cost;_
+        *   _Discounted subtotal + Shipping cost;_
         *   _Subtotal;_
         *   _Discounted subtotal;_
-        *   _Individual settings for every rate._ For example, if you select "Discounted subtotal + shipping", your tax rate amounts will be calculated as percentages of the sum of the product subtotal after the application of discounts and the estimated product shipping cost. 
+        *   _Individual settings for every rate._ For example, if you select "Discounted subtotal + Shipping cost", your tax rate amounts will be calculated as percentages of the sum of the product subtotal after the application of discounts and the estimated product shipping cost. 
 
-            If you need multiple tax rates calculated based on different types of costs, select the last option - _Individual settings for every rate_. Selecting this option adds a selector with the first four options from the above list for each of your tax rates allowing you to specify a taxable base for every tax rate individually.
+        If you need multiple tax rates calculated based on different types of costs, select the last option - _Individual settings for every rate_. Selecting this option adds a selector with the first four options from the above list for each of your tax rates allowing you to specify a taxable base for every tax rate individually.
     
-    *   **GST rate (%)**
+    *   Use the **GST rate (%)** field to specify the GST rate you need to use.
     
     *   In the **Merchant Tax Number** field, specify your tax identification number. This value will be shown on the invoices of orders with GST/PST applied. If you need to change the wording of this phrase, follow the "Rename label" link below the field name to do it.
 
