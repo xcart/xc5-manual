@@ -8,6 +8,6 @@ order: 400
 published: false
 version: X-Cart 5.3.2 and later
 ---
-kdfj
+If your business is based in Canada and you need to configure taxes like Canadian VAT, PST (QST) or HST, we recommend using the module **Canadian Taxes** for tax setup. 
     ![xc5_taxes_canada_canadian_taxes_module.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_canadian_taxes_module.png?effects=drop-shadow)
   
