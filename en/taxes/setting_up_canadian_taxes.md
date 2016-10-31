@@ -8,7 +8,7 @@ order: 400
 published: false
 version: X-Cart 5.3.2 and later
 ---
-If your business is based in Canada and you need to configure taxes like Canadian VAT, PST (QST) or HST, we recommend using the module **Canadian Taxes** for tax setup. 
+If your business is based in Canada and you need to configure taxes like PST (QST) or HST, we recommend using the module **Canadian Taxes** for tax setup. 
     ![xc5_taxes_canada_canadian_taxes_module.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_canadian_taxes_module.png?effects=drop-shadow)
     
 To start using the module "Canadian Taxes", ensure that it is installed and enabled in your store's Installed Modules section.
@@ -60,6 +60,22 @@ To configure Canadian taxes, complete the following steps:
     
     *   X-Cart can display product prices with the label 'inc VAT' or 'ex VAT' displayed next to them - depending on whether VAT / GST is included into the price or not. Use the setting **Display 'inc/ex VAT' labels next to prices** to specify, whether you want to use such labels, and if so, on which pages the labels should be shown. 
 
+## Setting up provincial tax rates
+
+To enable X-Cart to calculate tax amounts that need to be applied, you need to set up provincial tax rates:
+
+1.  In the section **Provincial tax rates** in the lower part of the page, click the button **New rate**.
+    
+2.  In the section that expands below, provide information about a new rate:
+    ![xc5_taxes_canada_rates2.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_rates2.png)
+    
+     *   **Province**: Specify the province in which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected province. Whether it is their Billing or Shipping address depends on the option selected in the "Address for Canadian taxes calculation" field of the sales tax configuration.
+     
+     *   **Tax class**: Specify the type of products (tax class) to which the tax rate should be applied. For example, if you select the _Default tax class_ option here, the tax rate will be applied to all the products that have the default tax class assigned. 
+     
+     *   **User membership**: Specify the user membership level for which the tax rate should be applied. The option _Ignore membership_ allows you to create a tax rate that will be applied to all orders irrespective of the buyer's membership (**Note**: The "User membership" column becomes available when the option "Use the same tax rates for all user membership levels" is disabled in the common tax settings).
+    
+    *   **Rate**: Specify the tax rate amount as a percentage of the selected taxable base.
 
 
 
