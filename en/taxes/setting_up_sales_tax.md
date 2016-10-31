@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2016-10-31 00:09 +0400'
 identifier: ref_aJPK4DHN
 title: Setting up sales tax
-order: 130
+order: 200
 categories:
   - User manual
 published: true
