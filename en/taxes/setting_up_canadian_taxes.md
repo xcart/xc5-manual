@@ -77,7 +77,7 @@ To enable X-Cart to calculate tax amounts that need to be applied, you need to s
 2.  In the section that expands below, provide information about a new rate:
     ![xc5_taxes_canada_rates2.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_rates2.png)
     
-     *   **Province**: Specify the province in which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected province. Whether it is their Billing or Shipping address depends on the option selected in the "Address for Canadian taxes calculation" field of the sales tax configuration.
+     *   **Province**: Specify the province in which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected province. Whether it is their Billing or Shipping address depends on the option selected in the "Address for Canadian taxes calculation" field of common tax settings.
      
      *   **Tax class**: Specify the type of products (tax class) to which the tax rate should be applied. For example, if you select the _Default tax class_ option here, the tax rate will be applied to all the products that have the default tax class assigned. 
      
@@ -87,7 +87,12 @@ To enable X-Cart to calculate tax amounts that need to be applied, you need to s
     
     *   **Rate**: Specify the tax rate amount as a percentage of the selected taxable base.
 
+3.  If necessary, use the **New rate** button to add rows for more tax rates. Complete the fields in each row as you require.
 
+4.  Click the **Save changes** button at the bottom of the page to save the changes.
+    
+
+## Enabling/Disabling the calculation of Canadian taxes
 
 _Related pages:_
 
