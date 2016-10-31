@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-10-31 13:11 +0400'
 identifier: ref_Rzp45QlN
-title: 'Setting up  VAT / GST (for the UK, EU, Australia, etc)'
+title: 'Setting up VAT / GST (for the UK, EU, Australia, etc)'
 order: 300
 published: true
 ---
