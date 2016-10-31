@@ -35,12 +35,15 @@ Before you configure your VAT / GST tax:
     *   {% link "Adding user membership levels" ref_9ITFspcC %}
 
 To configure your VAT / GST tax, complete the following steps:
+
 1.  In your store's Admin area, go to the Taxes section (**Store setup** > **Taxes**).
     ![xc5_taxes_vat_taxes_section.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_taxes_section.png?effects=drop-shadow)
+
 2.  Make sure you are viewing the **VAT / GST** tab.
-    <img>
+    ![xc5_taxes_vat_vatgst_tab.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_vatgst_tab.png?effects=drop-shadow)
+
 3.  Configure the tax options in the **Common tax settings** section:
-    <img>
+    ![xc5_taxes_vat_common_settings.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_common_settings.png?effects=drop-shadow)
 
     *   Use the **Tax title** field to enter a general name describing the type of tax applied to orders in your store. This name will show on your store's checkout and on your customers' invoices. By default, _VAT_ is used as the tax title, but you can change it to _GST_ or any other name you require.
     
@@ -62,7 +65,7 @@ To configure your VAT / GST tax, complete the following steps:
 4.  Set up the VAT/GST tax rates you require. For more info, see the section "Setting up your VAT / GST tax rates" further in this article.
 
 5.  Make sure the VAT/GST tax calculation is enabled in your store. This is controlled by the **Tax enabled**/**Tax disabled** button to the right of the "Tax title" field. 
-    ![]({{site.baseurl}}/attachments/8225533/8716428.png?effects=drop-shadow)
+    ![xc5_taxes_vat_tax_enabled.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_tax_enabled.png?effects=drop-shadow)
     
 6.  Click the **Save changes** button at the bottom of the page to save the changes.
 
@@ -71,9 +74,10 @@ To configure your VAT / GST tax, complete the following steps:
 You need to set up VAT / GST rates to configure VAT / GST tax calculation:
 
 1.  In the section **Rates / Conditions** in the lower part of the page, click the button **New rate**.
-    ![]({{site.baseurl}}/attachments/8225533/8716429.png?effects=drop-shadow) 
+    ![xc5_taxes_vat_rate_setup1.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_rate_setup1.png?effects=drop-shadow)
+    
 2.  In the section that expands below, provide information about a new VAT/GST rate:
-    ![]({{site.baseurl}}/attachments/8225533/8716431.png?effects=drop-shadow)
+    ![xc5_taxes_vat_rate_setup2.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_rate_setup2.png?effects=drop-shadow)
     
      *   **Tax class**: Specify the type of products (tax class) to which the tax rate should be applied. For example, if you select the _Default tax class_ option here, the tax rate will be applied to all the products that have the default tax class assigned. 
      
@@ -86,10 +90,13 @@ You need to set up VAT / GST rates to configure VAT / GST tax calculation:
 3.  If necessary, use the **New rate** button to add rows for more tax rates. Complete the fields in each row as you require.
 
 4.  Click the **Save changes** button at the bottom of the page to save the changes.
-    ![]({{site.baseurl}}/attachments/8225533/8716432.png?effects=drop-shadow)
+    
 
 ## Enabling/Disabling sales tax calculation
 
-Once configured and enabled, VAT / GST calculation can be disabled/re-enabled using the  **Tax enabled**/**Tax disabled** button to the right of the **Tax title** field on the **VAT / GST** panel in the Taxes section (**Store setup** > **Taxes**). When VAT / GST calculation is enabled, the button shows as **Tax enabled**, and the On/Off icon on the button is green. When it is disabled, the button shows as **Tax disabled**, and the icon is grey.
+Once configured and enabled, VAT / GST calculation can be disabled/re-enabled using the  **Tax enabled**/**Tax disabled** button to the right of the **Tax title** field on the **VAT / GST** panel in the Taxes section (**Store setup** > **Taxes**). 
+![xc5_taxes_vat_tax_enabled.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_tax_enabled.png?effects=drop-shadow)
+
+When VAT / GST calculation is enabled, the button shows as **Tax enabled**, and the On/Off icon on the button is green. When it is disabled, the button shows as **Tax disabled**, and the icon is grey.
 
 
