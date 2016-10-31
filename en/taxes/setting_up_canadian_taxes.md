@@ -60,7 +60,7 @@ To configure Canadian taxes, complete the following steps:
         *   _Discounted subtotal + shipping cost;_
         *   _Subtotal;_
         *   _Discounted subtotal;_
-        *   _Individual settings for every rate._For example, if you select "Discounted subtotal + shipping", your tax rate amounts will be calculated as percentages of the sum of the product subtotal after the application of discounts and the estimated product shipping cost. 
+        *   _Individual settings for every rate._ For example, if you select "Discounted subtotal + shipping", your tax rate amounts will be calculated as percentages of the sum of the product subtotal after the application of discounts and the estimated product shipping cost. 
 
             If you need multiple tax rates calculated based on different types of costs, select the last option - _Individual settings for every rate_. Selecting this option adds a selector with the first four options from the above list for each of your tax rates allowing you to specify a taxable base for every tax rate individually.
     
