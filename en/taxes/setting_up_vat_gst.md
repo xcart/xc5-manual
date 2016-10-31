@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-29 01:22 +0400'
+updated_at: '2016-10-31 11:47 +0400'
 identifier: ref_Rzp45QlN
 title: Setting up  VAT / GST (for EU and UK)
 order: 100
@@ -52,9 +52,12 @@ To configure your VAT / GST tax, complete the following steps:
     
     *   Use the setting **Display prices in catalog including VAT / GST** to specify, whether the product prices in your store's catalog should be displayed with VAT / GST included, or not. Note that this setting affects only the way the prices are *displayed*. If the prices in the database do not include VAT / GST, enabling the option "Display prices in catalog including VAT / GST" will result in that an appropriate tax rate will be added to the price before it is displayed in the catalog. If the prices in the database are set including VAT / GST, enabling the option "Display prices in catalog including VAT / GST" will result in that the tax rate will be subtracted from the price before the price is displayed.
     
-    *   Use the setting **Display 'inc/ex VAT' labels next to prices** to specify, whether the prices should  be displayed with the label "inc. VAT" or "ex. VAT" displayed next to them, or without such a label.
+    *   Use the setting **Display 'inc/ex VAT' labels next to prices** to specify, when/where the prices should be displayed with the label "inc. VAT" or "ex. VAT" displayed next to them.
+        * *Never* means that such labels will not be used anywhere in the catalog.
+        * *On product details pages only* means that the labels will be used only for the prices displayed on the pages showing detailed product info, and not used on any other pages.
+        * *On all catalog pages* means that the labels will be used everywhere in the catalog where product prices are shown.
     
-    *   In the **Merchant Tax Number** field, specify your tax number. Note that this value will be shown on the invoice. If necessary, follow the "Rename label" link below the field name to change the wording of this phrase. 
+    *   In the **Merchant Tax Number** field, specify your tax identification number. This value will be shown on the invoice. If you need to change the wording of this phrase (for example, to "VAT ID" or "ABN") follow the "Rename label" link below the field name to do it.
     
 4.  Set up the VAT/GST tax rates you require. For more info, see the section "Setting up your VAT / GST tax rates" further in this article.
 
