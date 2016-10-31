@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-28 16:42 +0400'
+updated_at: '2016-10-31 00:09 +0400'
 identifier: ref_aJPK4DHN
 title: Setting up sales tax
 order: 130
@@ -119,3 +119,7 @@ Once configured and enabled, sales tax calculation can be disabled/re-enabled us
 _Related pages:_
 
 *   {% link "Setting up tax classes" ref_pAWOdG8N %}
+*   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
+*   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
+*   {% link "Adding user membership levels" ref_9ITFspcC %}
+*   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc) ref_Rzp45QlN %}
