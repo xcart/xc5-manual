@@ -92,7 +92,7 @@ You need to set up VAT / GST rates to configure VAT / GST tax calculation:
 2.  In the section that expands below, provide information about a new VAT/GST rate:
     ![xc5_taxes_vat_rate_setup2.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_rate_setup2.png?effects=drop-shadow)
     
-     *   **Zone**: Specify the address zone to which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected address zone. Whether it is their Billing or Shipping address depends on the option selected in the "Address for VAT / GST calculation" field of the sales tax configuration.
+     *   **Zone**: Specify the address zone to which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected address zone. Whether it is their Billing or Shipping address depends on the option selected in the "Address for VAT / GST calculation" field of common tax settings.
      
      *   **Tax class**: Specify the type of products (tax class) to which the tax rate should be applied. For example, if you select the _Default tax class_ option here, the tax rate will be applied to all the products that have the default tax class assigned. 
      
@@ -105,7 +105,7 @@ You need to set up VAT / GST rates to configure VAT / GST tax calculation:
 4.  Click the **Save changes** button at the bottom of the page to save the changes.
     
 
-## Enabling/Disabling sales tax calculation
+## Enabling/Disabling VAT / GST calculation
 
 Once configured and enabled, VAT / GST calculation can be disabled/re-enabled using the  **Tax enabled**/**Tax disabled** button to the right of the **Tax title** field on the **VAT / GST** panel in the Taxes section (**Store setup** > **Taxes**). 
 
