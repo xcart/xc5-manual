@@ -81,11 +81,11 @@ You need to set up VAT / GST rates to configure VAT / GST tax calculation:
 2.  In the section that expands below, provide information about a new VAT/GST rate:
     ![xc5_taxes_vat_rate_setup2.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_rate_setup2.png?effects=drop-shadow)
     
+     *   **Zone**: Specify the address zone to which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected address zone. Whether it is their Billing or Shipping address depends on the option selected in the "Address for VAT / GST calculation" field of the sales tax configuration.
+     
      *   **Tax class**: Specify the type of products (tax class) to which the tax rate should be applied. For example, if you select the _Default tax class_ option here, the tax rate will be applied to all the products that have the default tax class assigned. 
      
     *   **User membership**: Specify the user membership level for which the tax rate should be applied. The option _Ignore membership_ allows you to create a tax rate that will be applied to all orders irrespective of the buyer's membership (**Note**: The "User membership" column becomes available when the option "Use the same tax rates for all user membership levels" is disabled in the sales tax configuration).
-    
-    *   **Zone**: Specify the address zone to which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected address zone. Whether it is their Billing or Shipping address depends on the option selected in the **Address for sales tax calculation** field of the sales tax configuration.
     
     *   **Rate**: Specify the tax rate amount as a percentage of the selected taxable base.
 
