@@ -94,6 +94,12 @@ To enable X-Cart to calculate tax amounts that need to be applied, you need to s
 
 ## Enabling/Disabling the calculation of Canadian taxes
 
+Once configured and enabled, the calculation of Canadian taxes can be disabled/re-enabled using the  **Tax enabled**/**Tax disabled** button at the top of the **Canadian taxes** panel in the Taxes section (**Store setup** > **Taxes**). 
+
+When tax calculation is enabled, the button shows as **Tax enabled**, and the On/Off icon on the button is green. When it is disabled, the button shows as **Tax disabled**, and the icon is grey.
+
+
+
 _Related pages:_
 
 *   {% link "Setting up tax classes" ref_pAWOdG8N %}
