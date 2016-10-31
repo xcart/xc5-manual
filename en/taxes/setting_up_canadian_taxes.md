@@ -9,5 +9,5 @@ published: false
 version: X-Cart 5.3.2 and later
 ---
 kdfj
-    ![xc5_taxes_canada_canadian_taxes_module.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_canadian_taxes_module.png)
+    ![xc5_taxes_canada_canadian_taxes_module.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_canadian_taxes_module.png?effects=drop-shadow)
   
