@@ -72,8 +72,8 @@ To configure your sales tax, complete the following steps:
         1.  Use the **Taxable base** selector to specify the type of costs on the basis of which your tax rates should be calculated. 
             ![]({{site.baseurl}}/attachments/8225533/8716420.png?effects=drop-shadow)
             The available options are as follows:
-            *   _Subtotal + shipping cost;_
-            *   _Discounted subtotal + shipping cost;_
+            *   _Subtotal + Shipping cost;_
+            *   _Discounted subtotal + Shipping cost;_
             *   _Subtotal;_
             *   _Discounted subtotal;_
             *   _Individual settings for every rate._ For example, if you select "Discounted subtotal + shipping", your tax rate amounts will be calculated as percentages of the sum of the product subtotal after the application of discounts and the estimated product shipping cost. 
