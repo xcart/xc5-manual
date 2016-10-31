@@ -122,4 +122,4 @@ _Related pages:_
 *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
 *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
 *   {% link "Adding user membership levels" ref_9ITFspcC %}
-*   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc) ref_Rzp45QlN %}
+*   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %}
