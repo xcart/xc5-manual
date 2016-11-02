@@ -5,7 +5,7 @@ updated_at: '2016-10-31 17:15 +0400'
 identifier: ref_hxmof6xX
 title: Setting up Canadian taxes
 order: 400
-published: false
+published: true
 version: X-Cart 5.3.2 and later
 ---
 If your business is based in Canada, and you need to configure taxes like GST, PST, QST or HST, we recommend using the module **Canadian Taxes** for tax setup. 
