@@ -8,9 +8,10 @@ order: 400
 published: false
 version: X-Cart 5.3.2 and later
 ---
-If your business is based in Canada and you need to configure taxes like PST (QST) or HST, we recommend using the module **Canadian Taxes** for tax setup. 
+If your business is based in Canada, and you need to configure taxes like GST, PST, QST or HST, we recommend using the module **Canadian Taxes** for tax setup. 
     ![xc5_taxes_canada_canadian_taxes_module.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_canadian_taxes_module.png?effects=drop-shadow)
-    
+This module is similar to the "Sales tax" module, but you can set up taxes only for Canadian provinces, and the tax names are GST/PST/HST/QST (The correct tax name to be shown to a customer is chosen automatically based on the customer's province).
+
 To start using the module "Canadian Taxes", ensure that it is installed and enabled in your store's Installed Modules section.
 
 This article explains how to set up and enable the calculation of Canadian taxes using the module "Canadian Taxes" for X-Cart 5. 
