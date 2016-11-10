@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-09 00:15 +0400'
+updated_at: '2016-11-10 16:55 +0400'
 identifier: ref_VG5mIoLT
 title: Installation Guide
 version: X-Cart 5.2.5 and later
@@ -180,13 +180,13 @@ This article covers the process of installation for X-Cart versions 5.2.5 and la
     for zip archive: 
 
     ```php
-    unzip x-cart-5.3.1.3-en.zip
+    unzip x-cart-5.3.1.5-en.zip
     ```
 
     for tgz archive: 
 
     ```php
-    tar -xzpf x-cart-5.3.1.3-en.tgz
+    tar -xzpf x-cart-5.3.1.5-en.tgz
     ```
 
     (Be sure to replace the file name with the actual name of the archive you have downloaded).
