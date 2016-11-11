@@ -1,12 +1,13 @@
 ---
-identifier: ref_TmUz8Bkv
-updated_at: 2015-09-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding products and categories to your WordPress blog'
+layout: article_with_sidebar
+updated_at: '2016-11-11 13:55 +0400'
+identifier: ref_TmUz8Bkv
+title: Adding products and categories to your WordPress blog
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -30,7 +31,7 @@ Now check the post in your WordPress blog; you should be able to see the product
 
 Related pages:
 
-*   {% link "How WordPress Integration works" ref_9IwXqwiT %}
+*   {% link "How X-Cart 5 to WordPress Integration works" ref_9IwXqwiT %}
 *   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
 
 ## Attachments:
