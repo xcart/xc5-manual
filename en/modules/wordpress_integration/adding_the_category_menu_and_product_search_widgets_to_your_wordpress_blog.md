@@ -1,12 +1,13 @@
 ---
-identifier: ref_wuyfRXZI
-updated_at: 2015-09-27 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding the Category menu and Product search widgets to your WordPress blog'
+layout: article_with_sidebar
+updated_at: '2016-11-11 13:56 +0400'
+identifier: ref_wuyfRXZI
+title: Adding the Category menu and Product search widgets to your WordPress blog
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -79,7 +80,7 @@ Now if you check the result in the blog, you should be able to see the widget in
 
 Related pages:
 
-*   {% link "How WordPress Integration works" ref_9IwXqwiT %}
+*   {% link "How X-Cart 5 to WordPress Integration works" ref_9IwXqwiT %}
 *   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
 
 ## Attachments:
