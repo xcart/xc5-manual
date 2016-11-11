@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-11 13:20 +0400'
+updated_at: '2016-11-11 13:34 +0400'
 identifier: ref_T5FrnC4x
-title: Blog System in X-Cart 5
+title: Blog system in X-Cart 5
 categories:
   - User manual
 published: true
