@@ -1,16 +1,17 @@
 ---
-identifier: ref_ayU7G1y0
-updated_at: 2015-10-02 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Blog System in X-Cart module installation'
+layout: article_with_sidebar
+updated_at: '2016-11-11 13:27 +0400'
+identifier: ref_ayU7G1y0
+title: Blog System in X-Cart module installation
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
-The module Blog System in X-Cart can be obtained via X-Cart’s Marketplace. 
+The module Blog System in X-Cart 5 can be obtained via X-Cart’s Marketplace. 
 
 ![]({{site.baseurl}}/attachments/7505491/8719386.png?effects=drop-shadow)
 
@@ -34,9 +35,9 @@ it can be fixed as follows:
 
 _Related pages:_
 
-*   {% link "Getting started with Blog System in X-Cart" ref_n6czcwis %}
+*   {% link "Getting started with Blog System in X-Cart 5" ref_n6czcwis %}
 
-*   {% link "Configuring the Blog System in X-Cart module" ref_vpkSAB5T %}
+*   {% link "Configuring the module Blog System in X-Cart 5" ref_vpkSAB5T %}
 
 ## Attachments:
 
