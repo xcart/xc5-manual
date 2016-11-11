@@ -1,12 +1,13 @@
 ---
-identifier: ref_wacvoZl5
-updated_at: 2015-09-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring the X-Cart Intergration plugin in WordPress'
+layout: article_with_sidebar
+updated_at: '2016-11-11 13:58 +0400'
+identifier: ref_wacvoZl5
+title: Configuring the X-Cart Intergration plugin in WordPress
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -27,8 +28,8 @@ After installing this plugin in WordPress, you need to enable and configure it:
 
 Related pages:
 
-*   {% link "How WordPress Integration works" ref_9IwXqwiT %}
-*   {% link "WordPress Integration: System requirements and installation" ref_qe4N0rTZ %}
+*   {% link "How X-Cart 5 to WordPress Integration works" ref_9IwXqwiT %}
+*   {% link "X-Cart 5 to WordPress Integration: System requirements and installation" ref_qe4N0rTZ %}
 *   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
 *   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
 
