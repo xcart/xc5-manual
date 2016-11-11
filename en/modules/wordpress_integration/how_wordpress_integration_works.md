@@ -1,16 +1,17 @@
 ---
-identifier: ref_9IwXqwiT
-updated_at: 2015-09-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'How WordPress Integration works'
+layout: article_with_sidebar
+updated_at: '2016-11-11 13:49 +0400'
+identifier: ref_9IwXqwiT
+title: How X-Cart 5 to WordPress Integration works
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
-The WordPress Integration module for X-Cart allows you to build ecommerce blocks with the products and categories from your X-Cart based store into your WordPress blog website.
+The X-Cart 5 to WordPress Integration module for X-Cart allows you to build ecommerce blocks with the products and categories from your X-Cart based store into your WordPress blog website.
 
 Here is an example of a detailed product page included into a blog post:
 
@@ -56,7 +57,7 @@ By clicking the **CHECKOUT** button a user can proceed to checkout; when this h
 
 Related pages:
 
-*   {% link "WordPress Integration: System requirements and installation" ref_qe4N0rTZ %}
+*   {% link "X-Cart 5 to WordPress Integration: System requirements and installation" ref_qe4N0rTZ %}
 *   {% link "Configuring the X-Cart Intergration plugin in WordPress" ref_wacvoZl5 %}
 *   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
 *   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
