@@ -13,10 +13,10 @@ order: 100
 
 After installing a WordPress blog in your store, you should check and adjust the module configuration:
 
-*   In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for the module "Blog System in X-Cart" and click the **Settings **link below it:
+*   In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for the module "Blog system in X-Cart 5" and click the **Settings **link below it:
 
     ![]({{site.baseurl}}/attachments/7505612/8719389.png?effects=drop-shadow)
-    The "Blog System in X-Cart" module settings page opens:
+    The "Blog System in X-Cart 5" module settings page opens:
     ![]({{site.baseurl}}/attachments/7505612/8719390.png?effects=drop-shadow)
     This is where you control how the blog appears in your X-Cart store.
 
@@ -68,7 +68,7 @@ The "Recent Posts" widget is a box displaying your latest blog posts. The settin
 
 _Related pages:_
 
-*   {% link "Getting started with Blog System in X-Cart" ref_n6czcwis %}
+*   {% link "Getting started with Blog system in X-Cart 5" ref_n6czcwis %}
 
 ## Attachments:
 
