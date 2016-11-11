@@ -1,18 +1,19 @@
 ---
-identifier: ref_n6czcwis
-updated_at: 2015-09-16 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Getting started with Blog System in X-Cart'
+layout: article_with_sidebar
+updated_at: '2016-11-11 13:37 +0400'
+identifier: ref_n6czcwis
+title: Getting started with Blog system in X-Cart 5
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
-This guide assumes that the module Blog System in X-Cart has already been {% link "installed and enabled in your store" ref_ayU7G1y0 %}.
+This guide assumes that the module Blog system in X-Cart 5 has already been {% link "installed and enabled in your store" ref_ayU7G1y0 %}.
 
-To start using Blog System in X-Cart:
+To start using a blog system in X-Cart:
 
 1.  Create a new MySQL user and a new MySQL database for WordPress. For security reasons, we recommend these to be separate from the ones used by X-Cart.
 2.  In a web browser, open your X-Cart store's home page and click "Blog".
@@ -57,8 +58,8 @@ To start using Blog System in X-Cart:
 
 _Related pages:_
 
-*   {% link "Blog System in X-Cart module installation" ref_ayU7G1y0 %}
-*   {% link "Configuring the Blog System in X-Cart module" ref_vpkSAB5T %}
+*   {% link "Blog system in X-Cart 5 module installation" ref_ayU7G1y0 %}
+*   {% link "Configuring the module Blog system in X-Cart 5" ref_vpkSAB5T %}
 
 ## Attachments:
 
