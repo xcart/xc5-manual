@@ -1,12 +1,13 @@
 ---
-identifier: ref_5pDnlkIl
-updated_at: 2014-12-11 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-11-15 01:24 +0400'
+identifier: ref_5pDnlkIl
 title: 'Auction in X-Cart 5: system requirements and installation'
 categories:
   - User manual
-
+published: true
+order: 300
 ---
 
 
