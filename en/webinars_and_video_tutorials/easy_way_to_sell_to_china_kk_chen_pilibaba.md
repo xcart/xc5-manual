@@ -12,6 +12,6 @@ published: true
 The video below provides some useful clues as to how you can extend your online sales to China with the help of Pilibaba.
 
 ## Video
-
+**Published on Jul 1, 2016**
 <iframe class="youtube-player" type="text/html" style="width: 800px" src="https://www.youtube.com/embed/YQVspoQ6Rj8" frameborder="0"></iframe>
 
