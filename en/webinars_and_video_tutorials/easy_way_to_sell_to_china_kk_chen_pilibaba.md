@@ -13,5 +13,5 @@ The video below provides some useful clues as to how you can extend your online 
 
 ## Video
 
-<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/watch?v=YQVspoQ6Rj8" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/YQVspoQ6Rj8" frameborder="0"></iframe>
 
