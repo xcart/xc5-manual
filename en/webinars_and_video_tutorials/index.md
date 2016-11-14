@@ -71,3 +71,4 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "X-Cart and Avalara webinar: When Do it Yourself Doesn’t Do it Best" ref_tmAt0uVV %}
 *   {% link "X Cart SEO with Stijn Hendrikse and Mike Bazhutin" ref_DzQM3Vs4 %}
 *   {% link "DDoS attacks: what are they and how to protect your site. Webinar with CloudFlare" ref_fJ7OXVPZ %}
+*   {% link "Webinar recording: Increase Your In Store Conversions with Mobile Point of Sale" ref_WgvUfVEs %}
