@@ -1,12 +1,13 @@
 ---
-identifier: ref_56sCmm0k
-updated_at: 2014-12-17 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing auction listings'
+layout: article_with_sidebar
+updated_at: '2016-11-15 01:25 +0400'
+identifier: ref_56sCmm0k
+title: Managing auction listings
 categories:
   - User manual
-
+published: true
+order: 500
 ---
 
 
