@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 01:26 +0400'
+updated_at: '2016-11-15 01:39 +0400'
 identifier: ref_aD2kfoVa
 title: How Auction in X-Cart 5 works
 categories:
@@ -16,7 +16,7 @@ The module allows you to create auction style listings based on any products in 
 In the storefront area, your auction listings appear not only in categories, but also in a special section titled "Auction". This section can be accessed via a link in the main menu:
 
 ![]({{site.baseurl}}/attachments/8225140/8356098.png?effects=drop-shadow)
-
+ 
 You may choose to also enable an additional section for auctioned products, the so called "Products on auction" block:
 
 ![]({{site.baseurl}}/attachments/8225140/8356099.png?effects=drop-shadow)
@@ -73,18 +73,4 @@ _Related pages:_
 *   {% link "Configuring the module "Auction in X-Cart 5"" ref_HvGNMnhG %}
 *   {% link "Managing auction listings" ref_56sCmm0k %}
 
-## Attachments:
 
-* [auction_section_customer.png]({{site.baseurl}}/attachments/8225140/8356098.png) (image/png)
-* [auction_sidebox.png]({{site.baseurl}}/attachments/8225140/8356100.png) (image/png)
-* [auction_sidebox.png]({{site.baseurl}}/attachments/8225140/8356099.png) (image/png)
-* [auction_labels.png]({{site.baseurl}}/attachments/8225140/8356111.png) (image/png)
-* [auction_only_registered.png]({{site.baseurl}}/attachments/8225140/8356112.png) (image/png)
-* [auction_bid.png]({{site.baseurl}}/attachments/8225140/8356113.png) (image/png)
-* [auction_automatic_bidding.png]({{site.baseurl}}/attachments/8225140/8356114.png) (image/png)
-* [auction_24hours.png]({{site.baseurl}}/attachments/8225140/8356115.png) (image/png)
-* [auction_qty_edit_blocked.png]({{site.baseurl}}/attachments/8225140/8356116.png) (image/png)
-* [auction_awaiting_payment.png]({{site.baseurl}}/attachments/8225140/8356117.png) (image/png)
-* [auction_sold.png]({{site.baseurl}}/attachments/8225140/8356118.png) (image/png)
-* [auction_bid_status.png]({{site.baseurl}}/attachments/8225140/8356119.png) (image/png)
-* [auction_outbid.png]({{site.baseurl}}/attachments/8225140/8356121.png) (image/png)
