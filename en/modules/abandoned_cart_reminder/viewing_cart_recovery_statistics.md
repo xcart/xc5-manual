@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-18 18:31 +0400'
+updated_at: '2016-11-15 00:27 +0400'
 identifier: ref_rg0Tct2p
 title: Viewing cart recovery statistics
 categories:
@@ -20,4 +20,8 @@ To view your store's cart recovery statistics for a certain period:
 3.  Click **Search**. The statistics will be displayed below, in the Statistics for the period section:
     ![]({{site.baseurl}}/attachments/7503956/8719207.png?effects=drop-shadow)
 
+_Related pages:_
 
+*   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
+*   {% link "Managing abandoned carts and sending reminders" ref_hkTTIuTr %}
+*   {% link "Abandoned Cart Reminder FAQ" ref_P3v5Wzvf %}
