@@ -17,4 +17,4 @@ During this webinar you will learn:
 
 ## Video
 Published on Sep 21, 2015
-<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/NceCejYSsgg" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/NceCejYSsgg" frameborder="0"></iframe>
