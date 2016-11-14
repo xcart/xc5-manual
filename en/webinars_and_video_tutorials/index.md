@@ -69,3 +69,5 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "Easy Way to sell to China: webinar recording with KK Chen from Pilibaba" ref_t0I33FIZ %}
 *   {% link "Control of Your Shipping Costs: webinar with 71lbs CEO Jose Li" ref_idfvFS3J %}
 *   {% link "X-Cart and Avalara webinar: When Do it Yourself Doesn’t Do it Best" ref_tmAt0uVV %}
+*   {% link "X Cart SEO with Stijn Hendrikse and Mike Bazhutin" ref_DzQM3Vs4 %}
+*   {% link "DDoS attacks: what are they and how to protect your site. Webinar with CloudFlare" ref_fJ7OXVPZ %}
