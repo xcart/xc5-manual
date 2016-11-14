@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 01:25 +0400'
+updated_at: '2016-11-15 01:48 +0400'
 identifier: ref_HvGNMnhG
 title: Configuring the module &quot;Auction in X-Cart 5&quot;
 categories:
@@ -43,13 +43,3 @@ _Related pages:_
 
 *   {% link "Managing auction listings" ref_56sCmm0k %}
 
-## Attachments:
-
-* [image00.png]({{site.baseurl}}/attachments/8225032/8356011.png) (image/png)
-* [auction_settings_link.png]({{site.baseurl}}/attachments/8225032/8356073.png) (image/png)
-* [auction_sidebox.png]({{site.baseurl}}/attachments/8225032/8356101.png) (image/png)
-* [auction_maincolumn.png]({{site.baseurl}}/attachments/8225032/8356102.png) (image/png)
-* [sidebox_quantity.png]({{site.baseurl}}/attachments/8225032/8356103.png) (image/png)
-* [auction_sidebox.png]({{site.baseurl}}/attachments/8225032/8356074.png) (image/png)
-* [auction_maincolumn.png]({{site.baseurl}}/attachments/8225032/8356075.png) (image/png)
-* [sidebox_quantity.png]({{site.baseurl}}/attachments/8225032/8356076.png) (image/png)
