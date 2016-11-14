@@ -1,11 +1,11 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-14 16:37 +0400'
+updated_at: '2016-11-14 16:43 +0400'
 identifier: ref_DzQM3Vs4
 title: X Cart SEO with Stijn Hendrikse and Mike Bazhutin
 order: 100
-published: false
+published: true
 ---
 ## Introduction
 
