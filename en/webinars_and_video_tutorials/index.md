@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-14 13:59 +0400'
+updated_at: '2016-11-14 15:35 +0400'
 identifier: ref_STELArig
 title: Webinars and video tutorials
 categories:
@@ -67,3 +67,4 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 
 *   {% link "PayPal & X-Cart joint webinar: 4 payment trends driving more sales in 2014" ref_9pm20krn %}
 *   {% link "Easy Way to sell to China: webinar recording with KK Chen from Pilibaba" ref_t0I33FIZ %}
+*   {% link "Control of Your Shipping Costs: webinar with 71lbs CEO Jose Li" ref_idfvFS3J %}
