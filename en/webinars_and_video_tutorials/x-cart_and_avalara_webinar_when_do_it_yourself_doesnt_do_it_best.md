@@ -5,7 +5,7 @@ updated_at: '2016-11-14 15:39 +0400'
 identifier: ref_tmAt0uVV
 title: 'X-Cart and Avalara webinar: When Do it Yourself Doesn’t Do it Best'
 order: 100
-published: false
+published: true
 ---
 ## Introduction
 
