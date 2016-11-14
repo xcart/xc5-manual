@@ -1,0 +1,16 @@
+---
+lang: en
+layout: article_with_sidebar
+updated_at: '2016-11-14 16:37 +0400'
+identifier: ref_DzQM3Vs4
+title: X Cart SEO with Stijn Hendrikse and Mike Bazhutin
+order: 100
+published: false
+---
+## Introduction
+
+SEO Webinar with 2 experts! See how Stijn increased the organic traffic by 500% and how Mike made us #1 in Google for two hottest search queries. Stijn is more marketing-oriented, while Mike's presentation is more technical. 
+
+## Video
+**Published on May 25, 2015**
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/-A1Rn65y93U" frameborder="0"></iframe>
