@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 01:31 +0400'
+updated_at: '2016-11-15 01:50 +0400'
 identifier: ref_5pDnlkIl
 title: 'Auction in X-Cart 5: system requirements and installation'
 categories:
@@ -26,6 +26,4 @@ _Related pages:_
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "Configuring the module "Auction in X-Cart 5"" ref_HvGNMnhG %}
 
-## Attachments:
 
-* [auction_xc5_installed_enabled.png]({{site.baseurl}}/attachments/8225030/8356063.png) (image/png)
