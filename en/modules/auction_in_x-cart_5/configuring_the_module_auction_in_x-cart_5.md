@@ -1,12 +1,13 @@
 ---
-identifier: ref_HvGNMnhG
-updated_at: 2014-12-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring the module &quot;Auction in X-Cart 5&quot;'
+layout: article_with_sidebar
+updated_at: '2016-11-15 01:25 +0400'
+identifier: ref_HvGNMnhG
+title: Configuring the module &quot;Auction in X-Cart 5&quot;
 categories:
   - User manual
-
+published: true
+order: 400
 ---
 
 
