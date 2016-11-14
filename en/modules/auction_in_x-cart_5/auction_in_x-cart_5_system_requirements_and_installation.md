@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 01:24 +0400'
+updated_at: '2016-11-15 01:31 +0400'
 identifier: ref_5pDnlkIl
 title: 'Auction in X-Cart 5: system requirements and installation'
 categories:
@@ -23,6 +23,7 @@ As a result, you should have the module "Auction in X-Cart 5" listed in your sto
 
 _Related pages:_
 
+*   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "Configuring the module "Auction in X-Cart 5"" ref_HvGNMnhG %}
 
 ## Attachments:
