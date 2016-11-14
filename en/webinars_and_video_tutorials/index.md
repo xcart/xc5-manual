@@ -68,3 +68,4 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "PayPal & X-Cart joint webinar: 4 payment trends driving more sales in 2014" ref_9pm20krn %}
 *   {% link "Easy Way to sell to China: webinar recording with KK Chen from Pilibaba" ref_t0I33FIZ %}
 *   {% link "Control of Your Shipping Costs: webinar with 71lbs CEO Jose Li" ref_idfvFS3J %}
+*   {% link "X-Cart and Avalara webinar: When Do it Yourself Doesn’t Do it Best" ref_tmAt0uVV %}
