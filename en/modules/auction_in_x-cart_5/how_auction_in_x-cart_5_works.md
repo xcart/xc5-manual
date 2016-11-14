@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 01:24 +0400'
+updated_at: '2016-11-15 01:26 +0400'
 identifier: ref_aD2kfoVa
 title: How Auction in X-Cart 5 works
 categories:
@@ -69,6 +69,7 @@ The store administrator can edit and remove any existing auction listings, no ma
 
 _Related pages:_
 
+*   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "Configuring the module "Auction in X-Cart 5"" ref_HvGNMnhG %}
 *   {% link "Managing auction listings" ref_56sCmm0k %}
 
