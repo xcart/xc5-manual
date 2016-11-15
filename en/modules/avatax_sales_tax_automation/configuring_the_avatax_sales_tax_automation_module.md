@@ -1,12 +1,13 @@
 ---
-identifier: ref_havNFG9i
-updated_at: 2015-05-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring the AvaTax Sales Tax Automation module'
+layout: article_with_sidebar
+updated_at: '2016-11-15 09:39 +0400'
+identifier: ref_havNFG9i
+title: Configuring the AvaTax Sales Tax Automation module
 categories:
   - User manual
-
+published: true
+order: 400
 ---
 
 
