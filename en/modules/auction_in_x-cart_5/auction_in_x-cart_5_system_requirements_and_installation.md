@@ -25,5 +25,3 @@ _Related pages:_
 
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "Configuring the module "Auction in X-Cart 5"" ref_HvGNMnhG %}
-
-
