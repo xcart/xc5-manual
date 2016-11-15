@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-11 13:31 +0400'
+updated_at: '2016-11-15 10:25 +0400'
 identifier: ref_vpkSAB5T
 title: Configuring the module Blog system in X-Cart 5
 categories:
@@ -69,25 +69,3 @@ The "Recent Posts" widget is a box displaying your latest blog posts. The settin
 _Related pages:_
 
 *   {% link "Getting started with Blog system in X-Cart 5" ref_n6czcwis %}
-
-## Attachments:
-
-* [wp_xc_conf_settings.png]({{site.baseurl}}/attachments/7505612/7602793.png) (image/png)
-* [wp_xc_conf_settings1.png]({{site.baseurl}}/attachments/7505612/7602794.png) (image/png)
-* [blog_title_in_header.png]({{site.baseurl}}/attachments/7505612/7602797.png) (image/png)
-* [no_blog_title_in_header.png]({{site.baseurl}}/attachments/7505612/7602796.png) (image/png)
-* [blog_title_in_header.png]({{site.baseurl}}/attachments/7505612/7602795.png) (image/png)
-* [blog_description.png]({{site.baseurl}}/attachments/7505612/7602798.png) (image/png)
-* [no_blog_description.png]({{site.baseurl}}/attachments/7505612/7602799.png) (image/png)
-* [wp_xc_breadcrumbs.png]({{site.baseurl}}/attachments/7505612/7602800.png) (image/png)
-* [wp_xc_pagination.png]({{site.baseurl}}/attachments/7505612/7602801.png) (image/png)
-* [wp_xc_older_newer.png]({{site.baseurl}}/attachments/7505612/7602802.png) (image/png)
-* [recent_posts_menu_section.png]({{site.baseurl}}/attachments/7505612/7602803.png) (image/png)
-* [recent_posts_main_section.png]({{site.baseurl}}/attachments/7505612/7602804.png) (image/png)
-* [single_recent_post.png]({{site.baseurl}}/attachments/7505612/7602805.png) (image/png)
-* [recent_posts_number.png]({{site.baseurl}}/attachments/7505612/7602806.png) (image/png)
-* [view_all_posts.png]({{site.baseurl}}/attachments/7505612/7602807.png) (image/png)
-* [no_excerpt.png]({{site.baseurl}}/attachments/7505612/7602808.png) (image/png)
-* [show_excerpt.png]({{site.baseurl}}/attachments/7505612/7602809.png) (image/png)
-* [xc5_blog_system_settings_link.png]({{site.baseurl}}/attachments/7505612/8719389.png) (image/png)
-* [xc5_blog_system_settings.png]({{site.baseurl}}/attachments/7505612/8719390.png) (image/png)
