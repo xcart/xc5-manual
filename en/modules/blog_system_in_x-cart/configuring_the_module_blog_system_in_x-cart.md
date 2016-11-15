@@ -7,7 +7,7 @@ title: Configuring the module Blog system in X-Cart 5
 categories:
   - User manual
 published: true
-order: 100
+order: 300
 ---
 
 
