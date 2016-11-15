@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-11 13:37 +0400'
+updated_at: '2016-11-15 10:24 +0400'
 identifier: ref_n6czcwis
 title: Getting started with Blog system in X-Cart 5
 categories:
@@ -61,22 +61,4 @@ _Related pages:_
 *   {% link "Blog system in X-Cart 5 module installation" ref_ayU7G1y0 %}
 *   {% link "Configuring the module Blog system in X-Cart 5" ref_vpkSAB5T %}
 
-## Attachments:
 
-* [image11.png]({{site.baseurl}}/attachments/7505489/7602729.png) (image/png)
-* [image06.png]({{site.baseurl}}/attachments/7505489/7602730.png) (image/png)
-* [image11.png]({{site.baseurl}}/attachments/7505489/7602727.png) (image/png)
-* [image06.png]({{site.baseurl}}/attachments/7505489/7602728.png) (image/png)
-* [image05.png]({{site.baseurl}}/attachments/7505489/7602731.png) (image/png)
-* [image10.png]({{site.baseurl}}/attachments/7505489/7602732.png) (image/png)
-* [image07.png]({{site.baseurl}}/attachments/7505489/7602733.png) (image/png)
-* [image02.png]({{site.baseurl}}/attachments/7505489/7602734.png) (image/png)
-* [image04.png]({{site.baseurl}}/attachments/7505489/7602735.png) (image/png)
-* [image08.png]({{site.baseurl}}/attachments/7505489/7602736.png) (image/png)
-* [image00.png]({{site.baseurl}}/attachments/7505489/7602737.png) (image/png)
-* [image01.png]({{site.baseurl}}/attachments/7505489/7602738.png) (image/png)
-* [image09.png]({{site.baseurl}}/attachments/7505489/7602739.png) (image/png)
-* [wp_admin_access.png]({{site.baseurl}}/attachments/7505489/7602791.png) (image/png)
-* [wp_admin_access.png]({{site.baseurl}}/attachments/7505489/7602790.png) (image/png)
-* [wp_xc_conf_settings.png]({{site.baseurl}}/attachments/7505489/7602792.png) (image/png)
-* [xc5_blog_system_settings_link.png]({{site.baseurl}}/attachments/7505489/8719388.png) (image/png)
