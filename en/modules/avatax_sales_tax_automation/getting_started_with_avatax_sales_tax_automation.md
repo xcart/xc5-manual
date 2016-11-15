@@ -1,12 +1,13 @@
 ---
-identifier: ref_I9wiGy4c
-updated_at: 2015-06-10 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Getting started with AvaTax Sales Tax Automation'
+layout: article_with_sidebar
+updated_at: '2016-11-15 09:38 +0400'
+identifier: ref_I9wiGy4c
+title: Getting started with AvaTax Sales Tax Automation
 categories:
   - User manual
-
+published: true
+order: 200
 ---
 
 
