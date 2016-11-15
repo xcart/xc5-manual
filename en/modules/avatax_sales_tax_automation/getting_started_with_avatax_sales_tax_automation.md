@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 09:38 +0400'
+updated_at: '2016-11-15 10:02 +0400'
 identifier: ref_I9wiGy4c
 title: Getting started with AvaTax Sales Tax Automation
 categories:
@@ -33,3 +33,4 @@ _Related pages:_
 *   {% link "AvaTax Sales Tax Automation module: system requirements and installation" ref_RGbuM3KA %}
 *   {% link "Configuring the AvaTax Sales Tax Automation module" ref_havNFG9i %}
 *   {% link "Mapping products to AvaTax tax codes" ref_SXNVD8TL %}
+*   {% link "Managing sales tax exemption for customers (AvaTax settings)" ref_9WS5DtDB %}
