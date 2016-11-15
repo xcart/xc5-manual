@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 09:38 +0400'
+updated_at: '2016-11-15 09:42 +0400'
 identifier: ref_RGbuM3KA
 title: 'AvaTax Sales Tax Automation module: system requirements and installation'
 categories:
@@ -25,7 +25,3 @@ _Related pages:_
 
 *   {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
 
-## Attachments:
-
-* [avatax_installed.png]({{site.baseurl}}/attachments/8749232/8717392.png) (image/png)
-* [avatax_installed.png]({{site.baseurl}}/attachments/8749232/8717391.png) (image/png)
