@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 10:26 +0400'
+updated_at: '2016-11-15 10:27 +0400'
 identifier: ref_n6czcwis
 title: Getting started with Blog system in X-Cart 5
 categories:
@@ -50,7 +50,6 @@ To start using a blog system in X-Cart:
 
 11.  Your store's visitors will be able to access your blog using the "Blog" link on your store's Primary menu:
     ![]({{site.baseurl}}/attachments/7505489/7602727.png?effects=drop-shadow)
-
     You will be able to access your WordPress admin area using the "Log in" / "Site Admin" link in the right column of your store's blog page (The link "Site Admin" is displayed when you are already signed in):
     ![]({{site.baseurl}}/attachments/7505489/7602790.png?effects=drop-shadow)
 12.  To adjust the way your blog appears in your X-Cart store, use the settings on the module settings page:
