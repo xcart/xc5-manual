@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 09:39 +0400'
+updated_at: '2016-11-15 09:46 +0400'
 identifier: ref_SXNVD8TL
 title: Mapping products to AvaTax tax codes
 categories:
@@ -19,6 +19,3 @@ For this purpose a special field is provided on the product information page: th
 
  Use this field to add an applicable taxability code for each of your products. This can be an AvaTax System tax code or a custom defined tax code.
 
-## Attachments:
-
-* [avatax_code_field.png]({{site.baseurl}}/attachments/8749241/8717394.png) (image/png)
