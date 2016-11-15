@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 01:25 +0400'
+updated_at: '2016-11-15 01:51 +0400'
 identifier: ref_56sCmm0k
 title: Managing auction listings
 categories:
@@ -98,3 +98,8 @@ You can delete auction listings before they expire. To delete an auction listin
 2.  Click **Save changes**:
     ![]({{site.baseurl}}/attachments/8225026/8356080.png?effects=drop-shadow)
     The listing will be removed.
+    
+
+_In this section:_
+
+*   {% link "How Auction in X-Cart 5 works" ref_aD2kfoVa %}
