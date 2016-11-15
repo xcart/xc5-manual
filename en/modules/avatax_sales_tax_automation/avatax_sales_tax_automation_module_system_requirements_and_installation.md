@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 09:42 +0400'
+updated_at: '2016-11-15 09:53 +0400'
 identifier: ref_RGbuM3KA
 title: 'AvaTax Sales Tax Automation module: system requirements and installation'
 categories:
@@ -23,5 +23,7 @@ As a result, you should have the module "AvaTax Sales Tax Automation" listed i
 
 _Related pages:_
 
-*   {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
+*   {% link "How AvaTax Sales Tax Automation works" ref_GawMeTST %}
+*   {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
+*   {% link "Configuring the AvaTax Sales Tax Automation module" ref_havNFG9i %}
 
