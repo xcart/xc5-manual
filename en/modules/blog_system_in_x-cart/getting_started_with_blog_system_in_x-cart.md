@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 10:24 +0400'
+updated_at: '2016-11-15 10:26 +0400'
 identifier: ref_n6czcwis
 title: Getting started with Blog system in X-Cart 5
 categories:
   - User manual
 published: true
-order: 100
+order: 200
 ---
 
 
@@ -60,5 +60,3 @@ _Related pages:_
 
 *   {% link "Blog system in X-Cart 5 module installation" ref_ayU7G1y0 %}
 *   {% link "Configuring the module Blog system in X-Cart 5" ref_vpkSAB5T %}
-
-
