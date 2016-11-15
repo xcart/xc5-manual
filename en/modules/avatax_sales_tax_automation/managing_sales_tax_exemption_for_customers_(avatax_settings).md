@@ -15,6 +15,4 @@ X-Cart's AvaTax Sales Tax Automation allows you to handle tax exemption for cust
 
 ![]({{site.baseurl}}/attachments/8749847/8717990.png?effects=drop-shadow)
 
-## Attachments:
 
-* [avatax_settings_customer_profile.png]({{site.baseurl}}/attachments/8749847/8717990.png) (image/png)
