@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 09:39 +0400'
+updated_at: '2016-11-15 09:43 +0400'
 identifier: ref_havNFG9i
 title: Configuring the AvaTax Sales Tax Automation module
 categories:
@@ -39,7 +39,3 @@ _Related pages:_
 
 *   {% link "Getting started with AvaTax Sales Tax Automation" ref_I9wiGy4c %}
 
-## Attachments:
-
-* [avatax_module_confsettings.png]({{site.baseurl}}/attachments/8749239/8717393.png) (image/png)
-* [avatax_settings_link.png]({{site.baseurl}}/attachments/8749239/8717991.png) (image/png)
