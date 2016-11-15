@@ -1,12 +1,13 @@
 ---
-identifier: ref_9WS5DtDB
-updated_at: 2015-05-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing sales tax exemption for customers (AvaTax settings)'
+layout: article_with_sidebar
+updated_at: '2016-11-15 09:39 +0400'
+identifier: ref_9WS5DtDB
+title: Managing sales tax exemption for customers (AvaTax settings)
 categories:
   - User manual
-
+published: true
+order: 600
 ---
 
 
