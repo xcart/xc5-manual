@@ -1,12 +1,13 @@
 ---
-identifier: ref_RGbuM3KA
-updated_at: 2015-05-26 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-11-15 09:38 +0400'
+identifier: ref_RGbuM3KA
 title: 'AvaTax Sales Tax Automation module: system requirements and installation'
 categories:
   - User manual
-
+published: true
+order: 300
 ---
 
 
