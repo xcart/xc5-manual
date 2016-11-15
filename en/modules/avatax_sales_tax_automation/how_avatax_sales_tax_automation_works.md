@@ -1,12 +1,13 @@
 ---
-identifier: ref_GawMeTST
-updated_at: 2015-05-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'How AvaTax Sales Tax Automation works'
+layout: article_with_sidebar
+updated_at: '2016-11-15 09:44 +0400'
+identifier: ref_GawMeTST
+title: How AvaTax Sales Tax Automation works
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -61,15 +62,4 @@ _Related pages:_
 *   {% link "Mapping products to AvaTax tax codes" ref_SXNVD8TL %}
 *   {% link "Managing sales tax exemption for customers (AvaTax settings)" ref_9WS5DtDB %}
 
-## Attachments:
 
-* [avatax_wrong_address.png]({{site.baseurl}}/attachments/8749288/8717982.png) (image/png)
-* [avatax_wrong_address1.png]({{site.baseurl}}/attachments/8749288/8717557.png) (image/png)
-* [avatax_wrong_address.png]({{site.baseurl}}/attachments/8749288/8717556.png) (image/png)
-* [avatax_check_address_button.png]({{site.baseurl}}/attachments/8749288/8717983.png) (image/png)
-* [avatax_address_validation_address_book0.png]({{site.baseurl}}/attachments/8749288/8717984.png) (image/png)
-* [avatax_address_validation_address_book.png]({{site.baseurl}}/attachments/8749288/8717985.png) (image/png)
-* [avatax_address_validation_address_book_a.png]({{site.baseurl}}/attachments/8749288/8717986.png) (image/png)
-* [avatax_address_validation_address_book_a0.png]({{site.baseurl}}/attachments/8749288/8717987.png) (image/png)
-* [avatax_tax_calculation.png]({{site.baseurl}}/attachments/8749288/8717988.png) (image/png)
-* [avatax_code_field.png]({{site.baseurl}}/attachments/8749288/8717989.png) (image/png)
