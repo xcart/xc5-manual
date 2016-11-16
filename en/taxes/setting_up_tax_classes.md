@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 13:14 +0400'
+updated_at: '2016-11-16 16:03 +0400'
 identifier: ref_pAWOdG8N
 title: Setting up tax classes
 order: 110
@@ -29,15 +29,29 @@ This article discusses how to create a new tax class and how to assign a tax cla
 To create a new tax class, do the following:
 
 1.  In your store's Admin area, go to the Taxes section (**Store setup** > **Taxes**): 
-    ![]({{site.baseurl}}/attachments/6389861/6586570.png?effects=drop-shadow)
+    ![xc5_taxclass_taxes.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/xc5_taxclass_taxes.png)
+
 2.  Make sure you're viewing the **Tax classes** tab.
-3.  Click the **New tax class** button. This adds a new empty field below. You can click more than once to add multiple fields.
+    ![xc5_taxclass_tax_classes_tab.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/xc5_taxclass_tax_classes_tab.png)
+
+3.  Click the **New tax class** button.
+    ![xc5_taxclass_new_tax_class.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/xc5_taxclass_new_tax_class.png)
+
+    This adds a new blank field below. 
+    ![xc5_taxclass_new_class_field.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/xc5_taxclass_new_class_field.png)
+    
+    You can click more than once to add multiple fields.
+
 4.  Use the field you have added to enter a name for the new tax class. In the screenshot below we entered "Alcohol":
+    ![xc5_taxclass_new_class_alcohol.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/xc5_taxclass_new_class_alcohol.png)
 
-    ![]({{site.baseurl}}/attachments/6389861/6586571.png?effects=drop-shadow)
 5.  Click **Save changes**.
+    ![xc5_taxclass_new_class_save.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/xc5_taxclass_new_class_save.png)
 
-That's all, the tax class has been created. Now you can assign it to products and configure tax rates for it. 
+That's all, the tax class has been created:
+    ![xc5_taxclass_tax_class_added.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/xc5_taxclass_tax_class_added.png)
+
+Now you can assign it to products and configure tax rates for it. 
 
 ## Assigning tax classes to products
 
@@ -46,8 +60,10 @@ Once you have created the tax classes you require, be sure to assign them to pro
 To assign a tax class to a product, do the following:
 
 1.  In your store's Admin area, find the product to which you need to assign a tax class. Open this product's details for editing.
+
 2.  From the **Tax class** field, select the tax class you want to assign to this product.
-    ![]({{site.baseurl}}/attachments/6389861/6586572.png?effects=drop-shadow)
+    ![xc5_taxclass_tax_class_assign.png]({{site.baseurl}}/attachments/ref_pAWOdG8N/xc5_taxclass_tax_class_assign.png)
+
 3.  Click **Save changes**.
 
 Once the tax class has been assigned to a product, this product will use the tax rates defined for this product class.
@@ -55,4 +71,3 @@ Once the tax class has been assigned to a product, this product will use the tax
 _Related pages:_
 
 *   {% link "Specifying sales tax for your products" ref_aJPK4DHN %}
-
