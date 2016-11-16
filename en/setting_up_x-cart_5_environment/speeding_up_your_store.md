@@ -27,7 +27,7 @@ This article aims to provide guidance to X-Cart users who want to improve the pe
     *   [Step 4\. Use compression](#step-4-use-compression)
     *   [Step 5\. Use a recent PHP version (5.5+)](#step-5-use-a-recent-php-version-5-5)
     *   [Step 6\. Use Query Cache (MySQL)](#step-6-use-query-cache-mysql)
-*   [More tips and tricks for performance optimization](#more_tips_and_tricks_for_performance_optimization) from X-Cart's [Speed & Security Webinar](https://blog.x-cart.com/webinar-x-cart-security-and-performance-optimization.html "Speeding up your store") held on October 25th, 2016.
+*   [More tips and tricks for performance optimization](#more-tips-and-tricks-for-performance-optimization) from X-Cart's [Speed & Security Webinar](https://blog.x-cart.com/webinar-x-cart-security-and-performance-optimization.html "Speeding up your store") held on October 25th, 2016.
 
 ## What is acceptable performance?
 
