@@ -104,7 +104,7 @@ SET GLOBAL query_cache_limit = 1048576;
 Alternatively, you can adjust these settings in the MySQL configuration file. A good article explaining each aspect of Query Cache configuration is available at [http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html](http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html)
 
 ## More tips and tricks for performance optimization
-On October 25th, 2016, X-Cart held a [Speed & Security Webinar](https://blog.x-cart.com/webinar-x-cart-security-and-performance-optimization.html "Speeding up your store") where Alex Dyachkov, head of X-Cart's Tech support and Hosting Departments provided some valuable tips on speeding up your web store and handling securitiy. Below we have provided a recording of this webinar:
+On October 25th, 2016, X-Cart held a [Speed & Security Webinar](https://blog.x-cart.com/webinar-x-cart-security-and-performance-optimization.html "Speeding up your store") where Alex Dyachkov, head of X-Cart's Tech support and Hosting Departments, provided some valuable tips on speeding up your web store and handling securitiy. Below we have provided a recording of this webinar:
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/_HmXkKFxrK8" frameborder="0"></iframe>
 
