@@ -14,6 +14,8 @@ Alex Dyachkov, head of Tech support and Hosting dept’s at X-Cart, is happy to 
 - important things to consider in the gathered reports; 
 - and, of course, effective ways to speed up and secure your store.
 
+More info: https://blog.x-cart.com/x-cart-security-speed-webinar-recording-php-7-dirty-cow.html
+
 ## Video
 **Published on Nov 3, 2016**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/_HmXkKFxrK8" frameborder="0"></iframe>
