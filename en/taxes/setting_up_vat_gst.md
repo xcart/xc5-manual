@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-16 17:07 +0400'
+updated_at: '2016-11-16 17:28 +0400'
 identifier: ref_Rzp45QlN
 title: 'Setting up VAT / GST (for the UK, EU, Australia, etc)'
 order: 300
@@ -130,4 +130,4 @@ _Related pages:_
 
 _See also:_
 
-*   {% link "Video: Setting up VAT with the module "EU and UK VAT / GST" ref_wcorpZyz %}
+*   {% link "Video: Setting up VAT with the module "EU and UK VAT / GST"" ref_wcorpZyz %}
