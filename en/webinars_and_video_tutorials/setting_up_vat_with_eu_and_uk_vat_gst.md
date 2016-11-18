@@ -1,13 +1,15 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-31 13:50 +0400'
+updated_at: '2016-11-18 12:21 +0400'
 identifier: ref_wcorpZyz
 title: Setting up VAT with the module "EU and UK VAT / GST"
 order: 100
 categories:
   - User manual
 published: true
+redirect_from:
+  - /en/webinars_and_video_tutorials/configuring_vat_in_x-cart_5.html
 ---
 
 ## Introduction
