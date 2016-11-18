@@ -1,11 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-16 17:28 +0400'
+updated_at: '2016-11-18 12:13 +0400'
 identifier: ref_Rzp45QlN
 title: 'Setting up VAT / GST (for the UK, EU, Australia, etc)'
 order: 300
 published: true
+redirect_from:
+  - /en/taxes/defining_vat_for_your_products.html
 ---
 If you are required to charge buyers a value added tax (VAT) or a goods and services tax (GST), we recommend using the module **Value Added Tax / Goods and Services Tax** for tax setup. 
     ![xc5_taxes_vat_module.png]({{site.baseurl}}/attachments/ref_Rzp45QlN/xc5_taxes_vat_module.png?effects=drop-shadow)
