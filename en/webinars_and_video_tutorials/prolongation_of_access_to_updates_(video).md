@@ -38,5 +38,5 @@ See log file for details
 You can resolve the problem by following the instructions from the video below.
 
 ## Video
-Published on Nov 16, 2015
+**Published on Nov 16, 2015**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/PMnBEjybA7U" frameborder="0"></iframe>
