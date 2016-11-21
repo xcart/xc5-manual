@@ -1,12 +1,13 @@
 ---
-identifier: ref_2QCdPxZH
-updated_at: 2015-05-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'X-Cart 5 getting started guide'
+layout: article_with_sidebar
+updated_at: '2016-11-21 23:16 +0400'
+identifier: ref_2QCdPxZH
+title: X-Cart 5 getting started guide
 categories:
   - Webinars and video tutorials
-
+published: true
+order: 100
 ---
 
 
@@ -15,5 +16,5 @@ categories:
 A few tips on the first steps after X-Cart 5.2.x installation: configure the company info, setup payment methods, shipping and tax, add a new product.
 
 ## Video
-
+**Published on Apr 20, 2015**
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/lV-jyiNIfb8" frameborder="0"></iframe>
