@@ -1,11 +1,11 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-22 00:14 +0400'
+updated_at: '2016-11-22 00:34 +0400'
 identifier: ref_fTUahl4n
 title: How to Install Modules in X-Cart 5
 order: 100
-published: false
+published: true
 ---
 X-Cart 5 makes it so easy to extend your online store with new functionality. Just a couple of clicks and a new feature is already there. 
 See more at http://kb.x-cart.com/en/modules/
