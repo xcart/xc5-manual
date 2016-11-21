@@ -1,12 +1,13 @@
 ---
-identifier: ref_6sRB7rnW
-updated_at: 2015-05-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding a new product (video)'
+layout: article_with_sidebar
+updated_at: '2016-11-22 00:48 +0400'
+identifier: ref_6sRB7rnW
+title: Adding a new product (video)
 categories:
   - Webinars and video tutorials
-
+published: true
+order: 100
 ---
 
 
@@ -15,5 +16,5 @@ categories:
 This video shows how to add a new product in X-Cart 5.
 
 ## Video
-
-<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/HKtI-iXFfr8" frameborder="0"></iframe>
+Published on Dec 16, 2014
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/HKtI-iXFfr8" frameborder="0"></iframe>
