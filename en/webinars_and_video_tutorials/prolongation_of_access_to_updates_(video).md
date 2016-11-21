@@ -1,12 +1,13 @@
 ---
-identifier: ref_pIvO4FGU
-updated_at: 2015-11-16 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Prolongation of access to updates (video)'
+layout: article_with_sidebar
+updated_at: '2016-11-21 23:25 +0400'
+identifier: ref_pIvO4FGU
+title: Prolongation of access to updates (video)
 categories:
   - Webinars and video tutorials
-
+published: true
+order: 100
 ---
 
 
@@ -37,5 +38,5 @@ See log file for details
 You can resolve the problem by following the instructions from the video below.
 
 ## Video
-
-<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="http://www.youtube.com/embed/PMnBEjybA7U" frameborder="0"></iframe>
+Published on Nov 16, 2015
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/PMnBEjybA7U" frameborder="0"></iframe>
