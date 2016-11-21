@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-16 10:45 +0400'
+updated_at: '2016-11-21 14:10 +0400'
 identifier: ref_STELArig
 title: Webinars and video tutorials
 categories:
@@ -18,6 +18,7 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 
 *   {% link "Installing X-Cart (video guide)" ref_OgodT8pE %}
 *   {% link "X-Cart 5 getting started guide" ref_2QCdPxZH %}
+*   {% link "How to Install Modules in X-Cart 5" ref_fTUahl4n %}
 *   {% link "X-Cart 5 Free License Activation" ref_X5ZLmSJV %}
 *   {% link "X-Cart 5 Business License Activation" ref_UUrbypsh %}
 *   {% link "X-Cart 5 Module License Activation" ref_hU6Rb4tw %}
