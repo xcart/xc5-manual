@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-14 15:56 +0400'
+updated_at: '2016-11-22 14:30 +0400'
 identifier: ref_idfvFS3J
 title: 'Control of Your Shipping Costs: webinar with 71lbs CEO Jose Li'
 order: 100
@@ -16,5 +16,5 @@ During this webinar you will learn:
 -Other useful shipping insights.
 
 ## Video
-Published on Sep 21, 2015
+**Published on Sep 21, 2015**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/NceCejYSsgg" frameborder="0"></iframe>
