@@ -1,12 +1,13 @@
 ---
-identifier: ref_XO8v2bJX
-updated_at: 2015-06-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'MailChimp Integration with Ecommerce-360 support in an X-Cart 5 Store'
+layout: article_with_sidebar
+updated_at: '2016-11-22 10:51 +0400'
+identifier: ref_XO8v2bJX
+title: MailChimp Integration with Ecommerce-360 support in an X-Cart 5 Store
 categories:
   - Webinars and video tutorials
-
+published: true
+order: 100
 ---
 
 
@@ -17,5 +18,5 @@ MailChimp is a simple and inexpensive method of e-mailing marketing campaigns. Y
 Check out the module setup process and all the cool features of MailChimp Integration in your X-Cart Store in this video.
 
 ## Video
-
-<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="http://www.youtube.com/embed/NfCz86Iy3dY" frameborder="0"></iframe>
+**Published on May 27, 2015**
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/NfCz86Iy3dY" frameborder="0"></iframe>
