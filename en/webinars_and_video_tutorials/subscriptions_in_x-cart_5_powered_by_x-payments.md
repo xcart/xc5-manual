@@ -1,12 +1,13 @@
 ---
-identifier: ref_Ae8Qd8lq
-updated_at: 2015-09-21 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Subscriptions in X-Cart 5 powered by X-Payments'
+layout: article_with_sidebar
+updated_at: '2016-11-22 11:04 +0400'
+identifier: ref_Ae8Qd8lq
+title: Subscriptions in X-Cart 5 powered by X-Payments
 categories:
   - Webinars and video tutorials
-
+published: true
+order: 100
 ---
 
 
@@ -21,5 +22,5 @@ With X-Payments subscriptions module you can sell subscription based products an
 - customer experience.
 
 ## Video
-
-<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/XKFj55rmmaE" frameborder="0"></iframe>
+**Published on Apr 1, 2015**
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/XKFj55rmmaE" frameborder="0"></iframe>
