@@ -17,7 +17,7 @@ published: true
       <td colspan="1" class="confluenceTd">
         <p>*   Company;
           <br><span>&nbsp;</span>
-          <br>*   General (Default customer address, Currency, Weight, Length symbols, Purchase limits);
+          <br>*   General (Default customer address; Currency, Weight, Length symbols; Purchase limits; Defaut admin/customer language; Ship-from address);
           <br><span>&nbsp;</span>
           <br>*   Contact Us (If your X-Cart 4 database contains an entry for contact_us, the Migration wizard requests that the module "Contact Us" should be enabled in X-Cart 5; your X-Cart 4 store's Contact Us form settings are not checked and not migrated to X-Cart 5);
           <br><span>&nbsp;</span>
@@ -43,6 +43,8 @@ published: true
           <br><span>&nbsp;</span>
           <br>*   Detailed product images;
           <br><span>&nbsp;</span>
+          <br>*   EGoods (Only the original filepaths; the files themselves are not copied);
+          <br><span>&nbsp;</span>
           <br>*   Extra fields;
           <br><span>&nbsp;</span>
           <br>*   Feature comparison;
@@ -55,9 +57,11 @@ published: true
           <br><span>&nbsp;</span>
           <br>*   Product reviews;
           <br><span>&nbsp;</span>
+          <br>*   Product votes;
+          <br><span>&nbsp;</span>
           <br>*   Related products;
           <br><span>&nbsp;</span>
-          <br>*   Wholesale prices (Only for regular products: migration of wholesale prices of product variants is not yet supported).&nbsp;</p>
+          <br>*   Wholesale prices (including product variants).&nbsp;</p>
       </td>
     </tr>  
     <tr class="top aligned">
@@ -188,6 +192,21 @@ The migration of data from X-Cart 4 to X-Cart 5 is based on the import model. Th
 Exising IDs from X-Cart 4 are not saved in X-Cart 5 after the migration. However, records of what X-Cart 4 IDs were replaced with X-Cart 5 IDs are stored in the registry (MigrationRegistry - type of entity, MigrationRegistryEntry - how the ID was changed). When the wizard is restarted, the registry is cleared.
 
 The step for removing duplicate images in the process of data migration has been added to rid the store of redundant image data. At this step, the module checks whether any product variants are using the same image as the main product, and if a duplicate image is found, the image of the main product is removed. Whether any two images are the same is determined based on the image hash.
+
+The following settings are available via etc/config.local.php:
+
+*   **migration_chunk_length** - number of records to be processed during one iteration; 
+
+*   **disable_secret_check** - disables secret key check when connecting to DB;
+
+*   **disable_ssl_check** - disables SSL check for URL-related operations; 
+
+*   **disable_follow_redirects** - disables following HTTP redirects when processing URLs;
+
+*   **disable_images_import** - disables import of all images;
+
+*   **enable_copy_ext_images** - enables copying of external images to XC5 location.
+
 
 ## Limitations
 The module does not support the migration of order data.
