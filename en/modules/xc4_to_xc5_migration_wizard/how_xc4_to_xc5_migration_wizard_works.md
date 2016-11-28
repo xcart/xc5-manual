@@ -25,6 +25,7 @@ published: true
           <li>Length symbols,
           <li>Purchase limits
           </ul>
+          <br><span>&nbsp;</span>
           <br>*   Contact Us (If your X-Cart 4 database contains an entry for contact_us, the Migration wizard requests that the module "Contact Us" should be enabled in X-Cart 5; your X-Cart 4 store's Contact Us form settings are not checked and not migrated to X-Cart 5);
           <br><span>&nbsp;</span>
           <br>*   CleanURLs (If your X-Cart 4 store has the Clean URLs feature enabled, the Migration wizard automatically enables Clean URLs in X-Cart 5.)&nbsp;</p>
