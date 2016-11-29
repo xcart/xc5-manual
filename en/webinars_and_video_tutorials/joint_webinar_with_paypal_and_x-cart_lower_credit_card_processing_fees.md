@@ -5,7 +5,7 @@ updated_at: '2016-11-29 18:38 +0400'
 identifier: ref_h1T9xMRl
 title: 'Joint webinar with PayPal and X-Cart: Lower Credit Card Processing Fees'
 order: 100
-published: false
+published: true
 ---
 ## Introduction
 Credit card processing rates and fees are complicated with lots of fine print. But one thing is for sure. You likely feel that you are paying much more than the “super low” advertised rate from your current provider. This webinar discusses 7 common mistakes online businesses make when selecting a payment processor, along with tips on how to cut your costs.
