@@ -77,3 +77,4 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "Common Fraud Techniques and How to Avoid Them: joint webinar of X-Cart and Kount" ref_d4I7MVKu %}
 *   {% link "Joint webinar with PayPal and X-Cart: Lower Credit Card Processing Fees" ref_h1T9xMRl %}
 *   {% link "Recorded Webinar - Automate Your USPS Shipping" ref_sg50B20v %}
+*   {% link "Webinar: What you need to know about accepting payments online" ref_cen1642b %}
