@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-21 14:10 +0400'
+updated_at: '2016-11-28 15:47 +0400'
 identifier: ref_STELArig
 title: Webinars and video tutorials
 categories:
@@ -74,3 +74,4 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "X Cart SEO with Stijn Hendrikse and Mike Bazhutin" ref_DzQM3Vs4 %}
 *   {% link "DDoS attacks: what are they and how to protect your site. Webinar with CloudFlare" ref_fJ7OXVPZ %}
 *   {% link "Webinar recording: Increase Your In Store Conversions with Mobile Point of Sale" ref_WgvUfVEs %}
+*   {% link "Common Fraud Techniques and How to Avoid Them: joint webinar of X-Cart and Kount" ref_d4I7MVKu %}
