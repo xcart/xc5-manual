@@ -14,5 +14,5 @@ The immediate issues that come to mind for just about every business owner are t
 
 ## Video
 **Published on Oct 15, 2013**
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/gmR3uBNvOEg" frameborder="0"></iframe>
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/40PIZORiGVs" frameborder="0"></iframe>
 
