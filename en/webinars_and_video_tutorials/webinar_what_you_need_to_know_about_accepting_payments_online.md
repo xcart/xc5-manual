@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2016-11-29 19:03 +0400'
 identifier: ref_cen1642b
-title: 'Webinar: What you need to know about accepting payments online.'
+title: 'Webinar: What you need to know about accepting payments online'
 order: 100
 published: true
 ---
