@@ -75,3 +75,4 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "DDoS attacks: what are they and how to protect your site. Webinar with CloudFlare" ref_fJ7OXVPZ %}
 *   {% link "Webinar recording: Increase Your In Store Conversions with Mobile Point of Sale" ref_WgvUfVEs %}
 *   {% link "Common Fraud Techniques and How to Avoid Them: joint webinar of X-Cart and Kount" ref_d4I7MVKu %}
+*   {% link "Joint webinar with PayPal and X-Cart: Lower Credit Card Processing Fees" ref_h1T9xMRl %}
