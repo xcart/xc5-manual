@@ -76,3 +76,4 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "Webinar recording: Increase Your In Store Conversions with Mobile Point of Sale" ref_WgvUfVEs %}
 *   {% link "Common Fraud Techniques and How to Avoid Them: joint webinar of X-Cart and Kount" ref_d4I7MVKu %}
 *   {% link "Joint webinar with PayPal and X-Cart: Lower Credit Card Processing Fees" ref_h1T9xMRl %}
+*   {% link "Recorded Webinar - Automate Your USPS Shipping" ref_sg50B20v %}
