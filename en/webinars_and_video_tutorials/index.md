@@ -79,3 +79,4 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "Recorded Webinar - Automate Your USPS Shipping" ref_sg50B20v %}
 *   {% link "Webinar: What you need to know about accepting payments online" ref_cen1642b %}
 *   {% link "US Sales Tax webinar with Avalara - July 23rd 2013" ref_yF8UPdBN %}
+*   {% link "Webinar 'Online Security and X-Cart' Nov. 27 9am PST/12pm EST" ref_Hdkys8ir %}
