@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 13:18 +0400'
+updated_at: '2016-11-30 11:07 +0400'
 identifier: ref_OqJ2oZTE
 title: Submitting your shop to search engines
 categories:
@@ -13,7 +13,9 @@ order: 120
 
 The module **XML Sitemap** for X-Cart 5 serves SEO purposes. It generates an XML sitemap that can help popular search engines to crawl your store website better. 
 
-The module can be installed from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.![](attachments/6389770/8719381.png?effects=drop-shadow)Once the module XML Sitemap has been installed, you will be able to access the XML sitemap section (**Store setup** > **XML sitemap**) in your store's Admin area.![]({{site.baseurl}}/attachments/6389770/8719453.png?effects=drop-shadow)In the XML sitemap section, you can adjust the settings based on which the XML sitemap for your store will be generated:
+The module can be installed from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+
+Once the module XML Sitemap has been installed, you will be able to access the XML sitemap section (**Store setup** > **XML sitemap**) in your store's Admin area.![]({{site.baseurl}}/attachments/6389770/8719453.png?effects=drop-shadow)In the XML sitemap section, you can adjust the settings based on which the XML sitemap for your store will be generated:
 
 *   The subsection titled "**Mark the search engines you want to inform of the structure of your site using the site map**" allows you to specify the search engines to which the information from your site's XML sitemap should be made available.
 *   The settings "**Frequency of content renewal for X page**" allow you to specify how frequently specific types of pages on your store site are likely to change. The frequency of content renewal value provides general information to search engines and may not correlate exactly to how often they crawl the page. 
@@ -34,5 +36,3 @@ This URL specifies the location of your store's XML sitemap index. The index lis
 The XML sitemap URL can be submitted to search engines directly. We strongly recommend doing so if clean URLs are not configured or not working correctly for your store.
 
 For more info on sitemaps, see [http://www.sitemaps.org](http://www.sitemaps.org).
-
-
