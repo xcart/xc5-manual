@@ -14,6 +14,7 @@ order: 120
 The module **XML Sitemap** for X-Cart 5 serves SEO purposes. It generates an XML sitemap that can help popular search engines to crawl your store website better. 
 
 The module can be installed from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
+![xc5_xml_sitemap_module.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_module.png)
 
 Once the module XML Sitemap has been installed, you will be able to access the XML sitemap section (**Store setup** > **XML sitemap**) in your store's Admin area.![]({{site.baseurl}}/attachments/6389770/8719453.png?effects=drop-shadow)In the XML sitemap section, you can adjust the settings based on which the XML sitemap for your store will be generated:
 
