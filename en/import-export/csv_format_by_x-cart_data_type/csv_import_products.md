@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-03 15:12 +0400'
+updated_at: '2016-12-06 16:29 +0400'
 identifier: ref_WmJBfwxA
 title: 'CSV import: Products'
 categories:
@@ -107,7 +107,7 @@ There are many more fields which you can include into your product CSV file. Bel
     <tr>
       <td class="confluenceTd">images</td>
       <td colspan="1" class="confluenceTd">
-        <p>For any image that needs to be imported you need to specify the image location. This can be one of the following:</p>
+        <p>For any image that needs to be imported, you need to specify the image location. This can be one of the following:</p>
         <ul>
           <li>Image URL</li>
           <li>Path to the image on the server relative to the &lt;xcart directory&gt;/var/import folder; for example, images/products/image1.png.</li>
@@ -115,6 +115,7 @@ There are many more fields which you can include into your product CSV file. Bel
         <p>When exporting data from X-Cart, image paths are written to the export file using the latter method (relative path).</p>
         <p>This way when you need to re-import images back into X-Cart, you simply move the folder &lt;xcart directory&gt;/var/export/images to var/import/ - and use the existing relative paths).</p>
         <p>It is possible to specify more than one images for import by separating the image paths with the '&amp;&amp;' symbols; for example, images/products/image1.png&amp;&amp;images/products/images2.png.</p>
+        <p>Note that import of images takes considerably less time if the images to be imported are stored locally on the server with their location specified as a relative path rather than if they are stored somewhere else with their location specified as a URL. If you need to import a considerable number of images from URLs, it may be possible to speed up the process quite a bit simply by saving those images locally on the server and changing the location of those images in the import CSV file from URL to relative paths.</p>
       </td>
       <td colspan="1" class="confluenceTd">String,
         <br>Multiple&nbsp;</td>
