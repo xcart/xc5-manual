@@ -295,19 +295,29 @@ There are many more fields which you can include into your product CSV file. Bel
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>Product Attachments</strong> module</em>
+      <td colspan="3" class="confluenceTd"><em> Fields added by <strong>File attachments</strong> module</em>
       </td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">attachments</td>
       <td colspan="1" class="confluenceTd">
         <p>Defines what files are attached to this product.</p>
-        <p>Multiple files can be attached and they must be separated by &amp;&amp; construction.</p>
+        <p>For any file that needs to be imported, you need to specify the file location. This can be one of the following:</p>
+        <ul>
+          <li>File URL</li>
+          <li>Path to the file on the server.</li>
+        </ul>  
+        <p>If using the latter option (local filepath), the attachment files for import need to be placed in one of the following locations:</p>
+        <ul>
+          <li>The folder <xcart directory>/files/attachments, or its subfolders. The path in the CSV file in this case must be specified relatively to <xcart directory>; for example, files/attachments/user-manual.pdf or files/attachments/test/user-manual.pdf</li>
+          <li>The folder <xcart directory>/var/import, or its subfolders. The path in the CSV file in this case must be specified relatively to <xcart directory>; for example, var/import/user-manual.pdf or var/import/test/user-manual.pdf. Note that files placed in the folder <xcart directory>/var/import will be copied as a result of import to the folder <xcart directory>/files/attachments/[product_id].</li>
+        <p>Multiple files can be attached, and they must be separated by the &amp;&amp; construction.</p>
         <p>Examples:</p>
         <ul>
           <li>path/to/my/files/user-manual.pdf (1 file)</li>
           <li>path/to/my/files/user-manual.pdf&amp;&amp;path/to/my/files/spec.pdf (2 files)</li>
         </ul>
+        <p>Note that import of attachments takes considerably less time if the files to be imported are stored locally on the server with their location specified as a relative path rather than if they are stored somewhere else with their location specified as a URL. If you need to import a considerable number of attachment files from URLs, it may be possible to speed up the process quite a bit simply by saving those files locally on the server and changing the location of those files in the import CSV file from URL to relative paths.</p>
       </td>
       <td colspan="1" class="confluenceTd">
         <p>String,
