@@ -35,7 +35,7 @@ Log in to your store's Admin area and go to the **Store setup** > **SEO settings
 If you are using X-Cart 5.3.1 and earlier, go to the **System Settings** > **Environment** section there and look for the **Enable clean URL** button on the half-way through to the bottom.
 {% endnote %}
 
-![]({{site.baseurl}}/attachments/7505785/cleanurl_settings.png)
+![]({{site.baseurl}}/attachments/7505785/cleanurl_setting.png)
 
 Generally, from now on your store will start using seo-friendly URLs, and after a couple of seconds you will see the **Clean URLs are enabled** message:
 
