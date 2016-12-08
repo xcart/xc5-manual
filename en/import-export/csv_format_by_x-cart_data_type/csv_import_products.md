@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-06 16:29 +0400'
+updated_at: '2016-12-08 15:17 +0400'
 identifier: ref_WmJBfwxA
 title: 'CSV import: Products'
 categories:
@@ -38,12 +38,11 @@ There are many more fields which you can include into your product CSV file. Bel
       <th colspan="1" class="confluenceTh" markdown="1">{% link 'Value type**' ref_2LwMTTTW %}</th>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Fields supported by <strong>X-Cart core</strong></em>
+      <td colspan="3" class="confluenceTd"><em>Fields supported by <strong>X-Cart core</strong></em>
       </td>
     </tr>
     <tr>
-      <td colspan="1" class="confluenceTd"><strong>sku*</strong>
-      </td>
+      <td colspan="1" class="confluenceTd"><strong>sku*</strong></td>
       <td colspan="1" class="confluenceTd">Unique identifier of the product.</td>
       <td colspan="1" class="confluenceTd">
         <p>String,
@@ -309,8 +308,9 @@ There are many more fields which you can include into your product CSV file. Bel
         </ul>  
         <p>If using the latter option (local filepath), the attachment files for import need to be placed in one of the following locations:</p>
         <ul>
-          <li>The folder <xcart directory>/files/attachments, or its subfolders. The path in the CSV file in this case must be specified relatively to <xcart directory>; for example, files/attachments/user-manual.pdf or files/attachments/test/user-manual.pdf</li>
-          <li>The folder <xcart directory>/var/import, or its subfolders. The path in the CSV file in this case must be specified relatively to <xcart directory>; for example, var/import/user-manual.pdf or var/import/test/user-manual.pdf. Note that files placed in the folder <xcart directory>/var/import will be copied as a result of import to the folder <xcart directory>/files/attachments/[product_id].</li>
+          <li>The folder XCART-DIRECTORY/files/attachments, or its subfolders. The path in the CSV file in this case must be specified relatively to XCART-DIRECTORY; for example, files/attachments/user-manual.pdf or files/attachments/test/user-manual.pdf</li>
+          <li>The folder XCART-DIRECTORY>/var/import, or its subfolders. The path in the CSV file in this case must be specified relatively to XCART-DIRECTORY; for example, var/import/user-manual.pdf or var/import/test/user-manual.pdf. Note that files placed in the folder XCART-DIRECTORY/var/import will be copied as a result of import to the folder XCART-DIRECTORY/files/attachments/[product_id].</li>
+        </ul>
         <p>Multiple files can be attached, and they must be separated by the &amp;&amp; construction.</p>
         <p>Examples:</p>
         <ul>
