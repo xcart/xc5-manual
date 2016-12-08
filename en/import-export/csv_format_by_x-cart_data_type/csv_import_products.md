@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-08 15:17 +0400'
+updated_at: '2016-12-08 15:32 +0400'
 identifier: ref_WmJBfwxA
 title: 'CSV import: Products'
 categories:
@@ -109,10 +109,10 @@ There are many more fields which you can include into your product CSV file. Bel
         <p>For any image that needs to be imported, you need to specify the image location. This can be one of the following:</p>
         <ul>
           <li>Image URL</li>
-          <li>Path to the image on the server relative to the &lt;xcart directory&gt;/var/import folder; for example, images/products/image1.png.</li>
+          <li>Path to the image on the server relative to the &lt;XCART-DIRECTORY&gt;/var/import folder; for example, images/products/image1.png.</li>
         </ul>
         <p>When exporting data from X-Cart, image paths are written to the export file using the latter method (relative path).</p>
-        <p>This way when you need to re-import images back into X-Cart, you simply move the folder &lt;xcart directory&gt;/var/export/images to var/import/ - and use the existing relative paths).</p>
+        <p>This way when you need to re-import images back into X-Cart, you simply move the folder &lt;XCART-DIRECTORY&gt;/var/export/images to var/import/ - and use the existing relative paths).</p>
         <p>It is possible to specify more than one images for import by separating the image paths with the '&amp;&amp;' symbols; for example, images/products/image1.png&amp;&amp;images/products/images2.png.</p>
         <p>Note that import of images takes considerably less time if the images to be imported are stored locally on the server with their location specified as a relative path rather than if they are stored somewhere else with their location specified as a URL. If you need to import a considerable number of images from URLs, it may be possible to speed up the process quite a bit simply by saving those images locally on the server and changing the location of those images in the import CSV file from URL to relative paths.</p>
       </td>
@@ -308,8 +308,8 @@ There are many more fields which you can include into your product CSV file. Bel
         </ul>  
         <p>If using the latter option (local filepath), the attachment files for import need to be placed in one of the following locations:</p>
         <ul>
-          <li>The folder XCART-DIRECTORY/files/attachments, or its subfolders. The path in the CSV file in this case must be specified relatively to XCART-DIRECTORY; for example, files/attachments/user-manual.pdf or files/attachments/test/user-manual.pdf</li>
-          <li>The folder XCART-DIRECTORY>/var/import, or its subfolders. The path in the CSV file in this case must be specified relatively to XCART-DIRECTORY; for example, var/import/user-manual.pdf or var/import/test/user-manual.pdf. Note that files placed in the folder XCART-DIRECTORY/var/import will be copied as a result of import to the folder XCART-DIRECTORY/files/attachments/[product_id].</li>
+          <li>The folder &lt;XCART-DIRECTORY&gt;/files/attachments, or its subfolders. The path in the CSV file in this case must be specified relatively to &lt;XCART-DIRECTORY&gt;; for example, files/attachments/user-manual.pdf or files/attachments/test/user-manual.pdf</li>
+          <li>The folder &lt;XCART-DIRECTORY&gt;/var/import, or its subfolders. The path in the CSV file in this case must be specified relatively to &lt;XCART-DIRECTORY&gt;; for example, var/import/user-manual.pdf or var/import/test/user-manual.pdf. Note that files placed in the folder &lt;XCART-DIRECTORY&gt;/var/import will be copied as a result of import to the folder &lt;XCART-DIRECTORY&gt;/files/attachments/[product_id].</li>
         </ul>
         <p>Multiple files can be attached, and they must be separated by the &amp;&amp; construction.</p>
         <p>Examples:</p>
