@@ -13,7 +13,7 @@ order: 90
 
 To accept payments from buyers, you need to enable one or more payment methods for your store. Payment methods are managed via the **Payment methods** section (**Store setup > Payment methods**):
 
-![]({{site.baseurl}}/attachments/6389794/7602367.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389794/7602367.png)
 
 In this section, you can:
 
@@ -32,7 +32,7 @@ X-Cart supports two types of payment methods:
 
 On the **Payment settings** page, offline payment methods can be found in the section **Offline methods** (Scroll down the **Payment settings** page to be able to see it): 
 
-![]({{site.baseurl}}/attachments/6389794/7602370.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389794/7602370.png)
 
 Online payment methods can be found in the **Online methods** section:
 
@@ -40,14 +40,14 @@ Online payment methods can be found in the **Online methods** section:
 
 The INACTIVE/ACTIVE switch displayed for every item on the list of payment methods can be used to control the availability of the method to customers:
 
-![]({{site.baseurl}}/attachments/6389794/7602383.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389794/7602383.png)
 
 ACTIVE (green icon) = the method is available on the storefront;
 INACTIVE (gray icon) = the method is not available (not visible to customers).
 
 The **Configure** button below each payment method name allows you to access the payment method settings:
 
-![]({{site.baseurl}}/attachments/6389794/7602384.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389794/7602384.png)
 
 ## Adding payment methods
 
@@ -95,7 +95,7 @@ To add a new offline payment method:
 
     A popup box will appear allowing you to enter the details of the new payment method will be opened:
 
-    ![]({{site.baseurl}}/attachments/6389794/7602387.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389794/7602387.png)
 
 2.  Enter a name, payment instructions and a description for the new method. HTML tags are allowed in the **Payment instructions** and **Description** fields.
 

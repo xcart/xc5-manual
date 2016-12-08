@@ -25,12 +25,12 @@ Before you can start sending abandoned cart reminders to owners of abandoned car
 To create an abandoned cart reminder:
 
 1.  In your store's Admin area, go to the Email notifications page (**Store setup **>**Email notifications**) and click the **Cart reminders** tab. 
-    ![]({{site.baseurl}}/attachments/7503950/8718924.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7503950/8718924.png)
 
 2.  On the Abandonded cart reminders panel, click **New reminder**:
-    ![]({{site.baseurl}}/attachments/7503950/8718923.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7503950/8718923.png)
     This opens the New cart reminder form which you can use to add a new reminder:
-    ![]({{site.baseurl}}/attachments/7503950/8718927.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7503950/8718927.png)
 
 3.  Complete the form fields to provide the details of the new reminder:
 
@@ -80,7 +80,7 @@ You can view the list of abandoned cart reminders that have been set up for you
 To view the list of abandoned cart reminders:
 
 *   In your store's Admin area, go to the Email notifications page (**Store setup **>**Email notifications**) and click the **Cart reminders** tab. This opens the Abandoned cart reminders panel where you can see the list of cart reminders in the form of a table:
-    ![]({{site.baseurl}}/attachments/7503950/8718928.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7503950/8718928.png)
 
 For each reminder on the list the following information is provided:
 
@@ -97,7 +97,7 @@ You can edit any abandoned cart reminders that have been created in your store, 
 To edit a reminder:
 
 1.  In the [abandoned cart reminders list](#viewing-the-reminders-list), click on the name of the reminder that needs to be edited. This opens the page where you can review and edit the reminder details:
-    ![]({{site.baseurl}}/attachments/7503950/8718932.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7503950/8718932.png)
 
 2.  Edit the parameters of the reminder and/or make changes to the email template.
 3.  Click **Update** to save the changes. The reminder will be updated.
@@ -111,7 +111,7 @@ The sending method for a reminder can also be changed directly on the Abandoned 
 
 It is also possible to quickly edit the numeric parameters of individual reminders straight from the Abandoned cart reminders list page. When you hover your cursor over a specific line in the Abandoned cart reminders list, the numeric fields in that line that can be edited directly on this page become highlighted. To start editing, simply click on the field you want to edit. This opens the field for editing:
 
-![]({{site.baseurl}}/attachments/7503950/8718935.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7503950/8718935.png)
 
 Make the required change and click outside the field to close it. You can also use the Tab key to close the current field and open the next one for editing. When you're done editing, be sure to save the changes using the **Save changes** button at the bottom of the list.
 

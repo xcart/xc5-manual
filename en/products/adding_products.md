@@ -24,14 +24,14 @@ This video captures the process of adding a new product in X-Cart 5.1.9\. Please
 To add a new product:
 
 1.  In your store's Admin area, go to the Products section (**Catalog** > **Products**).
-    ![]({{site.baseurl}}/attachments/6389859/8716836.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389859/8716836.png)
 2.  Click the **Add product** button.
-    ![]({{site.baseurl}}/attachments/6389859/8716837.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389859/8716837.png)
     The page for adding a new product opens. 
-    ![]({{site.baseurl}}/attachments/6389859/8716838.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389859/8716838.png)
 3.  Use the fields on the Add product page to provide information about the product. The only required field is **Product name**. 
 4.  Once you're done, click **Add product** button at the bottom of the page. 
-    ![]({{site.baseurl}}/attachments/6389859/8716867.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389859/8716867.png)
     The product will be added. 
 
 ## Product information that can be specified
@@ -67,11 +67,11 @@ Once a product has been created, you can specify inventory tracking options for 
 
 1.  In the store's Admin area, open the details of the product for which you want to specify inventory tracking options.
 2.  Go to the Inventory Tracking section of the product details page by either selecting the **Inventory tracking** tab:
-    ![]({{site.baseurl}}/attachments/6389859/8716870.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389859/8716870.png)
     or by clicking the Inventory tracking options link to the right of the **Quantity in stock** field:
-    ![]({{site.baseurl}}/attachments/6389859/8716871.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389859/8716871.png)
     The Inventory tracking section opens:
-    ![]({{site.baseurl}}/attachments/6389859/8716869.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389859/8716869.png)
 3.  Adjust the product's inventory tracking options as you require:
     *   **Inventory tracking for this product is** (Enabled / Disabled): To enable inventory tracking for this product, set this option to _Enabled_. If the product quantity is unlimited and does not need to be tracked, set the option to _Disabled_.
     *   **Quantity in stock**: Specify the actual current inventory level of the product (the number of product units in stock).
@@ -83,7 +83,7 @@ Once a product has been created, you can specify inventory tracking options for 
 
 You can add these additional parameters as attributes via the **Attributes** tab of the product details page.
 
-![]({{site.baseurl}}/attachments/6389859/8716868.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389859/8716868.png)
 
 Buyers will be able to view these parameters via the **Specification** tab of the product page.
 

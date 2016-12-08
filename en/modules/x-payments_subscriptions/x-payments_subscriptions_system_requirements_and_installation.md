@@ -20,7 +20,7 @@ To install and enable the module on your system, follow the general module insta
 
 As a result, you should have the module "X-Payments subscriptions" listed in your store's Installed Modules section:
 
-![]({{site.baseurl}}/attachments/8750957/8719603.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8750957/8719603.png)
 
 _Related pages:_
 

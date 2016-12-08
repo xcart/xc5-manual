@@ -12,7 +12,7 @@ order: 230
 
 
 1.  Go to the Localization section of your store's Admin area (**Store****setup** > **Localization**).
-    ![]({{site.baseurl}}/attachments/6389828/8716749.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389828/8716749.png)
 2.  Use the settings in this section to define the localization parameters for your country:
     *   Weight unit
     *   Weight symbol

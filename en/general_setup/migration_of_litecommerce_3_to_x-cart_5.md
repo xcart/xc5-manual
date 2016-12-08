@@ -31,16 +31,16 @@ This document describes the process of upgrade Litecommerce 3 to X-Cart 5.
 2.  Open the page 'Manage add-ons' in you admin area (admin.php?target=addons_list_installed)
 3.  Click the 'Upload add-on' button and follow the instructions
 
-**** ![]({{site.baseurl}}/attachments/3309570/7602238.png?effects=drop-shadow)****
+**** ![]({{site.baseurl}}/attachments/3309570/7602238.png)****
 
 ## Step 2\. Open the Migrate2XCN module settings page and enter your X-Cart 5 license key.
 
 Once you have installed the Migrate2XCN module, go to its settings:
 
-**** ![]({{site.baseurl}}/attachments/3309570/7602239.png?effects=drop-shadow)****
+**** ![]({{site.baseurl}}/attachments/3309570/7602239.png)****
 
 and insert your X-Cart 5 license key there (you should have received this license key by email from X-Cart team)****
- ![]({{site.baseurl}}/attachments/3309570/7602240.png?effects=drop-shadow)****
+ ![]({{site.baseurl}}/attachments/3309570/7602240.png)****
 
 ## Step 3\. Change the marketplace URL in the file config.php.
 
@@ -62,31 +62,31 @@ and insert your X-Cart 5 license key there (you should have received this licens
 
 Open the page admin.php?target=addons_list_marketplace&action=clear_cache
 
-**** ![]({{site.baseurl}}/attachments/3309570/7602241.png?effects=drop-shadow)****
+**** ![]({{site.baseurl}}/attachments/3309570/7602241.png)****
 
 ## Step 5\. Upgrade your store.
 
 After that you will see one of the links ('Updates available' or 'Upgrade available') in the header of the Admin area.
 
-![]({{site.baseurl}}/attachments/3309570/7602242.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/3309570/7602242.png)
 
 Click this link and upgrade your Litecommerce 3 store.
 
-![]({{site.baseurl}}/attachments/3309570/7602243.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/3309570/7602243.png)
 
-![]({{site.baseurl}}/attachments/3309570/7602244.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/3309570/7602244.png)
 
 After that you will see the following message:
 
-![]({{site.baseurl}}/attachments/3309570/7602245.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/3309570/7602245.png)
 
 Stock Chart and Wishlist modules are just for example here. You may see other modules during this step as it depends on which modules have been installed in your Litecommerce 3\. At least, the module Migrate2XCN will be displayed there. Do not worry, this is correct behaviour. Click the **Continue** button and follow further upgrade steps.
 
 ## Step 6\. Activate the license key.
 
-![]({{site.baseurl}}/attachments/3309570/7602246.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/3309570/7602246.png)
 
-![]({{site.baseurl}}/attachments/3309570/7602247.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/3309570/7602247.png)
 
 ## Step 7\. Update your etc/config.php file.
 

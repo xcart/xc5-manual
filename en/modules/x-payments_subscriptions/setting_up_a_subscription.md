@@ -13,15 +13,15 @@ categories:
 Once you activate the module X-Payments subscriptions, it becomes possible to set up a subscription for any product in your store. For this purpose, you can use an existing product or create a new product. For the sake of example, we will create a product "Beauty Box Subscription". Purchasing a subscription for this product will allow buyers to get a box of beauty and makeup samples on a monthly basis for just $20 per month. 
 
 1.  Start by creating a regular product:
-    ![]({{site.baseurl}}/attachments/9666622/9633865.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9666622/9633865.png)
     Do not worry about setting the product price just yet - the product is going to be a subscription, so the regular Price field for it will be ignored.
 
 2.  After the product has been created, click on the **Subscription plan** tab to access the product's subscription settings:
-    ![]({{site.baseurl}}/attachments/9666622/9633870.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9666622/9633870.png)
 3.  In the section that opens, you will see a single checkbox setting - "**This is subscription product**":
-    ![]({{site.baseurl}}/attachments/9666622/9633871.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9666622/9633871.png)
     Select the checkbox to tell X-Cart you want to configure a subscription for this product. Once the checkbox is selected, more subscription-related settings will be displayed below:
-    ![]({{site.baseurl}}/attachments/9666622/9633872.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9666622/9633872.png)
 
 4.  Adjust the subscription settings:
     *   **Setup fee**: Enter a setup fee for the subscription. The product's selling price will be calculated as **Setup Fee + Subscription Fee** (see below). If you do not intend to charge any subscription setup fee to the buyer, set the Setup fee to "0" (zero); in this case, the product's selling price will equal the Subscription fee.

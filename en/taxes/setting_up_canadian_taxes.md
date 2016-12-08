@@ -9,7 +9,7 @@ published: true
 version: X-Cart 5.3.2 and later
 ---
 If your business is based in Canada, and you need to configure taxes like GST, PST, QST or HST, we recommend using the module **Canadian Taxes** for tax setup. 
-    ![xc5_taxes_canada_canadian_taxes_module.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_canadian_taxes_module.png?effects=drop-shadow)
+    ![xc5_taxes_canada_canadian_taxes_module.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_canadian_taxes_module.png)
 This module is similar to the "Sales tax" module, but you can set up taxes only for Canadian provinces, and the tax names are GST/PST/HST/QST (The correct tax name to be shown to a customer is chosen automatically based on the customer's province).
 
 To start using the module "Canadian Taxes", ensure that it is installed and enabled in your store's Installed Modules section.
@@ -43,13 +43,13 @@ Before you configure your taxes:
 To configure Canadian taxes, complete the following steps:
 
 1.  In your store's Admin area, go to the Taxes section (**Store setup** > **Taxes**).
-    ![xc5_taxes_vat_taxes_section.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_vat_taxes_section.png?effects=drop-shadow)
+    ![xc5_taxes_vat_taxes_section.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_vat_taxes_section.png)
     
 2.  Make sure you are viewing the **Canadian taxes** tab.
-    ![xc5_taxes_canada_canadian_taxes_tab.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_canadian_taxes_tab.png?effects=drop-shadow)
+    ![xc5_taxes_canada_canadian_taxes_tab.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_canadian_taxes_tab.png)
 
 3.  Configure the tax options in the **Common tax settings** section:
-    ![xc5_taxes_canada_common_settings.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_common_settings.png?effects=drop-shadow)
+    ![xc5_taxes_canada_common_settings.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_common_settings.png)
 
     *   Specify whether provincial tax rates (we'll come to configuring these rates a bit later) should be the same for all your store's users, irrespective of their membership, or should be different depending on the users' membership. If the tax rates need to be the same for all your buyers, enable the option **Use the same tax rates for all user membership levels** by selecting the respective check box. If different membership levels need the taxes to be calculated differently, leave this check box unselected.
     
@@ -76,7 +76,7 @@ To enable X-Cart to calculate tax amounts that need to be applied, you need to s
 1.  In the section **Provincial tax rates** in the lower part of the page, click the button **New rate**.
     
 2.  In the section that expands below, provide information about a new rate:
-    ![xc5_taxes_canada_rates2.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_rates2.png?effects=drop-shadow)
+    ![xc5_taxes_canada_rates2.png]({{site.baseurl}}/attachments/ref_hxmof6xX/xc5_taxes_canada_rates2.png)
     
      *   **Province**: Specify the province in which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected province. Whether it is their Billing or Shipping address depends on the option selected in the "Address for Canadian taxes calculation" field of common tax settings.
      

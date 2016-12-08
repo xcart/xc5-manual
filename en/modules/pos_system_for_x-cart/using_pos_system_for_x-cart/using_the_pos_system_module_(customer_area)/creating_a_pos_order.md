@@ -12,7 +12,7 @@ categories:
 
 After the product has been added to cart, a new button - **Process order** - appears next to X-Cart's standard **Go to checkout** button:
 
-![]({{site.baseurl}}/attachments/7504446/7602279.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504446/7602279.png)
 
 By using this button the user can create the order at once - without having to provide information about the customers' address or payment method.
 

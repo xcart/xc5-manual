@@ -12,7 +12,7 @@ categories:
 
 If the store is configured to provide shipping cost calculation for orders, and the multivendor mode is "_Vendors as separate shops_", every vendor needs to specify an address from which they are going to ship products. This address will be used to calculate the cost of delivery of an order from the vendor's warehouse to the buyer. The address can be specified using the Store address section (**Store setup** > **Store address**):
 
-![]({{site.baseurl}}/attachments/8750997/8719618.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8750997/8719618.png)
 
 In the "Warehouse" mode, vendors do not have access to the above section, as the products of all the vendors are shipped from the same warehouse (which means the same address for everyone).
 

@@ -22,17 +22,17 @@ You can:
 To add a new field:
 
 1.  In your store's Admin area, go to the Cart & checkout section (**Store setup > Cart & checkout**).
-    ![]({{site.baseurl}}/attachments/6389842/9437234.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389842/9437234.png)
 2.  Click the **Address fields** tab.
-    ![]({{site.baseurl}}/attachments/6389842/9437235.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389842/9437235.png)
 3.  Click the **New address field** button.
-    ![]({{site.baseurl}}/attachments/6389842/9437236.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389842/9437236.png)
     A new blank line will be added to the list of address fields below:
-    ![]({{site.baseurl}}/attachments/6389842/9437237.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389842/9437237.png)
 4.  Use the line that has been added to specify the details of the new address field you are creating:
     *   **Name**: Enter the name of the field as it should be visible to users.
     *   **Service name**: Enter a service name for the field. This name will not appear in your store's user interface and will only be used to refer to this field in your store's PHP code. For simplicity, use the same value as in the main "Name" field, but be sure to use only lowercase letters, digits and underscore. 
-    *   **Required**: Specify whether the field should be optional or mandatory for completion by users.![]({{site.baseurl}}/attachments/6389842/9437238.png?effects=drop-shadow)
+    *   **Required**: Specify whether the field should be optional or mandatory for completion by users.![]({{site.baseurl}}/attachments/6389842/9437238.png)
 5.  Click the **Save changes** button at the bottom to save the changes.
 
 To edit a field:

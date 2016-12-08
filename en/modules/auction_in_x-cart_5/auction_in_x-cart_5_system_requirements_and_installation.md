@@ -19,7 +19,7 @@ To install and enable the module on your system, follow the general module insta
 
 As a result, you should have the module "Auction in X-Cart 5" listed in your store's Installed Modules section (**Extensions > Installed modules**):
 
-![]({{site.baseurl}}/attachments/8225030/8356063.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225030/8356063.png)
 
 _Related pages:_
 

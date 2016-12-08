@@ -14,7 +14,7 @@ order: 220
 
 Sometimes site changes like installing a new module, upgrading your X-Cart core or rebuilding your store site's cache may not go as smoothly as planned. A syntax error in the code of a new module, a module's incompatibility with the new X-Cart core after an upgrade or a cache rebuild failure may crash your store's website, so when you attempt to access it you will continuously see a page saying "The site is temporarily closed for maintenance":
 
-![]({{site.baseurl}}/attachments/7504187/7602636.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504187/7602636.png)
 
 This article describes what you can do if you face this major problem and get your store up and running. 
 

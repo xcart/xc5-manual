@@ -14,25 +14,25 @@ In the Customer area of your X-Cart store, in all the locations from which buyer
 
 Here's what it looks like on the "Your shopping bag" page:
 
-![]({{site.baseurl}}/attachments/7504625/7602347.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504625/7602347.png)
 
 in the "Minicart" widget:
 
-![]({{site.baseurl}}/attachments/7504625/7602348.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504625/7602348.png)
 
 and in the "Add to cart" popup:
 
-![]({{site.baseurl}}/attachments/7504625/7602349.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504625/7602349.png)
 
 Once the **Pay with Amazon** button is clicked, a pop-up window titled "Amazon Payments: Sign In" is displayed where the buyer is asked for their Amazon Payments account email address and password:
 
-![]({{site.baseurl}}/attachments/7504625/7602350.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504625/7602350.png)
 
 (As you can see in the screenshot above, you can add your company logo in the buyer authentication pop-up window. This can be done by uploading your own banner image on the "Settings" -> "Integration Settings" page in Seller Central).
 
 After the buyer successfully authenticates, they find themselves on a special checkout page in X-Cart which has two Amazon widgets embedded in it: the AddressBook widget (the "Address Book" section) where the buyer can select a shipping address from their Amazon Payments account or add a new one and the Wallet widget (the "Payment Method" section) where the buyer can select a payment method from their Amazon Payments account:
 
-![]({{site.baseurl}}/attachments/7504625/7602351.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504625/7602351.png)
 
 Note that the buyer stays on your store's site throughout the checkout process, without ever being redirected to Amazon.
 

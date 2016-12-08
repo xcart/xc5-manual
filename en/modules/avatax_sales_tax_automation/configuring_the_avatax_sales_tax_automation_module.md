@@ -16,9 +16,9 @@ After the module has been {% link "installed and enabled" ref_RGbuM3KA %}, it n
 To configure the module:
 
 1.  In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for the AvaTax Sales Tax Automation module and click the **Settings **link below it:
-    ![]({{site.baseurl}}/attachments/8749239/8717991.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749239/8717991.png)
     The "AvaTax Sales Tax Automation" module settings page opens.
-    ![]({{site.baseurl}}/attachments/8749239/8717393.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749239/8717393.png)
 2.  Provide your authentication information in the _Account settings_ section:
 
     *   **Account number**: Enter the account number that was provided to you via the AvaTax Admin Console. This is a ten-digit number (e.g. 1100012345) which is used to authenticate your API call.

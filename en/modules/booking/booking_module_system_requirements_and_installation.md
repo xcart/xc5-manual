@@ -17,7 +17,7 @@ To install and enable the module on your system, follow the general module insta
 
 As a result, you should have the module "Booking" listed in your store's Installed Modules section:
 
-![]({{site.baseurl}}/attachments/8749988/8718713.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749988/8718713.png)
 
 If you want your bookable products to have variants, you also need to make sure the module "{% link "Product Variants" ref_0uApuQfx %}" is enabled.
 

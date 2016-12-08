@@ -12,7 +12,7 @@ order: 300
 
 When your store is in the process of rebuilding its cache, upgrading the core or installing new modules, it is not operational, and your customers see the maintenance page instead:
 
-![]({{site.baseurl}}/attachments/8750554/8719382.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8750554/8719382.png)
 
 If you want to provide additional information to help your customers contact you during the rebuild process, you should change the file **`<X-Cart folder>/public/maintenance.html`**. For instance, we will show how to add a phone number below the existing text. The mentioned file has the following HTML tags with text:
 
@@ -52,6 +52,6 @@ We will add the line "`<div class="text">If you have any questions, contact us: 
 
 Likewise, you can add links to your social accounts and images, or any other info you find necessary. After saving this file, the store's maintenance page will look like this:
 
-![]({{site.baseurl}}/attachments/8750554/8719383.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8750554/8719383.png)
 
 

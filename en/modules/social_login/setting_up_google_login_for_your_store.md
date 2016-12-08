@@ -21,47 +21,47 @@ To create OAuth2 client ID for your store:
 
 1.  Go to the [Google Developers Console](https://console.developers.google.com).
 2.  Select **Create Project**:
-    ![]({{site.baseurl}}/attachments/7504602/7602326.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602326.png)
     A popup titled "New Project" will be displayed:
-    ![]({{site.baseurl}}/attachments/7504602/7602327.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602327.png)
 3.  In the "New Project" popup, enter a project name and a project ID, or accept the defaults, and select **Create**. The project ID is an identifier that you select when you create the project, and it is used only within the Developers Console. A project ID is unique and cannot be changed, so choose an ID that you'll be comfortable using for the lifetime of the project.
     For example, we chose to create a project "X-Cart 5" and kept the default Project ID:
-    ![]({{site.baseurl}}/attachments/7504602/7602328.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602328.png)
     After you have clicked **Create**, Google will create the new project. The screen will reflect this activity:
-    ![]({{site.baseurl}}/attachments/7504602/7602329.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602329.png)
     Once the process is completed, you should see a screen with your project ID and project number. The project number is yet another way to identfy your project; it is assigned by the Google Developers Console.
 4.  In the sidebar on the left, select **APIs & auth**:
-    ![]({{site.baseurl}}/attachments/7504602/7602332.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602332.png)
 
     Then select **Credentials**:
-    ![]({{site.baseurl}}/attachments/7504602/7602334.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602334.png)
 
 5.  On the page that opens, select **Create New Client ID**:
-    ![]({{site.baseurl}}/attachments/7504602/7602336.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602336.png)
     This displays a popup titled "Create Client ID":
-    ![]({{site.baseurl}}/attachments/7504602/7602337.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602337.png)
 6.  In the "Create Client ID" popup:
     1) Select _Web application_ for the **Application type**.
     2) In the **Authorized redirect URI** box, enter the redirect URI for your store site (Simply copy and paste the URI from the Google Login setup instructions on your store's "Social Login" module settings page).
     3) Click **Create Client ID**.
-    ![]({{site.baseurl}}/attachments/7504602/7602339.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602339.png)
     The Client ID will be created. 
 7.  In the sidebar on the left, select **Consent screen**:
-    ![]({{site.baseurl}}/attachments/7504602/7602345.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602345.png)
     Use the settings on this page to configure the consent screen for your project (That is what users will see when they click a Google Login widget on your store site for the first time and are asked to allow your store to access their information on Google). For the **Product name** field, use your store's name so users can easily identify your application.
 
 ## Configuring the Social Login module: Google
 
 1.  On the Credentials page of your project in the [Google Developers Console](https://console.developers.google.com/), locate the section** Client ID for web applications** and note or copy the two pieces of information: Client ID and Client secret:
-    ![]({{site.baseurl}}/attachments/7504602/7602341.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602341.png)
 
 2.  Open a separate browser tab or window for the X-Cart Admin interface so you can copy and paste the Client ID and Client secret values.
 3.  In the Installed Modules section of your X-Cart store’s Admin area (**Extensions** >** Installed modules**), locate the entry for the Social Login module and click the **Settings **link below it:
-    ![]({{site.baseurl}}/attachments/7504575/7602322.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504575/7602322.png)
     This opens the "Social Login" module settings page:
-    ![]({{site.baseurl}}/attachments/7504575/7602315.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504575/7602315.png)
 4.  Scroll down to the Google section of the page and enter your Client ID and Client secret values:
-    ![]({{site.baseurl}}/attachments/7504602/7602344.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504602/7602344.png)
 
 5.  Click the **Submit** button near the bottom of the page to save the changes.
     The Google Login feature should now be enabled.

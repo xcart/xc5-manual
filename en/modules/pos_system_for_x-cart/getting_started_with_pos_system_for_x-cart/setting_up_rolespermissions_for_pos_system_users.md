@@ -22,11 +22,11 @@ In X-Cart 5, permissions are granted to users by assigning roles. The set of pe
 
 The "POS operator" role can be assigned to your employee via their user profile:
 
-![]({{site.baseurl}}/attachments/7504410/8719205.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504410/8719205.png)
 
 If your store uses the module “User permissions”, you will be able to adjust the permission for the "POS operator" role manually:
 
-![]({{site.baseurl}}/attachments/7504410/8719204.png?effects=drop-shadow) 
+![]({{site.baseurl}}/attachments/7504410/8719204.png) 
 
 _Related pages:_
 

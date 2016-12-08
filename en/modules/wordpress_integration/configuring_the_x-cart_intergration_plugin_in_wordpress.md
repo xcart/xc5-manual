@@ -18,9 +18,9 @@ After installing this plugin in WordPress, you need to enable and configure it:
 1.  In your WordPress admin interface, go to the **Plugins** section and locate the installed plugin "X-Cart Integration".
 2.  Click the **Activate** link below the plugin name to activate the plugin.
 3.  Once the plugin is activated, click the **Settings** link to go to the X-Cart Integration Options page. 
-    ![]({{site.baseurl}}/attachments/8750648/8719415.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750648/8719415.png)
     The Options page looks like the following:
-    ![]({{site.baseurl}}/attachments/8750648/8719395.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750648/8719395.png)
 4.  On the Options page, adjust the following settings:
     *   **Specify your store url here** (http://example.com/cart.php): Enter the URL of the X-Cart store you would like to connect to your WordPress blog.
 

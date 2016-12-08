@@ -12,11 +12,11 @@ categories:
 
 After a POS order has been created, on the Order invoice page  - next to the **Print invoice** button - there appears a button titled **Print receipt**. The **Print receipt** button allows the user to print the receipt for the order using the Receipt printer installed in the system.
 
-![]({{site.baseurl}}/attachments/7504449/7602280.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504449/7602280.png)
 
 To print a receipt for an order created earlier, the user must go to the **My account > Orders** page, find the order for which the receipt needs to be printed, click the **Details** button next to this order to open the order details, and then, on the Order invoice page that will be opened, click the **Print receipt** button:
 
-![]({{site.baseurl}}/attachments/7504449/7602281.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504449/7602281.png)
 
 _Related pages:_
 

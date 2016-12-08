@@ -12,7 +12,7 @@ categories:
 
 To print a receipt for an order via the store's Admin area, you must go to the order's Invoice page and click **Print receipt**:
 
-![]({{site.baseurl}}/attachments/7504444/7602282.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504444/7602282.png)
 
 _Related pages:_
 

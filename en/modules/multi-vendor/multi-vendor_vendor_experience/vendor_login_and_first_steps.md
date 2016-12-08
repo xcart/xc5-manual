@@ -19,7 +19,7 @@ The URL for vendor login is the same as for all administrator users:
 
 The first time a registered vendor logs in to the store's back end, there won't be much going on there as they do not yet have any products or sales:
 
-![]({{site.baseurl}}/attachments/8749377/8719610.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749377/8719610.png)
 
 To start selling with X-Cart, a vendor user needs to complete the following steps:
 

@@ -16,14 +16,14 @@ If you have set up carrier-calculated or table-based shipping rates for your pro
 To set up a handling fee for some shipping method:
 
 1.  In your store's Admin area, go to the Shipping methods section (**Store setup **>** Shipping**):
-    ![]({{site.baseurl}}/attachments/9306255/9437269.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306255/9437269.png)
 2.  In the list of your store's shipping methods, find the method for which you want to add a surcharge.
-    ![]({{site.baseurl}}/attachments/9306255/9437270.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306255/9437270.png)
 3.  Hover the mouse pointer over the line of this shipping method. The **Delivery time** and **Handling fee** fields will be highlighted as editable:
-    ![]({{site.baseurl}}/attachments/9306255/9437271.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306255/9437271.png)
 4.  Click inside the **Handling fee** field and specify the surcharge amount you require.
-    ![]({{site.baseurl}}/attachments/9306255/9437272.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306255/9437272.png)
 5.  Click the **Save changes** button at the bottom of the screen to save the changes.
-    ![]({{site.baseurl}}/attachments/9306255/9437274.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306255/9437274.png)
     The handling fee value will be updated.
 

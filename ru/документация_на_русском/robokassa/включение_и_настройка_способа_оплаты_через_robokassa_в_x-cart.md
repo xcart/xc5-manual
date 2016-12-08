@@ -23,17 +23,17 @@ categories:
 Чтобы включить способ оплаты товаров в Вашем магазине с использованием сервиса ROBOKASSA, выполните следующие шаги:
 
 1.  Войдите в интерфейс Администратора X-Cart и убедитесь, что модуль ROBOKASSA {% link "установлен и активирован" ref_esm15xpd %}:
-    ![]({{site.baseurl}}/attachments/7504688/7602394.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504688/7602394.png)
 
 2.  Перейдите на страницу **Payment methods** (**Store setup -> Payment methods**):
-    ![]({{site.baseurl}}/attachments/7504688/7602390.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504688/7602390.png)
 3.  На странице **Payment methods** в секции **Alternative payment methods** выберите **Add payment method**:
-    ![]({{site.baseurl}}/attachments/7504688/7602391.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504688/7602391.png)
     Нажатие на кнопку вызовет всплывающее окно со списком способов оплаты, доступных для добавления:
     ![]({{site.baseurl}}/attachments/7504688/7602392.png)
 
 4.  Прокрутите список вниз, найдите способ оплаты, соответствующий приему оплаты через ROBOKASSA, и нажмите на кнопку **Choose** напротив его названия:
-    ![]({{site.baseurl}}/attachments/7504688/7602393.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504688/7602393.png)
 
     Способ оплаты «ROBOKASSA» будет добавлен (Вы увидите всплывающее сообщение с подтверждением в верхней части экрана).
 
@@ -43,11 +43,11 @@ categories:
 
 Настройка платежного модуля ROBOKASSA в X-Cart осуществляется на странице **Payment methods :: Robokassa**:
 
-![]({{site.baseurl}}/attachments/7504688/7602395.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504688/7602395.png)
 
 Переход на эту страницу осуществляется автоматически после добавления ROBOKASSA в список альтернативных способов оплаты, поддерживаемых Вашим магазином. Также Вы можете попасть на эту страницу переходом по ссылке **Configure** напротив названия соответствующего способа оплаты на странице **Payment methods** (**Store setup -> Payment methods**) в секции **Alternative payment methods**:
 
-![]({{site.baseurl}}/attachments/7504688/7602396.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504688/7602396.png)
 
 Для настройки платежного модуля ROBOKASSA, выполните следующие шаги:
 
@@ -71,15 +71,15 @@ categories:
 
 1.  В списке **Alternative payment methods** на странице **Payment methods **найдите способ оплаты, соответствующий приему оплаты через ROBOKASSA.
 2.  Убедитесь, что модуль ROBOKASSA корректно настроен (Кнопка включения напротив названия данного способа оплаты в списке должна быть активна, т.е. доступна для переключения).
-    ![]({{site.baseurl}}/attachments/7504688/7602398.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504688/7602398.png)
 3.  Переключите кнопку включения в состояние «Включено».
     Способ оплаты ROBOKASSA будет активирован (Кнопка включения изменит свой цвет на зеленый):
-    ![]({{site.baseurl}}/attachments/7504688/7602399.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504688/7602399.png)
     Теперь способ оплаты ROBOKASSA доступен Вашим покупателям. 
 
 В случае, если настройка модуля не была завершена (некоторые необходимые для работы модуля поля на странице настройки модуля остались незаполненными), активация способа оплаты ROBOKASSA будет невозможна:
 
-![]({{site.baseurl}}/attachments/7504688/7602397.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504688/7602397.png)
 
 Для устранения этой проблемы необходимо завершить настройку модуля.
 

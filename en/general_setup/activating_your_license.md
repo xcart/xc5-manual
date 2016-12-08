@@ -29,39 +29,39 @@ To activate a Free X-Cart 5 license, do the following:
 
 1.  Log in to the Admin area of your X-Cart 5 trial installation and access the form for license activation. 
     *   Every time you log in to the Admin area, the license activation form is displayed automatically in a popup window along with the Evaluation notice:
-        ![]({{site.baseurl}}/attachments/8225232/8716594.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716594.png)
     *   The same form can be accessed by clicking on the **Activate key** button in the Admin area site header:
 
-        ![]({{site.baseurl}}/attachments/8225232/8716596.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716596.png)
 
     *   Or the **Activate license key** button in the Installed Modules section:
 
-        ![]({{site.baseurl}}/attachments/8225232/8716604.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716604.png)
 
     *   Or the **Activate license key** button in the Modules Marketplace:
-        ![]({{site.baseurl}}/attachments/8225232/8716597.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716597.png)
         You may need to click the **activate your X-Cart license** link to get the form expanded:
-        ![]({{site.baseurl}}/attachments/8225232/8716598.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716598.png)
 
 2.  Click the **Activate free license** button. Do not enter anything into the field that says "_Enter your icense key here_" (This field needs to be completed for commercial (non-free) products only):
-    ![]({{site.baseurl}}/attachments/8225232/8716599.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8716599.png)
 
 3.  Once the **Activate free license** button has been clicked, the popup window will close, and you will see a page with a warning about the consequences of free license activation:
-    ![]({{site.baseurl}}/attachments/8225232/8716600.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8716600.png)
     Since the X-Cart 5 Business package on which the trial version is based includes more modules than the X-Cart 5 Free edition, activation of the Free license will cause some of the modules on your X-Cart installation to be disabled. So basically what you see on this page is a list of modules that will be disabled for your X-Cart installation.
 
     Review the "to be disabled" list and decide whether you want to continue with the activation of the Free license. If at a later time you need any of the modules disabled by the activation of the Free license, you will be able to purchase them separately.
 
 4.  Scroll down to the bottom of the page and enter the email address to which you want X-Cart to register your Free license:
-    ![]({{site.baseurl}}/attachments/8225232/8356126.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8356126.png)
 5.  Click **Activate**. The license activation process will begin:
-    ![]({{site.baseurl}}/attachments/8225232/8356127.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8356127.png)
     The process may take a few minutes. Take care not to close the page before the process has fully completed.
 
 6.  Once the license activation has been completed, you should see a confirmation message at the top of the screen:
-    ![]({{site.baseurl}}/attachments/8225232/8716601.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8716601.png)
     Now your Admin area header should be showing the license type you have activated:
-    ![]({{site.baseurl}}/attachments/8225232/8716602.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8716602.png)
 
 ## Activating a Business / Multivendor / Ultimate X-Cart 5 license
 
@@ -72,7 +72,7 @@ A {% link "video instruction on X-Cart 5 Business license activation" ref_UUrby
 When you purchase X-Cart 5 Business, Multivendor or Ultimate, a message is sent to your license registration email address with the subject "**Your X-Cart 5 license key**". This message contains a 16-letter code that you must use to activate your license. 
 
 The key is also stored in your personal HelpDesk account in the section **My Licenses**:
-![]({{site.baseurl}}/attachments/8225232/8356149.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225232/8356149.png)
 
 Be sure to have this key at the ready when you are going to activate your license.
 
@@ -82,27 +82,27 @@ To activate your license, do the following:
 
 1.  Log in to the Admin area of your X-Cart 5 installation and access the form for license activation. 
     *   If you are using the X-Cart 5 trial, you can find this form in the "Evaluation notice" box which pops up every time you log in to the Admin area:
-        ![]({{site.baseurl}}/attachments/8225232/8716594.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716594.png)
         Alternatively, you can open the license activation form by clicking on the **Activate key** button in the Admin area site header:
 
-        ![]({{site.baseurl}}/attachments/8225232/8716596.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716596.png)
         or by clicking the **Activate license key** button in the Installed Modules section:
-        ![]({{site.baseurl}}/attachments/8225232/8716604.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716604.png)
         or in Modules Marketplace:
-        ![]({{site.baseurl}}/attachments/8225232/8716597.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716597.png)
         You may need to click the **activate your X-Cart license** link to get the form expanded:
-        ![]({{site.baseurl}}/attachments/8225232/8716598.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716598.png)
     *   If you have activated an X-Cart license previously, you can access the license activation form by using the **Activate license key** button in the Installed Modules section:
-        ![]({{site.baseurl}}/attachments/8225232/8716604.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716604.png)
         or in the Modules Marketplace:
-        ![]({{site.baseurl}}/attachments/8225232/8716597.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225232/8716597.png)
 2.  In the license activation form, enter your license key into the appropriate field and click **Activate**:
-    ![]({{site.baseurl}}/attachments/8225232/8716603.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8716603.png)
     The license activation process will begin. As soon as it completed, a success message will be displayed at the top of the screen:
-    ![]({{site.baseurl}}/attachments/8225232/8716605.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8716605.png)
     That is all; your license has been activated. Now, if you look at your Admin area header, you should be able to see the license type you have activated:
 
-    ![]({{site.baseurl}}/attachments/8225232/8716606.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8716606.png)
     (The screenshot above demonstrates the result of activating a Business license; for Multivendor license this would be "Multivendor", and for Ultimate license this would be "Ultimate").
 
 ## Activating an X-Cart 5 module license
@@ -118,20 +118,20 @@ To activate a module license, do the following:
 1.  Log in to the Admin area of your X-Cart 5 installation and go to the Modules Marketplace (Select** Modules** in the main menu, then click the View more addons in the Marketplace link).
 
 2.  Access the license activation form by clicking either the **Activate license key** button above the module list or the **Activate key **link next to the name of the module for which you are activating a license:
-    ![]({{site.baseurl}}/attachments/8225232/8716608.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8716608.png)
     The form for license activation looks as follows:
-    ![]({{site.baseurl}}/attachments/8225232/8716609.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8716609.png)
     If you are using the trial version, you will be requested to activate your X-Cart 5 license before you can activate the module license:
-    ![]({{site.baseurl}}/attachments/8225232/8716598.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8716598.png)
 3.  Enter your license key into the appropriate field and click **Activate**:
-    ![]({{site.baseurl}}/attachments/8225232/8716610.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225232/8716610.png)
     If the submitted license key is found valid, X-Cart will immediately start downloading and installing the module:
 
-![]({{site.baseurl}}/attachments/8225232/8356157.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225232/8356157.png)
 
 The process is likely to take a few minutes. Take care not to close the page before the process has fully completed.
 
-![]({{site.baseurl}}/attachments/8225232/8356158.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225232/8356158.png)
 
 Once the module installation has been completed, a confirmation message will be displayed at the top of the screen.
 

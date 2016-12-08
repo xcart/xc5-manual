@@ -13,7 +13,7 @@ order: 260
 
 It is possible to remove all **Add to cart **buttons from your store and only show products to customers - without letting them buy anything. This can be done by {% link "installing" ref_Vn1mMUw9 %} the module **Catalog** by X-Cart team:
 
-![]({{site.baseurl}}/attachments/6389782/6586395.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389782/6586395.png)
 
 Once the module has been installed, checkout is disabled, and store visitors are not allowed to buy any products.
 

@@ -16,7 +16,7 @@ To configure the module:
 
 1.  In the list of your store's installed modules, locate the entry for X-Payments subscriptions and click the **Settings **link below it.
     The "X-Payments subscriptions" module settings page opens:
-    ![]({{site.baseurl}}/attachments/9666610/9633864.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9666610/9633864.png)
 
 2.  Adjust the module settings:
     *   **Number of** **rebill attempts for an unsuccessful charge**: Normally, the module will charge a subscription customer according to the schedule defined for their specific subscription. However, sometimes the processing of such payments may fail. In this case, the module will attempt to charge the customer's card again in a few days (The number of days is defined by the setting "How often to attempt rebills for an unsuccessful charge (in days)" below). The setting "Number of rebill attempts for an unsuccessful charge" allows you to set the maximum number of times that your store must try to charge the customer's card after the initial attempt to process the subscription payment was unsuccessful. If this number is exceeded, the module will stop the subscription and send an email notification both to the customer and the store's orders department.

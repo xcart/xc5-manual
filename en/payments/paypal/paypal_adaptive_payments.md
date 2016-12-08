@@ -22,16 +22,16 @@ Note that in the current implementation of PayPal Adaptive Payments for X-Cart, 
 
 Like all PayPal payment methods, the method "PayPal Adaptive payments" is enabled by the module "PayPal":
 
-![]({{site.baseurl}}/attachments/8751079/8719798.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8751079/8719798.png)
 
 To be able to use "PayPal Adaptive payments", a verified Premier or Business PayPal account is required. So, before you start, you may have to [sign up for an account](https://www.paypal.com/webapps/mpp/merchant) or upgrade your existing one.
 
 To add the payment method "PayPal Adaptive payments" for your store:
 
-1.  In your store's Admin area, go to the Payment Settings section  (**Store setup** >** Payment methods**) and click **Add payment method**:![]({{site.baseurl}}/attachments/8751079/8719795.png?effects=drop-shadow)
-2.  In the list of payment methods that opens in a popup window, locate the method "PayPal Adaptive payments" and click the **Add** button opposite its name:![]({{site.baseurl}}/attachments/8751079/8719794.png?effects=drop-shadow)
+1.  In your store's Admin area, go to the Payment Settings section  (**Store setup** >** Payment methods**) and click **Add payment method**:![]({{site.baseurl}}/attachments/8751079/8719795.png)
+2.  In the list of payment methods that opens in a popup window, locate the method "PayPal Adaptive payments" and click the **Add** button opposite its name:![]({{site.baseurl}}/attachments/8751079/8719794.png)
 3.  Once the payment method has been added, configure its settings:
-    ![]({{site.baseurl}}/attachments/8751079/8719797.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8751079/8719797.png)
     Your account settings:
 
     *   **Application ID**: Your AppID value. When testing in the Sandbox, developers can use the global Sandbox AppID value. However, for production, you must obtain a live AppID value from PayPal. See [Registering your application with PayPal](https://developer.paypal.com/docs/classic/lifecycle/goingLive/#register) for more information.
@@ -43,23 +43,23 @@ To add the payment method "PayPal Adaptive payments" for your store:
     *   **Order id prefix**: A prefix that will be added to the IDs of all the orders originating from this store to make them unique. This value is required only if you use your PayPal account with more than one stores.
 
 4.  Activate the payment method.
-    ![]({{site.baseurl}}/attachments/8751079/9437186.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8751079/9437186.png)
 
 Once the above steps have been completed, shoppers at your store should be able to select this method at checkout and use it for payment. By default, the name of this payment method will appear to shoppers simply as "PayPal":
 
-![]({{site.baseurl}}/attachments/8751079/9437188.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8751079/9437188.png)
 
 The same payment method name will appear on the order invoice:
 
-![]({{site.baseurl}}/attachments/8751079/9437189.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8751079/9437189.png)
 
 If necessary, you can adjust the display name of this payment method (the one that will be visible to customers) and the position of this payment method in your store's list of payment methods via the **Sorting & Descriptions** tab on the Payment settings page: 
 
-![]({{site.baseurl}}/attachments/8751079/9437187.png?effects=drop-shadow) 
+![]({{site.baseurl}}/attachments/8751079/9437187.png) 
 
 In the Payment transactions section of the Admin back end (**Orders** > **Payment transactions**), the method will be displayed under the name "PayPal Adaptive payments" to avoid confusion with other PayPal methods:
 
-![]({{site.baseurl}}/attachments/8751079/9437190.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8751079/9437190.png)
 
 To be able to receive payments through PayPal Adaptive payments automatically, a vendor needs to specify their PayPal account in the **Financial info** section of their profile (See {% link "Managing vendor profile information" ref_b7PTQMgf %}). If a vendor fails to specify their PayPal account, the money due to them will simply not be transferred to their account, but will remain in the account of the store administrator. For example, if an order contains products by three vendors, of which only one has a PayPal account specified in their profile, the money will be transferred only to the vendor who has a PayPal account specified as their Financial info, whereas the money of the other two vendors will remain in the account of the administrator. In the Transactions history section (**Users** > **Transactions history**) there will appear auto-generated PayPal Adaptive payments transactions showing the receipt of funds by the store administrator for each of the three vendors, but an automatic transaction showing payout of vendor earnings will be present only for one of the vendors. The administrator will have to find a way to pay out the money they owe to the remaining two vendors (with methods outside X-Cart), after which the information about the respective payout transactions will have to be added in X-Cart manually.
 
@@ -69,17 +69,17 @@ All the information about the flow of payments from buyers to the store administ
 
 For example, our store has an Order DST based commission rate of 10%. The Order shipping cost based commission rate is not applied, because the store is set to operate in the "Warehouse" multivendor mode:
 
-![]({{site.baseurl}}/attachments/8751079/9437194.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8751079/9437194.png)
 
 Let's assume that in this store we received an order that had been paid for through PayPal Adaptive payments. The order number is #00009. We can see the respective payment transaction for the amount of $42.07 in the Payment transactions section (**Orders** > **Payment transactions**):
 
-![]({{site.baseurl}}/attachments/8751079/9437195.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8751079/9437195.png)
 
 This transaction shows that we have received the money for the order from the buyer. Based on the transaction status, we see that the transaction was completed successfully.
 
 Now let's have a look at the order details. The order contains two products. One of the products - "Digital Angel" priced at $18.99 - is owned by us [the store administrator], the other one - "Test product 1" priced at $20 - belongs to one of the vendors (The order details do not state which one exactly, but should we need this information, we can find it out by doing a search for the product in the Admin area).
 
-![]({{site.baseurl}}/attachments/8751079/9437193.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8751079/9437193.png)
 
 We need to make sure that the vendor who provided to us the product "Test product 1" has received their earnings from this order automatically through PayPal Adaptive Payments. Let's visit the Transactions history section (**Users** > **Transactions history**) and see if there has been a transaction to pay out the vendor's earnings.
 
@@ -91,7 +91,7 @@ and
 
 *   (Auto) Order paid -- Paid to vendor: $18.00
 
-![]({{site.baseurl}}/attachments/8751079/9437197.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8751079/9437197.png)
 
 The first transaction - "(Auto PayPal) PayPal Adaptive: Commission paid -- Vendor earnings: $18.00" - means that one or more products owned by a vendor were purchased, and we [the store administrator] now owe money to the vendor. The amount $18.00 is the result of subtracting the 10% Order DST based commission ($2) from the vendor's share of the order discounted subtotal ($20).
 

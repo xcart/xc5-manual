@@ -17,13 +17,13 @@ Sometimes the module you want to use is installed, but not active. To be able to
 To activate an installed module:
 
 1.  In your store's Admin area, click **Modules** to go to the **Installed Modules** section:
-    ![]({{site.baseurl}}/attachments/7503971/8716504.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7503971/8716504.png)
 2.  In this section, find the module that needs to be activated (for example, **Add to Cart Popup**):
-    ![]({{site.baseurl}}/attachments/7503971/8716505.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7503971/8716505.png)
 3.  Select the **Enabled **checkbox below its name:
-    ![]({{site.baseurl}}/attachments/7503971/8716506.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7503971/8716506.png)
 4.  Click the **Save changes** button at the bottom of the screen. This starts the activation process which may take a while to complete. After it is finished, the module will be activated in your store and ready to use:
-    ![]({{site.baseurl}}/attachments/7503971/8716507.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7503971/8716507.png)
 
 ## Deactivating modules
 

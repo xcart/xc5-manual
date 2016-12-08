@@ -15,7 +15,7 @@ Sales tax calculation in X-Cart 5 can be enabled using the module **Sales Tax**.
 
 If the installed module is not enabled, you will need to {% link "activate" ref_uEnDBBA7 %} it. 
 
-![]({{site.baseurl}}/attachments/8225533/8356388.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225533/8356388.png)
 
 Setting up sales tax in X-Cart 5 is not difficult, whereas the system provides enough flexibility to configure even the most intricate tax calculation rules: if necessary, it is possible to configure your sales tax so it is calculated differently depending on the tax class of the products in the order, the customer's address zone and the customer's membership level.
 
@@ -52,13 +52,13 @@ Before you configure sales tax:
 To configure your sales tax, complete the following steps:
 
 1.  In your store's Admin area, go to the Taxes section (**Store setup** > **Taxes**).
-    ![]({{site.baseurl}}/attachments/8225533/8716413.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225533/8716413.png)
     
 2.  Make sure you are viewing the **Sales tax** tab.
-    ![]({{site.baseurl}}/attachments/8225533/8716416.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225533/8716416.png)
     
 3.  Configure the tax options in the **Common tax settings** section:
-    ![xc5_taxes_sales_tax_common_settings.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/xc5_taxes_sales_tax_common_settings.png?effects=drop-shadow)
+    ![xc5_taxes_sales_tax_common_settings.png]({{site.baseurl}}/attachments/ref_aJPK4DHN/xc5_taxes_sales_tax_common_settings.png)
 
 
     *   Use the **Tax title** field to enter a general name describing the type of tax applied to orders in your store. This name will show on your store's checkout and on your customers' invoices. Suggested values for this field include _Tax_, _Sales Tax_, _GST_ and the like.
@@ -70,7 +70,7 @@ To configure your sales tax, complete the following steps:
     *   If you need tax rates to be applied to the cost of the products in a customer's order (product subtotal or discounted subtotal), or to the cost of the products plus shipping (subtotal + shipping cost or discounted subtotal + shipping cost), set up tax rates using the **General tax rates** section_:_
 
         1.  Use the **Taxable base** selector to specify the type of costs on the basis of which your tax rates should be calculated. 
-            ![]({{site.baseurl}}/attachments/8225533/8716420.png?effects=drop-shadow)
+            ![]({{site.baseurl}}/attachments/8225533/8716420.png)
             The available options are as follows:
             *   _Subtotal + Shipping cost;_
             *   _Discounted subtotal + Shipping cost;_
@@ -81,17 +81,17 @@ To configure your sales tax, complete the following steps:
             If you need multiple tax rates calculated based on different types of costs, select the last option - _Individual settings for every rate_. Selecting this option adds a selector with the first four options from the above list for each of your tax rates allowing you to specify a taxable base for every tax rate individually.
 
         2.  In the **General tax rates** section below, add the tax rates you require. 
-            ![]({{site.baseurl}}/attachments/8225533/8716421.png?effects=drop-shadow)
+            ![]({{site.baseurl}}/attachments/8225533/8716421.png)
             For more info, see the section "Setting up your sales tax rates" further in this article.
 
     *   If you need tax rates to be applied only to shipping charges, click on the link "Click here to specify tax rates that will apply only to shipping charges". 
-        ![]({{site.baseurl}}/attachments/8225533/8716422.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225533/8716422.png)
         This will expand a section titled **Tax rates on shipping cost**. 
-        ![]({{site.baseurl}}/attachments/8225533/8716423.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8225533/8716423.png)
         Use this section to set up tax rates that will apply only to shipping charges. For more info, see the section "Setting up your sales tax rates" further in this article.
 
 5.  Make sure sales tax calculation is enabled in your store. This is controlled by the **On**/**Off** button to the right of the **Tax title** field. When sales tax calculation is enabled, the On/Off icon on the button is green.
-    ![]({{site.baseurl}}/attachments/8225533/8716428.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225533/8716428.png)
     
 6.  Click the **Save changes** button at the bottom of the page to save the changes.
 
@@ -100,9 +100,9 @@ To configure your sales tax, complete the following steps:
 You need to set up sales tax rates to {% link "configure your sales tax" ref_aJPK4DHN %}. Depending on whether you need to set up general tax rates or tax rates that apply only to shipping charges, use the appropriate section: **General tax rates** or **Tax rates on shipping cost**. The procedure for setting up general tax rates and tax rates on shipping cost is essentially the same:
 
 1.  Click the **New rate** button.
-    ![]({{site.baseurl}}/attachments/8225533/8716429.png?effects=drop-shadow) 
+    ![]({{site.baseurl}}/attachments/8225533/8716429.png) 
 2.  In the section that expands below, provide information about your new sales tax rate:
-    ![]({{site.baseurl}}/attachments/8225533/8716431.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225533/8716431.png)
 
     *   **Tax class**: Specify the type of products (tax class) to which the tax rate should be applied. For example, if you select the _Default tax class_ option here, the tax rate will be applied to all the products that have the default tax class assigned. 
     *   **User membership**: Specify the user membership level for which the tax rate should be applied. The option _Ignore membership_ allows you to create a tax rate that will be applied to all orders irrespective of the buyer's membership (**Note**: The "User membership" column becomes available when the option "Use the same tax rates for all user membership levels" is disabled in the common tax settings).
@@ -111,13 +111,13 @@ You need to set up sales tax rates to {% link "configure your sales tax" ref_aJP
     *   **Rate**: Specify the tax rate amount as a percentage of the selected taxable base.
 3.  If necessary, use the **New rate** button to add rows for more tax rates. Complete the fields in each row as you require.
 4.  Click the **Save changes** button at the bottom of the page to save the changes.
-    ![]({{site.baseurl}}/attachments/8225533/8716432.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225533/8716432.png)
 
 ## Enabling/Disabling sales tax calculation
 
 Once configured and enabled, sales tax calculation can be disabled/re-enabled using the **On**/**Off** button to the right of the **Tax title** field on the **Sales tax** panel in the Taxes section (**Store setup** > **Taxes**). When sales tax calculation is enabled, the **On/Off** icon on the button is green. When it is disabled, the icon is grey.
 
-![]({{site.baseurl}}/attachments/8225533/8716428.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225533/8716428.png)
 
 _Related pages:_
 

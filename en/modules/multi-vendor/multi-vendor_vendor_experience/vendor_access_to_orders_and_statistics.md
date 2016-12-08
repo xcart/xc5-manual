@@ -12,7 +12,7 @@ categories:
 
 Once an order has been placed for a vendor's product, the vendor can see the respective order added to the list of orders in the Orders section of the store's back end (**Orders** > **Orders list**):
 
-![]({{site.baseurl}}/attachments/8749511/8717244.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749511/8717244.png)
 
 By clicking on the Order # of this order, the vendor can view the order details.
 
@@ -31,15 +31,15 @@ In the "_Vendors as separate shops_" mode, a separate order is formed for the pr
 
 Vendors can access their statistics on orders and bestsellers via the Statistics section (**Orders** > **Statistics**). The order statistics can be viewed via the **Order statistics** tab:
 
-![]({{site.baseurl}}/attachments/8749511/8717246.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749511/8717246.png)
 
 The bestsellers statistics can be accessed via the **Best sellers** tab:
 
-![]({{site.baseurl}}/attachments/8749511/8717247.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749511/8717247.png)
 
 Vendors can also track the movement of the money from the sales of their products to their account via the Transactions history section (**Users** > **Transactions history**):
 
-![]({{site.baseurl}}/attachments/8749511/8719641.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749511/8719641.png)
 
 _Related pages:_
 

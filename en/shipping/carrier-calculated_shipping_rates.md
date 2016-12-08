@@ -32,13 +32,13 @@ Because the shipping costs are calculated automatically by the carrier at the ex
 To use carrier-calculated shipping rates, configure shipping as outlined below:
 
 1.  In your store's Admin area, go to the Shipping methods section (**Store setup** > **Shipping**):
-    ![]({{site.baseurl}}/attachments/9306236/9437257.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306236/9437257.png)
 2.  Click the **Add shipping method** button:
-    ![]({{site.baseurl}}/attachments/9306236/9437259.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306236/9437259.png)
     A popup window allowing you to choose what type of shipping rates you would like to use will be displayed:
-    ![]({{site.baseurl}}/attachments/9306236/9437260.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306236/9437260.png)
 3.  On the **Carrier-calculated rates** tab within the popup window, locate the carrier whose real-time rate calculation service you would like to use. Click on the respective icon:
-    ![]({{site.baseurl}}/attachments/9306236/9437261.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306236/9437261.png)
     If the selected shipping integration module is installed and enabled at your store, you will be redirected to its settings page. If not, you will be redirected to X-Cart's Modules marketplace from where you will need to install the respective module. 
 
 4.  Configure the settings of the selected shipping integration module and save the changes. 

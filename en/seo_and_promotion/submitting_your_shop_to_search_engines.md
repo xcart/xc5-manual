@@ -16,7 +16,7 @@ The module **XML Sitemap** for X-Cart 5 serves SEO purposes. It generates an X
 The module can be installed from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 ![xc5_xml_sitemap_module.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_module.png)
 
-Once the module XML Sitemap has been installed, you will be able to access the XML sitemap section (**Store setup** > **XML sitemap**) in your store's Admin area.![]({{site.baseurl}}/attachments/6389770/8719453.png?effects=drop-shadow)In the XML sitemap section, you can adjust the settings based on which the XML sitemap for your store will be generated:
+Once the module XML Sitemap has been installed, you will be able to access the XML sitemap section (**Store setup** > **XML sitemap**) in your store's Admin area.![]({{site.baseurl}}/attachments/6389770/8719453.png)In the XML sitemap section, you can adjust the settings based on which the XML sitemap for your store will be generated:
 
 *   The subsection titled "**Mark the search engines you want to inform of the structure of your site using the site map**" allows you to specify the search engines to which the information from your site's XML sitemap should be made available.
 *   The settings "**Frequency of content renewal for X page**" allow you to specify how frequently specific types of pages on your store site are likely to change. The frequency of content renewal value provides general information to search engines and may not correlate exactly to how often they crawl the page. 
@@ -26,11 +26,11 @@ Once you are done adjusting the XML sitemap settings, be sure to click the **Su
 
 To re-generate your store's XML sitemap after changing the settings, use the **Generate XML-Sitemap** button at the top of the page:
 
-![]({{site.baseurl}}/attachments/6389770/8719785.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389770/8719785.png)
 
 At the top of the page, you can find your XML sitemap URL:
 
-![]({{site.baseurl}}/attachments/6389770/8719786.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389770/8719786.png)
 
 This URL specifies the location of your store's XML sitemap index. The index lists all the available XML files for your store (There can be more than one XML files due to restrictions on the size of individual XML files and the number of URLs in each XML file). 
 

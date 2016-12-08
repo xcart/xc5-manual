@@ -21,15 +21,15 @@ To start using Pilibaba Chinese Checkout with X-Cart 5:
 
 1.  In your X-Cart store's Admin area, go to the Payment methods section.
 2.  In the Payment methods section, find the method Pilibaba Chinese Checkout and click **Configure**: 
-    ![]({{site.baseurl}}/attachments/9307023/9439626.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9307023/9439626.png)
 3.  Use the Pilibaba Registration page (**Registration** tab) to create a Pilibaba merchant account: complete all the fields on the page with your desired settings then click **Click to create Pilibaba account**. 
-    ![]({{site.baseurl}}/attachments/9307023/9439627.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9307023/9439627.png)
 4.  After creating a Pilibaba account, click the **Connection **tab to go to the Pilibaba settings page. All your info will be automatically loaded from your account and displayed in the "Your account settings" section.  
     To use the Pilibaba gateway in production, be sure to switch the **Test/Live mode** setting to “_Live mode_”. To log in to your Pilibaba account, click the link **My Pilibaba account dashboard**.
 
-    ![]({{site.baseurl}}/attachments/9307023/9439629.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9307023/9439629.png)
     Please note that the URL is pre-defined as preen.pilibaba.com when you are in Test mode, and as en.pilibaba.com when you are in Live mode.
-    ![]({{site.baseurl}}/attachments/9307023/9439630.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9307023/9439630.png)
 
 ## Pilibaba account overview
 
@@ -45,13 +45,13 @@ Pilibaba dashboard is easy to operate. You can:
 
 Below are a few screenshots demonstrating the features available in the Pilibaba dashboard:
 
-![]({{site.baseurl}}/attachments/9307023/9439631.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/9307023/9439631.png)
 
-![]({{site.baseurl}}/attachments/9307023/9439632.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/9307023/9439632.png)
 
-![]({{site.baseurl}}/attachments/9307023/9439633.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/9307023/9439633.png)
 
-![]({{site.baseurl}}/attachments/9307023/9439634.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/9307023/9439634.png)
 
 ## Attachments:
 

@@ -12,7 +12,7 @@ categories:
 
 In stores with the modules "Coupons" and "Volume Discounts" installed and enabled, vendors can create coupons and discounts for their products. This can be done using the Promotions section of the store's back end:
 
-![]({{site.baseurl}}/attachments/8751033/8719622.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8751033/8719622.png)
 
 Any coupons and discounts created by a vendor are applied only to the products of that particular vendor.
 

@@ -14,11 +14,11 @@ The module allows you to turn some or all the products on your website into book
 
 The details page of a bookable product provides a widget allowing website visitors to check the product's availability for the period they require:
 
-![]({{site.baseurl}}/attachments/8749986/8718800.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749986/8718800.png)
 
 Bookable products can be simple or more complex (configured with attributes and product variants). When a bookable product has variants, the module displays the list of its available variants in the form of a table where each variant is a separate line. At the end of the line a field is provided allowing a user to specify the number of reservations of the variant they wish to make for the specified dates. It is possible to have a name for each specific variant in the table and, if necessary, a column providing information about the maximum number of guests that is possible for each of the variants:
 
-![]({{site.baseurl}}/attachments/8749986/8718798.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749986/8718798.png)
 
 The product's price is treated as the price of a 1 night's reservation. The total price of a reservation is calculated based on the number of nights in the selected reservation period.
 
@@ -26,7 +26,7 @@ The module also provides the ability to track reservations: The "stock level" se
 
 The module is mobile-friendly: by using responsive design techniques, it can display available bookable variants on tablets and other mobile devices without scroll bars:
 
-![]({{site.baseurl}}/attachments/8749986/8718802.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749986/8718802.png)
 
 Related pages:
 

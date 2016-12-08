@@ -20,11 +20,11 @@ These settings allow you to:
 
 For a product, SEO optimization related settings can be found on the **Info** tab of the product's details page:
 
-![]({{site.baseurl}}/attachments/6389820/8719379.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389820/8719379.png)
 
 For a category, these settings can be found on the **Category info** tab of the category's details page:
 
-![]({{site.baseurl}}/attachments/6389820/8719380.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389820/8719380.png)
 
 Note that by default X-Cart generates Clean URLs for product and category pages automatically: you simply need to make sure the **Autogenerate Clean URL** check boxoption is enabled before you click the button to save the details of the product or category you've been editing.
 

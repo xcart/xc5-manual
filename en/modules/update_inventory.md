@@ -15,11 +15,11 @@ Starting with X-Cart version 5.2.13, X-Cart has a full-featured import mode for 
 
 The **Update inventory** module by X-Cart team provides a quick and easy way to update product quantities by importing a simple [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) file. This module works for both regular products and {% link "product variants" ref_0uApuQfx %}.
 
- ![]({{site.baseurl}}/attachments/9306477/9438200.png?effects=drop-shadow)
+ ![]({{site.baseurl}}/attachments/9306477/9438200.png)
 
  The required CSV file format for importing product quantity information is as follows:
 
-![]({{site.baseurl}}/attachments/9306477/9438201.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/9306477/9438201.png)
 
 As you can see, the CSV file has just two fields:
 
@@ -30,7 +30,7 @@ As you can see, the CSV file has just two fields:
 
 In a store with the module Update inventory installed and enabled, the CSV file for updating product quantities can be imported via the Update quantity section (**Catalog** > **Update quantity**):
 
-![]({{site.baseurl}}/attachments/9306477/9438202.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/9306477/9438202.png)
 
 When importing a CSV file to update product quantities, the following rules apply:
 

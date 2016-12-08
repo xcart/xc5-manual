@@ -14,16 +14,16 @@ When you have a product's barcode and need to find the product in your store's d
 
 1.  Go to the Products section (**Catalog** > **Products**). At the top of the page you will find the product filter.
 2.  Click inside the '''Search keywords''' filter field so the focus is on this field when you use the scanner to read your product's barcode:
-    ![]({{site.baseurl}}/attachments/8750357/8718941.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750357/8718941.png)
 
 3.  With your scanner, scan the barcode. The UPC code corresponding to this barcode appears in the field:
-    ![]({{site.baseurl}}/attachments/8750357/8718942.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750357/8718942.png)
 
 4.  Click the down arrow to expand the additional filter options and select the option to search in UPC/USBN:
-    ![]({{site.baseurl}}/attachments/8750357/8718944.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750357/8718944.png)
 
 5.  Click the **Search** button:
-    ![]({{site.baseurl}}/attachments/8750357/8718943.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750357/8718943.png)
 
 As a result, the product list will be filtered to display only the product with the submitted UPC code.
 

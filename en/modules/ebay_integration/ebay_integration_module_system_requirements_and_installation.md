@@ -18,7 +18,7 @@ To install and enable the module on your system, follow the general module insta
 
 As a result, you should have the module "eBay Integration" listed in your store's Installed Modules section (**Extensions > Installed modules**):
 
-![]({{site.baseurl}}/attachments/8225598/8356528.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225598/8356528.png)
 
 ## Attachments:
 

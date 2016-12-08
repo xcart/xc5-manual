@@ -14,16 +14,16 @@ order: 100
 The install and use the module X-Cart 5 to WordPress Integration, you need:
 
 *   WordPress v4.2.2 or higher with the free **“X-Cart Integration” plugin for WordPress** installed:
-    ![]({{site.baseurl}}/attachments/8750578/8719414.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750578/8719414.png)
     The plugin can be obtained here: [https://wordpress.org/plugins/x-cart-integration/](https://wordpress.org/plugins/x-cart-integration/)
     For instructions on configuring the plugin, see {% link "Configuring the X-Cart Intergration plugin in WordPress" ref_wacvoZl5 %}.
 
 *   X-Cart v5.2 or higher with the module **REST API** installed:
-    ![]({{site.baseurl}}/attachments/8750578/8719391.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750578/8719391.png)
 
 Both the modules X-Cart 5 to WordPress Integration and REST API can be obtained via X-Cart’s Marketplace:
 
-![]({{site.baseurl}}/attachments/8750578/8719393.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8750578/8719393.png)
 
 (The module REST API is already installed.)
 
@@ -31,7 +31,7 @@ For general module installation instructions, see {% link "Installing modules f
 
 After installing the modules, you should be able to see them as enabled in the Modules section of your X-Cart's Admin area:
 
-![]({{site.baseurl}}/attachments/8750578/8719394.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8750578/8719394.png)
 
 _Related pages:_
 

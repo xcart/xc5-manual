@@ -22,19 +22,19 @@ The page for vendor profile registration can be found at the following URL: 
 
 This page looks as follows:
 
-**![]({{site.baseurl}}/attachments/8749143/8716877.png?effects=drop-shadow)**
+**![]({{site.baseurl}}/attachments/8749143/8716877.png)**
 
 To register a vendor profile, a prospective vendor must provide a valid email address and a password (with confirmation) and click **Create**.
 
 The store administrator will be notified of the new vendor registration and will find the registered vendor profile listed in the Users section of the Admin area:
 
-![]({{site.baseurl}}/attachments/8749143/8716878.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749143/8716878.png)
 
 The administrator can view the profile details of the prospective vendor by clicking on the respective entry in the store's user list.
 
 The page with the prospective vendor's profile details provides the **Approve vendor** and **Decline** **vendor** buttons allowing the store administrator to approve or reject the vendor registration:
 
-![]({{site.baseurl}}/attachments/8749143/8716879.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749143/8716879.png)
 
 Once the vendor profile has been approved by the store administrator, the vendor is notified by email. Now they can log in to their personal area of the store's back end and start selling. 
 
@@ -44,9 +44,9 @@ A new vendor profile is created by the store administrator via the store's Admin
 To create a new vendor profile, the administrator does one of the following: 
 
 *   creates a new user profile with the access level "Vendor":
-    ![]({{site.baseurl}}/attachments/8749143/8719604.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749143/8719604.png)
 *   creates a new user profile with the access level "Admin" and the role "Vendor":
-    ![]({{site.baseurl}}/attachments/8749143/8716890.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749143/8716890.png)
 
 The user created using this method can log in and start selling immediately after their profile has been created.
 

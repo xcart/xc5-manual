@@ -19,13 +19,13 @@ To start using Webgility's eCC Desktop solution with X-Cart 5:
 
 1.  Get access to eCC Cloud software. You will need to go to [webgility.com](http://www.webgility.com/?utm_source=X-http://www.webgility.com/?utm_source=X-Cart%205%20Help%20Desk&utm_medium=eCC%20Cloud%20Help%20Article&utm_campaign=Partnership%3A%20X-Cart) and sign up for a Webgility account or use your existing account. 
 2.  In your X-Cart store's Admin area, go to the Modules Marketplace section (**Extensions > Marketplace**), search for the module **eCC Cloud: Quickbooks integration** and install it in your store:
-    ![]({{site.baseurl}}/attachments/7505378/7602653.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7505378/7602653.png)
     Once the installation process is completed, the module will be added to the list of your store's installed modules in the Installed modules section (**Extensions > Installed modules**).
-    ![]({{site.baseurl}}/attachments/7505378/7602647.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7505378/7602647.png)
 3.  Use the Settings link to go to the module's setting page:
-    ![]({{site.baseurl}}/attachments/7505378/7602648.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7505378/7602648.png)
 4.  The module settings page provides your store's connection details: **Store Module URL** and **Access Key**.
-    ![]({{site.baseurl}}/attachments/7505378/7602651.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7505378/7602651.png)
 5.  Connect your X-Cart store to eCC Cloud using the instructions from [Webgility's Help Desk article on connecting eCC Cloud to X-Cart](https://help.webgility.com/hc/en-us/articles/200363613-Connect-eCC-Cloud-to-X-Cart-?utm_source=X-Cart%205%20Help%20Desk&utm_medium=eCC%20Cloud%20Help%20Article&utm_campaign=Partnership%3A%20X-Cart).
 
 For more information, visit [www2.webgility.com/x-cart-5-ecc-cloud](http://www.x-cart.com/www2.webgility.com/x-cart-5-ecc-cloud) or call **(877)753-5373** ext. 1

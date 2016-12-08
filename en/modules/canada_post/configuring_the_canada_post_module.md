@@ -13,15 +13,15 @@ categories:
 After enabling the Canada Post module in your store and completing the Canada Post registration process using the Merchant registration wizard, you should check and adjust the module configuration. This can be done on the Canada Post settings page. You can access this page using one of the following methods:
 
 *   In the Installed Modules section of your X-Cart store’s Admin area (**Extensions** >** Installed modules**), locate the entry for the module "Canada Post" and click the **Settings **link below it:
-    ![]({{site.baseurl}}/attachments/7505449/7602821.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7505449/7602821.png)
 
     OR:
 
-*   In the Shipping section of your X-Cart store’s Admin area (**Store setup > Shipping**), select the Canada Post settings tab:![]({{site.baseurl}}/attachments/7505449/7602822.png?effects=drop-shadow)
+*   In the Shipping section of your X-Cart store’s Admin area (**Store setup > Shipping**), select the Canada Post settings tab:![]({{site.baseurl}}/attachments/7505449/7602822.png)
 
 The Canada Post settings page looks as follows:
 
-![]({{site.baseurl}}/attachments/7505449/7602823.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505449/7602823.png)
 
 Below is an explanation of the settings that can be found on the Canada Post settings page.
 

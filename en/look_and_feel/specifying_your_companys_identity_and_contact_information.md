@@ -13,11 +13,11 @@ order: 120
 
 It is possible to specify your company's identity and contact information so your customers know who to contact if they need more information about your products or services or need help with their order. This can be done via the _Identity_ and _Company address_ sections of your store's Contact information page (**Store setup > Contact information**):
 
-![]({{site.baseurl}}/attachments/6389857/8716523.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389857/8716523.png)
 
 Your full contact information (company name, website address, street address, phone and fax numbers) will be included into your customers' invoices like so:  
 
-![]({{site.baseurl}}/attachments/6389857/7602604.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389857/7602604.png)
 
 If you configure your store to provide shipping cost calculation for buyers, the address you enter in the _Company address_ section of the Contact information page will be used as the location from which your goods are shipped.
 
@@ -25,7 +25,7 @@ Such details as your company name, phone number, fax number and website address 
 
 Company name and year in which the store opened will be used in the copyright notice in the website's footer:
 
-![]({{site.baseurl}}/attachments/6389857/7602605.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389857/7602605.png)
 
 _Related pages:_
 

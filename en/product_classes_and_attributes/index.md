@@ -16,12 +16,12 @@ You may find that the standard X-Cart's Product info page does not have enough 
 
 Product information that you add in the form of product attributes is displayed in the store's front end in the **Specification** tab of the product details page:
 
-![]({{site.baseurl}}/attachments/7504847/7602452.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504847/7602452.png)
 
 Attributes can also be used:
 
 *   to set up product options/product variants that buyers will be able to choose:
-    ![]({{site.baseurl}}/attachments/7504847/7602468.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504847/7602468.png)
     (The product variants feature is enabled by the [Product Variants](http://www.x-cart.com/extensions/addons/product-variants.html) module).
 
 *   to set up product filters based on attributes (the feature enabled by the [Product Filter](http://www.x-cart.com/extensions/addons/product-filter.html) module).

@@ -27,7 +27,7 @@ To install and enable the module on your system, follow the general module insta
 
 As a result, you should have the module Abandoned Cart Reminder installed in the Modules section of your store:
 
-![]({{site.baseurl}}/attachments/7503940/8718920.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7503940/8718920.png)
 
 _Related pages:_
 

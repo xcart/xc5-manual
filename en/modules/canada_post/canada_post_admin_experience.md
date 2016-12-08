@@ -47,17 +47,17 @@ When a buyer selects one of the available Canada Post shipping methods for their
 
 Once the order has been placed, you can view its details via your store's Admin area as usual; the information about the shipping method selected by the buyer and the estimated shipping cost are availble in the Shipping info section of the **General info** tab:
 
-![]({{site.baseurl}}/attachments/7505660/7602858.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602858.png)
 
 When you are ready to pack the ordered items for shipment, start by visiting the Shipments section (This can be accessed via the **Shipments** tab when viewing the order details):
 
-![]({{site.baseurl}}/attachments/7505660/7602859.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602859.png)
 
 In this section, you need to provide information about the parcels that you will use to ship the order via Canada Post. A collection of information about a single parcel to be shipped by Canada Post is called a shipment.
 
 When you open the Shipments section for a new order, you will notice that it already contains a list of shipments. This list reflects the way in which the module proposes to split the items from this order into parcels based on the weight limit for one package. For example, in the snapshot below you can see how a large order was split into two parcels so the weight of each parcel does not exceed 30 kilograms:
 
-![]({{site.baseurl}}/attachments/7505660/7602861.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602861.png)
 
 Please note that when the module splits an order into parcels, it does not take into account the dimensions of the individual items in the order nor the dimensions of the box into which they will be packed. As a result, the method does not guarantee that the items placed by the module into one parcel will actually fit in. It is your responsibility as a merchant to verify not only that the weight of the items in each shipment does not exceed the Package maximum weight limit, but also to make sure the items placed into each parcel do actually fit into the box of the specified dimensions. 
 
@@ -67,7 +67,7 @@ In the example demonstrated by the snapshot above, we have exactly this type of 
 
 The size of the box can be easily adjusted by editing the **Dimensions** fields:
 
-![]({{site.baseurl}}/attachments/7505660/7602863.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602863.png)
 
 The distribution of the ordered items into parcels can be adjusted by moving items from one parcel to another. If necesary, more parcels can be added by moving items to a new parcel.
 
@@ -82,7 +82,7 @@ To move items from one parcel to another:
 
 The snapshot below demonstrates the creation of an additional parcel by moving five units of the product "Bare Metal Bender Wind-up" out of Parcel #1 to a new parcel (After the changes have been saved, a new parcel - Parcel #3 containing five wind-up Bender robots - will be added to the list; the number of Bender robots in Parcel #1 will be decreased):
 
-![]({{site.baseurl}}/attachments/7505660/7602862.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602862.png)
 
 As you move items between the parcels, the module automatically checks that the package weight limit is never exceeded.
 
@@ -101,11 +101,11 @@ After editing any parcel characteristics or options, be sure to apply your chang
 
 Once the configuration of your shipments has been completed, you need to submit information about them to Canada Post. To do so, click the **Save & Create shipment** button below each shipment:
 
-![]({{site.baseurl}}/attachments/7505660/7602864.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602864.png)
 
 The shipment will be submitted to Canada Post. Once it has been processed, the **Save & Create shipment** button will disappear; in its place you should be able to find a new information section titled "Shipment info": 
 
-![]({{site.baseurl}}/attachments/7505660/7602865.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602865.png)
 
 In this section some important information pertaining to the created shipment will be provided, including the Tracking pin (a tracking identifier by which you and the parcel addressee will be able to track the parcel) and the shipping label link.
 
@@ -125,15 +125,15 @@ Here's how you transmit shipments:
 
 Once you [create](#creating-shipments) a new shipment by clicking the **Save & Create shipment** button on the order details' **Shipments** tab, the shipment is added to your store's list of created Canada Post shipments in the CanadaPost shipments section (**Orders** > **CanadaPost shipments**):
 
-![]({{site.baseurl}}/attachments/7505660/7602867.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602867.png)
 
 Here you need to select the shipments that you want to transmit, specify your preferred payment method and click the **Transmit shipment** button:
 
-![]({{site.baseurl}}/attachments/7505660/7602868.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602868.png)
 
 The selected shipments will be transmitted. You should see a success message at the top of the screen:
 
-![]({{site.baseurl}}/attachments/7505660/7602869.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602869.png)
 
 Once a shipment has been transmitted, it is removed from the CanadaPost shipments section (**Orders** > **CanadaPost shipments**). The respective manifest is created. Now you can go to the CanadaPost manifests section (**Orders** > **CanadaPost manifests**) to [obtaining your manifest](#obtaining-manifests).
 
@@ -147,12 +147,12 @@ To void a created shipment, do one of the following:
 
 *   On the Shipments tab of the order details, locate the shipment that needs to be voided and click the **Void shipment** button pertaining to it:
 
-![]({{site.baseurl}}/attachments/7505660/7602866.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602866.png)
 
 OR:
 
 *   (This method is available only for shipments that were created while using CanadaPost contract services): In the CanadaPost shipments section (**Orders** > **CanadaPost shipments**), locate the shipment that needs to be voided and click the **x VOID** button opposite it:
-    ![]({{site.baseurl}}/attachments/7505660/7602870.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7505660/7602870.png)
 
 You will be asked to confirm the Void shipment action. What happens after you confirm this action depends on the type of services being used:
 
@@ -165,21 +165,21 @@ For Canada Post contract holders, the module offers the ability to generate Cana
 
 The step of obtaining a manifest for your shipments takes place after you have [transmit](#transmitting-shipments) them. To obtain a manifest, go to the CanadaPost manifests section (**Orders** > **CanadaPost manifests**). This section is where the list of manifests that have been created via your store can be seen. At the top of the list, you should be able to see the manifest for the group of shipments you have transmitted recently; you can recognize this manifest by its status, which should be "_Created_":
 
-![]({{site.baseurl}}/attachments/7505660/7602871.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602871.png)
 
 Note that while a manifest is in the "_Created_" status, it cannot be printed out because not all the required information has been received from the Canada Post server yet. To get a printable manifest, you need to perform one more step - to click the **Update manifests** button below the Manifests list: 
 
-![]({{site.baseurl}}/attachments/7505660/7602872.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602872.png)
 
 A click on the **Update manifests** button induces the module to send a request to the Canada Post server and thus obtain the information it requires to generate a printable manifest. As a result, the manifest status changes to "_Approved_", and a PDF document icon appears on the line of the respective entry in the Manifests list:
 
-![]({{site.baseurl}}/attachments/7505660/7602873.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602873.png)
 
 Now you can click on the PDF icon for the manifest, save the manifest as a PDF file on your system and have it printed out so you will have a printed copy of the manifest for Canada Post.
 
 Note that after the status of a manifest changes to "_Approved_", information about the manifest also appears in the details of the shipments included into it:
 
-![]({{site.baseurl}}/attachments/7505660/7602874.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602874.png)
 
 Here you can see the ID of the manifest into which the shipment was included. The "Document: Artifact" link allows you to save and print out the manifest without going to the CanadaPost manifests page.
 
@@ -187,7 +187,7 @@ Here you can see the ID of the manifest into which the shipment was included. Th
 
 Canada Post shipments can be tracked via the store's Admin area by clicking the Tracking pin link in the shipment details. The tracking details are displayed in a popup window:
 
-![]({{site.baseurl}}/attachments/7505660/7602875.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602875.png)
 
 Where applicable, the same window may provide links to related documents; for example, a signature image or a delivery confirmation certificate. 
 
@@ -195,17 +195,17 @@ Where applicable, the same window may provide links to related documents; for ex
 
 Return requests submitted by shoppers wishing to return items shipped to them by Canada Post can be found in the Returns section of the Admin area (**Orders** > **Returns**):
 
-![]({{site.baseurl}}/attachments/7505660/7602856.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602856.png)
 
 The return requests are displayed as a list:
 
-![]({{site.baseurl}}/attachments/7505660/7602855.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602855.png)
 
 New requests have the status "_Requires authorization_". This status means that you need to review the request and either approve or reject it.
 
 You can view the details of any request on the list by clicking on the respective Return # link in the first column. The return details page allows you to see what items are being returned and to view the buyer's note, if such a note has been provided:
 
-![]({{site.baseurl}}/attachments/7505660/7602857.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505660/7602857.png)
 
 To process a return request, simply select the status you require (_Approved_ or _Rejected_) from the **Status** drop-down box and click **Save changes**. If you are doing it via the return details page, you may choose to provide a note to the buyer using the **Note** box before saving the updated status. Once the status of a return request has been updated, an email message will be sent to the buyer informing them whether their request has been approved or rejected. The message of approval will contain a return label that the buyer will be able to print out and use for shipping the items back to your store.
 

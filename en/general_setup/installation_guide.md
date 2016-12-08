@@ -201,25 +201,25 @@ Create an empty database in your MySQL storage.
 
 Open the link: **`http://<your-domain>/<x-cart-5-directory>/install.php`** in your browser. It will start the installation wizard. Accept the license agreement and click **Next**.
 
-![]({{site.baseurl}}/attachments/524295/8719150.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/524295/8719150.png)
 
 #### Step 2\. Creating administrator account
 
 At this step, you need to define the email and password for your store's administrator profile. Once you are done with that, X-Cart 5 will send a notification to the email address you have specified along with some service info.
 
- ![]({{site.baseurl}}/attachments/524295/8719151.png?effects=drop-shadow)
+ ![]({{site.baseurl}}/attachments/524295/8719151.png)
 
 #### Step 3\. Environment check
 
 Now the installation wizard will check whether your server meets the system requirements for X-Cart 5\. It will report if the requirements are not met. If everything is OK, you will be automatically redirected to the next step.
 
-![]({{site.baseurl}}/attachments/524295/8719154.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/524295/8719154.png)
 
 #### Step 4\. Configuring X-Cart 5
 
 At this step you need to define the basic settings of your X-Cart 5 installation. Typically the page looks like the snapshot below:
 
-![]({{site.baseurl}}/attachments/524295/8719155.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/524295/8719155.png)
 
 Let's walk through the settings you need to adjust. The first group of settings on this page is as follows:
 
@@ -232,7 +232,7 @@ Below you will find links to some advanced configuration settings. Click on a li
 
 Here's the **Advanced MySQL settings** section:
 
-![]({{site.baseurl}}/attachments/524295/8719156.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/524295/8719156.png)
 
 In this section, you can adjust the following settings:
 
@@ -242,7 +242,7 @@ In this section, you can adjust the following settings:
 
 And here is the **Advanced server settings** section:
 
-![]({{site.baseurl}}/attachments/524295/8719157.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/524295/8719157.png)
 
 In this section, you can adjust the following settings:
 
@@ -257,13 +257,13 @@ Once you are done adjusting these settings, click **Next**.
 
 These two steps are dedicated to some boring work that X-Cart 5 has to do. It creates MySQL tables, cache, development code and so on. These steps are fully automated, so you just need to wait and let X-Cart 5 do the job. Usually it takes less than a minute.
 
-![]({{site.baseurl}}/attachments/524295/8719158.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/524295/8719158.png)
 
 #### Step 7\. Installation completed
 
 Now the installation process has been completed. You can use the links provided to access your store's customer front end and admin area. 
 
-![]({{site.baseurl}}/attachments/524295/8719159.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/524295/8719159.png)
 
 ## Possible installation problems
 

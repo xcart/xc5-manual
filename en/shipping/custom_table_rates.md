@@ -23,15 +23,15 @@ In X-Cart, a custom table can be configured to provide rates for:
 To configure a shipping method with custom table based rates, follow the steps below:
 
 1.  In your store's Admin area, go to the Shipping methods section (**Store setup **>** Shipping**):
-    ![]({{site.baseurl}}/attachments/9306242/9437466.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306242/9437466.png)
 2.  Click the **Add shipping method** button:
-    ![]({{site.baseurl}}/attachments/9306242/9437467.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306242/9437467.png)
     A popup window allowing you to choose what type of shipping rates you would like to use will be displayed:
-    ![]({{site.baseurl}}/attachments/9306242/9437468.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306242/9437468.png)
 3.  Within the popup, select the **Custom table rates** tab:
-    ![]({{site.baseurl}}/attachments/9306242/9437469.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306242/9437469.png)
 4.  Provide general information about the shipping method:
-    ![]({{site.baseurl}}/attachments/9306242/9437470.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306242/9437470.png)
 
     *   **Method name**: Enter a name for this shipping method. This name will be shown to buyers.
     *   **Delivery time**: Provide information about the estimated delivery time.
@@ -45,9 +45,9 @@ To configure a shipping method with custom table based rates, follow the steps b
 5.  Configure your custom shipping rates table for this shipping method. Let's see how to do it.
 
     In the lower part of the screen where you have provided the details of your shipping method, a form is provided that will help you to create your custom rates table for this method. What you see here is, in fact, the first row of your table - with the default zero values. 
-    ![]({{site.baseurl}}/attachments/9306242/9437471.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306242/9437471.png)
     The set of fields that you see in this table row may be different depending on the value of the "Table based on" setting above. For example, if you have chosen to base your table on "_Subtotal, weight, items_", there will be more fields; for lack of space, they will be displayed on two rows one below the other (as shown in the screenshot below):
-    ![]({{site.baseurl}}/attachments/9306242/9437472.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306242/9437472.png)
     But in any case you should remember that all these fields pertain to the first row of your custom rates table, and all of them are intended for your first shipping rate.
     To create a shipping rate, you will need to adjust the values in the fields of this table row so that they form a rule according to which the shipping rate will be calculated. 
     If necessary, you will be able to add more table rows for more rates. In the end, be sure to save your changes.
@@ -59,14 +59,14 @@ To configure a shipping method with custom table based rates, follow the steps b
     *   $10 flat rate shipping for orders weighing over 10 lb.
 
         Our first rate needs to be "$7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb". To get this rate, we need to configure our first table row as follows:
-    ![]({{site.baseurl}}/attachments/9306242/9437473.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306242/9437473.png)
     *   Subtotal range: $0.00 - $49.99 
     *   Weight range: 0 - 10 lb 
     *   flat rate: $7
     Once we're done with the first rate, let's add two more table rows for the rates "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb" and "$10 flat rate shipping for orders weighing over 10 lb" . To add a new blank row, we'll use the [+] button:
-    ![]({{site.baseurl}}/attachments/9306242/9437474.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306242/9437474.png)
     We'll configure these two rows we have added like so:
-    ![]({{site.baseurl}}/attachments/9306242/9437475.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306242/9437475.png)
     "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb":
     *   Subtotal range: $50 - $  ∞
     *   Weight range: 0 - 10 lb

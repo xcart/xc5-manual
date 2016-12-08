@@ -161,9 +161,9 @@ To set eBay options for a product:
 1.  In your X-Cart store's Admin area, find the product for which you need to set eBay options. For example, you can find it via the Products section (**Catalog** > **Products**). Click on the product name to access the details of the product that has been found:
     ![]({{site.baseurl}}/attachments/9306381/9439152.png)
 2.  On the product details page that opens, select the **eBay product options **tab:
-    ![]({{site.baseurl}}/attachments/9306381/9439153.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306381/9439153.png)
     The eBay product options section of the product details opens:
-    ![]({{site.baseurl}}/attachments/9306381/9439154.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306381/9439154.png)
 
 3.  Adjust the eBay options for the selected product:
 
@@ -174,5 +174,5 @@ To set eBay options for a product:
     *   **Export product description**: In X-Cart, a product can have two types of description: a short description and a detailed description. EBay listings can have just one description. So, before you export any products to eBay, you need to specify what type of description should be used for the eBay listing that will be based on the selected product. The available options are _SShort description_ and _Full description_. These correspond to X-Cart's short and detailed product descriptions, respectively. 
     *   **eBay item ID**: Leave this field be; it will be populated with an item ID value automatically after the product is exported to eBay.
 4.  Once you are done configuring the eBay options for the selected product, click **Save options** to save your changes. 
-    ![]({{site.baseurl}}/attachments/9306381/9439155.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306381/9439155.png)
     The eBay options for the product will be saved.

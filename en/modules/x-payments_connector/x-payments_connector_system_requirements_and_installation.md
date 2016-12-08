@@ -12,7 +12,7 @@ categories:
 
 Typically, your X-Cart 5 store will have the X-Payments connector module installed and enabled from the very start:
 
-![]({{site.baseurl}}/attachments/8750401/8719140.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8750401/8719140.png)
 
 If not, you can install it from the X-Cart 5 Marketplace.
 

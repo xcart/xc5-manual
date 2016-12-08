@@ -15,9 +15,9 @@ After the module has been {% link "installed and enabled" ref_iCibZ9wD %}, it ne
 To configure the module:
 
 1.  In the Installed Modules section of your X-Cart store’s Admin area (**Extensions** >** Installed modules**), locate the entry for the Pay with Amazon module and click the **Settings **link below it:
-    ![]({{site.baseurl}}/attachments/7504637/7602403.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504637/7602403.png)
     The "Pay with Amazon" module settings page opens:
-    ![]({{site.baseurl}}/attachments/7504637/7602404.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504637/7602404.png)
 
 2.  Adjust the settings on the page:
     *   **Operation mode**: Use this to switch between the Sandbox and Production modes for the Amazon Payments Advanced integration (_Test_ = Sandbox, _Live_ = Production).

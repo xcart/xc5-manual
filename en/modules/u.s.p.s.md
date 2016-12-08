@@ -18,13 +18,13 @@ This article assumes that the U.S.P.S module has already been {% link "installe
 To start using the module, you need to configure it. The module configuration settings can be accessed using one of the following methods:
 
 *   In the Shipping section of your X-Cart store’s Admin area (**Store setup** > **Shipping**), select the **U.S.P.S settings** tab:
-    ![]({{site.baseurl}}/attachments/8225090/8356090.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8225090/8356090.png)
     OR
-*   In the Installed Modules section of your X-Cart store’s Admin area (**Extensions** >** Installed modules**), locate the entry for U.S.P.S. module and click the **Settings **link below it:![]({{site.baseurl}}/attachments/8225090/8356089.png?effects=drop-shadow)
+*   In the Installed Modules section of your X-Cart store’s Admin area (**Extensions** >** Installed modules**), locate the entry for U.S.P.S. module and click the **Settings **link below it:![]({{site.baseurl}}/attachments/8225090/8356089.png)
 
 The U.S.P.S. settings page looks like the following:
 
-![]({{site.baseurl}}/attachments/8225090/8356091.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225090/8356091.png)
 
 Below is an explanation of the settings that can be found on the U.S.P.S. settings page.
 
@@ -32,7 +32,7 @@ Below is an explanation of the settings that can be found on the U.S.P.S. settin
 
 These are the most important settings, and after you specify them your X-Cart will start using USPS shipping rates.
 
-![]({{site.baseurl}}/attachments/8225090/8356030.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225090/8356030.png)
 
 You simply need to specify your **User ID** provided by USPS as well as **USPS API server URL**. Server URL must be either **http://testing.shippingapis.com/ShippingAPITest.dll** (if you use USPS in test mode) or **http://production.shippingapis.com/ShippingAPI.dll** (if you use USPS in live mode).
 
@@ -42,7 +42,7 @@ _Note: If you experience a problem that USPS worked fine in test mode, but does 
 
 These are the options that will be applied to both domestic and international shipments:
 
-![]({{site.baseurl}}/attachments/8225090/8356031.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225090/8356031.png)
 
 *   **Package dimensions** (Length, Width, Height, Girth): Use these fields to define the default package size for USPS shipments in inches.
 *   **Maximum package weight**: Specify the top limit of package's weight in pounds (lbs).
@@ -52,7 +52,7 @@ These are the options that will be applied to both domestic and international sh
 
 These are the options that will be applied to all your domestic shipping rates:
 
-![]({{site.baseurl}}/attachments/8225090/8356032.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225090/8356032.png)
 
 *   **Container**: Use this field to specify the container type that will be used for your domestic shipments.
 *   **Package Size**: Specify the size of the package selected in the **Container** field.
@@ -64,7 +64,7 @@ These are the options that will be applied to all your domestic shipping rates:
 
 These are the options that will be applied to your international shipping rates:
 
-![]({{site.baseurl}}/attachments/8225090/8356033.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225090/8356033.png)
 
 *   **Mail type**: Select the type of goods for international delivery.
 *   **Container**: Select the package type for international shipments.
@@ -74,7 +74,7 @@ These are the options that will be applied to your international shipping rates:
 
 These are some options that are helpful, but do not affect shipping rates calculation:
 
-![]({{site.baseurl}}/attachments/8225090/8356034.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8225090/8356034.png)
 
 *   **Log all communication between shopping cart and USPS server**:Thisoption enables logging of requests to the USPS server and responses from it. The logs are saved to **USPS.log** files in the `<X-Cart>/var/log/` folder.
 

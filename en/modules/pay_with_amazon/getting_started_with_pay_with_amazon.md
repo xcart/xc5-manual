@@ -17,28 +17,28 @@ To start using Pay with Amazon:
 1.  Register your Amazon Payments account. Pay with Amazon is a new solution and is separate from the Checkout by Amazon (CBA) solution. The new Pay with Amazon solution is packed with enhanced features. To benefit from it, you’ll need to register for a new Amazon Payments account. Sign up for FREE [here](https://sellercentral.amazon.com/hz/me/sp/signup?solutionProviderOptions=mws-acc%3B&marketplaceId=AGWSWK15IEJJ7&solutionProviderToken=AAAAAQAAAAEAAAAQfpVQU5xLh2akayccfpDvHQAAAHBxwuqxsJNuB0RIC7O5G8WhzHOcCVrQdj2jj2lI0XFV7ANl7TAgQVke%2BEj%2Fp4yOoi7YI2r0BGAwgwx5tnxTD2K1K25xgDeKuwXrD79YFecvGLGlAAN%2FpYwMOuoL%2BiyD1926Yc27EmAFLxYJfWlnYwmS&solutionProviderId=A1PQFSSKP8TT2U) if your business in based in US, or [here](https://payments.amazon.co.uk/preregistration/lpa?LD=SPUKAP_EX_XCart16) if your business is based in UK, Germany, Luxembourg, the Netherlands, Sweden, Portugal, Hungary or Denmark.
 
 2.  Log in to Amazon's Seller Central at [https://sellercentral.amazon.com](https://sellercentral.amazon.com/ "https://sellercentral.amazon.com") to complete a few extra steps. If you’ve registered for multiple Amazon services, you’ll see a dropdown at the top of the page that lets you move between the different services.
-    ![]({{site.baseurl}}/attachments/7504636/7602352.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504636/7602352.png)
 3.  Create a test account to use in Sandbox mode.
     Select "Amazon Payments Advanced (Sandbox View)" from the drop-down box at the top of the screen. Under "Integration" -> "Test Accounts", you can create test accounts for use in Sandbox mode. Sandbox mode can be used to make test purchases without processing an actual payment.
-    ![]({{site.baseurl}}/attachments/7504636/7602353.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504636/7602353.png)
 
 4.  Set up your account
     Select "Amazon Payments Advanced (Production View)" from the drop-down box at the top of the screen. You’ll need to complete a tax interview and set up your bank account, even if you’ve already done so for an existing account. You’ll see a message and links to complete these steps on your home page when you switch to the Production View.
-    ![]({{site.baseurl}}/attachments/7504636/7602354.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7504636/7602354.png)
 
 5.  Get your account keys (These will need to be entered in X-Cart):
 
     *   Under "Settings" -> "Integration Settings":
 
         *   Your** Merchant ID**
-            **![]({{site.baseurl}}/attachments/7504636/7602356.png?effects=drop-shadow)
+            **![]({{site.baseurl}}/attachments/7504636/7602356.png)
             **
     *   Under "Integration" -> "MWS Access Key":
 
         *   Your **Access Key ID**
 
         *   Your **Secret Access Key**
-            ![]({{site.baseurl}}/attachments/7504636/7602357.png?effects=drop-shadow)
+            ![]({{site.baseurl}}/attachments/7504636/7602357.png)
 
     *   **Note**: If you do not see your keys, you'll need to create new ones, which you do by clicking the link under "Create MWS Account":
         *   Log in using your Seller Central account.

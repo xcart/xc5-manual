@@ -19,7 +19,7 @@ The module can be obtained via X-Cart’s Marketplace.
 
 As a result, you should have the module "AvaTax Sales Tax Automation" listed in your store's Installed Modules section:
 
-![]({{site.baseurl}}/attachments/8749232/8717391.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749232/8717391.png)
 
 _Related pages:_
 

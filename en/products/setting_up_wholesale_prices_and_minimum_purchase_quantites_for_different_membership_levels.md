@@ -15,7 +15,7 @@ order: 300
 
 Wholesale prices and minimum purchase quantities for products can be configured in X-Cart 5 using the module **Wholesale**:
 
-![]({{site.baseurl}}/attachments/6389808/8719226.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/6389808/8719226.png)
 
 Wholesale prices are a way to offer multiple levels of pricing for the same product depending on the membership level of the buyer and the quantity of product units ordered.
 
@@ -27,19 +27,19 @@ To configure wholesale prices:
 
 1.  In your store's Admin area, find the product for which you want to set or modify wholesale prices and open its details.
 2.  Switch to the **Wholesale pricing** tab of the product details page. 
-    ![]({{site.baseurl}}/attachments/6389808/8719228.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389808/8719228.png)
 
 3.  Add the wholesale pricing tiers you require. For each new tier complete the following steps:
     1.  Click the **New tier** button:
-        ![]({{site.baseurl}}/attachments/6389808/8719229.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/6389808/8719229.png)
         This adds a new blank line to the wholesale pricing table:
-        ![]({{site.baseurl}}/attachments/6389808/8719230.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/6389808/8719230.png)
 
     2.  On the line that has appeared, provide information about the new wholesale pricing tier:
-        ![]({{site.baseurl}}/attachments/6389808/8719231.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/6389808/8719231.png)
     3.  Click **Save changes**. 
         The new tier will be added to the table:
-        ![]({{site.baseurl}}/attachments/6389808/8719232.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/6389808/8719232.png)
 
 Now let's take a closer look at how you configure specific pricing tiers. Consider the following example:
 
@@ -81,10 +81,10 @@ In this case, we need to create and set up pricing tiers as follows:
 If you want to set minimum product purchase quantities for specific membership levels in your store, you can do so via the Inventory tracking section of the chosen product's details:
 
 1.  Select the **Inventory tracking** tab.
-    ![]({{site.baseurl}}/attachments/6389808/8719233.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389808/8719233.png)
 
 2.  On the page that opens, use the **Minimum purchase quantity** section to specify a minimum purchase quantity for every membership level and for "all customers" (users without a membership):
-    ![]({{site.baseurl}}/attachments/6389808/8719234.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389808/8719234.png)
 
 3.  Click **Update** to save the changes.
 

@@ -12,7 +12,7 @@ order: 190
 
 
 1.  In the store's Admin area go to the Installed Modules section and check whether the **Color Schemes** module is installed at your store. If not, choose to go to X-Cart Marketplace and install it from there:
-    ![]({{site.baseurl}}/attachments/6389826/8716561.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389826/8716561.png)
 
 2.  Go to the Layout section (**Look & Feel > Color and Layout**) and select one of the available colour schemes:
-    ![]({{site.baseurl}}/attachments/6389826/8716611.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/6389826/8716611.png)

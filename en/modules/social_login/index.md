@@ -15,15 +15,15 @@ The Social Login module for X-Cart 5 is a solution that allows your customers t
 
 The screenshots below show the social login widgets that are added to your store site once you configure Facebook and Google Login. First, you get the identity provider icons on each page of your store:
 
-![]({{site.baseurl}}/attachments/7504573/7602323.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504573/7602323.png)
 
 Second, you get the **Sign in with Facebook** and **Sign in with Google** buttons in the Sign in popup:
 
-![]({{site.baseurl}}/attachments/7504573/7602324.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504573/7602324.png)
 
 and on the customer registration page:
 
-![]({{site.baseurl}}/attachments/7504573/7602325.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504573/7602325.png)
 
 When a user clicks on any of the above for the first time, they will need to grant your application the permission to access their basic Facebook or Google account info and email address. Once this has been done, they will be able to sign in with a single click.
 

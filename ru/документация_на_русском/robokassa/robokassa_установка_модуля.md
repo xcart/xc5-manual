@@ -12,7 +12,7 @@ categories:
 
 Загрузка и установка модуля ROBOKASSA осуществляется через X-Cart Marketplace.
 
-![]({{site.baseurl}}/attachments/7504676/7602389.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7504676/7602389.png)
 
 Инструкция по установке модулей из X-Cart Marketplace (на английском языке) доступна здесь: {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 

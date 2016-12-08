@@ -17,18 +17,18 @@ To use iDEAL Payments, you will need to complete the iDEAL application process. 
 To start using the module:
 
 1.  Make sure the module  **iDEAL Payments **has been activated at your store (See {% link "Activating and deactivating modules" ref_uEnDBBA7 %}). If the module **iDEAL Payments** is not installed in your store, you can get it from the Marketplace (General module installation instructions are available here: {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.)
-    ![]({{site.baseurl}}/attachments/9306867/9439227.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306867/9439227.png)
 
 2.  Prepare the key pair that will be needed for the encryption of communication between your store and iDEAL. As a result, you should have two files: the file **priv.pem** with your RSA private key and the file **cert.cer** with your public certificate. For instruction on the creation of the key pair, see the section {% link "Obtaining a key pair for iDEAL Payments" ref_h6SlMCLe %} below.
 
 3.  Upload the certificate file **cert.cer**, which you have obtained earlier, to the Rabo iDEAL Dashboard, via the tab 'Adjust public key'.
 4.  In your X-Cart store's Admin back end, go to **Store setup > Payment methods** and click the **Add payment method** button in the Online methods section.
-    ![]({{site.baseurl}}/attachments/9306867/9439228.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306867/9439228.png)
 
 5.  In the list of available payment methods that opens, find the method named**iDEAL Professional (Rabobank)** and choose to add it to your store by clicking the **Add** button opposite its name:
-    **![]({{site.baseurl}}/attachments/9306867/9439226.png?effects=drop-shadow)
+    **![]({{site.baseurl}}/attachments/9306867/9439226.png)
     **The method will be added, and the method settings page will be opened:
-    ![]({{site.baseurl}}/attachments/9306867/9439229.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306867/9439229.png)
 
 6.  Configure the module settings:
 

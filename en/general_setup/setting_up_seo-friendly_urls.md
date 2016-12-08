@@ -28,21 +28,17 @@ This article aims to help merchants set up X-Cart to use SEO-friendly URLs for p
 
 ## General set up
 
-Log in to your store's Admin area and go to the **System Settings** > **Environment** section there.
+Log in to your store's Admin area and go to the **System Settings** > **Environment** section there and click the **Enable** button on the **CleanURL** setting. 
 
-![]({{site.baseurl}}/attachments/7505785/8716521.png?effects=drop-shadow)
-
-Click the **Enable clean URL** button on the half-way through to the bottom. 
-
-![]({{site.baseurl}}/attachments/7505785/9437498.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505785/cleanurl_setting.png)
 
 Generally, from now on your store will start using seo-friendly URLs, and after a couple of seconds you will see the **Clean URLs are enabled** message:
 
-![]({{site.baseurl}}/attachments/7505785/9437499.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505785/9437499.png)
 
 If your server environment is not compatible with handling redirects properly and thus not be able to work with SEO-friendly URLs right now, you will see the following message: 
 
-![]({{site.baseurl}}/attachments/7505785/9437500.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505785/9437500.png)
 
 It means, you need to set up your server before you can use SEO-friendly URLs. This setting up may differ depending on your server software. This article describes how you can set up [Apache](#setting-up-apache), [IIS](#setting-up-iis) or [nginx](#setting-up-nginx).
 
@@ -95,7 +91,7 @@ location / {
 
   if (!-e $request_filename){
      rewrite ^/sitemap.xml(\?.+)?$ /cart.php?target=sitemap;
-     rewrite ^(.*)$ /cart.php?url=$1 last;
+     rewrite ^/(.*)$ /cart.php?url=$1 last;
   }
 }
 ```
@@ -106,7 +102,7 @@ You should obviously set location to corresponding directory in case your X-Cart
 
 If you need to disable SEO-friendly URLs for some reason, you can simply switch Clean URL selector off:
 
-![]({{site.baseurl}}/attachments/7505785/9437502.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505785/9437502.png)
 
 ## Troubleshooting
 

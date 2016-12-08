@@ -55,7 +55,7 @@ The **Use widget cache** option enables the internal cache of viewer classes, wh
 
 If you have custom mods, you may consider [making some of their widgets cached](http://devs.x-cart.com/en/design_changes/making_your_custom_widget_cached.html) as well.
 
-![]({{site.baseurl}}/attachments/8224875/9437214.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8224875/9437214.png)
 
 ### Step 2\. Disable any unused modules
 

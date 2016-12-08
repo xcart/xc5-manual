@@ -12,17 +12,17 @@ categories:
 
 Vendors can use the Import by CSV section of the store's back end  (**Catalog** > **Import**) to add their new products and update their existing products.
 
-![]({{site.baseurl}}/attachments/8749505/8717240.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749505/8717240.png)
 
 They can also export their existing products to CSV via the Export in CSV section (**Catalog** > **Export**).
 
-![]({{site.baseurl}}/attachments/8749505/8717242.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749505/8717242.png)
 
 The process of product import and export for vendors is exactly the same as for the store administrator.
 
 The only thing that makes product import and export different for a store with vendors compared to a store without vendors is that information about the product owner is included into the CSV file with product data. This is done using the column **vendor** which provides the email address of the vendor who created the product.
 
-![]({{site.baseurl}}/attachments/8749505/8717239.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749505/8717239.png)
 
 The **vendor** column is present in all product export CSV files, no matter whether they are created by the store administrator or by a vendor. However, a vendor can export only their own products, which means the export CSV file for them contains only their own products and their own vendor email address. 
 

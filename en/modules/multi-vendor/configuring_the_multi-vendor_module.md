@@ -14,9 +14,9 @@ After the Multi-vendor module has been installed and enabled, it needs to be con
 
 To configure the module:
 
-1.  In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for "Multi-vendor" and click the **Settings **link below it:![]({{site.baseurl}}/attachments/8749139/8716518.png?effects=drop-shadow)
+1.  In the Installed Modules section of your X-Cart store’s Admin area, locate the entry for "Multi-vendor" and click the **Settings **link below it:![]({{site.baseurl}}/attachments/8749139/8716518.png)
     This opens the '"Multi-vendor" module settings' page:
-    ![]({{site.baseurl}}/attachments/8749139/8719612.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749139/8719612.png)
 2.  Adjust the module settings:
 
     *   **Multivendor mode**: Select the operation mode for your multi-vendor store_ (Warehouse / Vendors as separate shops)_. 

@@ -21,17 +21,17 @@ In the Customer area, address validation is performed:
 
 *   in the Address book of a customer user profile - when an address is saved or updated:
 
-![]({{site.baseurl}}/attachments/8749288/8717984.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749288/8717984.png)
 
 *   on the checkout page - when a customer clicks the **Check address** button:
 
-![]({{site.baseurl}}/attachments/8749288/8717983.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749288/8717983.png)
 
 (If the customer chooses to place their order without clicking the** Check address** button first, their address is not validated.)
 
 In the Admin area, address validation is performed only when the store administrator saves or updates an address in a customer's Address book:
 
-![]({{site.baseurl}}/attachments/8749288/8717987.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749288/8717987.png)
 
 For address validation, an address validation call is made to AvaTax. AvaTax performs validation of the address and returns results to the X-Cart store.
 
@@ -42,7 +42,7 @@ If the input address data can be resolved successfully, a normilized address is 
 
 If the address submitted to AvaTax for validation contains ambiguous data that cannot be resolved, an error is returned, and a message indicating the problem is displayed at the top of the page in X-Cart. For example, the screenshot below demonstrates a message resulting from an attempt to validate an erroneous street address:
 
-![]({{site.baseurl}}/attachments/8749288/8717556.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749288/8717556.png)
 
 ## Sales tax calculation
 
@@ -52,7 +52,7 @@ The product taxability rules in AvaTax system are associated with specific produ
 
 When sales tax calculation needs to be performed, the module passes on to AvaTax all the information it requires to do the calculation. AvaTax uses this information to determine the necessary taxing jurisdiction and select the taxing rules that need to be applied. The results of sales tax calculation for an order are provided directly on the checkout page before the order is placed:
 
-![]({{site.baseurl}}/attachments/8749288/8717988.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749288/8717988.png)
 
 _Related pages:_
 

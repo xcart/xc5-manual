@@ -22,7 +22,7 @@ To install and enable the module on your system, follow the general module insta
 
 As a result, you should have the module "Fractional and Fixed quantities" listed in your store's Installed Modules section:
 
-![]({{site.baseurl}}/attachments/9666735/9634070.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/9666735/9634070.png)
 
 _Related pages:_
 

@@ -18,7 +18,7 @@ To view your store's cart recovery statistics for a certain period:
 1.  In your store's Admin area, go to the Statistics page (**Orders** >** Statistics**) and click the **Cart recovery** tab. 
 2.  In the form at the top of the page, specify the period for which you would like to view statistics.
 3.  Click **Search**. The statistics will be displayed below, in the Statistics for the period section:
-    ![]({{site.baseurl}}/attachments/7503956/8719207.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/7503956/8719207.png)
 
 _Related pages:_
 

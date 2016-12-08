@@ -14,13 +14,13 @@ To be able to successfully install and use the Multi-vendor module, you need a w
 
 The module can be obtained via X-Cart’s Marketplace.
 
-![]({{site.baseurl}}/attachments/8749137/8716516.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749137/8716516.png)
 
 For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
 As a result, you should have the module "Multi-vendor" listed in your store's Installed Modules section:
 
-![]({{site.baseurl}}/attachments/8749137/8716517.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8749137/8716517.png)
 
 _Related pages:_
 

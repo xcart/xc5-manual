@@ -12,7 +12,7 @@ categories:
 
 Here you can find detailed explanations to all configuration fields provided on the configuration page of the plugin. 
 
-![]({{site.baseurl}}/attachments/7505737/7602830.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/7505737/7602830.png)
 
 *   **Customer number**: Your customer number which is presented to you every time that you create an interface in the Shopgate merchant area.
 

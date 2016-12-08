@@ -20,11 +20,11 @@ The WordPress Integration for X-Cart 5 provides two additional widgets that you 
 
 The above widgets can be added to the sidebar of your WordPress blog website:
 
-![]({{site.baseurl}}/attachments/8750680/8719425.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8750680/8719425.png)
 
 or to any post in your WordPress blog:
 
-![]({{site.baseurl}}/attachments/8750680/8719426.png?effects=drop-shadow)
+![]({{site.baseurl}}/attachments/8750680/8719426.png)
 
 Note that the Product search widget can only be displayed once per page:
 
@@ -34,20 +34,20 @@ Note that the Product search widget can only be displayed once per page:
 To add a widget to the sidebar:
 
 1.  In your WordPress admin interface, go to the Widgets section (**Appearance** > **Widgets**).
-    ![]({{site.baseurl}}/attachments/8750680/8719419.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750680/8719419.png)
 2.  In the Available Widgets list, locate the widget you want to appear in the sidebar.
-    ![]({{site.baseurl}}/attachments/8750680/8719422.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750680/8719422.png)
 3.  Add the widget to the Widget Area:
     *   Drag and drop the widget from the list of Available Widgets to the Widget Area section on the right:
-        ![]({{site.baseurl}}/attachments/8750680/8719418.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8750680/8719418.png)
         or
     *   Click on the widget name and select **Add Widget**. 
-        ![]({{site.baseurl}}/attachments/8750680/8719416.png?effects=drop-shadow)
+        ![]({{site.baseurl}}/attachments/8750680/8719416.png)
         The widget will be added to the Widget Area section automatically.
 4.  If necessary, edit the title under which the widget will appear in the sidebar.
-    ![]({{site.baseurl}}/attachments/8750680/8719423.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750680/8719423.png)
 5.  If necessary, change the order of widgets in the sidebar by dragging the widgets in the Widget Area section to the desired positions.
-    ![]({{site.baseurl}}/attachments/8750680/8719424.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750680/8719424.png)
 
 Now if you check the result in the blog, you should be able to see the widget added to the sidebar.
 
@@ -72,7 +72,7 @@ To add a widget to a blog post:
     (for the Product search widget).
 
     For the sake of example, we added both the widgets to one post:
-    ![]({{site.baseurl}}/attachments/8750680/8719427.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8750680/8719427.png)
 
 4.  Save the post.
 

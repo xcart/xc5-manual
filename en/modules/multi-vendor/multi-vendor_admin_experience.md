@@ -18,14 +18,14 @@ This article lists the multi-vendor related features and functions of the store 
     *   Manage vendor's catalog;
     *   Manage vendor's orders;
     *   Manage vendor's shipping settings.If necessary, the store administrator can change vendor permissions via the Roles management section (**Users** > **Roles**).
-    ![]({{site.baseurl}}/attachments/8749416/8717112.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749416/8717112.png)
 3.  The store administrator can add new vendor users by approving vendor registration requests of prospective vendors or by creating new administrator users with "Vendor" role via the Users section. See the article {% link "Vendor registration" ref_SkW62BgH %} for details.
 
 4.  The store administrator can view and manage any products in the store, including the products created by vendor users.
     When viewing the store's product list in the Admin area, the administrator can find out which product is owned by which vendor based on the information in the "Vendor" column. For each product created by a vendor, this column shows the email address of the vendor user who is the owner of the product.
-    ![]({{site.baseurl}}/attachments/8749416/8717004.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749416/8717004.png)
     The name and email of the vendor are also visible to the store administrator on the details pages of vendor products in the Admin area:
-    ![]({{site.baseurl}}/attachments/8749416/8717003.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749416/8717003.png)
 5.  The store administrator creates and manages the categories in which vendor users place their products (**Catalog** > **Categories**). (Unless given the permission to manage the entire store's product catalog, vendor users do not have access to category management). 
 
 6.  The store administrator has capabilities for the management of product classes and attributes. 
@@ -58,11 +58,11 @@ This article lists the multi-vendor related features and functions of the store 
         In the "_Vendors as separate shops_" mode, the administrator has the same capabilities as in the "_Warehouse_" mode, but, typically, only acts as a supervisor - whereas the processing of orders and making changes to the information of specific orders is carried out by the vendors.
 
 12.  The store administrator uses the Statistics section (**Orders** > **Statistics**) to view the store's sales statistics, which includes information on the store's overall sales as well as information on the sales by specific vendors. By default, the **Order ****statistics** tab provides information about all the orders in the store. Order statistics for a specific vendor can be viewed by entering the vendor's company name or email address into the filter at the top of the order statistics table:
-    ![]({{site.baseurl}}/attachments/8749416/8717225.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749416/8717225.png)
     The **Best sellers** tab provides a list of the store's best selling products. Similarly to order statistics, bestsellers can be filtered by vendor:
-    ![]({{site.baseurl}}/attachments/8749416/8717226.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749416/8717226.png)
 13.  The store administrator can use the Vendor statistics section (**Users** > **Vendor statistics**) to view statistics for specific vendors, including the information about each vendor's all time earnings on sales via the store, the amount paid out to them and the amount remaining to be paid out: 
-    ![]({{site.baseurl}}/attachments/8749416/8719636.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749416/8719636.png)
     For each vendor, the following information is provided:
     *   Vendor: Vendor to whom the statistics pertains.
     *   Transaction history: The link to view all the transactions for the vendor in the Transactions history.
@@ -71,7 +71,7 @@ This article lists the multi-vendor related features and functions of the store 
     *   Liability: The amount that remains to be paid to the vendor by the storefront operator.
 
 14.  The store administrator can use the Transactions history section (**Users** > **Transactions history**) to view and manage information about vendor related transactions. The records of "Order paid" transactions that appear automatically in this section allow the administrator to be informed of the sums that are earned by the vendors on specific sales. This information allows the administrator to know what sums need to be paid out to the vendors. To keep track of payouts to the vendors, the administrator can manually create transactions stating what amount was paid out (To create a transaction, the administrator uses the **Create transaction** button above the transaction list). With PayPal Adaptive Payments, the transactions reflecting payouts to vendors are created automatically.
-    ![]({{site.baseurl}}/attachments/8749416/8719637.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/8749416/8719637.png)
     To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description. 
     They can see the following information about each transaction:
     *   Vendor: Vendor to whom the transaction pertains.

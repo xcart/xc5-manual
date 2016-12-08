@@ -13,12 +13,12 @@ categories:
 For full-featured printing with QZ Tray, complete the following steps:
 
 1.  Visit [http://buy.qz.io/](http://buy.qz.io/) and purchase QZ Premium Support. Note that printing with QZ Tray will work without purchasing QZ Premium Support, but you will experience frequent warnings saying that an untrusted host is being used.
-    ![]({{site.baseurl}}/attachments/9306976/9439605.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306976/9439605.png)
 2.  Obtain your product key.
 3.  Go to [https://qz.io/login/](https://qz.io/login/) and sign in using your product key:
-    ![]({{site.baseurl}}/attachments/9306976/9439604.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306976/9439604.png)
 4.  Choose QZ Tray:
-    ![]({{site.baseurl}}/attachments/9306976/9439606.png?effects=drop-shadow)
+    ![]({{site.baseurl}}/attachments/9306976/9439606.png)
 5.  Complete a registration form with your information.
 6.  Generate a signed certificate for QZ Tray. Once the process is completed, you should be provided with buttons allowing you to download your QZ Tray certificate, public key and private key. 
 7.  Download the files of your certificate and keys.
