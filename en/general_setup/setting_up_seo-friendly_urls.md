@@ -20,11 +20,11 @@ This article aims to help merchants set up X-Cart to use SEO-friendly URLs for p
 *   [Introduction](#introduction)
 *   [Table of Contents](#table-of-contents)
 *   [General setup](#general-setup)
-*   [Setting up Apache](#setting-up-apache)
-*   [Setting up IIS](#setting-up-iis)
-*   [Setting up nginx](#setting-up-nginx)
+  -   [Setting up Apache](#setting-up-apache)
+  -   [Setting up IIS](#setting-up-iis)
+  -   [Setting up nginx](#setting-up-nginx)
 *   [Tweaking CleanURLs](#tweaking-cleanurls)
-*   [Disabling SEO-friendly URLs](#disabling-seo-friendly-urls)
+*   [Clean URL aliases](#clean-url-aliases)
 *   [Troubleshooting](#troubleshooting)
 
 ## General setup
@@ -47,7 +47,7 @@ If your server environment is not compatible with handling redirects properly an
 
 It means, you need to set up your server before you can use SEO-friendly URLs. This setting up may differ depending on your server software. This article describes how you can set up [Apache](#setting-up-apache), [IIS](#setting-up-iis) or [nginx](#setting-up-nginx).
 
-## Setting up Apache
+### Setting up Apache
 
 You need to enable Apache's module [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html) and it will enable the **Enable clean URLs** button in the **Environment** section described above. Typically, you should edit the **httpd.conf** file of your Apache and replace there the following line:
 
@@ -63,15 +63,15 @@ LoadModule rewrite_module modules/mod_rewrite.so
 
 After that, restart your Apache server and check the results.
 
-## Setting up IIS
+### Setting up IIS
 
 Use the [Import of Apache rules](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules) feature in order to set up your IIS. Follow the process described in the [http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules) article and import rules from your `<X-Cart>/.htaccess` file.
 
-## Setting up nginx
+### Setting up nginx
 
 You should put the following lines into the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) into your nginx configuration file (nginx.conf):
 
-### Configuration for X-Cart 5.3.1 and earlier
+#### Configuration for X-Cart 5.3.1 and earlier
 
 ```php
 ## Example nginx configuration
@@ -85,7 +85,7 @@ location / {
 }
 ```
 
-### Configuration for X-Cart 5.3.2 and later
+#### Configuration for X-Cart 5.3.2 and later
 
 Starting from X-Cart 5.3.2, configuration has to be changed to accept dots(.) in url path.
 
@@ -138,7 +138,7 @@ use_canonical_urls_only = On
 category_clean_urls_format = "domain/parent/goalcategory/"
 ```
 
-### Clean URL aliases
+## Clean URL aliases
 
 You can also set custom Clean URLs for such static targets like `target=bestsellers` or `target=contact_us` (only in customer area). Define the [clean_urls_aliases] section and add key-value pairs to set SEO-friendly URLs:
 
