@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 18:18 +0400'
+updated_at: '2016-12-12 09:58 +0400'
 identifier: ref_nJxrzFEZ
 title: Setting up seo-friendly URLs
 categories:
@@ -91,13 +91,21 @@ Starting from X-Cart 5.3.2, configuration has to be changed to accept dots(.) in
 
 ```php
 ## Example nginx configuration (X-Cart 5.3.2+)
-location / {
-  index cart.php;
+location @handler {
+        index cart.php;
 
-  if (!-e $request_filename){
-     rewrite ^/sitemap.xml(\?.+)?$ /cart.php?target=sitemap;
-     rewrite ^/(.*)$ /cart.php?url=$1 last;
-  }
+        rewrite ^/sitemap.xml(\?.+)?$ /cart.php?target=sitemap;
+        rewrite ^/(.*)$ /cart.php?url=$1 last;
+}
+
+location / {
+        try_files $uri $uri/ @handler;
+}
+
+location ~ \.php$ {
+        try_files $uri @handler;
+        
+        # be careful about your fastcgi params, don't let duplicate try_files
 }
 ```
 
@@ -170,5 +178,3 @@ Steps listed below usually fix the problem that SEO-friendly URLs cannot be enab
     ```php
      AllowOverride All
     ```
-
-
