@@ -29,9 +29,7 @@ Since the adoption by X-Cart of the four-sequence versioning scheme, in which th
 
 * **bugfix update** - an update resulting in the increase of the build version number (for example, an upgrade from 5.3.1.3 to 5.3.1.6).
 
-The type of upgrade reflects the significance of changes that the upgrade implements. Major and minor upgrades provide both new features and bugfixes. Bugfix updates provide only bugfixes. If two upgrades (bugfixes and new features) are available at the same time, the store administrator can choose whether they want just to update the store to the latest available bugfix release or to upgrade the store to the latest version with new features and bugfixes available for their license.
-
-The upgrade system described above is used for both X-Cart core and modules. For instance, if there is a bug in the 3rd party module "Wishlist", the module developers will fix this bug and re-upload the module to the Marketplace. The administrators of X-Cart stores using the Wishlist module will then be able to install a bugfix update for this module.
+The type of upgrade reflects the significance of changes that the upgrade implements. Major and minor upgrades provide both new features and bugfixes. Bugfix updates provide only bugfixes. If two upgrades (bugfixes and new features) are available at the same time, the store administrator can choose whether they want just to update to the latest available bugfix release or to upgrade the store to the latest version with new features and bugfixes available for their license.
 
 Note that a major upgrade can be done only from the latest version of the branch. In other words, if the 5.0.x branch consists of the versions 5.0.10, 5.0.11, 5.0.12, 5.0.13, 5.0.14, then the only version number from which you can upgrade to 5.1 is 5.0.14. Minor upgrades do not follow this requirement, which means you can upgrade a 5.0.10 store to 5.0.14 in one run. To upgrade a store from 5.0.10 to 5.1.0, a two-step upgrade will be required: first, an upgrade from 5.0.10 to 5.0.14, and then an upgrade from 5.0.14 to 5.1.0.
 
