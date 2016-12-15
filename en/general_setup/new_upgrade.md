@@ -25,11 +25,12 @@ Since the adoption by X-Cart of the four-sequence versioning scheme, in which th
 * **major upgrade** - an upgrade resulting in the increase of the major version number (for example, an upgrade from 5.0.13 to 5.1.3); 
 * **minor upgrade** - an upgrade resulting in the increase of the minor version number (for example, an upgrade from 5.2.16 to 5.2.20, or an upgrade from 5.3.1.6 to 5.3.2.0);
 * **bugfix update** - an update resulting in the increase of the build version number (for example, an upgrade from 5.3.1.3 to 5.3.1.6).
-The type of upgrade reflects the significance of changes that it implements. Major and minor upgrades provide both new features and bugfixes (Compared to minor upgrades, major upgrades provide bigger changes). Bugfix updates provide only bugfixes.
+
+The type of upgrade reflects the significance of changes that it implements. Major and minor upgrades provide both new features and bugfixes (Compared to minor upgrades, major upgrades provide bigger changes). Bugfix updates provide only bugfixes. If two upgrades (bugfixes and new features) are available at the same time, the store administrator can choose whether they just want to update to the bugfix release or want to upgrade the store to a version with new features and included bugfixes.
+
+The upgrade system described above is used for both X-Cart core and modules. For instance, if there is a bug in the 3rd party module "Wishlist", the module developers will fix this bug and re-upload the module to the Marketplace. In this case, all the owners of X-Cart stores using the Wishlist module will be prompted to update this module even though the core version has remained the same.
 
 Note that a major upgrade can be done only from the latest version of the branch. In other words, if the 5.0.x branch consists of the versions 5.0.10, 5.0.11, 5.0.12, 5.0.13, 5.0.14, then the only version number from which you can upgrade to 5.1 is 5.0.14. Minor upgrades do not follow this requirement, which means you can upgrade a 5.0.10 store to 5.0.14 in one run. To upgrade a store from 5.0.10 to 5.1.0, a two-step upgrade will be required: first, an upgrade from 5.0.10 to 5.0.14, and then an upgrade from 5.0.14 to 5.1.0.
-
-In addition to core upgrades, there are also **module updates**. For instance, there is a bug in the 3rd party module "Wishlist"; the module developers fix the bug and re-upload the module to the Marketplace. In this case, all the owners of the Wishlist module will be prompted to update this module even though the core version has remained the same.
 
 The general idea of any upgrade/update is to overwrite the existing files of the core/module. That simple. However, sometimes X-Cart needs to synchronize data or do some utility work. Such work is done by **upgrade hooks**. There are three types of upgrade hooks:
 
