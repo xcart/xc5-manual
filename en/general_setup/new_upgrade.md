@@ -32,7 +32,7 @@ Since the adoption by X-Cart of the four-sequence versioning scheme, in which th
 The type of upgrade reflects the significance of changes that the upgrade implements. Major and minor upgrades provide both new features and bugfixes. Bugfix updates provide only bugfixes. If two upgrades (bugfixes and new features) are available at the same time, the store administrator can choose whether they want just to update to the latest available bugfix release or to upgrade the store to the latest version with new features and bugfixes available for their license.
 
 ## Upgrade waves
-Every X-Cart version undergoes thorough testing before it is released.
+Every X-Cart version undergoes thorough testing before it is released. To 
 
 ## Availability of upgrades for different versions
 A major upgrade can be done only from the latest version of the branch. In other words, if the 5.0.x branch consists of the versions 5.0.10, 5.0.11, 5.0.12, 5.0.13, 5.0.14, then the only version number from which you can upgrade to 5.1 is 5.0.14. Minor upgrades do not follow this requirement, which means you can upgrade a 5.0.10 store to 5.0.14 in one run. To upgrade a store from 5.0.10 to 5.1.0, a two-step upgrade will be required: first, an upgrade from 5.0.10 to 5.0.14, and then an upgrade from 5.0.14 to 5.1.0.
