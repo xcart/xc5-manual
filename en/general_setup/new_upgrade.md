@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-15 11:28 +0400'
+updated_at: '2016-12-16 16:43 +0400'
 identifier: ref_9raTXZPN
 title: ''
 order: 100
@@ -21,7 +21,7 @@ This article describes provides general information on X-Cart 5 upgrades and hin
 
 ## Upgrade types
 
-Since the adoption by X-Cart of the four-sequence versioning scheme, in which the first two sequences of digits in the version identifier represent the major version, the third sequence represents the minor version, and the fourth sequence represents the build version (bugfix release), we had to change X-Cart's upgrade system a little bit to accomodate the changes. As a result, X-Cart now uses three types of upgrades:
+Since the adoption by X-Cart of the [four-sequence versioning scheme](http://devs.x-cart.com/en/misc/x-cart_versions.html#x-cart-53x-versioning), in which the first two sequences of digits in the version identifier represent the major version, the third sequence represents the minor version, and the fourth sequence represents the build version (bugfix release), we had to change X-Cart's upgrade system a little bit to accomodate the changes. As a result, X-Cart now uses three types of upgrades:
 
 * **major upgrade** - an upgrade resulting in the increase of the major version number (for example, an upgrade from 5.0.13 to 5.1.3); 
 
@@ -149,4 +149,3 @@ _Related pages:_
 
 *   [X-Cart Upgrade General Steps](http://devs.x-cart.com/en/misc/x-cart_upgrade_general_steps.html)
 *   [Upgrade hooks](http://devs.x-cart.com/en/misc/upgrade_hooks.html)
-
