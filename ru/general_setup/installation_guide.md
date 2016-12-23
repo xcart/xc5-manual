@@ -5,7 +5,7 @@ updated_at: '2016-12-23 12:14 +0400'
 identifier: ref_ZlmtdzS3
 title: Инструкция по установке
 order: 100
-published: false
+published: true
 categories:
   - home
 redirect_from:
