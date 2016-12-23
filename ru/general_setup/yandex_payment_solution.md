@@ -5,7 +5,7 @@ updated_at: '2016-12-23 12:27 +0400'
 identifier: ref_baAbXfEo
 title: Яндекс.Касса
 order: 200
-published: false
+published: true
 redirect_from:
   - /ru/документация_на_русском/яндекс.касса__yandex_payment_solution.html
 categories:
