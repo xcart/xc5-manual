@@ -62,8 +62,8 @@
 
 'installation_guide_link':
     en: '/general_setup/installation_guide.html'
-    ru: '/документация_на_русском/установка_x-cart_5.html'
+    ru: '/general_setup/installation_guide.html'
 
 'general_setup_link':
     en: '/general_setup/'
-    ru: '/документация_на_русском/'
+    ru: '/general_setup/robokassa/'
