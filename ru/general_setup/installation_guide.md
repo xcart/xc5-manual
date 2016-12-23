@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2016-12-23 12:10 +0400'
+updated_at: '2016-12-23 12:14 +0400'
 identifier: ref_ZlmtdzS3
 title: Инструкция по установке
 order: 100
@@ -9,7 +9,7 @@ published: false
 categories:
   - home
 redirect_from:
-  - ru/документация_на_русском/инструкция_по_установке.html
+  - /ru/документация_на_русском/установка_x-cart_5.html
 ---
 ## Введение
 
