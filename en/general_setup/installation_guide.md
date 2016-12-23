@@ -265,6 +265,14 @@ Now the installation process has been completed. You can use the links provided 
 
 ![]({{site.baseurl}}/attachments/524295/8719159.png)
 
+## What to do next?
+
+X-Cart store is ready to work and the whole world is open to you. You might want to {% link 'fill your products catalog' ref_fhzzxDTy %}, setup {% link 'shipping' ref_7tvT7GEK %} and {% link 'payment' ref_Jq6Bsdrt %} methods first.
+
+Also, you definitely should customize your store's {% link 'look and feel' ref_bzUBJufx %} and {% link 'setup SEO-friendly URLs' ref_nJxrzFEZ %} by configuring your server.
+
+P.S. And don't forget about {% link 'security measures' ref_secureconfig %}!
+
 ## Possible installation problems
 
 If you face any problem during **Environment** check, you get a general instruction about how to fix it. You can pass it to your developers or hosting team and they will be able to take care of it. This section describes typical problems you may encounter and what you can do in order to fix them.
