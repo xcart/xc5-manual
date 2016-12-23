@@ -4,6 +4,8 @@ updated_at: 2014-03-31 00:00
 layout: article_with_sidebar
 lang: ru
 title: 'ROBOKASSA: Установка модуля'
+redirect_from:
+  - /ru/документация_на_русском/robokassa/robokassa_установка_модуля.html
 categories:
   - Документация на русском
 

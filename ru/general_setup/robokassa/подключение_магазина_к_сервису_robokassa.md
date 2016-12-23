@@ -4,6 +4,8 @@ updated_at: 2014-03-31 00:00
 layout: article_with_sidebar
 lang: ru
 title: 'Подключение магазина к сервису ROBOKASSA'
+redirect_from:
+  - /ru/документация_на_русском/robokassa/подключение_магазина_к_сервису_robokassa.html
 categories:
   - Документация на русском
 

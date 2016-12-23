@@ -4,6 +4,8 @@ updated_at: 2014-03-31 00:00
 layout: article_with_sidebar
 lang: ru
 title: 'ROBOKASSA: Как это выглядит в X-Cart'
+redirect_from:
+  - /ru/документация_на_русском/robokassa/robokassa_как_это_выглядит_в_x-cart.html
 categories:
   - Документация на русском
 
