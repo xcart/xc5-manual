@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-07 21:50 +0400'
+updated_at: '2016-12-26 09:40 +0400'
 identifier: ref_pQQ1CLe1
 title: Upgrading X-Cart 5
 categories:
@@ -25,9 +25,31 @@ The purpose of this article is to describe how X-Cart 5 performs upgrades and gi
 
 ## General information
 
-There are two types of upgrades in X-Cart: **major upgrade** when the second number in version is changed (e.g. upgrade from 5.0.13 to 5.1.3) and **minor upgrade** when the third number in version is changed (e.g. upgrade from 5.1.3 to 5.1.4). Major upgrade includes big changes of the core so that interfaces of classes and signatures of methods change. It does not happen during minor upgrade. Consequently, minor upgrade does not require any change in modules, but major one requires compatibility changes.
+There are two types of upgrades in X-Cart: **major upgrade** when the second or the third number in version is changed (e.g. upgrade from 5.1.3 to 5.1.4 or from 5.1.4 to 5.2.0) and **minor upgrade** when the fourth number in version is changed (e.g. upgrade from 5.3.2.2 to 5.3.2.5). Major upgrade includes big changes of the core so that interfaces of classes and signatures of methods change. It does not happen during minor upgrade. Consequently, minor upgrade does not require any change in modules, but major one requires compatibility changes.
 
-Also, major upgrade can be done only from the latest version of the branch. In other words, if 5.0.x branch has versions 5.0.10, 5.0.11, 5.0.12, 5.0.13, 5.0.14, then you can upgrade to 5.1 from 5.0.14 version only. Minor upgrade does not follow this requirement, so you can upgrade a 5.0.10 store to 5.0.14 in one run. It means that if you want to upgrade your store from 5.0.10 to 5.1.0, then you will have two do this in two runs: upgrade from 5.0.10 to 5.0.14 and then from 5.0.14 to 5.1.0.
+<table class="ui celled padded compact small table">
+  <thead>
+  	<tr>
+      <th><strong>4th digit increases<br/>5.3.0.3 to 5.3.0.5</strong></th>
+      <th><strong>3d digit increases<br/>5.3.0.3 to 5.3.1.0</strong></th>
+      <th><strong>2nd digit increases<br/>5.3.0.3 to 5.4.0.0</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bugfixes only</td>
+      <td>Bugfixes<br/>New features<br/>Minor API changes</td>
+      <td>Bugfixes<br/>New features<br/>Minor API changes</td>
+    </tr>
+    <tr>
+      <td>Free anytime</td>
+      <td>Free with active<br/>upgrade subscription</td>
+      <td>Free with active<br/>upgrade subscription</td>
+    </tr>
+  </tbody>
+</table>
+
+Also, the second number major upgrade can be done only from the latest version of the branch. In other words, if 5.0.x branch has versions 5.0.10, 5.0.11, 5.0.12, 5.0.13, 5.0.14, then you can upgrade to 5.1 from 5.0.14 version only. The third number major upgrade does not follow this requirement, so you can upgrade a 5.0.10 store to 5.0.14 in one run. It means that if you want to upgrade your store from 5.0.10 to 5.1.0, then you will have two do this in two runs: upgrade from 5.0.10 to 5.0.14 and then from 5.0.14 to 5.1.0.
 
 In addition to core upgrades, there are also **module updates**. For instance, there is a bug in the 3rd party module Wishlist; the module developers fix the bug and re-upload the module to the Marketplace. In this case all the owners of the Wishlist module will be prompted to update this module even though the core version has remained the same.
 
