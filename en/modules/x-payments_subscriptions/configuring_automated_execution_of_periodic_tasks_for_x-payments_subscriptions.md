@@ -1,12 +1,13 @@
 ---
-identifier: ref_pTgcx1sg
-updated_at: 2015-11-21 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring automated execution of periodic tasks for X-Payments subscriptions'
+layout: article_with_sidebar
+updated_at: '2016-12-26 19:39 +0400'
+identifier: ref_pTgcx1sg
+title: Configuring automated execution of periodic tasks for X-Payments subscriptions
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -36,3 +37,5 @@ The recommended setup for running the script console.php via crontab is as follo
 *   -f - to execute /full/path/to/xcart_dir/console.php script
 
 On a Windows server, a similar setup can be implemented using the Windows Task Scheduler.
+
+**Important**: For the correct work of the module, make sure that the server time zone setting is the same for the www-server and for the user under which cron is run.
