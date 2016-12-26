@@ -23,9 +23,9 @@ This article gives general information on X-Cart 5 upgrades and provides hints a
 
 Since the adoption by X-Cart of the [four-sequence versioning scheme](http://devs.x-cart.com/en/misc/x-cart_versions.html#x-cart-53x-versioning), in which the first two sequences of digits in the version identifier represent the major version, the third sequence - the minor version, and the fourth sequence - the build version (bugfix release), we had to change X-Cart's upgrade system a little bit to accomodate the changes. As a result, X-Cart now uses two types of upgrades:
 
-* **major upgrade** - an upgrade resulting in the increase of the first three sequences of digits in the version number (for example, an upgrade from 5.0.13 to 5.1.3, or from 5.2.16 to 5.2.20, or from 5.3.1.6 to 5.3.2.0);
+   * **major upgrade** - an upgrade resulting in the increase of the first three sequences of digits in the version number (for example, an upgrade from 5.0.13 to 5.1.3, or from 5.2.16 to 5.2.20, or from 5.3.1.6 to 5.3.2.0);
 
-* **minor update** - an update resulting in the increase of the build version number (for example, an update involving the change of the version number from 5.3.1.3 to 5.3.1.6).
+   * **minor update** - an update resulting in the increase of the build version number (for example, an update involving the change of the version number from 5.3.1.3 to 5.3.1.6).
 
 The type of upgrade reflects the significance of changes that the upgrade implements. A major upgrade provides both new features and bugfixes. A minor update provide only bugfixes. The new features implemented by a major upgrade rely on major changes of the core, which means that the interfaces of classes and the signatures of methods change. It does not happen during a minor update. Consequently, a minor update does not require any change in the modules, whereas a major upgrade does require module compatibility changes.
 
@@ -54,7 +54,7 @@ The type of upgrade reflects the significance of changes that the upgrade implem
 If a major upgrade and a minor update are available to a store at the same time, the store administrator can choose which one they want to apply. A minor update will mean an update to get all the fixes of the latest available bugfix release within the store's version branch. A major upgrade will mean an upgrade to the latest version with all the new features and bugfixes available with the store's license.  
 
 ## Upgrade waves
-Every X-Cart version undergoes thorough testing before it is released. To 
+Once a new X-Cart version is released, upgrades to this version become available to existing X-Cart clients in two waves. The first one is the so-called **Developer wave**; this wave becomes available at the time of official release announcement and is intended for X-Cart developers/early adopters. The second wave is the **Merchant wave**; this wave typically becomes available in 2-7 days following the official release announcement and is intented for all X-Cart clients. The Developer wave provides access to new X-Cart features earlier; however, By default, all new X-Cart installations are configured to get upgrades in the Merchant wave. If you need early access to new X-Cart features in the Upgrade options section of your store's Admin area (**System settings** > **Environment**)
 
 ## Availability of upgrades for different versions
 A major upgrade involving the change of the second sequence in the version number can be done only from the latest version of the branch. In other words, if the 5.0.x branch consists of the versions 5.0.10, 5.0.11, 5.0.12, 5.0.13, 5.0.14, then the only version number from which you can upgrade to 5.1 is 5.0.14. Major upgrades involving the change of the third sequence in the version number do not follow this requirement, which means you can upgrade a 5.0.10 store to 5.0.14 in one run. To upgrade a store from 5.0.10 to 5.1.0, a two-step upgrade will be required: first, an upgrade from 5.0.10 to 5.0.14, and then an upgrade from 5.0.14 to 5.1.0.
