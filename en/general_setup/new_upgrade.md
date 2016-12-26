@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-16 16:43 +0400'
+updated_at: '2016-12-22 13:54 +0400'
 identifier: ref_9raTXZPN
 title: ''
 order: 100
@@ -9,7 +9,7 @@ published: false
 ---
 ## Introduction
 
-This article describes provides general information on X-Cart 5 upgrades and hints about what to do if an upgrade fails in the middle of the process.
+This article gives general information on X-Cart 5 upgrades and provides hints about what to do if an upgrade fails in the middle of the process.
 
 ## Table of Contents
 
@@ -21,15 +21,35 @@ This article describes provides general information on X-Cart 5 upgrades and hin
 
 ## Upgrade types
 
-Since the adoption by X-Cart of the [four-sequence versioning scheme](http://devs.x-cart.com/en/misc/x-cart_versions.html#x-cart-53x-versioning), in which the first two sequences of digits in the version identifier represent the major version, the third sequence represents the minor version, and the fourth sequence represents the build version (bugfix release), we had to change X-Cart's upgrade system a little bit to accomodate the changes. As a result, X-Cart now uses three types of upgrades:
+Since the adoption by X-Cart of the [four-sequence versioning scheme](http://devs.x-cart.com/en/misc/x-cart_versions.html#x-cart-53x-versioning), in which the first two sequences of digits in the version identifier represent the major version, the third sequence represents the minor version, and the fourth sequence represents the build version (bugfix release), we had to change X-Cart's upgrade system a little bit to accomodate the changes. As a result, X-Cart now uses two types of upgrades:
 
-* **major upgrade** - an upgrade resulting in the increase of the major version number (for example, an upgrade from 5.0.13 to 5.1.3); 
+* **major upgrade** - an upgrade resulting in the increase of the first three sequences of digits in the version number (for example, an upgrade from 5.0.13 to 5.1.3, or an upgrade from 5.2.16 to 5.2.20, or an upgrade from 5.3.1.6 to 5.3.2.0);
 
-* **minor upgrade** - an upgrade resulting in the increase of the minor version number (for example, an upgrade from 5.2.16 to 5.2.20, or an upgrade from 5.3.1.6 to 5.3.2.0);
+* **minor upgrade** - an update resulting in the increase of the build version number (for example, an upgrade from 5.3.1.3 to 5.3.1.6).
 
-* **bugfix update** - an update resulting in the increase of the build version number (for example, an upgrade from 5.3.1.3 to 5.3.1.6).
+The type of upgrade reflects the significance of changes that the upgrade implements. A major upgrade provides both new features and bugfixes. A minor update provide only bugfixes. If a major upgrade and a minor update are available at the same time, the store administrator can choose whether they want just to update to the latest available bugfix release or to upgrade the store to the latest version with new features and bugfixes available for their license. Major upgrade includes big changes of the core so that interfaces of classes and signatures of methods change. It does not happen during minor upgrade. Consequently, minor upgrade does not require any change in modules, but major one requires compatibility changes.
 
-The type of upgrade reflects the significance of changes that the upgrade implements. Major and minor upgrades provide both new features and bugfixes. Bugfix updates provide only bugfixes. If two upgrades (bugfixes and new features) are available at the same time, the store administrator can choose whether they want just to update to the latest available bugfix release or to upgrade the store to the latest version with new features and bugfixes available for their license.
+<table class="ui celled padded compact small table">
+  <thead>
+  	<tr>
+      <th><strong>4th digit increases<br/>5.3.0.3 to 5.3.0.5</strong></th>
+      <th><strong>3d digit increases<br/>5.3.0.3 to 5.3.1.0</strong></th>
+      <th><strong>2nd digit increases<br/>5.3.0.3 to 5.4.0.0</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bugfixes only</td>
+      <td>Bugfixes<br/>New features<br/>Minor API changes</td>
+      <td>Bugfixes<br/>New features<br/>Minor API changes</td>
+    </tr>
+    <tr>
+      <td>Free anytime</td>
+      <td>Free with active<br/>upgrade subscription</td>
+      <td>Free with active<br/>upgrade subscription</td>
+    </tr>
+  </tbody>
+</table>
 
 ## Upgrade waves
 Every X-Cart version undergoes thorough testing before it is released. To 
