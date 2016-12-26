@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2016-09-27 23:37 +0400'
 identifier: ref_secureconfig
 title: Secure configuration of the server
-published: false
+published: true
 order: 150
 ---
 
