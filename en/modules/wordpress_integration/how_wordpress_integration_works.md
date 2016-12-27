@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-11 13:49 +0400'
+updated_at: '2016-12-27 15:48 +0400'
 identifier: ref_9IwXqwiT
 title: How X-Cart 5 to WordPress Integration works
 categories:
@@ -55,24 +55,11 @@ By clicking the **CHECKOUT** button a user can proceed to checkout; when this h
 
 ![]({{site.baseurl}}/attachments/8750580/8719411.png)
 
-Related pages:
+_Related pages:_
 
 *   {% link "X-Cart 5 to WordPress Integration: System requirements and installation" ref_qe4N0rTZ %}
 *   {% link "Configuring the X-Cart Intergration plugin in WordPress" ref_wacvoZl5 %}
 *   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
 *   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
 
-## Attachments:
 
-* [xc5_wp_int_category.png]({{site.baseurl}}/attachments/8750580/8719398.png) (image/png)
-* [xc5_wp_int_product.png]({{site.baseurl}}/attachments/8750580/8719399.png) (image/png)
-* [xc5_wp_int_minicart.png]({{site.baseurl}}/attachments/8750580/8719400.png) (image/png)
-* [xc5_wp_int_category1.png]({{site.baseurl}}/attachments/8750580/8719401.png) (image/png)
-* [xc5_wp_int_previous_next_product.png]({{site.baseurl}}/attachments/8750580/8719402.png) (image/png)
-* [xc5_wp_int_category_nav.png]({{site.baseurl}}/attachments/8750580/8719403.png) (image/png)
-* [xc5_wp_int_category_menu_in_post.png]({{site.baseurl}}/attachments/8750580/8719405.png) (image/png)
-* [xc5_wp_int_category_menu_in_post.png]({{site.baseurl}}/attachments/8750580/8719404.png) (image/png)
-* [xc5_wp_int_category_menu_in_sidebar.png]({{site.baseurl}}/attachments/8750580/8719406.png) (image/png)
-* [xc5_wp_int_product_search_widget.png]({{site.baseurl}}/attachments/8750580/8719409.png) (image/png)
-* [xc5_wp_int_cart_contents.png]({{site.baseurl}}/attachments/8750580/8719410.png) (image/png)
-* [xc5_wp_int_checkout.png]({{site.baseurl}}/attachments/8750580/8719411.png) (image/png)
