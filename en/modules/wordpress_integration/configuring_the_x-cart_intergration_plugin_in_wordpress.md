@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-11 13:58 +0400'
+updated_at: '2016-12-27 15:32 +0400'
 identifier: ref_wacvoZl5
 title: Configuring the X-Cart Intergration plugin in WordPress
 categories:
   - User manual
 published: true
-order: 100
+order: 130
 ---
 
 
