@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-27 15:27 +0400'
+updated_at: '2016-12-27 15:54 +0400'
 identifier: ref_TmUz8Bkv
 title: Adding products and categories to your WordPress blog
 categories:
@@ -34,7 +34,4 @@ Related pages:
 *   {% link "How X-Cart 5 to WordPress Integration works" ref_9IwXqwiT %}
 *   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
 
-## Attachments:
 
-* [xc5_wp_int_wp_code_tab.png]({{site.baseurl}}/attachments/8750584/8719412.png) (image/png)
-* [xc5_wp_int_wp_code_tab1.png]({{site.baseurl}}/attachments/8750584/8719413.png) (image/png)
