@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-27 15:32 +0400'
+updated_at: '2016-12-27 15:51 +0400'
 identifier: ref_wacvoZl5
 title: Configuring the X-Cart Intergration plugin in WordPress
 categories:
@@ -33,9 +33,4 @@ Related pages:
 *   {% link "Adding the Category menu and Product search widgets to your WordPress blog" ref_wuyfRXZI %}
 *   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
 
-## Attachments:
 
-* [xc5_wp_int_xcart_int_options.png]({{site.baseurl}}/attachments/8750648/8719395.png) (image/png)
-* [xc5_wp_int_xcart_int_plugin_settings.png]({{site.baseurl}}/attachments/8750648/8719397.png) (image/png)
-* [xc5_wp_int_xcart_int_plugin_settings.png]({{site.baseurl}}/attachments/8750648/8719396.png) (image/png)
-* [xc5_wp_int_xcart_int_settings.png]({{site.baseurl}}/attachments/8750648/8719415.png) (image/png)
