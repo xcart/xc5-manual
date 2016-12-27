@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-27 15:33 +0400'
+updated_at: '2016-12-27 15:55 +0400'
 identifier: ref_wuyfRXZI
 title: Adding the Category menu and Product search widgets to your WordPress blog
 categories:
@@ -83,17 +83,4 @@ Related pages:
 *   {% link "How X-Cart 5 to WordPress Integration works" ref_9IwXqwiT %}
 *   {% link "Adding products and categories to your WordPress blog" ref_TmUz8Bkv %}
 
-## Attachments:
 
-* [xc5_wp_int_add_widget.png]({{site.baseurl}}/attachments/8750680/8719417.png) (image/png)
-* [xc5_wp_int_add_widget.png]({{site.baseurl}}/attachments/8750680/8719421.png) (image/png)
-* [xc5_wp_int_dragndrop_widget.png]({{site.baseurl}}/attachments/8750680/8719420.png) (image/png)
-* [xc5_wp_int_widgets_section.png]({{site.baseurl}}/attachments/8750680/8719419.png) (image/png)
-* [xc5_wp_int_dragndrop_widget.png]({{site.baseurl}}/attachments/8750680/8719418.png) (image/png)
-* [xc5_wp_int_add_widget.png]({{site.baseurl}}/attachments/8750680/8719416.png) (image/png)
-* [xc5_wp_int_search_widget.png]({{site.baseurl}}/attachments/8750680/8719422.png) (image/png)
-* [xc5_wp_int_edit_widget_title.png]({{site.baseurl}}/attachments/8750680/8719423.png) (image/png)
-* [xc5_wp_int_widget_order.png]({{site.baseurl}}/attachments/8750680/8719424.png) (image/png)
-* [xc5_wp_int_sidebar_widgets.png]({{site.baseurl}}/attachments/8750680/8719425.png) (image/png)
-* [xc5_wp_int_widgets_inpost.png]({{site.baseurl}}/attachments/8750680/8719426.png) (image/png)
-* [xc5_wp_int_post_widgets.png]({{site.baseurl}}/attachments/8750680/8719427.png) (image/png)
