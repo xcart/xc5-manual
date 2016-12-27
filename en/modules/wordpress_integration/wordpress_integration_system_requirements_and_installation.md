@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-27 15:30 +0400'
+updated_at: '2016-12-27 15:31 +0400'
 identifier: ref_qe4N0rTZ
 title: 'X-Cart 5 to WordPress Integration: System requirements and installation'
 categories:
   - User manual
 published: true
-order: 110
+order: 120
 ---
 
 
