@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-11 13:55 +0400'
+updated_at: '2016-12-27 15:27 +0400'
 identifier: ref_TmUz8Bkv
 title: Adding products and categories to your WordPress blog
 categories:
   - User manual
 published: true
-order: 100
+order: 140
 ---
 
 
