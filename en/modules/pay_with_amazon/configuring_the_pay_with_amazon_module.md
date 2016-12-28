@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 17:50 +0400'
+updated_at: '2016-12-28 17:53 +0400'
 identifier: ref_0UssH5KP
 title: Configuring the Pay with Amazon module
 categories:
@@ -36,7 +36,3 @@ _Related pages:_
 
 *   {% link "Getting started with Pay with Amazon" ref_hU2VNqiL %}
 
-## Attachments:
-
-* [PwA_settings.png]({{site.baseurl}}/attachments/7504637/7602403.png) (image/png)
-* [PwA_config_settings.png]({{site.baseurl}}/attachments/7504637/7602404.png) (image/png)
