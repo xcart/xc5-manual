@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 14:40 +0400'
+updated_at: '2016-12-28 15:12 +0400'
 identifier: ref_UxlB19Fr
 title: Viewing and managing your product listings on eBay
 categories:
@@ -44,12 +44,10 @@ Once the item is ended on eBay, a success message will be displayed. Also, a not
 
 ![]({{site.baseurl}}/attachments/9306771/9439196.png)
 
-## Attachments:
+_Related pages:_
 
-* [xc5_ebay_current_item_id.png]({{site.baseurl}}/attachments/9306771/9439191.png) (image/png)
-* [xc5_ebay_export_opts.png]({{site.baseurl}}/attachments/9306771/9439192.png) (image/png)
-* [xc5_ebay_change_item_id.png]({{site.baseurl}}/attachments/9306771/9439193.png) (image/png)
-* [xc5_ebay_change_item_id1.png]({{site.baseurl}}/attachments/9306771/9439194.png) (image/png)
-* [xc5_ebay_end_item.png]({{site.baseurl}}/attachments/9306771/9439195.png) (image/png)
-* [xc5_ebay_item_ended.png]({{site.baseurl}}/attachments/9306771/9439196.png) (image/png)
-* [xc5_ebay_product_icons.png]({{site.baseurl}}/attachments/9306771/9439197.png) (image/png)
+*   {% link "Exporting products to eBay" ref_40Al0Nky %}
+*   {% link "Importing orders from eBay" ref_QTwGRPLV %}
+*   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
+
+
