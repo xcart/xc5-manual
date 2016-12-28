@@ -21,3 +21,6 @@ As a result, you should have the module "eBay Integration" listed in your store
 
 ![]({{site.baseurl}}/attachments/8225598/8356528.png)
 
+_Related pages:_
+
+*   {% link "Configuring the eBay Integration module" ref_SCbAqGqX %}
