@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:21 +0400'
+updated_at: '2016-12-28 15:17 +0400'
 identifier: ref_0HbWTUok
 title: 'eCC Desktop: Quickbooks integration'
 categories:
@@ -35,9 +35,4 @@ _See also:_
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 
-## Attachments:
 
-* [ecc_desktop_installed.png]({{site.baseurl}}/attachments/7505372/7602646.png) (image/png)
-* [ecc_desktop_settings_link.png]({{site.baseurl}}/attachments/7505372/7602649.png) (image/png)
-* [ecc_desktop_settings.png]({{site.baseurl}}/attachments/7505372/7602650.png) (image/png)
-* [ecc_desktop_install.png]({{site.baseurl}}/attachments/7505372/7602652.png) (image/png)
