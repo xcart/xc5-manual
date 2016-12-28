@@ -1,12 +1,13 @@
 ---
-identifier: ref_TvmooKW9
-updated_at: 2015-11-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Vendor access to product classes and attributes'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:59 +0400'
+identifier: ref_TvmooKW9
+title: Vendor access to product classes and attributes
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -38,7 +39,4 @@ _Related pages_:
 *   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
 *   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
 
-## Attachments:
 
-* [xc5_vendor_ceramics_product_class.png]({{site.baseurl}}/attachments/8749481/8717109.png) (image/png)
-* [xc5_vendor_ceramics_attribtutes.png]({{site.baseurl}}/attachments/8749481/8717110.png) (image/png)
