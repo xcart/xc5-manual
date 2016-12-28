@@ -33,4 +33,9 @@ Once all the selected feeds have been generated, download links for the generate
 
 For better results, we recommend you analyze the feeds that were generated and tweak them in a spreadsheet program before submitting them to a shopping engine. 
 
+_Related pages:_
+
+*   {% link "Product Feeds module installation" ref_UEb13T0k %}
+*   {% link "Preparing to generate feeds" ref_Gie0uAaw %}
+
 
