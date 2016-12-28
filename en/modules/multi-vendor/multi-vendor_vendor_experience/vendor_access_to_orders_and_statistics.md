@@ -1,12 +1,13 @@
 ---
-identifier: ref_Q16T5ZnW
-updated_at: 2015-11-28 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Vendor access to orders and statistics'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:57 +0400'
+identifier: ref_Q16T5ZnW
+title: Vendor access to orders and statistics
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -46,10 +47,4 @@ _Related pages:_
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
 
-## Attachments:
 
-* [xc5_vendor_orders_list.png]({{site.baseurl}}/attachments/8749511/8717244.png) (image/png)
-* [xc5_vendor_tracking.png]({{site.baseurl}}/attachments/8749511/8717245.png) (image/png)
-* [xc5_vendor_order_statistics1.png]({{site.baseurl}}/attachments/8749511/8717246.png) (image/png)
-* [xc5_vendor_bestsellers1.png]({{site.baseurl}}/attachments/8749511/8717247.png) (image/png)
-* [xc5_multi_transactions_history_vendor.png]({{site.baseurl}}/attachments/8749511/8719641.png) (image/png)
