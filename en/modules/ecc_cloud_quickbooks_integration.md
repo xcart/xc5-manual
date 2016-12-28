@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:22 +0400'
+updated_at: '2016-12-28 15:19 +0400'
 identifier: ref_NRz30m6S
 title: 'eCC Cloud: Quickbooks integration'
 categories:
@@ -36,9 +36,3 @@ _See also:_
 
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
 
-## Attachments:
-
-* [ecc_cloud_installed.png]({{site.baseurl}}/attachments/7505378/7602647.png) (image/png)
-* [ecc_cloud_settings_link.png]({{site.baseurl}}/attachments/7505378/7602648.png) (image/png)
-* [ecc_cloud_settings.png]({{site.baseurl}}/attachments/7505378/7602651.png) (image/png)
-* [ecc_cloud_install.png]({{site.baseurl}}/attachments/7505378/7602653.png) (image/png)
