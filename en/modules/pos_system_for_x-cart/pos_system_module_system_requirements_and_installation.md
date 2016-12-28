@@ -1,12 +1,13 @@
 ---
-identifier: ref_eOsVsftg
-updated_at: 2016-04-27 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-12-28 21:41 +0400'
+identifier: ref_eOsVsftg
 title: 'POS system module: system requirements and installation'
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -58,6 +59,3 @@ _Related pages:_
 
 *   {% link "Getting started with POS system for X-Cart" ref_uuhJRDAr %}
 
-## Attachments:
-
-* [POS_module.png]({{site.baseurl}}/attachments/7504375/8718937.png) (image/png)
