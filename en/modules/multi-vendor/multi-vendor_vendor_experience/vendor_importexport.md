@@ -1,12 +1,13 @@
 ---
-identifier: ref_pa3oqbXz
-updated_at: 2015-04-30 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Vendor import/export'
+layout: article_with_sidebar
+updated_at: '2016-12-28 16:00 +0400'
+identifier: ref_pa3oqbXz
+title: Vendor import/export
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -34,10 +35,4 @@ _Related pages:_
 *   {% link "Managing vendor catalog" ref_r4mcwiho %}
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
 
-## Attachments:
 
-* [xc5_vendor_import_export.png]({{site.baseurl}}/attachments/8749505/8717239.png) (image/png)
-* [xc5_vendor_import.png]({{site.baseurl}}/attachments/8749505/8717241.png) (image/png)
-* [xc5_vendor_import.png]({{site.baseurl}}/attachments/8749505/8717240.png) (image/png)
-* [xc5_vendor_export.png]({{site.baseurl}}/attachments/8749505/8717243.png) (image/png)
-* [xc5_vendor_export.png]({{site.baseurl}}/attachments/8749505/8717242.png) (image/png)
