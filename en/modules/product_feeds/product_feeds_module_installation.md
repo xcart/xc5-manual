@@ -1,12 +1,13 @@
 ---
-identifier: ref_UEb13T0k
-updated_at: 2014-02-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Product Feeds module installation'
+layout: article_with_sidebar
+updated_at: '2016-12-28 22:37 +0400'
+identifier: ref_UEb13T0k
+title: Product Feeds module installation
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
