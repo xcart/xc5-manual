@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 15:57 +0400'
+updated_at: '2016-12-28 16:29 +0400'
 identifier: ref_Q16T5ZnW
 title: Vendor access to orders and statistics
 categories:
   - User manual
 published: true
-order: 100
+order: 180
 ---
 
 
@@ -46,5 +46,3 @@ _Related pages:_
 
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-
-
