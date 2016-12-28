@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 14:39 +0400'
+updated_at: '2016-12-28 15:05 +0400'
 identifier: ref_40Al0Nky
 title: Exporting products to eBay
 categories:
@@ -56,18 +56,8 @@ The eBay Integration module allows you to export product information from your s
     *   **Export Images** - will export just the product images;
     *   **End Item** - will end the item listing on eBay.
 
-## Attachments:
+_Related pages:_
 
-* [xc5_ebay_products_list.png]({{site.baseurl}}/attachments/9306473/9439180.png) (image/png)
-* [xc5_ebay_products_list1.png]({{site.baseurl}}/attachments/9306473/9439181.png) (image/png)
-* [xc5_ebay_products_list.png]({{site.baseurl}}/attachments/9306473/9439178.png) (image/png)
-* [xc5_ebay_products_list1.png]({{site.baseurl}}/attachments/9306473/9439179.png) (image/png)
-* [xc5_ebay_products_list2.png]({{site.baseurl}}/attachments/9306473/9439182.png) (image/png)
-* [xc5_ebay_export.png]({{site.baseurl}}/attachments/9306473/9439183.png) (image/png)
-* [xc5_ebay_detpage.png]({{site.baseurl}}/attachments/9306473/9439184.png) (image/png)
-* [xc5_ebay_detpage1.png]({{site.baseurl}}/attachments/9306473/9439185.png) (image/png)
-* [xc5_ebay_detpage2.png]({{site.baseurl}}/attachments/9306473/9439186.png) (image/png)
-* [xc5_ebay_detpage3.png]({{site.baseurl}}/attachments/9306473/9439188.png) (image/png)
-* [xc5_ebay_detpage3.png]({{site.baseurl}}/attachments/9306473/9439187.png) (image/png)
-* [xc5_ebay_detpage4.png]({{site.baseurl}}/attachments/9306473/9439190.png) (image/png)
-* [xc5_ebay_detpage4.png]({{site.baseurl}}/attachments/9306473/9439189.png) (image/png)
+*   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
+*   {% link "Importing orders from eBay" ref_QTwGRPLV %}
+*   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
