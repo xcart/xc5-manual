@@ -1,12 +1,13 @@
 ---
-identifier: ref_ooBRtSLz
-updated_at: 2014-09-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Canada Post customer experience'
+layout: article_with_sidebar
+updated_at: '2016-12-28 10:27 +0400'
+identifier: ref_ooBRtSLz
+title: Canada Post customer experience
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 
