@@ -1,12 +1,13 @@
 ---
-identifier: ref_N6PsLLrM
-updated_at: 2014-09-12 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Canada Post admin experience'
+layout: article_with_sidebar
+updated_at: '2016-12-28 10:26 +0400'
+identifier: ref_N6PsLLrM
+title: Canada Post admin experience
 categories:
   - User manual
-
+published: true
+order: 130
 ---
 
 
