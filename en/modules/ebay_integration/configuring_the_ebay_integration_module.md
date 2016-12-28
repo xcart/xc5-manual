@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 14:36 +0400'
+updated_at: '2016-12-28 15:01 +0400'
 identifier: ref_SCbAqGqX
 title: Configuring the eBay Integration module
 categories:
@@ -177,3 +177,9 @@ To set eBay options for a product:
 4.  Once you are done configuring the eBay options for the selected product, click **Save options** to save your changes. 
     ![]({{site.baseurl}}/attachments/9306381/9439155.png)
     The eBay options for the product will be saved.
+
+_Related pages:_
+
+*   {% link "eBay Integration module system requirements and installation" ref_RgzAH0hf %}
+*   {% link "Exporting products to eBay" ref_40Al0Nky %}
+*   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
