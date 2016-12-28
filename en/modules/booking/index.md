@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 21:38 +0400'
+updated_at: '2016-12-28 09:54 +0400'
 identifier: ref_iTdd1QoP
 title: Booking
 categories:
@@ -12,6 +12,15 @@ order: 140
 
 
 The module **Booking** for X-Cart 5 is an extension allowing you to set up a booking or rental website and handle online reservations for your customers. 
+
+_In this section:_
+
+*   {% link "How &quot;Booking&quot; module works" ref_8LMQvd29 %}
+*   {% link "&quot;Booking&quot; module: System requirements and installation" ref_0l095Fro %}
+*   {% link "&quot;Booking&quot; module: Getting started" ref_mUn67cLl %}
+*   {% link "Configuring the module &quot;Booking&quot;" ref_PGtil8wm %}
+*   {% link "Setting up a simple bookable product" ref_7o088Cca %}
+*   {% link "Setting up a bookable product with variants" ref_5BTPsMUx %}
 
 _Related pages:_
 
