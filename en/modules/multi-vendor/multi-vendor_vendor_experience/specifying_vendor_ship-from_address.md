@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 15:57 +0400'
+updated_at: '2016-12-28 16:26 +0400'
 identifier: ref_TWPnoz7h
 title: Specifying vendor ship-from address
 categories:
   - User manual
 published: true
-order: 100
+order: 120
 ---
 
 
@@ -20,5 +20,3 @@ In the "Warehouse" mode, vendors do not have access to the above section, as the
 _Related pages:_
 
 *   {% link "Managing vendor profile information" ref_b7PTQMgf %}
-
-
