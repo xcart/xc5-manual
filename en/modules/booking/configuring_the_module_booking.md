@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 10:00 +0400'
+updated_at: '2016-12-28 10:07 +0400'
 identifier: ref_PGtil8wm
 title: Configuring the module &quot;Booking&quot;
 categories:
@@ -26,7 +26,4 @@ _Related pages:_
 
 *   {% link "Setting up a bookable product with variants" ref_5BTPsMUx %}
 
-## Attachments:
 
-* [module-settings.png]({{site.baseurl}}/attachments/8749990/8718714.png) (image/png)
-* [booking_module_settings_link.png]({{site.baseurl}}/attachments/8749990/8718721.png) (image/png)
