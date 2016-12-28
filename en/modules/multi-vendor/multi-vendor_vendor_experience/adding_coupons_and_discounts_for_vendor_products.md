@@ -1,12 +1,13 @@
 ---
-identifier: ref_SwbyhUn5
-updated_at: 2015-11-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding coupons and discounts for vendor products'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:53 +0400'
+identifier: ref_SwbyhUn5
+title: Adding coupons and discounts for vendor products
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -24,6 +25,4 @@ Related pages:
 
 *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
 
-## Attachments:
 
-* [xc5_multi_vendor_promotions.png]({{site.baseurl}}/attachments/8751033/8719622.png) (image/png)
