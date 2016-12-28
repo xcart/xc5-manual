@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 09:56 +0400'
+updated_at: '2016-12-28 10:15 +0400'
 identifier: ref_8LMQvd29
 title: How &quot;Booking&quot; module works
 categories:
@@ -34,8 +34,4 @@ Related pages:
 *   {% link "«Booking» module: System requirements and installation" ref_0l095Fro %}
 *   {% link "«Booking» module: Getting started" ref_mUn67cLl %}
 
-## Attachments:
 
-* [available-booking-variants.png]({{site.baseurl}}/attachments/8749986/8718798.png) (image/png)
-* [product-no-dates-selected.png]({{site.baseurl}}/attachments/8749986/8718800.png) (image/png)
-* [mobile-view-collapsed.png]({{site.baseurl}}/attachments/8749986/8718802.png) (image/png)
