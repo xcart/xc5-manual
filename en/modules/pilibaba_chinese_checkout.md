@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 21:50 +0400'
+updated_at: '2016-12-28 22:33 +0400'
 identifier: ref_mJQGlNhh
 title: Pilibaba Chinese Checkout
 categories:
@@ -53,25 +53,4 @@ Below are a few screenshots demonstrating the features available in the Pilibab
 
 ![]({{site.baseurl}}/attachments/9307023/9439634.png)
 
-## Attachments:
 
-* [find_pilibaba_in _payment methods.png]({{site.baseurl}}/attachments/9307023/9439715.png) (image/png)
-* [pilibaba_configure.png]({{site.baseurl}}/attachments/9307023/9439635.png) (image/png)
-* [._configure.png]({{site.baseurl}}/attachments/9307023/9439628.png) (image/png)
-* [pilibaba_liveandtest.png]({{site.baseurl}}/attachments/9307023/9439637.png) (image/png)
-* [pilibaba_testmode.png]({{site.baseurl}}/attachments/9307023/9439630.png) (image/png)
-* [pilibaba_account summary.png]({{site.baseurl}}/attachments/9307023/9439631.png) (image/png)
-* [pilibaba_transactions .png]({{site.baseurl}}/attachments/9307023/9439632.png) (image/png)
-* [pilibaba_withdrawal .png]({{site.baseurl}}/attachments/9307023/9439633.png) (image/png)
-* [pilibaba_crm_invoicing.png]({{site.baseurl}}/attachments/9307023/9439634.png) (image/png)
-* [pilibaba_configure.png]({{site.baseurl}}/attachments/9307023/9439636.png) (image/png)
-* [pilibaba_configure.png]({{site.baseurl}}/attachments/9307023/9439627.png) (image/png)
-* [pilibaba_liveandtest.png]({{site.baseurl}}/attachments/9307023/9439629.png) (image/png)
-* [xc5_pilibaba_installed_enabled.png]({{site.baseurl}}/attachments/9307023/9439687.png) (image/png)
-* [xc5_pilibaba_settings.png]({{site.baseurl}}/attachments/9307023/9439688.png) (image/png)
-* [xc5_pilibaba_add_method.png]({{site.baseurl}}/attachments/9307023/9439689.png) (image/png)
-* [xc5_pilibaba_find_pilibaba.png]({{site.baseurl}}/attachments/9307023/9439690.png) (image/png)
-* [xc5_pilibaba_add_pilibaba.png]({{site.baseurl}}/attachments/9307023/9439692.png) (image/png)
-* [xc5_pilibaba_add_pilibaba.png]({{site.baseurl}}/attachments/9307023/9439691.png) (image/png)
-* [xc5_pilibaba_added.png]({{site.baseurl}}/attachments/9307023/9439693.png) (image/png)
-* [find_pilibaba_in _payment methods.png]({{site.baseurl}}/attachments/9307023/9439626.png) (image/png)
