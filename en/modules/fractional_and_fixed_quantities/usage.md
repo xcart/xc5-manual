@@ -1,9 +1,9 @@
 ---
-identifier: ref_FnFqUsage
-updated_at: 2016-08-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Module usage'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:35 +0400'
+identifier: ref_FnFqUsage
+title: Using the module "Fractional and Fixed quantities"
 order: 40
 version: X-Cart 5.2.16 and earlier
 keywords:
@@ -11,7 +11,7 @@ keywords:
 categories:
   - User manual
   - Module
-
+published: true
 ---
 
 This section provides information on:
@@ -112,4 +112,4 @@ the allowed quantities will show on the storefront along with your custom define
 
  ![]({{site.baseurl}}/attachments/9666753/9634623.png)
 
-**Important**: The allowed quantities feature cannot be used to limit the number of product units that can be purchased by a customer. All it can do is limit the size of the portions or packs in which the product will be added to the shopping cart from the product page. If a buyer wishes to purchase a different quantity of the product, they will be able to do so by clicking the **Add to cart** button more than once or editing the quantity of the product in the shopping cart directly on the cart page. 
+**Important**: The allowed quantities feature cannot be used to limit the number of product units that can be purchased by a customer. All it can do is limit the size of the portions or packs in which the product will be added to the shopping cart from the product page. If a buyer wishes to purchase a different quantity of the product, they will be able to do so by clicking the **Add to cart** button more than once or editing the quantity of the product in the shopping cart directly on the cart page.
