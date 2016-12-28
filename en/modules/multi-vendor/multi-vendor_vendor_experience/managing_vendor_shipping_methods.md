@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 15:56 +0400'
+updated_at: '2016-12-28 16:28 +0400'
 identifier: ref_IvXmtLKI
 title: Managing vendor shipping methods
 categories:
   - User manual
 published: true
-order: 100
+order: 170
 ---
 
 
@@ -21,4 +21,3 @@ _Related pages:_
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
 *   {% link "Managing vendor catalog" ref_r4mcwiho %}
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-
