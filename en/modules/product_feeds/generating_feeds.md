@@ -1,12 +1,13 @@
 ---
-identifier: ref_20WzfB4m
-updated_at: 2014-02-18 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Generating feeds'
+layout: article_with_sidebar
+updated_at: '2016-12-28 22:40 +0400'
+identifier: ref_20WzfB4m
+title: Generating feeds
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 
