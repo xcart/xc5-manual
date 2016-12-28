@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 09:57 +0400'
+updated_at: '2016-12-28 10:12 +0400'
 identifier: ref_0l095Fro
 title: '&quot;Booking&quot; module: System requirements and installation'
 categories:
   - User manual
 published: true
-order: 120
+order: 135
 ---
 
 To be able to successfully install and use the module "Booking", you need a working copy of X-Cart 5 installed on your server.
