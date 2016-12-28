@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 10:24 +0400'
+updated_at: '2016-12-28 11:34 +0400'
 identifier: ref_XsHLxUwv
 title: Configuring the Canada Post module
 categories:
@@ -57,11 +57,9 @@ After you have completed the Canada Post registration via the Merchant registra
 
 *   **Enable "Deliver to Post Office" feature**: Enable this to allow your buyers to get their purchases at a nearby post office location of their choice.
 
-    Note
-
-    Icon
-
+    {% note info %}
     _Deliver to Post Office_ option is available only with Xpresspost and Expedited Parcel Services.
+    {% endnote %}
 
 *   **Maximum Post Offices that will be displayed**: Specify the maximum number of post offices that should be displayed for selection to a buyer who chose to use the "Deliver to Post Office" option.
 
