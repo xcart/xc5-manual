@@ -1,12 +1,13 @@
 ---
-identifier: ref_h6SlMCLe
-updated_at: 2016-04-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Getting started with iDEAL Payments'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:43 +0400'
+identifier: ref_h6SlMCLe
+title: Getting started with iDEAL Payments
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -76,9 +77,4 @@ If you are going to buy a certificate from a Certificate Authority (CA), rather 
 Therefore CA-certificates used to sign certificates for electronic signatures must use at least SHA-256 for hashing and 2,048 bits for RSA keys.
 Signing certificates should also have a maximum validity period of 5 years.
 
-## Attachments:
 
-* [xc5_idealpayments_add.png]({{site.baseurl}}/attachments/9306867/9439226.png) (image/png)
-* [xc5_idealpayments_enabled.png]({{site.baseurl}}/attachments/9306867/9439227.png) (image/png)
-* [xc5_idealpayments_add0.png]({{site.baseurl}}/attachments/9306867/9439228.png) (image/png)
-* [xc5_idealpayments_settings.png]({{site.baseurl}}/attachments/9306867/9439229.png) (image/png)
