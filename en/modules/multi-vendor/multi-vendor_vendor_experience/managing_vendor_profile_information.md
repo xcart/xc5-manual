@@ -1,12 +1,13 @@
 ---
-identifier: ref_b7PTQMgf
-updated_at: 2015-12-04 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing vendor profile information'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:55 +0400'
+identifier: ref_b7PTQMgf
+title: Managing vendor profile information
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -50,16 +51,4 @@ _Related pages:_
 *   {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}
 *   {% link "Vendor import/export" ref_pa3oqbXz %}
 
-## Attachments:
 
-* [xc5_vendor_details.png]({{site.baseurl}}/attachments/8749390/8716909.png) (image/png)
-* [xc5_vendor_profile_settings.png]({{site.baseurl}}/attachments/8749390/8716911.png) (image/png)
-* [xc5_vendor_account_details.png]({{site.baseurl}}/attachments/8749390/8716927.png) (image/png)
-* [xc5_vendor_account_details.png]({{site.baseurl}}/attachments/8749390/8716926.png) (image/png)
-* [xc5_vendor_address book.png]({{site.baseurl}}/attachments/8749390/8716929.png) (image/png)
-* [xc5_vendor_address book.png]({{site.baseurl}}/attachments/8749390/8716928.png) (image/png)
-* [xc5_multi_vendor_profile_settings.png]({{site.baseurl}}/attachments/8749390/8719613.png) (image/png)
-* [xc5_multi_vendor_account_details.png]({{site.baseurl}}/attachments/8749390/8719614.png) (image/png)
-* [xc5_multi_vendor_address_book.png]({{site.baseurl}}/attachments/8749390/8719615.png) (image/png)
-* [xc5_multi_vendor_details.png]({{site.baseurl}}/attachments/8749390/8719616.png) (image/png)
-* [xc5_multi_vendor_financial_info.png]({{site.baseurl}}/attachments/8749390/8719617.png) (image/png)
