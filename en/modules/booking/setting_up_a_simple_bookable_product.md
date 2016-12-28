@@ -1,12 +1,13 @@
 ---
-identifier: ref_7o088Cca
-updated_at: 2015-06-28 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up a simple bookable product'
+layout: article_with_sidebar
+updated_at: '2016-12-28 10:01 +0400'
+identifier: ref_7o088Cca
+title: Setting up a simple bookable product
 categories:
   - User manual
-
+published: true
+order: 160
 ---
 
 To create a simple bookable product (without product variants), follow these steps:
