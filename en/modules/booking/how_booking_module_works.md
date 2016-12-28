@@ -1,12 +1,13 @@
 ---
-identifier: ref_8LMQvd29
-updated_at: 2015-07-03 00:00
-layout: article_with_sidebar
 lang: en
-title: 'How &quot;Booking&quot; module works'
+layout: article_with_sidebar
+updated_at: '2016-12-28 09:56 +0400'
+identifier: ref_8LMQvd29
+title: How &quot;Booking&quot; module works
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
