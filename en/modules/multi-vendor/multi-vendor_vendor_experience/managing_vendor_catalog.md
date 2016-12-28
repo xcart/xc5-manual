@@ -1,12 +1,13 @@
 ---
-identifier: ref_r4mcwiho
-updated_at: 2015-04-28 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing vendor catalog'
+layout: article_with_sidebar
+updated_at: '2016-12-28 16:26 +0400'
+identifier: ref_r4mcwiho
+title: Managing vendor catalog
 categories:
   - User manual
-
+published: true
+order: 130
 ---
 
 
