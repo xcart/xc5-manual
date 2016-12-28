@@ -1,12 +1,13 @@
 ---
-identifier: ref_Gie0uAaw
-updated_at: 2015-06-18 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Preparing to generate feeds'
+layout: article_with_sidebar
+updated_at: '2016-12-28 22:38 +0400'
+identifier: ref_Gie0uAaw
+title: Preparing to generate feeds
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 
