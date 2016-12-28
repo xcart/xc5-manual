@@ -1,12 +1,13 @@
 ---
-identifier: ref_nFq48dhr
-updated_at: 2015-11-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring the Multi-vendor module'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:48 +0400'
+identifier: ref_nFq48dhr
+title: Configuring the Multi-vendor module
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -69,9 +70,3 @@ _Related pages:_
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
 *   {% link "Vendor registration" ref_SkW62BgH %}
 
-## Attachments:
-
-* [mv_module_config.png]({{site.baseurl}}/attachments/8749139/8716519.png) (image/png)
-* [mv_module_config.png]({{site.baseurl}}/attachments/8749139/8716518.png) (image/png)
-* [mv_module_config1.png]({{site.baseurl}}/attachments/8749139/8716520.png) (image/png)
-* [xc5_multi_module_settings.png]({{site.baseurl}}/attachments/8749139/8719612.png) (image/png)
