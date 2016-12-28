@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 15:53 +0400'
+updated_at: '2016-12-28 16:28 +0400'
 identifier: ref_SwbyhUn5
 title: Adding coupons and discounts for vendor products
 categories:
   - User manual
 published: true
-order: 100
+order: 160
 ---
 
 
@@ -24,5 +24,3 @@ If necessary, vendor coupons and discounts can be edited by the store administra
 Related pages:
 
 *   {% link "Multi-vendor: Vendor experience" ref_COgF04Tz %}
-
-
