@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 17:51 +0400'
+updated_at: '2016-12-28 17:54 +0400'
 identifier: ref_meqXfPIt
 title: Pay with Amazon admin experience
 categories:
@@ -32,9 +32,4 @@ _Related pages:_
 *   {% link "Configuring the Pay with Amazon module" ref_0UssH5KP %}
 *   {% link "Pay with Amazon customer experience" ref_MQB8GDLT %}
 
-## Attachments:
 
-* [capture_void.png]({{site.baseurl}}/attachments/7504753/7602405.png) (image/png)
-* [refund.png]({{site.baseurl}}/attachments/7504753/7602406.png) (image/png)
-* [refresh_status.png]({{site.baseurl}}/attachments/7504753/7602407.png) (image/png)
-* [PwA_method.png]({{site.baseurl}}/attachments/7504753/7602408.png) (image/png)
