@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 17:50 +0400'
+updated_at: '2016-12-28 17:55 +0400'
 identifier: ref_MQB8GDLT
 title: Pay with Amazon customer experience
 categories:
@@ -56,10 +56,4 @@ _Related pages:_
 *   {% link "Configuring the Pay with Amazon module" ref_0UssH5KP %}
 *   {% link "Pay with Amazon admin experience" ref_meqXfPIt %}
 
-## Attachments:
 
-* [PwA_button_cart.png]({{site.baseurl}}/attachments/7504625/7602347.png) (image/png)
-* [PwA_button_minicart.png]({{site.baseurl}}/attachments/7504625/7602348.png) (image/png)
-* [PwA_button_add2cart.png]({{site.baseurl}}/attachments/7504625/7602349.png) (image/png)
-* [PwA_amazon_signin_popup.png]({{site.baseurl}}/attachments/7504625/7602350.png) (image/png)
-* [PwA_widgets.png]({{site.baseurl}}/attachments/7504625/7602351.png) (image/png)
