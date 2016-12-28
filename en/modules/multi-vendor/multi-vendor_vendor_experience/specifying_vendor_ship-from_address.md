@@ -1,12 +1,13 @@
 ---
-identifier: ref_TWPnoz7h
-updated_at: 2015-11-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Specifying vendor ship-from address'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:57 +0400'
+identifier: ref_TWPnoz7h
+title: Specifying vendor ship-from address
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -20,6 +21,4 @@ _Related pages:_
 
 *   {% link "Managing vendor profile information" ref_b7PTQMgf %}
 
-## Attachments:
 
-* [xc5_multi_vendor_store_address.png]({{site.baseurl}}/attachments/8750997/8719618.png) (image/png)
