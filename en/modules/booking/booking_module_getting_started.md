@@ -1,12 +1,13 @@
 ---
-identifier: ref_mUn67cLl
-updated_at: 2015-06-27 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-12-28 09:58 +0400'
+identifier: ref_mUn67cLl
 title: '&quot;Booking&quot; module: Getting started'
 categories:
   - User manual
-
+published: true
+order: 130
 ---
 
 
