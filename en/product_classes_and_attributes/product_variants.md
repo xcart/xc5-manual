@@ -1,13 +1,14 @@
 ---
-identifier: ref_0uApuQfx
-updated_at: 2015-09-02 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Product variants'
+layout: article_with_sidebar
+updated_at: '2016-12-28 12:28 +0400'
+identifier: ref_0uApuQfx
+title: Product variants
 version: X-Cart with Product variants module
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -31,11 +32,14 @@ Let us use a simple example to show what product variants are and why you may ne
 
 For instance, we have some plates with kitty print that we want to sell at our store. The plates are exactly the same, but the kitty print comes in different colors and patterns. First, we have plates with blue, mint and orange kitties in solid color:
 
-![](attachments/7504786/7602414.png)![](attachments/7504786/7602617.png)![]({{site.baseurl}}/attachments/7504786/7602417.png)
+![]({{site.baseurl}}/attachments/7504786/7602414.png)
+![]({{site.baseurl}}/attachments/7504786/7602617.png)
+![]({{site.baseurl}}/attachments/7504786/7602417.png)
 
 Second, we also have plates with blue and mint kitties that come in a dotted pattern:
 
-![](attachments/7504786/7602416.png)![]({{site.baseurl}}/attachments/7504786/7602618.png)
+![]({{site.baseurl}}/attachments/7504786/7602416.png)
+![]({{site.baseurl}}/attachments/7504786/7602618.png)
 
 Note that we do not have plates with an orange dotted kitty:
 
