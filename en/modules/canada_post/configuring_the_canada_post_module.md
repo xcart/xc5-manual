@@ -58,7 +58,7 @@ After you have completed the Canada Post registration via the Merchant registra
 *   **Enable "Deliver to Post Office" feature**: Enable this to allow your buyers to get their purchases at a nearby post office location of their choice.
 
     {% note info %}
-    _Deliver to Post Office_ option is available only with Xpresspost and Expedited Parcel Services.
+    Thw _Deliver to Post Office_ option is available only with Xpresspost and Expedited Parcel Services.
     {% endnote %}
 
 *   **Maximum Post Offices that will be displayed**: Specify the maximum number of post offices that should be displayed for selection to a buyer who chose to use the "Deliver to Post Office" option.
@@ -83,11 +83,9 @@ The settings in this section allow you to specify the typical characteristics of
 
 *   **Oversized**: - Indicates whether the parcel is oversized or not. If parcel dimensions have been provided, then this element will be automatically determined (as either true or false) based on the parcel dimensions (regardless of whether you include a value for the "oversized" element field). However, if no dimensions are provided, then you can specify that a parcel is oversized (or not) using this element.
 
-Important
-
-Icon
-
+{% note info %}
 Please note that currently X-Cart's Canada Post module does not support the use of package dimensions (**Package length**, **Package width** and **Package height**) for rate calculation and for splitting a single order into multiple packages; only the **Pakage maximum weight** value and the weight of the products in the order are taken into account.
+{% endnote %}
 
 ## Parcel options
 
