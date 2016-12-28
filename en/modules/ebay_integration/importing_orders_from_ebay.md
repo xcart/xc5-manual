@@ -1,12 +1,13 @@
 ---
-identifier: ref_QTwGRPLV
-updated_at: 2016-03-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Importing orders from eBay'
+layout: article_with_sidebar
+updated_at: '2016-12-28 14:41 +0400'
+identifier: ref_QTwGRPLV
+title: Importing orders from eBay
 categories:
   - User manual
-
+published: true
+order: 150
 ---
 
 
