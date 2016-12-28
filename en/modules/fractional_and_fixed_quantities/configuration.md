@@ -1,9 +1,9 @@
 ---
-identifier: ref_FnFqConfig
-updated_at: 2016-08-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Module configuration'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:34 +0400'
+identifier: ref_FnFqConfig
+title: Configuring the module "Fractional and Fixed quantities"
 order: 30
 version: X-Cart 5.2.16 and earlier
 keywords:
@@ -11,7 +11,7 @@ keywords:
 categories:
   - User manual
   - Module
-
+published: true
 ---
 
 After the module has been installed and enabled, it needs to be configured. The module configuration settings can be accessed via the Settings link below the product name on the Installed Modules list:
