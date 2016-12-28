@@ -1,12 +1,13 @@
 ---
-identifier: ref_fxTL6F2z
-updated_at: 2015-11-27 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:51 +0400'
+identifier: ref_fxTL6F2z
 title: 'Multi-vendor: Customer experience'
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -46,17 +47,4 @@ _Related pages:_
 
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
 
-## Attachments:
 
-* [xc5_vendors_menu.png]({{site.baseurl}}/attachments/8749408/8717013.png) (image/png)
-* [xc5_vendor_profile_page.png]({{site.baseurl}}/attachments/8749408/8717014.png) (image/png)
-* [xc5_product_details.png]({{site.baseurl}}/attachments/8749408/8717015.png) (image/png)
-* [xc5_multivendor_cart.png]({{site.baseurl}}/attachments/8749408/8717251.png) (image/png)
-* [xc5_vendor_in_cart.png]({{site.baseurl}}/attachments/8749408/8717250.png) (image/png)
-* [xc5_multivendor_cart.png]({{site.baseurl}}/attachments/8749408/8717249.png) (image/png)
-* [xc5_vendor_shipping_method_checkout.png]({{site.baseurl}}/attachments/8749408/8717252.png) (image/png)
-* [xc5_multivendor_order.png]({{site.baseurl}}/attachments/8749408/8717253.png) (image/png)
-* [xc5_vendor_shipping_unavailable.png]({{site.baseurl}}/attachments/8749408/8717254.png) (image/png)
-* [image2015-4-30 23:17:36.png]({{site.baseurl}}/attachments/8749408/8717255.png) (image/png)
-* [xc5_multivendor_product_filter.png]({{site.baseurl}}/attachments/8749408/8717256.png) (image/png)
-* [xc5_multi_shipping_methods_separate_shops.png]({{site.baseurl}}/attachments/8749408/8719639.png) (image/png)
