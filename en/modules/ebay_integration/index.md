@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:20 +0400'
+updated_at: '2016-12-28 14:34 +0400'
 identifier: ref_0SnFdXk1
 title: eBay Integration
 categories:
@@ -20,3 +20,13 @@ The integration is provided as a service. [Subscription plans](http://www.x-car
  The video below provides a brief overview of the module functionality:
 
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="http://www.youtube.com/embed/yT5uUF7qs4o" frameborder="0"></iframe>
+
+_In this section:_
+
+*   {% link "eBay Integration module system requirements and installation" ref_RgzAH0hf %}
+*   {% link "Configuring the eBay Integration module" ref_SCbAqGqX %}
+*   {% link "Exporting products to eBay" ref_40Al0Nky %}
+*   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
+*   {% link "Importing orders from eBay" ref_QTwGRPLV %}
+*   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
+
