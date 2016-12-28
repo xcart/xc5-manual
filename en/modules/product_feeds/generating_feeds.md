@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 22:40 +0400'
+updated_at: '2016-12-28 22:49 +0400'
 identifier: ref_20WzfB4m
 title: Generating feeds
 categories:
@@ -33,10 +33,4 @@ Once all the selected feeds have been generated, download links for the generate
 
 For better results, we recommend you analyze the feeds that were generated and tweak them in a spreadsheet program before submitting them to a shopping engine. 
 
-## Attachments:
 
-* [generate-feeds-1-select.png]({{site.baseurl}}/attachments/7504363/7602287.png) (image/png)
-* [generate-feeds-1-select.png]({{site.baseurl}}/attachments/7504363/7602286.png) (image/png)
-* [generate-feeds-2-generate.png]({{site.baseurl}}/attachments/7504363/7602288.png) (image/png)
-* [generate-feeds-3-download.png]({{site.baseurl}}/attachments/7504363/7602289.png) (image/png)
-* [product-feeds-list.png]({{site.baseurl}}/attachments/7504363/7602290.png) (image/png)
