@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 15:55 +0400'
+updated_at: '2016-12-28 16:25 +0400'
 identifier: ref_b7PTQMgf
 title: Managing vendor profile information
 categories:
   - User manual
 published: true
-order: 100
+order: 110
 ---
 
 
@@ -50,5 +50,3 @@ _Related pages:_
 *   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
 *   {% link "Specifying vendor ship-from address" ref_TWPnoz7h %}
 *   {% link "Vendor import/export" ref_pa3oqbXz %}
-
-
