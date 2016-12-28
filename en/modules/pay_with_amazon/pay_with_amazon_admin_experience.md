@@ -1,12 +1,13 @@
 ---
-identifier: ref_meqXfPIt
-updated_at: 2014-04-09 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Pay with Amazon admin experience'
+layout: article_with_sidebar
+updated_at: '2016-12-28 17:51 +0400'
+identifier: ref_meqXfPIt
+title: Pay with Amazon admin experience
 categories:
   - User manual
-
+published: true
+order: 150
 ---
 
 
