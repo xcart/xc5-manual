@@ -1,9 +1,9 @@
 ---
-identifier: ref_FnFqSysReq
-updated_at: 2016-08-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'System requirements and installation'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:33 +0400'
+identifier: ref_FnFqSysReq
+title: 'Fractional and Fixed quantities: system requirements and installation'
 order: 20
 version: X-Cart 5.2.16 and earlier
 keywords:
@@ -11,7 +11,7 @@ keywords:
 categories:
   - User manual
   - Module
-
+published: true
 ---
 
 To be able to successfully install and use the module "Fractional and Fixed quantities", you need a working copy of X-Cart 5 installed on your server.
