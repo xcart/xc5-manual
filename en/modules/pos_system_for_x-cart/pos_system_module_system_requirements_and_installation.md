@@ -7,7 +7,7 @@ title: 'POS system module: system requirements and installation'
 categories:
   - User manual
 published: true
-order: 100
+order: 120
 ---
 
 
