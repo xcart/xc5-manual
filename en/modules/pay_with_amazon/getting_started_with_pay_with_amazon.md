@@ -1,12 +1,13 @@
 ---
-identifier: ref_hU2VNqiL
-updated_at: 2016-01-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Getting started with Pay with Amazon'
+layout: article_with_sidebar
+updated_at: '2016-12-28 17:45 +0400'
+identifier: ref_hU2VNqiL
+title: Getting started with Pay with Amazon
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 
