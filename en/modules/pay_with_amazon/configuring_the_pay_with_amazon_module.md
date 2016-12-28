@@ -1,12 +1,13 @@
 ---
-identifier: ref_0UssH5KP
-updated_at: 2014-04-09 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring the Pay with Amazon module'
+layout: article_with_sidebar
+updated_at: '2016-12-28 17:50 +0400'
+identifier: ref_0UssH5KP
+title: Configuring the Pay with Amazon module
 categories:
   - User manual
-
+published: true
+order: 130
 ---
 
 
