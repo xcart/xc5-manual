@@ -1,12 +1,13 @@
 ---
-identifier: ref_5BTPsMUx
-updated_at: 2015-07-08 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up a bookable product with variants'
+layout: article_with_sidebar
+updated_at: '2016-12-28 10:16 +0400'
+identifier: ref_5BTPsMUx
+title: Setting up a bookable product with variants
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 To create a bookable product with product variants, follow these steps:
