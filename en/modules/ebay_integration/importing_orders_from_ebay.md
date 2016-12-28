@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 14:43 +0400'
+updated_at: '2016-12-28 15:08 +0400'
 identifier: ref_QTwGRPLV
 title: Importing orders from eBay
 categories:
@@ -29,11 +29,8 @@ In your X-Cart store's general list of orders, orders created on eBay are marked
 
 ![]({{site.baseurl}}/attachments/9306779/9439202.png)
 
-## Attachments:
+_Related pages:_
 
-* [xc5_ebay_import_orders1.png]({{site.baseurl}}/attachments/9306779/9439198.png) (image/png)
-* [xc5_ebay_upload.png]({{site.baseurl}}/attachments/9306779/9439199.png) (image/png)
-* [xc5_ebay_upload1.png]({{site.baseurl}}/attachments/9306779/9439200.png) (image/png)
-* [xc5_ebay_upload2.png]({{site.baseurl}}/attachments/9306779/9439203.png) (image/png)
-* [xc5_ebay_order_icon.png]({{site.baseurl}}/attachments/9306779/9439202.png) (image/png)
-* [xc5_ebay_upload2.png]({{site.baseurl}}/attachments/9306779/9439201.png) (image/png)
+*   {% link "Exporting products to eBay" ref_40Al0Nky %}
+*   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
+*   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
