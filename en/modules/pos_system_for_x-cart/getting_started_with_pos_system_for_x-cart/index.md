@@ -1,12 +1,13 @@
 ---
-identifier: ref_uuhJRDAr
-updated_at: 2016-04-25 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Getting started with POS system for X-Cart'
+layout: article_with_sidebar
+updated_at: '2016-12-28 21:43 +0400'
+identifier: ref_uuhJRDAr
+title: Getting started with POS system for X-Cart
 categories:
   - User manual
-
+published: true
+order: 130
 ---
 
 
