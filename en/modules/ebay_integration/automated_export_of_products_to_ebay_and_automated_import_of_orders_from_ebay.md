@@ -1,12 +1,13 @@
 ---
-identifier: ref_qPIZcwNs
-updated_at: 2016-04-07 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Automated export of products to eBay and automated import of orders from eBay'
+layout: article_with_sidebar
+updated_at: '2016-12-28 14:44 +0400'
+identifier: ref_qPIZcwNs
+title: Automated export of products to eBay and automated import of orders from eBay
 categories:
   - User manual
-
+published: true
+order: 180
 ---
 
 
