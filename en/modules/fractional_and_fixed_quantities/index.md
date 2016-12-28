@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 21:40 +0400'
+updated_at: '2016-12-28 15:30 +0400'
 identifier: ref_FnFqIndex
 title: Fractional and Fixed quantities
 version: X-Cart 5.2.16 and earlier
@@ -24,7 +24,7 @@ With this module you can:
 *   sell products in packs containing fixed quantities of items (a dozen of eggs; a 6-count multipack of water bottles, a 60-count box of pens, etc.);
 *   set allowed quantities which can be added to cart at a time (1 box, 5 boxes, 10 boxes, etc.)
 
-Available pages:
+_In this section_:
 
 *   {% link "Fractional and Fixed quantities module: Overview" ref_FnFqOverview %}
 *   {% link "Fractional and Fixed quantities: system requirements and installation" ref_FnFqSysReq %}
