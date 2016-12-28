@@ -1,12 +1,13 @@
 ---
-identifier: ref_40Al0Nky
-updated_at: 2016-03-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Exporting products to eBay'
+layout: article_with_sidebar
+updated_at: '2016-12-28 14:39 +0400'
+identifier: ref_40Al0Nky
+title: Exporting products to eBay
 categories:
   - User manual
-
+published: true
+order: 130
 ---
 
 
