@@ -1,12 +1,13 @@
 ---
-identifier: ref_IvXmtLKI
-updated_at: 2015-11-24 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing vendor shipping methods'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:56 +0400'
+identifier: ref_IvXmtLKI
+title: Managing vendor shipping methods
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -21,6 +22,3 @@ _Related pages:_
 *   {% link "Managing vendor catalog" ref_r4mcwiho %}
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
 
-## Attachments:
-
-* [xc5_vendor_shipping.png]({{site.baseurl}}/attachments/8749392/8717119.png) (image/png)
