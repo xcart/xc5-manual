@@ -1,12 +1,13 @@
 ---
-identifier: ref_PGtil8wm
-updated_at: 2015-06-27 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring the module &quot;Booking&quot;'
+layout: article_with_sidebar
+updated_at: '2016-12-28 10:00 +0400'
+identifier: ref_PGtil8wm
+title: Configuring the module &quot;Booking&quot;
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 
