@@ -1,9 +1,9 @@
 ---
-identifier: ref_FnFqOverview
-updated_at: 2016-08-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Overview'
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:33 +0400'
+identifier: ref_FnFqOverview
+title: 'Fractional and Fixed quantities module: Overview'
 order: 10
 version: X-Cart 5.2.16 and earlier
 keywords:
@@ -11,7 +11,7 @@ keywords:
 categories:
   - User manual
   - Module
-
+published: true
 ---
 
 ## Admin interface
