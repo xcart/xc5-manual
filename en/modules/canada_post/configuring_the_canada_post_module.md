@@ -1,12 +1,13 @@
 ---
-identifier: ref_XsHLxUwv
-updated_at: 2014-08-31 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring the Canada Post module'
+layout: article_with_sidebar
+updated_at: '2016-12-28 10:24 +0400'
+identifier: ref_XsHLxUwv
+title: Configuring the Canada Post module
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 
