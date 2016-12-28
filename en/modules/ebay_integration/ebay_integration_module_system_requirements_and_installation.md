@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 14:35 +0400'
+updated_at: '2016-12-28 14:53 +0400'
 identifier: ref_RgzAH0hf
 title: eBay Integration module system requirements and installation
 categories:
@@ -21,6 +21,3 @@ As a result, you should have the module "eBay Integration" listed in your store
 
 ![]({{site.baseurl}}/attachments/8225598/8356528.png)
 
-## Attachments:
-
-* [ebay_installed_enabled.png]({{site.baseurl}}/attachments/8225598/8356528.png) (image/png)
