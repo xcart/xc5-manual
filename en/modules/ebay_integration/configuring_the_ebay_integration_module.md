@@ -1,12 +1,13 @@
 ---
-identifier: ref_SCbAqGqX
-updated_at: 2016-03-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring the eBay Integration module'
+layout: article_with_sidebar
+updated_at: '2016-12-28 14:36 +0400'
+identifier: ref_SCbAqGqX
+title: Configuring the eBay Integration module
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 
