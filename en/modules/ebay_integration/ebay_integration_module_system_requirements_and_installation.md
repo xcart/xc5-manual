@@ -1,12 +1,13 @@
 ---
-identifier: ref_RgzAH0hf
-updated_at: 2016-04-07 00:00
-layout: article_with_sidebar
 lang: en
-title: 'eBay Integration module system requirements and installation'
+layout: article_with_sidebar
+updated_at: '2016-12-28 14:35 +0400'
+identifier: ref_RgzAH0hf
+title: eBay Integration module system requirements and installation
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
