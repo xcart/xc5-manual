@@ -1,12 +1,13 @@
 ---
-identifier: ref_slH6gvha
-updated_at: 2015-07-07 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Editing &quot;Booking&quot; module text labels to your needs'
+layout: article_with_sidebar
+updated_at: '2016-12-28 10:13 +0400'
+identifier: ref_slH6gvha
+title: Editing &quot;Booking&quot; module text labels to your needs
 categories:
   - User manual
-
+published: true
+order: 180
 ---
 
 Originally, the module "Booking" was designed for businesses that do rentals of accomodations like hotel rooms, apartments, villas and so on. For this reason, the language used by the module may not suit other types of products as well. This, however, does not mean that you cannot use the module for anything other than accomodation: the wording can be adapted by editing the text labels.
