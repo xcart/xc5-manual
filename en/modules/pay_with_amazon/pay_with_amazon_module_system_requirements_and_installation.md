@@ -1,12 +1,13 @@
 ---
-identifier: ref_iCibZ9wD
-updated_at: 2014-04-09 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Pay with Amazon module system requirements and installation'
+layout: article_with_sidebar
+updated_at: '2016-12-28 17:50 +0400'
+identifier: ref_iCibZ9wD
+title: Pay with Amazon module system requirements and installation
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
