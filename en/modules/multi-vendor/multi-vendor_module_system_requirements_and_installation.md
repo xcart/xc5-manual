@@ -1,12 +1,13 @@
 ---
-identifier: ref_MRQEvicQ
-updated_at: 2015-04-14 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-12-28 15:49 +0400'
+identifier: ref_MRQEvicQ
 title: 'Multi-vendor module: system requirements and installation'
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -26,8 +27,3 @@ _Related pages:_
 
 *   {% link "Configuring the Multi-vendor module" ref_nFq48dhr %}
 
-## Attachments:
-
-* [mv_module.png]({{site.baseurl}}/attachments/8749137/8716515.png) (image/png)
-* [mv_module_install.png]({{site.baseurl}}/attachments/8749137/8716516.png) (image/png)
-* [mv_module_installed.png]({{site.baseurl}}/attachments/8749137/8716517.png) (image/png)
