@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 16:00 +0400'
+updated_at: '2016-12-28 16:29 +0400'
 identifier: ref_pa3oqbXz
 title: Vendor import/export
 categories:
   - User manual
 published: true
-order: 100
+order: 190
 ---
 
 
@@ -34,5 +34,3 @@ _Related pages:_
 *   {% link "Vendor login and first steps" ref_SZycMdTx %}
 *   {% link "Managing vendor catalog" ref_r4mcwiho %}
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-
-
