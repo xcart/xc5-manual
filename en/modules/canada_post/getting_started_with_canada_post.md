@@ -1,12 +1,13 @@
 ---
-identifier: ref_zfNLsPus
-updated_at: 2016-05-02 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Getting started with Canada Post'
+layout: article_with_sidebar
+updated_at: '2016-12-28 10:23 +0400'
+identifier: ref_zfNLsPus
+title: Getting started with Canada Post
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
