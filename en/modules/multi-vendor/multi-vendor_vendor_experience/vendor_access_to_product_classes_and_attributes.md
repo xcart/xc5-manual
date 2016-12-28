@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 15:59 +0400'
+updated_at: '2016-12-28 16:28 +0400'
 identifier: ref_TvmooKW9
 title: Vendor access to product classes and attributes
 categories:
   - User manual
 published: true
-order: 100
+order: 150
 ---
 
 
@@ -38,5 +38,3 @@ _Related pages_:
 *   {% link "Vendor import/export" ref_pa3oqbXz %}
 *   {% link "Managing vendor shipping methods" ref_IvXmtLKI %}
 *   {% link "Vendor access to orders and statistics" ref_Q16T5ZnW %}
-
-
