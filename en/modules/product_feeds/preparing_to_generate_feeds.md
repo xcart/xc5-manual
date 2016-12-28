@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 22:38 +0400'
+updated_at: '2016-12-28 22:46 +0400'
 identifier: ref_Gie0uAaw
 title: Preparing to generate feeds
 categories:
@@ -65,14 +65,6 @@ To configure a product feed:
     For example, you can configure it so that "Brand" attribute goes into "Manufacturer name" column, and SKU field goes into the "UPC" column.
 6.  Click **Submit** to save the changes.
 
-## Attachments:
+_Related pages:_
 
-* [pf_multiple.png]({{site.baseurl}}/attachments/7504361/7602259.png) (image/png)
-* [pf_multiple.png]({{site.baseurl}}/attachments/7504361/7602258.png) (image/png)
-* [pf_single.png]({{site.baseurl}}/attachments/7504361/7602260.png) (image/png)
-* [pf_single1.png]({{site.baseurl}}/attachments/7504361/7602261.png) (image/png)
-* [pf_multiple1.png]({{site.baseurl}}/attachments/7504361/7602262.png) (image/png)
-* [pf_feed_contents.png]({{site.baseurl}}/attachments/7504361/7602292.png) (image/png)
-* [pf_feed_contents.png]({{site.baseurl}}/attachments/7504361/7602291.png) (image/png)
-* [pf_feed_structure.png]({{site.baseurl}}/attachments/7504361/7602293.png) (image/png)
-* [pf_column_mapping.png]({{site.baseurl}}/attachments/7504361/7602294.png) (image/png)
+*   {% link "Generating feeds" ref_20WzfB4m %}
