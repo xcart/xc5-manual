@@ -1,12 +1,13 @@
 ---
-identifier: ref_qquWbgzV
-updated_at: 2016-04-26 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Using POS system for X-Cart'
+layout: article_with_sidebar
+updated_at: '2016-12-28 21:45 +0400'
+identifier: ref_qquWbgzV
+title: Using POS system for X-Cart
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 
