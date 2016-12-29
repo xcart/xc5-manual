@@ -85,10 +85,17 @@ Upgrade hooks may exist in the modules as well, if the module needs to synchroni
 ## Store upgrade process
 Once per day, each X-Cart store checks the Marketplace for updates. The response from the Marketplace is cached for a day. If you need to delete this cache, open the link `admin.php?target=addons_list_marketplace&action=clear_cache`.
 
-If there is any kind of update/upgrade available, the merchant will see the **Updates are available** link in the header of the Admin area.
-![]({{site.baseurl}}/attachments/7505469/7602688.png)
+If there is any kind of update/upgrade available, there will be an **Updates are available** link in the header of the Admin area:
+![1_updates_available.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available.png)
 
-Click this link and proceed to upgrade. You can see possible warnings before upgrade.
+Also, there will be a notification of available updates under the bell icon:
+![1_updates_available1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available1.png)
+
+To check what updates are available, click on any of the above.
+
+
+
+You can see possible warnings before upgrade.
 
 *   If your store does not have any license (free or paid), you will be prompted to buy one
 
