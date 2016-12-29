@@ -1,12 +1,13 @@
 ---
-identifier: ref_o506IWMl
-updated_at: 2014-11-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Order status mapping'
+layout: article_with_sidebar
+updated_at: '2016-12-29 12:58 +0400'
+identifier: ref_o506IWMl
+title: Order status mapping
 categories:
   - User manual
-
+published: true
+order: 130
 ---
 
 
