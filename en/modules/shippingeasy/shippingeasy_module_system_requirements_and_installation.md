@@ -1,12 +1,13 @@
 ---
-identifier: ref_KF7JDnSv
-updated_at: 2014-11-10 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2016-12-29 12:55 +0400'
+identifier: ref_KF7JDnSv
 title: 'ShippingEasy module: system requirements and installation'
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
