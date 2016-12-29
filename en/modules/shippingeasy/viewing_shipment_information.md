@@ -19,7 +19,4 @@ _Related pages:_
 
 *   {% link "Updating order statuses for shipped orders" ref_cTn6pCxX %}
 
-## Attachments:
 
-* [shippingeasy_xc5_staff_note.png]({{site.baseurl}}/attachments/8224949/8355928.png) (image/png)
-* [shippingeasy_xc5_shipping_info.png]({{site.baseurl}}/attachments/8224949/8355929.png) (image/png)
