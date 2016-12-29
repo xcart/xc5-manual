@@ -1,12 +1,13 @@
 ---
-identifier: ref_WpUdcBgJ
-updated_at: 2014-11-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Viewing shipment information'
+layout: article_with_sidebar
+updated_at: '2016-12-29 13:06 +0400'
+identifier: ref_WpUdcBgJ
+title: Viewing shipment information
 categories:
   - User manual
-
+published: true
+order: 150
 ---
 
 
