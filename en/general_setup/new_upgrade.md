@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-22 13:54 +0400'
+updated_at: '2016-12-29 14:27 +0400'
 identifier: ref_9raTXZPN
 title: ''
 order: 100
@@ -83,9 +83,9 @@ Upgrade hooks of the core are located in the `<X-Cart 5>/upgrade/` folder. If yo
 Upgrade hooks may exist in the modules as well, if the module needs to synchronize data between its own versions. Module upgrade hooks can be found in the `<X-Cart 5>/classes/Module/<DEV-ID>/<MODULE-ID>/upgrade/` folders; for example `<X-Cart 5>/classes/XLite/Module/XC/ProductComparison/upgrade/`.
 
 ## Store upgrade process
-Once per day, each store checks the marketplace for updates. The response from marketplace is cached for a day. If you need to delete this cache, you should open the `admin.php?target=addons_list_marketplace&action=clear_cache` link.
+Once per day, each X-Cart store checks the Marketplace for updates. The response from the Marketplace is cached for a day. If you need to delete this cache, open the link `admin.php?target=addons_list_marketplace&action=clear_cache`.
 
-If there is any kind of update available, the merchant will see the **Updates are available** link in the header of admin area.
+If there is any kind of update/upgrade available, the merchant will see the **Updates are available** link in the header of the Admin area.
 ![]({{site.baseurl}}/attachments/7505469/7602688.png)
 
 Click this link and proceed to upgrade. You can see possible warnings before upgrade.
