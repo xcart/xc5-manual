@@ -1,12 +1,13 @@
 ---
-identifier: ref_cTn6pCxX
-updated_at: 2014-11-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Updating order statuses for shipped orders'
+layout: article_with_sidebar
+updated_at: '2016-12-29 13:05 +0400'
+identifier: ref_cTn6pCxX
+title: Updating order statuses for shipped orders
 categories:
   - User manual
-
+published: true
+order: 160
 ---
 
 
