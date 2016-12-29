@@ -1,12 +1,13 @@
 ---
-identifier: ref_KhhQlZLM
-updated_at: 2014-11-12 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Integrating your store with ShippingEasy'
+layout: article_with_sidebar
+updated_at: '2016-12-29 12:54 +0400'
+identifier: ref_KhhQlZLM
+title: Integrating your store with ShippingEasy
 categories:
   - User manual
-
+published: true
+order: 120
 ---
 
 X-Cart's ShippingEasy module requires the SEO-friendly URLs feature for correct operation, so be sure to {% link "enable SEO-friendly URLs" ref_nJxrzFEZ %} at your X-Cart store before you proceed.
