@@ -1,12 +1,13 @@
 ---
-identifier: ref_QU6Aanr9
-updated_at: 2014-11-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Canceling orders'
+layout: article_with_sidebar
+updated_at: '2016-12-29 13:03 +0400'
+identifier: ref_QU6Aanr9
+title: Canceling orders
 categories:
   - User manual
-
+published: true
+order: 180
 ---
 
 
