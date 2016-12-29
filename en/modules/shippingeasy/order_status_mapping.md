@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-29 12:59 +0400'
+updated_at: '2016-12-29 13:17 +0400'
 identifier: ref_o506IWMl
 title: Order status mapping
 categories:
@@ -39,4 +39,6 @@ Note that your store will send order information to ShippingEasy no more than on
 _Related pages:_
 
 *   {% link "Manual export of orders to ShippingEasy" ref_t2NVGwT2 %}
-
+*   {% link "Viewing shipment information" ref_WpUdcBgJ %}
+*   {% link "Updating order statuses for shipped orders" ref_cTn6pCxX %}
+*   {% link "Canceling orders" ref_QU6Aanr9 %}
