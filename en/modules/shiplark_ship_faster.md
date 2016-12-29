@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 21:57 +0400'
+updated_at: '2016-12-29 12:48 +0400'
 identifier: ref_M0akODBp
 title: 'Shiplark: Ship Faster'
 categories:
@@ -34,13 +34,3 @@ _See also:_
 
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
 
-## Attachments:
-
-* [shiplark_settings.png]({{site.baseurl}}/attachments/7505368/7602657.png) (image/png)
-* [shiplark_settings_link.png]({{site.baseurl}}/attachments/7505368/7602656.png) (image/png)
-* [shiplark_install.png]({{site.baseurl}}/attachments/7505368/7602654.png) (image/png)
-* [shiplark_installed.png]({{site.baseurl}}/attachments/7505368/7602655.png) (image/png)
-* [shiplark_install.png]({{site.baseurl}}/attachments/7505368/7602644.png) (image/png)
-* [shiplark_installed.png]({{site.baseurl}}/attachments/7505368/7602645.png) (image/png)
-* [shiplark_settings_link.png]({{site.baseurl}}/attachments/7505368/7602643.png) (image/png)
-* [shiplark_settings.png]({{site.baseurl}}/attachments/7505368/7602642.png) (image/png)
