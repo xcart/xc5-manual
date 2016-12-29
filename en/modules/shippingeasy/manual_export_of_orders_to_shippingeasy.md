@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-29 13:01 +0400'
+updated_at: '2016-12-29 13:10 +0400'
 identifier: ref_t2NVGwT2
 title: Manual export of orders to ShippingEasy
 categories:
@@ -37,13 +37,5 @@ _Related pages:_
 
 *   {% link "Canceling orders" ref_QU6Aanr9 %}
 *   {% link "Viewing shipment information" ref_WpUdcBgJ %}
-
 *   {% link "Updating order statuses for shipped orders" ref_cTn6pCxX %}
 
-## Attachments:
-
-* [shippingeasy_xc5_order_details.png]({{site.baseurl}}/attachments/8224939/8355923.png) (image/png)
-* [shippingeasy_xc5_export_order_details.png]({{site.baseurl}}/attachments/8224939/8355924.png) (image/png)
-* [shippingeasy_xc5_export_success.png]({{site.baseurl}}/attachments/8224939/8355925.png) (image/png)
-* [shippingeasy_xc5_export_order_list.png]({{site.baseurl}}/attachments/8224939/8355926.png) (image/png)
-* [shippingeasy_xc5_export_order_list1.png]({{site.baseurl}}/attachments/8224939/8355927.png) (image/png)
