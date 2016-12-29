@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-29 12:58 +0400'
+updated_at: '2016-12-29 12:59 +0400'
 identifier: ref_o506IWMl
 title: Order status mapping
 categories:
@@ -40,14 +40,3 @@ _Related pages:_
 
 *   {% link "Manual export of orders to ShippingEasy" ref_t2NVGwT2 %}
 
-## Attachments:
-
-* [shippingeasy_xc5_statuses.png]({{site.baseurl}}/attachments/8224919/8355912.png) (image/png)
-* [shippingeasy_xc5_statuses1.png]({{site.baseurl}}/attachments/8224919/8355913.png) (image/png)
-* [shippingeasy_xc5_statuses_new_item.png]({{site.baseurl}}/attachments/8224919/8355915.png) (image/png)
-* [shippingeasy_xc5_statuses_new_item.png]({{site.baseurl}}/attachments/8224919/8355914.png) (image/png)
-* [shippingeasy_xc5_statuses2.png]({{site.baseurl}}/attachments/8224919/8355916.png) (image/png)
-* [shippingeasy_xc5_statuses3.png]({{site.baseurl}}/attachments/8224919/8355917.png) (image/png)
-* [shippingeasy_xc5_statuses4.png]({{site.baseurl}}/attachments/8224919/8355918.png) (image/png)
-* [shippingeasy_xc5_statuses5.png]({{site.baseurl}}/attachments/8224919/8355919.png) (image/png)
-* [shippingeasy_xc5_statuses_multiple.png]({{site.baseurl}}/attachments/8224919/8355920.png) (image/png)
