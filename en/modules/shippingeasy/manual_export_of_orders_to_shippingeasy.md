@@ -1,12 +1,13 @@
 ---
-identifier: ref_t2NVGwT2
-updated_at: 2014-11-13 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Manual export of orders to ShippingEasy'
+layout: article_with_sidebar
+updated_at: '2016-12-29 13:01 +0400'
+identifier: ref_t2NVGwT2
+title: Manual export of orders to ShippingEasy
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 
