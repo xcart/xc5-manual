@@ -23,9 +23,9 @@ This article gives general information on X-Cart 5 upgrades and provides hints a
 
 Since the adoption by X-Cart of the [four-sequence versioning scheme](http://devs.x-cart.com/en/misc/x-cart_versions.html#x-cart-53x-versioning), in which the first two sequences of digits in the version identifier represent the major version, the third sequence - the minor version, and the fourth sequence - the build version (bugfix release), we had to change X-Cart's upgrade system a little bit to accomodate the changes. As a result, X-Cart now uses two types of upgrades:
 
-   * **major upgrade** - an upgrade resulting in the increase of the first three sequences of digits in the version number (for example, an upgrade from 5.0.13 to 5.1.3, or from 5.2.16 to 5.2.20, or from 5.3.1.6 to 5.3.2.0);
+   * **major upgrade** - an upgrade resulting in the increase of the first three sequences of digits in the version number (major/minor version numbers); for example, an upgrade from 5.0.13 to 5.1.3, or from 5.2.16 to 5.2.20, or from 5.3.1.6 to 5.3.2.0.
 
-   * **minor update** - an update resulting in the increase of the build version number (for example, an update involving the change of the version number from 5.3.1.3 to 5.3.1.6).
+   * **minor update** - an update resulting in the increase of the fourth sequence (build version number); for example, an update involving the change of the version number from 5.3.1.3 to 5.3.1.6.
 
 The type of upgrade reflects the significance of changes that the upgrade implements. A major upgrade provides both new features and bugfixes. A minor update provide only bugfixes. The new features implemented by a major upgrade rely on major changes of the core, which means that the interfaces of classes and the signatures of methods change. It does not happen during a minor update. Consequently, a minor update does not require any change in the modules, whereas a major upgrade does require module compatibility changes.
 
@@ -91,7 +91,19 @@ If there is any kind of update/upgrade available, there will be an **Updates are
 Also, there will be a notification of available updates under the bell icon:
 ![1_updates_available1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available1.png)
 
-To check what updates are available, click on any of the above.
+To check what updates are available, click on any of the above. You will see the "Updates for your version" page showing the available updates:
+![2_4yourversion0.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion0.png)
+
+Note the tabs: 
+
+*   The **Minor update** tab (formerly named **Bug-fixes only**) shows the available bug-fix releases of the core and modules:
+    ![2_4yourversion1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion1.png)
+
+*   The **Major upgrade** tab (formerly named **Bug-fixes and new features**) shows the available feature-releases of the core and modules:
+    ![2_4yourversion2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion2.png)
+
+If you just want to get bugfixes for your version, use the Minor update tab. If you want to get both the bug-fixes and the new features, switch to the Major upgrade tab.
+
 
 
 
