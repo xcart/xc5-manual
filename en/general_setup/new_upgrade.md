@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-29 14:27 +0400'
+updated_at: '2017-01-01 20:43 +0400'
 identifier: ref_9raTXZPN
 title: ''
 order: 100
@@ -19,7 +19,7 @@ This article gives general information on X-Cart 5 upgrades and provides hints a
 *   [Process of store upgrade](#process-of-store-upgrade)
 *   [Manual upgrade](#manual-upgrade)
 
-## Upgrade types
+## Types of upgrade
 
 Since the adoption by X-Cart of the [four-sequence versioning scheme](http://devs.x-cart.com/en/misc/x-cart_versions.html#x-cart-53x-versioning), in which the first two sequences of digits in the version identifier represent the major version, the third sequence - the minor version, and the fourth sequence - the build version (bugfix release), we had to change X-Cart's upgrade system a little bit to accomodate the changes. As a result, X-Cart now uses two types of upgrades:
 
@@ -82,6 +82,9 @@ Upgrade hooks of the core are located in the `<X-Cart 5>/upgrade/` folder. If yo
 
 Upgrade hooks may exist in the modules as well, if the module needs to synchronize data between its own versions. Module upgrade hooks can be found in the `<X-Cart 5>/classes/Module/<DEV-ID>/<MODULE-ID>/upgrade/` folders; for example `<X-Cart 5>/classes/XLite/Module/XC/ProductComparison/upgrade/`.
 
+## Backup
+Before installing an update or an upgrade, be sure to back up both the files and the database of your X-Cart store.
+
 ## Store upgrade process
 Once per day, each X-Cart store checks the Marketplace for updates. The response from the Marketplace is cached for a day. If you need to delete this cache, open the link `admin.php?target=addons_list_marketplace&action=clear_cache`.
 
@@ -91,23 +94,36 @@ If there is any kind of update/upgrade available, there will be an **Updates are
 Also, there will be a notification of available updates under the bell icon:
 ![1_updates_available1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available1.png)
 
-To check what updates are available, click on any of the above. You will see the "Updates for your version" page showing the available updates:
+To check what updates are available, click on any of the "Updates are available" links. You will see the "Updates for your version" page showing the available updates:
 ![2_4yourversion0.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion0.png)
 
-Note the tabs: 
+Note the page tabs: 
 
-*   The **Minor update** tab (formerly named **Bug-fixes only**) shows the available bug-fix releases of the core and modules:
-    ![2_4yourversion1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion1.png)
+   *   The **Minor update** tab (formerly named **Bug-fixes only**) shows the available bug-fix releases of the core and modules:
+       ![2_4yourversion2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion2.png)
 
-*   The **Major upgrade** tab (formerly named **Bug-fixes and new features**) shows the available feature-releases of the core and modules:
-    ![2_4yourversion2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion2.png)
+   *   The **Major upgrade** tab (formerly named **Bug-fixes and new features**) shows the available feature-releases of the core and modules:
+       ![2_4yourversion1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion1.png)
 
-If you just want to get bugfixes for your version, use the Minor update tab. If you want to get both the bug-fixes and the new features, switch to the Major upgrade tab.
+Also note the **Advanced mode** link allowing you to install just some specific updates/upgrades:
+       ![xc5_upgrades_advanced_mode.png]({{site.baseurl}}/attachments/ref_9raTXZPN/xc5_upgrades_advanced_mode.png)
 
 
+**To update/upgrade your X-Cart store**, follow the steps below:
 
+   1.  Back up your store.
 
-You can see possible warnings before upgrade.
+   2.  In your store's Admin area, go to the "Updates for your version" page.
+
+   3.  Review the available updates to choose the updates you need to apply. If there are both a minor update and a major upgrade available for your store version at the same time, you will need to select the tab you require:
+       *   To get bugfixes for your version, use the Minor update tab. 
+       *   To get both the bug-fixes and the new features, switch to the Major upgrade tab. 
+       
+       If you do not need to install the entire minor update/major upgrade on your store including all the updates/upgrades you see listed on the tab you have open, follow the **Advanced mode** link to choose the specific update/upgrade components that you want to be installed. Please be warned, however, that proper operation of the store site after an update/upgrade is not guaranteed if you choose to install not the entire update/upgrade, but only some of the components. Use the selective upgrade feature at your own risk and only if you know exactly what you are doing.
+       
+   4.  Scroll down the page to the bottom of the list of updates. There you will see the **Install updates** button. Click on this button to proceed with installing the selected updates.
+       ![3_install_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/3_install_updates.png)
+
 
 *   If your store does not have any license (free or paid), you will be prompted to buy one
 
@@ -116,7 +132,7 @@ You can see possible warnings before upgrade.
 *   If your store has modules that do not exist in the marketplace (e.g. you uploaded them via **Upload add-on** button) and you are doing a **minor upgrade, **you will be advised to disable them, although it is not necessary![]({{site.baseurl}}/attachments/7505469/7602690.png)
 *   If your store has modules that do not exist in the marketplace (e.g. you uploaded them via **Upload add-on** button) and you are doing a **major upgrade,** you will be told that **they ****will be disabled automatically**![]({{site.baseurl}}/attachments/7505469/7602691.png)
 
-After clicking **Continue **button, X-Cart will start downloading upgrade packs for core and modules.
+After clicking **Continue **button, X-Cart will start downloading the upgrade packs for the core and modules.
 
 NOTE: if this step times out because of bad connection, you can try to adjust the REQUEST_LONG_TTL constant in the `<X-Cart 5>/var/run/classes/XLite/Core/Marketplace.php` script, so that X-Cart would be able to download all the files in time.
 
