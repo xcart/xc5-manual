@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-16 11:27 +0400'
+updated_at: '2017-01-04 12:30 +0400'
 identifier: ref_WqHzxAmJ
 title: Speeding up your store
 categories:
@@ -27,6 +27,7 @@ This article aims to provide guidance to X-Cart users who want to improve the pe
     *   [Step 4\. Use compression](#step-4-use-compression)
     *   [Step 5\. Use a recent PHP version (5.5+)](#step-5-use-a-recent-php-version-5-5)
     *   [Step 6\. Use Query Cache (MySQL)](#step-6-use-query-cache-mysql)
+    *   [Step 7\. Install native mbstring extension (PHP)](#step-7-install-native-mbstring-extension-php)
 *   [More tips and tricks for performance optimization](#more-tips-and-tricks-for-performance-optimization) from X-Cart's [Speed & Security Webinar](https://blog.x-cart.com/webinar-x-cart-security-and-performance-optimization.html "Speeding up your store") held on October 25th, 2016.
 
 ## What is acceptable performance?
@@ -102,6 +103,10 @@ SET GLOBAL query_cache_limit = 1048576;
 ```
 
 Alternatively, you can adjust these settings in the MySQL configuration file. A good article explaining each aspect of Query Cache configuration is available at [http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html](http://dev.mysql.com/doc/refman/5.7/en/query-cache-configuration.html)
+
+### Step 7\. Install native mbstring extension (PHP)
+
+Though X-Cart has [Symfony mbstring polyfill](https://github.com/symfony/polyfill), it works slower than with the native extension (especially if the "Send PDF versions of the invoices in the attachment" option is enabled). [Installing native mbstring extension](http://php.net/manual/en/mbstring.installation.php) can greatly speed up your store during certain operations.
 
 ## More tips and tricks for performance optimization
 On October 25th, 2016, X-Cart held a [Speed & Security Webinar](https://blog.x-cart.com/webinar-x-cart-security-and-performance-optimization.html "Speeding up your store") where Alex Dyachkov, head of X-Cart's Tech support and Hosting Departments, provided some valuable tips on speeding up your web store and handling securitiy. Below we have provided a recording of this webinar:
