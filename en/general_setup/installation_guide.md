@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-23 12:09 +0400'
+updated_at: '2017-01-04 12:16 +0400'
 identifier: ref_VG5mIoLT
 title: Installation Guide
 version: X-Cart 5.2.5 and later
@@ -46,9 +46,10 @@ Before you get started you might want to check whether your web server spec meet
 
 Here is the system requirements list:
 
-*   PHP 5.4 or higher
-*   PHP:PDO extension with MySQL driver
-*   PHP:Phar extension
+*   PHP __5.4__ or higher
+*   __PDO__ extension with MySQL driver
+*   __Phar__ extension
+*   __mbstring__ extension is highly recommended (though X-Cart has a polyfill for it, native extension will speed up string processing)
 *   MySQL 5.1.31 or higher. You can also use MySQL-compatible database engine MariaDB.
 *   200-300Mb of disk space
 *   libCURL module support (minimum required CURL version is 7.39.0; version 7.43.0 is recommended)
@@ -56,16 +57,14 @@ Here is the system requirements list:
 *   `safe_mode` disabled
 *   `file_uploads`  enabled
 *   `post_max_size` set to 2M+ and larger than the `upload_max_filesize` value (critical for installation)
-
 *   `upload_max_filesize` set to 2M or higher
-
 *   `magic_quotes_runtime` disabled (for PHP versions prior to 5.4.x)
-*   [DocBlock](http://www.phpdoc.org/) supported
 *   `memory_limit` set to 128M or higher (if you are using 64-bit processors in your server environment, the `memory_limit value` must be 256M or higher)
 *   GDLib 2.0 or ImageMagick (recommended for proper image resizing routines)
 *   {% link "PHP time limit" ref_xqnpttd4 %} properly set according to your server config
 *   mod_rewrite-like components to enable proper work of {% link "SEO-friendly URLs" ref_nJxrzFEZ %}
-*   if xdebug is enabled, xdebug.max_nesting_level must be set to 300
+*   if xdebug is enabled, `xdebug.max_nesting_level` must be set to 300
+*   if OPcache is enabled, `opcache.save_comments` and `opcache.load_comments` must be true (set to "1"). Any other cachers should not strip comments from the code too.
 
 ### Hardware requirements
 
@@ -163,7 +162,7 @@ Here is the system requirements list:
 X-Cart 5 supports following browsers:
 
 *   Google Chrome (latest version)
-*   Safari (latest versions for MacOS X v10.8, v10.9, iOS7, iOS8)
+*   Safari (latest versions for MacOS X v10.8 and later, iOS7 and later)
 *   Firefox (latest version)
 *   Internet Explorer 10 and higher
 
