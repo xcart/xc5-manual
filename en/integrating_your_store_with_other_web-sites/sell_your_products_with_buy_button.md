@@ -5,7 +5,7 @@ updated_at: '2017-01-04 12:42 +0400'
 identifier: ref_TEiIdZZc
 title: Sell your products with Buy Button
 order: 100
-published: true
+published: false
 version: X-Cart 5.3.3 and later
 ---
 
