@@ -3,20 +3,47 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-04 12:42 +0400'
 identifier: ref_TEiIdZZc
-title: ''
+title: Sell your products with Buy Button
 order: 100
-published: false
+published: true
+version: X-Cart 5.3.3 and later
 ---
 
 The Buy Button module lets you easily add ecommerce to your blog, website, or email campaign using Buy Buttons that connect with a X-Cart store. You can use Buy Buttons to sell your products on WordPress, Tilda, and Wix, on your own website, or wherever you've already built an audience online. Product cards with the Buy Buttons always show the actual product name and price, even if you modify them on your storefront.
 
 After you've installed the Buy Button module in your X-Cart admin, you can create a new Buy Button for a product. This generates either a snippet of embed code for you to embed in the source HTML of your webpage, or a URL for you to add to your email campaign. After you embed it, the code displays a Buy Button.
 
+## Creating Buy Button
+
+To create a Buy Button:
+
+1.	From your X-Cart admin menu, open **Promotions** section and click **Buy Button**.
+
+2.	On the Buy Button page, choose either **Generate product card** or **Embed product to email** and click the corresponding **Select product** button:
+
+3.	From the **Choose a product to create Buy button** dialog, select a product from your catalog or use the search to find a specific product:
+
+4.	From the **Configure Buy Button** page, you can customize the product's attributes and the button's click action:
+
+5.	If your product has multiple variants (like size or color), then you can select a specific attributes combination to associate with the Buy Button. Please note that the variant stock status is not taken into consideration.
+
+6.	In the Action on click section, use the drop-down menu to select what will happen when a customer clicks the buy button:
+
+	-	Add to cart redirects the customer to the X-Cart store cart page and adds the product to the cart.
+    
+	-	Show product details redirects the customer to the product page.
+    
+7.	When you're done, click **Generate code** or **Get the link** button. From the opened dialog, copy the embed code or the product link, or click **Copy** button:
+
+8.	The embed code is ready for pasting!
+
 ## Embedding code
 
 After you create a Buy Button in your X-Cart admin, you're ready to add it to your own website or blog. The process of adding embed code to your website's source HTML is a bit different depending on how and where you want your Buy Buttons and cart to appear, on your website platform.
 
-### Adding to Wordpress blog
+In general, any website or platform, which allows to paste plain HTML code with script tags, can embed Buy Button card. Look for **HTML code** widget or **Code** text editor mode. Here are some tutorials for the most popular platforms:
+
+### Adding Buy Button to Wordpress blog
 
 You can add embed code to individual posts and to the menu on the homepage of your WordPress blog.
 
@@ -63,5 +90,31 @@ To add embed code to a menu on the homepage:
 4.	Paste the embed code into the **Content** text field within the **Text** widget and save the changes:
 
 	![](wordpress_menu_4.jpg)
+
+### Adding Buy Button to Wix
+
+After you've created a Buy Button in your X-Cart admin, you can add it to your Wix website using the Wix Website Editor.
+
+If you want to display more than one product on your Wix website, simply copy-paste several embed codes one after another. They will be displayed on the same line, as long as there is enough horizontal space.
+
+1.	Start by creating a Buy Button and then copy its embed code.
+
+2.	From your Wix account, find the site you want to edit in the **My Sites** section, and then click **Edit Site**.
+
+3.	In the Wix Website Editor, click the **+** button, and then click **More**:
+
+	![](wix_page_1.jpg)
+    
+4.	Click **HTML Code** to add an HTML code widget to the page:
+
+	![](wix_page_2.jpg)
+
+5.	Click **Enter Code**. On the **HTML Settings** dialog, paste the embed code for your Buy Button in the **Add your code here** field and then click **Update**:
+
+	![](wix_page_3.jpg)
+    
+6.	Resize the HTML code widget to fit its contents, and move to make sure the product card appears in the right place. When you're done, click **Save**.
+
+
 
 
