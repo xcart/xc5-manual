@@ -1,12 +1,13 @@
 ---
-identifier: ref_r68iO5Rm
-updated_at: 2016-02-14 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up destination (address) zones'
+layout: article_with_sidebar
+updated_at: '2017-01-05 23:45 +0400'
+identifier: ref_r68iO5Rm
+title: Setting up destination (address) zones
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -80,20 +81,4 @@ Before you have configured any zones, your store already has one zone - the one 
 
 The first time you choose to view the details of the "All Addresses" zone, this zone will look empty, though in fact it is not: by default, this zone includes all the addresses in the world. It does not have to remain that way: the "All Addresses" zone only needs to include regions to which you will market your products; if you do not intend to sell literally to anyone from any country in the world, you should edit this zone to narrow it down just to the regions or territories corresponding to the area you will serve. For instance, if you add "Germany" to the "All Addresses" zone, this zone will be applied only to addresses in Germany.
 
-## Attachments:
 
-* [storesetup-destinationzones.png]({{site.baseurl}}/attachments/6389840/6586521.png) (image/png)
-* [destination-zones.png]({{site.baseurl}}/attachments/6389840/6586528.png) (image/png)
-* [atlantic-canada-zone.png]({{site.baseurl}}/attachments/6389840/6586529.png) (image/png)
-* [xc5_destzones_section.png]({{site.baseurl}}/attachments/6389840/9437215.png) (image/png)
-* [xc5_destzones_zones_tab.png]({{site.baseurl}}/attachments/6389840/9437216.png) (image/png)
-* [xc5_destzones_create_zone.png]({{site.baseurl}}/attachments/6389840/9437217.png) (image/png)
-* [xc5_destzones_new_zone1.png]({{site.baseurl}}/attachments/6389840/9437226.png) (image/png)
-* [xc5_destzones_new_zone2.png]({{site.baseurl}}/attachments/6389840/9437219.png) (image/png)
-* [xc5_destzones_new_zone3.png]({{site.baseurl}}/attachments/6389840/9437220.png) (image/png)
-* [xc5_destzones_new_zone4.png]({{site.baseurl}}/attachments/6389840/9437221.png) (image/png)
-* [xc5_destzones_new_zone5.png]({{site.baseurl}}/attachments/6389840/9437222.png) (image/png)
-* [xc5_destzones_new_zone6.png]({{site.baseurl}}/attachments/6389840/9437223.png) (image/png)
-* [xc5_destzones_new_zone0.png]({{site.baseurl}}/attachments/6389840/9437224.png) (image/png)
-* [xc5_destzones_new_zone00.png]({{site.baseurl}}/attachments/6389840/9437225.png) (image/png)
-* [xc5_destzones_new_zone1.png]({{site.baseurl}}/attachments/6389840/9437218.png) (image/png)
