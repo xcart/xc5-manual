@@ -60,9 +60,20 @@ Let's do it:
 
     *   If necessary, edit the name of the zone in the **Zone name** field. 
 
-    *   Use the sections **Countries**, **States **and **Zip/postal code masks** to specify the regions/territories that belong to the zone being edited. In the sections **Countries** and **States**, you need to select all the countries and states that should be part of the zone from the box(es) on the left-hand side and move them to the box(es) on the right-hand side using the "**>>**" button. In the section Zip/postal masks, you need to specify the zip/postal codes (or zip/postal code masks) that should belong to the zone. 
+    *   Use the sections **Countries**, **States **and **Zip/postal code masks** to specify the regions/territories that belong to the zone being edited. In the sections **Countries** and **States**, you need to select all the countries and states that should be part of the zone from the box(es) on the left-hand side and move them to the box(es) on the right-hand side using the "**>>**" button. 
 
         ![]({{site.baseurl}}/attachments/6389840/9437222.png)
+       
+        In the section Zip/postal masks, you need to specify the zip/postal codes (or zip/postal code masks) that should belong to the zone.
+ 
+        Zip/postal code masks help you specify zip/postal code ranges. You simply replace any number of digits with the "%" symbol. For example, "1001%" corresponds to all the zip/postal codes in the "10010 - 10019" range, "102%" - to all the zip/postal codes in the "10200 - 10299" range.
+
+        Please be sure to place each zip/postal code mask entry or full zip/postal code on a separate line like so:
+        ```
+        1001%
+        102%
+        ```
+        
         To configure the zone "Atlantic Canada", we would need to select the following territories:
 
         *   in the section **Counties** - Canada;
