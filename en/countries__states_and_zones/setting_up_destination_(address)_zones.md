@@ -71,6 +71,7 @@ Let's do it:
         Please be sure to place each zip/postal code mask entry or full zip/postal code on a separate line like so:
         
         1001%
+        
         102%
         
         
