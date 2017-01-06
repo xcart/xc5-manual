@@ -107,10 +107,10 @@ To check what updates are available, click on any of the "Updates are available"
 
 Note the page tabs: 
 
-   *   The **Minor update** tab (formerly named **Bug-fixes only**) shows the available bug-fix releases of the core and modules:
+   *   The **Minor update** tab (former name **Bug-fixes only**) shows the available bug-fix releases of the core and modules:
        ![2_4yourversion2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion2.png)
 
-   *   The **Major upgrade** tab (formerly named **Bug-fixes and new features**) shows the available feature-releases of the core and modules:
+   *   The **Major upgrade** tab (former name **Bug-fixes and new features**) shows the available feature-releases of the core and modules:
        ![2_4yourversion1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion1.png)
 
 Also note the **Advanced mode** link allowing you to install just some specific updates/upgrades:
@@ -121,7 +121,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
 
    1.  Back up your store (both the files and the database). You do need this step in case something goes wrong. Do not neglect this step because it can cost you hours of work contacting your hosting provider and asking them to recover your store from backup.
 
-   2.  In your store's Admin area, go to the "Updates for your version" page.
+   2.  In your store's Admin area, click **Updates are available** to go to the "Updates for your version" page.
 
    3.  Review the available updates to choose the updates you need to apply. If there are both a minor update and a major upgrade available for your store version at the same time, you will need to select the tab you require:
        *   To get bugfixes for your version, use the Minor update tab. 
