@@ -69,10 +69,10 @@ Let's do it:
         Zip/postal code masks help you specify zip/postal code ranges. You simply replace any number of digits with the "%" symbol. For example, "1001%" corresponds to all the zip/postal codes in the "10010 - 10019" range, "102%" - to all the zip/postal codes in the "10200 - 10299" range.
 
         Please be sure to place each zip/postal code mask entry or full zip/postal code on a separate line like so:
-        ```
+        
         1001%
         102%
-        ```
+        
         
         To configure the zone "Atlantic Canada", we would need to select the following territories:
 
