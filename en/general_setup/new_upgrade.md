@@ -91,6 +91,8 @@ Installing an update/upgrade is a serious task which requires some preparation. 
 
 In addition, we strongly recommend that before installing an update or an upgrade on your live store, you should create a dev copy of your store and try installing the update/upgrade on that copy. Only if the update/upgrade installation goes smoothly, and after you have made sure the store's dev copy continues to work as expected after the update/upgrade process has been completed should you attempt updating/upgrading your live store.
 
+For details on creating your store's dev copy and restoring the store from backup, see {% link 'Moving X-Cart to another location' ref_6oFmUXC7 %}
+
 ## Store upgrade process
 Once per day, each X-Cart store checks the Marketplace for updates. The response from the Marketplace is cached for a day. If you need to delete this cache, open the link `admin.php?target=addons_list_marketplace&action=clear_cache`.
 
