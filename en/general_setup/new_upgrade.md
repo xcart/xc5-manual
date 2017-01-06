@@ -132,8 +132,17 @@ Also note the **Advanced mode** link allowing you to install just some specific 
    4.  Scroll down the page to the bottom of the list of updates. There you will see the **Install updates** button. Click on this button to proceed with installing the selected update/upgrade components.
        ![3_install_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/3_install_updates.png)
 
+   5. After the **Install updates** button has been clicked upon, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated:
+       ![4_components1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_components1.png)
 
-*   If your store does not have any license (free or paid), you will be prompted to buy one
+       To continue, scroll down the page and click the **Continue** button:
+       ![4_components2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_components2.png)
+
+       Note that updates/upgrades are only available to X-Cart stores with an activated license key. If you are using an X-Cart trial copy without any license key activated (free or paid), you will not be able to continue any furter than this step. There will be a message stating the problem with your license:
+       ![4_licensekey.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_licensekey.png)
+       
+       If you see a message like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved, and the **Continue** button will become available.
+
 
 ![]({{site.baseurl}}/attachments/7505469/7602689.png)
 
