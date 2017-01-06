@@ -123,13 +123,13 @@ Also note the **Advanced mode** link allowing you to install just some specific 
 
    2.  In your store's Admin area, click **Updates are available** to go to the "Updates for your version" page.
 
-   3.  Review the available updates to choose the updates you need to apply. If there are both a minor update and a major upgrade available for your store version at the same time, you will need to select the tab you require:
-       *   To get bugfixes for your version, use the Minor update tab. 
-       *   To get both the bug-fixes and the new features, switch to the Major upgrade tab. 
+   3.  Review the available updates and choose the updates you need to apply. If there are both a minor update and a major upgrade available for your store version at the same time, you will need to select the tab you require:
+       *   To get bugfixes for your version, use the **Minor update** (**Bug-fixes only**) tab. 
+       *   To get both the bug-fixes and the new features, switch to the **Major upgrade** (**Bug-fixes and new features**) tab. 
        
-       If you do not need to install the entire minor update/major upgrade on your store including all the updates/upgrades you see listed on the tab you have open, follow the **Advanced mode** link to choose the specific update/upgrade components that you want to be installed. Please be warned, however, that proper operation of the store site after an update/upgrade is not guaranteed if you choose to install not the entire update/upgrade, but only some of the components. Use the selective upgrade feature at your own risk and only if you know exactly what you are doing.
+       If you do not want to do the global update/upgrade on your store including all the updates/upgrades you see listed on the tab you have open, follow the **Advanced mode** link to choose the specific update/upgrade components that you want to be installed. Please be warned, however, that proper operation of the store site after an update/upgrade is not guaranteed if you choose to install not the entire update/upgrade, but only some of the components. Use the selective upgrade feature at your own risk and only if you know exactly what you are doing.
        
-   4.  Scroll down the page to the bottom of the list of updates. There you will see the **Install updates** button. Click on this button to proceed with installing the selected updates.
+   4.  Scroll down the page to the bottom of the list of updates. There you will see the **Install updates** button. Click on this button to proceed with installing the selected update/upgrade components.
        ![3_install_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/3_install_updates.png)
 
 
