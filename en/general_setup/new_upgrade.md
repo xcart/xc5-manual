@@ -87,7 +87,9 @@ Upgrade hooks of the core are located in the `<X-Cart 5>/upgrade/` folder. If yo
 Upgrade hooks may exist in the modules as well, if the module needs to synchronize data between its own versions. Module upgrade hooks can be found in the `<X-Cart 5>/classes/Module/<DEV-ID>/<MODULE-ID>/upgrade/` folders; for example `<X-Cart 5>/classes/XLite/Module/XC/ProductComparison/upgrade/`.
 
 ## Before you upgrade: back up your store
-Before installing an update or an upgrade, be sure to back up both the files and the database of your X-Cart store.
+Installing an update/upgrade is a serious task which requires some preparation. At the very least, you should create a backup of your store (Be sure to back up both the files and the database!)
+
+In addition, we strongly recommend that before installing an update or an upgrade on your live store, you should create a dev copy of your store and try installing the update/upgrade on that copy. Only if the update/upgrade installation goes smoothly, and after you have made sure the store's dev copy continues to work as expected after the update/upgrade process has been completed should you attempt updating/upgrading your live store.
 
 ## Store upgrade process
 Once per day, each X-Cart store checks the Marketplace for updates. The response from the Marketplace is cached for a day. If you need to delete this cache, open the link `admin.php?target=addons_list_marketplace&action=clear_cache`.
