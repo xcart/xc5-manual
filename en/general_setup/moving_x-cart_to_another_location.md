@@ -22,7 +22,7 @@ This guide will help you to complete this task.
 
 ## File transfer and configuration
 
-1.  Make a backup of your files and database. You do need this step in case something goes wrong. Do not neglect this step because it can cost you hours of work contacting host and asking them to recover your store from backup.
+1.  Make a backup of your files and database. You do need this step in case something goes wrong. Do not neglect this step because it can cost you hours of work contacting your hosting provider and asking them to recover your store from backup.
 
 2.  Transfer X-Cart files from the origin folder to the destination one.
 
