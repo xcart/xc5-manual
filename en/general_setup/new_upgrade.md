@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-01 20:43 +0400'
+updated_at: '2017-01-06 16:44 +0400'
 identifier: ref_9raTXZPN
 title: ''
 order: 100
@@ -111,7 +111,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
 
 **To update/upgrade your X-Cart store**, follow the steps below:
 
-   1.  Back up your store.
+   1.  Back up your store (both the files and the database). You do need this step in case something goes wrong. Do not neglect this step because it can cost you hours of work contacting your hosting provider and asking them to recover your store from backup.
 
    2.  In your store's Admin area, go to the "Updates for your version" page.
 
