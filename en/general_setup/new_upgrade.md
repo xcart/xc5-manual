@@ -15,8 +15,12 @@ This article gives general information on X-Cart 5 upgrades and provides hints a
 
 *   [Introduction](#introduction)
 *   [Table of Contents](#table-of-contents)
-*   [General information](#general-information)
-*   [Process of store upgrade](#process-of-store-upgrade)
+*   [Types of upgrade](#types-of-upgrade)
+*   [Upgrade waves](#upgrade-waves) 
+*   [Availability of upgrades for different versions](#availability-of-upgrades-for-different-versions)
+*   [Upgrade hooks](#upgrade-hooks)
+*   [Before you upgrade: back up your store](#before-you-upgrade-back-up-your-store)
+*   [Store upgrade process](#store-upgrade-process)
 *   [Manual upgrade](#manual-upgrade)
 
 ## Types of upgrade
@@ -82,7 +86,7 @@ Upgrade hooks of the core are located in the `<X-Cart 5>/upgrade/` folder. If yo
 
 Upgrade hooks may exist in the modules as well, if the module needs to synchronize data between its own versions. Module upgrade hooks can be found in the `<X-Cart 5>/classes/Module/<DEV-ID>/<MODULE-ID>/upgrade/` folders; for example `<X-Cart 5>/classes/XLite/Module/XC/ProductComparison/upgrade/`.
 
-## Backup
+## Before you upgrade: back up your store
 Before installing an update or an upgrade, be sure to back up both the files and the database of your X-Cart store.
 
 ## Store upgrade process
