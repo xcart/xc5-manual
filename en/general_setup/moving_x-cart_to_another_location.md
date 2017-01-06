@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-06 17:02 +0400'
+updated_at: '2017-01-06 17:14 +0400'
 identifier: ref_6oFmUXC7
 title: Moving X-Cart to another location
 order: 310
@@ -22,7 +22,7 @@ This guide will help you to complete this task.
 
 ## File transfer and configuration
 
-1.  Make a backup of your files and database. You do need this step in case something goes wrong. Do not neglect this step, because it can cost you hours of work contacting host and asking them to recover your store from backup.
+1.  Make a backup of your files and database. You do need this step in case something goes wrong. Do not neglect this step because it can cost you hours of work contacting host and asking them to recover your store from backup.
 
 2.  Transfer X-Cart files from the origin folder to the destination one.
 
