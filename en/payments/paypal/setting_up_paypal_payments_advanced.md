@@ -1,11 +1,11 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 12:32 +0400'
+updated_at: '2017-01-10 01:26 +0400'
 identifier: ref_sO5X6iBT
 title: Setting up Paypal Payments Advanced
 categories:
   - User manual
-published: true
+published: false
 order: 140
 ---
