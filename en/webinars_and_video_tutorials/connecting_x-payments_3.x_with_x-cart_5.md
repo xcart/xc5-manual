@@ -9,7 +9,7 @@ published: true
 ---
 ## Introduction
 
-This video shows how to connect X-Payments 3.x with X-Cart 5.3: configuring a payment method in X-Payments, adding a new store into X-Payments, making settings in X-Cart 5 back-end. You'll also learn how to set X-Payments form to be displayed in a separate page or as embedded into X-Cart checkout and how to let customers save credit cards to use for future orders.
+This video shows how to connect X-Payments 3.x with X-Cart 5.3. This includes configuring a payment method in X-Payments, adding a new store in X-Payments and adjusting the settings in your X-Cart 5 back end. You'll also learn how to configure the X-Payments form to be displayed on a separate page or embedded into X-Cart checkout, as well as how to enable your customers to save credit cards for future orders.
 
 ## Video
 **Published on Sep 21, 2016**
