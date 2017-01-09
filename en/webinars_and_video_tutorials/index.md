@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-28 15:47 +0400'
+updated_at: '2017-01-09 12:08 +0400'
 identifier: ref_STELArig
 title: Webinars and video tutorials
 categories:
@@ -40,6 +40,7 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "Setting up VAT with the module "EU and UK VAT / GST"" ref_wcorpZyz %}
 *   {% link "Configuring email notifications in X-Cart 5" ref_PswmUSQt %}
 *   {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %}
+*   {% link "Connecting X-Payments 3.x with X-Cart 5" ref_ZM8ZDeD9 %}
 *   {% link "MailChimp Integration with Ecommerce-360 support in an X-Cart 5 Store" ref_XO8v2bJX %}
 *   {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %}
 *   {% link "Setting up shipping calculation in X-Cart 5" ref_CqSUSq61 %}
