@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-09 12:00 +0400'
+updated_at: '2017-01-09 12:10 +0400'
 identifier: ref_ZM8ZDeD9
 title: Connecting X-Payments 3.x with X-Cart 5
 order: 100
@@ -17,4 +17,4 @@ This video shows how to connect X-Payments 3.x with X-Cart 5.3: configuring a pa
 
 _See also:_
 
-* {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %}
+*   {% link "Connecting X-Payments 2.1 x with X-Cart 5" ref_hlRUuVCV %}
