@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-29 12:48 +0400'
+updated_at: '2017-01-10 17:33 +0400'
 identifier: ref_M0akODBp
 title: 'Shiplark: Ship Faster'
 categories:
@@ -31,6 +31,4 @@ For more information, visit [shiplark.com/x-cart](http://www.shiplark.com/shipp
 _See also:_
 
 *   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
-
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
-
