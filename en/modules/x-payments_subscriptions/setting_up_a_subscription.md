@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-10 17:09 +0400'
+updated_at: '2017-01-10 17:15 +0400'
 identifier: ref_8JXKSRah
 title: Setting up a subscription
 categories:
@@ -44,9 +44,4 @@ _Related pages:_
 *   {% link "Getting started with X-Payments subscriptions" ref_tGCSZi8x %}
 *   {% link "Configuring the X-Payments subscriptions module" ref_RLhkriEJ %}
 
-## Attachments:
 
-* [xc5_xpsubscr_add_subscr_product.png]({{site.baseurl}}/attachments/9666622/9633865.png) (image/png)
-* [xc5_xpsubscr_subscription_plan_tab.png]({{site.baseurl}}/attachments/9666622/9633870.png) (image/png)
-* [xc5_xpsubscr_subscription_this_is_subscr_product.png]({{site.baseurl}}/attachments/9666622/9633871.png) (image/png)
-* [xc5_xpsubscr_subscription_this_is_subscr_product1.png]({{site.baseurl}}/attachments/9666622/9633872.png) (image/png)
