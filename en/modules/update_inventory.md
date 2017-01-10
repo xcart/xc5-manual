@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:08 +0400'
+updated_at: '2017-01-10 17:39 +0400'
 identifier: ref_uSIvmuTh
 title: Update inventory
 version: X-Cart 5.2.13 and higher
@@ -41,7 +41,5 @@ When importing a CSV file to update product quantities, the following rules appl
 _Related pages:_
 
 *   {% link "Import-Export" ref_TANvG2De %}
-
 *   {% link "Product variants" ref_0uApuQfx %}
-
 *   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}
