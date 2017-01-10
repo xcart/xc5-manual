@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-10 17:08 +0400'
+updated_at: '2017-01-10 17:13 +0400'
 identifier: ref_RLhkriEJ
 title: Configuring the X-Payments subscriptions module
 categories:
@@ -28,9 +28,6 @@ To configure the module:
 _Related pages:_
 
 *   {% link "Getting started with X-Payments subscriptions" ref_tGCSZi8x %}
-
 *   {% link "Setting up a subscription" ref_8JXKSRah %}
 
-## Attachments:
 
-* [xc5_xpsubscr_module_settings.png]({{site.baseurl}}/attachments/9666610/9633864.png) (image/png)
