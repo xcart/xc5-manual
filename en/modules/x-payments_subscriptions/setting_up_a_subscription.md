@@ -1,12 +1,13 @@
 ---
-identifier: ref_8JXKSRah
-updated_at: 2016-06-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up a subscription'
+layout: article_with_sidebar
+updated_at: '2017-01-10 17:09 +0400'
+identifier: ref_8JXKSRah
+title: Setting up a subscription
 categories:
   - User manual
-
+published: true
+order: 150
 ---
 
 
