@@ -1,12 +1,13 @@
 ---
-identifier: ref_ou6SkGQn
-updated_at: 2016-06-14 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2017-01-10 16:43 +0400'
+identifier: ref_ou6SkGQn
 title: 'X-Payments subscriptions: System requirements and installation'
 categories:
   - User manual
-
+published: true
+order: 110
 ---
 
 
