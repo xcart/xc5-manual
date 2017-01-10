@@ -1,12 +1,13 @@
 ---
-identifier: ref_vpEKPoyM
-updated_at: 2016-05-16 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up Facebook Login for your store'
+layout: article_with_sidebar
+updated_at: '2017-01-10 16:17 +0400'
+identifier: ref_vpEKPoyM
+title: Setting up Facebook Login for your store
 categories:
   - User manual
-
+published: true
+order: 200
 ---
 
 
