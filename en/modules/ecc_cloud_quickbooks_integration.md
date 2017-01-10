@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 15:19 +0400'
+updated_at: '2017-01-10 17:25 +0400'
 identifier: ref_NRz30m6S
 title: 'eCC Cloud: Quickbooks integration'
 categories:
@@ -33,6 +33,4 @@ For more information, visit [www2.webgility.com/x-cart-5-ecc-cloud](http://www.
 _See also:_
 
 *   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
-
 *   {% link "Shiplark: Ship Faster" ref_M0akODBp %}
-
