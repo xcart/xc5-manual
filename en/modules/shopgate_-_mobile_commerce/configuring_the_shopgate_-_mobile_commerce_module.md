@@ -1,12 +1,13 @@
 ---
-identifier: ref_LPT5lDvl
-updated_at: 2014-08-07 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring the &quot;Shopgate - Mobile Commerce&quot; module'
+layout: article_with_sidebar
+updated_at: '2017-01-10 16:01 +0400'
+identifier: ref_LPT5lDvl
+title: Configuring the &quot;Shopgate - Mobile Commerce&quot; module
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -57,6 +58,3 @@ _Related pages:_
 *   {% link "Getting started with "Shopgate - Mobile Commerce"" ref_ifsTnMAq %}
 *   {% link "Establishing connections between the plugin and Shopgate" ref_9v2iKQ2a %}
 
-## Attachments:
-
-* [shopgate_settings2.png]({{site.baseurl}}/attachments/7505737/7602830.png) (image/png)
