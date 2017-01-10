@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:09 +0400'
+updated_at: '2017-01-10 17:33 +0400'
 identifier: ref_whrpZnV3
 title: U.S.P.S.
 categories:
@@ -80,14 +80,3 @@ These are some options that are helpful, but do not affect shipping rates calcul
 
 *   **Auto enable new USPS shipping methods**: This option will automatically add all new USPS shipping methods to your system. They will not be enabled for customers automatically though.
 
-## Attachments:
-
-* [usps-settings.png]({{site.baseurl}}/attachments/8225090/8356029.png) (image/png)
-* [usps-auth-options.png]({{site.baseurl}}/attachments/8225090/8356030.png) (image/png)
-* [usps-common-options.png]({{site.baseurl}}/attachments/8225090/8356031.png) (image/png)
-* [usps-domestic-usps.png]({{site.baseurl}}/attachments/8225090/8356032.png) (image/png)
-* [usps-international.png]({{site.baseurl}}/attachments/8225090/8356033.png) (image/png)
-* [usps-additional-options.png]({{site.baseurl}}/attachments/8225090/8356034.png) (image/png)
-* [usps_settings_link.png]({{site.baseurl}}/attachments/8225090/8356089.png) (image/png)
-* [usps_settings_tab.png]({{site.baseurl}}/attachments/8225090/8356090.png) (image/png)
-* [usps_settings_page.png]({{site.baseurl}}/attachments/8225090/8356091.png) (image/png)
