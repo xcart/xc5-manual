@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-26 19:39 +0400'
+updated_at: '2017-01-10 16:41 +0400'
 identifier: ref_pTgcx1sg
 title: Configuring automated execution of periodic tasks for X-Payments subscriptions
 categories:
   - User manual
 published: true
-order: 100
+order: 110
 ---
 
 
