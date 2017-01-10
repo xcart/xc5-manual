@@ -1,12 +1,13 @@
 ---
-identifier: ref_LMCQeIrv
-updated_at: 2014-03-17 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Setting up Google Login for your store'
+layout: article_with_sidebar
+updated_at: '2017-01-10 16:18 +0400'
+identifier: ref_LMCQeIrv
+title: Setting up Google Login for your store
 categories:
   - User manual
-
+published: true
+order: 300
 ---
 
 
