@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:12 +0400'
+updated_at: '2017-01-10 17:04 +0400'
 identifier: ref_8VFoqBFZ
 title: X-Payments subscriptions
 categories:
@@ -23,4 +23,5 @@ _In this section:_
 
 _Related pages:_
 
+*   {% link "Connecting X-Cart 5 and X-Payments" ref_UFLdTRDQ %}
 *   {% link "Subscriptions in X-Cart 5 powered by X-Payments" ref_Ae8Qd8lq %} (video)
