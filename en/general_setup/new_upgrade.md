@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-06 19:34 +0400'
+updated_at: '2017-01-09 20:56 +0400'
 identifier: ref_9raTXZPN
 title: ''
 order: 100
@@ -99,7 +99,7 @@ Once per day, each X-Cart store checks the Marketplace for updates. The response
 If there is any kind of update/upgrade available, there will be an **Updates are available** link in the header of the Admin area:
 ![1_updates_available.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available.png)
 
-Also, there will be a notification of available updates under the bell icon:
+Also, there will be a notification of available updates when clicking the bell icon:
 ![1_updates_available1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available1.png)
 
 To check what updates are available, click on any of the "Updates are available" links. You will see the "Updates for your version" page showing the available updates:
@@ -119,15 +119,15 @@ Also note the **Advanced mode** link allowing you to install just some specific 
 
 **To update/upgrade your X-Cart store**, follow the steps below:
 
-   1.  Back up your store (both the files and the database). You do need this step in case something goes wrong. Do not neglect this step because it can cost you hours of work contacting your hosting provider and asking them to recover your store from backup.
+   1.  Back up your store (both the files and the database). You do need this step in case something goes wrong. Please do not neglect this step because it can cost you hours of work contacting your hosting provider and asking them to recover your store from their server backup.
 
    2.  In your store's Admin area, click **Updates are available** to go to the "Updates for your version" page.
 
-   3.  Review the available updates and choose the updates you need to apply. If there are both a minor update and a major upgrade available for your store version at the same time, you will need to select the tab you require:
+   3.  Review the available updates and choose the updates you need to apply. If there are both a minor update and a major upgrade available for your store at the same time, you will need to select the tab you require:
        *   To get bugfixes for your version, use the **Minor update** (**Bug-fixes only**) tab. 
        *   To get both the bug-fixes and the new features, switch to the **Major upgrade** (**Bug-fixes and new features**) tab. 
        
-       If you do not want to do the global update/upgrade on your store including all the updates/upgrades you see listed on the tab you have open, follow the **Advanced mode** link to choose the specific update/upgrade components that you want to be installed. Please be warned, however, that proper operation of the store site after an update/upgrade is not guaranteed if you choose to install not the entire update/upgrade, but only some of the components. Use the selective upgrade feature at your own risk and only if you know exactly what you are doing.
+       If you do not want to do the global update/upgrade on your store including all the updates/upgrades you see listed on the tab you have open, follow the **Advanced mode** link to choose the specific update/upgrade components that you want to be installed. Please be warned, however, that proper operation of the store site after an update/upgrade is not guaranteed if you choose to install not the entire update/upgrade, but only some of the components. Use the selective upgrade feature (Advanced mode) at your own risk and only if you know exactly what you are doing.
        
    4.  Scroll down the page to the bottom of the list of updates. There you will see the **Install updates** button. Click on this button to proceed with installing the selected update/upgrade components.
        ![3_install_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/3_install_updates.png)
@@ -135,13 +135,13 @@ Also note the **Advanced mode** link allowing you to install just some specific 
    5. After the **Install updates** button has been clicked upon, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated:
        ![4_components1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_components1.png)
 
-       To continue, scroll down the page and click the **Continue** button:
+       To continue, scroll down the page to the bottom of the list and click the **Continue** button:
        ![4_components2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_components2.png)
 
        Note that updates/upgrades are only available to X-Cart stores with an activated license key. If you are using an X-Cart trial copy without any license key activated (free or paid), you will not be able to continue any furter than this step. There will be a message stating the problem with your license:
        ![4_licensekey.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_licensekey.png)
        
-       If you see a message like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved, and the **Continue** button will become available.
+       If you see a message like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved, and next time you attempt an update/upgrade, the **Continue** button will be available.
 
 
 ![]({{site.baseurl}}/attachments/7505469/7602689.png)
