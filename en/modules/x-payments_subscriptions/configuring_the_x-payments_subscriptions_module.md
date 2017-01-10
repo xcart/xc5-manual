@@ -1,12 +1,13 @@
 ---
-identifier: ref_RLhkriEJ
-updated_at: 2016-06-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Configuring the X-Payments subscriptions module'
+layout: article_with_sidebar
+updated_at: '2017-01-10 17:08 +0400'
+identifier: ref_RLhkriEJ
+title: Configuring the X-Payments subscriptions module
 categories:
   - User manual
-
+published: true
+order: 140
 ---
 
 
