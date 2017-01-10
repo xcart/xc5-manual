@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:05 +0400'
+updated_at: '2017-01-10 16:12 +0400'
 identifier: ref_IapN8lJ8
 title: Social Login
 categories:
@@ -27,8 +27,8 @@ and on the customer registration page:
 
 When a user clicks on any of the above for the first time, they will need to grant your application the permission to access their basic Facebook or Google account info and email address. Once this has been done, they will be able to sign in with a single click.
 
-## Attachments:
+_In this section:_
 
-* [icons.png]({{site.baseurl}}/attachments/7504573/7602323.png) (image/png)
-* [signin.png]({{site.baseurl}}/attachments/7504573/7602324.png) (image/png)
-* [register.png]({{site.baseurl}}/attachments/7504573/7602325.png) (image/png)
+*   {% link "Social Login: Installation" ref_0QnPKc94 %}
+*   {% link "Setting up Facebook Login for your store" ref_vpEKPoyM %}
+*   {% link "Setting up Google Login for your store" ref_LMCQeIrv %}
