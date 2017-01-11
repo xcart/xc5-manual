@@ -46,24 +46,24 @@ The easiest way to migrate store data is to use the service provided by X-Cart p
 
 If you have added products to X-Cart via a migration app, it is important to verify the products afterwards.
 
-1.   [Check the product details](http://kb.x-cart.com/display/XDD/Adding+products), which includes product descriptions, images, variants and meta descriptions - depending on your previous software.
+1.   {% link "Check the product details" ref_fhzzxDTy %}, which includes product descriptions, images, variants and meta descriptions - depending on your previous software.
 
-2.   [Configure the taxes](http://kb.x-cart.com/display/XDD/Taxes) you require for your products or automate tax calculation via [Avatax Sales Tax calculation service](http://www.x-cart.com/extensions/addons/avatax-sales-tax-automation.html) by Avalara.
+2.   {% link "Configure the taxes" ref_kJmd7K27 %} you require for your products or automate tax calculation via [Avatax Sales Tax calculation service](http://www.x-cart.com/extensions/addons/avatax-sales-tax-automation.html) by Avalara.
 
 3.   Make sure the products are arranged in categories correctly and are easy to find (Admin back-end –> Catalog –> Categories).
 
-4.   [Add Featured products](http://kb.x-cart.com/display/XDD/Adding+featured+products) on the home page and/or category pages.
+4.   {% link "Add Featured products" ref_4iFdpTdv %} on the home page and/or category pages.
 
-5.   If your products have options and variants, use the [product classes and attributes feature](http://kb.x-cart.com/en/product_classes_and_attributes/index.html) to set them up. You may need them if your products have such parameters as color, size, material, country of origin, ISBN, technical specifications, etc.
+5.   If your products have options and variants, use the {% link "product classes and attributes feature" ref_T90ZcEpP %} to set them up. You may need them if your products have such parameters as color, size, material, country of origin, ISBN, technical specifications, etc.
 
-6.   [Optimize the store catalog pages for SEO](http://kb.x-cart.com/display/XDD/Optimizing+your+catalog+pages+for+SEO): define meta elements of your product and category pages - such as the page title, meta description and meta keywords; [set up seo-friendly URLs](http://kb.x-cart.com/display/XDD/Setting+up+seo-friendly+URLs).
+6.   {% link "Optimize the store catalog pages for SEO" ref_OBh3V1k1 %}: define meta elements of your product and category pages - such as the page title, meta description and meta keywords; {% link "set up seo-friendly URLs" ref_nJxrzFEZ %}.
 
 
 ## Step 4: Configure the storefront
 
 We love beautiful stores as much as you do. That’s why we offer a number of tools that help you to personalize your X-Cart store easily:
 
-1.   [Change X-Cart logo and favicon](http://kb.x-cart.com/en/look_and_feel/changing_your_store%27s_logo_and_favicon.html) to your company’s ones. [Change the default Welcome text and banner on the Front page](http://kb.x-cart.com/en/look_and_feel/changing_your_store%27s_welcome_text_and_banner_on_the_front_page.html) to the ones of your own. [Change the theme](http://kb.x-cart.com/en/look_and_feel/changing_your_store%27s_theme.html) if you like.  Add links to certain pages to the Primary or Footer menus on the storefront {% link "as explained here" ref_BDykFBbw %}.
+1.   {% link "Change X-Cart logo and favicon" ref_2VXSZhKE %} to your company’s ones. [Change the default Welcome text and banner on the Front page](http://kb.x-cart.com/en/look_and_feel/changing_your_store%27s_welcome_text_and_banner_on_the_front_page.html) to the ones of your own. [Change the theme](http://kb.x-cart.com/en/look_and_feel/changing_your_store%27s_theme.html) if you like.  Add links to certain pages to the Primary or Footer menus on the storefront {% link "as explained here" ref_BDykFBbw %}.
 
 2.   You may also choose to modify the text labels, say, rename the button “add to cart” to “add to bag”, as is explained by [this instruction](http://kb.x-cart.com/en/look_and_feel/managing_texts_labels_in_your_store.html). 
 
