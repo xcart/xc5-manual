@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-07 22:14 +0400'
+updated_at: '2017-01-11 12:21 +0400'
 identifier: ref_otTGssNZ
 title: Getting started with store migration
 order: 95
@@ -63,7 +63,7 @@ If you have added products to X-Cart via a migration app, it is important to ver
 
 We love beautiful stores as much as you do. That’s why we offer a number of tools that help you to personalize your X-Cart store easily:
 
-1.   [Change X-Cart logo and favicon](http://kb.x-cart.com/en/look_and_feel/changing_your_store%27s_logo_and_favicon.html) to your company’s ones. [Change the default Welcome text and banner on the Front page](http://kb.x-cart.com/en/look_and_feel/changing_your_store%27s_welcome_text_and_banner_on_the_front_page.html) to the ones of your own. [Change the theme](http://kb.x-cart.com/en/look_and_feel/changing_your_store%27s_theme.html) if you like.  Add links to certain pages to the Primary or Footer menus on the storefront [as explained here](http://kb.x-cart.com/en/look_and_feel/adding_new_items_to_your_store%27s_menus.html).
+1.   [Change X-Cart logo and favicon](http://kb.x-cart.com/en/look_and_feel/changing_your_store%27s_logo_and_favicon.html) to your company’s ones. [Change the default Welcome text and banner on the Front page](http://kb.x-cart.com/en/look_and_feel/changing_your_store%27s_welcome_text_and_banner_on_the_front_page.html) to the ones of your own. [Change the theme](http://kb.x-cart.com/en/look_and_feel/changing_your_store%27s_theme.html) if you like.  Add links to certain pages to the Primary or Footer menus on the storefront {% link "as explained here" ref_BDykFBbw %}.
 
 2.   You may also choose to modify the text labels, say, rename the button “add to cart” to “add to bag”, as is explained by [this instruction](http://kb.x-cart.com/en/look_and_feel/managing_texts_labels_in_your_store.html). 
 
