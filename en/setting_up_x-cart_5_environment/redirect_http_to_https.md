@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 23:37 +0400'
+updated_at: '2017-01-12 17:21 +0400'
 identifier: ref_httpredirect
 title: HTTP to HTTPS redirect configuration
 published: true
@@ -20,7 +20,7 @@ To configure redirect on Apache server, you should have **.htaccess** file in yo
 
 ```
 RewriteEngine On
-RewriteCond %{HTTPS} =on 
+RewriteCond %{HTTPS} =off
 RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [QSA,L]
 ```
 
