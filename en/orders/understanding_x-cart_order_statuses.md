@@ -1,12 +1,13 @@
 ---
-identifier: ref_DkbTi1qJ
-updated_at: 2016-06-21 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Understanding X-Cart order statuses'
+layout: article_with_sidebar
+updated_at: '2017-01-12 10:35 +0400'
+identifier: ref_DkbTi1qJ
+title: Understanding X-Cart order statuses
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -25,7 +26,7 @@ By default, X-Cart uses the following order statuses:
 | A | Authorized | This status can only be set by a payment processor (cannot be set manually). It indicates that an authorization has been placed on the buyer's card to ensure the buyer has sufficient credit or balance to pay for the purchase. The bank has put a hold on the requested amount, but the money has not been transferred to the merchant yet.The merchant has yet to place a charge to capture it. |
 | D | Declined | This status can only be set by a payment processor (cannot be set manually). It indicates that an attempt to authorize or charge the buyer's card has failed and the order has been cancelled. |
 | C | Cancelled | The order has been cancelled by the merchant. |
-| R | Refunded | The money for the purchase has been refunded in full. |
+| R | Refunded | The money for the purchase has been refunded in full. This status can be set automatically by payment processors whose X-Cart integration supports refunds, or it can be set manually by administrator. |
 
 The statuses Awaiting payment, Paid and Authorized cause the inventory levels of the ordered items to be decreased according to the quantities ordered. The statuses Refunded, Cancelled and Declined cause the items to be restocked. The status Partially Paid does not affect the inventory.
 
