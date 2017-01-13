@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-09 20:56 +0400'
+updated_at: '2017-01-14 01:08 +0400'
 identifier: ref_9raTXZPN
 title: ''
 order: 100
@@ -58,9 +58,9 @@ The type of upgrade reflects the significance of changes that the upgrade implem
 If a major upgrade and a minor update are available to a store at the same time, the store administrator can choose which one they want to apply. As a result of a minor update, the store will be updated to get all the fixes of the latest available bugfix release within the store's version branch. As a result of a major upgrade, the store will be upgraded to the latest version with all the new features and bugfixes available to the store's license.  
 
 ## Upgrade waves
-Once a new X-Cart version is released, upgrades to this version become available to existing X-Cart clients in two waves. 
+Once a new X-Cart version is released, upgrades to this version become available to existing X-Cart clients in two "waves". By implementing the "waves", we're ensuring more thorough testing of the upgrade process.
 
-The first one is the so-called **Developer wave**; this wave becomes available at the time of official X-Cart release announcement and is intended for X-Cart developers/early adopters. This wave allows 3rd party module developers to adapt their modules to the new X-Cart core; it also lets tech-savvy X-Cart users to try the upgrade and make sure it does not cause issues in their specific store environment.
+The first wave is the so-called **Developer wave**; this wave becomes available at the time of official X-Cart release announcement and is intended for X-Cart developers/early adopters. This wave allows 3rd party module developers to adapt their modules to the new X-Cart core; it also lets tech-savvy X-Cart users to try the upgrade and make sure it does not cause issues in their specific store environment.
 
 The second wave is the **Merchant wave**; this wave typically becomes available in 2-7 days following the official release announcement and is intented for all X-Cart clients. 
 
