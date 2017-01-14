@@ -142,6 +142,25 @@ Also note the **Advanced mode** link allowing you to install just some specific 
        ![4_licensekey.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_licensekey.png)
        
        If you see a message like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved, and next time you attempt an update/upgrade, the **Continue** button will be available.
+    
+    6. Clicking the **Continue** button launches the downloading of all the necessary update/upgrade packs for the core and modules. 
+       ![5_downl.png]({{site.baseurl}}/attachments/ref_9raTXZPN/5_downl.png)
+       
+       The downloaded updates/upgrades archives will be unpacked:
+       ![6_unpacking.png]({{site.baseurl}}/attachments/ref_9raTXZPN/6_unpacking.png)
+       
+       ...and checked for integrity:
+       ![7_checking_integrity.png]({{site.baseurl}}/attachments/ref_9raTXZPN/7_checking_integrity.png)
+
+       NOTE: if this step times out because of bad connection, you can try to adjust the REQUEST_LONG_TTL constant in the `<X-Cart 5>/var/run/classes/XLite/Core/Marketplace.php` script so that X-Cart would be able to download all the files in time.
+
+    7. Once all the upgrade packs have been downloaded, you will be prompted to create a backup, and there will be the **Install updates** button. Clicking it will run the upgrade process (which cannot be interrupted).
+
+![]({{site.baseurl}}/attachments/7505469/7602771.png)
+
+At this last step, you can also receive several types of warnings:
+
+
 
 
 ![]({{site.baseurl}}/attachments/7505469/7602689.png)
