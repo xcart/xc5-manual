@@ -208,10 +208,10 @@ Also note the **Advanced mode** link allowing you to install just some specific 
        ...and a link to view the update log:
        ![11_completed4.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed4.png)
        
-    10.  Check that your store looks and functions correctly after the upgrade. In case of problems, use the hard/soft reset links to try and find out what is wrong, or recover your store from backup.
+   10.  Check that your store looks and functions correctly after the upgrade. In case of problems, use the hard/soft reset links to try and find out what is wrong, or recover your store from backup.
          ![11_completed2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed2.png)
     
-    11. If the page provides any kind of "upgrade notes" (like in the screenshot below), be sure to follow through with the recommendations provided therein.
+   11. If the page provides any kind of "upgrade notes" (like in the screenshot below), be sure to follow through with the recommendations provided therein.
         ![11_completed1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed1.png)
 
 
