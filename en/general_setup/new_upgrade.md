@@ -154,7 +154,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
 
         NOTE: If this step times out because of bad connection, you can try to adjust the REQUEST_LONG_TTL constant in the `<X-Cart 5>/var/run/classes/XLite/Core/Marketplace.php` script so that X-Cart would be able to download all the files in time.
 
-    7.  Once all the upgrade packs have been downloaded, you will be provided with a list of all the downloaded updates and prompted to confirm that you have created a backup.
+   7.  Once all the upgrade packs have been downloaded, you will be provided with a list of all the downloaded updates and prompted to confirm that you have created a backup.
 
        At this last step, you may receive several types of warnings:
 
@@ -170,20 +170,25 @@ Also note the **Advanced mode** link allowing you to install just some specific 
         *   If your store has any modified files, you will get a warning like this:
             ![]({{site.baseurl}}/attachments/ref_9raTXZPN/8_modified_files.png)
 
-
-    9.  Click the **Install updates** button to run the installation of the update/upgrade. Note that the button becomes active only after you have confirmed the creation of a backup.
+   8.  Click the **Install updates** button to run the installation of the update/upgrade. Note that the button becomes active only after you have confirmed the creation of a backup.
         ![9_iconfirm_backup.png]({{site.baseurl}}/attachments/ref_9raTXZPN/9_iconfirm_backup.png)
-
+        
 
 After the **Install updates** button has been clicked, the process will continue as follows:
 
-1.  Pre-upgrade hooks are run. If there is upgrade from 5.0.14 to 5.1.3, then all the upgrade hooks - 5.1.0, 5.1.1, 5.1.2, 5.1.3 - will be run during this step. In addition to that, all the modules' upgrade hooks will be run at this stage;
-2.  Overwriting of files happens: new files are added, existing ones are overwritten, non-existent ones in new version are deleted;
-3.  Post-upgrade hooks are run. The same process as with pre-upgrade hooks;
-4.  Cache rebuild process;
-5.  Post-rebuild hooks are run. The same process as with pre-upgrade and post-upgrade hooks;
-6.  Update of language variables happens. Script will take all install.yaml files of modules + yaml file with language variables of the core (`<X-Cart 5>/sql/install.yaml`) and put the language variables from these files to the database;
-7.  Upgrade is finished.
+   1.  Pre-upgrade hooks are run. If the upgrade is going from 5.0.14 to 5.1.3, then all the upgrade hooks - 5.1.0, 5.1.1, 5.1.2, 5.1.3 - will be run during this step. In addition to that, all the modules' upgrade hooks will be run at this stage;
+
+   2.  Overwriting of files happens: new files are added, existing ones are overwritten, non-existent ones in new version are deleted;
+
+   3.  Post-upgrade hooks are run. The same process as with pre-upgrade hooks;
+
+   4.  Cache rebuild process;
+
+   5.  Post-rebuild hooks are run. The same process as with pre-upgrade and post-upgrade hooks;
+
+   6.  Update of language variables happens. Script will take all install.yaml files of modules + yaml file with language variables of the core (`<X-Cart 5>/sql/install.yaml`) and put the language variables from these files to the database;
+
+   7.  Upgrade is finished.
 
 ## Manual upgrade
 
