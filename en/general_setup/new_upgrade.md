@@ -154,13 +154,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
 
         NOTE: If this step times out because of bad connection, you can try to adjust the REQUEST_LONG_TTL constant in the `<X-Cart 5>/var/run/classes/XLite/Core/Marketplace.php` script so that X-Cart would be able to download all the files in time.
 
-    7.  Once all the upgrade packs have been downloaded, you will be provided with a list of all the downloaded updates and prompted to confirm that you have created a backup:
-        ![8_confirm_backup.png]({{site.baseurl}}/attachments/ref_9raTXZPN/8_confirm_backup.png)
-
-        
-    8. Click the **Install updates** button to run the installation of the update/upgrade. Note that the button becomes active only after you have confirmed the creation of a backup.
-        ![8_install_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/8_install_updates.png)
-
+    7.  Once all the upgrade packs have been downloaded, you will be provided with a list of all the downloaded updates and prompted to confirm that you have created a backup.
 
        At this last step, you may receive several types of warnings:
 
@@ -177,7 +171,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
             ![]({{site.baseurl}}/attachments/ref_9raTXZPN/8_modified_files.png)
 
 
-    8.  Click the **Install updates** button to run the installation of the update/upgrade. Note that the button becomes active only after you have confirmed the creation of a backup.
+    9.  Click the **Install updates** button to run the installation of the update/upgrade. Note that the button becomes active only after you have confirmed the creation of a backup.
         ![9_iconfirm_backup.png]({{site.baseurl}}/attachments/ref_9raTXZPN/9_iconfirm_backup.png)
 
 
