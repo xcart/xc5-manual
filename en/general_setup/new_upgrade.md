@@ -176,22 +176,43 @@ Also note the **Advanced mode** link allowing you to install just some specific 
    8.  Click the **Install updates** button to run the installation of the update/upgrade. Note that the button becomes active only after you have confirmed the creation of a backup.
         ![9_iconfirm_backup.png]({{site.baseurl}}/attachments/ref_9raTXZPN/9_iconfirm_backup.png)
         
+       After the **Install updates** button has been clicked, the process continues as follows:
 
-After the **Install updates** button has been clicked, the process will continue as follows:
+       1.  Pre-upgrade hooks are run. If the upgrade is going from 5.0.14 to 5.1.3, then all the upgrade hooks - 5.1.0, 5.1.1, 5.1.2, 5.1.3 - will be run during this step. In addition to that, all the modules' upgrade hooks will be run at this stage;
 
-   1.  Pre-upgrade hooks are run. If the upgrade is going from 5.0.14 to 5.1.3, then all the upgrade hooks - 5.1.0, 5.1.1, 5.1.2, 5.1.3 - will be run during this step. In addition to that, all the modules' upgrade hooks will be run at this stage;
+       2.  Overwriting of files happens: new files are added, existing ones are overwritten, non-existent ones in new version are deleted;
 
-   2.  Overwriting of files happens: new files are added, existing ones are overwritten, non-existent ones in new version are deleted;
+       3.  Post-upgrade hooks are run. The same process as with pre-upgrade hooks;
 
-   3.  Post-upgrade hooks are run. The same process as with pre-upgrade hooks;
+       4.  Cache rebuild process;
 
-   4.  Cache rebuild process;
+       5.  Post-rebuild hooks are run. The same process as with pre-upgrade and post-upgrade hooks;
 
-   5.  Post-rebuild hooks are run. The same process as with pre-upgrade and post-upgrade hooks;
+       6.  Update of language variables happens. Script will take all install.yaml files of modules + yaml file with language variables of the core (`<X-Cart 5>/sql/install.yaml`) and put the language variables from these files to the database;
 
-   6.  Update of language variables happens. Script will take all install.yaml files of modules + yaml file with language variables of the core (`<X-Cart 5>/sql/install.yaml`) and put the language variables from these files to the database;
+       On the screen, you may see steps like the following:
+       
+       Deploying:
+       ![10_deploying.png]({{site.baseurl}}/attachments/ref_9raTXZPN/10_deploying.png)
 
-   7.  Upgrade is finished.
+       Installing updates:
+       ![10_installing_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/10_installing_updates.png)
+
+   9.  Once the installation is completed, you get a screen saying "The upgrade is completed. Please do not close this page...":
+       ![11_completed.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed.png)
+       
+       On this screen, you get a list of all the updated components:
+       ![11_completed3.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed3.png)
+       
+       ...and a link to view the update log:
+       ![11_completed4.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed4.png)
+       
+    10.  Check that your store looks and functions correctly after the upgrade. In case of problems, use the hard/soft reset links to try and find out what is wrong, or recover your store from backup.
+         ![11_completed2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed2.png)
+    
+    11. If the page provides any kind of "upgrade notes" (like in the screenshot below), be sure to follow through with the recommendations provided therein.
+        ![11_completed1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed1.png)
+
 
 ## Manual upgrade
 
