@@ -1,14 +1,15 @@
 ---
-identifier: ref_bzUBJufx
-updated_at: 2015-12-21 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Look and feel'
+layout: article_with_sidebar
+updated_at: '2017-01-15 07:27 +0400'
+identifier: ref_bzUBJufx
+title: Look and feel
 categories:
   - home
 order: 20
 icon: paint brush
 description: Make your shop one of a kind applying slick and stylish themes and tweaks
+published: true
 ---
 
 
@@ -35,3 +36,4 @@ _In this section:_
 *   {% link "Enabling/Disabling Order created email notifications" ref_SwKMRaJp %}
 *   {% link "Uploading custom images onto your store's server" ref_zyQIOcia %}
 *   {% link "Changing the text of the maintenance page" ref_GX9sbLzF %}
+*   {% link "Changing logo size for Crisp White skin" ref_GX9sbLzF %}
