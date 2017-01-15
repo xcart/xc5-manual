@@ -1,8 +1,8 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-16 00:38 +0400'
-identifier: ref_pQQ1CLe1
+updated_at: '2017-01-16 00:42 +0400'
+identifier: ref_pQQ1CLe2
 title: Upgrading X-Cart 5 (outdated)
 categories:
   - Developer docs
