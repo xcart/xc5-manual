@@ -78,7 +78,7 @@ The general idea of any upgrade/update is to overwrite the existing files of the
 *   **post-upgrade hooks** are run after the files have been overwritten, but before the cache rebuild process has started. They are used for the preparation of the store for the cache rebuild process. They work using the code of the old core.
 *   **post-rebuild hooks** are run after the very first cache rebuild process has finished. They work using the code of the new core.
 
-Upgrade hooks of the core are located in the `<X-Cart 5>/upgrade/` folder. If you want to find upgrade hooks for version 5.1.3, then you should go to the `<X-Cart 5>/upgrade/5.1/3/` directory. There you can find three types of files:
+Upgrade hooks of the core are located in the folder `<X-Cart 5>/upgrade/`. For example, upgrade hooks for version 5.1.3 can be found in the folder `<X-Cart 5>/upgrade/5.1/3/`. There you will find three types of files:
 
 *   **pre_upgrade.php** contains pre-upgrade hooks;
 *   **post_upgrade.php **contains post-upgrade hooks;
