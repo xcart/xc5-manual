@@ -1,8 +1,8 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-16 00:39 +0400'
-identifier: ref_9raTXZPN
+updated_at: '2017-01-16 00:42 +0400'
+identifier: ref_pQQ1CLe1
 title: Upgrading X-Cart 5
 order: 320
 published: true
