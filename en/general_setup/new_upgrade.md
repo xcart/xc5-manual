@@ -132,7 +132,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
    4.  Scroll down the page to the bottom of the list of updates. There you will see the **Install updates** button. Click on this button to proceed with installing the selected update/upgrade components.
        ![3_install_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/3_install_updates.png)
 
-   5.  After the **Install updates** button has been clicked upon, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated:
+    5.  After the **Install updates** button has been clicked upon, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated:
        ![4_components1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_components1.png)
 
        To continue, scroll down the page to the bottom of the list and click the **Continue** button:
