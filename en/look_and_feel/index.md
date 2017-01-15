@@ -36,4 +36,4 @@ _In this section:_
 *   {% link "Enabling/Disabling Order created email notifications" ref_SwKMRaJp %}
 *   {% link "Uploading custom images onto your store's server" ref_zyQIOcia %}
 *   {% link "Changing the text of the maintenance page" ref_GX9sbLzF %}
-*   {% link "Changing logo size for Crisp White skin" ref_GX9sbLzF %}
+*   {% link "Changing logo size for Crisp White skin" ref_RrLo9hcw %}
