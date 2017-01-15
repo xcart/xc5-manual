@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-15 07:19 +0400'
 identifier: ref_RrLo9hcw
-title: ''
-order: 100
+title: Changing logo size for Crisp White skin
+order: 400
 published: true
 ---
 The logo size can be customized using Custom CSS.
