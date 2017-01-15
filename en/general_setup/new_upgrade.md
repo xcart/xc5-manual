@@ -132,7 +132,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
    4.  Scroll down the page to the bottom of the list of updates. There you will see the **Install updates** button. Click on this button to proceed with installing the selected update/upgrade components.
        ![3_install_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/3_install_updates.png)
 
-    5.  After the **Install updates** button has been clicked upon, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated:
+   5.  After the **Install updates** button has been clicked upon, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated:
        ![4_components1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_components1.png)
 
        To continue, scroll down the page to the bottom of the list and click the **Continue** button:
@@ -143,7 +143,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
        
        If you see a message like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved, and next time you attempt an update/upgrade, the **Continue** button will be available.
     
-    6.  Clicking the **Continue** button launches the downloading of all the necessary update/upgrade packs for the core and modules. 
+   6.  Clicking the **Continue** button launches the downloading of all the necessary update/upgrade packs for the core and modules. 
         ![5_downl.png]({{site.baseurl}}/attachments/ref_9raTXZPN/5_downl.png)
        
         The downloaded updates/upgrades archives will be unpacked:
