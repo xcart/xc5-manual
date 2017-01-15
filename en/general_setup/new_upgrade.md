@@ -158,17 +158,17 @@ Also note the **Advanced mode** link allowing you to install just some specific 
 
        At this last step, you may receive several types of warnings:
 
-       *   If your store has any modules that have upgrade hooks, and these modules are disabled (not active), you will be prompted to either activate such modules or completely remove them. 
+       *   If your store has any modules that have upgrade hooks, and these modules are disabled (not active), you will be prompted to either activate such modules or completely remove them. A module must be active in order to correctly run the upgrade hooks, and this is the reason why the module must be either enabled or deleted.
            ![8_enable_uninstall.png]({{site.baseurl}}/attachments/ref_9raTXZPN/8_enable_uninstall.png)
            
            Starting with X-Cart version 5.3.20, we only provide a prompt to remove such modules; however, there is a link to the list of disabled modules where you can enable them if you choose to do so. 
-           
-           A module must be active in order to correctly run the upgrade hooks, and this is the reason why the module must be either enabled or deleted.
     
        *   If your store has modules that do not exist in the marketplace (e.g. you uploaded them via **Upload add-on** button) and you are doing an upgrade/update within the 3rd or 4th digit sequence of the version number, you will be advised to disable these modules, although it is not strictly necessary. If you are doing a major upgrade affecting the 1st or 2nd digit sequence of the version number, you will be told that such modules will be disabled automatically.
 
         *   If your store has any modified files, you will get a warning like this:
             ![]({{site.baseurl}}/attachments/ref_9raTXZPN/8_modified_files.png)
+            
+            You will be able to choose whether you want the modified files to be replaced in the process of upgrade with their non-modified versions, or to keep the modified files (The latter option may cause your site to crash, so clearly you must understand what you are doing.)
 
    8.  Click the **Install updates** button to run the installation of the update/upgrade. Note that the button becomes active only after you have confirmed the creation of a backup.
         ![9_iconfirm_backup.png]({{site.baseurl}}/attachments/ref_9raTXZPN/9_iconfirm_backup.png)
