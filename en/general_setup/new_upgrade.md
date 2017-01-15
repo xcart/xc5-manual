@@ -132,7 +132,7 @@ Also note the **Advanced mode** link allowing you to install just some specific 
    4.  Scroll down the page to the bottom of the list of updates. There you will see the **Install updates** button. Click on this button to proceed with installing the selected update/upgrade components.
        ![3_install_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/3_install_updates.png)
 
-   5. After the **Install updates** button has been clicked upon, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated:
+   5.  After the **Install updates** button has been clicked upon, the page will be reloaded prompting you to confirm your selection of upgrade/update components. There will be a title "These components will be updated" and a list of components; for each component, you will be able to see the current version and the version to which it will be updated:
        ![4_components1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/4_components1.png)
 
        To continue, scroll down the page to the bottom of the list and click the **Continue** button:
@@ -143,47 +143,43 @@ Also note the **Advanced mode** link allowing you to install just some specific 
        
        If you see a message like that, you need to at least activate a free license, or purchase and activate a paid license. Once you do so, the problem will be resolved, and next time you attempt an update/upgrade, the **Continue** button will be available.
     
-    6. Clicking the **Continue** button launches the downloading of all the necessary update/upgrade packs for the core and modules. 
-       ![5_downl.png]({{site.baseurl}}/attachments/ref_9raTXZPN/5_downl.png)
+    6.  Clicking the **Continue** button launches the downloading of all the necessary update/upgrade packs for the core and modules. 
+        ![5_downl.png]({{site.baseurl}}/attachments/ref_9raTXZPN/5_downl.png)
        
-       The downloaded updates/upgrades archives will be unpacked:
-       ![6_unpacking.png]({{site.baseurl}}/attachments/ref_9raTXZPN/6_unpacking.png)
+        The downloaded updates/upgrades archives will be unpacked:
+        ![6_unpacking.png]({{site.baseurl}}/attachments/ref_9raTXZPN/6_unpacking.png)
        
-       ...and checked for integrity:
-       ![7_checking_integrity.png]({{site.baseurl}}/attachments/ref_9raTXZPN/7_checking_integrity.png)
+        ...and checked for integrity:
+        ![7_checking_integrity.png]({{site.baseurl}}/attachments/ref_9raTXZPN/7_checking_integrity.png)
 
-       NOTE: if this step times out because of bad connection, you can try to adjust the REQUEST_LONG_TTL constant in the `<X-Cart 5>/var/run/classes/XLite/Core/Marketplace.php` script so that X-Cart would be able to download all the files in time.
+        NOTE: If this step times out because of bad connection, you can try to adjust the REQUEST_LONG_TTL constant in the `<X-Cart 5>/var/run/classes/XLite/Core/Marketplace.php` script so that X-Cart would be able to download all the files in time.
 
-    7. Once all the upgrade packs have been downloaded, you will be prompted to create a backup, and there will be the **Install updates** button. Clicking it will run the upgrade process (which cannot be interrupted).
+    7.  Once all the upgrade packs have been downloaded, you will be provided with a list of all the downloaded updates and prompted to confirm that you have created a backup:
+        ![8_confirm_backup.png]({{site.baseurl}}/attachments/ref_9raTXZPN/8_confirm_backup.png)
 
-![]({{site.baseurl}}/attachments/7505469/7602771.png)
-
-At this last step, you can also receive several types of warnings:
-
-
+        
+    8. Click the **Install updates** button to run the installation of the update/upgrade. Note that the button becomes active only after you have confirmed the creation of a backup.
+        ![8_install_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/8_install_updates.png)
 
 
-![]({{site.baseurl}}/attachments/7505469/7602689.png)
+       At this last step, you may receive several types of warnings:
 
-*   If your store has modules that do not exist in the marketplace (e.g. you uploaded them via **Upload add-on** button) and you are doing a **minor upgrade, **you will be advised to disable them, although it is not necessary![]({{site.baseurl}}/attachments/7505469/7602690.png)
-*   If your store has modules that do not exist in the marketplace (e.g. you uploaded them via **Upload add-on** button) and you are doing a **major upgrade,** you will be told that **they ****will be disabled automatically**![]({{site.baseurl}}/attachments/7505469/7602691.png)
+       *   If your store has any modules that have upgrade hooks, and these modules are disabled (not active), you will be prompted to either activate such modules or completely remove them. 
+           ![8_enable_uninstall.png]({{site.baseurl}}/attachments/ref_9raTXZPN/8_enable_uninstall.png)
+           
+           Starting with X-Cart version 5.3.20, we only provide a prompt to remove such modules; however, there is a link to the list of disabled modules where you can enable them if you choose to do so. 
+           
+           A module must be active in order to correctly run the upgrade hooks, and this is the reason why the module must be either enabled or deleted.
+    
+       *   If your store has modules that do not exist in the marketplace (e.g. you uploaded them via **Upload add-on** button) and you are doing an upgrade/update within the 3rd or 4th digit sequence of the version number, you will be advised to disable these modules, although it is not strictly necessary. If you are doing a major upgrade affecting the 1st or 2nd digit sequence of the version number, you will be told that such modules will be disabled automatically.
 
-After clicking **Continue **button, X-Cart will start downloading the upgrade packs for the core and modules.
+        *   If your store has any modified files, you will get a warning like this:
+            ![]({{site.baseurl}}/attachments/ref_9raTXZPN/8_modified_files.png)
 
-NOTE: if this step times out because of bad connection, you can try to adjust the REQUEST_LONG_TTL constant in the `<X-Cart 5>/var/run/classes/XLite/Core/Marketplace.php` script, so that X-Cart would be able to download all the files in time.
 
-Once all the upgrade packs have been downloaded, you will be prompted to create a backup, and there will be the **Install updates** button. Clicking it will run the upgrade process (which cannot be interrupted).
+    8.  Click the **Install updates** button to run the installation of the update/upgrade. Note that the button becomes active only after you have confirmed the creation of a backup.
+        ![9_iconfirm_backup.png]({{site.baseurl}}/attachments/ref_9raTXZPN/9_iconfirm_backup.png)
 
-![]({{site.baseurl}}/attachments/7505469/7602771.png)
-
-At this last step, you can also receive several types of warnings:
-
-*   If your store has any modified files, you will get a warning like this
-
-![]({{site.baseurl}}/attachments/7505469/7602770.png)
-
-*   If your store has any modules that have upgrade hooks and these modules are disabled (not active), you will be prompted to either activate such modules or completely remove them. A module must be active in order to correctly run the upgrade hooks, and this is the reason why the module must be either enabled or deleted
-    ![]({{site.baseurl}}/attachments/7505469/7602769.png)
 
 After the **Install updates** button has been clicked, the process will continue as follows:
 
