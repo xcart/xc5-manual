@@ -15,7 +15,7 @@ This article gives general information on X-Cart 5 upgrades and provides hints a
 
 *   [Introduction](#introduction)
 *   [Table of Contents](#table-of-contents)
-*   [Types of upgrade](#types-of-upgrade)
+*   [Upgrades and updates](#upgrades_and_updates)
 *   [Upgrade waves](#upgrade-waves) 
 *   [Availability of upgrades for different versions](#availability-of-upgrades-for-different-versions)
 *   [Upgrade hooks](#upgrade-hooks)
@@ -23,7 +23,7 @@ This article gives general information on X-Cart 5 upgrades and provides hints a
 *   [Store upgrade process](#store-upgrade-process)
 *   [Manual upgrade](#manual-upgrade)
 
-## Types of upgrade
+## Upgrades and updates
 
 Since the adoption by X-Cart of the [four-sequence versioning scheme](http://devs.x-cart.com/en/misc/x-cart_versions.html#x-cart-53x-versioning), in which the first two sequences of digits in the version identifier represent the major version, the third sequence - the minor version, and the fourth sequence - the build version (bugfix release), we had to change X-Cart's upgrade system a little bit to accomodate the changes. As a result, X-Cart now uses two types of upgrades:
 
