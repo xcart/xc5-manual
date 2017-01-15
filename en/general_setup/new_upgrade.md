@@ -188,7 +188,8 @@ Also note the **Advanced mode** link allowing you to install just some specific 
 
        5.  Post-rebuild hooks are run. The same process as with pre-upgrade and post-upgrade hooks;
 
-       6.  Update of language variables happens. Script will take all install.yaml files of modules + yaml file with language variables of the core (`<X-Cart 5>/sql/install.yaml`) and put the language variables from these files to the database;
+       6.  Update of language variables happens. Script will take all install.yaml files of modules + yaml file with language variables of the core (`<X-Cart 5>/sql/install.yaml`) and put the language variables from these files to the database.
+       
 
        On the screen, you may see steps like the following:
        
