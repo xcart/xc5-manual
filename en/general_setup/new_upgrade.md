@@ -3,8 +3,8 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-01-14 01:08 +0400'
 identifier: ref_9raTXZPN
-title: ''
-order: 100
+title: Upgrading X-Cart 5
+order: 320
 published: true
 ---
 ## Introduction
