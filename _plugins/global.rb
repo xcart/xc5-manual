@@ -41,9 +41,10 @@ module Jekyll
 
     def get_depth()
       dirs = @dir.split('/').slice(2..-1)
-      return dirs.size
+      depth = dirs.size
+      return depth > 0 ? depth : 1
     end
-
+    
     def get_category_pr()
       category = @dir.split('/').slice(2)
       return @site.config['category_pr'].has_key?(category) ? @site.config['category_pr'][category] : 1
