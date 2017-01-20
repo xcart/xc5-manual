@@ -4,7 +4,6 @@ layout: article_with_sidebar
 updated_at: '2017-01-20 13:33 +0400'
 identifier: ref_OgodT8pE
 title: Installing X-Cart (video guide)
-version: X-Cart 5.2.4 and earlier
 categories:
   - Webinars and video tutorials
 published: true
