@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-22 00:48 +0400'
+updated_at: '2017-01-20 13:09 +0400'
 identifier: ref_6sRB7rnW
 title: Adding a new product (video)
 categories:
@@ -13,8 +13,15 @@ order: 100
 
 ## Introduction
 
-This video shows how to add a new product in X-Cart 5.
+With X-Cart 5 you will easily fill your store with products. See this video for:
+- step by step instructions on adding a new product
+- basic overview of additional settings that will help you to set your products in accordance with the requirements of your online business.
 
 ## Video
-Published on Dec 16, 2014
-<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/HKtI-iXFfr8" frameborder="0"></iframe>
+
+Published on Jan 18, 2017
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/yJAaZIXOWLo" frameborder="0"></iframe>
+
+_See also:_
+
+* [Products](http://kb.x-cart.com/en/products/index.html "Adding a new product (video)")
