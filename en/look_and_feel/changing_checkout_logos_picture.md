@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-24 12:23 +0400'
+updated_at: '2017-01-24 12:36 +0400'
 identifier: ref_V0WJ7Tzu
 title: Changing the checkout logos picture
 order: 400
@@ -16,6 +16,8 @@ You can customize this picture to show something else by doing these steps:
 
 1.	Install and enable the [ThemeTweaker addon](https://market.x-cart.com/addons/theme-tweaker.html).
 
-2.	Place the desired PNG picture by the path: `<X-Cart Dir>/skins/theme_tweaker/customer/images/checkout_logos.png`
+2.	Place the desired PNG picture by the path:
+	
+    `<X-Cart Dir>/skins/theme_tweaker/customer/images/checkout_logos.png`
 
 That's it, the new picture will substitute the default one and will be shown to every customer. This modification will be saved during the upgrade. To revert changes simply delete the picture you've added.
