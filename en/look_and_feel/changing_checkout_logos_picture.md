@@ -1,11 +1,11 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-24 12:05 +0400'
+updated_at: '2017-01-24 12:23 +0400'
 identifier: ref_V0WJ7Tzu
 title: Changing the checkout logos picture
 order: 400
-published: false
+published: true
 version: X-Cart 5.3.3
 ---
 **Checkout logos** is the picture of the accepted payment methods or security certificates, which is generally shown at the checkout header section. It was introduced in X-Cart 5.3.3:
