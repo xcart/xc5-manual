@@ -30,14 +30,17 @@ Below you can find some of the settings explained.
 *   **Default order to sort products within a category**: This setting allows you to control the default display order for products within a category. 
     The following options are available:
 
-*   *   Recommended - The product sort order defined by the store owner via the category settings:
+    *   Recommended - The product sort order defined by the store owner via the category settings:
         ![]({{site.baseurl}}/attachments/7505478/8716548.png)
 
     *   Newest first - The sort order based on the arrival dates of specific products (Products with the latest arrival date are displayed first).
+ 
     *   Price ![]({{site.baseurl}}/attachments/7505478/7602702.png) - The low to high price sort order (Products with the lowest price are displayed first).
+     
     *   Price ![]({{site.baseurl}}/attachments/7505478/7602700.png) - The high to low price sort order (Products with the highest price are displayed first).
 
     *   Name ![]({{site.baseurl}}/attachments/7505478/7602702.png) - The sort order in which products are sorted by their names, A to Z direction.
+    
     *   Name ![]({{site.baseurl}}/attachments/7505478/7602700.png) - The sort order in which products are sorted by their names, Z to A direction.
 
 *   **Products per category listing page**: This setting allows you to limit the number of products displayed on a category page. For example, if we set this to "2", only two products will be displayed per page. For the rest of the product list pagination will be provided:
