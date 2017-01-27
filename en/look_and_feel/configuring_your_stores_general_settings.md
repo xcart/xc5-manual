@@ -57,12 +57,6 @@ Below you can find some of the settings explained.
 
 *   **Products per category listing page**: This setting allows you to limit the number of products displayed on a category page. For example, if we set this to "2", only two products will be displayed per page. For the rest of the product list pagination will be provided:
     ![]({{site.baseurl}}/attachments/7505478/7602705.png)
-    
-*   **Maximum product image width (px)** and **Maximum product image height (px)**: These are the maximum dimensions with which product images will be displayed on the product details page.
-    ![]({{site.baseurl}}/attachments/7505478/7602706.png)
-     Images uploaded in a size larger than specified here will be resized; for such images the Magic Zoom feature will be available:
-    ![]({{site.baseurl}}/attachments/7505478/7602707.png)
-    X-Cart does not provide a limitation on the size of product images, and you can set any values you require for your store's maximum image width and height; however, you should make sure the result of your settings looks good on the store's pages. If your desired image dimensions break the surrounding page design, you may need to tweak it using custom CSS.
 
 *   **Minimum allowed order subtotal**: This setting allows you to set the minimum order amount a shopper must reach before being allowed to check out.
     ![]({{site.baseurl}}/attachments/7505478/7602713.png)
@@ -99,6 +93,8 @@ Below you can find some of the settings explained.
 *   **Cart TTL (days)**: When a new visitor comes to an X-Cart based store for the first time, a "cart" is created for them in the store's database. Since a lot of visitors will leave the store without creating an account, it's no use storing their carts forever (For visitors who become registered customers, the "cart" is stored for the lifetime of the respective user account). The setting "Cart TTL (days)" allows you to limit the time period for which anonymous shopping carts (carts of visitors who do not have an account) should be stored in the database. Anonymous carts older than the number of days specified here will be considered old (expired) and will be scheduled for deletion by the internal cron service (See the setting below).
 
 *   **Enable internal cron service**: This setting allows you to enable/disable the use of your store's internal cron service. This service schedules the run of certain maintenance tasks required to keep your store running smoothly and problem-free (like removing the expired shopping carts of visitors who do not have an account with your store or performing other tasks implemented via X-Cart modules) at the periodicity of once per 100 user sessions (i.e. every time after your store gets 100 unique visitors). Your store's internal cron service is not related to {% link "console.php" ref_lLqNzAaq %} and does not require any external setup of the crontab on your system. If using the internal cron service causes performance problems for your store, we recommend disabling this option and using an external cron setup to run console.php. 
+
+*   **Allow customers to sign up for membership**:
 
 ## Administrator Zone settings
 
