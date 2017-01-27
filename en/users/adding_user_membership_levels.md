@@ -1,12 +1,13 @@
 ---
-identifier: ref_9ITFspcC
-updated_at: 2014-01-30 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Adding user membership levels'
+layout: article_with_sidebar
+updated_at: '2017-01-27 15:01 +0400'
+identifier: ref_9ITFspcC
+title: Adding user membership levels
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -31,11 +32,3 @@ Sometimes store owners want to give different privileges to some group of their 
 2.  Select needed membership in the **Membership** field and click the **Update** button.
 3.  User membership is assigned to this customer.
 
-## Attachments:
-
-* [membership-levels-menu.png]({{site.baseurl}}/attachments/6389796/6586429.png) (image/png)
-* [membership-levels.png]({{site.baseurl}}/attachments/6389796/6586433.png) (image/png)
-* [membership-levels.png]({{site.baseurl}}/attachments/6389796/6586432.png) (image/png)
-* [membership-levels-add-new-membership-level.png]({{site.baseurl}}/attachments/6389796/6586434.png) (image/png)
-* [user.png]({{site.baseurl}}/attachments/6389796/6586435.png) (image/png)
-* [user-update-button.png]({{site.baseurl}}/attachments/6389796/6586436.png) (image/png)
