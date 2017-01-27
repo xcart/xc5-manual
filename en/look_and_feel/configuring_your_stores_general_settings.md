@@ -41,6 +41,8 @@ Below you can find some of the settings explained.
     
     *   _By Name - Z-A_ - The sort order in which products are sorted by their names, Z to A direction.
 
+*   **Default order to sort products within a search result**: This setting allows you to control the default display order for products that may be displayed in a list of search results after someone searches for a product in the Customer area. 
+
 *   **Products per category listing page**: This setting allows you to limit the number of products displayed on a category page. For example, if we set this to "2", only two products will be displayed per page. For the rest of the product list pagination will be provided:
     ![]({{site.baseurl}}/attachments/7505478/7602705.png)
     
