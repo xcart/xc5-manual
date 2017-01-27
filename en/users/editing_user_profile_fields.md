@@ -1,12 +1,13 @@
 ---
-identifier: ref_gg1fQDgB
-updated_at: 2015-12-24 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Editing user profile fields'
+layout: article_with_sidebar
+updated_at: '2017-01-27 14:57 +0400'
+identifier: ref_gg1fQDgB
+title: Editing user profile fields
 categories:
   - User manual
-
+published: true
+order: 200
 ---
 
 
