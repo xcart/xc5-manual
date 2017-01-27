@@ -30,21 +30,20 @@ Below you can find some of the settings explained.
 *   **Default order to sort products within a category**: This setting allows you to control the default display order for products within a category. 
     The following options are available:
 
-    *   Recommended - The product sort order defined by the store owner via the category settings:
+    *   _Recommended_ - The product sort order defined by the store owner via the category settings:
         ![]({{site.baseurl}}/attachments/7505478/8716548.png)
-
-    *   Newest first - The sort order based on the arrival dates of specific products (Products with the latest arrival date are displayed first).
  
-    *   Price ![]({{site.baseurl}}/attachments/7505478/7602702.png) - The low to high price sort order (Products with the lowest price are displayed first).
+    *   _By Price - cheapest first_ - The low to high price sort order (Products with the lowest price are displayed first).
      
-    *   Price ![]({{site.baseurl}}/attachments/7505478/7602700.png) - The high to low price sort order (Products with the highest price are displayed first).
+    *   _By Price - cheapest last_ - The high to low price sort order (Products with the highest price are displayed first).
 
-    *   Name ![]({{site.baseurl}}/attachments/7505478/7602702.png) - The sort order in which products are sorted by their names, A to Z direction.
+    *   _By Name - A-Z_ - The sort order in which products are sorted by their names, A to Z direction.
     
-    *   Name ![]({{site.baseurl}}/attachments/7505478/7602700.png) - The sort order in which products are sorted by their names, Z to A direction.
+    *   _By Name - Z-A_ - The sort order in which products are sorted by their names, Z to A direction.
 
 *   **Products per category listing page**: This setting allows you to limit the number of products displayed on a category page. For example, if we set this to "2", only two products will be displayed per page. For the rest of the product list pagination will be provided:
     ![]({{site.baseurl}}/attachments/7505478/7602705.png)
+    
 *   **Maximum product image width (px)** and **Maximum product image height (px)**: These are the maximum dimensions with which product images will be displayed on the product details page.
     ![]({{site.baseurl}}/attachments/7505478/7602706.png)
      Images uploaded in a size larger than specified here will be resized; for such images the Magic Zoom feature will be available:
