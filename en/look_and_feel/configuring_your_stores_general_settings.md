@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-10 00:20 +0400'
+updated_at: '2017-01-27 15:17 +0400'
 identifier: ref_qAZlJxZm
 title: 'Configuring your store&#39;s General settings'
 categories:
@@ -53,7 +53,8 @@ Below you can find some of the settings explained.
 
 *   **Maximum allowed order subtotal**: This setting allows you to set the maximum order amount. A shopper will be allowed to check out only if their order subtotal amount is less than this value.
     ![]({{site.baseurl}}/attachments/7505478/7602714.png)
-*   **Maximum order quantity (per product) **(used to be "Default purchase limit" in earlier X-Cart 5 versions): This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added; the buyer will be notified of the quantity adjustment with an appropriate message (For example, "Sorry, there's a limit of 1 per order for the product `<Product name>`. 1 unit(s) already in cart.")
+    
+*   **Maximum order quantity (per product)** (used to be "Default purchase limit" in earlier X-Cart 5 versions): This setting allows you to limit the number of product units that a buyer can order at a time. If a buyer attempts to add to cart more product units than specified here, only the allowed quantity will be added; the buyer will be notified of the quantity adjustment with an appropriate message (For example, "Sorry, there's a limit of 1 per order for the product `<Product name>`. 1 unit(s) already in cart.")
 
 *   **Force customer to choose product options before adding a product to cart**: This setting affects the add to cart behavior of products with modifier options and products with product variants. When the option "Force customer to choose product options before adding a product to cart" is disabled, a shopper can drag and drop such products to cart without having to select any product options manually; the products are added to cart with default options:
     ![]({{site.baseurl}}/attachments/7505478/7602715.png)
