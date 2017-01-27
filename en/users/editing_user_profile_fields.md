@@ -45,16 +45,4 @@ To edit a field:
 
 To re-arrange the order in which the fields appear in a profile, drag and drop specific fields in the list to the positions you require (Use the four-headed arrows in the column at the far left). To enable/disable a specific field, use the **On**/**Off** button to the right of the field name. Every time you make changes, be sure to click the **Save changes** button to save them.
 
-## Attachments:
 
-* [cart-and-checkout-menu.png]({{site.baseurl}}/attachments/6389842/6586530.png) (image/png)
-* [address-fields-section.png]({{site.baseurl}}/attachments/6389842/6586531.png) (image/png)
-* [address-fields-new-address-field-button.png]({{site.baseurl}}/attachments/6389842/6586532.png) (image/png)
-* [address-fields-province-field.png]({{site.baseurl}}/attachments/6389842/6586533.png) (image/png)
-* [address-fields-save-changes-button.png]({{site.baseurl}}/attachments/6389842/6586535.png) (image/png)
-* [address-fields-switch-buttons.png]({{site.baseurl}}/attachments/6389842/6586537.png) (image/png)
-* [xc5_cartcheckout_section.png]({{site.baseurl}}/attachments/6389842/9437234.png) (image/png)
-* [xc5_cartcheckout_addressfields_tab.png]({{site.baseurl}}/attachments/6389842/9437235.png) (image/png)
-* [xc5_cartcheckout_new_address_field.png]({{site.baseurl}}/attachments/6389842/9437236.png) (image/png)
-* [xc5_cartcheckout_new_address_field1.png]({{site.baseurl}}/attachments/6389842/9437237.png) (image/png)
-* [xc5_cartcheckout_new_address_field2.png]({{site.baseurl}}/attachments/6389842/9437238.png) (image/png)
