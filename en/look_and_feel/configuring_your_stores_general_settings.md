@@ -43,6 +43,18 @@ Below you can find some of the settings explained.
 
 *   **Default order to sort products within a search result**: This setting allows you to control the default display order for products that may be displayed in a list of search results after someone searches for a product in the Customer area. 
 
+*   **Default display mode for products list**: This setting allows you to set the default display mode for products on the storefront:
+    
+    *   _Grid_:
+        ![]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_grid_view.png)
+    
+    *   _List_:
+        ![xc5_general_settings_list_view.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_list_view.png)
+
+    *   _Table_:
+        ![xc5_general_settings_table_view.png]({{site.baseurl}}/attachments/ref_qAZlJxZm/xc5_general_settings_table_view.png)
+
+
 *   **Products per category listing page**: This setting allows you to limit the number of products displayed on a category page. For example, if we set this to "2", only two products will be displayed per page. For the rest of the product list pagination will be provided:
     ![]({{site.baseurl}}/attachments/7505478/7602705.png)
     
