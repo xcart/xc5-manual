@@ -1,12 +1,13 @@
 ---
-identifier: ref_d4ktum3z
-updated_at: 2015-08-27 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing product-specific attributes'
+layout: article_with_sidebar
+updated_at: '2017-01-29 01:26 +0400'
+identifier: ref_d4ktum3z
+title: Managing product-specific attributes
 categories:
   - User manual
-
+published: true
+order: 300
 ---
 
 
