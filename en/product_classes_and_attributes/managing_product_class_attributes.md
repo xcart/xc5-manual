@@ -1,12 +1,13 @@
 ---
-identifier: ref_kEKoAxJB
-updated_at: 2015-08-28 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing product class attributes'
+layout: article_with_sidebar
+updated_at: '2017-01-29 01:26 +0400'
+identifier: ref_kEKoAxJB
+title: Managing product class attributes
 categories:
   - User manual
-
+published: true
+order: 400
 ---
 
 
