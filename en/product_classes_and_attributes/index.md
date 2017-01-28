@@ -1,14 +1,15 @@
 ---
-identifier: ref_T90ZcEpP
-updated_at: 2015-01-06 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Product classes and attributes'
+layout: article_with_sidebar
+updated_at: '2017-01-29 01:19 +0400'
+identifier: ref_T90ZcEpP
+title: Product classes and attributes
 categories:
   - home
 order: 120
 icon: table
 description: Manage the range of products with ease
+published: true
 ---
 
 
@@ -56,8 +57,3 @@ For information on managing product variants, see:
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/x6DPVVgZh1o" frameborder="0"></iframe>
 
-## Attachments:
-
-* [specification_tab.png]({{site.baseurl}}/attachments/7504847/7602469.png) (image/png)
-* [kitty_plate_options.png]({{site.baseurl}}/attachments/7504847/7602468.png) (image/png)
-* [specification_tab.png]({{site.baseurl}}/attachments/7504847/7602452.png) (image/png)
