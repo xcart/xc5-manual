@@ -1,12 +1,13 @@
 ---
-identifier: ref_bTfJ9bTS
-updated_at: 2015-08-28 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing attribute values'
+layout: article_with_sidebar
+updated_at: '2017-01-29 01:27 +0400'
+identifier: ref_bTfJ9bTS
+title: Managing attribute values
 categories:
   - User manual
-
+published: true
+order: 600
 ---
 
 This page covers the following topics:
