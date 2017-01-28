@@ -1,12 +1,13 @@
 ---
-identifier: ref_otIvC7NR
-updated_at: 2015-08-31 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing attribute groups'
+layout: article_with_sidebar
+updated_at: '2017-01-29 01:28 +0400'
+identifier: ref_otIvC7NR
+title: Managing attribute groups
 categories:
   - User manual
-
+published: true
+order: 700
 ---
 
 
