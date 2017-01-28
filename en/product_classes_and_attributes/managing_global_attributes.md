@@ -1,12 +1,13 @@
 ---
-identifier: ref_HzMkgc0q
-updated_at: 2015-08-28 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Managing global attributes'
+layout: article_with_sidebar
+updated_at: '2017-01-29 01:27 +0400'
+identifier: ref_HzMkgc0q
+title: Managing global attributes
 categories:
   - User manual
-
+published: true
+order: 500
 ---
 
 
