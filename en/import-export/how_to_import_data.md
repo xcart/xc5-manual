@@ -1,12 +1,13 @@
 ---
-identifier: ref_glDc6kA1
-updated_at: 2016-06-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'How to import data'
+layout: article_with_sidebar
+updated_at: '2017-01-29 01:37 +0400'
+identifier: ref_glDc6kA1
+title: How to import data
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -31,7 +32,4 @@ There are two ways to create a CSV file for import:
 3.  Specify the actual details in the cells of the second and all the subsequent lines. Ultimately, your file will look similar to this:![]({{site.baseurl}}/attachments/6389817/6586496.png)
 4.  Export the file to CSV format.
 
-## Attachments:
 
-* [product-import.png]({{site.baseurl}}/attachments/6389817/7602467.png) (image/png)
-* [product-import.png]({{site.baseurl}}/attachments/6389817/6586496.png) (image/png)
