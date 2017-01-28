@@ -1,12 +1,13 @@
 ---
-identifier: ref_uaJk8ete
-updated_at: 2014-05-15 00:00
-layout: article_with_sidebar
 lang: en
-title: 'Types of product attributes - by scope'
+layout: article_with_sidebar
+updated_at: '2017-01-29 01:25 +0400'
+identifier: ref_uaJk8ete
+title: Types of product attributes - by scope
 categories:
   - User manual
-
+published: true
+order: 200
 ---
 
 
