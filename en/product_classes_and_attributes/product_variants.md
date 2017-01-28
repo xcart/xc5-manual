@@ -1,14 +1,14 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 12:28 +0400'
+updated_at: '2017-01-29 01:30 +0400'
 identifier: ref_0uApuQfx
 title: Product variants
 version: X-Cart with Product variants module
 categories:
   - User manual
 published: true
-order: 100
+order: 800
 ---
 
 
