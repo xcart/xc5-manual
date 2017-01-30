@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-09 12:09 +0400'
+updated_at: '2017-01-30 21:09 +0400'
 identifier: ref_hlRUuVCV
 title: Connecting X-Payments 2.1 x with X-Cart 5
 categories:
@@ -22,3 +22,7 @@ This video tutorial explains how to connect X-Cart 5 to X-Payments 2.1 to enable
 _See also:_
 
 *   {% link "Connecting X-Payments 3.x with X-Cart 5" ref_ZM8ZDeD9 %}
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
