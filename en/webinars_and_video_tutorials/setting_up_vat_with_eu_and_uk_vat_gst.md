@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-22 10:09 +0400'
+updated_at: '2017-01-30 21:20 +0400'
 identifier: ref_wcorpZyz
 title: Setting up VAT with the module "EU and UK VAT / GST"
 order: 100
@@ -21,3 +21,8 @@ Note that this module has been updated and renamed since the video shoot, so if 
 ## Video
 **Published on Mar 11, 2015**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/kCS54G0QvvU" frameborder="0"></iframe>
+
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
