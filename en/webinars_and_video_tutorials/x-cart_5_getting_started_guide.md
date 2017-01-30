@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-21 23:16 +0400'
+updated_at: '2017-01-30 21:28 +0400'
 identifier: ref_2QCdPxZH
 title: X-Cart 5 getting started guide
 categories:
@@ -18,3 +18,8 @@ A few tips on the first steps after X-Cart 5.2.x installation: configure the com
 ## Video
 **Published on Apr 20, 2015**
 <iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="https://www.youtube.com/embed/lV-jyiNIfb8" frameborder="0"></iframe>
+
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
