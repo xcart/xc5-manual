@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-20 13:09 +0400'
+updated_at: '2017-01-30 21:04 +0400'
 identifier: ref_6sRB7rnW
 title: Adding a new product (video)
 categories:
@@ -25,3 +25,7 @@ Published on Jan 18, 2017
 _See also:_
 
 * [Products](http://kb.x-cart.com/en/products/index.html "Adding a new product (video)")
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
