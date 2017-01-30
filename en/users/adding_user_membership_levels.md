@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-27 15:01 +0400'
+updated_at: '2017-01-30 16:21 +0400'
 identifier: ref_9ITFspcC
 title: Adding user membership levels
 categories:
@@ -32,3 +32,7 @@ Sometimes store owners want to give different privileges to some group of their 
 2.  Select needed membership in the **Membership** field and click the **Update** button.
 3.  User membership is assigned to this customer.
 
+
+_Related pages:_
+
+*   {% link "Users" ref_QdN8kJnH %}
