@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-22 10:56 +0400'
+updated_at: '2017-01-30 21:05 +0400'
 identifier: ref_aWT2i7z1
 title: Advanced menu management with Extended Simple CMS
 categories:
@@ -18,3 +18,7 @@ The video below shows how the X-Cart 5 Extended Simple CMS module expands the de
 ## Video
 **Published on Sep 15, 2015**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/_HNK2PRr_Io" frameborder="0"></iframe>
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
