@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-29 18:38 +0400'
+updated_at: '2017-01-30 21:15 +0400'
 identifier: ref_h1T9xMRl
 title: 'Joint webinar with PayPal and X-Cart: Lower Credit Card Processing Fees'
 order: 100
@@ -13,3 +13,8 @@ Credit card processing rates and fees are complicated with lots of fine print. B
 ## Video
 **Published on Jul 28, 2014**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/em79iY26qaM" frameborder="0"></iframe>
+
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
