@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-14 18:14 +0400'
+updated_at: '2017-01-30 21:24 +0400'
 identifier: ref_WgvUfVEs
 title: >-
   Webinar recording: Increase Your In Store Conversions with Mobile Point of
@@ -24,3 +24,8 @@ Mobile point-of-sale is becoming one of the most rapidly adopted technologies am
 ## Video
 **Published on Oct 2, 2014**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/0_-n1q1ZWBk" frameborder="0"></iframe>
+
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
