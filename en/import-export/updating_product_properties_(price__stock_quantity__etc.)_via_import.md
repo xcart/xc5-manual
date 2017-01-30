@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 22:21 +0400'
+updated_at: '2017-01-30 16:05 +0400'
 identifier: ref_OEpBdtQ6
 title: 'Updating product properties (price, stock quantity, etc.) via import'
 version: X-Cart 5.2.13 and later
@@ -154,3 +154,9 @@ After the import process is completed, you should be able to see the wholesale p
 For products with variants, the process of adding wholesale prices is similar, only you need to add the wholesale pricing information via the **variantWholesalePrices** column. Below you can see an example of a file that will add wholesale pricing for the variants of SKU 10000 (variantSKUs 100001, 100002, 100003 and 100004):
 
 ![]({{site.baseurl}}/attachments/9306814/9633888.png)
+
+_Related pages:_
+
+*   {% link "How to import data" ref_glDc6kA1 %}
+*   {% link "CSV format by X-Cart data type" ref_iy9cOdWS %}
+*   {% link "Integration with Doba (drop shipping services)" ref_HOfdxO3E %}
