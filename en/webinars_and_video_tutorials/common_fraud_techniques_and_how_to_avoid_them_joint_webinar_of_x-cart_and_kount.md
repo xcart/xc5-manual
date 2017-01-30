@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-29 18:13 +0400'
+updated_at: '2017-01-30 21:06 +0400'
 identifier: ref_d4I7MVKu
 title: >-
   Common Fraud Techniques and How to Avoid Them: joint webinar of X-Cart and
@@ -21,3 +21,7 @@ Kyle Allred, a Channel Partner Sales Manager with Kount, is speaking about:
 ## Video
 **Published on Aug 29, 2014**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/7I1qcUvPtZI" frameborder="0"></iframe>
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
