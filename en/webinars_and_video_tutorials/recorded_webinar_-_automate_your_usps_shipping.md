@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-29 18:44 +0400'
+updated_at: '2017-01-30 21:18 +0400'
 identifier: ref_sg50B20v
 title: Recorded Webinar - Automate Your USPS Shipping
 order: 100
@@ -13,3 +13,8 @@ Need to speed up your order fulfillment and lower your shipping costs? Eric Nash
 ## Video
 **Published on May 1, 2014**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/gmR3uBNvOEg" frameborder="0"></iframe>
+
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
