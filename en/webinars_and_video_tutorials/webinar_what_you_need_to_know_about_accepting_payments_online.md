@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-29 19:03 +0400'
+updated_at: '2017-01-30 21:26 +0400'
 identifier: ref_cen1642b
 title: 'Webinar: What you need to know about accepting payments online'
 order: 100
@@ -16,3 +16,7 @@ The immediate issues that come to mind for just about every business owner are t
 **Published on Oct 15, 2013**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/40PIZORiGVs" frameborder="0"></iframe>
 
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
