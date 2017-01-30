@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-14 18:07 +0400'
+updated_at: '2017-01-30 21:11 +0400'
 identifier: ref_fJ7OXVPZ
 title: >-
   DDoS attacks: what are they and how to protect your site. Webinar with
@@ -25,3 +25,8 @@ We'll be speaking about:
 ## Video
 **Published on Apr 9, 2015**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/vQMfWrlU6Aw" frameborder="0"></iframe>
+
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
