@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-22 11:08 +0400'
+updated_at: '2017-01-30 21:14 +0400'
 identifier: ref_XFOnM7r6
 title: Infinite Scroll module (video)
 categories:
@@ -20,3 +20,8 @@ More info: [http://www.x-cart.com/extensions/addons/infinite-scroll.html](http:
 ## Video
 **Published on Jun 29, 2015**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/2xcBQk0y87s" frameborder="0"></iframe>
+
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
