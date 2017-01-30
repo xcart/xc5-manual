@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-27 14:57 +0400'
+updated_at: '2017-01-30 16:20 +0400'
 identifier: ref_gg1fQDgB
 title: Editing user profile fields
 categories:
@@ -45,4 +45,6 @@ To edit a field:
 
 To re-arrange the order in which the fields appear in a profile, drag and drop specific fields in the list to the positions you require (Use the four-headed arrows in the column at the far left). To enable/disable a specific field, use the **On**/**Off** button to the right of the field name. Every time you make changes, be sure to click the **Save changes** button to save them.
 
+_Related pages:_
 
+*   {% link "Users" ref_QdN8kJnH %}
