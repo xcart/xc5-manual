@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-22 14:15 +0400'
+updated_at: '2017-01-30 21:16 +0400'
 identifier: ref_5C7PSWVy
 title: Multi-vendor module (videos)
 categories:
@@ -33,3 +33,8 @@ Customer experience:
 
 **Published on Nov 10, 2015**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/B0DlNI_egHM" frameborder="0"></iframe>
+
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
