@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 22:20 +0400'
+updated_at: '2017-01-30 16:07 +0400'
 identifier: ref_iy9cOdWS
 title: CSV format by X-Cart data type
 categories:
@@ -25,3 +25,9 @@ Follow the links above for information on the allowed CSV format for each of the
 To ensure that X-Cart recognizes the data you import via each specific field in a CSV file, we have set some attributes for CSV fields; these attributes can help you to define your CSV values for import correctly. For more info, see:
 
 *   {% link "CSV field attributes" ref_2LwMTTTW %}
+
+_Related pages:_
+
+*   {% link "How to import data" ref_glDc6kA1 %}
+*   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}
+
