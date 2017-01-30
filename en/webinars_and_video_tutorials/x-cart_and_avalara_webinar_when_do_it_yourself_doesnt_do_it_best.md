@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-14 16:01 +0400'
+updated_at: '2017-01-30 21:29 +0400'
 identifier: ref_tmAt0uVV
 title: 'X-Cart and Avalara webinar: When Do it Yourself Doesn’t Do it Best'
 order: 100
@@ -14,3 +14,8 @@ For growing ecommerce merchants selling hundreds of products into multiple juris
 ## Video
 **Published on Jun 18, 2015**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/yQIW9YXJWlo" frameborder="0"></iframe>
+
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
