@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-29 01:37 +0400'
+updated_at: '2017-01-30 16:02 +0400'
 identifier: ref_glDc6kA1
 title: How to import data
 categories:
@@ -32,4 +32,8 @@ There are two ways to create a CSV file for import:
 3.  Specify the actual details in the cells of the second and all the subsequent lines. Ultimately, your file will look similar to this:![]({{site.baseurl}}/attachments/6389817/6586496.png)
 4.  Export the file to CSV format.
 
+_Related pages:_
 
+*   {% link "CSV format by X-Cart data type" ref_iy9cOdWS %}
+*   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}
+*   {% link "Integration with Doba (drop shipping services)" ref_HOfdxO3E %}
