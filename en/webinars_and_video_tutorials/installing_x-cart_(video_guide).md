@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-20 13:33 +0400'
+updated_at: '2017-01-30 21:14 +0400'
 identifier: ref_OgodT8pE
 title: Installing X-Cart (video guide)
 categories:
@@ -15,3 +15,8 @@ Questions? Visit X-Cart.com or email to [sales@x-cart.com](mailto:sales@x-cart.c
 
 **Published on Jan 18, 2017**
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/N21P9jBh2sA" frameborder="0"></iframe>
+
+
+_Related pages:_
+
+*   {% link "Webinars and video tutorials" ref_STELArig %}
