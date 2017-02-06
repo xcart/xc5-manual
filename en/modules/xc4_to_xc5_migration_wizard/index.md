@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:11 +0400'
+updated_at: '2017-02-07 01:58 +0400'
 title: XC4 to XC5 Migration wizard
 order: 360
 published: true
@@ -16,3 +16,7 @@ _In this section:_
 *   {% link "How XC4 to XC5 Migration wizard works" ref_37NAeGlf %}
 *   {% link "XC4 to XC5 Migration wizard system requirements and installation" ref_KqsCJNRG %}
 *   {% link "Using the module 'XC4 to XC5 Migration wizard'" ref_Ah935naM %}
+
+_Related pages:_
+
+*   {% link "Migration from X-Cart 4 to X-Cart 5" ref_EntIT03c %}
