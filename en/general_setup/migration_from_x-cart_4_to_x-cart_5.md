@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-07 22:58 +0400'
+updated_at: '2017-02-07 01:54 +0400'
 identifier: ref_EntIT03c
 title: Migration from X-Cart 4 to X-Cart 5
 order: 97
@@ -85,3 +85,7 @@ If you do not know who can perform such a task for you, feel free to request a f
 
 Once the migration of your data and custom functionality/design has been finished, you will be ready to launch your X-Cart 5 store.
 
+
+_Related pages:_
+
+*   {% link "XC4 to XC5 Migration wizard" ref_enOvcLbO %}
