@@ -13,6 +13,7 @@ To accept payments in an X-Cart based store using PayPal, use the module **PayPa
     ![xc5_paypal_module.png]({{site.baseurl}}/attachments/ref_g8OosGK4/xc5_paypal_module.png)
 
 This module can be used to enable payments via the following methods:
+
 *   PayPal Express Checkout
 *   PayPal Credit
 *   PayPal Standard
