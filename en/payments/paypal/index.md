@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-10 01:27 +0400'
+updated_at: '2017-02-09 11:31 +0400'
 identifier: ref_g8OosGK4
 title: PayPal
 categories:
@@ -9,6 +9,18 @@ categories:
 published: true
 order: 100
 ---
+To accept payments in an X-Cart based store using PayPal, use the module **PayPal** by X-Cart team.
+    ![xc5_paypal_module.png]({{site.baseurl}}/attachments/ref_g8OosGK4/xc5_paypal_module.png)
+
+This module can be used to enable payments via the following methods:
+*   PayPal Express Checkout
+*   PayPal Credit
+*   PayPal Standard
+*   PayPal Payments Advanced
+*   PayPal Payflow Link
+*   PayPal Partner Hosted with PCI Compliance
+*   PayPal Adaptive payments
+
 _In this section:_
 
 *   {% link "Setting up Paypal Express Checkout" ref_vHffMFLk %}
