@@ -16,7 +16,7 @@ This module can be used to enable payments via the following methods:
 
 *   PayPal Express Checkout
 *   PayPal Credit
-*   PayPal Standard
+*   PayPal Payments Standard
 *   PayPal Payments Advanced
 *   PayPal Payflow Link
 *   PayPal Partner Hosted with PCI Compliance
