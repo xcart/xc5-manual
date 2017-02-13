@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 23:37 +0400'
+updated_at: '2017-02-13 09:31 +0400'
 identifier: ref_secureconfig
 title: Secure configuration of the server
 published: true
@@ -76,6 +76,10 @@ location ^~ /var {
     return 403;
 }
 
+location ^~ /vendor {
+    return 403;
+}
+
 location ^~ /var/export {
     return 403;
 }
@@ -88,4 +92,3 @@ location ^~ /var/import {
 {% note warning %}
 If your site is placed in subdirectory of your web-root, you should provide path, relative to web-root for each folder in `location ^~ ` lines like this: `location ^~ /xcart/classes`.
 {% endnote %}
-
