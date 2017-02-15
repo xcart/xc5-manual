@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 12:28 +0400'
+updated_at: '2017-02-15 22:02 +0400'
 identifier: ref_vHffMFLk
 title: Setting up Paypal Express Checkout
 categories:
@@ -13,7 +13,7 @@ order: 100
 
 ## Introduction
 
-This article aims to explain how you can set up Paypal Express Checkout in X-Cart.
+This article explains how to set up Paypal Express Checkout in X-Cart.
 
 ## Table of Contents
 
@@ -72,5 +72,3 @@ Creating a custom payment page allows you to co-brand the PayPal checkout pages 
 9.  Click **Save**.
 
 10.  Click the radio button next to the new payment page style you just created, and click **Make Primary**. Your custom payment page style will now be used whenever buyers choose to pay with PayPal.
-
-
