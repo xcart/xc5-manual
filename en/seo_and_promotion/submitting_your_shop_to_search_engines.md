@@ -43,12 +43,20 @@ This URL specifies the location of your store's XML sitemap index. The index lis
 You can submit your store's XML sitemap to search engines using one of the following methods:
 
 *   Manually submit the XML sitemap URL directly to your chosen search engine via the interface provided by the search engine (For example, if submitting to Google, this would be via the Search Console Sitemaps tool, as is recommended by https://support.google.com/webmasters/answer/183668?hl=en). Manual direct submission of an XML sitemap to the search engine is a very reliable method and the one strongly recommended.
-    Note that we have a redirect configured that allows to use the link shop.com/sitemap.xml instead of shop.com/cart.php?target=sitemap ("shop.com" should be replaced with the actual web address of your store). If using the direct manual submission method, you can use any one of these links - provided that you are using Apache, and clean URLs are working correctly for your store. If you are using a different type of web server, or clean URLs are not configured or not working for your store for some reason, please only use the XML sitemap URL provided at the top of the XML sitemap section (shop.com/cart.php?target=sitemap).
+    Note that we have a redirect configured in .htaccess that allows to use the link shop.com/sitemap.xml instead of shop.com/cart.php?target=sitemap ("shop.com" should be replaced with the actual web address of your store). If using the direct manual submission method, you can use any one of these links - provided that you are using Apache, and clean URLs are working correctly for your store. If you are using a different type of web server, or clean URLs are not configured or not working for your store for some reason, please only use the XML sitemap URL provided at the top of the XML sitemap section (shop.com/cart.php?target=sitemap).
     
-*   Add the link to your XML sitemap to the file robots.txt in your store site root. To use this method, edit the file robots.txt
+*   Add the link to your XML sitemap to the file robots.txt in your store site root. If you look at the contents of robots.txt, you will find that it contains an example of how to add an XML sitemap URL (This example is commented out):
+
+```
+# Sitemap example
+# Sitemap: http://example.com/sitemap.xml
+```
+    To add your XML sitemap URL to robots.txt, you simply need to uncomment the line with the URL and replace the example URL with your actual XML sitemap URL from your store's XML sitemap section (**Store setup** > **XML sitemap**).
 
 *   Submit an automated ping-request to the search engine server (now supported only for Google and Bing). To use this method, you need to go to your store's XML sitemap section (**Store setup** > **XML sitemap**), select the checkbox(es) for the search engines to which you want to submit your XML sitemap (Google, or Bing, or both) and click the **Submit** button at the bottom of the page. 
 ![xc5_xml_sitemap_checkboxes.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_checkboxes.png)
-
+    This sends get-requests to the following URLs:
+    http://google.com/webmasters/tools/ping?sitemap=%url%
+    http://www.bing.com/webmaster/ping.aspx?siteMap=%url%
 
 For more info on sitemaps, see [http://www.sitemaps.org](http://www.sitemaps.org).
