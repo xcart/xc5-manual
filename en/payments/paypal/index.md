@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-02-09 11:31 +0400'
+updated_at: '2017-02-15 20:14 +0400'
 identifier: ref_g8OosGK4
 title: PayPal
 categories:
@@ -18,6 +18,8 @@ This module can be used to enable payments via the following methods:
 *   PayPal Credit
 *   PayPal Payments Standard
 *   PayPal Payments Advanced
+*   PayPal Payments Pro (PayPal API)
+*   PayPal Payments Pro (Payflow API)
 *   PayPal Payflow Link
 *   PayPal Partner Hosted with PCI Compliance
 *   PayPal Adaptive payments
