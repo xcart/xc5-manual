@@ -17,4 +17,15 @@ This article explains how to set up Paypal Payments Standard in X-Cart.
 
 ![xc5_pp_standard_settings.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_settings.png)
 
+'Your account settings' section:
+
+*   **PayPal ID / Email**: Enter the email address associated with your PayPal account.
+
+'Additional settings' section:
+
+*   **Purchase description**: Enter a description of the purchase that will be displayed on the PayPal payment page.
+*   **Test/Live mode**:
+*   **Order id prefix**:
+
+
 
