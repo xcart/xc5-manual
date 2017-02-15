@@ -16,7 +16,7 @@ The module **XML Sitemap** for X-Cart 5 serves SEO purposes. It generates an X
 ## Installing the XML Sitemap module
 
 The module can be installed from the X-Cart Marketplace. For general module installation instructions, see {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
-![xc5_xml_sitemap_module.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_module.png)
+    ![xc5_xml_sitemap_module.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_module.png)
 
 ## Configuring your XML sitemap
 
@@ -30,13 +30,13 @@ Clicking the **Submit** button saves the changes you have made to the XML site
 
 The button **Generate XML-Sitemap** at the top of the page allows you to re-generate your store's XML sitemap after changing the settings.
 
-![]({{site.baseurl}}/attachments/6389770/8719785.png)
+    ![]({{site.baseurl}}/attachments/6389770/8719785.png)
 
 ## Submitting your XML sitemap to search engines
 
 You can find your XML sitemap URL at the top of the XML sitemap section in your store's Admin area (**Store setup** > **XML sitemap**):
 
-![]({{site.baseurl}}/attachments/6389770/8719786.png)
+    ![]({{site.baseurl}}/attachments/6389770/8719786.png)
 
 This URL specifies the location of your store's XML sitemap index. The index lists all the available XML files for your store (There can be more than one XML files due to restrictions on the size of individual XML files and the number of URLs in each XML file). 
 
@@ -55,8 +55,10 @@ You can submit your store's XML sitemap to search engines using one of the follo
    To add your XML sitemap URL to robots.txt, you simply need to uncomment the line with the URL and replace the example URL with your actual XML sitemap URL from your store's XML sitemap section (**Store setup** > **XML sitemap**).
 
 *   Submit an automated ping-request to the search engine server (now supported only for Google and Bing). To use this method, you need to go to your store's XML sitemap section (**Store setup** > **XML sitemap**), select the checkbox(es) for the search engines to which you want to submit your XML sitemap (Google, or Bing, or both) and click the **Submit** button at the bottom of the page. 
-![xc5_xml_sitemap_checkboxes.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_checkboxes.png)
-    This sends get-requests to the following URLs:
+
+    ![xc5_xml_sitemap_checkboxes.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_checkboxes.png)
+   
+   This sends get-requests to the following URLs:
     http://google.com/webmasters/tools/ping?sitemap=%url%
     http://www.bing.com/webmaster/ping.aspx?siteMap=%url%
 
