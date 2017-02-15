@@ -64,7 +64,8 @@ You can submit your store's XML sitemap to search engines using one of the follo
 ![xc5_xml_sitemap_checkboxes.png]({{site.baseurl}}/attachments/ref_OqJ2oZTE/xc5_xml_sitemap_checkboxes.png)
    
    This sends get-requests to the following URLs:
-    http://google.com/webmasters/tools/ping?sitemap=%url%
-    http://www.bing.com/webmaster/ping.aspx?siteMap=%url%
+   
+    * http://google.com/webmasters/tools/ping?sitemap=%url%
+    * http://www.bing.com/webmaster/ping.aspx?siteMap=%url%
 
 For more info on sitemaps, see [http://www.sitemaps.org](http://www.sitemaps.org).
