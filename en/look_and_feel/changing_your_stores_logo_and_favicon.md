@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-02-21 17:25 +0400'
+updated_at: '2017-02-22 12:38 +0400'
 identifier: ref_2VXSZhKE
 title: 'Changing your store&#39;s logo and favicon'
 categories:
@@ -10,22 +10,24 @@ published: true
 order: 100
 ---
 
-
-It is possible to add your own logo and favicon images for your store's website:
+It is possible to add your own images for the store's logo, favicon and Apple icon:
 
 ![xc5_logo.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/xc5_logo.png)
 
 ![xc5_favicon.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/xc5_favicon.png)
 
-
 To complete the task, you will need the module **Simple CMS** by X-Cart team. Make sure this module is installed and enabled at your store (If the module is not installed, {% link "install and activate it" ref_Vn1mMUw9 %}):
 
-![]({{site.baseurl}}/attachments/6389815/7602608.png)
+![xc5_simple_cms_module.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/xc5_simple_cms_module.png)
 
-To change the logo and/or favicon for your website:
+To change the logo, favicon or Apple icon images for your store website:
 
-1.  In your store's Admin area, go to the **Look & Feel** section and make sure you're viewing the **Logo & Favicon** tab:
-    ![]({{site.baseurl}}/attachments/6389815/8716522.png)
-2.  Use the **Browse...** button opposite the item you want to change to select the image you want to use.
-3.  Once the image has been selected, click **Submit**.
-    The image should be uploaded. Now you can check the result on the storefront: after reloading the page, the new image should be displayed instead of the old one.
+1.  Prepare the custom images you want to use and store them on your local computer.
+
+2.  In your store's Admin area, go to the Logo & Favicon section (**Look & Feel** > **Logo & Favicon**):
+    ![xc5_logo_favicon.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/xc5_logo_favicon.png)
+    
+3.  Use the buttons to select the images you want to use instead of the ones used currently.
+
+4.  Click **Submit** to save the changes. Your custom image(s) will be uploaded.
+    
