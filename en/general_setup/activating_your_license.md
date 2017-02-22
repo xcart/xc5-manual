@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 22:04 +0400'
+updated_at: '2017-02-22 12:40 +0400'
 identifier: ref_qwhmJtqW
 title: Activating your license
 categories:
@@ -43,7 +43,7 @@ To activate a Free X-Cart 5 license, do the following:
         You may need to click the **activate your X-Cart license** link to get the form expanded:
         ![]({{site.baseurl}}/attachments/8225232/8716598.png)
 
-2.  Click the **Activate free license** button. Do not enter anything into the field that says "_Enter your icense key here_" (This field needs to be completed for commercial (non-free) products only):
+2.  Click the **Activate free license** button. Do not enter anything into the field that says "_Enter your license key here_" (This field needs to be completed for commercial (non-free) products only):
     ![]({{site.baseurl}}/attachments/8225232/8716599.png)
 
 3.  Once the **Activate free license** button has been clicked, the popup window will close, and you will see a page with a warning about the consequences of free license activation:
@@ -56,7 +56,7 @@ To activate a Free X-Cart 5 license, do the following:
     ![]({{site.baseurl}}/attachments/8225232/8356126.png)
 5.  Click **Activate**. The license activation process will begin:
     ![]({{site.baseurl}}/attachments/8225232/8356127.png)
-    The process may take a few minutes. Take care not to close the page before the process has fully completed.
+    The process may take a few minutes. Take care not to close the page before the process has been fully completed.
 
 6.  Once the license activation has been completed, you should see a confirmation message at the top of the screen:
     ![]({{site.baseurl}}/attachments/8225232/8716601.png)
@@ -111,7 +111,7 @@ This section covers the topic of license activation for commercial (paid, non-fr
 
 A {% link "video instruction on X-Cart 5 module license activation" ref_hU6Rb4tw %} is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
 
-When you purchase an X-Cart 5 module license, you need to activate it. Within minutes of the purchase you get an email message with the subject '**Your **"**Module_name**"** addon key**', where Module_name is the actual name of the module. You should use this key to activate your module license. As soon as the license has been activated, the module will be automatically installed at your store.
+When you purchase an X-Cart 5 module license, you need to activate it. Within minutes of the purchase you get an email message with the subject '**Your **"**Module_name**"** addon key**', where Module_name is the actual name of the module. You should use this key to activate your module license. As soon as the license has been activated, the module will be automatically installed in your store.
 
 To activate a module license, do the following:
 
@@ -129,7 +129,7 @@ To activate a module license, do the following:
 
 ![]({{site.baseurl}}/attachments/8225232/8356157.png)
 
-The process is likely to take a few minutes. Take care not to close the page before the process has fully completed.
+The process is likely to take a few minutes. Take care not to close the page before the process has been fully completed.
 
 ![]({{site.baseurl}}/attachments/8225232/8356158.png)
 
