@@ -38,6 +38,10 @@ The selected custom image(s) will be uploaded and displayed on the Logo & Favico
 
 Now your store visitors should be able to see the new image(s):
     ![xc5_logo_orange.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/xc5_logo_orange.png)
+    
+If necessary, after replacing the default image(s) with your own one(s), you can revert to the defaults by choosing the **Return to default logo** (**favicon**, **AppleIcon**) option:
+    ![xc5_logo_return2default.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/xc5_logo_return2default.png)
+
 
 
     
