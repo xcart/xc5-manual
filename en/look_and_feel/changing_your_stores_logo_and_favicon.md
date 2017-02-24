@@ -36,6 +36,8 @@ To change the logo, favicon or Apple icon images for your store website:
 The selected custom image(s) will be uploaded and displayed on the Logo & Favicon page instead of the old ones. 
     ![xc5_logo_replaced.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/xc5_logo_replaced.png)
 
-Now your store visitors should be able to see the new image(s).
+Now your store visitors should be able to see the new image(s):
+    ![xc5_logo_orange.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/xc5_logo_orange.png)
+
 
     
