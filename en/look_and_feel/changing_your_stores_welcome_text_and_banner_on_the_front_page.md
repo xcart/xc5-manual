@@ -15,34 +15,60 @@ By default, the Front page of your X-Cart store contains a dummy Welcome message
 
 ![xc5_banner_welcome_text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_text.png)
 
-One of the first things you will want to do while setting up your new X-Cart store is to replace the default banner image with your own one and remove or change the Welcome message. 
+## Changing the default Welcome message
 
-To complete the task, follow these steps:
+One of the first things you will want to do while setting up your new X-Cart store is to remove or change the default Welcome message. 
 
-1.  In your store's Admin area, go to the Front page section (**Catalog > Front page** menu).
+To change the default Welcome message, follow these steps:
 
-2.  Upload the image you would like to use on the Front page instead of the dummy image. For the sake of example, we uploaded an image file named **my_image.jpg**:
-    ![]({{site.baseurl}}/attachments/7505546/7602744.png)
-3.  Copy the URL of your uploaded image (It can be found under the "URL" column. In our example, the URL we need to copy is**var/theme/images/my_image.jpg**):
-    ![]({{site.baseurl}}/attachments/7505546/7602745.png)
-4.  Go to the Front page section (**Catalog > Front page** menu). 
-    ![]({{site.baseurl}}/attachments/7505546/7602755.png)
-    In the Description field, select and remove the default Welcome image:
-    ![]({{site.baseurl}}/attachments/7505546/7602746.png)
-    At this point, you may also take the opportunity to remove or edit the "This demo online store is powered by X-Cart 5..." text:
-    ![]({{site.baseurl}}/attachments/7505546/7602754.png)
-5.  Place the cursor at the position where you want to insert your image and click the "Insert/edit image" icon:
-    ![]({{site.baseurl}}/attachments/7505546/7602747.png)
-    A popup window titled "Insert/edit image" will be displayed:
-    ![]({{site.baseurl}}/attachments/7505546/7602748.png)
+1.  In your store's Admin area, go to the Front page section (**Catalog > Front page** menu). Make sure you are viewing the **Front page** tab.
+    ![xc5_banner_welcome_front_page_tab.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_front_page_tab.png)
 
-6.  In the "Insert/Edit Image" popup window, paste your new image URL into the "Source" field and click "Ok":
-    ![]({{site.baseurl}}/attachments/7505546/7602749.png)
-    The image will be added:
-    ![]({{site.baseurl}}/attachments/7505546/7602750.png)
+2.  Scroll down to the the Description field and edit the text "Welcome to X-Cart Demo Store!".
+    ![xc5_banner_welcome_edit_text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_edit_text.png)
+    If you do not want to use a Welcome text, simply remove the text used by default leaving the Description field blank.
 
-7.  Scroll down to the bottom of the page and click **Update** to save the changes made to the Front page:
-    ![]({{site.baseurl}}/attachments/7505546/7602751.png)
+3.  Click **Update** to save the changes.
+    ![xc5_banner_welcome_welcometext_update.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_welcometext_update.png)
 
-    The Front page content will be updated. Now if you check your store's Front page, you should be able to see your new image and the updated Welcome message displayed instead of the default ones. In our example, we chose to remove the Welcome text altogether, so, as you can see, no Welcome message is displayed:
-    ![]({{site.baseurl}}/attachments/7505546/7602752.png)
+The Welcome text on the Customer area front page will be updated.
+
+## Changing the default Front page banner
+
+You will want to change the default banner image shown on the Customer area Front page. 
+
+You can replace the existing dummy banner with your own one, or you can disable the banner altogether. 
+
+The banner is controlled by the settings in the Front page section (**Catalog > Front page** menu) of your store's Admin area.
+
+To disable the banner:
+
+1.   Make sure you are viewing the **Banner rotation** tab.
+     ![xc5_banner_welcome_banner_rotation.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_rotation.png)
+
+2.   Switch the **Enabled** switch to "Off".
+     ![xc5_banner_welcome_banner_disabled.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_disabled.png)
+
+3.  Click **Submit** to save the changes.
+    ![xc5_banner_welcome_banner_update.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_update.png)
+
+To change the banner contents:
+
+1.  Make sure you are viewing the **Banner rotation** tab.
+    ![xc5_banner_welcome_banner_rotation.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_banner_rotation.png)
+
+2.  Use the **Enabled** switch to specify whether the banner should be displayed (If you prefer not to show the banner just yet, set this switch to "Off". You will be able to publish the banner later on by setting the switch back to "On" and updating the banner settings).
+
+3.  Set the **Banner inverval (in seconds)**. This setting is intended for a rotating banner - in which more than one images (banner frames) will be switched periodically. The setting specifies the frequency with which individual banner frames should be switched. If you create your banner using just one image, it will not rotate, so this setting will be ignored.
+
+4.  Upload the image(s) for your banner. To create a simple static banner, you will need to upload just one image. To create a rotating banner, you will need to upload multiple images. For each image you can add a target link: when a store visitor clicks on the banner image, they will be redirected to the page you specify using this link (For example, this could be a link to the details page of a specific product or a specific product category).
+
+    * As your banner already contains some image frames by default, you will need to either replace these images with your own ones, or to disable the respective frames so they will not be displayed.
+    
+    * If you need more image frames than your banner already has, use the button **Add banner** to add more image frames. Clicking the button adds a new blank line to the table presenting the banner content; you can use it to add your image and image link.
+    
+    * You can rearrange the order in which your image frames are displayed by the banner by dragging and dropping the images within the banner content table.
+    
+5.  Click **Update** to save the changes.
+
+    The banner will be updated. 
