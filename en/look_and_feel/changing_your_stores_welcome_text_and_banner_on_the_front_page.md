@@ -63,11 +63,14 @@ To change the banner contents:
 
 4.  Upload the image(s) for your banner. To create a simple static banner, you will need to upload just one image. To create a rotating banner, you will need to upload multiple images. For each image you can add a target link: when a store visitor clicks on the banner image, they will be redirected to the page you specify using this link (For example, this could be a link to the details page of a specific product or a specific product category).
 
-    * As your banner already contains some image frames by default, you will need to either replace these images with your own ones, or to disable the respective frames so they will not be displayed.
-    
-    * If you need more image frames than your banner already has, use the button **Add banner** to add more image frames. Clicking the button adds a new blank line to the table presenting the banner content; you can use it to add your image and image link.
-    
-    * You can rearrange the order in which your image frames are displayed by the banner by dragging and dropping the images within the banner content table.
+    *   As your banner already contains some image frames by default, you will need to either replace these images with your own ones, or to disable the respective frames so they will not be displayed.
+        ![xc5_banner_welcome_disable_delete_banner.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_disable_delete_banner.png)
+
+    *   If you need more image frames than your banner already has, use the button **Add banner** to add more image frames. Clicking the button adds a new blank line to the table presenting the banner content; you can use it to add your image and image link.
+        ![xc5_banner_welcome_add_banner.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_add_banner.png)
+
+    *   You can rearrange the order in which your image frames are displayed by the banner by dragging and dropping the images within the banner content table.
+        ![xc5_banner_welcome_reorder_images.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_reorder_images.png)
     
 5.  Click **Update** to save the changes.
 
