@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-10 00:14 +0400'
+updated_at: '2017-02-27 10:48 +0400'
 identifier: ref_Id69E4GT
 title: 'Changing your store&#39;s Welcome text and banner on the Front page'
 categories:
@@ -11,16 +11,15 @@ order: 110
 ---
 
 
-By default, the Front page of your X-Cart store contains a dummy Welcome message and a dummy banner:
+By default, the Front page of your X-Cart store contains a dummy Welcome message and a dummy banner. Depending on your store's skin and layout, the placement of the banner and welcome message may be somewhat different. For example, here's what it looks like in X-Cart's Standard skin:
 
-![]({{site.baseurl}}/attachments/7505546/7602742.png)
+![xc5_banner_welcome_text.png]({{site.baseurl}}/attachments/ref_Id69E4GT/xc5_banner_welcome_text.png)
 
-You may want to replace the default banner image with your own one and remove or change the Welcome message. 
+One of the first things you will want to do while setting up your new X-Cart store is to replace the default banner image with your own one and remove or change the Welcome message. 
 
-Follow these steps:
+To complete the task, follow these steps:
 
-1.  In your store's Admin area, go to the Custom images section (**System settings > Look & Feel** menu, **Custom images** tab):
-    ![]({{site.baseurl}}/attachments/7505546/7602743.png)
+1.  In your store's Admin area, go to the Front page section (**Catalog > Front page** menu).
 
 2.  Upload the image you would like to use on the Front page instead of the dummy image. For the sake of example, we uploaded an image file named **my_image.jpg**:
     ![]({{site.baseurl}}/attachments/7505546/7602744.png)
