@@ -22,7 +22,7 @@ To change the store's logo, favicon or Apple icon images, you will need the modu
 
 ![xc5_simple_cms_module.png]({{site.baseurl}}/attachments/ref_2VXSZhKE/xc5_simple_cms_module.png)
 
-To change the images for your store website:
+To change the default logo, favicon or Apple icon images for your store website:
 
 1.  Prepare the custom images you want to use and store them on your local computer.
 
