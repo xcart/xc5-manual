@@ -9,7 +9,7 @@ categories:
 published: false
 order: 160
 ---
-To set up Paypal PayPal Payflow Link in X-Cart:
+To set up Paypal Payflow Link in X-Cart:
 
 1.  In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
 ![xc5_pp_add_payment_method.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_add_payment_method.png)
