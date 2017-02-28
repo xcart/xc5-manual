@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 18:15 +0400'
+updated_at: '2017-02-28 17:11 +0400'
 identifier: ref_PVcLZCAC
 title: Changing the domain name if you are using Bluehost as domain name registrar
 categories:
   - User manual
   - Deprecated
-published: true
+published: false
 order: 160
 ---
 
@@ -23,4 +23,3 @@ Once you received your nameservers URLs, go to your Bluehost account.
     ![]({{site.baseurl}}/attachments/6389819/6586500.png)
 
 4.  Check the results. Your shop now should be available at the domain name specified.
-
