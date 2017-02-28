@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 18:14 +0400'
+updated_at: '2017-02-28 17:10 +0400'
 identifier: ref_P12xhEF6
 title: Changing the domain name
 categories:
   - User manual
   - Deprecated
-published: true
+published: false
 order: 140
 ---
 
@@ -28,4 +28,3 @@ order: 140
 ## More specific instructions for particular domain name registrars
 
 {% link "How to change domain name if you registered your domain name on Bluehost" ref_PVcLZCAC %}
-
