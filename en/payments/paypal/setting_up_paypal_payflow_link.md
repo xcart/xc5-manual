@@ -14,7 +14,7 @@ To set up Paypal Payflow Link in X-Cart:
 1.  In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
 ![xc5_pp_add_payment_method.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_add_payment_method.png)
 
-2.  In the popup box that appears, find the method **PayPal Payments Standard** and select to **Add** this method:
+2.  In the popup box that appears, find the method **PayPal Payflow Link** and select to **Add** this method:
 ![xc5_pp_payflowlink_add.png]({{site.baseurl}}/attachments/ref_mTCkpViN/xc5_pp_payflowlink_add.png)
 
 3.  Once the method has been added, configure the method settings:
@@ -32,7 +32,7 @@ To set up Paypal Payflow Link in X-Cart:
 
 'Additional settings' section:
 
-    *   **Transaction type**: Specify the type of transaction that you want to be performed on order placement when a buyer pays you via PayPal Payflow link (_Auth_ or _Auth and capture_).
+    *   **Transaction type**: Specify the type of transaction that you want to be performed on order placement when a buyer pays you via PayPal Payflow Link (_Auth_ or _Auth and capture_).
 
     *   **Test/Live mode**: Set the operating mode for PayPal Payflow Link ('Live' should be selected for live stores, 'Test' - for testing. Note that for testing purposes you will need to use test PayPal accounts).
 
