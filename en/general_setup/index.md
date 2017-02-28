@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-07 23:22 +0400'
+updated_at: '2017-02-28 17:11 +0400'
 identifier: ref_9z7v4QHi
 title: General setup
 categories:
@@ -19,8 +19,6 @@ _In this section:_
 *   {% link "Migration from X-Cart 4 to X-Cart 5" ref_EntIT03c %}
 *   {% link "Installation guide" ref_VG5mIoLT %}
 *   {% link "Activating your license" ref_qwhmJtqW %}
-*   {% link "Changing the domain name" ref_P12xhEF6 %}
-*   {% link "Changing the domain name if you are using Bluehost as domain name registrar" ref_PVcLZCAC %}
 *   {% link "Installing and activating modules" ref_0fGEpvrh %}
 *   {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
 *   {% link "What to do if your store says «We are deploying new changes» and you cannot access it" ref_3zSHgdQk %}
