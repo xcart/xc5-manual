@@ -1,11 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-02-26 14:27 +0400'
+updated_at: '2017-03-01 16:21 +0400'
 identifier: ref_6oFmUXC7
 title: Moving X-Cart to another location
 order: 310
 published: true
+redirect_from:
+  - /en/general_setup/changing_the_domain_name.html
 ---
 ## Introduction
 
