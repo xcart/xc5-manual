@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-02-28 14:18 +0400'
+updated_at: '2017-03-07 09:17 +0400'
 identifier: ref_DT2EX6fz
 title: Setting up Paypal Payments Standard
 categories:
@@ -26,7 +26,7 @@ To set up Paypal Payments Standard in X-Cart:
 
 'Additional settings' section:
 
-    *   **Purchase description**: Enter a generic description of a typical purchase at your store. This description will show on the PayPal payment page to let customers paying with PayPal Payments Standard know what they are paying for.
+    *   **Purchase description**: Enter a generic description of a typical purchase at your store. This description is intended for the PayPal payment page; the purpose of this description is to let the customer know what exactly they are paying for. Note that in most cases, when redirected to PayPal to pay for their purchase, your customers will see the actual product names (and thus will know what they are paying for). The generic description is needed only for backup: your customers will see it only if the actual list of items being purchased may not be displayed by PayPal for some reason. This may happen, for example, if the order total amount in X-Cart does not exactly match the order total amount on the PayPal end (This is typically caused by the rounding of decimals: in X-Cart, we round long decimals to the fourth digit after the decimal point, whereas decimal values passed on to PayPal need to be rounded to the second digit after the decimal point; when the totals in X-Cart and in PayPal do not match, PayPal cannot display the actual product names and prices, so that's when the generic description is used).
 
     *   **Test/Live mode**: Set the operating mode for PayPal Payments Standard ('Live' should be selected for live stores, 'Test' - for testing. Note that for testing purposes you will need to use test PayPal accounts).
 
