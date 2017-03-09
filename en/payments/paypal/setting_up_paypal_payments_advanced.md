@@ -38,7 +38,7 @@ To enable PayPal Payments Advanced as a payment method in your X-Cart store:
 
         *   **Transaction type**: Specify the type of transaction that you want to be performed on order placement when a buyer pays you via PayPal Payments Advanced (_Auth_ or _Auth and capture_).
 
-        *   **Test/Live mode**: Set the operating mode for PayPal Payments Advanced ('Live' should be selected for live stores, 'Test' - for testing. Note that for testing purposes you will need to use test PayPal accounts).
+        *   **Test/Live mode**: Set the operating mode for PayPal Payments Advanced ('Live' should be selected for live stores, 'Test' - for testing. Note that the testing of PayPal Payments Advanced is performed using the PayPal Manager https://manager.paypal.com and your regular Payflow account. For testing, you need the same Payflow API credentials that were set up when you created your Payflow account; however, the state of your Payflow account needs to be switched to 'test').
 
         *   **Order id prefix**: Your trading name or any other prefix that will help you to identify a payment transaction as originating from this store. This field is required if using the same PayPal account for more than one online stores.
 
