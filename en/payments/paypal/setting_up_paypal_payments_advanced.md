@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-02-28 17:45 +0400'
+updated_at: '2017-03-09 12:59 +0400'
 identifier: ref_sO5X6iBT
 title: Setting up Paypal Payments Advanced
 categories:
@@ -9,33 +9,49 @@ categories:
 published: false
 order: 140
 ---
-To set up Paypal Payments Advanced in X-Cart:
+To enable PayPal Payments Advanced as a payment method in your X-Cart store:
 
-1.  In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
-![xc5_pp_add_payment_method.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_add_payment_method.png)
+1.  If you haven't yet done so, [sign up](https://www.paypal.com/webapps/mpp/referral/paypal-payments-standard?partner_id=XCART5_Cart "Sign up for PayPal Payments Advanced") for PayPal Payments Advanced. Note that to complete the signup process for PayPal Payments Advanced you will need a verified PayPal Business account. This means that you will need to either create a new Business account or to log in to your existing account and upgrade it to Business.
 
-2.  In the popup box that appears, find the method **PayPal Payments Advanced** and select to **Add** this method:
-![xc5_pp_advanced_add.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_add.png)
+2.  In X-Cart, add PayPal Payments Advanced to the list of your store's active payment methods and configure it.
 
-3.  Once the method has been added, configure the method settings:
-![xc5_pp_advanced_settings.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_settings.png)
+    1.  In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
+        ![xc5_pp_add_payment_method.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_add_payment_method.png)
 
-'Your account settings' section:
+    2.  In the popup box that appears, find the method **PayPal Payments Advanced** and select to **Add** this method:
+        ![xc5_pp_advanced_add.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_add.png)
 
-    *   **Partner name**: Enter the ID of the partner that signed you up for the account. If you signed up directly through PayPal, this will be "PayPal".
+    3.  Once the method has been added, you will be redirected to the settings page for PayPal Payments Advanced. Сonfigure PayPal Payments Advanced settings:
+        ![xc5_pp_advanced_settings.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_settings.png)
 
-    *   **Merchant login**: Specify the merchant login name that you chose when you signed up for PayPal Payments Advanced.
+        'Your account settings' section:
 
-    *   **User**: Enter the username that you set up for running transactions. If you have not specifically set up a username to run transactions, then this will be the same as the "Merchant login".
+        *   **Partner name**: Enter the ID of the partner that signed you up for the account. If you signed up directly through PayPal, this will be "PayPal".
 
-    *   **Password**: Enter the password that was created for the user account denoted in the "User" field.
+        *   **Merchant login**: Specify the merchant login name that you chose when you signed up for PayPal Payments Advanced.
 
-'Additional settings' section:
+        *   **User**: Enter the username that you set up for running transactions. If you have not specifically set up a username to run transactions, then this will be the same as the "Merchant login".
 
-    *   **Transaction type**: Specify the type of transaction that you want to be performed on order placement when a buyer pays you via PayPal Payments Advanced (_Auth_ or _Auth and capture_).
+        *   **Password**: Enter the password that was created for the user account denoted in the "User" field.
 
-    *   **Test/Live mode**: Set the operating mode for PayPal Payments Advanced ('Live' should be selected for live stores, 'Test' - for testing. Note that for testing purposes you will need to use test PayPal accounts).
+        'Additional settings' section:
 
-    *   **Order id prefix**: Your trading name or any other prefix that will help you to identify a payment transaction as originating from this store. This field is required if using the same PayPal account for more than one online stores.
+        *   **Transaction type**: Specify the type of transaction that you want to be performed on order placement when a buyer pays you via PayPal Payments Advanced (_Auth_ or _Auth and capture_).
 
-    *   **Display the "Buy Now with PayPal" button**: This setting determines whether or not the "Buy Now with PayPal" button should be displayed on product list pages (in list view) and product details pages.
+        *   **Test/Live mode**: Set the operating mode for PayPal Payments Advanced ('Live' should be selected for live stores, 'Test' - for testing. Note that for testing purposes you will need to use test PayPal accounts).
+
+        *   **Order id prefix**: Your trading name or any other prefix that will help you to identify a payment transaction as originating from this store. This field is required if using the same PayPal account for more than one online stores.
+
+        *   **Display the "Buy Now with PayPal" button**: This setting determines whether or not the "Buy Now with PayPal" button should be displayed on product list pages (in list view) and product details pages.
+
+    4.   Click **Save changes**:
+         ![xc5_pp_advanced_save.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_save.png)
+
+         The method settings will be saved:
+         ![xc5_pp_advanced_settings_saved.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_settings_saved.png)
+
+    5.   Make sure the method is active:
+         ![xc5_pp_advanced_activate.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_activate.png)
+
+
+
