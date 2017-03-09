@@ -38,8 +38,11 @@ To enable PayPal Payments Standard as a payment method in your X-Cart store:
          *   **Order id prefix**: Specify your trading name or any other prefix that will help you to identify a payment transaction as originating from this store. This field is required if using the same PayPal account for more than one online stores.
 
     4.   Click **Save changes**:
-    
-        The method settings will be saved:
+         ![xc5_pp_standard_settings_save.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_settings_save.png)
+
+         The method settings will be saved.
          
     5.   Make sure the method is active:
+         ![xc5_pp_standard_activate.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_activate.png)
+
          
