@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-03-09 17:44 +0400'
+updated_at: '2017-03-09 20:12 +0400'
 identifier: ref_DT2EX6fz
 title: Setting up Paypal Payments Standard
 categories:
@@ -44,3 +44,24 @@ To enable PayPal Payments Standard as a payment method in your X-Cart store:
          
     5.   Make sure the method is active:
          ![xc5_pp_standard_activate.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_standard_activate.png)
+
+4.  Enable Instant Payment Notification (IPN) in your PayPal account settings. This will enable PayPal to notify your X-Сart store of events related to PayPal transactions. For instructions, see {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}.
+
+5.  Enable Auto return in your PayPal account profile. With Auto return for PayPal payments, buyers will not have to click a button to return to your website upon payment completion on the PayPal end, but will be redirected back to the invoice page in your store automatically. This is not only convenient for your customers, but is essential for correct X-Cart operation: when a buyer pays for their purchase with PayPal Payments Standard, your store will only be able to correctly create an order if the buyer returns to the store site from PayPal; if the buyer chooses not to click the button to return to your site, your store will never get the order. That means you have to enable Auto return to avoid losing orders.
+    
+    Auto return is turned off by default. To turn on Auto return:
+
+    1.  Log in to your PayPal business account at paypal.com.
+
+    2. From the Profile menu, click Profile and settings.
+
+    3.  From the left menu, click My selling tools.
+
+    4.  In the Selling online section, click Update next to Website preferences. The Website Payment Preferences page is displayed.
+
+    5.  Under Auto Return for Website Payments, click On to enable Auto return.
+    
+    6.  The Return URL field is intended for the full path of the URL to which to redirect buyers when their payment is complete. You do not have to worry about that field: it can be left blank or - if PayPal won't activate Auto return without validating the URL first - can be completed with the URL of any page in your store. The value specified in that field will anyways be overridden by the URL passed by the X-Cart store for specific transactions.
+    
+    7.  Scroll to the bottom of the page, and click Save.
+   
