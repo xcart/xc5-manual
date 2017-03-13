@@ -24,7 +24,9 @@ To enable PayPal Payments Advanced as a payment method in your X-Cart store:
     
      Take note of your Payflow credentials as you will need them to configure PayPal Payments Advanced in X-Cart. Please expect a 3-7 day approval process before you have full functionality for PayPal Payments Advanced.
 
-2.  In X-Cart, add PayPal Payments Advanced to the list of your store's active payment methods and configure it.
+2.  To enhance the security of your PayPal Payments Advanced account, PayPal recommends that you enable the Secure Token setting in your PayPal Manager account. For instructions, see {% "Enabling the Secure Token setting" ref_rPvvhtm9 %}
+
+3.  In X-Cart, add PayPal Payments Advanced to the list of your store's active payment methods and configure it.
 
     1.  In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
         ![xc5_pp_add_payment_method.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_add_payment_method.png)
@@ -63,3 +65,4 @@ To enable PayPal Payments Advanced as a payment method in your X-Cart store:
 
     5.   Make sure the method is active:
          ![xc5_pp_advanced_activate.png]({{site.baseurl}}/attachments/ref_sO5X6iBT/xc5_pp_advanced_activate.png)
+
