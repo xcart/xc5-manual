@@ -20,9 +20,9 @@ To enable PayPal Payments Advanced as a payment method in your X-Cart store:
     *  User,
     *  Password.
     
-    Take note of these credentials as you will need them to configure PayPal Payments Advanced in X-Cart.
-
-    Note that you should expect a 3-7 day approval process before you have full functionality for PayPal Payments Advanced.
+    Note: You do not get a User login just by signing up. However, having a User login other than your Merchant login is recommended as it is considered more secure and ensures uninterrupted service should you change your Merchant Login password. To obtain the "User" part of your credentials, you will need to log in to PayPal Manager at manager.paypal.com and set up an additional user profile for your Business Account. 
+    
+     Take note of your Payflow credentials as you will need them to configure PayPal Payments Advanced in X-Cart. Please expect a 3-7 day approval process before you have full functionality for PayPal Payments Advanced.
 
 2.  In X-Cart, add PayPal Payments Advanced to the list of your store's active payment methods and configure it.
 
