@@ -14,7 +14,8 @@ order: 200
 Some X-Cart's features require periodic execution of the script **console.php** located in the X-Cart root. Running this script is used to trigger the execution of miscellaneous service and maintenance tasks, including, but not limited to:
 
 *   the periodic execution of event tasks (i.e. tasks that are launched on event; examples of such tasks are exporting and importing of data from/into X-Cart);
-*   the sending of abandoned cart reminder email messages for the Abandoned Cart Reminder module.
+*   the sending of abandoned cart reminder email messages for the Abandoned Cart Reminder module;
+*   the automated re-generation of the sitemap and the XML sitemap; etc.
 
 Automated periodic execution of the script console.php can be implemented through the use of a scheduling service that allows users to schedule jobs (commands or shell scripts) at defined times or regular intervals. Such a service is provided by most operating systems. 
 
