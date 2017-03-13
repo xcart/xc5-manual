@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 22:07 +0400'
+updated_at: '2017-03-13 14:57 +0400'
 identifier: ref_lLqNzAaq
 title: Сonfiguring your server to run scheduled X-Cart tasks
 categories:
@@ -28,7 +28,7 @@ where "console.php" must be replaced with the full path to the console.php scrip
 
 **Q: How often should console.php be run?**
 
-**A:** The frequency of once per 1-3 minutes should be enough for most tasks.
+**A:** The frequency of once per 5-10 minutes should be enough for most tasks.
 
 **Q: Is it possible to use one of the free cron services available online to run console.php?**
 
