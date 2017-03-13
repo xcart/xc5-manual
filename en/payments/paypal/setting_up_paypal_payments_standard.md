@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-03-09 20:12 +0400'
+updated_at: '2017-03-13 11:02 +0400'
 identifier: ref_DT2EX6fz
 title: Setting up Paypal Payments Standard
 categories:
