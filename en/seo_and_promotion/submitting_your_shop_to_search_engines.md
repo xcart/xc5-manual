@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-02-15 09:35 +0400'
+updated_at: '2017-03-13 15:04 +0400'
 identifier: ref_OqJ2oZTE
 title: Submitting your shop to search engines
 categories:
@@ -69,3 +69,6 @@ You can submit your store's XML sitemap to search engines using one of the follo
     *   http://www.bing.com/webmaster/ping.aspx?siteMap=%url%
 
 For more info on sitemaps, see [http://www.sitemaps.org](http://www.sitemaps.org).
+
+# Automated re-generation of XML sitemap
+Your store's generated XML sitemap will be re-generated automatically every 24 hours if you have properly configured your server to periodically run X-Cart's script for periodic tasks **console.php** (for example, by cron). For more info on that, see {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
