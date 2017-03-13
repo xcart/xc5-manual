@@ -6,7 +6,7 @@ identifier: ref_DT2EX6fz
 title: Setting up Paypal Payments Standard
 categories:
   - User manual
-published: false
+published: true
 order: 120
 ---
 
