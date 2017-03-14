@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-03-14 06:57 +0400'
+updated_at: '2017-03-14 07:59 +0400'
 identifier: ref_mTCkpViN
 title: Setting up Paypal Payflow Link
 categories:
@@ -20,7 +20,7 @@ To enable Paypal Payflow Link as a payment method in your X-Cart store:
     *  User,
     *  Password.
     
-    Note: You do not get a User login just by signing up. However, having a User login other than your Merchant login is recommended as it is considered more secure and ensures uninterrupted service should you change your Merchant Login password. To obtain the "User" part of your credentials, you will need to log in to PayPal Manager at manager.paypal.com and set up an additional user profile for your Business Account. 
+    Note: The User field can be left blank When you log in to PayPal Manager for the first time; however, to run live API calls, you must specify a user, such as the default admin user. The default admin user has the same name as your Merchant login. We, however, recommend setting up a user login other than your Merchant login as it is more secure and ensures uninterrupted service should you change your Merchant login password. Thus, to obtain the "User" part of your credentials, you will need to log in to PayPal Manager at manager.paypal.com and set up an additional user profile for your Business Account. 
     
     Take note of your Payflow credentials as you will need them to configure PayPal Payflow Link in X-Cart. 
 
