@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-02-15 20:14 +0400'
+updated_at: '2017-03-14 06:30 +0400'
 identifier: ref_g8OosGK4
 title: PayPal
 categories:
@@ -14,21 +14,23 @@ To accept payments in an X-Cart based store using PayPal, use the module **PayPa
 
 This module can be used to enable payments via the following methods:
 
-*   PayPal Express Checkout
+*   {% link "PayPal Express Checkout" ref_vHffMFLk %}
 *   PayPal Credit
-*   PayPal Payments Standard
+*   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
 *   PayPal Payments Advanced
 *   PayPal Payments Pro (PayPal API)
 *   PayPal Payments Pro (Payflow API)
 *   PayPal Payflow Link
 *   PayPal Partner Hosted with PCI Compliance
-*   PayPal Adaptive payments
+*   {% link "PayPal Adaptive payments" ref_FdXWLwVN %}
 
 _In this section:_
 
 *   {% link "Setting up Paypal Express Checkout" ref_vHffMFLk %}
-*   {% link "Setting up a test account" ref_P9Imto9y %}
-*   {% link "Enabling the Secure Token setting" ref_rPvvhtm9 %}
-*   {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}
-*   {% link "Creating your custom PayPal payment page" ref_PA8He4Vs %}
+*   {% link "Setting up Paypal Payments Standard" ref_DT2EX6fz %}
 *   {% link "PayPal Adaptive Payments" ref_FdXWLwVN %}
+*   {% link "Setting up a test account" ref_P9Imto9y %}
+*   {% link "Setting up PayPal IPN URL" ref_2rlawgsT %}
+*   {% link "Enabling the Secure Token setting" ref_rPvvhtm9 %}
+*   {% link "Creating your custom PayPal payment page" ref_PA8He4Vs %}
+
