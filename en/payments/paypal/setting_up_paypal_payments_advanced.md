@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-03-14 07:19 +0400'
+updated_at: '2017-03-14 07:36 +0400'
 identifier: ref_sO5X6iBT
 title: Setting up Paypal Payments Advanced
 categories:
@@ -9,7 +9,7 @@ categories:
 published: false
 order: 140
 ---
-PayPal Payments Advanced is currently available in the US and Canada only.
+PayPal Payments Advanced is currently available in the US and Canada only. For general information on PayPal Payments Advanced, see the [PayPal Payments Advanced product page](https://developer.paypal.com/docs/classic/products/paypal-payments-advanced/ "Paypal Payments Advanced product page").
 
 To enable PayPal Payments Advanced as a payment method in your X-Cart store:
 
