@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-03-13 11:02 +0400'
+updated_at: '2017-03-14 07:44 +0400'
 identifier: ref_DT2EX6fz
 title: Setting up Paypal Payments Standard
 categories:
@@ -61,7 +61,7 @@ To enable PayPal Payments Standard as a payment method in your X-Cart store:
 
     5.  Under Auto Return for Website Payments, click On to enable Auto return.
     
-    6.  The Return URL field is intended for the full path of the URL to which to redirect buyers when their payment is complete. You do not have to worry about that field: it can be left blank or - if PayPal won't activate Auto return without validating the URL first - can be completed with the URL of any page in your store. The value specified in that field will anyways be overridden by the URL passed by the X-Cart store for specific transactions.
+    6.  The Return URL field is intended for the full path of the URL to which to redirect buyers when their payment is complete. Complete this field with the URL of any page in your store (Just as a placeholder - the URL specified in this field will anyways be overridden by the URL passed by the X-Cart store for specific transactions).
     
     7.  Scroll to the bottom of the page, and click Save.
    
