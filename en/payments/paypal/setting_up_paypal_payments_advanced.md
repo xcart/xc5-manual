@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-03-14 07:36 +0400'
+updated_at: '2017-03-14 07:56 +0400'
 identifier: ref_sO5X6iBT
 title: Setting up Paypal Payments Advanced
 categories:
@@ -24,9 +24,9 @@ To enable PayPal Payments Advanced as a payment method in your X-Cart store:
     
     Note: You do not get a User login just by signing up. However, having a User login other than your Merchant login is recommended as it is considered more secure and ensures uninterrupted service should you change your Merchant Login password. To obtain the "User" part of your credentials, you will need to log in to PayPal Manager at manager.paypal.com and set up an additional user profile for your Business Account. 
     
-     Take note of your Payflow credentials as you will need them to configure PayPal Payments Advanced in X-Cart. 
+    Take note of your Payflow credentials as you will need them to configure PayPal Payments Advanced in X-Cart. 
      
-     Before you start accepting live transactions, you must fill out a short online credit application, which normally takes two days to process. Most applications are approved. In the event that your application is not approved, you can easily convert your account to Payflow Link and connect it with a merchant account from any major processor.
+    Before you start accepting live transactions, you must fill out a short online credit application, which normally takes two days to process. Most applications are approved. In the event that your application is not approved, you can easily convert your account to Payflow Link and connect it with a merchant account from any major processor.
 
 2.  To enhance the security of your PayPal Payments Advanced account, PayPal recommends that you enable the Secure Token setting in your PayPal Manager account. For instructions, see {% "Enabling the Secure Token setting" ref_rPvvhtm9 %}
 
