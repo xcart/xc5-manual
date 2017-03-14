@@ -22,13 +22,13 @@ To enable PayPal Payments Advanced as a payment method in your X-Cart store:
     *  User,
     *  Password.
     
-    Note: The User field can be left blank When you log in to PayPal Manager for the first time; however, to run live API calls, you must specify a user, such as the default admin user. The default admin user has the same name as your Merchant login. We, however, recommend setting up a user login other than your Merchant login as it is more secure and ensures uninterrupted service should you change your Merchant login password. Thus, to obtain the "User" part of your credentials, you will need to log in to PayPal Manager at manager.paypal.com and set up an additional user profile for your Business Account. 
+    Note: The User field can be left blank When you log in to PayPal Manager for the first time; however, to run live API calls, you must specify a user, such as the default admin user. The default admin user has the same name as your Merchant login. We, however, recommend setting up a user login other than your Merchant login as it is more secure and ensures uninterrupted service should you change the password for your Merchant login ID. Thus, to obtain the "User" part of your credentials, you will need to log in to PayPal Manager at manager.paypal.com and set up an additional user profile for your Business Account. 
     
     Take note of your Payflow credentials as you will need them to configure PayPal Payments Advanced in X-Cart. 
      
     Before you start accepting live transactions, you must fill out a short online credit application, which normally takes two days to process. Most applications are approved. In the event that your application is not approved, you can easily convert your account to Payflow Link and connect it with a merchant account from any major processor.
 
-2.  To enhance the security of your PayPal Payments Advanced account, PayPal recommends that you enable the Secure Token setting in your PayPal Manager account. For instructions, see {% "Enabling the Secure Token setting" ref_rPvvhtm9 %}
+2.  Set up your PayPal Manager as described in [this article](https://developer.paypal.com/docs/classic/payflow/test_hosted_pages/#set-up-paypal-manager "Set up PayPal Manager"). To promote security, be sure to enable the {% link "Secure Token setting" ref_rPvvhtm9 %} in your PayPal Manager account. 
 
 3.  In X-Cart, add PayPal Payments Advanced to the list of your store's active payment methods and configure it.
 
