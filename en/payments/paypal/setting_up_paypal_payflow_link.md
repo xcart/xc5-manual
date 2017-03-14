@@ -24,7 +24,9 @@ To enable Paypal Payflow Link as a payment method in your X-Cart store:
     
     Take note of your Payflow credentials as you will need them to configure PayPal Payflow Link in X-Cart. 
 
-2.  In X-Cart, add PayPal Payflow Link to the list of your store's active payment methods and configure it:
+2.  [Set up PayPal Manager and hosted pages](https://developer.paypal.com/docs/classic/payflow/test_hosted_pages/ "Set up PayPal Manager and hosted pages"). To promote security, be sure to enable the {% link "Secure Token setting" ref_rPvvhtm9 %} in your PayPal Manager account. 
+
+3. In X-Cart, add PayPal Payflow Link to the list of your store's active payment methods and configure it:
 
     1.  In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
         ![xc5_pp_add_payment_method.png]({{site.baseurl}}/attachments/ref_DT2EX6fz/xc5_pp_add_payment_method.png)
