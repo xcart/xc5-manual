@@ -1,12 +1,12 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-03-14 07:56 +0400'
+updated_at: '2017-03-23 18:23 +0400'
 identifier: ref_sO5X6iBT
 title: Setting up Paypal Payments Advanced
 categories:
   - User manual
-published: false
+published: true
 order: 140
 ---
 PayPal Payments Advanced is currently available in the US and Canada only. For general information on PayPal Payments Advanced, see the [PayPal Payments Advanced product page](https://developer.paypal.com/docs/classic/products/paypal-payments-advanced/ "Paypal Payments Advanced product page").
