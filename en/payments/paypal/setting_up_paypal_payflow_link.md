@@ -1,12 +1,12 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-03-14 07:59 +0400'
+updated_at: '2017-03-23 18:24 +0400'
 identifier: ref_mTCkpViN
 title: Setting up Paypal Payflow Link
 categories:
   - User manual
-published: false
+published: true
 order: 160
 ---
 To enable Paypal Payflow Link as a payment method in your X-Cart store:
