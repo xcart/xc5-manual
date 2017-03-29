@@ -1,12 +1,13 @@
 ---
-identifier: ref_6kbIUy5R
-updated_at: 2015-12-12 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2017-03-29 11:00 +0400'
+identifier: ref_6kbIUy5R
 title: 'Multi-vendor: Admin experience'
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 
@@ -17,15 +18,21 @@ This article lists the multi-vendor related features and functions of the store 
 2.  The store administrator manages the access permissons for the user role "Vendor". By default, vendor access permissions include the following:
     *   Manage vendor's catalog;
     *   Manage vendor's orders;
-    *   Manage vendor's shipping settings.If necessary, the store administrator can change vendor permissions via the Roles management section (**Users** > **Roles**).
+    *   Manage vendor's shipping settings.
+    
+    If necessary, the store administrator can change vendor permissions via the Roles management section (**Users** > **Roles**).
     ![]({{site.baseurl}}/attachments/8749416/8717112.png)
+    
 3.  The store administrator can add new vendor users by approving vendor registration requests of prospective vendors or by creating new administrator users with "Vendor" role via the Users section. See the article {% link "Vendor registration" ref_SkW62BgH %} for details.
 
 4.  The store administrator can view and manage any products in the store, including the products created by vendor users.
+
     When viewing the store's product list in the Admin area, the administrator can find out which product is owned by which vendor based on the information in the "Vendor" column. For each product created by a vendor, this column shows the email address of the vendor user who is the owner of the product.
     ![]({{site.baseurl}}/attachments/8749416/8717004.png)
+    
     The name and email of the vendor are also visible to the store administrator on the details pages of vendor products in the Admin area:
     ![]({{site.baseurl}}/attachments/8749416/8717003.png)
+    
 5.  The store administrator creates and manages the categories in which vendor users place their products (**Catalog** > **Categories**). (Unless given the permission to manage the entire store's product catalog, vendor users do not have access to category management). 
 
 6.  The store administrator has capabilities for the management of product classes and attributes. 
@@ -35,7 +42,7 @@ This article lists the multi-vendor related features and functions of the store 
     *   edit and delete product classes created by vendors;
     *   create attributes and attribute values for vendors to use (including attributes at the level of specific products, product classes and the global level);
     *   edit and delete attributes and attribute values created by vendors;
-    *   determine whether vendors should be able to add their own values for global attributes and attributes created by admin or other vendors at the level of product classes, or whether they should just be able to use the existing values (See the setting "Vendor access to global attributes" on the {% link "«Multi-vendor» module settings page" ref_MRQEvicQ %}).When displayed to the administrator, product classes and attributes created by vendors are marked with the name and email of the vendor who owns them ("Vendor: Vendor name [(vendor_email@example.com)](http://localhost/x-cart-5.2.8-en/admin.php?target=profile&profile_id=11)"), so the administrator can easily tell which product class or attribute is owned by whom.  
+    *   determine whether vendors should be able to add their own values for global attributes and attributes created by admin or other vendors at the level of product classes, or whether they should just be able to use the existing values (See the setting "Vendor access to global attributes" on the {% link "«Multi-vendor» module settings page" ref_MRQEvicQ %}). When displayed to the administrator, product classes and attributes created by vendors are marked with the name and email of the vendor who owns them ("Vendor: Vendor name [(vendor_email@example.com)](http://localhost/x-cart-5.2.8-en/admin.php?target=profile&profile_id=11)"), so the administrator can easily tell which product class or attribute is owned by whom.  
 
 7.  The store administrator can view, edit and delete coupons and volume discounts created by vendors (However, the administrator cannot tell, which discount or coupon is owned by which vendor). The administrator can create coupons and discounts, but the coupons and discounts created by them are not visible to vendors and can be applied only to the products owned by the administrator.
 
@@ -59,8 +66,10 @@ This article lists the multi-vendor related features and functions of the store 
 
 12.  The store administrator uses the Statistics section (**Orders** > **Statistics**) to view the store's sales statistics, which includes information on the store's overall sales as well as information on the sales by specific vendors. By default, the **Order ****statistics** tab provides information about all the orders in the store. Order statistics for a specific vendor can be viewed by entering the vendor's company name or email address into the filter at the top of the order statistics table:
     ![]({{site.baseurl}}/attachments/8749416/8717225.png)
+    
     The **Best sellers** tab provides a list of the store's best selling products. Similarly to order statistics, bestsellers can be filtered by vendor:
     ![]({{site.baseurl}}/attachments/8749416/8717226.png)
+    
 13.  The store administrator can use the Vendor statistics section (**Users** > **Vendor statistics**) to view statistics for specific vendors, including the information about each vendor's all time earnings on sales via the store, the amount paid out to them and the amount remaining to be paid out: 
     ![]({{site.baseurl}}/attachments/8749416/8719636.png)
     For each vendor, the following information is provided:
@@ -72,7 +81,8 @@ This article lists the multi-vendor related features and functions of the store 
 
 14.  The store administrator can use the Transactions history section (**Users** > **Transactions history**) to view and manage information about vendor related transactions. The records of "Order paid" transactions that appear automatically in this section allow the administrator to be informed of the sums that are earned by the vendors on specific sales. This information allows the administrator to know what sums need to be paid out to the vendors. To keep track of payouts to the vendors, the administrator can manually create transactions stating what amount was paid out (To create a transaction, the administrator uses the **Create transaction** button above the transaction list). With PayPal Adaptive Payments, the transactions reflecting payouts to vendors are created automatically.
     ![]({{site.baseurl}}/attachments/8749416/8719637.png)
-    To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description. 
+    
+    To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description.
     They can see the following information about each transaction:
     *   Vendor: Vendor to whom the transaction pertains.
     *   Created by: Origin of the transaction. "Auto" = transaction was created automatically; administrator email address = transaction was created manually by the administrator (See the **Create transaction** button above the transaction list). Transactions marked with PayPal logo are transactions via the "PayPal Adaptive Payments" method.
