@@ -68,7 +68,7 @@ This article lists the multi-vendor related features and functions of the store 
 12.  The store administrator uses the Statistics section (**Orders** > **Statistics**) to view the store's sales statistics, which includes information on the store's overall sales as well as information on the sales by specific vendors. By default, the **Order ****statistics** tab provides information about all the orders in the store. Order statistics for a specific vendor can be viewed by entering the vendor's company name or email address into the filter at the top of the order statistics table:
      ![]({{site.baseurl}}/attachments/8749416/8717225.png)
     
-    The **Best sellers** tab provides a list of the store's best selling products. Similarly to order statistics, bestsellers can be filtered by vendor:
+     The **Best sellers** tab provides a list of the store's best selling products. Similarly to order statistics, bestsellers can be filtered by vendor:
      ![]({{site.baseurl}}/attachments/8749416/8717226.png)
     
 13.  The store administrator can use the Vendor statistics section (**Users** > **Vendor statistics**) to view statistics for specific vendors, including the information about each vendor's all time earnings on sales via the store, the amount paid out to them and the amount remaining to be paid out: 
