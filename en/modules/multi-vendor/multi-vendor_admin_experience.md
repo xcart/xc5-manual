@@ -58,6 +58,7 @@ This article lists the multi-vendor related features and functions of the store 
 11.  The store administrator has full access to all the orders in the store. 
 
      In the "_Warehouse_" mode, the administrator performs the following functions:
+     
      *   updates order statuses according to the store's order processing flow;
      *   if necessary, makes changes to orders using the Advanced Order Management (AOM) capabilities;
      *   can send order tracking information to customers regarding the packages sent to them.
@@ -72,7 +73,9 @@ This article lists the multi-vendor related features and functions of the store 
     
 13.  The store administrator can use the Vendor statistics section (**Users** > **Vendor statistics**) to view statistics for specific vendors, including the information about each vendor's all time earnings on sales via the store, the amount paid out to them and the amount remaining to be paid out: 
     ![]({{site.baseurl}}/attachments/8749416/8719636.png)
+    
     For each vendor, the following information is provided:
+    
     *   Vendor: Vendor to whom the statistics pertains.
     *   Transaction history: The link to view all the transactions for the vendor in the Transactions history.
     *   Vendor earnings: How much money has been earned by the vendor on sales via the store.
@@ -84,6 +87,7 @@ This article lists the multi-vendor related features and functions of the store 
     
     To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description.
     They can see the following information about each transaction:
+    
     *   Vendor: Vendor to whom the transaction pertains.
     *   Created by: Origin of the transaction. "Auto" = transaction was created automatically; administrator email address = transaction was created manually by the administrator (See the **Create transaction** button above the transaction list). Transactions marked with PayPal logo are transactions via the "PayPal Adaptive Payments" method.
     *   Date: Date when the transaction took place.
