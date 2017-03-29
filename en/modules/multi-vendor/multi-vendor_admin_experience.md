@@ -57,12 +57,12 @@ This article lists the multi-vendor related features and functions of the store 
 
 11.  The store administrator has full access to all the orders in the store. 
 
-    In the "_Warehouse_" mode, the administrator performs the following functions:
-    *   updates order statuses according to the store's order processing flow;
-    *   if necessary, makes changes to orders using the Advanced Order Management (AOM) capabilities;
-    *   can send order tracking information to customers regarding the packages sent to them.
+     In the "_Warehouse_" mode, the administrator performs the following functions:
+     *   updates order statuses according to the store's order processing flow;
+     *   if necessary, makes changes to orders using the Advanced Order Management (AOM) capabilities;
+     *   can send order tracking information to customers regarding the packages sent to them.
 
-        In the "_Vendors as separate shops_" mode, the administrator has the same capabilities as in the "_Warehouse_" mode, but, typically, only acts as a supervisor - whereas the processing of orders and making changes to the information of specific orders is carried out by the vendors.
+     In the "_Vendors as separate shops_" mode, the administrator has the same capabilities as in the "_Warehouse_" mode, but, typically, only acts as a supervisor - whereas the processing of orders and making changes to the information of specific orders is carried out by the vendors.
 
 12.  The store administrator uses the Statistics section (**Orders** > **Statistics**) to view the store's sales statistics, which includes information on the store's overall sales as well as information on the sales by specific vendors. By default, the **Order ****statistics** tab provides information about all the orders in the store. Order statistics for a specific vendor can be viewed by entering the vendor's company name or email address into the filter at the top of the order statistics table:
     ![]({{site.baseurl}}/attachments/8749416/8717225.png)
