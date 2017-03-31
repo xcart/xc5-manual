@@ -210,6 +210,7 @@ The following settings are available via the file ``[xcart_dir]/etc/config.local
 Note: If the file ``[xcart_dir]/etc/config.local.php`` is not present in your X-Cart 5 store, to use any of the above-named settings, you will need to create the file following the example below. Uncomment the settings that you want to set.
 
 PHP Code:
+
 ```php
 ; <?php /*
 ; WARNING: Do not change the line above
