@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-28 14:36 +0400'
+updated_at: '2017-03-31 16:26 +0400'
 identifier: ref_37NAeGlf
 title: How XC4 to XC5 Migration wizard works
 order: 110
@@ -193,7 +193,7 @@ Exising IDs from X-Cart 4 are not saved in X-Cart 5 after the migration. However
 
 The step for removing duplicate images in the process of data migration has been added to rid the store of redundant image data. At this step, the module checks whether any product variants are using the same image as the main product, and if a duplicate image is found, the image of the main product is removed. Whether any two images are the same is determined based on the image hash.
 
-The following settings are available via etc/config.local.php:
+The following settings are available via the file ``[xcart_dir]/etc/config.local.php`` in your X-Cart 5 installation:
 
 *   **migration_chunk_length** - number of records to be processed during one iteration; 
 
@@ -206,7 +206,29 @@ The following settings are available via etc/config.local.php:
 *   **disable_images_import** - disables import of all images;
 
 *   **enable_copy_ext_images** - enables copying of external images to XC5 location.
+ 
+Note: If the file ``[xcart_dir]/etc/config.local.php`` is not present in your X-Cart 5 store, to use any of the above-named settings, you will need to create the file following the example below. Uncomment the settings that you want to set.
 
+PHP Code:
+```php
+; <?php /*
+; WARNING: Do not change the line above
+;
+;  --------------------------------- 
+; |   X-Cart 5 configuration file   |
+;  --------------------------------- 
+
+[migration_wizard]
+;migration_chunk_length = 20
+;disable_secret_check = true
+;disable_ssl_check = true
+;disable_follow_redirects = true
+;disable_images_import = true
+;enable_copy_ext_images = true
+
+; WARNING: Do not change the line below
+; */ ?>
+```
 
 ## Limitations
 The module does not support the migration of order data.
