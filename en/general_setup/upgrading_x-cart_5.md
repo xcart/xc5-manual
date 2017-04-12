@@ -112,10 +112,10 @@ To check what updates are available, click on any of the "Updates are available"
 
 Note the page tabs: 
 
-   *   The **Minor update** tab (former name **Bug-fixes only**) shows the available bug-fix releases of the core and modules:
+   *   The **Minor update** tab (named **Bug-fixes only** in X-Cart versions prior to 5.3.2.x) shows the available bug-fix releases of the core and modules:
        ![2_4yourversion2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion2.png)
 
-   *   The **Major upgrade** tab (former name **Bug-fixes and new features**) shows the available feature-releases of the core and modules:
+   *   The **Major upgrade** tab (named **Bug-fixes and new features** in X-Cart versions prior to 5.3.2.x) shows the available feature-releases of the core and modules:
        ![2_4yourversion1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion1.png)
 
 Also note the **Advanced mode** link allowing you to install just some specific updates/upgrades:
