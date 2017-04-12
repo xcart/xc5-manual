@@ -102,20 +102,30 @@ If there is any kind of update/upgrade available, there will be an **Updates are
 Also, there will be a notification of available updates when clicking the bell icon:
 ![1_updates_available1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available1.png)
 
-Starting with X-Cart 5.3.2.x the color of the **Updates are available** link background in the header may be either green or orange. The green color signifies that a bug-fix release is available (or both a bug-fix release and a feature-release). The orange color signifies that only a feature-release is available. 
+Starting with X-Cart 5.3.2.4, the color of the **Updates are available** link background in the header may be either green or orange. The green color signifies that a bug-fix release is available (or both a bug-fix release and a feature-release). The orange color signifies that only a feature-release is available. 
 ![xc5_upgrades_green_available.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_green_available.png)
 
-Note that in X-Cart versions prior to 5.3.2.x the **Updates are available** link in the header always shows against an orange background, regardless of the nature of available updates.
+Note that, in X-Cart versions prior to 5.3.2.4, the **Updates are available** link in the header always shows against an orange background, regardless of the nature of available updates.
 
 To check what updates are available, click on any of the "Updates are available" links. You will see the "Updates for your version" page showing the available updates:
 ![2_4yourversion0.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion0.png)
 
 Note the page tabs: 
 
-   *   The **Minor update** tab (named **Bug-fixes only** in X-Cart versions prior to 5.3.2.x) shows the available bug-fix releases of the core and modules:
+   *   The **Minor update** tab (named **Bug-fixes only** in X-Cart versions prior to 5.3.2.4) shows the available bug-fix releases of the core and modules:
+
+       (X-Cart 5.3.2.4 and later)
+       ![xc5_upgrades_minor.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_minor.png)
+      
+       (X-Cart versions prior to 5.3.2.4)
        ![2_4yourversion2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion2.png)
 
-   *   The **Major upgrade** tab (named **Bug-fixes and new features** in X-Cart versions prior to 5.3.2.x) shows the available feature-releases of the core and modules:
+   *   The **Major upgrade** tab (named **Bug-fixes and new features** in X-Cart versions prior to 5.3.2.4) shows the available feature-releases of the core and modules:
+       
+       (X-Cart 5.3.2.4 and later)
+       ![xc5_upgrades_major.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_major.png)
+
+       (X-Cart versions prior to 5.3.2.4)
        ![2_4yourversion1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion1.png)
 
 Also note the **Advanced mode** link allowing you to install just some specific updates/upgrades:
