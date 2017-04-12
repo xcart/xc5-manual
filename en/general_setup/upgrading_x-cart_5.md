@@ -102,7 +102,7 @@ If there is any kind of update/upgrade available, there will be an **Updates are
 Also, there will be a notification of available updates when clicking the bell icon:
 ![1_updates_available1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available1.png)
 
-Starting with X-Cart 5.3.2.4, the color of the **Updates are available** link background in the header may be either green or orange. The green color signifies that a bug-fix release is available (or both a bug-fix release and a feature-release). The orange color signifies that only a feature-release is available. 
+Starting with X-Cart 5.3.2.4, the color of the **Updates are available** link background in the header may be either green or orange. The orange color signifies that only a feature-release is available. The green color, like in the screenshot below, signifies that a bug-fix release is available (or both a bug-fix release and a feature-release are available).
 ![xc5_upgrades_green_available.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_green_available.png)
 
 Note that, in X-Cart versions prior to 5.3.2.4, the **Updates are available** link in the header always shows against an orange background, regardless of the nature of available updates.
