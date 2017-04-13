@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 13:19 +0400'
+updated_at: '2017-04-13 14:40 +0400'
 identifier: ref_SGI1FqdC
 title: Setting up discount coupons
 categories:
@@ -17,16 +17,25 @@ The coupons feature in X-Cart 5 is enabled by the module **Coupons**:![]({{site
 
 When the **Coupons** module is enabled, a link **Have a discount coupon?** is provided at checkout. Buyers can use this link to expand a section where they can enter their coupon code:
 
-![](attachments/6389790/8719436.png)The result of applying a coupon looks similar to the following:![]({{site.baseurl}}/attachments/6389790/8719437.png)To create a coupon:
+![](attachments/6389790/8719436.png)
+
+The result of applying a coupon looks similar to the following:
+
+![]({{site.baseurl}}/attachments/6389790/8719437.png)
+
+To create a coupon:
 
 1.  In your store's Admin area, go to the Coupons section (**Promotions** > **Coupons**):
     ![]({{site.baseurl}}/attachments/6389790/8719429.png)
+    
 2.  Select to create a new coupon by clicking the **New discount coupon** button:
     ![]({{site.baseurl}}/attachments/6389790/8719430.png)
+    
     A page for coupon creation opens:
     ![]({{site.baseurl}}/attachments/6389790/8719431.png)
 
 3.  Specify the details of your discount coupon. 
+
     For example, we want to create a coupon to let our customers use the code **HAPPY10** to get a $10 discount on items from the Apparel category if the order subtotal amount is over $100\. The coupon should be valid from Oct 9, 2015 through Oct 13, 2015\. We want to limit the use of this coupon to no more than once and we want to forbid using this coupon in combination with any other coupons. In this case we should specify the coupon details as follows:
     ![]({{site.baseurl}}/attachments/6389790/8719432.png)
 
@@ -42,5 +51,3 @@ Now your customer should be able to enter the code **HAPPY10** at checkout and g
 _Related pages:_
 
 *   {% link "Configuring volume discounts and coupons in X-Cart 5" ref_6xFWK5tC %} (video)
-
-
