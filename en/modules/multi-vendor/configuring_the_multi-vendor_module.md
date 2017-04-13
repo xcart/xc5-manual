@@ -9,8 +9,6 @@ categories:
 published: true
 order: 100
 ---
-
-
 After the Multi-vendor module has been installed and enabled, it needs to be configured.
 
 To configure the module:
