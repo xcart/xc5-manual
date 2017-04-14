@@ -62,6 +62,11 @@ To configure the module:
         The available options here are "Use existing values only" and "Use existing and add new values".
 
     *   **Show vendor list in product filter**: This option applies only for stores using the "Product Filter" module. Enable this option if you want your store's visitors to be able to filter products by vendor. With this option enabled, your store's product filter will allow users to select the vendor whose products they wish to view. Note that filtering by vendor will be available only in categories that list products of more than one vendor. If you do not want to allow filtering by vendor, make sure this option is disabled.
+    
+    *   **Show vendor list in sidebar**
+    *   **Show rating & reviews on vendor profile page**
+    *   **Allow vendors to approve, reject and edit product ratings and reviews**
+    *   **Role to assign to new vendor users**: 
 
 3.  Click **Submit** to save the changes.
 
