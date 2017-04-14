@@ -26,6 +26,16 @@ This article lists the multi-vendor related features and functions of the store 
     Alternatively, the store administrator can create other vendor-related roles with some or all of the above-named vendor permissions.
     
 3.  The store administrator can add new vendor users by approving vendor registration requests of prospective vendors or by creating new administrator users with "Vendor" role via the Users section. See the article {% link "Vendor registration" ref_SkW62BgH %} for details.
+    
+    The store administrator can manage the existing vendor users, including the removal of vendor users:
+    ![xc5_multi-vendor_removal.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_removal.png)
+
+export of vendor information:
+    ![xc5_multi-vendor_export.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_export.png)
+
+and access to all the information associated with specific vendor profiles:
+    ![xc5_multi-vendor_admin_access2vendorprofile.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_admin_access2vendorprofile.png)
+
 
 4.  The store administrator can view and manage any products in the store, including the products created by vendor users.
 
