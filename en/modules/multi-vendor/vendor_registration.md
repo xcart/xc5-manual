@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-07 17:35 +0400'
+updated_at: '2017-04-14 15:32 +0400'
 identifier: ref_SkW62BgH
 title: Vendor registration
 categories:
@@ -48,7 +48,10 @@ To create a new vendor profile, the administrator does one of the following: 
 *   creates a new user profile with the access level "Admin" and the role "Vendor":
     ![]({{site.baseurl}}/attachments/8749143/8716890.png)
 
-The user created using this method can log in and start selling immediately after their profile has been created.
+With this method, the new vendor user gets created right away:
+    ![xc5_multi-vendor_profile_created.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_multi-vendor_profile_created.png)
+
+They can log in and start selling immediately after the creation of their profile .
 
 _Related pages:_
 
