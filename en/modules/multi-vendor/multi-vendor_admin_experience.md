@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-03-29 11:00 +0400'
+updated_at: '2017-04-14 16:09 +0400'
 identifier: ref_6kbIUy5R
 title: 'Multi-vendor: Admin experience'
 categories:
@@ -20,8 +20,10 @@ This article lists the multi-vendor related features and functions of the store 
     *   Manage vendor's orders;
     *   Manage vendor's shipping settings.
     
-    If necessary, the store administrator can change vendor permissions via the Roles management section (**Users** > **Roles**).
+    If necessary, the store administrator can change the permissions for this role via the Roles management section (**Users** > **Roles**).
     ![]({{site.baseurl}}/attachments/8749416/8717112.png)
+    
+    Alternatively, the store administrator can create other vendor-related roles with some or all of the above-named vendor permissions.
     
 3.  The store administrator can add new vendor users by approving vendor registration requests of prospective vendors or by creating new administrator users with "Vendor" role via the Users section. See the article {% link "Vendor registration" ref_SkW62BgH %} for details.
 
