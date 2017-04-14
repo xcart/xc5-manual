@@ -63,10 +63,13 @@ To configure the module:
 
     *   **Show vendor list in product filter**: This option applies only for stores using the "Product Filter" module. Enable this option if you want your store's visitors to be able to filter products by vendor. With this option enabled, your store's product filter will allow users to select the vendor whose products they wish to view. Note that filtering by vendor will be available only in categories that list products of more than one vendor. If you do not want to allow filtering by vendor, make sure this option is disabled.
     
-    *   **Show vendor list in sidebar**
-    *   **Show rating & reviews on vendor profile page**
-    *   **Allow vendors to approve, reject and edit product ratings and reviews**
-    *   **Role to assign to new vendor users**: 
+    *   **Show vendor list in sidebar**: Specify whether you want your store's visitors to see the list of your store's vendors in the sidebar area of the store site.
+    
+    *   **Show ratings & reviews on vendor profile page**: (Reviews module required) Enable this if you want ratings and reviews to be shown on vendor profile pages.
+    
+    *   **Allow vendors to approve, reject and edit product ratings and reviews**: Enable this to allow vendors to handle product ratings and reviews for their products.
+    
+    *   **Role to assign to new vendor users**: Specify the role you want to be assigned to new users after an approval of their vendor application by admin.
 
 3.  Click **Submit** to save the changes.
 
