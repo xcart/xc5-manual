@@ -51,7 +51,7 @@ To create a new vendor profile, the administrator does one of the following: 
 With this method, the new vendor user gets created right away:
     ![xc5_multi-vendor_profile_created.png]({{site.baseurl}}/attachments/ref_SkW62BgH/xc5_multi-vendor_profile_created.png)
 
-They can log in and start selling immediately after the creation of their profile .
+They can log in and start selling immediately after the creation of their profile.
 
 _Related pages:_
 
