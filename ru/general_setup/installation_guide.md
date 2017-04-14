@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-01-04 12:25 +0400'
+updated_at: '2017-04-14 12:01 +0400'
 identifier: ref_ZlmtdzS3
 title: Инструкция по установке
 order: 100
@@ -69,13 +69,13 @@ icon: download
     для zip-архива:
 
     ```php
-    unzip x-cart-5.3.2.2-en.zip
+    unzip x-cart-5.3.2.8-ru.zip
     ```
 
     для tgz-архива: 
 
     ```php
-    tar -xzpf x-cart-5.3.2.2-en.tgz
+    tar -xzpf x-cart-5.3.2.8-ru.tgz
     ```
 
 ## Создайте базу данных
