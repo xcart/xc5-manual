@@ -36,7 +36,6 @@ export of vendor information:
 and access to all the information associated with specific vendor profiles:
     ![xc5_multi-vendor_admin_access2vendorprofile.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_admin_access2vendorprofile.png)
 
-
 4.  The store administrator can view and manage any products in the store, including the products created by vendor users.
 
     When viewing the store's product list in the Admin area, the administrator can find out which product is owned by which vendor based on the information in the "Vendor" column. For each product created by a vendor, this column shows the email address of the vendor user who is the owner of the product.
