@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-04-13 15:32 +0400'
+updated_at: '2017-04-14 15:51 +0400'
 identifier: ref_nFq48dhr
 title: Configuring the Multi-vendor module
 categories:
@@ -69,7 +69,7 @@ To configure the module:
     
     *   **Allow vendors to approve, reject and edit product ratings and reviews**: Enable this to allow vendors to handle product ratings and reviews for their products.
     
-    *   **Role to assign to new vendor users**: Specify the role you want to be assigned to new users after an approval of their vendor application by admin.
+    *   **Role to assign to new vendor users**: Specify the role you want to be assigned to new vendor users after the creation of their profile/approval of their vendor application by admin.
 
 3.  Click **Submit** to save the changes.
 
