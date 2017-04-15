@@ -35,6 +35,8 @@ This article lists the multi-vendor related features and functions of the store 
 
     and access to all the information associated with specific vendor profiles:
     ![xc5_multi-vendor_admin_access2vendorprofile.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_admin_access2vendorprofile.png)
+    (For details on the management of vendor profiles, see {% link "Managing vendor profile information
+" ref_b7PTQMgf %}
 
 4.  The store administrator can view and manage any products in the store, including the products created by vendor users.
 
