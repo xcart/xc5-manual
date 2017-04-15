@@ -96,7 +96,7 @@ This article lists the multi-vendor related features and functions of the store 
      *   Liability: The amount that remains to be paid to the vendor by the storefront operator.
 
 14.  The store administrator can use the Transactions history section (**Orders** > **Transactions history**) to view and manage information about vendor related transactions. The records of "Order paid" transactions that appear automatically in this section allow the administrator to be informed of the sums that are earned by the vendors on specific sales. This information allows the administrator to know what sums need to be paid out to the vendors. To keep track of payouts to the vendors, the administrator can manually create transactions stating what amount was paid out (To create a transaction, the administrator uses the **Create transaction** button above the transaction list). With PayPal Adaptive Payments, the transactions reflecting payouts to vendors are created automatically.
-     ![]({{site.baseurl}}/attachments/8749416/8719637.png)
+     ![xc5_multi-vendor_transactions.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_transactions.png)
     
      To find specific transactions in the Transactions history, the store administrator can filter the transaction list by specifying a date range, a vendor profile and/or a portion of transaction description.
     
