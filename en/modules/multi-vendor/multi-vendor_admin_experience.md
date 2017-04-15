@@ -85,7 +85,7 @@ This article lists the multi-vendor related features and functions of the store 
      ![]({{site.baseurl}}/attachments/8749416/8717226.png)
     
 13.  The store administrator can use the Vendor statistics section (**Orders** > **Vendor statistics**) to view statistics for specific vendors, including the information about each vendor's all time earnings on sales via the store, the amount paid out to them and the amount remaining to be paid out: 
-     ![]({{site.baseurl}}/attachments/8749416/8719636.png)
+     ![xc5_multi-vendor_statistics.png]({{site.baseurl}}/attachments/ref_6kbIUy5R/xc5_multi-vendor_statistics.png)
     
      For each vendor, the following information is provided:
      
