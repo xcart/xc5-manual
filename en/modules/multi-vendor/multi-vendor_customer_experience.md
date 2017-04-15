@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 15:51 +0400'
+updated_at: '2017-04-15 09:20 +0400'
 identifier: ref_fxTL6F2z
 title: 'Multi-vendor: Customer experience'
 categories:
@@ -15,7 +15,7 @@ In a multi-vendor X-Cart 5 store, the storefront provides a **Vendors** menu fro
 
 ![]({{site.baseurl}}/attachments/8749408/8717013.png)
 
-Note that a vendor's company name appears as a link on the **Vendors** menu only if the vendor has at least one product available for sale. Names of vendors that do not currently have available products are not displayed, and the **Vendors** menu itself is not displayed if there are no vendors with available products.
+Note that the **Vendors** menu appears on the storefront only if the store administrator has chosen to make this menu available. 
 
 By clicking on the vendor company name link on the **Vendors** menu, store visitors can access the vendor's profile page. This page provides general information about the vendor including their company name, image, description and location. It also lists all the vendor's products:
 
@@ -46,5 +46,3 @@ In the "Warehouse" multivendor mode, the buyer gets a single order invoice. In 
 _Related pages:_
 
 *   {% link "Multi-vendor: Admin experience" ref_6kbIUy5R %}
-
-
