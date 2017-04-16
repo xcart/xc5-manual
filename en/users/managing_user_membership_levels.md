@@ -13,12 +13,17 @@ To give privileges to certain categories of customers and to restrict access of 
     * set up membership-specific prices and discounts;
     * set up membership-specific tax rates.
 
-User membership levels can be set up and managed using the Membership levels section of your store's Admin area (**Users > Membership levels**). In this section, you can see a list of membership levels available to your store's users (if any such levels have been added) and button to add new levels.
+User membership levels can be set up and managed using the Membership levels section of your store's Admin area (**Users > Membership levels**). This section provides a table with a list of membership levels available to your store's users (if any such levels have been added) and a button to add new membership levels.
 
 ## Adding membership levels
 To create a new membership level:
-1.  In your store's Admin area, go to **Users > Membership levels** and click the **New membership** button.
-2.  
+1.  In your store's Admin area, go to **Users > Membership levels** and click the **New membership** button. This adds a new blank field in the membership levels table.
+    ![xc5_memberships_add_button.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_add_button.png)
+
+2.  In this field, type the name of the membership level you require. For example, let us name our new membership level "VIP customers":
+    ![xc5_memberships_vip_customers.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_vip_customers.png)
+
+
 
 ## Membership signup
 Administrator reviews the application and, in the case of a positive decision, assigns the membership to the user who requested it. When the option 'Enable sign-up for membership ' is disabled, there is no 'Signup for membership' box in the 'Profile details' form, but administrator can still assign memberships to customers.
