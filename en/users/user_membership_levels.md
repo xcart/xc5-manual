@@ -53,3 +53,5 @@ If membership signup is enabled, new and existing users will be able to sign up 
     ![xc5_memberships_new_customer_membersignup.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_new_customer_membersignup.png)
 
 Once the form is submitted, the store administrator will be able to either approve or decline the user's request for membership.
+
+
