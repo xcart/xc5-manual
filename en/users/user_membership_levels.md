@@ -45,8 +45,11 @@ The order in which the membership level names are shown in the table determines 
 If necessary, you can change the name of any membership level. To do so, click on the level name; once the level name field becomes active, make your changes and save:
     ![xc5_memberships_edit_name.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_edit_name.png)
 
-
-
-
 ## Membership signup
-Administrator reviews the application and, in the case of a positive decision, assigns the membership to the user who requested it. When the option 'Enable sign-up for membership ' is disabled, there is no 'Signup for membership' box in the 'Profile details' form, but administrator can still assign memberships to customers.
+Administrator may choose to enable membership signup for users (See the setting "Allow customers to sign up for membership" in the section **Store setup > Cart & checkout**):
+    ![xc5_memberships_allow_signup.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_allow_signup.png)
+
+If membership signup is enabled, new and existing users will be able to sign up for membership levels they want. The account signup page and the user account details page will provide the "Pending membership" field in which the user will be able to specify the membership level they require before submitting the form. 
+    ![xc5_memberships_new_customer_membersignup.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_new_customer_membersignup.png)
+
+Once the form is submitted, the store administrator will be able to either approve or decline the user's request for membership.
