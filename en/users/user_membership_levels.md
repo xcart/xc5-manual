@@ -5,7 +5,7 @@ updated_at: '2017-04-16 15:51 +0400'
 identifier: ref_RXsgxNSm
 title: User membership levels
 order: 100
-published: false
+published: true
 redirect_from:
   - /en/users/adding_user_membership_levels.html
 ---
