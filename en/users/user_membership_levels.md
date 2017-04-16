@@ -13,7 +13,7 @@ To give privileges to certain categories of customers and to restrict access of 
 *   set up membership-specific prices and discounts;
 *   set up membership-specific tax rates.
 
-User membership levels can be set up and managed using the Membership levels section of your store's Admin area (**Users > Membership levels**). This section provides a table with a list of membership levels available to your store's users (if any such levels have been added) and a button to add new membership levels.
+User membership levels can be set up and managed using the Membership levels section of your store's Admin area (**Users > Membership levels**). 
 
 ## Adding membership levels
 To create a new membership level:
@@ -24,6 +24,16 @@ To create a new membership level:
     ![xc5_memberships_vip_customers.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_vip_customers.png)
 
 3.  Click **Save changes**.
+    ![xc5_memberships_membership_save.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_membership_save.png)
+The new membership level will be saved and added to the list of your store's membership levels.
+
+## Viewing and managing membership levels
+The Membership levels section (**Users > Membership levels**) provides a table with a list of membership levels available to your store's users (if any such levels have been added):
+    ![xc5_memberships_list.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_list.png)
+    
+For each membership level, you can see the name and the number of store users who have been assigned this membership level. The state of the On/Off button icon tells you if the membership level is currently active or disabled (Only active membership levels can be assigned to users).
+It is possible edit membership levels 
+
 
 ## Membership signup
 Administrator reviews the application and, in the case of a positive decision, assigns the membership to the user who requested it. When the option 'Enable sign-up for membership ' is disabled, there is no 'Signup for membership' box in the 'Profile details' form, but administrator can still assign memberships to customers.
