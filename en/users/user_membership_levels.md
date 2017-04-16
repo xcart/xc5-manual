@@ -43,6 +43,8 @@ The order in which the membership level names are shown in the table determines 
     Be sure to save the changes.
     
 If necessary, you can change the name of any membership level. To do so, click on the level name; once the level name field becomes active, make your changes and save:
+    ![xc5_memberships_edit_name.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_edit_name.png)
+
 
 
 
