@@ -6,6 +6,8 @@ identifier: ref_RXsgxNSm
 title: User membership levels
 order: 100
 published: false
+redirect_from:
+  - /en/users/adding_user_membership_levels.html
 ---
 To give privileges to certain categories of customers and to restrict access of other customers to these privileges, set up user membership levels. Using membership levels enables you to:
 
