@@ -38,11 +38,11 @@ The state of the On/Off button icon tells you if the membership level is current
     ![xc5_memberships_on_off.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_on_off.png)
     To switch the activity status of a membership level, click on the On/Off button icon opposite its name to select the desired status and click **Save changes**.
     
-The order of the membership level names in the table can be changed - simply drag and drop the level whose position needs to be changed by the four arrow icon:
-
-The order in which the membership level names are shown in the table determines the order of membership level names in the drop-down box used to assign membership levels to specific users.
-
-It is possible edit membership levels 
+The order in which the membership level names are shown in the table determines the order of membership level names in the drop-down box used to assign membership levels to specific users. You can change the order of the membership level names in the table - simply drag and drop the level whose position needs to be changed by the four arrow icon:
+    ![xc5_memberships_4arrow.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_4arrow.png)
+    Be sure to save the changes.
+    
+You can edit the name of a membership level:
 
 
 ## Membership signup
