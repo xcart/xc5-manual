@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-04-13 14:40 +0400'
+updated_at: '2017-04-26 21:08 +0400'
 identifier: ref_SGI1FqdC
 title: Setting up discount coupons
 categories:
@@ -17,7 +17,7 @@ The coupons feature in X-Cart 5 is enabled by the module **Coupons**:![]({{site
 
 When the **Coupons** module is enabled, a link **Have a discount coupon?** is provided at checkout. Buyers can use this link to expand a section where they can enter their coupon code:
 
-![](attachments/6389790/8719436.png)
+![xc5_coupons_happy10.png]({{site.baseurl}}/attachments/ref_SGI1FqdC/xc5_coupons_happy10.png)
 
 The result of applying a coupon looks similar to the following:
 
