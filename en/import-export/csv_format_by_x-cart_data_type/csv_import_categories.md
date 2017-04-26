@@ -1,12 +1,13 @@
 ---
-identifier: ref_ekmg5iLG
-updated_at: 2016-06-16 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2017-04-26 10:00 +0400'
+identifier: ref_ekmg5iLG
 title: 'CSV import: Categories'
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 Below is a list of supported fields and their respective value types for category import.
@@ -58,13 +59,13 @@ Below is a list of supported fields and their respective value types for categor
     </tr>
     <tr>
       <td class="confluenceTd">image</td>
-      <td class="confluenceTd">
-        <p>Location of the image representing the category. This can be one of the following:</p>
+      <td colspan="1" class="confluenceTd">
+        <p>For any image that needs to be imported, you need to specify the image location. This can be one of the following:</p>
         <ul>
-          <li>Image URL</li>
-          <li>Path to the image on the server relative to the &lt;xcart directory&gt;/var/import folder; for example,&nbsp;images/categories/image1.png.</li>
+          <li>Image URL (can be local to the X-Cart server)</li>
+          <li>Path to the image on the server relative to the <code>&lt;XCART-DIRECTORY&gt;</code> folder; for example, <code>images/category/image1.png</code></li>
         </ul>
-        <p>When exporting data from X-Cart, image paths are written to the export file using the latter method (relative path). This way when you need to re-import images back into X-Cart, you simply move the folder &lt;xcart directory&gt;/var/export/images to var/import/ - and use the existing relative paths).</p>
+        <p>Note that import of images takes considerably less time if the images to be imported are stored locally on the server. It doesn't matter if image path is specified as URL or filepath — X-Cart will try to detect if the URL is local to the server. So, if you need to import a considerable number of images from URLs, you can speed up the process quite a bit simply by saving those images locally on the server inside <code>&lt;XCART-DIRECTORY&gt;/images</code> folder.</p>
       </td>
       <td class="confluenceTd">String</td>
     </tr>
