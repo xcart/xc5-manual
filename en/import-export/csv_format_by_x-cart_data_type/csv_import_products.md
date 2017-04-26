@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-04-26 09:50 +0400'
+updated_at: '2017-04-26 10:01 +0400'
 identifier: ref_WmJBfwxA
 title: 'CSV import: Products'
 categories:
@@ -109,7 +109,7 @@ There are many more fields which you can include into your product CSV file. Bel
         <p>For any image that needs to be imported, you need to specify the image location. This can be one of the following:</p>
         <ul>
           <li>Image URL (can be local to the X-Cart server)</li>
-          <li>Path to the image on the server relative to the <code>&lt;XCART-DIRECTORY&gt;</code> folder; for example, <code>images/products/image1.png</code></li>
+          <li>Path to the image on the server relative to the <code>&lt;XCART-DIRECTORY&gt;</code> folder; for example, <code>images/product/image1.png</code></li>
         </ul>
         <p>Note that import of images takes considerably less time if the images to be imported are stored locally on the server. It doesn't matter if image path is specified as URL or filepath — X-Cart will try to detect if the URL is local to the server. So, if you need to import a considerable number of images from URLs, you can speed up the process quite a bit simply by saving those images locally on the server inside <code>&lt;XCART-DIRECTORY&gt;/images</code> folder.</p>
         <br/>
