@@ -77,6 +77,7 @@ If you see a user with a pending membership level, you may want to check the use
         ![xc5_membership_approve_pending.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_approve_pending.png)
    
    4.  Click **Update** to save the changes.
+   
     
 
 
