@@ -58,13 +58,19 @@ As a store administrator, you may choose to enable membership signup for users (
 If membership signup is enabled, new and existing users will be able to sign up for membership levels they want. The account signup page and the user account details page will provide the "Pending membership" field in which the user will be able to specify the membership level they require before submitting the form. 
     ![xc5_memberships_new_customer_membersignup.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_new_customer_membersignup.png)
 
-Once the form is submitted, you will be able to either approve or decline the user's request for membership.
+Once the form is submitted, you will be able to either approve or decline the user's request for membership (See further below how to do it).
 
 To find out whether any users in the store have signed up for memberships, use the 'Search for users' feature. In the **Users** > **Users** section, use the _Pending memberships_ filter (Be sure to select the checkbox with the name of one or more pending memberships):
     ![xc5_membership_search_pending.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_search_pending.png)
     
 In the list of users, users with a pending membership will be marked as "requested for _membership level name_" (where instead of _membership level name_ you see the actual name of the membership level).
     ![xc5_membership_requested4.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_requested4.png)
+
+If you see a user with a pending membership level, you may want to check the user's profile and approve the membership request: 
+    1.  In the Users table, click on the name of the user to access their profile information.
+    2.  Go to see the user's Account details and scroll down the page to the Membership field.
+    3.  From the drop-down list in the Membership field, select the membership level requested by the user.
+    4.  Click **Update** to save the changes.
     
 
 
