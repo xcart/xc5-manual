@@ -52,12 +52,14 @@ To get a list of users with a certain membership, click on the number link in th
 
 
 ## Membership signup
-The store administrator may choose to enable membership signup for users (See the setting "Allow customers to sign up for membership" in the section **Store setup > Cart & checkout**):
+As a store administrator, you may choose to enable membership signup for users (See the setting "Allow customers to sign up for membership" in the section **Store setup > Cart & checkout**):
     ![xc5_memberships_allow_signup.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_allow_signup.png)
 
 If membership signup is enabled, new and existing users will be able to sign up for membership levels they want. The account signup page and the user account details page will provide the "Pending membership" field in which the user will be able to specify the membership level they require before submitting the form. 
     ![xc5_memberships_new_customer_membersignup.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_new_customer_membersignup.png)
 
-Once the form is submitted, the store administrator will be able to either approve or decline the user's request for membership.
+Once the form is submitted, you will be able to either approve or decline the user's request for membership.
 
-To find out whether any users in the store have signed up for memberships, the store administrator should have a look at the membership levels table in the **Users > Membership levels** section: the number link in the **Users** column shows
+To find out whether any users in the store have signed up for memberships, use the 'Search for users' feature. In the **Users** > **Users** section, use the _Pending memberships_ filter (Be sure to select the checkbox with the name of one or more pending memberships):
+    ![xc5_membership_search_pending.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_search_pending.png)
+
