@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 16:29 +0400'
+updated_at: '2017-04-27 21:05 +0400'
 identifier: ref_Q16T5ZnW
 title: Vendor access to orders and statistics
 categories:
@@ -13,7 +13,7 @@ order: 180
 
 Once an order has been placed for a vendor's product, the vendor can see the respective order added to the list of orders in the Orders section of the store's back end (**Orders** > **Orders list**):
 
-![]({{site.baseurl}}/attachments/8749511/8717244.png)
+![xc5_multi-vendor_vendorview_orderslist.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_multi-vendor_vendorview_orderslist.png)
 
 By clicking on the Order # of this order, the vendor can view the order details.
 
@@ -32,15 +32,16 @@ In the "_Vendors as separate shops_" mode, a separate order is formed for the pr
 
 Vendors can access their statistics on orders and bestsellers via the Statistics section (**Orders** > **Statistics**). The order statistics can be viewed via the **Order statistics** tab:
 
-![]({{site.baseurl}}/attachments/8749511/8717246.png)
+![xc5_multi-vendor_vendorview_order_statistics.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_multi-vendor_vendorview_order_statistics.png)
 
 The bestsellers statistics can be accessed via the **Best sellers** tab:
 
-![]({{site.baseurl}}/attachments/8749511/8717247.png)
+![xc5_multi-vendor_order_bestsellers.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_multi-vendor_order_bestsellers.png)
 
-Vendors can also track the movement of the money from the sales of their products to their account via the Transactions history section (**Users** > **Transactions history**):
+Vendors can also track the movement of the money from the sales of their products to their account via the Vendor transactions section (**Orders** > **Vendor transactions**):
 
-![]({{site.baseurl}}/attachments/8749511/8719641.png)
+![xc5_multi-vendor_vendorview_transactions.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_multi-vendor_vendorview_transactions.png)
+
 
 _Related pages:_
 
