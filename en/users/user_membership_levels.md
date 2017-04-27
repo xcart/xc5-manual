@@ -49,7 +49,8 @@ If necessary, you can change the name of any membership level. To do so, click o
     
 To get a list of users with a certain membership, click on the number link in the Users column opposite the membership name:
     ![xc5_membership_assigned2users.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_assigned2users.png)
-
+    
+Alternatively, you can use the 'Search for users' feature. In the **Users** > **Users** section, set a filter specifying the membership(s) you are interested in, and do a search to find users. Note that you can search by both assigned and pending memberships.
 
 ## Membership signup
 As a store administrator, you may choose to enable membership signup for users (See the setting "Allow customers to sign up for membership" in the section **Store setup > Cart & checkout**):
@@ -63,7 +64,7 @@ Once the form is submitted, you will be able to either approve or decline the us
 To find out whether any users in the store have signed up for memberships, use the 'Search for users' feature. In the **Users** > **Users** section, use the _Pending memberships_ filter (Be sure to select the checkbox with the name of one or more pending memberships):
     ![xc5_membership_search_pending.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_search_pending.png)
     
-In the list of users, users with a pending membership will be marked as "requested for _membership level name_" (where instead of _membership level name_ you see the actual name of the membership level).
+In the list of users, users with a pending membership are marked as "requested for _membership level name_" (where instead of _membership level name_ you see the actual name of the membership level).
     ![xc5_membership_requested4.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_requested4.png)
 
 If you see a user with a pending membership level, you may want to check the user's profile and approve the membership request: 
