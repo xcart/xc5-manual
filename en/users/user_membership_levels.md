@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-04-16 15:51 +0400'
+updated_at: '2017-04-27 13:51 +0400'
 identifier: ref_RXsgxNSm
 title: User membership levels
 order: 100
@@ -46,9 +46,11 @@ The order in which the membership level names are shown in the table determines 
     
 If necessary, you can change the name of any membership level. To do so, click on the level name; once the level name field becomes active, make your changes and save:
     ![xc5_memberships_edit_name.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_edit_name.png)
+    
+To get a list of users with a certain membership, click on the number link in the Users column.
 
 ## Membership signup
-Administrator may choose to enable membership signup for users (See the setting "Allow customers to sign up for membership" in the section **Store setup > Cart & checkout**):
+The store administrator may choose to enable membership signup for users (See the setting "Allow customers to sign up for membership" in the section **Store setup > Cart & checkout**):
     ![xc5_memberships_allow_signup.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_allow_signup.png)
 
 If membership signup is enabled, new and existing users will be able to sign up for membership levels they want. The account signup page and the user account details page will provide the "Pending membership" field in which the user will be able to specify the membership level they require before submitting the form. 
@@ -56,4 +58,4 @@ If membership signup is enabled, new and existing users will be able to sign up 
 
 Once the form is submitted, the store administrator will be able to either approve or decline the user's request for membership.
 
-
+To find out whether any users in the store have signed up for memberships, the store administrator should have a look at the membership levels table in the **Users > Membership levels** section: the number link in the **Users** column shows
