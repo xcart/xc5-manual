@@ -62,4 +62,10 @@ Once the form is submitted, you will be able to either approve or decline the us
 
 To find out whether any users in the store have signed up for memberships, use the 'Search for users' feature. In the **Users** > **Users** section, use the _Pending memberships_ filter (Be sure to select the checkbox with the name of one or more pending memberships):
     ![xc5_membership_search_pending.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_search_pending.png)
+    
+In the list of users, users with a pending membership will be marked as "requested for _membership level name_" (where instead of _membership level name_ you see the actual name of the membership level).
+    ![xc5_membership_requested4.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_requested4.png)
+    
+
+
 
