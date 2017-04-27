@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-04-27 13:51 +0400'
+updated_at: '2017-04-27 14:19 +0400'
 identifier: ref_RXsgxNSm
 title: User membership levels
 order: 100
@@ -47,7 +47,9 @@ The order in which the membership level names are shown in the table determines 
 If necessary, you can change the name of any membership level. To do so, click on the level name; once the level name field becomes active, make your changes and save:
     ![xc5_memberships_edit_name.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_memberships_edit_name.png)
     
-To get a list of users with a certain membership, click on the number link in the Users column.
+To get a list of users with a certain membership, click on the number link in the Users column opposite the membership name:
+    ![xc5_membership_assigned2users.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_assigned2users.png)
+
 
 ## Membership signup
 The store administrator may choose to enable membership signup for users (See the setting "Allow customers to sign up for membership" in the section **Store setup > Cart & checkout**):
