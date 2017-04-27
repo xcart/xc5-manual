@@ -40,7 +40,7 @@ The bestsellers statistics can be accessed via the **Best sellers** tab:
 
 Vendors can also track the movement of the money from the sales of their products to their account via the Vendor transactions section (**Orders** > **Vendor transactions**):
 
-![xc5_multi-vendor_vendorview_transactions.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_multi-vendor_vendorview_transactions.png)
+![xc5_multi-vendor_vendorview_transactions1.png]({{site.baseurl}}/attachments/ref_Q16T5ZnW/xc5_multi-vendor_vendorview_transactions1.png)
 
 
 _Related pages:_
