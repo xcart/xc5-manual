@@ -68,14 +68,14 @@ In the list of users, users with a pending membership will be marked as "request
 
 If you see a user with a pending membership level, you may want to check the user's profile and approve the membership request: 
 
-    1.  In the Users table, click on the name of the user to access their profile information.
+   1.  In the Users table, click on the name of the user to access their profile information.
     
-    2.  Go to see the user's Account details and scroll down the page to the Membership field.
+   2.  Go to see the user's Account details and scroll down the page to the Membership field.
     
-    3.  From the drop-down list in the Membership field, select the membership level requested by the user.
+   3.  From the drop-down list in the Membership field, select the membership level requested by the user.
         ![xc5_membership_approve_pending.png]({{site.baseurl}}/attachments/ref_RXsgxNSm/xc5_membership_approve_pending.png)
-
-    4.  Click **Update** to save the changes.
+   
+   4.  Click **Update** to save the changes.
     
 
 
