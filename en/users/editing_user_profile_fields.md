@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-30 16:20 +0400'
+updated_at: '2017-04-30 00:13 +0400'
 identifier: ref_gg1fQDgB
-title: Editing user profile fields
+title: User profile fields
 categories:
   - User manual
 published: true
