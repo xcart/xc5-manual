@@ -10,7 +10,6 @@ published: true
 order: 200
 ---
 
-
 X-Cart allows you to adjust the user profile form according to your needs.
 
 You can:
