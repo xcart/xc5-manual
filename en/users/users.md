@@ -20,10 +20,10 @@ The management of users in an X-Cart based store takes place in the Users sectio
 
 In the Users section of the Admin area, the store users can be seen as a list presented in the form of a table. For each user, the table provides the following information:
      
-   *   Login/Email
-   *   Name
-   *   Access level (_Administrator_, _Customer_ or _Anonymous_ + information about the user's membership level; for example, "Customer (VIP customers)" means that the user is a registered customer with the membership level "VIP customers", whereas "Customer (requested for VIP customers)" means that the user is a registered customer and they have submitted a request for "VIP customers" membership which has yet to be approved by the store admin.)
-   *   Orders (Number of orders placed by the user)
-   *   Created (Account creation date)
-   
+   *   Login/Email;
+   *   Name;
+   *   Access level (_Administrator_, _Customer_ or _Anonymous_ + information about the user's membership level; for example, "Customer (VIP customers)" means that the user is a registered customer with the membership level "VIP customers", whereas "Customer (requested for VIP customers)" means that the user is a registered customer and they have submitted a request for "VIP customers" membership which has yet to be approved by the store admin);
+   *   Orders (Number of orders placed by the user; the number link can be clicked upon for access to the list of all the orders by this user);
+   *   Created (Account creation date);
+   *   Last login (Date of the user's latest login to their user account). 
    
