@@ -18,10 +18,12 @@ X-Cart customers are users of the Customer area - the zone of an X-Cart store wh
 
 The management of users in an X-Cart based store takes place in the Users section of the Admin area (**Users** > **Users**). To manage customers, a user must either be an X-Cart administrator with root access or an administrator with the permission to manage users; to manage administrators, a user must be a root administrator or an administrator with the permission to manage administrators (specific permissions can be set via the Roles section of the Admin area (**Users** > **Roles**).
 
-In the Users section of the Admin area, the users of the store can be seen as a list presented in the form of a table. For each user, the table provides the following information:
+In the Users section of the Admin area, the store users can be seen as a list presented in the form of a table. For each user, the table provides the following information:
      
    *   Login/Email
    *   Name
-   *   Access level (Administrator or Customer)
+   *   Access level (_Administrator_, _Customer_ or _Anonymous_ + information about the user's membership level; for example, "Customer (VIP customers)" means that the user is a registered customer with the membership level "VIP customers", whereas "Customer (requested for VIP customers)" means that the user is a registered customer and they have submitted a request for "VIP customers" membership which has yet to be approved by the store admin.)
    *   Orders (Number of orders placed by the user)
    *   Created (Account creation date)
+   
+   
