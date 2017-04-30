@@ -20,8 +20,8 @@ The management of users in an X-Cart based store takes place in the Users sectio
 
 In the Users section of the Admin area, the users of the store can be seen as a list presented in the form of a table. For each user, the table provides the following information:
      
-     *   Login/Email
-     *   Name
-     *   Access level (Administrator or Customer)
-     *   Orders (Number of orders placed by the user)
-     *   Created (Account creation date)
+   *   Login/Email
+   *   Name
+   *   Access level (Administrator or Customer)
+   *   Orders (Number of orders placed by the user)
+   *   Created (Account creation date)
