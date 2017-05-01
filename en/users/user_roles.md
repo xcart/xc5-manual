@@ -35,13 +35,15 @@ To add a new role:
     ![xc5_roles_new_role1.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_new_role1.png)
 
      *   Name: The name to identify the role.
-     *   Enabled: Whether the role is active and can be assigned to users.
+     *   Enabled: Whether the role is active. When a role is inactive (disabled), users with this role can log in to the store's back end, but they cannot access any of the features/areas which their role entitles them to access.
      *   Permissions: The set of permissions the user with this role should have. Simply start typing a keyword for the permission you require, and the field will show a drop-down list with permissions from which you will be able to select.
 
 3.  Click **Create**.
 
 To edit a role, click on its name in the Roles table, then edit the role details and click **Update** to save the changes. 
 
-To temporarily deactivate a role, click on the green On/Off icon before the role name and save the changes:
+To delete a role, click on the Trash icon opposite the role name at the far right and save the changes.
+
+It is possible to deactivate a role to disable the permissions granted by this role to the users who hold it. To do so, click on the green On/Off icon before the role name and save the changes:
     ![xc5_roles_disable.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_disable.png)
 
