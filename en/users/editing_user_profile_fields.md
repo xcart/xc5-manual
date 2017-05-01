@@ -7,7 +7,7 @@ title: User profile fields
 categories:
   - User manual
 published: true
-order: 200
+order: 300
 ---
 
 X-Cart allows you to adjust the user profile form according to your needs.
