@@ -5,7 +5,7 @@ updated_at: '2017-04-30 20:34 +0400'
 identifier: ref_PWr4CNvW
 title: ''
 order: 100
-published: false
+published: true
 ---
 ## X-Cart user types
 X-Cart has two major types of users depending on the X-Cart store area where they primarily operate:
