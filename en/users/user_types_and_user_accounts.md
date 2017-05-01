@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-05-01 11:33 +0400'
+updated_at: '2017-05-01 14:04 +0400'
 identifier: ref_PWr4CNvW
 title: User types and user accounts
 order: 90
@@ -24,7 +24,7 @@ In the Users section of the Admin area, the store users can be seen as a list pr
      
    *   Login/Email;
    *   Name;
-   *   Access level (_Administrator_, _Customer_ or _Anonymous_ + information about the user's membership level; for example, "Customer (VIP customers)" means that the user is a registered customer with the membership level "VIP customers", whereas "Customer (requested for VIP customers)" means that the user is a registered customer and they have submitted a request for "VIP customers" membership which has yet to be approved by the store admin);
+   *   Access level (_Administrator_, _Customer_ or _Anonymous_ + information about the user's membership level, if any; for example, "Customer (VIP customers)" means that the user is a registered customer with the membership level "VIP customers", whereas "Customer (requested for VIP customers)" means that the user is a registered customer and they have submitted a request for "VIP customers" membership which has yet to be approved by the store admin. Note that with Multi-vendor module installed, an X-Cart store may have users with an access level named _Vendor_; for more info on this, see the {% link "Multi-vendor module manual" ref_cvwmAuRi %});
    *   Orders (Number of orders placed by the user; the number link can be clicked upon for access to the list of all the orders by this user);
    *   Created (Account creation date);
    *   Last login (Date of the user's latest login to their user account). 
