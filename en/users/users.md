@@ -31,6 +31,10 @@ In the Users section of the Admin area, the store users can be seen as a list pr
    
 The filter above the table can be used to filter the table contents and find specific users.
 
-The administrator with user management permissions can access the profile of any user in the table by clicking on the user login/email link in the Login/Email column or the user name link in the Name column. The administrator can then view/edit the profile of the user.
+The administrator with user management permissions can access the profile of any user in the table for viewing/editing. To access the profile of a user, click on the user login/email link in the Login/Email column or the user name link in the Name column. 
 
-The administrator can remove user accounts. To remove a user account:
+The administrator can remove user accounts. To remove a user account, click on the Trash icon opposite the user name in the table column at the far right (this marks the user account for removal), then click **Save changes**.
+
+The administrator can export user account information to CSV format.  To export the entire users table, click the button **Export all: CSV** below the table. To export the information for specific users, mark these users by selecting the check boxes before their names, then click the button **Export selected: CSV** (This button is displayed in the place of the **Export all: CSV** button when at least one user is selected).
+
+The administrator can create new user accounts directly from Users section in the Admin area. To create a new user account, click the **Add user** button above the users table and use the Create profile form to specify the account details for the new user.
