@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-05-01 11:33 +0400'
 identifier: ref_PWr4CNvW
 title: User types and user accounts
-order: 100
+order: 90
 published: true
 ---
 ## X-Cart user types
