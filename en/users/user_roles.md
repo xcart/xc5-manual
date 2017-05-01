@@ -5,7 +5,7 @@ updated_at: '2017-05-01 16:24 +0400'
 identifier: ref_38HKdc1f
 title: User roles
 order: 100
-published: false
+published: true
 ---
 X-Cart roles enable you to configure different levels of access to the store's back end for different administrator users. A role is a set of permissions providing access to certain features and areas of the back end. This feature may be useful if you have staff who you want to give the permissions to do some of the store management jobs but not others.
 
