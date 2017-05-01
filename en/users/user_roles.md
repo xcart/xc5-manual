@@ -13,23 +13,33 @@ After installation, your X-Cart store already has some roles configured - you ca
     ![xc5_roles_table.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_table.png)
 
 _Administrator_ is the role providing Root access to the store's back end, which means that an administrator with this role has full access to all the features.
+
 Other roles provide limited access to just some of the features. To find out the specific access permissions for each role, click on the role names in the Roles table. For example, if we click on the role name _Coupons management_, we will see a page like the following:
-![xc5_roles_coupons_management.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_coupons_management.png)
+    ![xc5_roles_coupons_management.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_coupons_management.png)
 
 As you can see from the screenshot above, the role _Coupons management_ provides its user with an only permission - to manage coupons. It means that an administrator with this role will be able to log in to the store's back end, but all they will see there will be the following:
-![xc5_roles_only_coupons.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons.png)
+    ![xc5_roles_only_coupons.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons.png)
+
 They will be able to view and use the Coupons page within the Promotions section (create coupons, view and edit existing coupons, delete coupons):
-![xc5_roles_only_coupons1.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons1.png)
+    ![xc5_roles_only_coupons1.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons1.png)
+
 but that is basically all they will be able to do there.
 
 Roles are totally configurable, and you can edit the existing roles or create more roles in addition to those already configured in your store. You can also remove the roles you do not need.
 
 To add a new role:
 1.  Click the **New role** button.
+    ![xc5_roles_new_role.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_new_role.png)
+
 2.  In the form that opens, specify the details of the role you want to create:
+    ![xc5_roles_new_role1.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_new_role1.png)
 
      *   Name: The name to identify the role.
      *   Enabled: Whether the role is active and can be assigned to users.
      *   Permissions: The set of permissions the user with this role should have. Simply start typing a keyword for the permission you require, and the field will show a drop-down list with permissions from which you will be able to select.
 
 To edit a role, click on its name in the Roles table, then edit the role details and click **Update** to save the changes. 
+
+To temporarily deactivate a role, click on the green On/Off icon before the role name and save the changes:
+    ![xc5_roles_disable.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_disable.png)
+
