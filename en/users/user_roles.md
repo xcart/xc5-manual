@@ -23,7 +23,7 @@ As you can see from the screenshot above, the role _Coupons management_ provides
 They will be able to view and use the Coupons page within the Promotions section (create coupons, view and edit existing coupons, delete coupons), but that is basically all they will be able to do there.
     ![xc5_roles_only_coupons1.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons1.png)
 
-Roles are totally configurable, and you can edit the existing roles or create more roles in addition to those already configured in your store. You can also remove the roles you do not need.
+Roles are totally configurable, and you can edit the existing roles or create more roles in addition to those already configured in your store. You can also delete the roles you do not need.
 
 To add a new role:
 1.  Click the **New role** button.
