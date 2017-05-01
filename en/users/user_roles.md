@@ -20,6 +20,16 @@ As you can see from the screenshot above, the role _Coupons management_ provides
 ![xc5_roles_only_coupons.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons.png)
 They will be able to view and use the Coupons page within the Promotions section (create coupons, view and edit existing coupons, delete coupons):
 ![xc5_roles_only_coupons1.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons1.png)
-but that is basically all they will be able to do.
+but that is basically all they will be able to do there.
 
 Roles are totally configurable, and you can edit the existing roles or create more roles in addition to those already configured in your store. You can also remove the roles you do not need.
+
+To add a new role:
+1.  Click the **New role** button.
+2.  In the form that opens, specify the details of the role you want to create:
+
+     *   Name: The name to identify the role.
+     *   Enabled: Whether the role is active and can be assigned to users.
+     *   Permissions: The set of permissions the user with this role should have. Simply start typing a keyword for the permission you require, and the field will show a drop-down list with permissions from which you will be able to select.
+
+To edit a role, click on its name in the Roles table, then edit the role details and click **Update** to save the changes. 
