@@ -22,4 +22,4 @@ They will be able to view and use the Coupons page within the Promotions section
 ![xc5_roles_only_coupons1.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_only_coupons1.png)
 but that is basically all they will be able to do.
 
-
+Roles are totally configurable, and you can edit the existing roles or create more roles in addition to those already configured in your store. You can also remove the roles you do not need.
