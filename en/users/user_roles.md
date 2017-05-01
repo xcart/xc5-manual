@@ -38,6 +38,8 @@ To add a new role:
      *   Enabled: Whether the role is active and can be assigned to users.
      *   Permissions: The set of permissions the user with this role should have. Simply start typing a keyword for the permission you require, and the field will show a drop-down list with permissions from which you will be able to select.
 
+3.  Click **Create**.
+
 To edit a role, click on its name in the Roles table, then edit the role details and click **Update** to save the changes. 
 
 To temporarily deactivate a role, click on the green On/Off icon before the role name and save the changes:
