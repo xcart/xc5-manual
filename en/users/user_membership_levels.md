@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-04-27 14:19 +0400'
+updated_at: '2017-05-01 18:39 +0400'
 identifier: ref_RXsgxNSm
 title: User membership levels
-order: 100
+order: 200
 published: true
 redirect_from:
   - /en/users/adding_user_membership_levels.html
@@ -78,8 +78,3 @@ If you see a user with a pending membership level, you may want to check the use
         (The membership level being requested by the user is shown as 'Pending membership'. The user's current membership level, if any, is shown in the Membership field; the option _Ignore membership_ in the Membership field means that the user currently does not have a membership level assigned.)
    
    4.  Click **Update** to save the changes.
-   
-    
-
-
-
