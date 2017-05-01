@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-05-01 16:24 +0400'
+updated_at: '2017-05-01 18:42 +0400'
 identifier: ref_38HKdc1f
 title: User roles
 order: 100
@@ -44,4 +44,9 @@ To delete a role, click on the Trash icon opposite the role name at the far righ
 
 It is possible to deactivate a role to disable the permissions granted by this role to the users who hold it. To do so, click on the green On/Off icon before the role name and save the changes:
     ![xc5_roles_disable.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_disable.png)
+    
+To assign a role to a user, you need to specify it in the user's account:
+    ![xc5_roles_assign_role.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_assign_role.png)
+
+
 
