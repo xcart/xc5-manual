@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-02-22 12:40 +0400'
+updated_at: '2017-05-12 20:15 +0400'
 identifier: ref_qwhmJtqW
 title: Activating your license
 categories:
@@ -25,43 +25,51 @@ This section explains how to activate a Free X-Cart 5 license to turn your X-Car
 
 A {% link "video instruction on X-Cart 5 Free license activation" ref_X5ZLmSJV %}  is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
 
-To activate a Free X-Cart 5 license, do the following:
+To start the activation process for a Free X-Cart 5 license, you will need to click on the **Activate free license** in the Admin area of your X-Cart 5 trial installation. For your convenience, this link can be accessed using any of the methods below:  
 
-1.  Log in to the Admin area of your X-Cart 5 trial installation and access the form for license activation. 
-    *   Every time you log in to the Admin area, the license activation form is displayed automatically in a popup window along with the Evaluation notice:
-        ![]({{site.baseurl}}/attachments/8225232/8716594.png)
-    *   The same form can be accessed by clicking on the **Activate key** button in the Admin area site header:
+   *   _Method 1:_
+       In the popup box with the X-Cart trial expiration notice (you can see it every time you sign in to the Admin area), click on the "I have a license key" link:
+       ![xc5_licenses_ihavealicensekey_link.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_ihavealicensekey_link.png)
+       This will expand the popup box further down, an the link you require will be displayed at its bottom:
+       ![xc5_licenses_activate_free_license_link.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_license_link.png)
 
-        ![]({{site.baseurl}}/attachments/8225232/8716596.png)
+   *   _Method 2:_ In the Admin area site header, click the **Activate key** button:
+       ![xc5_licenses_activate_key_button_in_header.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_key_button_in_header.png)
+       This will cause the License key registration popup to box to appear, where you will find the **Activate free license** link you require:
+       ![xc5_licenses_license_key_registration.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_license_key_registration.png)
 
-    *   Or the **Activate license key** button in the Installed Modules section:
+   *    _Method 3:_ In the Installed Modules section, click the **Activate license key** button:
+        ![xc5_licenses_activate_license_key_in_installed_modules.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules.png)
+        This will cause the following box to appear, where you will find the **Activate free license** link:
+        ![xc5_licenses_activate_license_key_in_installed_modules1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules1.png)
 
-        ![]({{site.baseurl}}/attachments/8225232/8716604.png)
+   *   _Method 4:_ In the Modules Marketplace, click the **Activate license key** button:
+        ![xc5_licenses_activate_license_key_in_marketplace.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace.png)
+        This will cause the following box to appear, where you will find the **Activate free license** link:
+        ![xc5_licenses_activate_license_key_in_marketplace1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace1.png)
+      
 
-    *   Or the **Activate license key** button in the Modules Marketplace:
-        ![]({{site.baseurl}}/attachments/8225232/8716597.png)
-        You may need to click the **activate your X-Cart license** link to get the form expanded:
-        ![]({{site.baseurl}}/attachments/8225232/8716598.png)
+Once the **Activate free license** button has been clicked, the popup box will be closed, and you will see a page with a warning about the consequences of free license activation:
+         ![xc5_licenses_modules_tobe_removed.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_modules_tobe_removed.png)
 
-2.  Click the **Activate free license** button. Do not enter anything into the field that says "_Enter your license key here_" (This field needs to be completed for commercial (non-free) products only):
-    ![]({{site.baseurl}}/attachments/8225232/8716599.png)
+Since the X-Cart 5 Business package on which the trial version is based includes more modules than the X-Cart 5 Free edition, activation of the Free license will cause some of the modules on your X-Cart installation to be removed. So basically what you see on this page is a list of modules that will be removed from your X-Cart installation.
 
-3.  Once the **Activate free license** button has been clicked, the popup window will close, and you will see a page with a warning about the consequences of free license activation:
-    ![]({{site.baseurl}}/attachments/8225232/8716600.png)
-    Since the X-Cart 5 Business package on which the trial version is based includes more modules than the X-Cart 5 Free edition, activation of the Free license will cause some of the modules on your X-Cart installation to be disabled. So basically what you see on this page is a list of modules that will be disabled for your X-Cart installation.
+Review the "to be removed" list and confirm your intention to continue with the activation of the Free license. If at a later time you need any of the modules that were removed as a result of the activation of the Free license, you will be able to upgrade your license to Premium and install the addons from the Premium package.
 
-    Review the "to be disabled" list and decide whether you want to continue with the activation of the Free license. If at a later time you need any of the modules disabled by the activation of the Free license, you will be able to purchase them separately.
+Scroll down to the bottom of the page and enter the email address to which you want X-Cart to register your Free license:
+          ![xc5_licenses_license_email.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_license_email.png)
 
-4.  Scroll down to the bottom of the page and enter the email address to which you want X-Cart to register your Free license:
-    ![]({{site.baseurl}}/attachments/8225232/8356126.png)
-5.  Click **Activate**. The license activation process will begin:
-    ![]({{site.baseurl}}/attachments/8225232/8356127.png)
-    The process may take a few minutes. Take care not to close the page before the process has been fully completed.
+Then click **Activate**. The license activation process will begin:
+          ![]({{site.baseurl}}/attachments/8225232/8356127.png)
+    
+The license activation process may take a few minutes. Take care not to close the page before the process has been fully completed.
 
-6.  Once the license activation has been completed, you should see a confirmation message at the top of the screen:
-    ![]({{site.baseurl}}/attachments/8225232/8716601.png)
-    Now your Admin area header should be showing the license type you have activated:
-    ![]({{site.baseurl}}/attachments/8225232/8716602.png)
+Once the license activation has been completed, you should see a confirmation message at the top of the screen:
+          ![xc5_licenses_activation_successful.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activation_successful.png)
+
+Now your Admin area header should be showing the license type you have activated:
+          ![xc5_licenses_free_version.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free_version.png)
+
 
 ## Activating a Business / Multivendor / Ultimate X-Cart 5 license
 
