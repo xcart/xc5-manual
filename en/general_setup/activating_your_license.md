@@ -40,14 +40,18 @@ To start the activation process for a Free X-Cart 5 license, you will need to cl
 
    *    _Method 3:_ In the Installed Modules section, click the **Activate license key** button:
         ![xc5_licenses_activate_license_key_in_installed_modules.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules.png)
-        This will cause the following box to appear, where you will find the **Activate free license** link:
+        This will cause the following box to appear, where you will find the **activate your X-Cart license** link:
         ![xc5_licenses_activate_license_key_in_installed_modules1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules1.png)
+        Click on this link. The box will be expanded to display more options. Choose to activate a free license:
+        ![xc5_licenses_activate_free_on_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_on_first.png)
 
    *   _Method 4:_ In the Modules Marketplace, click the **Activate license key** button:
         ![xc5_licenses_activate_license_key_in_marketplace.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace.png)
-        This will cause the following box to appear, where you will find the **Activate free license** link:
+        This will cause the following box to appear, where you will find the **activate your X-Cart license** link:
         ![xc5_licenses_activate_license_key_in_marketplace1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace1.png)
-      
+         Click on this link. The box will be expanded to display more options. Choose to activate a free license:
+        ![xc5_licenses_activate_free_on_first.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_free_on_first.png)
+
 
 Once the **Activate free license** button has been clicked, the popup box will be closed, and you will see a page with a warning about the consequences of free license activation:
          ![xc5_licenses_modules_tobe_removed.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_modules_tobe_removed.png)
