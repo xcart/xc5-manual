@@ -102,38 +102,22 @@ Other methods to access the **Purchase a premium license key** button are:
 When you purchase X-Cart 5 Business, Multivendor or Ultimate, a message is sent to your license registration email address with the subject "**Your X-Cart 5 license key**". This message contains a 16-letter code that you must use to activate your license. 
 
 The key is also stored in your personal HelpDesk account in the section **My Licenses**:
-![]({{site.baseurl}}/attachments/8225232/8356149.png)
+       ![]({{site.baseurl}}/attachments/8225232/8356149.png)
 
 Be sure to have this key at the ready when you are going to activate your license.
 
 If you lost the email message with your license key and experience problems logging in to your HelpDesk account, please contact X-Cart's Customer Service at **[support@x-cart.com](mailto:support@x-cart.com)**.
 
-To activate your license, do the following:
+To activate your license, log in to the Admin area of your X-Cart 5 installation and submit your license key via the form for license activation (In X-Cart trial version, the form is available via all the same methods used to access the **Purchase a premium license key** button described above. If you have activated an X-Cart license previously, the license activation form is available only via the **Activate license key** button in the Installed Modules section or the **Activate license key** button in the Modules Marketplace). 
+      ![xc5_licenses_activate_premium.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_premium.png)
 
-1.  Log in to the Admin area of your X-Cart 5 installation and access the form for license activation. 
-    *   If you are using the X-Cart 5 trial, you can find this form in the "Evaluation notice" box which pops up every time you log in to the Admin area:
-        ![]({{site.baseurl}}/attachments/8225232/8716594.png)
-        Alternatively, you can open the license activation form by clicking on the **Activate key** button in the Admin area site header:
+The license activation process will begin. As soon as it completed, a success message will be displayed at the top of the screen:
+      ![]({{site.baseurl}}/attachments/8225232/8716605.png)
 
-        ![]({{site.baseurl}}/attachments/8225232/8716596.png)
-        or by clicking the **Activate license key** button in the Installed Modules section:
-        ![]({{site.baseurl}}/attachments/8225232/8716604.png)
-        or in Modules Marketplace:
-        ![]({{site.baseurl}}/attachments/8225232/8716597.png)
-        You may need to click the **activate your X-Cart license** link to get the form expanded:
-        ![]({{site.baseurl}}/attachments/8225232/8716598.png)
-    *   If you have activated an X-Cart license previously, you can access the license activation form by using the **Activate license key** button in the Installed Modules section:
-        ![]({{site.baseurl}}/attachments/8225232/8716604.png)
-        or in the Modules Marketplace:
-        ![]({{site.baseurl}}/attachments/8225232/8716597.png)
-2.  In the license activation form, enter your license key into the appropriate field and click **Activate**:
-    ![]({{site.baseurl}}/attachments/8225232/8716603.png)
-    The license activation process will begin. As soon as it completed, a success message will be displayed at the top of the screen:
-    ![]({{site.baseurl}}/attachments/8225232/8716605.png)
-    That is all; your license has been activated. Now, if you look at your Admin area header, you should be able to see the license type you have activated:
+That is all; your license has been activated. Now, if you look at your Admin area header, you should be able to see the license type you have activated:
+      ![]({{site.baseurl}}/attachments/8225232/8716606.png)
 
-    ![]({{site.baseurl}}/attachments/8225232/8716606.png)
-    (The screenshot above demonstrates the result of activating a Business license; for Multivendor license this would be "Multivendor", and for Ultimate license this would be "Ultimate").
+(The screenshot above demonstrates the result of activating a Business license; for Multivendor license this would be "Multivendor", and for Ultimate license this would be "Ultimate").
 
 ## Activating an X-Cart 5 module license
 
