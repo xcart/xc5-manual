@@ -13,7 +13,7 @@ order: 120
 The X-Cart 5 package available for download from the [www.x-cart.com](http://www.x-cart.com/) website is a 30-day feature-complete trial of the X-Cart 5 Business edition. This trial package is licensed for evaluation purposes only. To use your X-Cart 5 installation for purposes other than evaluation, you need a Full X-Cart 5 license (Free, Business, Multivendor or Ultimate) which must be activated for your store. A Free license can be obtained and activated by anyone through the use of the Activate free license feature of the X-Cart 5 trial. The rest of the license types (Business, Multivendor and Ultimate) are non-free and must be purchased; for each X-Cart 5 license you purchase you get a license activation key which you must use to activate your license. Here are the instructions for activating X-Cart 5 licenses:
 
 *   [Activating a Free X-Cart 5 license](#activate-a-free-x-cart-5-license)
-*   [Activating a Business / Multivendor / Ultimate X-Cart 5 license](#activating-a-business--multivendor--ultimate-x-cart-5license)
+*   [Activating a Premium X-Cart 5 license (Business / Multivendor / Ultimate)](#activating-a-premium-x-cart-5-license-business--multivendor--ultimate)
 
 Commercial (non-free) modules for X-Cart 5 are also provided with licenses that require activation. If you purchased a module license and need to activate it, use the following instructions:
 
@@ -75,12 +75,30 @@ Now your Admin area header should be showing the license type you have activated
           ![xc5_licenses_free_version.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_free_version.png)
 
 
-## Activating a Business / Multivendor / Ultimate X-Cart 5 license
+## Activating a Premium X-Cart 5 license (Business / Multivendor / Ultimate)
 
 This section explains how to activate the license for X-Cart 5 Business, Multivendor and Ultimate editions.
 
 A {% link "video instruction on X-Cart 5 Business license activation" ref_UUrbypsh %}  is available in the Webinars and video tutorials section of the X-Cart 5 Knowledge Base.
 
+If you do not yet have a premium license but want to purchase one, you can do so straight from the Admin area of an installed X-Cart trial. The most evident method is to choose the option to **Purchase a premium license key** in the popup box with the X-Cart trial expiration notice (appears every time you sign in to the Admin area):        
+          ![xc5_licenses_purchase_premium_license_key.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_purchase_premium_license_key.png)
+
+Other methods to access the **Purchase a premium license key** button are:
+
+   *   _Method 1:_ Click the **Activate key** button in the Admin area site header:
+       ![xc5_licenses_activate_key_button_in_header.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_key_button_in_header.png)
+    
+   *   _Method 2:_ Click the **Activate license key** button in the Installed Modules section:
+       ![xc5_licenses_activate_license_key_in_installed_modules.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules.png) 
+        and then to click the **activate your X-Cart license** link:
+        ![xc5_licenses_activate_license_key_in_installed_modules1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_installed_modules1.png)
+           
+   *   _Method 3:_ Click the **Activate license key** button in the Modules Marketplace:
+       ![xc5_licenses_activate_license_key_in_marketplace.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace.png)      
+       and then to click the **activate your X-Cart license** link:
+       ![xc5_licenses_activate_license_key_in_marketplace1.png]({{site.baseurl}}/attachments/ref_qwhmJtqW/xc5_licenses_activate_license_key_in_marketplace1.png)
+        
 When you purchase X-Cart 5 Business, Multivendor or Ultimate, a message is sent to your license registration email address with the subject "**Your X-Cart 5 license key**". This message contains a 16-letter code that you must use to activate your license. 
 
 The key is also stored in your personal HelpDesk account in the section **My Licenses**:
