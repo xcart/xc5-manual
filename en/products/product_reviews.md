@@ -21,10 +21,13 @@ The store administrator has full product review management capabilities:
    * edit and even create new reviews from the Admin area. 
 
 ## Configuring the Product reviews module
-kjhd
+To set your preferences for product reviews:
+   1. In the list of your store's installed modules, locate the entry for Product reviews and click the **Settings ** button below it:
     ![xc5_productreviews_settingsbutton.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_settingsbutton.png)
 
-jjkjl
+     The "Product reviews" module settings page opens:
     ![xc5_productreviews_settings.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_settings.png)
 
+   2. 
+   
 ## Managing product reviews
