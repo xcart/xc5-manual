@@ -64,6 +64,8 @@ Edit the review as you require and click the button to save the changes (For rev
 
 To approve a _Pending_ review, click on the **[...]** button on the line of that review, check if the review requires editing (the review can be edited right away) and click either **Approve** or **Decline**.
 
+To add a new review via the Admin area
+
 To export all reviews, click the **Export all:CSV** button below the Product reviews table. 
 <img>
 
