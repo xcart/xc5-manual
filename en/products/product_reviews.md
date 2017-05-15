@@ -39,19 +39,21 @@ To set your preferences for product reviews:
 
 The Admin area of your store provides a dedicated section for product reviews - the Product reviews section (**Catalog** > **Reviews**). In this section you can view and manage all the reviews that have been created for the products in your store:
 <img>
-Reviews for specific products can also be viewed and managed via the **Reviews** tab of the product information page in the Admin area:
+
+Reviews for specific individual products can also be viewed and managed via the **Reviews** tab of the product information page of the respective products:
 <img>
 
-In both the above-named locations, product reviews are presented in a table. For each review, the following information is available:
+In each of the above-named locations, product reviews are presented in a table. For each review, the following information is available:
 
-   * Product (This column is _not_ provided on the **Reviews** tab of the product information page) : Name of the product that was reviewed.
+   * Product (This column is _not_ provided on the **Reviews** tab of the product information page): Name of the product that was reviewed.
    * Reviewer: Name (as specified by the user while creating the review) and email address of the user who submitted the review.
    * Review: The beginning of the comment about the product that was submitted by the reviewer in the body of the review. To view the entire comment, click on the **[...]** button on the line of the review.
    * Rating: Star rating of the product as was specified by the reviewer.
    * Status: Review publication status (_Published_ = The review is available online; _Pending_ = The review is on moderation, and the administrator has yet to approve the review for publication or to reject it).
    * Date: Date on which the review was submitted.
+   * SEO (This column is provided only on the **Reviews** tab of the product information page): Whether the review should be included into the rich snippet shown for the page of the product when the page appears in search results by Google and other major search engines. More info: https://support.google.com/webmasters/answer/146750
 
-Above the table, a filter is provided allowing you to filter reviews or search for specific reviews.
+In the Product reviews section (**Catalog** > **Reviews**), a filter is provided above the Product reviews table allowing you to filter reviews and search for specific reviews based on 
 <img>
 
 To delete a review, click on the Trash icon on the line of that review in the table. 
@@ -65,9 +67,13 @@ This opens the review for editing:
 <img>
 Edit the review as you require and click the button to save the changes (For reviews in the _Published_ state, this will be the **Update** button; for reviews in the _Pending_ state, the **Approve** button).
 
-To approve a _Pending_ review, click on the **[...]** button on the line of that review, check if the review requires editing (the review can be edited right away) and click either **Approve** or **Decline**.
+To approve a _Pending_ review, click on the **[...]** button on the line of that review, check if the review requires editing (the review can be edited right away) and click either **Approve** or **Remove**.
+<img>
 
-To add a new review via the Admin area, click the **Add review** button above the table and use the blank form for review creation to create a review and save the changes..
+To approve
+
+To add a new review via the Admin area, click the **Add review** button above the table, then use the blank form for review creation to create a review and save the changes.
+<img>
 
 To export all reviews, click the **Export all:CSV** button below the Product reviews table. 
 <img>
