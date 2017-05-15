@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-05-01 18:42 +0400'
+updated_at: '2017-05-15 13:16 +0400'
 identifier: ref_38HKdc1f
 title: User roles
 order: 100
@@ -9,12 +9,26 @@ published: true
 ---
 X-Cart roles enable you to configure different levels of access to the store's back end for different administrator users. A role is a set of permissions providing access to certain features and areas of the back end. This feature may be useful if you have staff who you want to give the permissions to do some of the store management jobs but not others.
 
-After installation, your X-Cart store already has some roles configured - you can view them in the Roles section of the Admin area (**Users** > **Roles**).
+Roles are made available in X-Cart via the module **User permissions**. This module comes for free with X-Cart Business, Multivendor and Ultimate editions.
+    ![xc5_roles_user_permissions_module.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_user_permissions_module.png)
+
+Typically, if you are using X-Cart Business, Multivendor or Ultimate, this module is already enabled, and your X-Cart store already has some roles configured - you can view them in the Roles section of the Admin area (**Users** > **Roles**).
     ![xc5_roles_table.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_table.png)
 
-_Administrator_ is the role providing Root access to the store's back end, which means that an administrator with this role has full access to all the features.
+_Administrator_ is the role providing Root access to the store's back end, which means that an administrator with this role has full access to all the features (no restrictions at all).
 
-Other roles provide limited access to just some of the features. To find out the specific access permissions for each role, click on the role names in the Roles table. For example, if we click on the role name _Coupons management_, we will see a page like the following:
+Other roles provide limited access to just some of the features. This may be described by the following permissions:
+
+    * Manage catalog – enables users having the role to edit the shop inventory;
+    * Manage users – gives users permissions to edit user profiles;
+    * Manage orders – enabled users to view orders and perform actions on them.
+
+This list may be further extended by custom modules or other X-Cart add-ons from the Module Marketplace. For example, the module Simple CMS adds two more permissions to the list:
+
+    * Manage custom pages – enables users to create and edit custom website pages;
+    * Manage menus – enables users to edit the primary menu and footer links.
+
+If your store already has some configured user roles, and you need to find out the specific access permissions for each role, click on the role names in the Roles table. For example, if we click on the role name _Coupons management_, we will see a page like the following:
     ![xc5_roles_coupons_management.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_coupons_management.png)
 
 As you can see from the screenshot above, the role _Coupons management_ provides its user with an only permission - to manage coupons. It means that an administrator with this role will be able to log in to the store's back end, but all they will see there will be the following:
@@ -47,6 +61,4 @@ It is possible to deactivate a role to disable the permissions granted by this r
     
 To assign a role to a user, you need to specify it in the user's account:
     ![xc5_roles_assign_role.png]({{site.baseurl}}/attachments/ref_38HKdc1f/xc5_roles_assign_role.png)
-
-
-
+Note that a user may have more than one role assigned to them.     
