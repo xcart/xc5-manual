@@ -43,7 +43,7 @@ For each review, the following information is available:
 
    * Product: Name of the product that was reviewed.
    * Reviewer: Name (as specified by the user while creating the review) and email address of the user who submitted the review.
-   * Review: Comments about the product that were submitted by the reviewer in the body of the review.
+   * Review: The beginning of the comment about the product that was submitted by the reviewer in the body of the review. To view the entire comment, click on the **[...]** button on the line of the review.
    * Rating: Star rating of the product as was specified by the reviewer.
    * Status: Review publication status (_Published_ = The review is available online; _Pending_ = The review is on moderation, and the administrator has yet to approve the review for publication or to reject it).
    * Date: Date on which the review was submitted.
