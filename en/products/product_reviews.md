@@ -8,5 +8,12 @@ order: 330
 published: false
 ---
 ## About product reviews
+The module **Product reviews** (included in X-Cart business) enables the product ratings and reviews feature for your X-Cart store.
+    ![xc5_productreviews_module.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_module.png)
+
 ## Configuring the Product reviews module
+    ![xc5_productreviews_settings_button.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_settings_button.png)
+
+    ![xc5_productreviews_settings.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_settings.png)
+
 ## Managing product reviews
