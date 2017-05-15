@@ -7,5 +7,6 @@ title: Product reviews
 order: 330
 published: false
 ---
-
+## About product reviews
 ## Configuring the Product reviews module
+## Managing product reviews
