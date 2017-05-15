@@ -67,10 +67,11 @@ This opens the review for editing:
 <img>
 Edit the review as you require and click the button to save the changes (For reviews in the _Published_ state, this will be the **Update** button; for reviews in the _Pending_ state, the **Approve** button).
 
-To approve a _Pending_ review, click on the **[...]** button on the line of that review, check if the review requires editing (the review can be edited right away) and click either **Approve** or **Remove**.
+To moderate a _Pending_ review, click on the **[...]** button on the line of that review, check if the review requires editing (the review can be edited right away) and click either **Approve** or **Remove**.
 <img>
 
-To approve
+To moderate multiple reviews at the same time, select the check boxes for those reviews, click the Check button below the table and select the option you require from the expanded button menu:
+   * 
 
 To add a new review via the Admin area, click the **Add review** button above the table, then use the blank form for review creation to create a review and save the changes.
 <img>
