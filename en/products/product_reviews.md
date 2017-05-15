@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-05-15 12:57 +0400'
+updated_at: '2017-05-15 21:52 +0400'
 identifier: ref_XBriIS6B
 title: Product reviews
 order: 330
@@ -42,7 +42,7 @@ Product reviews can be managed via the Product reviews section of the Admin area
 For each review, the following information is available:
 
    * Product: Name of the product that was reviewed.
-   * Reviewer: Name of the user who submitted the review.
+   * Reviewer: Name (as specified by the user while creating the review) and email address of the user who submitted the review.
    * Review: Comments about the product that were submitted by the reviewer in the body of the review.
    * Rating: Star rating of the product as was specified by the reviewer.
    * Status: Review publication status (_Published_ = The review is available online; _Pending_ = The review is on moderation, and the administrator has yet to approve the review for publication or to reject it).
@@ -56,7 +56,13 @@ To delete a review, click on the Trash icon on the line of that review in the ta
 To delete multiple reviews, select the check boxes for those reviews and click the Trash button below the Product reviews table.
 <img>
 
-To edit a review, 
+To edit a review, click on the **[...]** button on the line of that review:
+<img>
+This opens the review for editing:
+<img>
+Edit the review as you require and click the button to save the changes (For reviews in the _Published_ state, this will be the **Update** button; for reviews in the _Pending_ state, the **Approve** button).
+
+To approve a _Pending_ review, click on the **[...]** button on the line of that review, check if the review requires editing (the review can be edited right away) and click either **Approve** or **Decline**.
 
 To export all reviews, click the **Export all:CSV** button below the Product reviews table. 
 <img>
@@ -68,4 +74,3 @@ To export just some specific reviews, use the filter to find the reviews you nee
 ## Managing product review notifications
 jn
    ![xc5_productreviews_review_submitted_msg.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_review_submitted_msg.png)
-
