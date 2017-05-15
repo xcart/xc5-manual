@@ -46,7 +46,7 @@ Product reviews can be managed via the Product reviews section of the Admin area
    * Status: Review publication status (_Published_ = The review is available online; _On moderation_ = The administrator has yet to approve or reject the publication of the review).
    * Date: Date on which the review was submitted.
 
-Search for product reviews
+Above the table, a filter is provided allowing you to filter reviews or search for specific reviews.
 
   
 
