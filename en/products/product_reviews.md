@@ -37,17 +37,32 @@ To set your preferences for product reviews:
    
 ## Managing product reviews
 
-Product reviews can be managed via the Product reviews section of the Admin area (**Catalog** > **Reviews**). In this section you can see a list of all the reviews that have been created for the products in your store displayed in the form of a table. For each review, the following information is available:
+Product reviews can be managed via the Product reviews section of the Admin area (**Catalog** > **Reviews**). In this section you can see a list of all the reviews that have been created for the products in your store displayed in the form of a table. 
+<img>
+For each review, the following information is available:
 
    * Product: Name of the product that was reviewed.
    * Reviewer: Name of the user who submitted the review.
    * Review: Comments about the product that were submitted by the reviewer in the body of the review.
    * Rating: Star rating of the product as was specified by the reviewer.
-   * Status: Review publication status (_Published_ = The review is available online; _On moderation_ = The administrator has yet to approve or reject the publication of the review).
+   * Status: Review publication status (_Published_ = The review is available online; _Pending_ = The review is on moderation, and the administrator has yet to approve the review for publication or to reject it).
    * Date: Date on which the review was submitted.
 
 Above the table, a filter is provided allowing you to filter reviews or search for specific reviews.
+<img>
 
+To delete a review, click on the Trash icon on the line of that review in the table. 
+<img>
+To delete multiple reviews, select the check boxes for those reviews and click the Trash button below the Product reviews table.
+<img>
+
+To edit a review, 
+
+To export all reviews, click the **Export all:CSV** button below the Product reviews table. 
+<img>
+
+To export just some specific reviews, use the filter to find the reviews you need to export, select the check boxes for those reviews and click the **Export selected:CSV** button below the table.
+<img>
   
 
 ## Managing product review notifications
