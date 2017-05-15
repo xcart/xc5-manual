@@ -37,11 +37,14 @@ To set your preferences for product reviews:
    
 ## Managing product reviews
 
-Product reviews can be managed via the Product reviews section of the Admin area (**Catalog** > **Reviews**). In this section you can see a list of all the reviews that have been created for the products in your store displayed in the form of a table. 
+The Admin area of your store provides a dedicated section for product reviews - the Product reviews section (**Catalog** > **Reviews**). In this section you can view and manage all the reviews that have been created for the products in your store:
 <img>
-For each review, the following information is available:
+Reviews for specific products can also be viewed and managed via the **Reviews** tab of the product information page in the Admin area:
+<img>
 
-   * Product: Name of the product that was reviewed.
+In both the above-named locations, product reviews are presented in a table. For each review, the following information is available:
+
+   * Product (This column is _not_ provided on the **Reviews** tab of the product information page) : Name of the product that was reviewed.
    * Reviewer: Name (as specified by the user while creating the review) and email address of the user who submitted the review.
    * Review: The beginning of the comment about the product that was submitted by the reviewer in the body of the review. To view the entire comment, click on the **[...]** button on the line of the review.
    * Rating: Star rating of the product as was specified by the reviewer.
@@ -64,7 +67,7 @@ Edit the review as you require and click the button to save the changes (For rev
 
 To approve a _Pending_ review, click on the **[...]** button on the line of that review, check if the review requires editing (the review can be edited right away) and click either **Approve** or **Decline**.
 
-To add a new review via the Admin area, click the **Add review** button above the table and use the blank form for review creation to create a review and save the changes.
+To add a new review via the Admin area, click the **Add review** button above the table and use the blank form for review creation to create a review and save the changes..
 
 To export all reviews, click the **Export all:CSV** button below the Product reviews table. 
 <img>
