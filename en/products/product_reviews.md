@@ -11,7 +11,14 @@ published: false
 The module **Product reviews** (included in X-Cart business) enables the product ratings and reviews feature for your X-Cart store.
     ![xc5_productreviews_module.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_module.png)
 
-With this module, you can allow 
+With this module, customers can leave feedback for the products they purchased and see what other buyers think about the products and the store. 
+
+The store administrator has full product review management capabilities: 
+
+   * choose who can write product reviews (any site visitors, registered customers or just those who have purchased the product in this store);   
+   * review the feedback submitted by customers and decide in each case, whether the review should be posted or rejected;
+   * search for specific reviews and filter reviews;
+   * edit and even create new reviews from the Admin area. 
 
 ## Configuring the Product reviews module
 kjhd
