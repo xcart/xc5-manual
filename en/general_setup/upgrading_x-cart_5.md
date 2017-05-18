@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-04-12 18:08 +0400'
+updated_at: '2017-05-18 20:53 +0400'
 identifier: ref_pQQ1CLe1
 title: Upgrading X-Cart 5
 order: 320
@@ -45,7 +45,7 @@ The type of upgrade reflects the significance of changes that the upgrade implem
     <tr>
       <td>Bugfixes only</td>
       <td>Bugfixes<br/>New features<br/>Minor API changes</td>
-      <td>Bugfixes<br/>New features<br/>Minor API changes</td>
+      <td>Bugfixes<br/>New features<br/>Major API changes</td>
     </tr>
     <tr>
       <td>Free anytime</td>
