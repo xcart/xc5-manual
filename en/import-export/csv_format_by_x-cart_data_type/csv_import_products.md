@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-04-27 16:13 +0400'
+updated_at: '2017-05-19 10:34 +0400'
 identifier: ref_WmJBfwxA
 title: 'CSV import: Products'
 categories:
@@ -595,12 +595,13 @@ There are many more fields which you can include into your product CSV file. Bel
 *   If necessary, import can be used to clear previously set field values from non-numeric fields. To clear a field value via import, in your CSV file to be imported specify the value of the field as "NULL". After the import process is completed, the fields in which the value "NULL" has been imported will be cleared.
 
     This feature is supported by the following product fields:
-    -   memberships;
-    -   categories;
-    -   images;
-    -   imagesAlt;
-    -   attributeValue;
-    -   variantImage (Product Variants module).
+    
+    - memberships;
+    - categories;
+    - images;
+    - imagesAlt;
+    - attributeValue;
+    - variantImage (Product Variants module).
     
 ## Updating product variants
 
