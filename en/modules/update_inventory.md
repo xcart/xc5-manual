@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-10 17:39 +0400'
+updated_at: '2017-05-24 09:46 +0400'
 identifier: ref_uSIvmuTh
 title: Update inventory
 version: X-Cart 5.2.13 and higher
@@ -26,7 +26,11 @@ As you can see, the CSV file has just two fields:
 {:.ui.compact.celled.small.padded.table}
 | Field in CSV file | What this field describes | Value type |
 | **sku** | Unique identifier of the product or variant | String, Max. length: 32 |
-| **qty** | Stock level | Positive integer |
+| **qty** | Stock level, unsigned positive number if the change is absolute and signed if the change is relative | Integer |
+
+{% note info %}
+When using **qty** field, you can also specify changes based on the current stock. Relative change is marked with the sign character, e.g. `+5` (stock increase by 5 items) or `-10` (stock decrease by 10 items). 
+{% endnote %}
 
 In a store with the module Update inventory installed and enabled, the CSV file for updating product quantities can be imported via the Update quantity section (**Catalog** > **Update quantity**):
 
