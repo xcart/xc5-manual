@@ -29,7 +29,7 @@ As you can see, the CSV file has just two fields:
 | **qty** | Stock level, unsigned positive number if the change is absolute and signed if the change is relative | Integer |
 
 {% note info %}
-When using **qty** field, you can also specify changes based on the current stock. Relative change is marked with the sign character, e.g. `+5` (stock increase by 5 items) or `-10` (stock decrease by 10 items). 
+(X-Cart 5.3.3+) When using **qty** field, you can also specify changes based on the current stock. Relative change is marked with the sign character, e.g. `+5` (stock increase by 5 items) or `-10` (stock decrease by 10 items). 
 {% endnote %}
 
 In a store with the module Update inventory installed and enabled, the CSV file for updating product quantities can be imported via the Update quantity section (**Catalog** > **Update quantity**):
