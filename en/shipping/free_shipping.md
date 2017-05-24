@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 12:57 +0400'
+updated_at: '2017-05-24 11:42 +0400'
 identifier: ref_rOT8GezP
 title: Free shipping
 categories:
@@ -9,9 +9,10 @@ categories:
 published: true
 order: 140
 ---
+To enable free shipping, use the module **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions).
+    ![xc5_shipping_free_ship_ship_freights.png]({{site.baseurl}}/attachments/ref_rOT8GezP/xc5_shipping_free_ship_ship_freights.png)
 
-
-X-Cart allows you to configure:
+With this module, X-Cart allows you to configure:
 
 *   [Free shipping on specific products](#free-shipping-on-specific-products-or-all-products) (or all products);
 *   [Free shipping on orders that meet certain conditions](#free-shipping-on-orders-that-meet-certain-conditions) (for example, orders delivered to addresses in the immediate vicinity of your store, or orders with a subtotal over a certain amount).
