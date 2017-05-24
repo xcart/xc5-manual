@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 13:07 +0400'
+updated_at: '2017-05-24 11:50 +0400'
 identifier: ref_kioKBJIM
 title: Shipping freight
 categories:
@@ -9,9 +9,8 @@ categories:
 published: true
 order: 160
 ---
-
-
-It is possible to set up individual shipping cost per product using the _Shipping freight_ feature.
+Individual shipping cost per product can be set using the _Shipping freight_ feature. This feature can be enabled using the module **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions).
+    ![xc5_shipping_free_ship_ship_freights.png]({{site.baseurl}}/attachments/ref_kioKBJIM/xc5_shipping_free_ship_ship_freights.png)
 
 For example, you have a product - "Albert Einstein Action Figure" - that you want to be shipped for $5\.
 
@@ -35,4 +34,3 @@ If necessary, you can edit the name and description of this method. To do so, cl
 That is all. Now every unit of the product "Albert Einstein Action Figure" will be shipped for $5 (two units - $10, tree units - $15, and so on). For orders containing other items along with any number of Albert Einstein action figures, the order shipping cost will be $5 multiplied by the number of Albert Einstein action figures + the shipping cost of the rest of the order.
 
 Please note that shipping freight can be set only for tangible goods; i.e. the property **Requires shipping** /** Shippable** in the product details must be set to "Yes" for the setting** Shipping freight** to be visible.
-
