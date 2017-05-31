@@ -7,12 +7,12 @@ title: ''
 order: 100
 published: false
 ---
-[Kissmetrics](https://www.kissmetrics.com/) is a popular behavioral analytics and engagement platform. By integrating your X-Cart store with Kissmetrics you get a mighty tool to analyze your online store and customers’ behaviour in it.
+[Kissmetrics](https://www.kissmetrics.com/) is a popular behavioral analytics and engagement platform. By connecting your X-Cart store to Kissmetrics, you get a mighty tool to analyze your online store and your customers’ behaviour in it.
 
 An X-Cart 5 store can be connected to Kissmetrics using one of the following methods:
    
-   * Method 1: Paste some Kissmetrics-provided JS code into your store using X-Cart's custom JS feature (supported by X-Cart versions 5.1 and later). 
-   * Method 2: Connect X-Cart to Kissmetrics by means of the free Segment Integration module (available for all X-Cart 5 versions).
+   * [Method 1: Paste some Kissmetrics-provided JS code into your store using X-Cart's custom JS feature](#method-1-paste-some-kissmetrics-provided-js-code-into-your-store-using-x-carts-custom-js-feature) (supported by X-Cart versions 5.1 and later). 
+   * [Method 2: Connect X-Cart to Kissmetrics by means of the free Segment Integration module](method-2-connect-x-cart-to-kissmetrics-by-means-of-the-free-segment-integration-module) (available for all X-Cart 5 versions).
 
 ## Method 1: Paste some Kissmetrics-provided JS code into your store using X-Cart's custom JS feature
 
