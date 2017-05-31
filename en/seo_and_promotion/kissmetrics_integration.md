@@ -23,9 +23,13 @@ To connect your X-Cart store to Kissmetrics using this method, follow the steps 
     
    2.  Make sure the "Use Custom JS" selector above the text area is set to "ON". 
     
-   3. In a new browser tab or window, go to the Settings page in your Kissmetrics account and copy the JS code for pasting onto your site. Go back to the tab/window with the Admin area of your X-Cart store and paste the JS code you have copied into the text area for custom JS code. Be sure to remove the script tags (<script type="text/javascript"> and </script>) wrapping this JS code, as X-Cart adds such tags automatically in the background. 
+   3. In a new browser tab or window, go to the [Settings page](https://app.kissmetrics.com/settings) in your Kissmetrics account and copy the tracking snippet for pasting onto your site. Go back to the tab/window with the Admin area of your X-Cart store and paste the JS code you have copied into the text area for custom JS code. Be sure to remove the script tags (<script type="text/javascript"> and </script>) wrapping this JS code, as X-Cart adds such tags automatically in the background. 
     
    4. Save the changes by clicking the **Save changes** button.
+   
+   5. To make sure the tracking snippet you have just pasted works fine, verify that it is logging your own activity in the store in Kissmetrics Live mode. See “My Activity” tab in the left side menu. Paste the URL of your X-Cart store in a special form there, and it will open in a new tab of your browser. Do several typical steps  - try to find a product, add it to cart, place order, rate a product and so on. See all your actions tracked in Kissmetrics. Success? If so, you’re all set! 
+
+   
 
    
 
