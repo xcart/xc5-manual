@@ -27,7 +27,7 @@ To connect your X-Cart store to Kissmetrics using this method, follow the steps 
     
    4. Save the changes by clicking the **Save changes** button.
    
-   5. To make sure the tracking snippet you have just pasted works fine, verify that it is logging your own activity in the store in Kissmetrics Live mode. See the "My Activity" tab on the left hand side menu. Paste the URL of your X-Cart store in a special form there, and it will open in a new tab of your browser. Do a few things your store visitors typically do on your site: try to find a product, add it to the shopping cart, place an order, rate a product, and so on. If you can see all your actions tracked in Kissmetrics, you’re all set! 
+   5. To make sure the tracking snippet you have just pasted works fine, verify that it is capable of logging your own activity in the store in Kissmetrics [Live](https://app.kissmetrics.com/live) mode. Use the field on the "My Activity" tab on the left hand side menu to paste the URL of your X-Cart store and click **Show my activity**; your site will open in a new browser window allowing you to track your own activity. Do a few things your store visitors typically do on your site: try to find a product, add it to the shopping cart, place an order, rate a product, and so on. If you can see all your actions tracked in Kissmetrics, you’re all set! 
 
    
 
