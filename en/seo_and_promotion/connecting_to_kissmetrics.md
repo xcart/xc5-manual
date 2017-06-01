@@ -40,9 +40,18 @@ To connect your store to Kissmetrics via the Segment Integration module, follow 
 
    1. In your X-Cart store's Admin area, go to the Modules section and install the module Segment Integration from the X-Cart marketplace. 
    2. After installing the module, open its Settings page.
-   3. Keeping the Segment Integration module settings page open in your web browser, open a new tab or window to go to Kissmetrics. 
+   3. Keeping the Segment Integration module settings page open in your web browser, open a new tab or window to go to Kissmetrics website. 
       * If you already have a Kissmetrics account, simply login to Kissmetrics. 
       * If you don't yet have a Kissmetrics account, choose to [sign up](https://signin.kissmetrics.com/signup). Then, at the first step of the wizard, select the option "Enable with Segment", and you will be redirected to Segment to sign in/sign up. 
+  4. Open another browser tab or window to go to Segment website. [Sign up for a free account with Segment](https://segment.com/signup), or, if you already have one, simply login to your Segment account. 
+  5. In your Segment account back end, go to the "API Keys" page and find your "Write key". Copy this key to clipboard. 
+  6. Keeping the tab with your Segment account back end open, return to the first tab - the one with the "Segment Integration" settings page in X-Cart - and paste the "Write Key" you have copied at the previous step into the field of the same name. Save the changes. Do not close this tab yet.
+  7. Return to the second tab - the one with your Kissmetrics account back end opened - and go to the Kissmetrics [Settings page](https://app.kissmetrics.com/settings). Pn that page, locate your "Tracking API Key" and copy it to clipboard. And yeah, leave the tab open.
+  8. Switch to the Segment tab. On the "Integrations" page of Segment, find the Kissmetrics integration (Use the search box, as Segment has dozens of integrations aboard).  Click on the integration name to open a setup window...
+  9. 
+
+
+    
 
 
    
