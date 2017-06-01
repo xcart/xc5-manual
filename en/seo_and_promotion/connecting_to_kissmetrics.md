@@ -27,7 +27,7 @@ To connect your X-Cart store to Kissmetrics using this method, follow the steps 
     
    4. Save the changes by clicking the **Save changes** button.
    
-   5. To make sure the tracking snippet you have just pasted works fine, verify that it is capable of logging your own activity in the store in Kissmetrics [Live](https://app.kissmetrics.com/live) mode. Use the field on the "My Activity" tab on the left hand side menu to paste the URL of your X-Cart store and click **Show my activity**; your site will open in a new browser window allowing you to track your own activity. Do a few things your store visitors typically do on your site: try to find a product, add it to the shopping cart, place an order, rate a product, and so on. If you can see all your actions tracked in Kissmetrics, you’re all set! 
+   5. To make sure the tracking snippet you have just pasted works fine, verify that it is capable of logging your own activity in the store in Kissmetrics [Live](https://app.kissmetrics.com/live) mode. Select the "My Activity" tab on the left-hand side menu and use the field provided there to paste the URL of your X-Cart store; click **Show my activity**, and your site will open in a new browser window allowing you to track your own activity. Do a few things your store visitors typically do on your site: try to find a product, add it to the shopping cart, place an order, rate a product, and so on. If you can see all your actions tracked in Kissmetrics, you’re all set! 
       <img>
       
 ## Method 2: Connect X-Cart to Kissmetrics by means of the free Segment Integration module
@@ -46,9 +46,11 @@ To connect your store to Kissmetrics via the Segment Integration module, follow 
   4. Open another browser tab or window to go to Segment website. [Sign up for a free account with Segment](https://segment.com/signup), or, if you already have one, simply login to your Segment account. 
   5. In your Segment account back end, go to the "API Keys" page and find your "Write key". Copy this key to clipboard. 
   6. Keeping the tab with your Segment account back end open, return to the first tab - the one with the "Segment Integration" settings page in X-Cart - and paste the "Write Key" you have copied at the previous step into the field of the same name. Save the changes. Do not close this tab yet.
-  7. Return to the second tab - the one with your Kissmetrics account back end opened - and go to the Kissmetrics [Settings page](https://app.kissmetrics.com/settings). Pn that page, locate your "Tracking API Key" and copy it to clipboard. And yeah, leave the tab open.
+  7. Return to the second tab - the one with your Kissmetrics account back end opened - and go to the Kissmetrics [Settings page](https://app.kissmetrics.com/settings). On that page, locate your "Tracking API Key" and copy it to clipboard. And yeah, leave the tab open.
   8. Switch to the Segment tab. On the "Integrations" page of Segment, find the Kissmetrics integration (Use the search box, as Segment has dozens of integrations aboard).  Click on the integration name to open a setup window...
-  9. 
+  9. Insert the Tracking API key you have copied earlier in Kissmetrics into the API Key field:
+  10. Time to run some tests. If the integration works well, and the customers are already browsing you store now, in about 30 minutes or so you will see the first reports in your Kissmetrics dashboard. But there’s a faster way to verify: you can check how it's logging your own activity in the store in the [Live](https://app.kissmetrics.com/live) mode of Kissmetrics. Select the "My Activity" tab on the left-hand side menu and use the field provided there to paste the URL of your X-Cart store; click **Show my activity**, and your site will open in a new browser window allowing you to track your own activity. Do a few things your store visitors typically do on your site: try to find a product, add it to the shopping cart, place an order, rate a product, and so on. If you can see it tracked by Kissmetrics, welcome to the club =)
+
 
 
     
