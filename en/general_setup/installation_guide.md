@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-04-03 11:11 +0400'
+updated_at: '2017-06-06 02:49 +0400'
 identifier: ref_VG5mIoLT
 title: Installation Guide
 version: X-Cart 5.2.5 and later
@@ -361,7 +361,7 @@ There are disabled functions (phpinfo, escapeshellcmd, escapeshellarg, openlog, 
 
 The list of disable functions can be different.
 
-In order to solve this issue, you should send the list of disableв PHP functions (`phpinfo, escapeshellcmd, escapeshellarg, openlog, syslog, exec, popen` from the example above) to your hosting team and ask to enable them in your account.
+In order to solve this issue, you should send the list of disabled PHP functions (`phpinfo, escapeshellcmd, escapeshellarg, openlog, syslog, exec, popen` from the example above) to your hosting team and ask to enable them in your account.
 
 ### 4\. Disabled PHP extensions
 
