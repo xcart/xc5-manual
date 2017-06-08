@@ -109,15 +109,9 @@ If you want to display more than one product on your Wix website, simply copy-pa
 2.	From your Wix account, find the site you want to edit in the **My Sites** section, and then click **Edit Site**.
 
 3.	In the Wix Website Editor, click the **+** button, and then click **More**:
-
-	![](wix_page_1.jpg)
     
 4.	Click **HTML Code** to add an HTML code widget to the page:
 
-	![](wix_page_2.jpg)
-
 5.	Click **Enter Code**. On the **HTML Settings** dialog, paste the embed code for your Buy Button in the **Add your code here** field and then click **Update**:
-
-	![](wix_page_3.jpg)
     
 6.	Resize the HTML code widget to fit its contents, and move to make sure the product card appears in the right place. When you're done, click **Save**.
