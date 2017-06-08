@@ -38,7 +38,7 @@ Below is a list of supported fields and their respective value types for categor
       </td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Customer billing address fields. The following address fields might or might not be present in your X-Cart installation depending on your address fields configuration.</em>
+      <td colspan="3" class="confluenceTd">Customer billing address fields. The following address fields might or might not be present in your X-Cart installation depending on your address fields configuration.
       </td>
     </tr>
     <tr>
@@ -103,7 +103,7 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Customer shipping address fields. The following address fields might or might not be present in your X-Cart installation depending on your address fields configuration.</em>
+      <td colspan="3" class="confluenceTd">Customer shipping address fields. The following address fields might or might not be present in your X-Cart installation depending on your address fields configuration.
       </td>
     </tr>
     <tr>
@@ -158,7 +158,7 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Order item fields. Each field is a Multirow field and each row represents one specific product.</em>
+      <td colspan="3" class="confluenceTd">Order item fields. Each field is a Multirow field and each row represents one specific product.
       </td>
     </tr>
     <tr>
@@ -202,7 +202,7 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">Float</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Order surcharges. Each surcharge field consists of UPPERCASED surcharge code and (surcharge) suffix. The following two fields are the examples of the general order surchages and may or may not be present in your X-Cart installation</em>
+      <td colspan="3" class="confluenceTd">Order surcharges. Each surcharge field consists of UPPERCASED surcharge code and (surcharge) suffix. The following two fields are the examples of the general order surchages and may or may not be present in your X-Cart installation
       </td>
     </tr>
     <tr>
@@ -236,7 +236,7 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Order payment transactions. The following fields, prefixed by 'paymentTransaction', are Multirow and each row represents a single payment transaction. Order should have at least one payment transaction.</em>
+      <td colspan="3" class="confluenceTd">Order payment transactions. The following fields, prefixed by 'paymentTransaction', are Multirow and each row represents a single payment transaction. Order should have at least one payment transaction.
       </td>
     </tr>
     <tr>
@@ -353,7 +353,7 @@ Below is a list of supported fields and their respective value types for categor
       <td colspan="1" class="confluenceTd">String</td>
     </tr>
     <tr>
-      <td colspan="3" class="confluenceTd"><em> Order history details. The following fields, prefixed by 'detail', are Multirow and each row represents a single history item.</em>
+      <td colspan="3" class="confluenceTd">Order history details. The following fields, prefixed by 'detail', are Multirow and each row represents a single history item.
       </td>
     </tr>
     <tr>
