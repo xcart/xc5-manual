@@ -59,17 +59,20 @@ To add embed code to an individual post:
 
 1.	In your X-Cart admin, create a Buy Button and copy its embed code from the **Embed Code** dialog (or click **Copy embed code to clipboard**):
 
-	![](wordpress_post_1.jpg)
+	![embed_code.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/embed_code.png)
 
-2.	Click **Add New** to create a new post, or click the name of an existing post that you want to display a Buy Button. From the **Add New Post** or **Edit Post** page, change the text editor from Visual to Text mode:
+2.	Click **Add New** to create a new post, or click the name of an existing post that you want to display a Buy Button.
 
-	![](wordpress_post_2.jpg)
+	![wordpress_start.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_start.png)
 
-3.	Paste the embed code into the editor's main text field in the place where you want the Buy Button or collection to appear:
+3.  From the **Add New Post** or **Edit Post** page, change the text editor from Visual to Text mode and paste the embed code into the editor's main text field in the place where you want the Buy Button or collection to appear:
 	
-	![](wordpress_post_3.jpg)
+	![wordpress_publish.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_publish.png)
     
-4.	When you're done, click **Save Draft**, **Preview**, or **Publish**.
+5.	When you're done, click **Save Draft**, **Preview**, or **Publish**. After publish is done, Buy button can be visible in the post.
+
+	![wordpress_finish.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_finish.png)
+
 
 #### Add embed code to a menu
 
@@ -77,19 +80,23 @@ To add embed code to a menu on the homepage:
 
 1.	From your WordPress dashboard, find __Appearance__, and open __Customize__ page to enable the theme editor, and then click __Widgets__:
 
-	![](wordpress_menu_1.jpg)
+	![wordpress_menu_1.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_1.png)
     
 2.	Click the name of the area where you want to add the Buy Button or custom cart code:
 
-	![](wordpress_menu_2.jpg)
+    ![wordpress_menu_2.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_2.png)
     
 3.	Open an existing **Text** widget, or click **Add a Widget**, and then click **Text**:
 
-	![](wordpress_menu_3.jpg)
+	![wordpress_menu_3.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_3.png)	
     
 4.	Paste the embed code into the **Content** text field within the **Text** widget and save the changes:
 
-	![](wordpress_menu_4.jpg)
+	![wordpress_menu_4.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_4.png)
+
+5.  Buy button is now visible as a widget:
+
+	![wordpress_menu_5.png]({{site.baseurl}}/attachments/ref_TEiIdZZc/wordpress_menu_5.png)
 
 ### Adding Buy Button to Wix
 
