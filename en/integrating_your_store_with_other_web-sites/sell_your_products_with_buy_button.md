@@ -1,11 +1,11 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-04 12:42 +0400'
+updated_at: '2017-06-08 16:29 +0400'
 identifier: ref_TEiIdZZc
 title: Sell your products with Buy Button
 order: 100
-published: false
+published: true
 version: X-Cart 5.3.3 and later
 ---
 
@@ -114,7 +114,3 @@ If you want to display more than one product on your Wix website, simply copy-pa
 	![](wix_page_3.jpg)
     
 6.	Resize the HTML code widget to fit its contents, and move to make sure the product card appears in the right place. When you're done, click **Save**.
-
-
-
-
