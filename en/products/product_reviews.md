@@ -38,10 +38,10 @@ To set your preferences for product reviews:
 ## Managing product reviews
 
 The Admin area of your store provides a dedicated section for product reviews - the Product reviews section (**Catalog** > **Reviews**). In this section you can view and manage all the reviews that have been created for the products in your store:
-<img>
+    ![xc5_productreviews_all_product_reviews.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_all_product_reviews.png)
 
 Reviews for specific individual products can also be viewed and managed via the **Reviews** tab of the product information page of the respective products:
-<img>
+    ![xc5_productreviews_reviews_4product.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_reviews_4product.png)
 
 In each of the above-named locations, product reviews are presented in a table. For each review, the following information is available:
 
