@@ -5,7 +5,7 @@ updated_at: '2017-06-11 00:27 +0400'
 identifier: ref_XBriIS6B
 title: Product reviews
 order: 330
-published: false
+published: true
 ---
 ## About product reviews
 The module **Product reviews** (included in X-Cart business) enables the product ratings and reviews feature for your X-Cart store.
