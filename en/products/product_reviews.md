@@ -59,7 +59,7 @@ In the Product reviews section (**Catalog** > **Reviews**), a filter is provided
 To delete a review, click on the Trash icon on the line of that review in the table, then click **Save changes**. 
     ![xc5_productreviews_delete.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_delete.png)
 
-To delete multiple reviews, select the check boxes for those reviews and click the Trash button below the Product reviews table.
+To delete multiple reviews, select the check boxes for those reviews and click the Trash button below the Product reviews table. Then confirm your wish to delete the selected reviews.
     ![xc5_productreviews_delete_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_delete_selected.png)
 
 To edit a review, click on the **[...]** button on the line of that review:
