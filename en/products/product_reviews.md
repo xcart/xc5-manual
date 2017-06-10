@@ -53,8 +53,8 @@ In each of the above-named locations, product reviews are presented in a table. 
    * Date: Date on which the review was submitted.
    * SEO (This column is provided only on the **Reviews** tab of the product information page): Whether the review should be included into the rich snippet shown for the page of the product when the page appears in search results by Google and other major search engines. More info: https://support.google.com/webmasters/answer/146750
 
-In the Product reviews section (**Catalog** > **Reviews**), a filter is provided above the Product reviews table allowing you to filter reviews and search for specific reviews based on 
-<img>
+In the Product reviews section (**Catalog** > **Reviews**), a filter is provided above the Product reviews table allowing you to filter reviews and search for specific reviews based on product name, SKU, customer info, rating given by customer, review status, date range and so on.
+    ![xc5_productreviews_filter.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_filter.png)
 
 To delete a review, click on the Trash icon on the line of that review in the table. 
 <img>
