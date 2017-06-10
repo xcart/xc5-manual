@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-05-15 21:52 +0400'
+updated_at: '2017-06-11 00:27 +0400'
 identifier: ref_XBriIS6B
 title: Product reviews
 order: 330
@@ -83,5 +83,5 @@ To export just some specific reviews, use the filter to find the reviews you nee
   
 
 ## Managing product review notifications
-jn
+When a new product review is submitted, a "New product review submitted" email notification is sent to the store administrator. This notification can be disabled/edited via the Email notifications section (**Store setup** > **Email notifications**).
    ![xc5_productreviews_review_submitted_msg.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_review_submitted_msg.png)
