@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-06-06 22:53 +0400'
+updated_at: '2017-06-10 23:08 +0400'
 identifier: ref_qwhmJtqW
 title: Activating your license
 categories:
@@ -13,7 +13,7 @@ order: 120
 The X-Cart 5 package available for download from the [www.x-cart.com](http://www.x-cart.com/) website is a 30-day feature-complete trial of the X-Cart 5 Business edition. This trial package is licensed for evaluation purposes only. To use your X-Cart 5 installation for purposes other than evaluation, you need a Full X-Cart 5 license (Free, Business, Multivendor or Ultimate) which must be activated for your store. A Free license can be obtained and activated by anyone through the use of the Activate free license feature of the X-Cart 5 trial. The rest of the license types (Business, Multivendor and Ultimate) are non-free and must be purchased; for each X-Cart 5 license you purchase you get a license activation key which you must use to activate your license. Here are the instructions for activating X-Cart 5 licenses:
 
 *   [Activating a Free X-Cart 5 license](#activate-a-free-x-cart-5-license)
-*   [Activating a Premium X-Cart 5 license (Business / Multivendor / Ultimate)](#activating-a-premium-x-cart-5-license-business-multivendor-ultimate)
+*   [Activating a Premium X-Cart 5 license (Business / Multivendor / Ultimate)](#activating-a-premium-x-cart-5license-business--multivendor--ultimate)
 
 Commercial (non-free) modules for X-Cart 5 are also provided with licenses that require activation. If you purchased a module license and need to activate it, use the following instructions:
 
