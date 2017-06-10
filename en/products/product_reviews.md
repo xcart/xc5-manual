@@ -57,9 +57,10 @@ In the Product reviews section (**Catalog** > **Reviews**), a filter is provided
     ![xc5_productreviews_filter.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_filter.png)
 
 To delete a review, click on the Trash icon on the line of that review in the table. 
-<img>
+    ![xc5_productreviews_delete.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_delete.png)
+
 To delete multiple reviews, select the check boxes for those reviews and click the Trash button below the Product reviews table.
-<img>
+    ![xc5_productreviews_delete_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_delete_selected.png)
 
 To edit a review, click on the **[...]** button on the line of that review:
 <img>
@@ -72,8 +73,12 @@ To moderate a _Pending_ review, click on the **[...]** button on the line of tha
 
 To moderate multiple reviews at the same time, select the check boxes for those reviews, click the Check button below the table and select the option you require from the expanded button menu (_Approve selected_ will approve all the selected reviews and publish them on the product details page of the respective products; _Unapprove selected_ will unpublish the selected reviews resetting their status from _Published_ to _Pending_).
 
-To add a new review via the Admin area, click the **Add review** button above the table, then use the blank form for review creation to create a review and save the changes.
-<img>
+To add a new review via the Admin area, click the **Add review** button above the table:
+    ![xc5_productreviews_add_from_admin.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_add_from_admin.png)
+
+...then use the blank form for review creation to create a review and save the changes:
+    ![xc5_productreviews_add_from_admin1.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_add_from_admin1.png)
+
 
 To export all reviews, click the **Export all:CSV** button below the Product reviews table. 
     ![xc5_productreviews_export_all.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_export_all.png)
