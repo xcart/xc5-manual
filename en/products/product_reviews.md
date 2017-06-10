@@ -76,10 +76,10 @@ To add a new review via the Admin area, click the **Add review** button above th
 <img>
 
 To export all reviews, click the **Export all:CSV** button below the Product reviews table. 
-<img>
+    ![xc5_productreviews_export_all.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_export_all.png)
 
 To export just some specific reviews, use the filter to find the reviews you need to export, select the check boxes for those reviews and click the **Export selected:CSV** button below the table.
-<img>
+    ![xc5_productreviews_export_selected.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_export_selected.png)
   
 
 ## Managing product review notifications
