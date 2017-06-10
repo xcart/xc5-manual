@@ -56,7 +56,7 @@ In each of the above-named locations, product reviews are presented in a table. 
 In the Product reviews section (**Catalog** > **Reviews**), a filter is provided above the Product reviews table allowing you to filter reviews and search for specific reviews based on product name, SKU, customer info, rating given by customer, review status, date range and so on.
     ![xc5_productreviews_filter.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_filter.png)
 
-To delete a review, click on the Trash icon on the line of that review in the table. 
+To delete a review, click on the Trash icon on the line of that review in the table, then click **Save changes**. 
     ![xc5_productreviews_delete.png]({{site.baseurl}}/attachments/ref_XBriIS6B/xc5_productreviews_delete.png)
 
 To delete multiple reviews, select the check boxes for those reviews and click the Trash button below the Product reviews table.
