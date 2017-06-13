@@ -43,7 +43,11 @@ define meta elements of your product and category pages - such as the page title
 ## robots.txt and XML sitemap
 Two more things to consider when dealing with the SEO optimization of your X-Cart store are the file robots.txt and your store's XML sitemap.
 
-The file robots.txt is used to give instructions about the site to web robots, and its primary function is to block web robots from accessing the pages of your site that do not need to be indexed by search engines. Your X-Cart store comes bundled with a robots.txt file that should be good for any store installed in the root of your domain. If, however, your X-Cart store is installed in a subdirectory off the domain root, you will need to take a few additional steps to ensure that the robots.txt file for your store actually works. For example, if your store's address is ``www.site.com`` and the robots.txt file can be found at ``www.site.com/robots.txt``, the location of the robots.txt file is correct, and nothing needs to be done. However, if your X-Cart store is installed, for example, at ``www.site.com/store``, the location of the file robots.txt is ``www.site.com/store/robots.txt``, and that is not correct, as that is not the place where robots.txt can be found by web crawling robots. 
+The file robots.txt is used to give instructions about the site to web robots, and its primary function is to block web robots from accessing the pages of your site that do not need to be indexed by search engines. Your X-Cart store comes bundled with a robots.txt file that should be good for any store installed in the root of your domain. If, however, your X-Cart store is installed in a subdirectory off the domain root, you will need to take a few additional steps to ensure that the robots.txt file for your store actually works (see further below for instructions). 
+
+For example, if your store's address is ``www.site.com`` and the robots.txt file can be found at ``www.site.com/robots.txt``, the location of the robots.txt file is correct, and nothing needs to be done. However, if your X-Cart store is installed, for example, at ``www.site.com/store``, the location of the file robots.txt is ``www.site.com/store/robots.txt``, and that is not correct, as that is not the place where robots.txt can be found by web crawling robots. 
+
+So, if your store is installed in a subdirectory, you will need to move the 
 
 
 _See also:_
