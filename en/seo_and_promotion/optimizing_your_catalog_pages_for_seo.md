@@ -25,21 +25,17 @@ To solve the problems posed by dynamic URLs, we recommend using the so-called "c
 
 Information on setting up the clean URLs feature in X-Cart 5 is available in the section {% link %} of this manual.
 
-In your store, clean URLs can be defined for the pages of such objects as products, categories, manufacturers and embedded static pages.
+In your store, clean URLs can be defined for products (see the Marketing section of the product information page when adding a new product or editing an existing one):
+   ![xc5_seo_product_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_clean_url.png)
 
-*   configure custom SEO-friendly "Clean URLs"  for your product and category pages.
+categories:
+   ![xc5_seo_category_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_clean_url.png)
 
-For a product, SEO optimization related settings can be found on the **Info** tab of the product's details page:
+and pages in the Pages section (**Content** > **Pages**):
+   ![xc5_seo_page_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_clean_url.png)
 
-![]({{site.baseurl}}/attachments/6389820/8719379.png)
-
-For a category, these settings can be found on the **Category info** tab of the category's details page:
-
-![]({{site.baseurl}}/attachments/6389820/8719380.png)
-
-Note that by default X-Cart generates Clean URLs for product and category pages automatically: you simply need to make sure the **Autogenerate Clean URL** checkbox option is enabled before you click the button to save the details of the product or category you've been editing.
-
-If necessary, you can manually edit the automatically generated Clean URLs; for that you would need to uncheck the **Autogenerate Clean URL **option and edit the **Clean URL** field directly.
+Note that by default X-Cart generates clean URLs for pages automatically, and you can have X-Cart create a clean URL for a page at any time simply by saving/updating the page with the **Autogenerate Clean URL** checkbox option enabled. 
+If, however, you would like to add or edit a previously added clean URL manually, you can do so by unchecking the **Autogenerate Clean URL** option and editing the contents of the Clean URL field directly.
 
 ## Title and Meta elements
 define meta elements of your product and category pages - such as the page title, meta description and meta keywords.
