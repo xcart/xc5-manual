@@ -49,6 +49,7 @@ Simply put, when a robot looks for the file robots.txt, it strips the path compo
 
 So, if your store is installed in a subdirectory, you will need to move the file robots.txt to the level of your domain root, or - if there is already another robots.txt file at that level - to copy the instructions from the robots.txt file in your X-Cart store directory to the robots.txt at the domain root. In both the cases, you will also need to adjust the paths in the robots.txt file at the domain root level. For example, after moving from ``www.example.com/shop/robots.txt`` to ``www.example.com/robots.txt``, the directive ``Disallow: /Includes/`` should be replaced by ``Disallow: /shop/Includes/``. The same should be done for any of the paths mentioned in robots.txt.
 
+As to your store's XML sitemap, 
 
 _See also:_
 
