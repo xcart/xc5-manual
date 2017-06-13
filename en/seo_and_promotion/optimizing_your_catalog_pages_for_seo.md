@@ -23,7 +23,7 @@ Dynamic URLs containing query strings pose a problem for SEO, because they stop 
 
 To solve the problems posed by dynamic URLs, we recommend using the so-called "clean" URLs feature. Clean URLs are SEO-friendly and human-readable URLs that are used instead of the original dynamic ones. With clean URLs enabled, the above cited page URL could look like ``http://www.example.com/xcart/cup-of-mojo-bluetooth-speaker.html`` or  ``http://www.example.com/xcart/cup-of-mojo-speaker.html`` (You have full control of what the URL says to your customers.)
 
-Information on setting up the clean URLs feature in X-Cart 5 is available in the section {% link %} of this manual.
+Information on setting up the clean URLs feature in X-Cart 5 is available in the section {% link "Setting up seo-friendly URLs" ref_nJxrzFEZ %} of this manual.
 
 In your store, clean URLs can be defined for products (see the Marketing section of the product information page when adding a new product or editing an existing one):
    ![xc5_seo_product_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_clean_url.png)
