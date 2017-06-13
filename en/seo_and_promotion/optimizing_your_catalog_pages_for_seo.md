@@ -13,7 +13,8 @@ When working on the SEO optimization of your X-Cart store, the following things 
 
    *   [Clean URLs](#clean-urls)
    *   [Title and Meta elements](#title-end-meta-elements)
-   *   [robots.txt and XML sitemap](#robotstxt-and-xml-sitemap)
+   *   [robots.txt](#robotstxt)
+   *   [XML sitemap](#xml-sitemap)
 
 ## Clean URLs
 
@@ -40,16 +41,17 @@ If, however, you would like to add or edit a previously added clean URL manually
 ## Title and Meta elements
 define meta elements of your product and category pages - such as the page title, meta description and meta keywords.
 
-## robots.txt and XML sitemap
+## robots.txt 
 Two more things to consider when dealing with the SEO optimization of your X-Cart store are the file robots.txt and your store's XML sitemap.
 
-The file **robots.txt** is used to give instructions about the site to web robots, and its primary function is to block web robots from accessing the pages of your site that do not need to be indexed by search engines. Your X-Cart store comes bundled with a robots.txt file that should be good for any store installed in the root (top-level directory) of your domain. If, however, your X-Cart store is installed in a subdirectory off the domain root, you will need to take a few additional steps to ensure that the robots.txt file for your store actually works (see further below for instructions). 
+The file robots.txt is used to give instructions about the site to web robots, and its primary function is to block web robots from accessing the pages of your site that do not need to be indexed by search engines. Your X-Cart store comes bundled with a robots.txt file that should be good for any store installed in the root (top-level directory) of your domain. If, however, your X-Cart store is installed in a subdirectory off the domain root, you will need to take a few additional steps to ensure that the robots.txt file for your store actually works (see further below for instructions). 
 
 Simply put, when a robot looks for the file robots.txt, it strips the path component from the URL (everything from the first single slash), and puts "robots.txt" in its place. For example, on ``www.example.com``, the robots will expect to find the robots.txt file at ``www.example.com/robots.txt``. If your store's address is ``www.example.com``, your store's robots.txt file can be found exactly at that location, which means it can be accessed by web robots ok, and nothing needs to be done. However, if your X-Cart store is installed, for example, at ``www.example.com/shop``, the location of the file robots.txt is ``www.example.com/shop/robots.txt``. That is not ok and needs to be fixed. 
 
 So, if your store is installed in a subdirectory, you will need to move the file robots.txt to the level of your domain root, or - if there is already another robots.txt file at that level - to copy the instructions from the robots.txt file in your X-Cart store directory to the robots.txt at the domain root. In both the cases, you will also need to adjust the paths in the robots.txt file at the domain root level. For example, after moving from ``www.example.com/shop/robots.txt`` to ``www.example.com/robots.txt``, the directive ``Disallow: /Includes/`` should be replaced by ``Disallow: /shop/Includes/``. The same should be done for any of the paths mentioned in robots.txt.
 
-As to **XML sitemap**, it is a file that does exactly the opposite of robots.txt: it informs search engines about the URLs on your store website that are available for crawling. 
+## XML sitemap
+Another thing that should be checked upon when SEO-optimizing your X-Cart store is XML sitemap. XML sitemap is a collection of xml files whose purpose is exactly the opposite of robots.txt: your store's XML sitemap informs search engines about the URLs on your store website that are available for crawling. To enable search engines to crawl your website better, we strongly recommend submitting your store's XML sitemap to search engines via the inclusion of the XML sitemap URL into robots.txt or manual submission of the URL directly to your chosen search engine. For more info on the use of XML sitemap, see the section {% link "Submitting your shop to search engines" ref_OqJ2oZTE %} of this manual.
 
 _See also:_
 
