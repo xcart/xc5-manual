@@ -6,7 +6,7 @@ identifier: ref_OBh3V1k1
 title: Optimizing your catalog pages for SEO
 categories:
   - User manual
-published: false
+published: true
 order: 110
 ---
 When working on the SEO optimization of your X-Cart store, the following things may require your attention:
@@ -39,7 +39,7 @@ Note that by default X-Cart generates clean URLs for pages automatically, and yo
 If, however, you would like to add or edit a previously added clean URL manually, you can do so by unchecking the **Autogenerate Clean URL** option and editing the contents of the Clean URL field directly.
 
 ## Title and Meta elements
-define meta elements of your product and category pages - such as the page title, meta description and meta keywords.
+The HEAD section of every page in your store contains elements providing metadata about the page. Some of these elements (page title, meta description and meta keywords) may have a significant impact on how the page is ranked by search engines and how it is described in search engine results pages. In X-Cart, you have substantial control over the meta elements and can use them for SEO optimization.
 
 ## robots.txt 
 Another thing to consider when dealing with the SEO optimization of your X-Cart store is the file robots.txt.
