@@ -33,7 +33,7 @@ If you suspect the problem is caused by that your site's cache rebuild process w
     ``https://www.example.com/x-cart/admin.php?drop_cache&access_key=XXXXXXXXXXXXXX``
     Replace the portion "https://www.example.com/x-cart/" with the actual address of your store and use your actual Safe Mode access key instead of XXXXXXXXXXXXXX. The Safe Mode access key can be copied from the file ``var/data/.safeModeAccessKey`` in your X-Cart installation folder or from any of the two reset links that were sent to your site administrator mailbox after X-Cart installation (The message subject reads "**Soft and Hard reset links for your store!**"; for X-Cart versions 5.1.8 and earlier the subject was "**New safe mode access key has been generated!**").
     When you use this link, your existing site cache is dropped, and the cache rebuild process is launched automatically.
-2.  Delete the folder **var/run** and the file **var/.rebuildStarted** in your X-Cart installation folder and go the your store's Admin area. X-Cart will detect the absense of cache and will automatically launch the cache rebuild process.
+2.  Delete the folder **var/run** and the file **var/.rebuildStarted** in your X-Cart installation folder and go to your store's Admin area. X-Cart will detect the absence of cache and will automatically launch the cache rebuild process.
 
 ## Contact your hosting team
 
