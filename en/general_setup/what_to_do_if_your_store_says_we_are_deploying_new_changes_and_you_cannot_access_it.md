@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 22:07 +0400'
+updated_at: '2017-06-13 12:03 +0400'
 identifier: ref_3zSHgdQk
 title: >-
   What to do if your store says &quot;We are deploying new changes&quot; and you
@@ -21,7 +21,7 @@ This article describes what you can do if you face this major problem and get yo
 ## Table of Contents
 
 *   [Table of Contents](#table-of-contents)
-*   [Drop and re-create your site's cache](#drop-and-re-create-your-site's-cache)
+*   [Drop and re-create your site's cache](#drop-and-re-create-your-sites-cache)
 *   [Contact your hosting team](#contact-your-hosting-team)
 *   [Recover your store using safe mode](#recover-your-store-using-safe-mode)
 
