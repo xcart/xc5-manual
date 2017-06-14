@@ -41,11 +41,28 @@ If, however, you would like to add or edit a previously added clean URL manually
 ## Title and Meta elements
 The HEAD section of every page in your store contains elements providing metadata about the page. Some of these elements (page title, meta description and meta keywords) may have a significant impact on how the page is ranked by search engines and how it is described in search engine results pages. In X-Cart, you have substantial control over the meta elements and can use them for SEO optimization.
 
-The title element contained in the <title> tag defines the page title. This element appears in the browser title bar when the page is opened in a web browser; when the page is bookmarked, the title element is also used to describe the page in the bookmarks list.
+The title element contained in the <title> tag defines the page title, for example:
+
+``<title>*Your company name* / Catalog</title>``
+
+This element appears in the browser title bar when the page is opened in a web browser; when the page is bookmarked, the title element is also used to describe the page in the bookmarks list.
 
 The title element is important for search engines. The text contained in the title tag of a page is one of the most important factors that determine how the page is ranked. In addition to that, in all major search engines, the text of the title element is displayed as the title of the page in the search results.
 
 X-Cart provides some controls allowing the store administrator to adjust the format of the title element.
+
+..
+
+The meta description tag provides a brief summary of a page's content; for example:
+
+``<meta name="description" content="Welcome to X-Cart Demo Store!It illustrates operation and features of X-Cart - all-in-one eCommerce solution for swift and easy launch of a professional online store. Orders placed here cannot be fulfilled as all the sample products listed in this store are for demonstration and testing purposes only.">``
+
+The description is the text that goes between the quotation marks after the "content=" portion of the tag.
+This tag comes in handy for SEO because it allows you to influence the description of your store's pages in the web crawlers that support this tag. Different crawlers use this tag differently, but you should expect that if the meta description of your page is deemed relevant by a web crawler, at least a portion of it will be displayed as the description of the page in the search results. If this description is enticing enough, you may get more targeted traffic to your site.
+
+The meta keywords tag is another meta tag that has some significance for SEO. It allows you to provide relevant keywords for your pages; for example:
+
+<meta name="keywords" content="shop, shopping cart, web store, gift certificates, wish list, top sellers" />
 
 ## robots.txt 
 Another thing to consider when dealing with the SEO optimization of your X-Cart store is the file robots.txt.
