@@ -47,7 +47,6 @@ The title element is important for search engines. The text contained in the tit
 
 X-Cart provides some controls allowing the store administrator to adjust the format of the title element.
 
-
 ## robots.txt 
 Another thing to consider when dealing with the SEO optimization of your X-Cart store is the file robots.txt.
 
