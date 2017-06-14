@@ -64,6 +64,10 @@ The meta keywords tag is another meta tag that has some significance for SEO. It
 
 <meta name="keywords" content="shop, shopping cart, web store, gift certificates, wish list, top sellers" />
 
+Today, very few search engines rely on this tag for information about a page. However, you can still try to use this tag to reinforce the terms you think a page is important for.
+
+In X-Cart, a meta description and keywords tags can be defined for every page of the store site.
+
 ## robots.txt 
 Another thing to consider when dealing with the SEO optimization of your X-Cart store is the file robots.txt.
 
