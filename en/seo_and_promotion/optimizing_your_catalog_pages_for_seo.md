@@ -49,9 +49,11 @@ This element appears in the browser title bar when the page is opened in a web b
 
 The title element is important for search engines. The text contained in the title tag of a page is one of the most important factors that determine how the page is ranked. In addition to that, in all major search engines, the text of the title element is displayed as the title of the page in the search results.
 
-X-Cart provides some controls allowing the store administrator to adjust the format of the title element.
+X-Cart provides some controls allowing the store administrator to adjust the title element.
 
-..
+First, on the SEO settings page (**Store setup** > **SEO settings**), you can set the default site title and the title for the site's home page:
+
+![xc5_seo_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_title.png)
 
 The meta description tag provides a brief summary of a page's content; for example:
 
