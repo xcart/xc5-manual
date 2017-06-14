@@ -61,14 +61,14 @@ Further below on the same page there is also a set of controls that enable you t
 
 On the pages of products and categories, as well as on the content pages in the Pages section (**Content** > **Pages**), you can find the fields to set the page title (or rather the object name part of the page title):
 
-    *  the Product page title field on the product page:
-    ![xc5_seo_product_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_page_title.png)
+   *  the Product page title field on the product page:
+   ![xc5_seo_product_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_page_title.png)
 
-    *  the Category page title field on the category page:
-    ![xc5_seo_category_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_page_title.png)
+   *  the Category page title field on the category page:
+   ![xc5_seo_category_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_page_title.png)
 
-    * the Content page title field on a content page:
-    ![xc5_seo_content_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_title.png)
+   * the Content page title field on a content page:
+   ![xc5_seo_content_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_title.png)
 
 The meta description tag provides a brief summary of a page's content; for example:
 
