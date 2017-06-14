@@ -32,7 +32,7 @@ In your store, clean URLs can be defined for products (see the Marketing section
 categories:
    ![xc5_seo_category_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_clean_url.png)
 
-and pages in the Pages section (**Content** > **Pages**):
+and content pages in the Pages section (**Content** > **Pages**):
    ![xc5_seo_page_clean_url.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_clean_url.png)
 
 Note that by default X-Cart generates clean URLs for pages automatically, and you can have X-Cart create a clean URL for a page at any time simply by saving/updating the page with the **Autogenerate Clean URL** checkbox option enabled. 
@@ -54,6 +54,21 @@ X-Cart provides some controls allowing the store administrator to adjust the tit
 First, on the SEO settings page (**Store setup** > **SEO settings**), you can set the default site title and the title for the site's home page:
 
 ![xc5_seo_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_title.png)
+
+Further below on the same page there is also a set of controls that enable you to set the format of complex page titles:
+
+![xc5_seo_page_title_format.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_title_format.png)
+
+On the pages of products and categories, as well as on the content pages in the Pages section (**Content** > **Pages**), you can find the fields to set the page title (or rather the object name part of the page title):
+
+    *  the Product page title field on the product page:
+    ![xc5_seo_product_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_page_title.png)
+
+    *  the Category page title field on the category page:
+    ![xc5_seo_category_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_page_title.png)
+
+    * the Content page title field on a content page:
+    ![xc5_seo_content_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_title.png)
 
 The meta description tag provides a brief summary of a page's content; for example:
 
