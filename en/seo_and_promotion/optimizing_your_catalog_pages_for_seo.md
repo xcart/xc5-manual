@@ -41,6 +41,13 @@ If, however, you would like to add or edit a previously added clean URL manually
 ## Title and Meta elements
 The HEAD section of every page in your store contains elements providing metadata about the page. Some of these elements (page title, meta description and meta keywords) may have a significant impact on how the page is ranked by search engines and how it is described in search engine results pages. In X-Cart, you have substantial control over the meta elements and can use them for SEO optimization.
 
+The title element contained in the <title> tag defines the page title. This element appears in the browser title bar when the page is opened in a web browser; when the page is bookmarked, the title element is also used to describe the page in the bookmarks list.
+
+The title element is important for search engines. The text contained in the title tag of a page is one of the most important factors that determine how the page is ranked. In addition to that, in all major search engines, the text of the title element is displayed as the title of the page in the search results.
+
+X-Cart provides some controls allowing the store administrator to adjust the format of the title element.
+
+
 ## robots.txt 
 Another thing to consider when dealing with the SEO optimization of your X-Cart store is the file robots.txt.
 
@@ -51,7 +58,7 @@ Simply put, when a robot looks for the file robots.txt, it strips the path compo
 So, if your store is installed in a subdirectory, you will need to move the file robots.txt to the level of your domain root, or - if there is already another robots.txt file at that level - to copy the instructions from the robots.txt file in your X-Cart store directory to the robots.txt at the domain root. In both the cases, you will also need to adjust the paths in the robots.txt file at the domain root level. For example, after moving from ``www.example.com/shop/robots.txt`` to ``www.example.com/robots.txt``, the directive ``Disallow: /Includes/`` should be replaced by ``Disallow: /shop/Includes/``. The same should be done for any of the paths mentioned in robots.txt.
 
 ## XML sitemap
-Another thing that should be checked upon when SEO-optimizing your X-Cart store is XML sitemap. XML sitemap is a collection of xml files whose purpose is exactly the opposite of robots.txt: your store's XML sitemap informs search engines about the URLs on your store website that are available for crawling. To enable search engines to crawl your website better, we strongly recommend submitting your store's XML sitemap to search engines via the inclusion of the XML sitemap URL into robots.txt or manual submission of the URL directly to your chosen search engine. For more info on the use of XML sitemap, see the section {% link "Submitting your shop to search engines" ref_OqJ2oZTE %} of this manual.
+Another thing that should be checked upon when SEO-optimizing your X-Cart store is XML sitemap. XML sitemap is one or more xml files whose purpose is exactly the opposite of robots.txt: your store's XML sitemap informs search engines about the URLs on your store website that are available for crawling. To enable search engines to crawl your website better, we strongly recommend submitting your store's XML sitemap to search engines via the inclusion of the XML sitemap URL into robots.txt or manual submission of the URL directly to your chosen search engine. For more info on the use of XML sitemap, see the section {% link "Submitting your shop to search engines" ref_OqJ2oZTE %} of this manual.
 
 _See also:_
 
