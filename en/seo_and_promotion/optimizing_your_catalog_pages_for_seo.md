@@ -55,7 +55,15 @@ First, on the SEO settings page (**Store setup** > **SEO settings**), you can ac
 
    ![xc5_seo_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_title.png)
 
-Further below on the same page there is also a set of controls that enable you to set the format of complex page titles:
+To edit the default site title, click on the [Edit] link for the respective field. This will get you to the Edit labels section where you will be able to edit the  language label _default-site-title_ in which the default site title is stored:
+
+   ![xc5_seo_default_site_title_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_site_title_label.png)
+
+To edit the title for the Home page, click on the [Edit] link at the bottom of the Home page title and meta section. You will be redirected to the Front page settings page (**Content** > **Front page**), which is the place where you can adjust the Home page title:
+
+   ![xc5_seo_home_page_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_home_page_title.png)
+
+In the Page title format section of the SEO settings page there is also a set of controls that enable you to set the format of complex page titles:
 
    ![xc5_seo_page_title_format.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_title_format.png)
 
