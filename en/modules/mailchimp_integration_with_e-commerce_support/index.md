@@ -10,7 +10,6 @@ published: false
 
 _In this section:_
 
-
 *   {% link "Getting started with MailChimp Integration with E-commerce support" ref_w5MRyybe %}
 *   {% link "MailChimp Integration with E-commerce support module system requirements and installation" ref_mM1NJfdm %}
 *   {% link "Configuring the MailChimp Integration with E-commerce support module" ref_ST1QnErC %}
