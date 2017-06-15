@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-06-13 13:51 +0400'
+updated_at: '2017-06-15 15:40 +0400'
 identifier: ref_OBh3V1k1
 title: Optimizing your catalog pages for SEO
 categories:
@@ -12,7 +12,7 @@ order: 110
 When working on the SEO optimization of your X-Cart store, the following things may require your attention:
 
    *   [Clean URLs](#clean-urls)
-   *   [Title and Meta elements](#title-end-meta-elements)
+   *   [Title and Meta elements](#title-and-meta-elements)
    *   [robots.txt](#robotstxt)
    *   [XML sitemap](#xml-sitemap)
 
