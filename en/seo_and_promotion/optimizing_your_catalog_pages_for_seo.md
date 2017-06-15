@@ -51,13 +51,13 @@ The title element is important for search engines. The text contained in the tit
 
 X-Cart provides some controls allowing the store administrator to adjust the title element.
 
-First, on the SEO settings page (**Store setup** > **SEO settings**), you can set the default site title and the title for the site's home page:
+First, on the SEO settings page (**Store setup** > **SEO settings**), you can access the sections to set the default site title and the title for the site's home page:
 
-![xc5_seo_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_title.png)
+   ![xc5_seo_title.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_title.png)
 
 Further below on the same page there is also a set of controls that enable you to set the format of complex page titles:
 
-![xc5_seo_page_title_format.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_title_format.png)
+   ![xc5_seo_page_title_format.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_page_title_format.png)
 
 On the pages of products and categories, as well as on the content pages in the Pages section (**Content** > **Pages**), you can find the fields to set the page title (or rather the object name part of the page title):
 
@@ -84,6 +84,20 @@ The meta keywords tag is another meta tag that has some significance for SEO. It
 Today, very few search engines rely on this tag for information about a page. However, you can still try to use this tag to reinforce the terms you think a page is important for.
 
 In X-Cart, a meta description and keywords tags can be defined for every page of the store site.
+
+On the SEO settings page (**Store setup** > **SEO settings**), you can access the sections for setting the default site meta description and keywords, as well as the meta description and keywords for the site's home page:
+   ![xc5_seo_meta_seo_settings.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_meta_seo_settings.png)
+
+On the pages of products and categories, as well as on the content pages in the Pages section (**Content** > **Pages**), you can find the fields to set the meta description and meta keywords for the respective pages:
+
+   *  on the product page:
+   ![xc5_seo_product_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_product_meta.png)
+
+   *  on the category page:
+   ![xc5_seo_category_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_category_meta.png)
+
+   * on the content page:
+   ![xc5_seo_content_page_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_content_page_meta.png)
 
 ## robots.txt 
 Another thing to consider when dealing with the SEO optimization of your X-Cart store is the file robots.txt.
