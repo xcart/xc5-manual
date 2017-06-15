@@ -13,6 +13,6 @@ published: false
 * Enable E-commerce analytics
 * Enable Abandoned Carts
 * Enable single opt-in for customers
-* Subscription select element type
-* Update MailChimp lists every (Never, 1 minute, 10 minutes, etc.)
+* Subscription select element type (_Type:checkbox_ or _Type:select box_): This setting defines the way your customers select a subscription. If the select box option is used, your customers can subscribe to only one mail list; if the checkbox option is used, your customers can subscribe to multiple lists.
+* Update MailChimp lists every (_Never, 1 minute, 10 minutes, etc._):
 
