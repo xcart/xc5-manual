@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-06-15 18:06 +0400'
+updated_at: '2017-06-15 18:12 +0400'
 identifier: ref_mM1NJfdm
-title: ''
+title: "MailChimp Integration with E-commerce support module\_system requirements\_and installation"
 order: 100
 published: false
 ---
-## 
+##
