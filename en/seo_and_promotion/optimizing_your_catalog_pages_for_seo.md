@@ -96,6 +96,18 @@ In X-Cart, a meta description and keywords tags can be defined for every page of
 On the SEO settings page (**Store setup** > **SEO settings**), you can access the sections for setting the default site meta description and keywords, as well as the meta description and keywords for the site's home page:
    ![xc5_seo_meta_seo_settings.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_meta_seo_settings.png)
 
+To edit the default site meta description, click on the [Edit] link for the respective field. This will get you to the Edit labels section where you will be able to edit the language label _default-meta-description_ in which the default meta description is stored:
+   
+   ![xc5_seo_default_meta_description_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_meta_description_label.png)
+
+To edit the default site meta keywords, click on the [Edit] link for the respective field. This will get you to the Edit labels section where you will be able to edit the language label _default-meta-keywords_ in which the default site meta keywords are stored:
+   
+   ![xc5_seo_default_meta_keywords_label.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_default_meta_keywords_label.png)
+
+To edit the meta description and keywords for the Home page, click on the [Edit] link at the bottom of the Home page title and meta section. You will be redirected to the Front page settings page (**Content** > **Front page**), which is the place where you can adjust the Home page meta description and keywords:
+
+   ![xc5_seo_home_page_meta.png]({{site.baseurl}}/attachments/ref_OBh3V1k1/xc5_seo_home_page_meta.png)
+
 On the pages of products and categories, as well as on the content pages in the Pages section (**Content** > **Pages**), you can find the fields to set the meta description and meta keywords for the respective pages:
 
    *  on the product page:
