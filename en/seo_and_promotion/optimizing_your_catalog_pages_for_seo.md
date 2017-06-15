@@ -87,7 +87,7 @@ This tag comes in handy for SEO because it allows you to influence the descripti
 
 The meta keywords tag is another meta tag that has some significance for SEO. It allows you to provide relevant keywords for your pages; for example:
 
-<meta name="keywords" content="shop, shopping cart, web store, gift certificates, wish list, top sellers" />
+``<meta name="keywords" content="shop, shopping cart, web store, gift certificates, wish list, top sellers" />``
 
 Today, very few search engines rely on this tag for information about a page. However, you can still try to use this tag to reinforce the terms you think a page is important for.
 
