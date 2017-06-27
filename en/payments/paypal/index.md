@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-03-23 18:25 +0400'
+updated_at: '2017-06-27 15:29 +0400'
 identifier: ref_g8OosGK4
 title: PayPal
 categories:
@@ -17,10 +17,10 @@ This module can be used to enable payments via the following methods:
 *   {% link "PayPal Express Checkout" ref_vHffMFLk %}
 *   PayPal Credit
 *   {% link "PayPal Payments Standard" ref_DT2EX6fz %}
-*   PayPal Payments Advanced
+*   {% link "PayPal Payments Advanced" ref_sO5X6iBT %}
 *   PayPal Payments Pro (PayPal API)
 *   PayPal Payments Pro (Payflow API)
-*   PayPal Payflow Link
+*   {% link "PayPal Payflow Link" ref_mTCkpViN %}
 *   PayPal Partner Hosted with PCI Compliance
 *   {% link "PayPal Adaptive payments" ref_FdXWLwVN %}
 
