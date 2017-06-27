@@ -1,13 +1,13 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-06-27 15:29 +0400'
+updated_at: '2017-06-27 15:48 +0400'
 identifier: ref_g8OosGK4
 title: PayPal
 categories:
   - User manual
 published: true
-order: 100
+order: 300
 ---
 To accept payments in an X-Cart based store using PayPal, use the module **PayPal** by X-Cart team.
     ![xc5_paypal_module.png]({{site.baseurl}}/attachments/ref_g8OosGK4/xc5_paypal_module.png)
