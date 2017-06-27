@@ -11,6 +11,7 @@ published: true
 A payment gateway is an essential part of your online strategy. Popular shopping carts are compatible with a great variety of payment systems widely known as payment gateways. But how can you choose the one that is right for you? You do not have the luxury of rectifying a wrong decision. Apart from the cost of the service, you stand to lose out much more - customers, orders, fraud related losses, integration time, time to market etc.
 On the stage of getting your online store live, you will likely face the problem of accepting credit card payments from your customers. It is the most common and convenient payment method available over the Internet. To be able to accept credit card payments at your X-Cart based online store, you will need to subscribe for the service of a payment gateway which will process credit cards for you. Payment gateway service is available from such companies as Authorize.NET, PayPal, WorldPay, 2CheckOut and some others.
 There are several significant benefits when using this type of service:
+
 *   Most payment gateways have a sophisticated fraud protection mechanism that helps to avoid most chargebacks from the customers whose credit card might have been stolen by hackers.
 *   The process is fully automated so you can save a vast amount of time if you have many orders.
 *   Some payment gateways like 2CheckOut enable you to accept credit cards even if you do not have an internet merchant account (It may be difficult to obtain a merchant account if you have just started a business and haven't got a positive credit history yet).
@@ -19,6 +20,7 @@ There are several significant benefits when using this type of service:
 
 ### Things to ask first
 Some important initial questions you should ask of any potential vendor of billing software include:
+
 *   How long has the company been in business?
 *   What is the history of the company?
 *   How long has the particular features package you're interested in been on the market?
@@ -34,6 +36,7 @@ Some important initial questions you should ask of any potential vendor of billi
 First, you should draw a line between payment gateways that require a merchant account and those that don't.
 Payment gateways requiring a merchant account usually offer attractive commission rates, for example 1.8% of each transaction, a fixed $0.20 from each transaction, and a series of monthly charges grouped under several headings, usually amounting to less than $100. This means that your company keeps a greater share of gross sales.
 On the other hand, payment gateways requiring a merchant account have several disadvantages:
+
 *   They seldom engage in fraud prevention and rather leave it in the hands of the seller to decide which transactions are safe to accept and which should be rejected. If the company suffers a high rate of fraud, the gateway provider may terminate the service.
 *   Moreover, signing up for a merchant account can take around one month, and these are usually only granted to incorporated companies with an existing financial background.
 *   Lastly, it can be hard to get authorization for transactions with certain credit cards such as American Express and Diners Club.
@@ -63,11 +66,12 @@ Financial transactions require profound security measures. And it is not only th
 ### Easy integration
 Time-to-market is the mantra for online businesses. Every online customer lost to a competitor represents higher customer acquisition costs. Additionally, most merchants today outsource their website development. It is crucial therefore that the payment gateway offers you an easy integration process. This is another area where few payment gateways offer ready-made integration kits for all possible platforms. Quite a few payment gateways implement only complex Socket based APIs requiring you to write clients in specific languages to talk proprietary protocols. Another common problem faced here is that some payment gateways have integration kits that require a DLL or a component to be installed on your server. This becomes an issue if you are hosted in a virtual hosting environment. Your server provider may not be willing to install any component on their servers. Make sure to check up on the feasibility of the integration process in detail before you make up you mind in the choice of a payment gateway.
 
-### Comprehensive merchant interface[edit]
+### Comprehensive merchant interface
 One more aspect to check from the beginning is the functionality provided by the merchant interface. The types of reports available, the interfaces available for searching transactions, processing captures and refunds, requesting withdrawals etc. In fact, you should request a demo of the merchant interface before you make your payment gateway decision to ensure that it supports all the features you require.
 
 ### Hidden costs
 Many payment gateways may have hidden costs associated with them that may not be disclosed in the beginning. This may not allow you to compare them with enough depth. Some of the hidden costs with any payment gateway service are as follows:
+
 *   Chargeback fees
 *   Chargeback Forex losses: this particular item is important. Most banks, or payment gateways will charge you Forex losses on chargebacks. Sometimes this can translate to a substantial amount. Some service providers, however, will bear the chargeback losses themselves.
 *   Reversal fees
@@ -78,6 +82,7 @@ Many payment gateways may have hidden costs associated with them that may not be
 *   Statement fees (more for more services)
 *   Customer support fees
 *   Withdrawal charges
+
 Most of these costs will not be mentioned on their websites. It is important that you understand all the costs mentioned above and ask the provider directly for all the information regarding these costs. Most providers will charge you these fees without disclosing them to you.
 
 ### Time to withdrawal
@@ -98,6 +103,7 @@ Another factor to bear in mind is that some payment gateways are not available f
 ### Call back response
 Lastly, we should mention the call back response or silent response feature. What is it, and how can it help selling with the shopping cart?
 A call back response is a silent and secure signal sent by the payment gateway to the shopping cart to notify it about the result of a transaction. It is extremely useful to update the order status from pending to paid and trigger other processes related to the approval of a payment, such as:
+
 *   Decreasing the stock of the products purchased
 *   Delivering digital goods
 *   Increasing sales figures
