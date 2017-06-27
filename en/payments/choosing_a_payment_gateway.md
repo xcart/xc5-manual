@@ -43,7 +43,7 @@ In the case of payment gateways not requiring a merchant account, the main advan
 *   There are usually no fixed charges (only a commission over transactions).
 Of course the disadvantage is a less attractive commission rate, usually between 5.5% and 12%, with a $0.80 fixed rate per transaction. It is also worth noting that the name on the customer's credit card statement will be the name of the payment company, not yours.
 
-See the list of ready-to use payment processing integrations for X-Cart 5 in our [https://market.x-cart.com/addons/#filter[edition]=6&filter[priceType]=all&filter[tags]=Payment%20processing&filter[sortBy]=p.arrivalDate Marketplace]. Choose the one that looks good for your needs and contact the payment gateway reps directly to create a merchant account. Can’t find your payment gateway in this list? Email us at support@x-cart.com.
+See the list of ready-to use payment processing integrations for X-Cart 5 in our [Marketplace](https://market.x-cart.com/addons/#filter[edition]=6&filter[priceType]=all&filter[tags]=Payment%20processing&filter[sortBy]=p.arrivalDate "Choosing a payment gateway"). Choose the one that looks good for your needs and contact the payment gateway reps directly to create a merchant account. Can’t find your payment gateway in this list? Email us at support@x-cart.com.
 
 ### Integration, customization and branding
 From the technological point of view, you should consider the type of integration and security measures offered by each gateway. One of the most important criteria is that your customers receive a consistent and smooth transaction experience through this process. Many 3rd party payment gateways forget this fact.
@@ -104,8 +104,13 @@ A call back response is a silent and secure signal sent by the payment gateway t
 *   Notifying affiliates and suppliers
 
 ## Alternatives to online systems
-X-Cart also supports payments through non-credit card means, for example PayPal. This company acts as an intermediary between users and transfers funds from one user to another by discounting the amount of the transaction from the payer's account. This system can be useful in certain cases, although the verification procedure is quite complicated.
+X-Cart also supports payments through non-credit card means, for example {% link "PayPal" ref_g8OosGK4 %}. This company acts as an intermediary between users and transfers funds from one user to another by discounting the amount of the transaction from the payer's account. This system can be useful in certain cases, although the verification procedure is quite complicated.
 
 ## Conclusion
 If your store is just starting out, you will want to keep fixed costs low. You should choose a gateway that offers its own SSL certificate free of charge, does not require installing components on your server, and does not charge excessive penalties for chargebacks.
 If your store is already established, with a clear projection of sales levels, you will want to choose a gateway that allows you to use your own merchant account and your own SSL certificate, and offers all the security measures and uniformity of advanced integration methods.
+
+## See also
+*   {% link "Accepting payments" ref_Jq6Bsdrt %}
+*   {% link "PayPal" ref_g8OosGK4 %}
+*   [List of X-Cart 5 payment processing modules](https://market.x-cart.com/addons/#filter[edition]=6&filter[priceType]=all&filter[tags]=Payment%20processing&filter[sortBy]=p.arrivalDate "Choosing a payment gateway")
