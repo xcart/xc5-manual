@@ -31,3 +31,28 @@ Some important initial questions you should ask of any potential vendor of billi
 *   What is the cost of their 'basic' system and what is 'included'? What additional products are available at an extra charge to enhance the basic software package?
 
 ### Merchant account
+First, you should draw a line between payment gateways that require a merchant account and those that don't.
+Payment gateways requiring a merchant account usually offer attractive commission rates, for example 1.8% of each transaction, a fixed $0.20 from each transaction, and a series of monthly charges grouped under several headings, usually amounting to less than $100. This means that your company keeps a greater share of gross sales.
+On the other hand, payment gateways requiring a merchant account have several disadvantages:
+*   They seldom engage in fraud prevention and rather leave it in the hands of the seller to decide which transactions are safe to accept and which should be rejected. If the company suffers a high rate of fraud, the gateway provider may terminate the service.
+*   Moreover, signing up for a merchant account can take around one month, and these are usually only granted to incorporated companies with an existing financial background.
+*   Lastly, it can be hard to get authorization for transactions with certain credit cards such as American Express and Diners Club.
+In the case of payment gateways not requiring a merchant account, the main advantages are:
+*   You will be ready to sell immediately.
+*   Fraud prevention tools are provided free of charge.
+*   There are usually no fixed charges (only a commission over transactions).
+Of course the disadvantage is a less attractive commission rate, usually between 5.5% and 12%, with a $0.80 fixed rate per transaction. It is also worth noting that the name on the customer's credit card statement will be the name of the payment company, not yours.
+
+### Integration, customization and branding
+From the technological point of view, you should consider the type of integration and security measures offered by each gateway. One of the most important criteria is that your customers receive a consistent and smooth transaction experience through this process. Many 3rd party payment gateways forget this fact.
+The feature acceptable for quick implementation is web form integration with the payment gateway: integration simply consists of a web form to send payment information. In a typical transaction, therefore, your сustomer is shunted from your website to the payment gateway website. The look and feel of both websites are different resulting in a non-consistent experience. This is proven to reduce the trust factor for a customer. Some payment gateways allow you to put a header banner, or a logo. This however is not enough to provide a consistent experience. Some of the best payment services allow complete customization of the payment pages. You can change the text color, size, font, background colors, header, header background, etc. - all through an easy-to-use web based interface. In selecting a payment gateway, ensure that you obtain an interface that allows you to completely customise the payment pages.
+If you are looking to get a secure and uniform integration, you should choose a gateway with the most complex integration method. However, the first thing you should do is consult with your hosting provider if you comply with all the requirements (SSL certificate, permission to install components, permission to open ports in the firewall, etc.)
+
+### Fraud detection and risk mitigation
+Indeed, business loss from online fraud can be daunting. So merchants have realised the importance of taking measures to minimise losses occurring due to online fraud. It is important that the payment gateway you choose supports basic fraud detection and risk mitigation measures. Note that fraud detection does not simply end with AVS, or CVV2. Most payment gateways will offer you CVV (Verified by Visa) checking. While it is an additional measure, it does not successfully detect fraudulent patterns. Ideally choose a payment gateway that offers you fraud detection tools apart from just AVS and CVV2.
+
+### Transaction features
+Credit card transactions have a versatile set of features. There are various modes of transaction that can be performed. Auth-capture, sale mode, reversal, partial captures, partial reversals etc. It is important that the payment gateway supports all the transaction modes. Various business occasions require different combinations of these transaction modes.
+For instance, if a customer places an order you will want to authorise the transaction. If you do not have all the items the customer has ordered, you will need to initiate a partial capture at the time of delivery. If the customer has got the items, but one of them is damaged, they will return it back to you, and in this case you will need to initiate a partial refund.
+
+### Security
