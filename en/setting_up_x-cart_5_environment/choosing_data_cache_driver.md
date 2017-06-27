@@ -32,7 +32,7 @@ We suggest adding a task via the `crontab` shell program (on UNIX-based systems)
 This example task will purge the datacache folder at midnight of the each day.
 
 More info about setting up the cron tasks can be found [here](https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/).
-{% endif %}
+{% endnote %}
 
 ## Configuring the X-Cart cache driver
 
