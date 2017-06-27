@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-06-27 14:24 +0400'
 identifier: ref_CT7rXfVw
-title: ''
+title: Choosing a payment gateway
 order: 100
 published: false
 ---
