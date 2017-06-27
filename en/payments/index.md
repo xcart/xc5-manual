@@ -12,7 +12,6 @@ description: Enable payment methods to accept payments from buyers
 published: true
 ---
 
-
 _In this section:_
 
 *   {% link "Choosing a payment gateway" ref_CT7rXfVw %}
