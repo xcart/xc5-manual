@@ -5,7 +5,7 @@ updated_at: '2017-06-27 14:24 +0400'
 identifier: ref_CT7rXfVw
 title: Choosing a payment gateway
 order: 100
-published: false
+published: true
 ---
 ## Overview
 A payment gateway is an essential part of your online strategy. Popular shopping carts are compatible with a great variety of payment systems widely known as payment gateways. But how can you choose the one that is right for you? You do not have the luxury of rectifying a wrong decision. Apart from the cost of the service, you stand to lose out much more - customers, orders, fraud related losses, integration time, time to market etc.
