@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 22:08 +0400'
+updated_at: '2017-07-07 12:24 +0400'
 identifier: ref_h7Oh5T8T
 title: Restoring your store with the Snapshots feature
 version: X-Cart 5.2.5 and later
@@ -150,7 +150,7 @@ To revert to a particular snapshot, enter the following link in your web browser
 
 `http://<shop_domain>/admin.php?target=main&safe_mode=1&access_key=<shop_key>&date=<restore_date>`
 
-(Be sure to replace the `<shop_domain>` portion of the link with the actual address of your store and `<restore_date>` with the date of the snapshot you wish to restore).
+Be sure to replace `<shop_domain>` with the actual address of your store, `<shop_key>` with your Safe Mode access key  and `<restore_date>` with the date of the snapshot you wish to restore. The Safe Mode access key can be copied from the file var/data/.safeModeAccessKey in your X-Cart installation folder or from any of the two reset links that were sent to your site administrator mailbox after X-Cart installation. The message subject reads “Soft and Hard reset links for your store!“; for X-Cart versions 5.1.8 and earlier the subject was “New safe mode access key has been generated!“.
 
 Reverting to a snapshot will cause your store to be re-deployed with a module set matching the one reflected by the snapshot. Note that your store will not remove any modules that were installed after the date of the snapshot - all it will do is disable any such modules. Neither will it re-install any modules that were active when the snapshot was taken but were removed later on.
 
