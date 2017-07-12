@@ -10,6 +10,7 @@ published: false
 The settings and preferences for the module "MailChimp Integration with Ecommerce support" can be adjusted on the module settings page:
 <img>
 ## MailChimp settings
+In the **MailChimp settings** section of the page, the following settings can be adjusted:
 * MailChimp API key: The API key that was used to connect your X-Cart store to your MailChimp account. If, for some reason, you need to use a different MailChimp account or a different key, use the "Reset MailChimp connection" link.
 * Enable E-commerce analytics: This option enables E-commerce analytics by MailChimp for your X-Cart store. For details, see the article [Use MailChimp for E-Commerce](http://kb.mailchimp.com/integrations/e-commerce/use-mailchimp-for-e-commerce "Use MailChimp for E-Commerce") in MailChimp Knowledge Base. E-commerce analytics is the core component of the integration functionality; the setting is enabled by default, and we recommend keeping it that way. When the E-commerce analytics option is enabled, the settings page for the module includes the **E-Commerce features setup** section. Be sure to visit that section and specify the lists for which [Ecommerce Stores](https://developer.mailchimp.com/documentation/mailchimp/reference/ecommerce/stores/) need to be created on the MailChimp end. See [further below](#E-Commerce_features_setup) for more info.
 * Enable Abandoned Carts:  This option enables the Abandoned Carts feature. For more info on this feature, see the [MailChimp site](https://mailchimp.com/features/abandoned-cart/ "Abandoned Cart")
@@ -18,3 +19,4 @@ The settings and preferences for the module "MailChimp Integration with Ecommerc
 * Update MailChimp lists every (_Never, 1 minute, 10 minutes, etc._): Select the time interval for the periodical list updates.
 
 ## E-Commerce features setup
+In the **E-Commerce features setup** section of the module settings page, you can see 
