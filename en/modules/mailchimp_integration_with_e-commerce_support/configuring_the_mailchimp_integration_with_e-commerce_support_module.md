@@ -19,4 +19,6 @@ In the **MailChimp settings** section of the page, the following settings can be
 * Update MailChimp lists every (_Never, 1 minute, 10 minutes, etc._): Select the time interval for the periodical list updates.
 
 ## E-Commerce features setup
-In the **E-Commerce features setup** section of the module settings page, you can see 
+The **E-Commerce features setup** section of the module settings page enables you to control the upload of store data (products, orders, carts and customers) to MailChimp. Uploading your store data to MailChimp enables you to take advantage of powerful reporting and personalization features and to learn more about your customers. 
+For MailChimp, the top level organization of store data is a "store". From the viewpoint of MailChimp, each ecommerce store connected to your account is a collection of products, orders, carts and customers.  Each Store must be tied to a specific MailChimp list, but a single list can support multiple Stores.   Before clicking the button, select the lists for which you want MailChimp "stores" to be created. A "store" is a collection of products, orders, carts and customers. MailChimp will create the "stores" and will connect them with the lists you have specified. Store data from X-Cart will be uploaded for these specific stores. [Learn more about MailChimp e-Commerce features] <- ссылка
+ 
