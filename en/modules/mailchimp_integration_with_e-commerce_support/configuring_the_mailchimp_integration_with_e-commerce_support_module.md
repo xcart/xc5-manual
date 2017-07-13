@@ -9,6 +9,7 @@ published: false
 ---
 The settings and preferences for the module "MailChimp Integration with Ecommerce support" can be adjusted on the module settings page:
 <img>
+
 ## MailChimp settings
 In the **MailChimp settings** section of the page, the following settings can be adjusted:
 * MailChimp API key: The API key that was used to connect your X-Cart store to your MailChimp account. If, for some reason, you need to use a different MailChimp account or a different key, use the "Reset MailChimp connection" link.
