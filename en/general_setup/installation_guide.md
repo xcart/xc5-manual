@@ -179,13 +179,13 @@ This article covers the process of installation for X-Cart versions 5.2.5 and la
     for zip archive: 
 
     ```php
-    unzip x-cart-5.3.2.12-en.zip
+    unzip x-cart-5.3.3.1-en.zip
     ```
 
     for tgz archive: 
 
     ```php
-    tar -xzpf x-cart-5.3.2.12-en.tgz
+    tar -xzpf x-cart-5.3.3.1-en.tgz
     ```
 
     (Be sure to replace the file name with the actual name of the archive you have downloaded).
