@@ -21,7 +21,11 @@ Once an API key has been set up for your X-Cart store in your MailChimp account,
 
 Once your X-Cart store has been connected to your MailChimp account, the module settings page in your X-Cart store's Admin area will show your MailChimp API key and provide some settings that you will be able to use to adjust your module preferences. For example, you will be able to toggle the E-commerce analytics and Abandoned carts features, choose how your customers should be able to subscribe to your MailChimp lists (whether a customer should be able to choose more than one list when subscribing, whether an additional confirmation should be required after a customer opts in to subscribe, etc.) For more info, see {% link "Configuring the MailChimp Integration with E-commerce support module" ref_ST1QnErC %}
 
-After you connect your store to MailChimp, be sure to enable e-commerce link tracking when configuring your campaigns or automations to track purchases. 
+If you've already had some lists and list groups configured in your MailChimp account before connecting your X-Cart store to MailChimp, you should expect to find these lists and groups imported into your X-Cart store as soon as the connection between the store and your MailChimp account has been established. To view and manage the lists imported from your account, go to the **Sales channels** > **MailChimp lists** page. If you haven't yet created any lists on the MailChimp end and need more information on this topic, see the MailChimp Knowledge Base [article on Lists](http://kb.mailchimp.com/lists).
+
+As soon as your lists/groups are ready, your store's users will be able to subscribe to them via the subscription form on the checkout and registration pages. Registered customers will be able to change their subscriptions (add more lists/groups or unsubscribe completely) via the Account details page. You as the store administrator will also be able to edit the subscription preferences of your store users by editing the profiles of these users via your X-Cart store's Admin area. 
+
+To make the most of MailChimp's e-commerce features, be sure to enable e-commerce link tracking when configuring your campaigns or automations to track purchases. 
 To turn on e-commerce link tracking for a campaign, follow these steps:
 
    1.  Navigate to the Setup step of the Campaign Builder.
