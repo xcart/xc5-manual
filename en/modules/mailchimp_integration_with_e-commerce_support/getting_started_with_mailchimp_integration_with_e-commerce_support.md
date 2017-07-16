@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-12 12:27 +0400'
+updated_at: '2017-07-16 16:41 +0400'
 identifier: ref_w5MRyybe
 title: Getting started with MailChimp Integration with E-commerce support
 order: 100
@@ -20,6 +20,4 @@ Once an API key has been set up for your X-Cart store in your MailChimp account,
     OR:
 *   Copy the API key you have set up in your MailChimp account for your X-Cart store and paste it into the field that says "Enter your MailChimp API key manually". Save the changes.
 
-Once your X-Cart store has been connected to your MailChimp account, the module settings page in your X-Cart store's Admin area will show your MailChimp API key and provide some settings that you will be able to use to adjust your module preferences. For details, see {% link "Configuring the MailChimp Integration with E-commerce support module" ref_ST1QnErC %}
-
-
+Once your X-Cart store has been connected to your MailChimp account, the module settings page in your X-Cart store's Admin area will show your MailChimp API key and provide some settings that you will be able to use to adjust your module preferences. For example, you will be able to toggle the E-commerce analytics and Abandoned carts features, choose how your customers should be able to subscribe to your MailChimp lists (whether a customer should be able to choose more than one list when subscribing, whether an additional confirmation should be required after a customer opts in to subscribe, etc.) For more info, see {% link "Configuring the MailChimp Integration with E-commerce support module" ref_ST1QnErC %}
