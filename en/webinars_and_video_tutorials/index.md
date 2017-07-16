@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-09 12:08 +0400'
+updated_at: '2017-07-16 18:28 +0400'
 identifier: ref_STELArig
 title: Webinars and video tutorials
 categories:
@@ -64,6 +64,7 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 *   {% link "Booking module (video)" ref_TquQiTqG %}
 *   {% link "Infinite Scroll module (video)" ref_XFOnM7r6 %}
 *   {% link "Multi-vendor module (videos)" ref_5C7PSWVy %}
+*   {% link "eBay Integration module (video)" ref_yLiuFJ66 %}
 
 ## Webinars
 
