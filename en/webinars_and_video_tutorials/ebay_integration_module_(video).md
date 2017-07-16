@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-16 18:19 +0400'
+updated_at: '2017-07-17 00:03 +0400'
 identifier: ref_yLiuFJ66
-title: ''
+title: eBay Integration module (video)
 order: 100
 published: true
 ---
