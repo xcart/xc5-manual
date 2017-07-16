@@ -17,10 +17,6 @@ Your store can be connected to one or more eBay marketplace sites including the 
 
 The integration is provided as a service. [Subscription plans](http://www.x-cart.com/extensions/addons/ebay-integration.html) for merchants of any size are available.
 
-The video below provides a brief overview of the module functionality:
-
-<iframe class="youtube-player" type="text/html" style="width: 853px; height: 480px" src="http://www.youtube.com/embed/yT5uUF7qs4o" frameborder="0"></iframe>
-
 
 _In this section:_
 
@@ -30,3 +26,7 @@ _In this section:_
 *   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
 *   {% link "Importing orders from eBay" ref_QTwGRPLV %}
 *   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
+
+_Related pages:_
+
+* {% link "eBay Integration module (video)" ref_yLiuFJ66 %}
