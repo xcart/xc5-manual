@@ -1,11 +1,11 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-16 16:41 +0400'
+updated_at: '2017-07-17 12:00 +0400'
 identifier: ref_w5MRyybe
 title: Getting started with MailChimp Integration with E-commerce support
 order: 100
-published: false
+published: true
 ---
 If the module "MailChimp Integration with Ecommerce support" is not installed in your store, you can find and install it via the **My addons** section of your store's Admin area.
 
@@ -38,6 +38,3 @@ This way you will be able to track individual visitors of your website attracted
 Note that MailChimp mailing lists support segmentation based on your subscribers' purchase activity: Orders amount (Biggest Spenders/Tiny spenders), Frequency of ordering (Frequent Buyers/We Miss You), Series of purchasing (after a specific product purchase). Based on your customers' purchasing activity, MailChimp will recommend products to your newsletter recipients. Every recipient will see a set of products that are more likely to be interesting particularly to them.
 
 With the advanced Email Automation capabilities of MailChimp, you will be able to set emails or series of emails to be sent to your customers right away as soon as they take particular actions in your store, i.e. just subscribed, abandoned cart, made a first purchase, bought any/specific product, bought product from some category.
-
-
-
