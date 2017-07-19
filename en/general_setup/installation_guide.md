@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-06-06 02:49 +0400'
+updated_at: '2017-07-19 22:19 +0400'
 identifier: ref_VG5mIoLT
 title: Installation Guide
 version: X-Cart 5.2.5 and later
@@ -168,7 +168,13 @@ X-Cart 5 supports following browsers:
 
 ## Installation process
 
-This article covers the process of installation for X-Cart versions 5.2.5 and later. For earlier versions the process is similar; however, the installation wizard steps are a bit different. A video guide for installing X-Cart versions prior to 5.2.5 is available {% link "here" ref_OgodT8pE %}.
+This article covers the process of installation for X-Cart versions 5.2.5 and later. For earlier versions the process is similar; however, the installation wizard steps are a bit different. 
+
+A video guide for installing X-Cart is available:
+
+**Published on Jan 18, 2017**
+<iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="https://www.youtube.com/embed/N21P9jBh2sA" frameborder="0"></iframe>
+
 
 ### Upload X-Cart 5 onto your server
 
