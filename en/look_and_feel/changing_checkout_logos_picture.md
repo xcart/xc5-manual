@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-24 12:36 +0400'
+updated_at: '2017-07-19 17:34 +0400'
 identifier: ref_V0WJ7Tzu
 title: Changing the checkout logos picture
 order: 400
@@ -11,6 +11,10 @@ version: X-Cart 5.3.3
 **Checkout logos** is the picture of the accepted payment methods or security certificates, which is generally shown at the checkout header section. It was introduced in X-Cart 5.3.3:
 
 ![checkout_logos_picture.png]({{site.baseurl}}/attachments/ref_V0WJ7Tzu/checkout_logos_picture.png)
+
+{% note warning %}
+Since X-Cart 5.3.3.2 version this picture is commented out from the template code and is regarded as an opt-in solution. If you want to enable this picture, edit the `skins/customer/layout/header/header.bar.checkout.logos.twig` template and remove `{#` and `#}` marks from the lines 8-10.
+{% endnote %}
 
 You can customize this picture to show something else by doing these steps:
 
