@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 23:10 +0400'
+updated_at: '2017-07-20 17:28 +0400'
 identifier: ref_6tPdxAUT
 title: Setting up X-Cart 5 environment
 categories:
@@ -18,6 +18,8 @@ This section contains guides on how to set up your X-Cart environment properly:
 *   {% link "Speeding up your store" ref_WqHzxAmJ %};
 *   {% link "Setting the time limit of your server" ref_xqnpttd4 %};
 *   {% link "HTTP to HTTPS redirect configuration" ref_httpredirect %};
+*   {% link "Secure configuration of the server" ref_secureconfig %};
+*   {% link "Configuring the huge attachments sending" ref_yCxquUhl %};
 *   Guides for how to set up your server environment for proper communication with the marketplace: 
     *   {% link "Setting up cURL" ref_sshnMtN7 %};
     *   {% link "Setting up openSSL" ref_GuFOdboA %};
