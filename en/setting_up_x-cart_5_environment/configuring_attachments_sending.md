@@ -1,11 +1,11 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-20 16:56 +0400'
+updated_at: '2017-07-20 17:31 +0400'
 identifier: ref_yCxquUhl
 title: Configuring the huge attachments sending
 order: 100
-published: false
+published: true
 version: X-Cart 5.3.3.2
 ---
 This guide offers some tips on how to configure your X-Cart server to allow huge file attachments (100 Mb and more) to be downloaded by the customers. Without configuring the following settings any large download will hang up. 
