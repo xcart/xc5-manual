@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-16 18:27 +0400'
+updated_at: '2017-07-21 14:26 +0400'
 identifier: ref_0SnFdXk1
 title: eBay Integration
 categories:
@@ -9,9 +9,11 @@ categories:
 published: true
 order: 160
 ---
-The eBay Integration module for X-Cart 5 creates a new sales channel for your business by automatically integrating your existing X-Cart store with eBay. The integration enables you to get your products listed on eBay in as little as a few minutes using the product titles, images, descriptions, prices, inventory levels, variants and attributes from your X-Cart store. It also enables you to import your eBay orders back into X-Cart and manage all your sales from the X-Cart Admin area so the order information on eBay is updated in real time. The data can be synchronized between the two systems either manually or automatically according to your preferred schedule. The information of your eBay buyers such as names and addresses is also imported from eBay and becomes available in your X-Cart store's Admin back end as customer profiles.
-
-Your store can be connected to one or more eBay marketplace sites including the sites for United States, Canada (English or French), UK, Australia, Austria, Belgium (French), France, Germany, Italy, Belgium (Dutch), Netherlands, Spain, Switzerland, Hong Kong, India, Ireland, Malaysia, Philippines, Poland and Singapore. 
+The eBay Integration module for X-Cart 5 creates a new sales channel for your business by automatically integrating your existing X-Cart store with eBay. 
+* Get your products listed on eBay in as little as a few minutes using the product titles, images, descriptions, prices, inventory levels, variants and attributes from your X-Cart store.
+* Import your eBay orders into X-Cart and manage all your sales from the X-Cart Admin area so the order information on eBay is updated in real time. 
+* Get your data synchronized between the two systems either manually or automatically according to your preferred schedule. Have the information of your eBay buyers - such as names and addresses - imported from eBay to become available in your X-Cart store's Admin back end as customer profiles.
+* Have your X-Cart store connected to one or more eBay marketplace sites including the sites for United States, Canada (English or French), UK, Australia, Austria, Belgium (French), France, Germany, Italy, Belgium (Dutch), Netherlands, Spain, Switzerland, Hong Kong, India, Ireland, Malaysia, Philippines, Poland and Singapore. 
 
 The integration is provided as a service. [Subscription plans](http://www.x-cart.com/extensions/addons/ebay-integration.html) for merchants of any size are available.
 
