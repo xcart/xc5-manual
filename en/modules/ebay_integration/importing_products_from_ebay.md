@@ -9,6 +9,8 @@ published: false
 ---
 If you already have items listed on eBay that you need to have in your X-Cart store as products, you can import them from eBay into your X-Cart store.
 
+To be imported into an X-Cart store, an eBay item needs to have a SKU; so, before you attemt importing any items, make sure they have SKUs specified in the _Custom Label_ field. 
+
 To import items from eBay:
 
 1.  In your X-Cart store's Admin area, go to the Import eBay Items page (**Catalog** > **Import eBay Items**)
