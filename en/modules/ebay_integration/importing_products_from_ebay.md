@@ -38,5 +38,7 @@ An eBay Item Id is a unique identifier of the item on eBay; in an X-Cart store, 
 
 Before importing any item from eBay into an X-Cart store, the eBay Integration module performs a check to determine whether this item already exists in the X-Cart store or should be considered new. First, it checks the item SKU: if the Custom Label of the item matches a SKU in the X-Cart store, the item is identified as already existing in the store. If no matching SKUs are found in the store database, the module goes on to check the eBay Item Id field. If the item Id on eBay matches some eBay Item Id in the X-Cart store database, the item is identified as already existing in the store; if no match is found, the item is considered new.
 
-Once a item has been imported into X-Cart, its _Custom Label_ field value becomes X-Cart product SKU.
+If the item is identified as new, it will be imported into X-Cart with its _Custom Label_ field value becoming X-Cart product SKU.
+
+If the item is identified as already existing in the X-Cart store, the result of import will depend on the settings **Remove exists products** and **Import only new items**.
     
