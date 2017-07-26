@@ -19,5 +19,5 @@ To import items from eBay:
     * **Item type**: Select the type of items you would like to import (_Active items_, _Inactive items_).
     * **eBay Item SKU**: Enter the eBay SKU of the item that needs to be imported (Such a SKU can be obtained from the _Custom Label_ field of the item). If you need to import multiple items, enter a comma separated list of SKUs.
     * **Upload item images**: With this option enabled, item images will be imported from eBay along with the item details and description to become product images in your X-Cart store. With this option disabled, eBay items will be imported without the images.
-    * **Remove exists products**: 
-    * **Import only new items**: Enable this option if you want items to be imported
+    * **Remove exists products**: With this option enabled, before importing an item from eBay, the module will check whether this item already exists in your X-Cart store; if it does, the existing item in the X-Cart store will be removed and replaced with an item from eBay.
+    * **Import only new items**:  With this option enabled, only the items that do not already exist in your X-Cart store will be imported.
