@@ -18,3 +18,6 @@ To import products from eBay:
     * **eBay site**: Specify the eBay marketplace site from which you would like to import products.
     * **Item type**: Select the type of items you would like to import (_Active items_, _Inactive items_).
     * **eBay Item SKU**: 
+    * **Upload item images**:
+    * **Remove exists products**:
+    * **Import only new items**
