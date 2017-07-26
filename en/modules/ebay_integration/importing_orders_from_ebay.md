@@ -10,7 +10,6 @@ published: true
 order: 160
 ---
 
-
 To have information about the orders created and completed on eBay in your X-Cart store's Admin area, you will need to import these orders from eBay into your X-Cart store. 
 
 To import completed eBay orders into your X-Cart store:
