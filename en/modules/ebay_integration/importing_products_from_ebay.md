@@ -5,7 +5,7 @@ updated_at: '2017-07-27 13:23 +0400'
 identifier: ref_ydMT71kb
 title: Importing products from eBay
 order: 100
-published: false
+published: true
 ---
 If you already have items listed on eBay that you need to have in your X-Cart store as products, you can import them from eBay into your X-Cart store.
 
