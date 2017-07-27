@@ -47,6 +47,8 @@ If the item is identified as already existing in the X-Cart store, the result of
 
 For example:
 
+   * If the option **Import only new items** = _On_, the product in the X-Cart store will remain unchanged as only new items will be imported.
+
    * If **Remove exists products** = _On_ and **Import only new items** = _Off_, the product in the X-Cart store will be removed and created anew using the information of the item on eBay (The SKU, the eBay Item Id and the rest of the product information will be taken from the eBay item; any product properties that are present in the X-Cart store but are not present in the details of the item on eBay will be lost). 
    
    * If **Remove exists products** = _Off_ and **Import only new items** = _Off_, the product in the X-Cart store will be updated with the information from eBay. This means that the following properties of the product in the X-Cart store will replaced with the information from eBay:
@@ -65,4 +67,4 @@ For example:
      * ebayItemId.
      Any other product properties that are not present in the details of the item on eBay (and, thus, may not be replaced with the information from eBay) will remain unaffected in X-Cart.
    
-   * If the option **Import only new items** = _On_, the product in the X-Cart store will remain unchanged as only new items will be imported.
+   
