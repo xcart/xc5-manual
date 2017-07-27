@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-26 12:54 +0400'
+updated_at: '2017-07-27 13:23 +0400'
 identifier: ref_ydMT71kb
 title: Importing products from eBay
 order: 100
@@ -36,9 +36,16 @@ An item SKU is a unique identifier of a product in an X-Cart store; when a produ
 
 An eBay Item Id is a unique identifier of the item on eBay; in an X-Cart store, it is saved in the _eBay Item Id_ field on the eBay product options tab of the product page in Admin; this happens when a product is exported to eBay, when the product is imported from eBay, or when the store administrator updates the field value manually.
 
-Before importing any item from eBay into an X-Cart store, the eBay Integration module performs a check to determine whether this item already exists in the X-Cart store or should be considered new. First, it checks the item SKU: if the Custom Label of the item matches a SKU in the X-Cart store, the item is identified as already existing in the store. If no matching SKUs are found in the store database, the module goes on to check the eBay Item Id field. If the item Id on eBay matches some eBay Item Id in the X-Cart store database, the item is identified as already existing in the store; if no match is found, the item is considered new.
+Before importing any item from eBay into an X-Cart store, the eBay Integration module performs a check to determine whether this item already exists in the X-Cart store or should be considered new. First, it checks the item SKU: if the Custom Label of the item matches a SKU in the X-Cart store, the item is identified as already existing in the store. If no matching SKU is found in the store database, the module goes on to check the eBay Item Id field. If the eBay Item Id of the item on eBay matches the eBay Item Id of a product in the X-Cart store database, the item is identified as already existing in the store; if no match is found, the item is considered new.
+
+Whether an item is a new or an already existing one has effect on how it should be imported. 
 
 If the item is identified as new, it will be imported into X-Cart with its _Custom Label_ field value becoming X-Cart product SKU.
 
-If the item is identified as already existing in the X-Cart store, the result of import will depend on the settings **Remove exists products** and **Import only new items**. For example, if the option **Remove exists products** is enabled, the product in the X-Cart store will be removed and re-created using the information of the item from eBay (The SKU value for the product in the X-Cart store will be taken from the _Custom Label_ field of the eBay item). If the option **Import only new items** is enabled, the product details in the X-Cart store, including the SKU, will remain unaffected as the item from eBay will not be imported.
-    
+If the item is identified as already existing in the X-Cart store, the result of import will depend on the settings **Remove exists products** and **Import only new items**. 
+
+For example:
+
+   * If **Remove exists products** = _On_ and **Import only new items** = _Off_, the product in the X-Cart store will be removed and created anew using the information of the item on eBay (The SKU, the eBay Item Id and the rest of the product information will be taken from the eBay item; any product properties that are present in the X-Cart store but are not present in the details of the item on eBay will be lost). 
+   * If **Remove exists products** = _Off_ and **Import only new items** = _Off_, the product in the X-Cart store will be updated with the information from eBay (For example, if the Custom Label value of the eBay item is the same as the SKU of the product in the X-Cart store, but the eBay Item Ids are different, the eBay Item Id of the product in the X-Cart store will be replaced with the one used on eBay; however, any product properties that are not present in the details of the item on eBay will remain unaffected in X-Cart.) 
+   * If the option **Import only new items** = _On_, the product in the X-Cart store will remain unchanged.
