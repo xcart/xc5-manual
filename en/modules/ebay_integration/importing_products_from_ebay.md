@@ -15,7 +15,7 @@ To import items from eBay:
 
    1.  In your X-Cart store's Admin area, go to the Import eBay Items page (**Catalog** > **Import eBay Items**).
 
-   2.  Specify which orders you want to import by adjusting the following fields:
+   2.  Specify which items you want to import by adjusting the following fields:
 
        * **eBay site**: Specify the eBay marketplace site from which you would like to import items.
        * **Item type**: Select the type of items you would like to import (_Active items_, _Inactive items_).
