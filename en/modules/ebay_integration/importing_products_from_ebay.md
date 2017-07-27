@@ -37,7 +37,7 @@ An eBay Item Id is a unique identifier of the item on eBay; in an X-Cart store, 
 
 Before importing any item from eBay into an X-Cart store, the eBay Integration module performs a check to determine whether this item already exists in the X-Cart store or should be considered new. First, it checks the item SKU: if the Custom Label of the item matches a SKU in the X-Cart store, the item is identified as already existing in the store. If no matching SKU is found in the store database, the module goes on to check the eBay Item Id field. If the eBay Item Id of the item on eBay matches the eBay Item Id of a product in the X-Cart store database, the item is identified as already existing in the store; if no match is found, the item is considered new.
 
-Whether an item is a new or an already existing one has effect on how it should be imported. 
+Whether an item is a new or an already existing one has effect on how it is imported. 
 
 If the item is identified as new, it will be imported into X-Cart with its _Custom Label_ field value becoming X-Cart product SKU.
 
@@ -47,6 +47,24 @@ For example:
 
    * If **Remove exists products** = _On_ and **Import only new items** = _Off_, the product in the X-Cart store will be removed and created anew using the information of the item on eBay (The SKU, the eBay Item Id and the rest of the product information will be taken from the eBay item; any product properties that are present in the X-Cart store but are not present in the details of the item on eBay will be lost). 
    
-   * If **Remove exists products** = _Off_ and **Import only new items** = _Off_, the product in the X-Cart store will be updated with the information from eBay (For example, if the Custom Label value of the eBay item is the same as the SKU of the product in the X-Cart store, but the eBay Item Ids are different, the eBay Item Id of the product in the X-Cart store will be replaced with the one used on eBay; however, any product properties that are not present in the details of the item on eBay will remain unaffected in X-Cart.) 
+   * If **Remove exists products** = _Off_ and **Import only new items** = _Off_, the product in the X-Cart store will be updated with the information from eBay. 
+   
+   For example, if the Custom Label value of the eBay item is the same as the SKU of the product in the X-Cart store, but the eBay Item Ids are different, then the eBay Item Id of the product in the X-Cart store will be replaced with the one used on eBay. If eBay Item Ids of the eBay item and the product in the X-Cart store are the same, but the Custom Label value of the eBay item is different from the product SKU in the X-Cart store, then the product SKU in the X-Cart store will be replaced with the Custom Label value from eBay. 
+   
+   This means that the following properties of the product in the X-Cart store will replaced with the information from eBay:
+   * name;
+   * description (if no description is present, name is used);
+   * briefDescription (if no briefDescription is present, name is used);
+   * metaTags (name is used);
+   * metaTitle (name is used);
+   * metaDescription (description is used; if no description is present, name is used);
+   * Sku (If eBay Item Ids of the eBay item and the product in the X-Cart store are the same, but the Custom Label value of the eBay item is different from the product SKU in the X-Cart store,)
+   * Price
+   * Amount
+   * Images
+   * Categories (xcart category is determined based on the eBay category; if the category may not be recognized, a new category - "eBay Items" - is created, and the product is added to that category)
+Attributes
+ebayItemId (if the Custom Label value of the eBay item is the same as the SKU of the product in the X-Cart store, but the eBay Item Ids are different)
+   however, any product properties that are not present in the details of the item on eBay will remain unaffected in X-Cart.) 
    
    * If the option **Import only new items** = _On_, the product in the X-Cart store will remain unchanged as only new items will be imported.
