@@ -59,9 +59,9 @@ For example:
      * Sku;
      * Price;
      * Amount;
-     * Images;
+     * Images (If the product in the X-Cart store does not have images, the images from eBay are added; if the product in the X-Cart store has its own images, the existing images are removed and replaced with the images from eBay);
      * Categories (xcart category is determined based on the eBay category; if the category may not be recognized, a new category - "eBay Items" - is created, and the product is added to that category);
-     * Attributes;
+     * Attributes (If the product in the X-Cart store does not have attributes, the attributes from eBay are added; if the product in the X-Cart store has its own attributes, the existing attributes are removed and replaced with the attributes from eBay);
      * ebayItemId.
      Any other product properties that are not present in the details of the item on eBay (and, thus, may not be replaced with the information from eBay) will remain unaffected in X-Cart.
    
