@@ -66,12 +66,12 @@ Please note, that you'll have to configure the periodic cleaning of the datacach
 We suggest adding a task via the `crontab` shell program (on UNIX-based systems), e.g.:
 
 ```
-0 * * * * find <X-Cart dir>/var/datacache/* -mmin +60 -exec rm {}
+0 * * * * find <X-Cart dir>/var/datacache/* -mmin +60 -exec rm {} \;
 ```
 
-This example task will clean up all files which are older than 60 minutes every hour of the day.
+This example task cleans up all files older than 60 minutes and is scheduled to run on hourly basis (at minute 0 of every hour).
 
-Thorough explanation:
+Thorough explanation of the `find` command parameters:
 - The first argument is the path to the files.
 - The second argument, -mmin, is used to specify the number of minutes old
 that the file is. If you enter +60, it will find files older than 60
