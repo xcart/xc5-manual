@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-06-28 10:45 +0400'
+updated_at: '2017-08-02 11:49 +0400'
 identifier: ref_J70IfNxL
 title: Choosing the data cache driver
 order: 100
@@ -66,10 +66,18 @@ Please note, that you'll have to configure the periodic cleaning of the datacach
 We suggest adding a task via the `crontab` shell program (on UNIX-based systems), e.g.:
 
 ```
-0 0 * * * rm -rf <X-Cart dir>/var/datacache/
+0 * * * * find <X-Cart dir>/var/datacache/* -mmin +60 -exec rm {}
 ```
 
-This example task will purge the datacache folder at midnight of the each day.
+This example task will clean up all files which are older than 60 minutes every hour of the day.
+
+Thorough explanation:
+- The first argument is the path to the files.
+- The second argument, -mmin, is used to specify the number of minutes old
+that the file is. If you enter +60, it will find files older than 60
+minutes.
+- The third argument, -exec, allows you to pass in a command such as rm.
+- The {} \; at the end is required to end the command.
 
 More info about setting up the cron tasks can be found [here](https://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/).
 
@@ -93,4 +101,3 @@ namespace=XLite
 ; port 11211 is used.
 servers=127.0.0.1
 ```
-
