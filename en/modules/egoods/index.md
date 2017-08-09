@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-09 12:32 +0400'
+updated_at: '2017-08-09 13:42 +0400'
 identifier: ref_ZszpDfxQ
 title: E-goods
-order: 100
+order: 165
 published: true
 ---
 The module enables you to sell digitally distributed content also known as e-goods. You can sell both e-goods and tangible products in one online store.
@@ -42,4 +42,4 @@ Copy the AWS access and secret key into that form. You'll also need the S3 bucke
 These credentials can also be used in the **Amazon S3** module by X-Cart team.
 {% endnote %}
 
-Once you have created the connection between your AWS account and your X-Cart store, you can upload files of nearly any size onto the S3 Storage service of AWS. Once you have uploaded a file onto S3, you can copy the URL of that file. Back on X-Cart, when viewing the corresponding product in the product editor, look for the Attachments tab. Select **Add file** -> **Via URL**. Paste the URL into the textbox, un-check the box next to **Copy file to local server**, and press the **Upload** button. 
+Once you have created the connection between your AWS account and your X-Cart store, you can upload files of nearly any size onto the S3 Storage service of AWS. Once you have uploaded a file onto S3, you can copy the URL of that file. Back on X-Cart, when viewing the corresponding product in the product editor, look for the Attachments tab. Select **Add file** -> **Via URL**. Paste the URL into the textbox, un-check the box next to **Copy file to local server**, and press the **Upload** button.
