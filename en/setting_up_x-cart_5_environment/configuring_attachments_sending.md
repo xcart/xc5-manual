@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-20 17:31 +0400'
+updated_at: '2017-08-09 12:08 +0400'
 identifier: ref_yCxquUhl
 title: Configuring the huge attachments sending
 order: 100
@@ -22,7 +22,9 @@ Later on, you'll have to perform some server-specific configuration.
 
 ## Apache-specific configuration
 
-You'll need to edit the main `.htaccess` file in the root of the X-Cart folder and add the following settings:
+Apache server requires `mod_xsendfile` to enable XSendFile option and the corresponding headers.
+
+You also have to edit the main `.htaccess` file in the root of the X-Cart folder and add the following config option:
 
 ```
 XSendFile On
