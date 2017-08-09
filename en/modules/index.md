@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-11 13:46 +0400'
+updated_at: '2017-08-09 12:32 +0400'
 identifier: ref_mCs9Q9Uy
 title: Modules
 categories:
@@ -25,6 +25,7 @@ _In this section:_
 *   {% link "eBay Integration" ref_0SnFdXk1 %}
 *   {% link "eCC Desktop: Quickbooks integration" ref_0HbWTUok %}
 *   {% link "eCC Cloud: Quickbooks integration" ref_NRz30m6S %}
+*   {% link "E-goods" ref_egoods_module %}
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
