@@ -24,7 +24,7 @@ Later on, you'll have to perform some server-specific configuration.
 
 Apache server requires `mod_xsendfile` to enable XSendFile option and the corresponding headers.
 
-You also have to edit the main `.htaccess` file in the root of the X-Cart folder and add the following config option:
+Also, you have to edit the main `.htaccess` file in the root of the X-Cart folder and add the following config option:
 
 ```
 XSendFile On
