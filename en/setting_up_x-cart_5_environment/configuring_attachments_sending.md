@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-09 12:08 +0400'
+updated_at: '2017-08-15 14:52 +0400'
 identifier: ref_yCxquUhl
-title: Configuring the huge attachments sending
+title: Configuring your X-Cart server for better large file download performance
 order: 100
 published: true
 version: X-Cart 5.3.3.2
