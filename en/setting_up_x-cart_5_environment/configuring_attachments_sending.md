@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-15 14:52 +0400'
+updated_at: '2017-08-15 15:26 +0400'
 identifier: ref_yCxquUhl
 title: Configuring your X-Cart server for better large file download performance
 order: 100
@@ -18,13 +18,13 @@ First of all, you have to update your `etc/config.php` configuration file and ad
 use_sendfile = On
 ```
 
-Later on, you'll have to perform some server-specific configuration.
+After that you will also need to perform some server-specific configuration as provided below.
 
 ## Apache-specific configuration
 
-Apache server requires `mod_xsendfile` to enable XSendFile option and the corresponding headers.
+Apache server requires `mod_xsendfile` to enable the XSendFile option and the corresponding headers. So you will need to make sure it is available.
 
-Also, you have to edit the main `.htaccess` file in the root of the X-Cart folder and add the following config option:
+Also, you will need to edit the main `.htaccess` file in the root of the X-Cart folder and add the following config option:
 
 ```
 XSendFile On
@@ -34,7 +34,7 @@ On X-Cart 5.3.3.2 or later installations this option is included by default.
 
 ## nginx-specific configuration
 
-You'll need to add the following `location` directive to the server configuration file into the `server` section and replace the `<STORE ROOT>` part with the path to the X-Cart folder:
+You'll need to add the following `location` directive into the `server` section of the server configuration file and replace the `<STORE ROOT>` part with the path to the X-Cart folder:
 
 ```
     location /storage_download/ {
@@ -44,5 +44,5 @@ You'll need to add the following `location` directive to the server configuratio
 ```
 
 {% note warning %}
-If your site is placed in subdirectory of your web-root, you should provide path to this subdirectory in the `<STORE ROOT>` part.
+If your site is placed in a subdirectory of your web root, you should specify the path to this subdirectory in the `<STORE ROOT>` part.
 {% endnote %}
