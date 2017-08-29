@@ -1,13 +1,15 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-29 17:04 +0400'
+updated_at: '2017-08-29 17:08 +0400'
 identifier: ref_T9GhEfev
 title: Free shipping on orders that meet certain conditions
 order: 100
 published: false
 ---
 Core
+
+(for example, orders delivered to addresses in the immediate vicinity of your store, or orders with a subtotal over a certain amount).
 
 The method described in this section allows you to provide free shipping on orders that meet certain conditions.
 
@@ -33,4 +35,3 @@ You can also set up your free method based on:
 *   Weight range;
 *   Items range;
 *   Any combination of subtotal, weight and items ranges.
-
