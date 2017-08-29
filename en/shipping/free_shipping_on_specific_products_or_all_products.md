@@ -1,12 +1,19 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-29 16:49 +0400'
+updated_at: '2017-08-29 17:07 +0400'
 identifier: ref_IU9J0uuT
 title: Free shipping on specific products (or all products)
 order: 100
 published: false
 ---
+use the module **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions).
+    ![xc5_shipping_free_ship_ship_freights.png]({{site.baseurl}}/attachments/ref_rOT8GezP/xc5_shipping_free_ship_ship_freights.png)
+
+With this module, X-Cart allows you to configure:
+
+*   [Free shipping on specific products](#free-shipping-on-specific-products-or-all-products) (or all products);
+
 If you want to provide free shipping on a specific product, use the following method:
 
 1.  In your store's back end, locate the product for which you want to configure free shipping.
