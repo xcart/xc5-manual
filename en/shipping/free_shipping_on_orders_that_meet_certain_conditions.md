@@ -1,19 +1,26 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-29 17:08 +0400'
+updated_at: '2017-08-30 14:11 +0400'
 identifier: ref_T9GhEfev
 title: Free shipping on orders that meet certain conditions
 order: 100
 published: false
 ---
-Core
+You can easily configure your X-Cart store to provide free shipping on orders that meet certain conditions; for example:
 
-(for example, orders delivered to addresses in the immediate vicinity of your store, or orders with a subtotal over a certain amount).
+   * orders with a subtotal over a certain amount ("free shipping on orders over $50");
+   * orders delivered to addresses in a specific shipping zone ("free shipping on all orders within the contiguous United States", "free shipping within the following counties in Pennsylvania: Bucks, Chester, Delaware, Montgomery, Philadelphia");
+   * orders containing a certain number of items ("buy 3 or more items, get free shipping").
 
-The method described in this section allows you to provide free shipping on orders that meet certain conditions.
+If necessary, it is possible to set up complex conditions (for example, "free shipping on orders over $50 shipped within the contiguous United States").
 
-For example, your store is in the United States, and you want to provide free delivery on orders over $50 that will be shipped to the contiguous United States. Here's the way to do it:
+Let's take a closer look at how to configure free shipping for various types of conditions.
+
+## Example 1. Free shipping on orders over $50
+## Example 2. Free shipping within Bucks, Chester, Delaware, Montgomery and Philadelphia counties in Pennsylvania
+## Example 3. Free shipping on orders of 3 or more items
+## Example 4. Free shipping on orders over $50 shipped within the contiguous U.S.
 
 1.  In your store's Admin area, configure a destination zone for the contiguous United States (for example, name it "United States").
 2.  Go to the Shipping methods section (**Store setup** > **Shipping**) and configure a new table-based shipping method for the free delivery of orders based on the conditions stated above:
