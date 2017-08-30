@@ -10,20 +10,21 @@ published: false
 You can easily configure your X-Cart store to provide free shipping on orders that meet certain conditions; for example:
 
    * orders with a subtotal over a certain amount ("free shipping on orders over $50");
-   * orders delivered to addresses in a specific shipping zone ("free shipping on all orders within the contiguous United States", "free shipping within the following counties in Pennsylvania: Bucks, Chester, Delaware, Montgomery, Philadelphia");
+   * orders delivered to addresses in a specific shipping zone ("free shipping on all orders within the contiguous United States", "free shipping within Germany", etc.);
    * orders containing a certain number of items ("buy 3 or more items, get free shipping");
    * orders weighing within a certain weight range ("orders up to 200 g ship free").
 
-If necessary, it is possible to set up complex conditions based on a combination of any of the above (for example, "free shipping on orders over $50 shipped within the contiguous United States").
+If necessary, it is possible to set up complex conditions based on a combination of any of the above (for example, "free shipping on orders over $50 shipped within Germany").
 
 Let's take a closer look at how to configure free shipping for various types of conditions.
 
 ## Example 1. Free shipping on orders over $50
-## Example 2. Free shipping within Bucks, Chester, Delaware, Montgomery and Philadelphia counties in Pennsylvania
+## Example 2. Free shipping within Germany
 ## Example 3. Free shipping on orders of 3 or more items
-## Example 4. Free shipping on orders over $50 shipped within the contiguous U.S.
+## Example 4. Free shipping on orders of up to 200 g weight
+## Example 5. Free shipping on orders over $50 shipped within Germany
 
-1.  In your store's Admin area, configure a destination zone for the contiguous United States (for example, name it "United States").
+1.  In your store's Admin area, go to **Store setup** > **Countries, states and zones** and configure a destination zone including all the states and territories of the contiguous United States (for example, name it "United States").
 2.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for orders that meet the above stated conditions (subtotal over $50 AND shipping to the contiguous U.S.):
     1.  Click the **Add shipping method** button.
     2.  In the popup window that appears, select the **Custom table rates** tab.
