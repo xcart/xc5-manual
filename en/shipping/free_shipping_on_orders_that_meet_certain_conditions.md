@@ -24,24 +24,26 @@ Let's take a closer look at how to configure free shipping for various types of 
 ## Example 4. Free shipping on orders of up to 200 g weight
 ## Example 5. Free shipping on orders over $50 shipped within Germany
 
-1.  In your store's Admin area, go to **Store setup** > **Countries, states and zones** and configure a destination zone including all the states and territories of the contiguous United States (for example, name it "United States").
-2.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for orders that meet the above stated conditions (subtotal over $50 AND shipping to the contiguous U.S.):
+1.  In your store's Admin area, go to **Store setup** > **Countries, states and zones** and configure a destination zone corresponding to Germany (for example, name it "Germany").
+       ![xc5_freeshipping_germany_zone.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_germany_zone.png)
+
+2.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders that meet the above stated conditions (subtotal over $50 AND shipping to Germany):
+
     1.  Click the **Add shipping method** button.
+        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+
     2.  In the popup window that appears, select the **Custom table rates** tab.
+        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
+
     3.  Provide general information about the shipping method and configure how shipping rates should be calculated for it:
-        *   Enter a name for this shipping method (for example, "Free shipping" or "Free shipping on orders over $50").
-        *   Set the **Address zone** property to whatever you named your zone for the contiguous U.S. (in our case, "United States").
+        *   Enter a name for this shipping method (for example, "Free shipping on orders over $50 within Germany").
+        *   Set the **Address zone** property to whatever you named your zone for Germany (in our case, "Germany").
         *   Specify that the table is based on "Subtotal" and set the **Subtotal range** to "$50.00 - $  ∞". Make sure that the fields **flat rate**, **per item**, **% and per weight unit** have zero values.
-        ![]({{site.baseurl}}/attachments/6389844/9437243.png)
+        ![xc5_freeshipping_method_over50_germany.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany.png)
+        
     4.  Save your changes and make sure the method you configured is active.
+        ![xc5_freeshipping_method_over50_germany_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany_create.png)
+
 3.  Make sure that all the products that will be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
 
-That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order amount is $50 or more, and the customer's address belongs to the address zone you have configured for the contiguous United States.
-
-![]({{site.baseurl}}/attachments/6389844/9437251.png)
-
-You can also set up your free method based on:
-
-*   Weight range;
-*   Items range;
-*   Any combination of subtotal, weight and items ranges.
+That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order amount is $50 or more, and the customer's shipping address belongs to the address zone you have configured (in our case, "Germany").
