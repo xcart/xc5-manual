@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-31 14:02 +0400'
+updated_at: '2017-08-31 14:19 +0400'
 identifier: ref_Rox8AcJp
-title: ''
+title: MailChimp Integration with Ecommerce support
 order: 100
 published: true
 ---
