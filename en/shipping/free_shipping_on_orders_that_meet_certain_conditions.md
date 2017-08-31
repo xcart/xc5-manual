@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-31 08:33 +0400'
+updated_at: '2017-08-31 23:12 +0400'
 identifier: ref_T9GhEfev
 title: Free shipping on orders that meet certain conditions
 order: 100
