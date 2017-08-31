@@ -71,6 +71,8 @@ That is all. You should now have a free shipping method that will be displayed a
     ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
 
 That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's shipping address belongs to the address zone you have configured (in our case, "Germany").
+     ![xc5_freeshipping_method_germany_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany_checkout.png)
+
     
     
 ## Example 3. Free shipping on orders of 3 or more items
