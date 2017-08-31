@@ -1,11 +1,11 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-16 16:41 +0400'
+updated_at: '2017-08-31 14:02 +0400'
 identifier: ref_Rox8AcJp
 title: ''
 order: 100
-published: false
+published: true
 ---
 X-Cart provides integration with [MailChimp](http://www.mailchimp.com/signup/?pid=xcart&source=website) via a built-in module "MailChimp Integration with Ecommerce support". MailChimp provides a powerful tool to replace X-Cart's built-in newsletter subscriptions feature and enables you to access some exciting e-commerce features like product recommendations, abandoned cart messages, purchase-based automations, and sales reports. 
 
