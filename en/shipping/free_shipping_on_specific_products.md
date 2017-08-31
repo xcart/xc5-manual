@@ -29,10 +29,42 @@ You can use this method to enable free shipping on more than one product.
 If you use real-time shipping rate calculation, any products with the "free shipping" option enabled will be excluded from shipping cost calculation completely.
 If you use manually defined shipping rates, the products with the "free shipping" option enabled will be taken into account when selecting the shipping methods and rates available for the order (iteration 1), but they will not take part in the calculation of the order shipping cost itself (iteration 2).
 
-Note, however, that for the case when a customer's shopping cart contains only products with free shipping your store will need a free shipping method selectable at checkout. We provide a special shipping method for this purpose - "Free shipping". If you are going to provide free shipping on any products at your store, make sure this method is active:
+The second use case most probably requires some extra clarification.
 
+## Example 1
+
+You have 2 items:
+Item One - 0.5 lb, free shipping=yes.
+Item Two - 0.5 lb, free shipping=no.
+
+You have 2 rates:
+Rate One: 0-0.99lb, flat rate - $5.00
+Rate Two: 1-1.99lb, flat rate - $10.00
+
+In this case, depending on the combination of the products in the shopping cart, the shipping rates will be as follows:
+Item One only - $0.00 (as the product is to be shipped for free);
+Item Two only - $5.00 (Rate One is applied)
+Item One and Item Two taken together - $10.00 (Rate Two is applied as a result of the 1st iteration; Rate One is excluded, since the Product One+Product Two have a weight equal to 1lb, and the flat rate for Rate Two is $10.00, regardless of the number of items)
+
+## Example 2
+
+You have 2 items:
+Item One - 0.5 lb, free shipping=yes, item cost- 100$
+Item Two - 0.5 lb, free shipping=no, item cost- 50$
+
+You have 2 rates:
+Rate One: 0-0.99lb, rate - 10% 
+Rate Two: 1-1.99lb, rate - 15%
+
+In this case depending on the combination of products in the cart the shipping rates will be as follows:
+Item One only - $0.00 ( as the product is to be shipped for free).
+Item Two only - $5.00 (Rate One is applied,`50$*10%=$5` )
+Item One and Item Two together - $7.50 ( Rate Two is applied, as a result of the 1st iteration Rate One is excluded, since the Product One+Product Two have weight equal to 1lb, and the percent-based Rate Two is applied, but to Item Two only, `50$*15% -$7.5`)
+
+"Free shipping" method
+For the case when a customer's shopping cart contains only products with free shipping, and, for some reason, no rates are defined in the store that can be used for them, the module provides a method "Free shipping". 
 ![]({{site.baseurl}}/attachments/6389844/9437241.png)
 
- If necessary, you can edit the name and description of this method. To do so, click on the method name and adjust the information you require.
+If necessary, you can edit the name and description of this method. To do so, click on the method name and adjust the information you require.
 
 
