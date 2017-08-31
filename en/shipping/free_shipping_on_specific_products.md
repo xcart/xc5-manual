@@ -34,12 +34,12 @@ The second use case may require some clarification.
 ## Example 1
 
 You have 2 items:
-Item One - 0.5 lb, free shipping = yes.
-Item Two - 0.5 lb, free shipping = no.
+   * Item One - 0.5 lb, free shipping = yes.
+   * Item Two - 0.5 lb, free shipping = no.
 
 You have 2 rates:
-Rate One: 0-0.99lb, flat rate - $5.00
-Rate Two: 1-1.99lb, flat rate - $10.00
+   * Rate One: 0-0.99lb, flat rate - $5.00
+   * Rate Two: 1-1.99lb, flat rate - $10.00
 
 In this case, depending on the combination of the products in the shopping cart, the shipping rates will be as follows:
 Item One only - $0.00 (as the product is to be shipped for free);
