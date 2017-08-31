@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-31 08:32 +0400'
+updated_at: '2017-08-31 08:33 +0400'
 identifier: ref_T9GhEfev
 title: Free shipping on orders that meet certain conditions
 order: 100
@@ -41,6 +41,8 @@ Let's take a closer look at how to configure free shipping for various types of 
     ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
 
 That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order amount is $50 or more.
+    ![xc5_freeshipping_method_over50_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_checkout.png)
+
     
 ## Example 2. Free shipping within Germany
 
