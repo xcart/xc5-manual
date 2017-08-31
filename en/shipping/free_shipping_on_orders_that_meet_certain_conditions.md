@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-30 14:11 +0400'
+updated_at: '2017-08-31 07:02 +0400'
 identifier: ref_T9GhEfev
 title: Free shipping on orders that meet certain conditions
 order: 100
@@ -36,15 +36,43 @@ Let's take a closer look at how to configure free shipping for various types of 
     4.  Save your changes.
         
     5.  Make sure the method you have configured is active.
-        
 
+3.  Make sure that all the products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
+    ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
+
+That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order amount is $50 or more.
+    
+## Example 2. Free shipping within Germany
+
+1.  In your store's Admin area, go to **Store setup** > **Countries, states and zones** and configure a destination zone corresponding to Germany (for example, name it "Germany").
+       ![xc5_freeshipping_germany_zone.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_germany_zone.png)
+
+2.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders to Germany:
+
+    1.  Click the **Add shipping method** button.
+        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+
+    2.  In the popup window that appears, select the **Custom table rates** tab.
+        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
+
+    3.  Provide general information about the shipping method and configure how shipping rates should be calculated for it:
+        *   Enter a name for this shipping method (for example, "Free shipping within Germany").
+        *   Set the **Address zone** property to whatever you named your zone for Germany (in our case, "Germany").
+        *   Leave the rest of the form fields set to their default values (all zero).
+        ![]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany.png)
+        
+    4.  Save your changes.
+        ![]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany_create.png)
+
+    5.  Make sure the method you have configured is active:
+        ![]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany_active.png)
+       
 3.  Make sure that all the products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
     ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
 
 That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order amount is $50 or more, and the customer's shipping address belongs to the address zone you have configured (in our case, "Germany").
     ![xc5_freeshipping_method_over50_germany_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany_checkout.png)
 
-## Example 2. Free shipping within Germany
 ## Example 3. Free shipping on orders of 3 or more items
 ## Example 4. Free shipping on orders of up to 200 g weight
 ## Example 5. Free shipping on orders over $50 shipped within Germany
@@ -77,4 +105,3 @@ That is all. You should now have a free shipping method that will be displayed a
 
 That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order amount is $50 or more, and the customer's shipping address belongs to the address zone you have configured (in our case, "Germany").
     ![xc5_freeshipping_method_over50_germany_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany_checkout.png)
-
