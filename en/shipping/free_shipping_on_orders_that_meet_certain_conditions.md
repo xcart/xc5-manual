@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-31 23:12 +0400'
+updated_at: '2017-09-01 01:06 +0400'
 identifier: ref_T9GhEfev
 title: Free shipping on orders that meet certain conditions
-order: 100
+order: 140
 published: true
 ---
 You can easily configure your X-Cart store to provide free shipping on orders that meet certain conditions; for example:
