@@ -34,8 +34,8 @@ The second use case may require some clarification.
 ## Example 1
 
 You have 2 items:
-Item One - 0.5 lb, free shipping=yes.
-Item Two - 0.5 lb, free shipping=no.
+Item One - 0.5 lb, free shipping = yes.
+Item Two - 0.5 lb, free shipping = no.
 
 You have 2 rates:
 Rate One: 0-0.99lb, flat rate - $5.00
@@ -44,13 +44,13 @@ Rate Two: 1-1.99lb, flat rate - $10.00
 In this case, depending on the combination of the products in the shopping cart, the shipping rates will be as follows:
 Item One only - $0.00 (as the product is to be shipped for free);
 Item Two only - $5.00 (Rate One is applied)
-Item One and Item Two taken together - $10.00 (Rate Two is applied as a result of the 1st iteration; Rate One is excluded, since the Product One+Product Two have a weight equal to 1lb, and the flat rate for Rate Two is $10.00, regardless of the number of items)
+Item One and Item Two together - $10.00 (Rate Two is applied as a result of the 1st iteration; Rate One is excluded, since the Product One+Product Two have a weight equal to 1lb, and the flat rate for Rate Two is $10.00, regardless of the number of items)
 
 ## Example 2
 
 You have 2 items:
-Item One - 0.5 lb, free shipping=yes, item cost- 100$
-Item Two - 0.5 lb, free shipping=no, item cost- 50$
+Item One - 0.5 lb, free shipping = yes, item cost- 100$
+Item Two - 0.5 lb, free shipping = no, item cost- 50$
 
 You have 2 rates:
 Rate One: 0-0.99lb, rate - 10% 
