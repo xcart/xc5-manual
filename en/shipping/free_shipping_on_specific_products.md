@@ -49,12 +49,12 @@ Item One and Item Two together - $10.00 (Rate Two is applied: As a result of the
 ## Example 2
 
 You have 2 items:
-Item One - 0.5 lb, free shipping = yes, item cost- 100$
-Item Two - 0.5 lb, free shipping = no, item cost- 50$
+   * Item One - 0.5 lb, free shipping = yes, item cost- 100$
+   * Item Two - 0.5 lb, free shipping = no, item cost- 50$
 
 You have 2 rates:
-Rate One: 0-0.99lb, rate - 10% 
-Rate Two: 1-1.99lb, rate - 15%
+   * Rate One: 0-0.99lb, rate - 10% 
+   * Rate Two: 1-1.99lb, rate - 15%
 
 In this case, depending on the combination of products in the shopping cart, the shipping rates will be as follows:
 Item One only - $0.00 (as the product is to be shipped for free).
