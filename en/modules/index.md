@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-09 13:41 +0400'
+updated_at: '2017-08-31 14:22 +0400'
 identifier: ref_mCs9Q9Uy
 title: Modules
 categories:
@@ -28,6 +28,7 @@ _In this section:_
 *   {% link "E-goods" ref_ZszpDfxQ %}
 *   {% link "Fractional and Fixed quantities" ref_FnFqIndex %}
 *   {% link "iDEAL Payments" ref_p1OTDpSI %}
+*   {% link "MailChimp Integration with Ecommerce support" ref_Rox8AcJp %}
 *   {% link "Multi-vendor" ref_cvwmAuRi %}
 *   {% link "Pay with Amazon" ref_mri0tPhM %}
 *   {% link "Pilibaba Chinese Checkout" ref_mJQGlNhh %}
