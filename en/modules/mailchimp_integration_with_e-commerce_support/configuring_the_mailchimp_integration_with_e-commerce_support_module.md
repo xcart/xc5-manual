@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-17 12:00 +0400'
+updated_at: '2017-08-31 14:34 +0400'
 identifier: ref_ST1QnErC
 title: Configuring the MailChimp Integration with E-commerce support module
-order: 100
+order: 300
 published: true
 ---
 The settings and preferences for the module "MailChimp Integration with Ecommerce support" can be adjusted on the module settings page:
