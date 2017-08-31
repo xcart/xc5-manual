@@ -16,8 +16,7 @@ To provide free shipping on a specific product, use the following method:
 
    1.  In your store's back end, locate the product for which you want to set free shipping.
    
-   2.  Click through to edit the details of this product . On the **Info** tab of the product details, enable the option **Free shipping**:
-    ![]({{site.baseurl}}/attachments/6389844/9437240.png)
+   2.  Click through to edit the details of this product . On the **Info** tab of the product details, enable the option **Free shipping**.
      (This option is available only for tangible goods; i.e. the property **Requires shipping** / **Shippable** must be set to "Yes" for the setting **Free shipping** to be visible).
 
    3.  Use the **Update product** button at the bottom of the screen to save the changes. 
