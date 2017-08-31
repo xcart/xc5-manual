@@ -7,7 +7,7 @@ title: Configuring the MailChimp Integration with E-commerce support module
 order: 300
 published: true
 ---
-The settings and preferences for the module "MailChimp Integration with Ecommerce support" can be adjusted on the module settings page:
+The settings and preferences for the module "MailChimp Integration with Ecommerce support" can be adjusted on the module settings page.
 <img>
 
 ## MailChimp settings
