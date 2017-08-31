@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-08-31 23:39 +0400'
 identifier: ref_IU9J0uuT
 title: 'Free shipping on specific products '
-order: 100
+order: 145
 published: true
 ---
 With the module **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions), it is possible to configure free shipping on specific products. 
