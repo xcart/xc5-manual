@@ -18,11 +18,11 @@ If necessary, it is possible to set up complex conditions based on a combination
 
 Let's take a closer look at how to configure free shipping for various types of conditions.
 
-   *  [Example 1. Free shipping on orders over $50](#example-1-free-shipping-on-orders-over-$50);
+   *  [Example 1. Free shipping on orders over $50](#example-1-free-shipping-on-orders-over-50);
    *  [Example 2. Free shipping within Germany](#example-2-free-shipping-within-germany);
    *  [Example 3. Free shipping on orders of 3 or more items](#example-3-free-shipping-on-orders-of-3-or-more-items)
    *  [Example 4. Free shipping on orders of up to 200 g weight](#example-4-free-shipping-on-orders-of-up-to-200-g-weight)
-   * [Example 5. Free shipping on orders over $50 shipped within Germany](#example-5-free-shipping-on-orders-over-$50-shipped-within-Germany) (Combined condition)
+   * [Example 5. Free shipping on orders over $50 shipped within Germany](#example-5-free-shipping-on-orders-over-50-shipped-within-Germany) (Combined condition)
 
 ## Example 1. Free shipping on orders over $50
 
