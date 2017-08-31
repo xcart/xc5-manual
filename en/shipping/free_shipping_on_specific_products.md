@@ -44,7 +44,7 @@ Rate Two: 1-1.99lb, flat rate - $10.00
 In this case, depending on the combination of the products in the shopping cart, the shipping rates will be as follows:
 Item One only - $0.00 (as the product is to be shipped for free);
 Item Two only - $5.00 (Rate One is applied)
-Item One and Item Two together - $10.00 (Rate Two is applied as a result of the 1st iteration; Rate One is excluded, since the Product One+Product Two have a weight equal to 1lb, and the flat rate for Rate Two is $10.00, regardless of the number of items)
+Item One and Item Two together - $10.00 (Rate Two is applied: As a result of the 1st iteration, Rate One is excluded, since Product One and Product Two together have a weight equal to 1lb. As a result of the 2nd iteration, the cost of shipping is found to be $10.00 - because the flat rate for Rate Two is $10.00, regardless of the number of items.)
 
 ## Example 2
 
@@ -56,12 +56,12 @@ You have 2 rates:
 Rate One: 0-0.99lb, rate - 10% 
 Rate Two: 1-1.99lb, rate - 15%
 
-In this case depending on the combination of products in the cart the shipping rates will be as follows:
-Item One only - $0.00 ( as the product is to be shipped for free).
+In this case, depending on the combination of products in the shopping cart, the shipping rates will be as follows:
+Item One only - $0.00 (as the product is to be shipped for free).
 Item Two only - $5.00 (Rate One is applied,`50$*10%=$5` )
-Item One and Item Two together - $7.50 ( Rate Two is applied, as a result of the 1st iteration Rate One is excluded, since the Product One+Product Two have weight equal to 1lb, and the percent-based Rate Two is applied, but to Item Two only, `50$*15% -$7.5`)
+Item One and Item Two together - $7.50 (Rate Two is applied: As a result of the 1st iteration, Rate One is excluded, since Product One and Product Two together have a weight equal to 1lb. As a result of the 2nd iteration, the cost of shipping is calculated using the percent-based Rate Two, but the rate is applied to Item Two only, `50$*15% -$7.5`)
 
-"Free shipping" method
+## "Free shipping" method
 For the case when a customer's shopping cart contains only products with free shipping, and, for some reason, no rates are defined in the store that can be used for them, the module provides a method "Free shipping". 
 ![]({{site.baseurl}}/attachments/6389844/9437241.png)
 
