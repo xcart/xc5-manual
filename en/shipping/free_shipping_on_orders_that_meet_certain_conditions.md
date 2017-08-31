@@ -130,7 +130,7 @@ That is all. You should now have a free shipping method that will be displayed a
     5.  Make sure the method you have configured is active.
         ![xc5_freeshipping_method_weight200_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200_active.png)
 
-2.  Make sure that all the products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
+2.  Make sure that all the products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled and a weight specified.
     ![xc5_freeshipping_requires_shipping1.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping1.png)
 
 That is all. You should now have a free shipping method that will be displayed at checkout only if the weight of all the items in the customer's order taken together does not exceed 200 g.
