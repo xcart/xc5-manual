@@ -110,7 +110,7 @@ That is all. You should now have a free shipping method that will be displayed a
 
 ## Example 4. Free shipping on orders of up to 200 g weight
 
-1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders with 3 or more items:
+1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders with an unpackaged weight of no more than:
 
     1.  Click the **Add shipping method** button.
         ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
@@ -121,21 +121,20 @@ That is all. You should now have a free shipping method that will be displayed a
     3.  Provide general information about the shipping method and configure how shipping rates should be calculated for it:
         *   Enter a name for this shipping method (for example, "Free shipping on orders of up to 200 g weight").
         *   In the **Address zone** field, specify the zone for which you are going to make this method available.
-        *   Specify that the table is based on "Subtotal" and set the **Subtotal range** to "$50.00 - $  ∞". Make sure that the fields **flat rate**, **per item**, **% and per weight unit** have zero values.
-        ![xc5_freeshipping_method_3items.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items.png)
+        *   Specify that the table is based on "Weight" and set the **Weight range** to "0 - 0.2" (That, of course, provided you are using kilograms as your store's weight unit. You can check what weight units your store is using via the section **Store setup** > **Localization**). Make sure that the fields **flat rate**, **per item**, **% and per weight unit** have zero values.
+        ![xc5_freeshipping_method_weight200.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200.png)
         
     4.  Save your changes.
-        ![xc5_freeshipping_method_3items_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_create.png)
+        ![xc5_freeshipping_method_weight200_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200_create.png)
 
     5.  Make sure the method you have configured is active.
-        ![xc5_freeshipping_method_3items_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_active.png)
+        ![xc5_freeshipping_method_weight200_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200_active.png)
 
 2.  Make sure that all the products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
-    ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
+    ![xc5_freeshipping_requires_shipping1.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping1.png)
 
-That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order contains 3 or more items.
-    ![xc5_freeshipping_method_3items_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_checkout.png)
-
+That is all. You should now have a free shipping method that will be displayed at checkout only if the weight of all the items in the customer's order taken together does not exceed 200 g.
+    ![xc5_freeshipping_method_weight200_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200_checkout.png)
 
 ## Example 5. Free shipping on orders over $50 shipped within Germany
 
