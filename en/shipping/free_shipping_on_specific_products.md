@@ -29,7 +29,7 @@ You can use this method to enable free shipping on more than one product.
 If using real-time shipping rate calculation, any products with the "free shipping" option enabled will be excluded from shipping cost calculation completely.
 If using manually defined shipping rates, the products with the "free shipping" option enabled will be taken into account when selecting the shipping methods and rates available for the order (iteration 1), but they will not take part in the calculation of the order shipping cost itself (iteration 2).
 
-The second use case most probably requires some extra clarification.
+The second use case may require some clarification.
 
 ## Example 1
 
