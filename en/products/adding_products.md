@@ -10,7 +10,6 @@ published: true
 order: 120
 ---
 
-
 This section provides information on how to add products to your store manually. Please note that you can also add products via {% link "import" ref_TANvG2De %}. 
 
 ## Video guide
