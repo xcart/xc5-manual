@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 17:33 +0400'
+updated_at: '2017-09-05 18:50 +0400'
 identifier: ref_fhzzxDTy
 title: Adding products
 categories:
@@ -11,11 +11,11 @@ order: 120
 ---
 
 
-You can add products to your store via [import](https://xcart.zendesk.com/entries/23396176-How-to-import-products-) or {% link "manually" ref_fhzzxDTy %}. 
+This section provides information on how to add products to your store manually. Please note that you can also add products via {% link "import" ref_TANvG2De %}. 
 
 ## Video guide
 
-This video captures the process of adding a new product in X-Cart 5.1.9\. Please note that starting with X-Cart version 5.2.1 the user interface of X-Cart Admin area has been changed quite a bit from 5.1.9 shown in the video; other than that the process of creating a new product in X-Cart 5 remains essentially the same.
+This video captures the process of adding a new product in X-Cart 5.1.9. Please note that starting with X-Cart version 5.2.1 the user interface of X-Cart Admin area has been changed quite a bit from 5.1.9 shown in the video; other than that the process of creating a new product in X-Cart 5 remains essentially the same.
 
 <iframe class="youtube-player" type="text/html" style="width: 800px; height: 450px" src="http://www.youtube.com/embed/HKtI-iXFfr8" frameborder="0"></iframe>
 
