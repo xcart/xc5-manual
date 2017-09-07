@@ -1,12 +1,13 @@
 ---
-identifier: ref_Z7XdREZl
-updated_at: 2016-06-16 00:00
-layout: article_with_sidebar
 lang: en
+layout: article_with_sidebar
+updated_at: '2017-09-07 15:40 +0400'
+identifier: ref_Z7XdREZl
 title: 'CSV import: Product attribute values'
 categories:
   - User manual
-
+published: true
+order: 100
 ---
 
 Below is a list of supported fields and their respective value types for the import of product attribute values:
@@ -83,6 +84,22 @@ Below is a list of supported fields and their respective value types for the imp
         <p>Actual attribute value</p>
       </td>
       <td colspan="1" class="confluenceTd">String</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">attributePosition
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>Attribute sorting position. If attribute has several values and, therefore, several rows, first encountered value is used.</p>
+      </td>
+      <td colspan="1" class="confluenceTd">Integer</td>
+    </tr>
+    <tr>
+      <td colspan="1" class="confluenceTd">valuePosition
+      </td>
+      <td colspan="1" class="confluenceTd">
+        <p>Attribute value sorting position</p>
+      </td>
+      <td colspan="1" class="confluenceTd">Integer</td>
     </tr>
     <tr>
       <td colspan="1" class="confluenceTd">priceModifer</td>
