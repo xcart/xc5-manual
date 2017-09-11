@@ -162,7 +162,7 @@ To deactivate or uninstall the MailChimp integration addon:
 To deactivate the addon, set the ON/OFF switch to the “OFF” position.
 To uninstall the addon, click on the Trash icon.
 
-   Step 4. Click Save changes.
+   Step 4. Click **Save changes**.
    
 Your X-Cart installation will take a few moments to deactivate / uninstall the addon and re-deploy your store. 
 
