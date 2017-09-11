@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-02-28 17:11 +0400'
+updated_at: '2017-09-11 16:43 +0400'
 identifier: ref_9z7v4QHi
 title: General setup
 categories:
@@ -20,6 +20,7 @@ _In this section:_
 *   {% link "Installation guide" ref_VG5mIoLT %}
 *   {% link "Activating your license" ref_qwhmJtqW %}
 *   {% link "Installing and activating modules" ref_0fGEpvrh %}
+*   {% link "Сonfiguring the storefront options" ref_wGaTsp7Z %}
 *   {% link "Сonfiguring your server to run scheduled X-Cart tasks" ref_lLqNzAaq %}
 *   {% link "What to do if your store says «We are deploying new changes» and you cannot access it" ref_3zSHgdQk %}
 *   {% link "Restoring your store with the Snapshots feature" ref_h7Oh5T8T %}
