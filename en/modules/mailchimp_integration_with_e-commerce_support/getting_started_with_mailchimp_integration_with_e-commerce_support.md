@@ -9,10 +9,10 @@ published: true
 ---
 Getting started with MailChimp Integration:
 * [Make sure integration is installed and active](#make-sure-integration-is-installed-and-active-in-your-x-cart-store) in your X-Cart store. If not, [download and install integration from X-Cart Marketplace](#download-and-install-integration-from-x-cart-marketplace).
-* [Connect integration to your MailChimp account](#connect-integration-to-your-mailChimp-account).
+* [Connect integration to your MailChimp account](#connect-integration-to-your-mailchimp-account).
 
 See also:
-* [Disconnect integration]
+* [Disconnect integration](#disconnect-integration)
 
 ## Make sure integration is installed and active in your X-Cart store
 
