@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-11 14:12 +0400'
+updated_at: '2017-09-11 15:43 +0400'
 identifier: ref_w5MRyybe
 title: Getting started with MailChimp Integration with E-commerce support
 order: 100
@@ -10,6 +10,9 @@ published: true
 Getting started with MailChimp Integration:
 * [Make sure integration is installed and active](#make-sure-integration-is-installed-and-active-in-your-x-cart-store) in your X-Cart store. If not, [download and install integration from X-Cart Marketplace](#download-and-install-integration-from-x-cart-marketplace).
 * [Connect integration to your MailChimp account](#connect-integration-to-your-mailChimp-account).
+
+See also:
+* [Disconnect integration]
 
 ## Make sure integration is installed and active in your X-Cart store
 
@@ -115,6 +118,37 @@ This way you will be able to track individual visitors of your website attracted
 Note that MailChimp mailing lists support segmentation based on your subscribers' purchase activity: Orders amount (Biggest Spenders/Tiny spenders), Frequency of ordering (Frequent Buyers/We Miss You), Series of purchasing (after a specific product purchase). Based on your customers' purchasing activity, MailChimp will recommend products to your newsletter recipients. Every recipient will see a set of products that are more likely to be interesting particularly to them.
 
 With the advanced Email Automation capabilities of MailChimp, you will be able to set emails or series of emails to be sent to your customers right away as soon as they take particular actions in your store, i.e. just subscribed, abandoned cart, made a first purchase, bought any/specific product, bought product from some category.
+
+## Disconnect Integration
+Should you need to disconnect your X-Cart MailChimp integration from the currently used MailChimp account and to connect it to some other MailChimp account, or to connect it to the same MailChimp account using a different API key, use the “Reset MailChimp connection” feature:
+
+   Step 1. You will need the username and password for the MailChimp account to which you will be connecting your MailChimp integration, so make sure you have them at the ready. You will also require an API key that your MailChimp integration will use to access that account on your behalf, so make sure an API key has been generated as per the instructions in the MailChimp knowledge base article [About API keys](http://kb.mailchimp.com/integrations/api-integrations/about-api-keys).
+
+   Step 2. On the MailChimp Integration addon settings page in your X-Cart store, click on the “Reset MailChimp connection” link to the right of the MailChimp API key field.
+<img>
+
+   Step 3. On the page that opens, enter the username and password for the MailChimp account to which the integration needs to be connected and choose to log in.
+<img>
+
+   Once you have been successfully authenticated, the integration will be disconnected from the current MailChimp account and connected to the account that has been specified.
+
+If you wish to stop using X-Cart’s MailChimp integration, you can either deactivate or uninstall the addon in your X-Cart store. Deactivation stops the addon from operation, but it does not remove the settings you made to the addon configuration nor clear any data that was generated or collected during the period that the addon was in operation. If you wish to completely remove all the data related to using the addon, you need to uninstall it.
+
+To deactivate or uninstall the MailChimp integration addon:
+
+   Step 1. Log in to your X-Cart store’s Admin area.
+   
+   Step 2. Click the **My addons** menu item on the Admin menu to access your store’s Installed Addons section. 
+
+   Step 3. In the list of your installed addons, find the one named  “MailChimp Integration with Ecommerce support” and choose the desired action:
+To deactivate the addon, set the ON/OFF switch to the “OFF” position.
+To uninstall the addon, click on the Trash icon.
+
+   Step 4. Click Save changes.
+   
+Your X-Cart installation will take a few moments to deactivate / uninstall the addon and re-deploy your store. 
+
+Once the process has been completed, MailChimp will no longer be used to handle newsletter subscriptions for your store.
 
 _Related pages:_
 
