@@ -170,4 +170,4 @@ Once the process has been completed, MailChimp will no longer be used to handle 
 
 _Related pages:_
 
-* {% link "Configuring the addoon 'MailChimp Integration with E-commerce support'" ref_ST1QnErC %}
+* {% link "Configuring the addon 'MailChimp Integration with E-commerce support'" ref_ST1QnErC %}
