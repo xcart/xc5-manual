@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-11 14:05 +0400'
+updated_at: '2017-09-11 14:56 +0400'
 identifier: ref_Rox8AcJp
 title: MailChimp Integration with Ecommerce support
 order: 185
@@ -12,5 +12,5 @@ It is a powerful tool that replaces X-Cart's built-in newsletter subscriptions f
 
 _In this section:_
 
-*   {% link "Getting started with MailChimp Integration with E-commerce support" ref_w5MRyybe %}
-*   {% link "Configuring the MailChimp Integration with E-commerce support module" ref_ST1QnErC %}
+*   {% link "Getting started with 'MailChimp Integration with E-commerce support'" ref_w5MRyybe %}
+*   {% link "Configuring the addon 'MailChimp Integration with E-commerce support'" ref_ST1QnErC %}
