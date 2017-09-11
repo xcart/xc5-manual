@@ -43,6 +43,10 @@ location ^~ /files/attachments {
     try_files $uri =404;
 }
 
+location ^~ /files/vendor {
+    try_files $uri =404;
+}
+
 location ^~ /images {
     location ~* \.(jpg|jpeg|gif|png|bmp|ico|tiff|flv|swf|svg|pdf) {
         try_files $uri =404;
