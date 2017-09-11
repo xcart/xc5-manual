@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-02-13 09:31 +0400'
+updated_at: '2017-09-11 14:58 +0400'
 identifier: ref_secureconfig
 title: Secure configuration of the server
 published: true
@@ -24,7 +24,7 @@ If you are using Apache2 server, most of the security settings are already set b
 
 ## Nginx-specific settings
 
-You should lock some directories from web-access using these directives in the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server):
+You should lock some directories from web-access using these directives in the [server {} section](http://nginx.org/en/docs/http/ngx_http_core_module.html#server). These directives should be placed above the `location /src/` block to work properly.
 
 ```
 location ^~ /classes {
