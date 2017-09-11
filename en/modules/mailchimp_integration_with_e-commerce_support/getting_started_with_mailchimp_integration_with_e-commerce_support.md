@@ -23,24 +23,30 @@ You can check whether you have the MailChimp integration add-on module in your X
 Step 1. Log in to your X-Cart store’s Admin area.
 
 Step 2. Click the **My addons** menu item on the Admin menu to access your store’s Installed Addons section.
-<img>
+![xc5_mailchimp_my_addons.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_my_addons.png)
+
 Step 3. In the search bar, type “mailchimp” and press “Enter” (The search is not case-sensitive).
-<img>
+![xc5_mailchimp_search_in_installed.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_search_in_installed.png)
+
 After the page re-loads, you will be provided with a list of add-on modules that have a mention of MailChimp in their name or description that are currently installed in your store. 
 
 Step 4. In the list provided to you, look for the addon name “MailChimp Integration with Ecommerce support”. If you can see it on the list, it means that the addon for MailChimp integration is already installed in your store. 
-<img>
+![xc5_mailchimp_addon_name_in_installed.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_addon_name_in_installed.png)
+
 Pay attention to the ON/OFF switch below the addon name.
-<img>
+![xc5_mailchimp_on_off_switch.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_on_off_switch.png)
+
 If it is set to “ON”, the addon is active and ready to use. If it is set to “OFF, the addon needs to be activated. 
 To activate the addon, set the ON/OFF switch to “ON” and click the **Save changes** button below the addon list. 
-<img>
+![xc5_mailchimp_install.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_install.png)
+
 Your X-Cart installation will take a few moments to activate the addon and re-deploy your store.
 
 If you haven’t been able to find the addon “MailChimp Integration with Ecommerce support” in your store’s Installed Addons section, it means that the addon is not installed currently, and you will need to install it before you continue (See [further below](#download-and-install-integration-from-x-cart-marketplace) for instructions).
 
 Step 4. Take a note of whether the addon “Newsletter subscriptions” is also installed and active. 
-<img>
+![xc5_mailchimp_newsletter_subscr.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_newsletter_subscr.png)
+
 Please be aware that if both the addons are used at the same time, the “Newsletter subscriptions” addon will be linked to MailChimp as well. The “Newsletter subscriptions” addon enables a subscription form in the site footer where your site visitors can submit their email addresses to subscribe to your store newsletter. When you use the addon “Newsletter subscriptions” on its own, any email addresses submitted via this form are added to your store’s own list of newsletter subscribers in the Subscribers section of the Admin area where they can be managed by the administrator. If, however, you use X-Cart’s MailChimp integration addon along with “Newsletter subscriptions”, the subscriber email addresses submitted via the subscription form are no longer stored to a list within X-Cart, but are handled via MailChimp. That, of course, provided that your X-Cart store is connected to your MailChimp account via the addon settings, and the MailChimp Integration is properly configured.
 
 ## Download and Install Integration from X-Cart Marketplace
@@ -48,22 +54,26 @@ Please be aware that if both the addons are used at the same time, the “Newsle
 If, for some reason, the MailChimp integration addon is missing from the Installed Addons section of your X-Cart store’s Admin area, you can install it as follows:
 
 Step 1. In the Installed Addons section of your X-Cart store’s Admin area, click on the link “View more addons in Marketplace”.
-<img>
+![xc5_mailchimp_viewmore.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_viewmore.png)
 
 You will be redirected to the Addons Marketplace.
 
 Step 2. In the search bar, type “mailchimp” and press “Enter” (The search is not case-sensitive). 
-<img>
+![xc5_mailchimp_addons_mktplce.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_addons_mktplce.png)
+
 After the page re-loads, you will be provided with a list of add-on modules in our Addons Marketplace that have a mention of MailChimp in their name or description. 
 
 Step 3. In the list, look for the addon name “MailChimp Integration with Ecommerce support”.
-<img>
+![xc5_mailchimp_addon_name_mktplce.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_addon_name_mktplce.png)
+
 It is the addon you require. 
 
 Step 4. Select the Install checkbox near the addon name and click the Install addons button. 
-<img>
+![xc5_mailchimp_install.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_install.png)
+
 The addon will be downloaded from the Addons Marketplace, installed and activated automatically. 
-<img>
+![xc5_mailchimp_deploy.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_deploy.png)
+
 Once the installation process has been completed, you will be able to find the addon in the Installed Addons section of your store’s Admin area. From there you will be able to
  access the addon configuration settings page by clicking the Settings link. 
 
@@ -76,27 +86,32 @@ The connection is done using an API key, so you will need one. Instructions for 
 Once an API key has been set up for your X-Cart store in your MailChimp account, connect your integration to MailChimp:
 
 Step 1. Go to the “MailChimp Integration with Ecommerce support” addon settings page in your X-Cart store’s Admin area. You can do so by selecting the Settings link for the addon “MailChimp Integration with Ecommerce support” in your store’s Installed Addons section.
-<img>
+![xc5_mailchimp_settings_link.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_settings_link.png)
 
 Before you have connected the integration to your MailChimp account, the addon settings page provides a form for connecting:
-<img>
+![xc5_mailchimp_connecting.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connecting.png)
+
 Step 2. Use one of the following methods to connect to MailChimp:
 
    * Method 1
-            Step 1. Click on the link “Connect with your MailChimp account”. 
-            <img>
-            Step 2. On the MailChimp authorization page, enter your MailChimp login and password and click **Log In**.
-            <img>
-            Provided that the authorization goes successfully, your X-Cart MailChimp integration will be connected to your MailChimp account.
+       Step 1. Click on the link “Connect with your MailChimp account”. 
+       ![xc5_mailchimp_connecting1.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connecting1.png)
+
+       Step 2. On the MailChimp authorization page, enter your MailChimp login and password and click **Log In**.
+       ![xc5_mailchimp_connect2account.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connect2account.png)
+
+       Provided that the authorization goes successfully, your X-Cart MailChimp integration will be connected to your MailChimp account.
             
    * Method 2
-            Step 1. In your MailChimp account, copy the API key you have set up for your X-Cart store.
-            Step 2. On the MailChimp Integration addon settings page in your X-Cart store, paste the API key into the field that says “Enter your MailChimp API key manually” and press Enter.
-            <img>
-            Provided that a valid API key has been used, your X-Cart MailChimp integration will be connected to your MailChimp account.
+       Step 1. In your MailChimp account, copy the API key you have set up for your X-Cart store.
+       Step 2. On the MailChimp Integration addon settings page in your X-Cart store, paste the API key into the field that says “Enter your MailChimp API key manually” and press Enter.
+       ![xc5_mailchimp_connecting2.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connecting2.png)
+
+       Provided that a valid API key has been used, your X-Cart MailChimp integration will be connected to your MailChimp account.
 
 Regardless of the connection method that has been used, after a successful connection you will be able to see the “MailChimp Integration with E-commerce support” module settings page with your MailChimp API key showing in the field of the same name:
-<img>
+![xc5_mailchimp_successfully_authenticated.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_successfully_authenticated.png)
+
 Should you need to change the MailChimp account or the API key used for the connection, you will be able to do so at any time using the “Reset MailChimp connection” link provided next to the MailChimp API key field (See [Disconnect Integration](#disconnect-integration) for more info).
 
 Once your integration has been connected to your MailChimp account, you should configure it. For example, you will be able to toggle the E-commerce analytics and Abandoned carts features, choose how your customers should be able to subscribe to your MailChimp lists (whether a customer should be able to choose more than one list when subscribing, whether an additional confirmation should be required after a customer opts in to subscribe, etc.) For more info, see {% link "Configuring the addon 'MailChimp Integration with E-commerce support'" ref_ST1QnErC %}
@@ -125,10 +140,10 @@ Should you need to disconnect your X-Cart MailChimp integration from the current
    Step 1. You will need the username and password for the MailChimp account to which you will be connecting your MailChimp integration, so make sure you have them at the ready. You will also require an API key that your MailChimp integration will use to access that account on your behalf, so make sure an API key has been generated as per the instructions in the MailChimp knowledge base article [About API keys](http://kb.mailchimp.com/integrations/api-integrations/about-api-keys).
 
    Step 2. On the MailChimp Integration addon settings page in your X-Cart store, click on the “Reset MailChimp connection” link to the right of the MailChimp API key field.
-<img>
+![xc5_mailchimp_reset_connection.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_reset_connection.png)
 
    Step 3. On the page that opens, enter the username and password for the MailChimp account to which the integration needs to be connected and choose to log in.
-<img>
+![xc5_mailchimp_connect2account.png]({{site.baseurl}}/attachments/ref_w5MRyybe/xc5_mailchimp_connect2account.png)
 
    Once you have been successfully authenticated, the integration will be disconnected from the current MailChimp account and connected to the account that has been specified.
 
