@@ -23,7 +23,7 @@ To set the shipping freight property for this product to $5  (or whatever amoun
 
 4.  Click **Update product**.
 
-Note that for the case when a customer's shopping cart contains only products with a defined shipping freight, your store will need a shipping method selectable at checkout. We provide a special shipping method for this purpose - "Fixed rate shipping". Make sure this method is active:
+Note that for the case when a customer's shopping cart contains only products with a defined shipping freight, and no other shipping methods are available, your store will need a shipping method selectable at checkout. We provide a special shipping method for this purpose - "Fixed rate shipping". Make sure this method is active:
 
 ![]({{site.baseurl}}/attachments/9306286/9437373.png)
 
