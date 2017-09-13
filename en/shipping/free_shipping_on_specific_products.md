@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-13 12:56 +0400'
+updated_at: '2017-09-13 13:30 +0400'
 identifier: ref_IU9J0uuT
 title: 'Free shipping on specific products '
 order: 145
@@ -65,3 +65,7 @@ For the case when a customer's shopping cart contains only products with free sh
 ![xc5_freeshipping_specialfreeshipmethod.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/xc5_freeshipping_specialfreeshipmethod.png)
 
 If necessary, you can edit the name and description of this method. To do so, click on the method name and adjust the information you require.
+
+_Related pages:_
+
+   * {% link "Free shipping on orders that meet certain conditions" ref_T9GhEfev %} 
