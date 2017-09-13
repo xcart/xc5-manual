@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-08-31 23:39 +0400'
+updated_at: '2017-09-13 12:44 +0400'
 identifier: ref_IU9J0uuT
 title: 'Free shipping on specific products '
 order: 145
@@ -62,8 +62,6 @@ Item One and Item Two together - $7.50 (Rate Two is applied: As a result of the 
 
 ## "Free shipping" method
 For the case when a customer's shopping cart contains only products with free shipping, and, for some reason, no rates are defined in the store that can be used for them, the module provides a method "Free shipping". 
-![]({{site.baseurl}}/attachments/6389844/9437241.png)
+![xc5_freeshipping_specialfreeshipmethod.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/xc5_freeshipping_specialfreeshipmethod.png)
 
 If necessary, you can edit the name and description of this method. To do so, click on the method name and adjust the information you require.
-
-
