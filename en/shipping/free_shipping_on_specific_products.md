@@ -8,7 +8,7 @@ order: 145
 published: true
 ---
 With the module **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions), it is possible to configure free shipping on specific products. 
-    ![xc5_shipping_free_ship_ship_freights.png]({{site.baseurl}}/attachments/ref_rOT8GezP/xc5_shipping_free_ship_ship_freights.png)
+    ![xc5_freeshipping_module.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/xc5_freeshipping_module.png)
 
 The module enables you to mark the products that should be shipped for free so that they will be excluded from the calculation of the shipping cost for orders that include these products. The free shipping is unconditional, which means that so far you cannot configure any special offers like "these products, if purchased together, are shipped for free" or "buy 10+ items and get free shipping". If free shipping is enabled for a particular product using this module, this product is always shipped for free.
 
