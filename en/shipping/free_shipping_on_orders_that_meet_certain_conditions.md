@@ -172,3 +172,7 @@ That is all. You should now have a free shipping method that will be displayed a
 
 That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order amount is $50 or more, and the customer's shipping address belongs to the address zone you have configured (in our case, "Germany").
     ![xc5_freeshipping_method_over50_germany_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany_checkout.png)
+
+_Related pages:_
+
+   * {% link "Free shipping on specific products" ref_IU9J0uuT %}
