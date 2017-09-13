@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-13 13:05 +0400'
+updated_at: '2017-09-13 13:18 +0400'
 identifier: ref_BCq5l4MP
 title: Free shipping
-order: 100
+order: 139
 published: true
 ---
 _In this section:_
