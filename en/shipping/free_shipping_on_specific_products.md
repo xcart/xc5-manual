@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-13 12:44 +0400'
+updated_at: '2017-09-13 12:56 +0400'
 identifier: ref_IU9J0uuT
 title: 'Free shipping on specific products '
 order: 145
@@ -61,7 +61,7 @@ Item Two only - $5.00 (Rate One is applied,`50$*10%=$5` )
 Item One and Item Two together - $7.50 (Rate Two is applied: As a result of the 1st iteration, Rate One is excluded, since Product One and Product Two together have a weight equal to 1lb. As a result of the 2nd iteration, the cost of shipping is calculated using the percent-based Rate Two, but the rate is applied to Item Two only, `50$*15% -$7.5`)
 
 ## "Free shipping" method
-For the case when a customer's shopping cart contains only products with free shipping, and, for some reason, no rates are defined in the store that can be used for them, the module provides a method "Free shipping". 
+For the case when a customer's shopping cart contains only products with free shipping, and, for some reason, the store does not have any other shipping methods that can be used for them, the module provides a method "Free shipping". 
 ![xc5_freeshipping_specialfreeshipmethod.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/xc5_freeshipping_specialfreeshipmethod.png)
 
 If necessary, you can edit the name and description of this method. To do so, click on the method name and adjust the information you require.
