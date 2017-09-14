@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-14 10:35 +0400'
+updated_at: '2017-09-14 11:48 +0400'
 identifier: ref_secureconfig
 title: Secure configuration of the server
 published: true
@@ -35,11 +35,11 @@ location ^~ /etc {
     return 403;
 }
 
-location ^~ /src/files {
-    location ^~ /src/files/attachments {
+location ^~ /files {
+    location ^~ /files/attachments {
         try_files $uri =404;
     }
-    location ^~ /src/files/vendor {
+    location ^~ /files/vendor {
         try_files $uri =404;
     }
     return 403;
