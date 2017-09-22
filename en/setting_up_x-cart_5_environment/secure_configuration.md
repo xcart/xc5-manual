@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-14 11:48 +0400'
+updated_at: '2017-09-22 11:44 +0400'
 identifier: ref_secureconfig
 title: Secure configuration of the server
 published: true
@@ -79,8 +79,8 @@ location ^~ /var {
     return 403;
 }
 
-location ^~ /vendor {
-    return 403;
+location ^~ /var/resources {
+    try_files $uri =404;
 }
 
 location ^~ /var/export {
@@ -90,6 +90,11 @@ location ^~ /var/export {
 location ^~ /var/import {
     return 403;
 }
+
+location ^~ /vendor {
+    return 403;
+}
+
 ```
 
 {% note warning %}
