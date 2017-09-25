@@ -69,13 +69,13 @@ icon: download
     для zip-архива:
 
     ```php
-    unzip x-cart-5.3.3.3-ru.zip
+    unzip x-cart-5.3.3.4-ru.zip
     ```
 
     для tgz-архива: 
 
     ```php
-    tar -xzpf x-cart-5.3.3.3-ru.tgz
+    tar -xzpf x-cart-5.3.3.4-ru.tgz
     ```
 
 ## Создайте базу данных
