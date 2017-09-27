@@ -14,6 +14,7 @@ _In this section:_
 
 *   {% link "Getting started with 'MailChimp Integration with E-commerce support'" ref_w5MRyybe %}
 *   {% link "Configuring the addon 'MailChimp Integration with E-commerce support'" ref_ST1QnErC %}
+*   {% link "Managing your MailChimp lists" ref_dHGZpSCX %}
 
 _See also:_
 
