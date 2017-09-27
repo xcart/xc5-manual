@@ -18,5 +18,4 @@ In any case, you need to make sure that the lists and groups you have configured
    
    * Use the On/Off buttons before the names of specific lists and groups to specify the lists and groups that should be active for your store. The active lists and groups will be visible on the forms that your store users will use to select the lists/groups to which they want to subscribe. Inactive lists/groups will not appear on such forms, and thus your store users will not be able to select them.
    
-   * Use the check boxes in the   as well as the ones to which your store users should be subsribed by default
-to which you would like your store users to be able to subscribe are active for your store. For
+   * Use the check boxes in the "Subscribe by default" column to specify which lists and groups a user should be subscribed to if they opt in to receive your store's email newsletter via a single check box option (without choosing the specific lists/groups - for example, by subscribing via the "Sign up for *Your company name* news" box in the site footer).
