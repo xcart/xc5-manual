@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-11 14:56 +0400'
+updated_at: '2017-09-27 14:15 +0400'
 identifier: ref_Rox8AcJp
 title: MailChimp Integration with Ecommerce support
 order: 185
@@ -14,3 +14,6 @@ _In this section:_
 
 *   {% link "Getting started with 'MailChimp Integration with E-commerce support'" ref_w5MRyybe %}
 *   {% link "Configuring the addon 'MailChimp Integration with E-commerce support'" ref_ST1QnErC %}
+
+_See also:_
+*   {% link "Video: MailChimp Integration with Ecommerce-360 support in an X-Cart 5 Store" ref_XO8v2bJX %}
