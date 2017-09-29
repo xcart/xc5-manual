@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-29 13:46 +0400'
+updated_at: '2017-09-29 17:10 +0400'
 identifier: ref_ydMT71kb
 title: Importing products from eBay
 order: 155
@@ -23,8 +23,8 @@ To import items from eBay:
          _Inactive items_ are items from eBay listings that have been ended within the past 30 days.
        * **eBay Item SKU**: Enter the eBay SKU of the item that needs to be imported (Such a SKU can be obtained from the _Custom Label_ field of the item). If you need to import multiple items, enter a comma separated list of SKUs. It is also possible to leave this field blank if you do not want to limit the range of items for import by SKU.
        * **Upload item images**: With this option enabled, item images will be imported from eBay along with the item details and description to become product images in your X-Cart store. With this option disabled, eBay items will be imported without the images.
-       * **Remove exists products**: Before importing an item from eBay, the module will check whether this item is new or already exists in your X-Cart store (See more info in the section "New and existing items in eBay import" below). With this option enabled, any item found to be existing in your X-Cart store will be removed from the store and replaced with the respective item from eBay. 
-       * **Import only new items**: Before importing an item from eBay, the module will check whether this item is new or already exists in your X-Cart store  (See more info in the section "New and existing items in eBay import" below). With this option enabled, only the items that do not already exist in your X-Cart store will be imported.
+       * **Remove exists products**: Before importing an item from eBay, the addon will check whether this item is new or already exists in your X-Cart store (See more info in the section "New and existing items in eBay import" below). With this option enabled, any item found to be existing in your X-Cart store will be removed from the store and replaced with the respective item from eBay. 
+       * **Import only new items**: Before importing an item from eBay, the addon will check whether this item is new or already exists in your X-Cart store  (See more info in the section "New and existing items in eBay import" below). With this option enabled, only the items that do not already exist in your X-Cart store will be imported.
 
    3. Click **Import items** to launch the product import process.    
 
@@ -37,7 +37,7 @@ An item SKU is a unique identifier of a product in an X-Cart store; when a produ
 
 An eBay Item Id is a unique identifier of the item on eBay; in an X-Cart store, it is saved in the _eBay Item Id_ field on the eBay product options tab of the product page in Admin; this happens when a product is exported to eBay, when the product is imported from eBay, or when the store administrator updates the field value manually.
 
-Before importing any item from eBay into an X-Cart store, the eBay Integration module performs a check to determine whether this item already exists in the X-Cart store or should be considered new. First, it checks the item SKU: if the Custom Label of the item matches a SKU in the X-Cart store, the item is identified as already existing in the store. If no matching SKU is found in the store database, the module goes on to check the eBay Item Id field. If the eBay Item Id of the item on eBay matches the eBay Item Id of a product in the X-Cart store database, the item is identified as already existing in the store; if no match is found, the item is considered new.
+Before importing any item from eBay into an X-Cart store, the X-Cart eBay Integration addon performs a check to determine whether this item already exists in the X-Cart store or should be considered new. First, it checks the item SKU: if the Custom Label of the item matches a SKU in the X-Cart store, the item is identified as already existing in the store. If no matching SKU is found in the store database, the addon goes on to check the eBay Item Id field. If the eBay Item Id of the item on eBay matches the eBay Item Id of a product in the X-Cart store database, the item is identified as already existing in the store; if no match is found, the item is considered new.
 
 Whether an item is a new or an already existing one has effect on how it is imported. 
 
