@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-27 13:23 +0400'
+updated_at: '2017-09-29 13:46 +0400'
 identifier: ref_ydMT71kb
 title: Importing products from eBay
-order: 100
+order: 155
 published: true
 ---
 If you already have items listed on eBay that you need to have in your X-Cart store as products, you can import them from eBay into your X-Cart store.
@@ -66,5 +66,3 @@ For example:
      * Attributes (If the product in the X-Cart store does not have attributes, the attributes from eBay are added; if the product in the X-Cart store has its own attributes, the existing attributes are removed and replaced with the attributes from eBay);
      * ebayItemId.
      Any other product properties that are not present in the details of the item on eBay (and, thus, may not be replaced with the information from eBay) will remain unaffected in X-Cart.
-   
-   
