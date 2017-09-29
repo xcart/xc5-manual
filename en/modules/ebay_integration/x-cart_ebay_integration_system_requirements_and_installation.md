@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-29 13:50 +0400'
+updated_at: '2017-09-29 14:12 +0400'
 identifier: ref_RgzAH0hf
-title: eBay Integration module system requirements and installation
+title: X-Cart eBay Integration system requirements and installation
 categories:
   - User manual
 published: true
