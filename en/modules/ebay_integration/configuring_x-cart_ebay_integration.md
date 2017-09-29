@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-29 14:13 +0400'
+updated_at: '2017-09-29 15:05 +0400'
 identifier: ref_SCbAqGqX
 title: Configuring X-Cart eBay Integration
 categories:
@@ -10,13 +10,12 @@ published: true
 order: 120
 ---
 
-
-To start using eBay Integration, you need to configure the eBay Integration module. This can be done via the eBay Configuration section (**Settings** > **eBay Configuration**).The process includes the following steps:
+To start using eBay Integration, you need to configure the X-Cart eBay Integration addon. This can be done via the eBay Configuration section (**Settings** > **eBay Configuration**).The process includes the following steps:
 
 1.  [Obtain your eBay user token](#obtaining-your-ebay-user-token);
 2.  [Set your business policies](#setting-your-business-policies);
 3.  [Choose your default eBay categories](#choosing-your-default-ebay-categories);
-4.  [Configure the General settings for the eBay Integration module](#configuring-the-general-settings-for-the-ebay-integration-module);
+4.  [Configure the General settings for the X-Cart eBay Integration addon](#configuring-the-general-settings-for-the-x-cart-ebay-integration-addon);
 5.  (Optional) [Configure eBay options for products and categories](#configuring-ebay-options-for-products-and-categories).
 
 Let's look at each of the steps more closely.
@@ -82,14 +81,14 @@ To set your store's default eBay categories:
     ![]({{site.baseurl}}/attachments/9306381/9438487.png)
 3.  (Optional step) In a similar way, use the **Additional eBay Category** selector to set a default _additional_ category for your products.
     ![]({{site.baseurl}}/attachments/9306381/9438488.png)
-4.  Once you are happy with your default category settings, click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Configure the General settings for the eBay Integration module](#configuring-the-general-settings-for-the-ebay-integration-module).
+4.  Once you are happy with your default category settings, click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Configure the General settings for the X-Cart eBay Integration addon](#configuring-the-general-settings-for-the-x-cart-ebay-integration-addon).
     ![]({{site.baseurl}}/attachments/9306381/9438489.png)
 
-## Configuring the General settings for the eBay Integration module
+## Configuring the General settings for the X-Cart eBay Integration addon
 
-Before you start exporting products to eBay, you need to adjust the module's General settings.
+Before you start exporting products to eBay, you need to adjust the addon General settings.
 
-To adjust the General settings for the eBay Integration module:
+To adjust the General settings for the X-Cart eBay Integration addon:
 
 1.  In X-Cart Admin, in the **Categories** section of the eBay Configuration page (**Settings** > **eBay Configuration**), click **Next** to go to the **General Settings** section:
     ![]({{site.baseurl}}/attachments/9306381/9438489.png)
@@ -121,7 +120,7 @@ To adjust the General settings for the eBay Integration module:
 3.  Adjust the settings in the **System options** section:
     ![]({{site.baseurl}}/attachments/9306381/9438493.png)
 
-    *   **Show eBay warning messages in admin area**: When exporting products to eBay or importing orders from eBay, you may get eBay warnings. Unlike errors, warnings are conditions that are not fatal to the module operation, but they alert you to some minor problems that you may want to fix. Any warnings your store gets from eBay are written to log files in your X-Cart store. If, in addition to that, you also wish to have eBay warning messages displayed in your store's Admin area, enable this option. 
+    *   **Show eBay warning messages in admin area**: When exporting products to eBay or importing orders from eBay, you may get eBay warnings. Unlike errors, warnings are conditions that are not fatal to the addon operation, but they alert you to some minor problems that you may want to fix. Any warnings your store gets from eBay are written to log files in your X-Cart store. If, in addition to that, you also wish to have eBay warning messages displayed in your store's Admin area, enable this option. 
     *   **Save eBay API requests/responses in the log file**: If you need eBay API requests/responses to be written to log file (for example, if you need this information for debugging purposes), enable this option.
 4.  Click **Save** to save your changes.
 
@@ -180,6 +179,6 @@ To set eBay options for a product:
 
 _Related pages:_
 
-*   {% link "eBay Integration module system requirements and installation" ref_RgzAH0hf %}
+*   {% link "X-Cart eBay Integration system requirements and installation" ref_RgzAH0hf %}
 *   {% link "Exporting products to eBay" ref_40Al0Nky %}
 *   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
