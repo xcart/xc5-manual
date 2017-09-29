@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-26 11:49 +0400'
+updated_at: '2017-09-29 14:06 +0400'
 identifier: ref_0SnFdXk1
 title: eBay Integration
 categories:
@@ -9,7 +9,7 @@ categories:
 published: true
 order: 160
 ---
-The eBay Integration module for X-Cart 5 creates a new sales channel for your business by automatically integrating your existing X-Cart store with eBay. 
+The addon X-Cart eBay Integration creates a new sales channel for your business by automatically integrating your existing X-Cart 5 store with eBay. 
 
    * Have your X-Cart store connected to one or more eBay marketplace sites, including the sites for United States, Canada (English or French), UK, Australia, Austria, Belgium (French), France, Germany, Italy, Belgium (Dutch), Netherlands, Spain, Switzerland, Hong Kong, India, Ireland, Malaysia, Philippines, Poland and Singapore. 
    * Get your products listed on eBay in as little as a few minutes using the product titles, images, descriptions, prices, inventory levels, variants and attributes from your X-Cart store. 
@@ -25,8 +25,8 @@ The integration is provided as a service. [Subscription plans](http://www.x-car
 
 _In this section:_
 
-*   {% link "eBay Integration module system requirements and installation" ref_RgzAH0hf %}
-*   {% link "Configuring the eBay Integration module" ref_SCbAqGqX %}
+*   {% link "X-Cart eBay Integration system requirements and installation" ref_RgzAH0hf %}
+*   {% link "Configuring X-Cart eBay Integration" ref_SCbAqGqX %}
 *   {% link "Exporting products to eBay" ref_40Al0Nky %}
 *   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
 *   {% link "Importing products from eBay" ref_ydMT71kb %}
