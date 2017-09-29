@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 15:05 +0400'
+updated_at: '2017-09-29 17:07 +0400'
 identifier: ref_40Al0Nky
 title: Exporting products to eBay
 categories:
@@ -11,7 +11,7 @@ order: 130
 ---
 
 
-The eBay Integration module allows you to export product information from your store to eBay. When exported to eBay, product information is used to form a new eBay listing, or to update an existing eBay listing created previously (for example, to update the available quantity of the product in the listing or to end a listing). You can export the information of just some specific products or all the products in your store at once. The export can be initiated from the details page of a specific product or from a product list in X-Cart Admin.
+The addon X-Cart eBay Integration allows you to export product information from your store to eBay. When exported to eBay, product information is used to form a new eBay listing, or to update an existing eBay listing created previously (for example, to update the available quantity of the product in the listing or to end a listing). You can export the information of just some specific products or all the products in your store at once. The export can be initiated from the details page of a specific product or from a product list in X-Cart Admin.
 
 **To export product information to eBay from a product list**:
 
