@@ -18,6 +18,8 @@ Because the new API (the one used by "PayPal powered by Braintree") is currently
 
 ![xc5_braintree_module.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module.png)
 
+![xc5_braintree_module_installed.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module_installed.png)
+
 ![xc5_braintree_add_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_add_payment_method.png)
 
 ![xc5_braintree_payment_method_add.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_add.png)
