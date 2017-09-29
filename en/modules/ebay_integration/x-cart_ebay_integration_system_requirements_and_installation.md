@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-29 14:58 +0400'
+updated_at: '2017-09-29 15:04 +0400'
 identifier: ref_RgzAH0hf
 title: X-Cart eBay Integration system requirements and installation
 categories:
@@ -25,4 +25,4 @@ As a result, you should have the addon "X-Cart eBay Integration" listed in your
 
 _Related pages:_
 
-*   {% link "Configuring the eBay Integration module" ref_SCbAqGqX %}
+*   {% link "Configuring X-Cart eBay Integration module" ref_SCbAqGqX %}
