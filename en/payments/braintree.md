@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-29 16:02 +0400'
+updated_at: '2017-10-01 19:13 +0400'
 identifier: ref_3U96LOWn
 title: ''
 order: 100
@@ -16,9 +16,11 @@ The module "PayPal powered by Braintree" is the newer of the two. It is the most
 The module "Braintree payment gateway" is an older version of the integration based on the previous version of Braintree API. 
 Because the new API (the one used by "PayPal powered by Braintree") is currently available only to users in the USA, UK and France, we are keeping the module "Braintree payment gateway" available to X-Cart customers through the Marketplace as it uses an API available in many more countries.
 
-![xc5_braintree_module.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module.png)
-
+Depending on the X-Cart version you are using, a Braintree integration module may already be installed on your X-Cart store:
 ![xc5_braintree_module_installed.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module_installed.png)
+
+If not, you can obtain it from the X-Cart Marketplace at any time:
+![xc5_braintree_module.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module.png)
 
 ![xc5_braintree_add_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_add_payment_method.png)
 
@@ -27,4 +29,3 @@ Because the new API (the one used by "PayPal powered by Braintree") is currently
 ![xc5_braintree_payment_method_added_successfully.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_added_successfully.png)
 
 ![xc5_braintree_configure_button.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_configure_button.png)
-
