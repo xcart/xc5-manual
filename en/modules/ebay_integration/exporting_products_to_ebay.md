@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-29 17:07 +0400'
+updated_at: '2017-10-01 11:36 +0400'
 identifier: ref_40Al0Nky
 title: Exporting products to eBay
 categories:
@@ -24,7 +24,7 @@ The addon X-Cart eBay Integration allows you to export product information from 
     *   If you need to export to eBay all the products that have been found and are now displayed in the product list, click the **Export all found to EBay** button:![]({{site.baseurl}}/attachments/9306473/9439182.png)
     *   If you need to export to eBay just the products you have selected, click the **More actions for selected** button in the second row of buttons and select the action you require from the button menu:
 
-        *   __End products on eBay _-_ Select this to end the existing eBay listings;
+        *   _End products on eBay_- Select this to end the existing eBay listings;
         *   _Export products to eBay_ - Select this to export all the information pertaining to the products;
         *   _Export inventories to eBay_ - Select this to update the product quantities in your eBay listings (only inventory data will be exported);
         *   _Export images to eBay_ - Select this to update only the images of the products.
