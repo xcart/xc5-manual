@@ -22,10 +22,26 @@ Depending on the X-Cart version you are using, a Braintree integration module ma
 If not, you can obtain it from the X-Cart Marketplace at any time:
 ![xc5_braintree_module.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module.png)
 
-![xc5_braintree_add_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_add_payment_method.png)
+To enable Braintree as a payment method in your X-Cart store:
 
-![xc5_braintree_payment_method_add.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_add.png)
+1.  If you haven't yet done so, [sign up](https://... "Sign up for Braintree") for Braintree. 
 
-![xc5_braintree_payment_method_added_successfully.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_added_successfully.png)
+2.  In X-Cart, add Braintree to the list of your store's active payment methods and configure it.
 
-![xc5_braintree_configure_button.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_configure_button.png)
+    1.  In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
+        
+        ![xc5_braintree_add_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_add_payment_method.png)
+
+    2.  In the popup box that appears, find the Braintree method you require (in our case **PayPal Powered by Braintree**) and select to **Add** this method:
+
+        ![xc5_braintree_payment_method_add.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_add.png)
+ 
+        The method will be added:
+     
+        ![xc5_braintree_payment_method_added_successfully.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_added_successfully.png)
+
+        Note that if the Braintree integration module is not installed at the time of adding the method, there will be an **Install** button instead of **Add**. Use this button to install the module and add the method, after which you will be able to continue with configuring the Braintree method as provided below.
+        
+    3.  
+    
+         ![xc5_braintree_configure_button.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_configure_button.png)
