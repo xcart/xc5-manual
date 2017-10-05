@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-16 18:28 +0400'
+updated_at: '2017-10-05 12:11 +0400'
 identifier: ref_STELArig
 title: Webinars and video tutorials
 categories:
@@ -49,6 +49,12 @@ In this section you will find webinars and video tutorials for X-Cart 5.
 
 *   {% link "Static pages and menus in X-Cart 5" ref_ATBkizcn %}
 *   {% link "Advanced menu management with Extended Simple CMS" ref_aWT2i7z1 %}
+
+## Look & Feel
+
+*   {% link "Basic Design Changes in X Cart 5.3"  %}
+*   [Specifying your company info, changing the text on the Add to Cart button and editing the Contact Us page in X-Cart 5](http://devs.x-cart.com/en/webinars_and_video_tutorials/specifying_your_company_info__changing_the_text_on_the_add_to_cart_button_and_editing_the_contact_us_page_in_x-cart_5.html)
+*   [Basic front-end changes in X-Cart 5.2 - Theme, Logo, Favicon, Home Page Banner](http://devs.x-cart.com/en/webinars_and_video_tutorials/basic_front-end_changes_in_x-cart_5.2_-_theme__logo__favicon__home_page_banner.html)
 
 ## Payments & Orders
 
