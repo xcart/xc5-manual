@@ -50,6 +50,6 @@ To enable Braintree as a payment method in your X-Cart store:
     
          ![xc5_braintree_configure_button.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_configure_button.png)
          
-       A page with the **Connect with Braintree** will be displayed:
+       A page with the **Connect with Braintree** button will be displayed:
        
-       <img>
+       ![xc5_braintree_method_added.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_method_added.png)
