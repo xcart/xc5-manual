@@ -50,6 +50,12 @@ To enable Braintree as a payment method in your X-Cart store, add Braintree to t
        
       ![xc5_braintree_method_added.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_method_added.png)
 
-   4. Click the **Connect with Braintree** button. You will be redirected to a Braintree-hosted page co-branded with PayPal powered by Braintree and your store logo. On this page, you will be prompted to log into an existing Braintree account, using either your PayPal credentials or your Braintree credentials.
-     
-If you do not yet have an account, you may want to choose thr Sign up option for Braintree.
+   4. Click the **Connect with Braintree** button. You will be redirected to a Braintree-hosted page co-branded with PayPal powered by Braintree and your store logo. 
+   
+      ![xc5_braintree_accept_payments_w_xcart.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_accept_payments_w_xcart.png)
+
+      On this page, you will be prompted to log into an existing Braintree account, using either your PayPal credentials or your Braintree credentials. After clicking one of the login buttons, you will also have the option to create a new Braintree account by submitting a new email and password (See the Sign up option).
+
+
+
+
