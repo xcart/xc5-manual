@@ -22,34 +22,34 @@ Depending on the X-Cart version you are using, a Braintree integration module ma
 If not, you can obtain it from the X-Cart Marketplace at any time:
 ![xc5_braintree_module.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module.png)
 
-To enable Braintree as a payment method in your X-Cart store:
+To enable Braintree as a payment method in your X-Cart store, add Braintree to the list of your store's active payment methods and configure it:
 
-1.  If you haven't yet done so, [sign up](https://signups.braintreepayments.com/ "Sign up for Braintree") for Braintree. 
-
-2.  In X-Cart, add Braintree to the list of your store's active payment methods and configure it.
-
-    1.  In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
+   1. In your X-Cart store's Admin area, go to the Payment methods page (**Store setup > Payment methods**). In the section for Online methods, click **Add payment method**:
         
-        ![xc5_braintree_add_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_add_payment_method.png)
+      ![xc5_braintree_add_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_add_payment_method.png)
 
-    2.  In the popup box that appears, find the Braintree method you require (in our case **PayPal Powered by Braintree**) and select to **Add** this method:
+   2. In the popup box that appears, find the Braintree method you require (in our case **PayPal Powered by Braintree**) and select to **Add** this method:
 
-        ![xc5_braintree_payment_method_add.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_add.png)
+      ![xc5_braintree_payment_method_add.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_add.png)
  
-        The method will be added:
+      The method will be added:
      
-        ![xc5_braintree_payment_method_added_successfully.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_added_successfully.png)
+      ![xc5_braintree_payment_method_added_successfully.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method_added_successfully.png)
 
-        Note that if the Braintree integration module is not installed at the time of adding the method, there will be an **Install** button instead of **Add**: 
+      Note that if the Braintree integration module is not installed at the time of adding the method, there will be an **Install** button instead of **Add**: 
         
-        ![xc5_braintree_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method.png)
+      ![xc5_braintree_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method.png)
         
-        Use this button to install the module and add the method.
+      Use this button to install the module and add the method.
         
-    3.  Once the method has been added, you will need to connect your X-Cart Braintree integration with your Braintree account. Start by clicking the **Configure** button pertaining to the Braintree payment method you have added:
+   3. Once the method has been added, you will need to connect your X-Cart Braintree integration with your Braintree account. Click the **Configure** button pertaining to the Braintree payment method you have added to proceed to connecting:
     
-         ![xc5_braintree_configure_button.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_configure_button.png)
+      ![xc5_braintree_configure_button.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_configure_button.png)
          
-       A page with the **Connect with Braintree** button will be displayed:
+      A page with the **Connect with Braintree** button will be displayed:
        
-       ![xc5_braintree_method_added.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_method_added.png)
+      ![xc5_braintree_method_added.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_method_added.png)
+
+   4. Click the **Connect with Braintree** button. You will be redirected to a Braintree-hosted page co-branded with PayPal powered by Braintree and your store logo. On this page, you will be prompted to log into an existing Braintree account, using either your PayPal credentials or your Braintree credentials.
+     
+If you do not yet have an account, you may want to choose thr Sign up option for Braintree.
