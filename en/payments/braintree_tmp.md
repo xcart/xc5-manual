@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-10 11:16 +0400'
+updated_at: '2017-10-11 15:16 +0400'
 identifier: ref_3U96LOWn
 title: ''
 order: 100
@@ -16,7 +16,7 @@ The module "PayPal powered by Braintree" is the newer of the two. It is the most
 The module "Braintree payment gateway" is an older version of the integration based on the previous version of Braintree API. 
 Because the new API (the one used by "PayPal powered by Braintree") is currently available only to users in the USA, UK and France, we are keeping the module "Braintree payment gateway" available to X-Cart customers through the Marketplace as it uses an API available in many more countries.
 
-Depending on the X-Cart version you are using, a Braintree integration module may already be installed on your X-Cart store:
+Depending on the X-Cart version you are using, a Braintree integration module may already be installed in your X-Cart store:
 ![xc5_braintree_module_installed.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module_installed.png)
 
 If not, you can obtain it from the X-Cart Marketplace at any time:
@@ -24,7 +24,7 @@ If not, you can obtain it from the X-Cart Marketplace at any time:
 
 To enable Braintree as a payment method in your X-Cart store:
 
-1.  If you haven't yet done so, [sign up](https://... "Sign up for Braintree") for Braintree. 
+1.  If you haven't yet done so, [sign up](https://signups.braintreepayments.com/ "Sign up for Braintree") for Braintree. 
 
 2.  In X-Cart, add Braintree to the list of your store's active payment methods and configure it.
 
@@ -44,8 +44,12 @@ To enable Braintree as a payment method in your X-Cart store:
         
         ![xc5_braintree_payment_method.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_payment_method.png)
         
-        Use this button to install the module and add the method, after which you will be able to continue with configuring the Braintree method as provided below.
+        Use this button to install the module and add the method.
         
-    3.  Once the method has been added, you will need to adjust the Braintree integration settings. You can access the settings page at any time by clicking the **Configure** button:
+    3.  Once the method has been added, you will need to connect your X-Cart Braintree integration with your Braintree account. Start by clicking the **Configure** button pertaining to the Braintree payment method you have added:
     
          ![xc5_braintree_configure_button.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_configure_button.png)
+         
+       A page with the **Connect with Braintree** will be displayed:
+       
+       <img>
