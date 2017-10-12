@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-15 10:27 +0400'
+updated_at: '2017-10-12 23:01 +0400'
 identifier: ref_n6czcwis
 title: Getting started with Blog system in X-Cart 5
 categories:
@@ -16,7 +16,7 @@ This guide assumes that the module Blog system in X-Cart 5 has already been {% l
 To start using a blog system in X-Cart:
 
 1.  Create a new MySQL user and a new MySQL database for WordPress. For security reasons, we recommend these to be separate from the ones used by X-Cart.
-2.  In a web browser, open your X-Cart store's home page and click "Blog".
+2.  In a web browser, while being logged in as your X-Cart store administrator, open your X-Cart store's home page and click "Blog".
     ![]({{site.baseurl}}/attachments/7505489/7602727.png)
 
 3.  The page that opens will allow you to install and configure WordPress using an installation wizard. The installation wizard includes two steps: at the first step, the latest version of WordPress will be downloaded to the** blog** directory within your X-Cart 5 directory (Make sure your X-Cart 5 directory has write permissions!); at the second step, WordPress will be configured and installed.
