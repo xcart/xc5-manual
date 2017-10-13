@@ -1,10 +1,10 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-13 15:11 +0400'
+updated_at: '2017-10-13 15:27 +0400'
 identifier: ref_7IDJJdrM
 title: Настройка семантических ссылок
-order: 10
+order: 20
 published: true
 ---
 ## Введение
