@@ -7,9 +7,15 @@ title: ''
 order: 100
 published: false
 ---
-configurations_tab
+![xc5_ebay_module_in_mktplce.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_module_in_mktplce.png)
+
+![xc5_ebay_module_installed.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_module_installed.png)
+
 ![xc5_ebay_configurations_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_configurations_tab.png)
 
+![xc5_ebay_token_created.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_token_created.png)
+
+![xc5_ebay_token_created_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_token_created_next.png)
 
 ![xc5_ebay_configurations_tab1.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_configurations_tab1.png)
 
@@ -20,6 +26,11 @@ configurations_tab
 ![xc5_ebay_grantaccess.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_grantaccess.png)
 
 ![xc5_ebay_business_policies_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_business_policies_tab.png)
+
+![xc5_ebay_policies.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_policies.png)
+
+![xc5_ebay_refresh_policies.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_refresh_policies.png)
+
 
 ![xc5_ebay_business_policies_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_business_policies_next.png)
 
