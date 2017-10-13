@@ -7,9 +7,6 @@ title: ''
 order: 100
 published: false
 ---
-![xc5_ebay_module_in_mktplce.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_module_in_mktplce.png)
-
-![xc5_ebay_module_installed.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_module_installed.png)
 
 ![xc5_ebay_configurations_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_configurations_tab.png)
 
