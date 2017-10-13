@@ -1,13 +1,11 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-04-14 12:01 +0400'
+updated_at: '2017-10-13 15:09 +0400'
 identifier: ref_ZlmtdzS3
 title: Инструкция по установке
 order: 100
 published: true
-categories:
-  - home
 redirect_from:
   - /ru/документация_на_русском/установка_x-cart_5.html
 description: Получите советы по выбору и настройке сервера и установке X-Cart 5
