@@ -55,9 +55,7 @@ Once a new eBay configuration has been added via the eBay configurations section
     or open the details of a previously added eBay configuration for which you need to set a new token at the **Get User Token** tab:
     ![xc5_ebay_get_token_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_get_token_tab.png)
 
-2.  Adjust the following settings:
-    *   **eBay Site**: Select the eBay site where you will be selling your products. The products and orders in your X-Cart store will be synchronized with this eBay site. 
-    *   **Select mode**: Specify the mode in which your store will be interacting with eBay: select _Test_ to use the eBay Sandbox or _Live_ to use the production environment.
+2.  Use the **Select mode** setting to specify the mode in which your store will be interacting with eBay: select _Test_ to use the eBay Sandbox or _Live_ to use the production environment.
 
 3.  Click the **Create new token** button:
     ![]({{site.baseurl}}/attachments/9306381/9438473.png)
