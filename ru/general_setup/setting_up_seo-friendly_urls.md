@@ -28,6 +28,42 @@ published: false
 
 ![1.jpg]({{site.baseurl}}/attachments/ref_7IDJJdrM/1.jpg)
 
+Появится подтверждение, что опция включена, и с этого момента ваш магазин готов к использованию семантических ссылок. 
+
+![2.jpg]({{site.baseurl}}/attachments/ref_7IDJJdrM/2.jpg)
+
+Если ваш сервер не поддерживает переадресацию и, следовательно, семантические ссылки, вы увидите такое предупреждение:
+
+![3.jpg]({{site.baseurl}}/attachments/ref_7IDJJdrM/3.jpg)
+
+Это значит, что для работы семантических ссылок необходимо настроить сервер. Данные настройки могут варьироваться в зависимости от серверного програмного обеспечения. Данная статья рассказывает, как настроить  [Apache](#setting-up-apache), [IIS](#setting-up-iis) и [nginx](#setting-up-nginx).
+
+## Настройка Apache
+
+Прежде всего, включите Apache модуль [mod_rewrite](http://httpd.apache.org/docs/current/mod/mod_rewrite.html), чтобы появилась кнопка **"Включение ЧПУ"**. Для этого в Apache файле **httpd.conf** замените следующую строку:
+
+```php
+#LoadModule rewrite_module modules/mod_rewrite.so
+```
+
+на такую:
+
+```php
+LoadModule rewrite_module modules/mod_rewrite.so
+```
+
+Теперь перезапустите Apache сервер и проверьте результат. 
+
+## Настройка IIS
+
+Для настройки IIS потребуется [импорт правил Apache](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules). Следуйте инструкциям в [статье](http://www.iis.net/learn/extensions/url-rewrite-module/importing-apache-modrewrite-rules) для импортирования правил из файла `<X-Cart>/.htaccess`.
+
+
+
+
+
+
+
 
 
 
