@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-29 15:05 +0400'
+updated_at: '2017-10-13 16:27 +0400'
 identifier: ref_SCbAqGqX
 title: Configuring X-Cart eBay Integration
 categories:
@@ -10,13 +10,23 @@ published: true
 order: 120
 ---
 
-To start using eBay Integration, you need to configure the X-Cart eBay Integration addon. This can be done via the eBay Configuration section (**Settings** > **eBay Configuration**).The process includes the following steps:
+To connect your X-Cart store to eBay, you need to set up one or more eBay configurations via the eBay configurations section in your X-Cart store's Admin area. You can access this section one of the following methods:
+   
+   * by clicking the **eBay configurations** menu item under **Sales channels** in the Admin menu:
+     ![xc5_ebay_ebay_confs_link.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_ebay_confs_link.png)
+     
+   * by going to the eBay Integration addon setting from the **Installed Addons** section:
+     ![xc5_ebay_settings_link.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_settings_link.png)
 
-1.  [Obtain your eBay user token](#obtaining-your-ebay-user-token);
-2.  [Set your business policies](#setting-your-business-policies);
-3.  [Choose your default eBay categories](#choosing-your-default-ebay-categories);
-4.  [Configure the General settings for the X-Cart eBay Integration addon](#configuring-the-general-settings-for-the-x-cart-ebay-integration-addon);
-5.  (Optional) [Configure eBay options for products and categories](#configuring-ebay-options-for-products-and-categories).
+
+You will need to add and set up a separate eBay configuration for each eBay marketplace site to which you would like to connect. This includes the following steps:
+
+1.  [Add the eBay configuration you require](#add_the_eBay_configuration_you_require);
+2.  [Obtain your eBay user token](#obtaining-your-ebay-user-token);
+3.  [Set your business policies](#setting-your-business-policies);
+4.  [Choose your default eBay categories](#choosing-your-default-ebay-categories);
+5.  [Configure the General settings for the X-Cart eBay Integration addon](#configuring-the-general-settings-for-the-x-cart-ebay-integration-addon);
+6.  (Optional) [Configure eBay options for products and categories](#configuring-ebay-options-for-products-and-categories).
 
 Let's look at each of the steps more closely.
 
