@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-13 15:01 +0400'
+updated_at: '2017-10-13 15:11 +0400'
 identifier: ref_7IDJJdrM
 title: Настройка семантических ссылок
 order: 10
@@ -13,13 +13,13 @@ published: true
 
 ## Содержание
 
-*   [Общие настройки](#general-setup)
-*   [Настройка Apache](#setting-up-apache)
-*   [Настройка IIS](#setting-up-iis)
-*   [Настройка nginx](#setting-up-nginx)
-*   [Изменение семантических ссылок](#tweaking-cleanurls)
-*   [Алиас семантической ссылки](#clean-url-aliases)
-*   [Решение проблем](#troubleshooting)
+*   [Общие настройки](#section-2)
+*   [Настройка Apache](#apache)
+*   [Настройка IIS](#iis)
+*   [Настройка nginx](#nginx)
+*   [Изменение семантических ссылок](#section-3)
+*   [Алиас семантической ссылки](#section-4)
+*   [Решение проблем](#section-5)
 
 
 ## Общие настройки
@@ -119,7 +119,7 @@ use_canonical_urls_only = On
 category_clean_urls_format = "domain/parent/goalcategory/"
 ```
 
-## Псевдоним семантической ссылки
+## Алиас семантической ссылки
 
 Также, можно задать уникальные семантические ссылки для таких целевых объектов, как `target=bestsellers` и `target=contact_us` (только для зоны покупателей). Внесите пары "ключ - значение" в секцию `[clean_urls_aliases]`:
 
