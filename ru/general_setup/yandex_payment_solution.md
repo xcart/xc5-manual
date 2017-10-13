@@ -1,15 +1,13 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-07-27 13:24 +0400'
+updated_at: '2017-10-13 15:09 +0400'
 identifier: ref_baAbXfEo
 title: Яндекс.Касса
 order: 200
 published: true
 redirect_from:
   - /ru/документация_на_русском/яндекс.касса__yandex_payment_solution.html
-categories:
-  - home
 description: >-
   Подключите ваш магазин к сервису Яндекс.Касса (Yandex Payment Solution), чтобы
   принимать платежи с помощью банковских карт, наличных, Web-Money и
