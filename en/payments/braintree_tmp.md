@@ -1,20 +1,20 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-11 15:16 +0400'
+updated_at: '2017-10-13 13:50 +0400'
 identifier: ref_3U96LOWn
 title: ''
 order: 100
 published: false
 ---
-X-Cart can be integrated with [Braintree, A PayPal Service](https://www.braintreepayments.com/). Currently, there are two Braintree integration modules available in the X-Cart Marketplace:
+An X-Cart store can be integrated with [Braintree, A PayPal Service](https://www.braintreepayments.com/). Currently, there are two Braintree integration modules available in the X-Cart Marketplace:
    
    * **[PayPal powered by Braintree](https://market.x-cart.com/addons/paypal-powered-by-braintree.html)** 
    * **[Braintree payment gateway](https://market.x-cart.com/addons/braintree-for-xcart5.html)**
 
 The module "PayPal powered by Braintree" is the newer of the two. It is the most advanced payment solution from PayPal to date, and it is based on the latest Braintree API. 
-The module "Braintree payment gateway" is an older version of the integration based on the previous version of Braintree API. 
-Because the new API (the one used by "PayPal powered by Braintree") is currently available only to users in the USA, UK and France, we are keeping the module "Braintree payment gateway" available to X-Cart customers through the Marketplace as it uses an API available in many more countries.
+The module "Braintree payment gateway" is an older version of the integration based on an earlier version of Braintree API. 
+Because the new API (the one used by "PayPal powered by Braintree") is currently available only to users in the USA, UK and France, we are keeping the module "Braintree payment gateway" available to X-Cart customers through the Marketplace as it uses an API available in many more countries. 
 
 Depending on the X-Cart version you are using, a Braintree integration module may already be installed in your X-Cart store:
 ![xc5_braintree_module_installed.png]({{site.baseurl}}/attachments/ref_3U96LOWn/xc5_braintree_module_installed.png)
@@ -59,7 +59,3 @@ To enable Braintree as a payment method in your X-Cart store, add Braintree to t
       On this page, you will be prompted to log into your existing PayPal or Braintree account. Note that if you do not yet have an account, you should still click one of the login buttons: on the following step you will be provided with an option to create a new Braintree or PayPal account.
       
       By logging into your PayPal/Braintree account, you will connect the X-Cart Braintree integration to your account and authorize it to take actions on your behalf.
-
-
-
-
