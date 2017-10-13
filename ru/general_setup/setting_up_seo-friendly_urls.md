@@ -3,8 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-10-13 15:01 +0400'
 identifier: ref_7IDJJdrM
-title: ''
-order: 100
+title: Настройка семантических ссылок
+order: 10
 published: true
 ---
 ## Введение
