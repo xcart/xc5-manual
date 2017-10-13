@@ -13,9 +13,9 @@ published: false
 
 ![xc5_ebay_configurations_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_configurations_tab.png)
 
-![xc5_ebay_configurations_tab1.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_configurations_tab1.png)
-
 ![xc5_ebay_create_configuration.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_create_configuration.png)
+
+![xc5_ebay_configurations_tab1.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_configurations_tab1.png)
 
 ![xc5_ebay_signin_page.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_signin_page.png)
 
