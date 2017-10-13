@@ -36,7 +36,7 @@ published: true
 
 ![3.jpg]({{site.baseurl}}/attachments/ref_7IDJJdrM/3.jpg)
 
-Это значит, что для работы семантических ссылок необходимо настроить сервер. Данные настройки могут варьироваться в зависимости от серверного програмного обеспечения. Данная статья рассказывает, как настроить  [Apache](#setting-up-apache), [IIS](#setting-up-iis) и [nginx](#setting-up-nginx).
+Это значит, что для работы семантических ссылок необходимо настроить сервер. Данные настройки могут варьироваться в зависимости от серверного програмного обеспечения. Данная статья рассказывает, как настроить  [Apache](#apache), [IIS](#iis) и [nginx](#nginx).
 
 ## Настройка Apache
 
@@ -60,7 +60,7 @@ LoadModule rewrite_module modules/mod_rewrite.so
 
 ## Настройка nginx
 
-Строки ниже должны быть внесены в [секцию server {}](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) файла конфигурации nginx (nginx.conf):
+Строки ниже должны быть внесены в [секцию server {}](http://nginx.org/en/docs/http/ngx_http_core_module.html#server) файла конфигурации nginx (`nginx.conf`):
 
 ```php
 ## Example nginx configuration (X-Cart 5.3.2+)
