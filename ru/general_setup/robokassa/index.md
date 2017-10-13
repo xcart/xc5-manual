@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-07-27 13:24 +0400'
+updated_at: '2017-10-13 15:19 +0400'
 identifier: ref_VhQHtKBi
 title: ROBOKASSA
 icon: payment
@@ -11,8 +11,6 @@ description: >-
 order: 300
 redirect_from:
   - /ru/документация_на_русском/robokassa/
-categories:
-  - home
 published: true
 ---
 
