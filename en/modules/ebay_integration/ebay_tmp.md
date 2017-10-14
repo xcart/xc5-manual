@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-13 17:10 +0400'
+updated_at: '2017-10-14 11:17 +0400'
 identifier: ref_ZnP9TFJx
 title: ''
 order: 100
@@ -36,8 +36,8 @@ published: false
 
 ![xc5_ebay_categories_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_tab.png)
 
-![xc5_ebay_categories_selected.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_selected.png)
+
 
 ![xc5_ebay_categories_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_next.png)
-s
+
 ![xc5_ebay_general_settings.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_general_settings.png)
