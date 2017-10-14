@@ -70,11 +70,13 @@ To create a new user token for an eBay configuration:
     ![xc5_ebay_grantaccess.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_grantaccess.png)
 
     **Important**: If you are creating a Sandbox user token, enter the credentials for a [Sandbox User](https://developer.ebay.com/DevZone/sandboxuser/default.aspx). If it is a token for Production, use the credentials for a user created on the [Production eBay site](http://www.ebay.com/) (the one you will use to sell items on eBay). Remember that User IDs for Sandbox users begin with "`TESTUSER_`".
-    Once application access has been granted, eBay will generate a new token, and you will be automatically redirected back to X-Cart. On the **Get User Token** screen, you should now be able to see the **User Token** field populated with your token value. Below this field you should be able to see information about the current status of your token (**Token Status**) and token expiration date (**Token Expiration**):
-    ![]({{site.baseurl}}/attachments/9306381/9438476.png)
+    Once application access has been granted, eBay will generate a new token, and you will be automatically redirected back to X-Cart. Now on the **Get User Token** tab of the eBay configuration details you should be able to see the **User Token** field populated with your token value. Below this field you should be able to see information about the current status of your token (**Token Status**) and token expiration date (**Token Expiration**).
+    ![xc5_ebay_token_created.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_token_created.png)
+
     When your token is about to expire, you will be notified and provided with a button to create a new one.
+    
 4.  Now that your token has been generated, click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Setting your business policies](#setting-your-business-policies).
-    ![]({{site.baseurl}}/attachments/9306381/9438477.png)
+    ![xc5_ebay_token_created_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_token_created_next.png)
 
 ## Setting your business policies
 
