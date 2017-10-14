@@ -48,11 +48,15 @@ The eBay configuration will be created. On the page that opens, the configuratio
 
 ## Obtaining an eBay user token
 
-Once a new eBay configuration has been added via the eBay configurations section of your X-Cart store's Admin area, you need to is create a new user [token](http://developer.ebay.com/devzone/guides/ebayfeatures/Basics/Tokens-About.html) for it (also known as "Auth Token). The token is needed so the eBay Integration in your X-Cart store can connect to your eBay account. To create a new user token for an eBay configuration:
+Once a new eBay configuration has been added via the eBay configurations section of your X-Cart store's Admin area, you need to create a new user [token](http://developer.ebay.com/devzone/guides/ebayfeatures/Basics/Tokens-About.html) for it (also known as "Auth Token). The token is needed so the eBay Integration in your X-Cart store can connect to your eBay account. 
+
+The following instructions specify how to create a new token for a new eBay configuration. The same instructions should be used if you need to connect an existing eBay configuration to a different eBay account.
+
+To create a new user token for an eBay configuration:
 
 1.  If you haven't yet done so, add a new eBay configuration via the eBay configurations section of your X-Cart store's Admin area (**Sales channels**>**eBay configurations**) as described above (See [Add the eBay configuration you require](#add_the_eBay_configuration_you_require)): 
     ![xc5_ebay_configurations_tab1.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_configurations_tab1.png)
-    or open the details of a previously added eBay configuration for which you need to set a new token at the **Get User Token** tab:
+    If you are changing the token for a previously added eBay configuration, open the details of the respective configuraion for editing (You should be viewing the **Get User Token** tab of the configuration details):
     ![xc5_ebay_get_token_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_get_token_tab.png)
 
 2.  Use the **Select mode** setting to specify the mode in which your store will be interacting with the selected eBay marketplace: select _Test_ to use the eBay Sandbox or _Live_ to use the production environment.
