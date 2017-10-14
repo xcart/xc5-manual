@@ -117,7 +117,8 @@ To set the default eBay categories:
 
 2.  Set the default _main_ category for your products:
     Use the **Main eBay Category** selector to select the eBay category that best describes the products you are going to sell on eBay. If not all your products are going to be in the same category, just select the category you intend to use for the majority of your eBay listings; for the products that do not fit well into the eBay category selected here, you will be able to choose an eBay category [at the product or category level](#configuring-ebay-options-for-products-and-categories).
-    ![]({{site.baseurl}}/attachments/9306381/9438486.png)
+    ![xc5_ebay_main_category_selector.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_main_category_selector.png)
+
     Note that category selection is likely to be a multi-step process: at first, the selector will show only top level eBay categories; once you select one of them, another selector will be displayed right below the first one so you can continue to select a nested category. You must continue selecting categories until you reach the lowest level of the eBay category hierarchy where you will be able to select the category that provides the most precise description of your products. At this point you should see a note "Allowed to select", which means the category selection process has been completed.
     ![]({{site.baseurl}}/attachments/9306381/9438487.png)
 3.  (Optional step) In a similar way, use the **Additional eBay Category** selector to set a default _additional_ category for your products.
