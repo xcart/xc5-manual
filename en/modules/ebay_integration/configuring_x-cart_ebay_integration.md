@@ -105,14 +105,15 @@ Once you have created an eBay user token to connect your X-Cart store to your eB
 
 ## Choosing your default eBay categories
 
-Every product you export to eBay has to be placed in at least one of eBay categories. When using eBay Integration, the eBay categories to which your products will be exported need to be set before the export actually takes place. The **Categories** section of the eBay Configuration page in X-Cart allows you to set the default eBay categories for your listings: one main and one additional category. The main category is required, the additional one is optional. The categories you specify here will be your store's default eBay categories - the ones that will be used for any products for which eBay categories are not set at the product or category level. 
+Every product you export to eBay has to be placed in at least one of eBay categories. When using eBay Integration, the eBay categories to which your products will be exported need to be set before the export actually takes place. When configuring an eBay configuration in your X-Cart store, the **Categories** section allows you to set the default eBay categories for your listings: one main and one additional category. The main category is required, the additional one is optional. The categories you specify here will be your store's default eBay categories for the selected eBay marketplace site - the ones that will be used for any products for which eBay categories are not set at the product or category level. 
 
-To set your store's default eBay categories:
+To set the default eBay categories:
 
-1.  In X-Cart Admin, in the **Business Policies **section of the eBay Configuration page (**Settings** > **eBay Configuration**), click **Next** to go to the **Categories** section:
-    ![]({{site.baseurl}}/attachments/9306381/9438484.png)
-    If you have configured your default eBay categories previously, you can simply click the **Categories** tab:
-    ![]({{site.baseurl}}/attachments/9306381/9438485.png)
+1.  In X-Cart Admin, after setting the business policies for a new eBay configuration in the **Business Policies **section, click **Next** to go to the **Categories** section:
+    ![xc5_ebay_business_policies_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_business_policies_next.png)
+
+    If you have configured your default eBay categories for the eBay configuration previously, you can simply click the **Categories** tab:
+    ![xc5_ebay_categories_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_tab.png)
 
 2.  Set the default _main_ category for your products:
     Use the **Main eBay Category** selector to select the eBay category that best describes the products you are going to sell on eBay. If not all your products are going to be in the same category, just select the category you intend to use for the majority of your eBay listings; for the products that do not fit well into the eBay category selected here, you will be able to choose an eBay category [at the product or category level](#configuring-ebay-options-for-products-and-categories).
