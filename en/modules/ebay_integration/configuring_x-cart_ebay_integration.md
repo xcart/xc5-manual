@@ -70,7 +70,7 @@ To create a new user token for an eBay configuration:
     ![xc5_ebay_grantaccess.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_grantaccess.png)
 
     **Important**: If you are creating a Sandbox user token, enter the credentials for a [Sandbox User](https://developer.ebay.com/DevZone/sandboxuser/default.aspx). If it is a token for Production, use the credentials for a user created on the [Production eBay site](http://www.ebay.com/) (the one you will use to sell items on eBay). Remember that User IDs for Sandbox users begin with "`TESTUSER_`".
-    Once application access has been granted, eBay will generate a new token, and you will be automatically redirected back to X-Cart. Now on the **Get User Token** tab of the eBay configuration details you should be able to see the **User Token** field populated with your token value. Below this field you should be able to see information about the current status of your token (**Token Status**) and token expiration date (**Token Expiration**).
+    Once application access has been granted, eBay will generate a new token, and you will be automatically redirected back to X-Cart. Now in the **Get User Token** section of the eBay configuration details you should be able to see the **User Token** field populated with your token value. Below this field you should be able to see information about the current status of your token (**Token Status**) and token expiration date (**Token Expiration**).
     ![xc5_ebay_token_created.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_token_created.png)
 
     When your token is about to expire, you will be notified and provided with a button to create a new one.
@@ -83,19 +83,25 @@ To create a new user token for an eBay configuration:
 Once you have created an eBay user token to connect your X-Cart store to your eBay seller account, you can set business policies for your eBay listings. Business policies typically include information on how buyers can pay you; the shipping services you offer, and shipping costs; whether you accept returns, any return conditions, etc. All eBay listings must include this information. To provide information on your business policies for the listings that will be created from the products you sell via your X-Cart store, follow the steps below:
 
 1.  If you haven't yet done so, configure your business policies in your eBay account (More information is available [here](http://pages.ebay.com/help/sell/business-policies.html)). 
-2.  In X-Cart Admin, after creating your eBay token in the **Get User Token** section of the eBay Configuration page (**Settings** > **eBay Configuration**), click **Next** to go to the **Business policies** section:
-    ![]({{site.baseurl}}/attachments/9306381/9438477.png)
-    If you have configured your business policies earlier, it is possible to simply click the **Business policies** tab:
-    ![]({{site.baseurl}}/attachments/9306381/9438479.png)
+2.  In X-Cart Admin, after creating an eBay token for your eBay configuration, click **Next** at the bottom of the **Get User Token** section to go to the **Business policies** section:
+    ![xc5_ebay_token_created_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_token_created_next.png)
+
+    If you have configured the business policies of your eBay configuration earlier, it is possible to simply click the **Business policies** tab:
+    ![xc5_ebay_business_policies_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_business_policies_tab.png)
+
 3.  Use the drop-down policy selectors to set the business policies you would like to use for your eBay listings:
     *   **Return Policy**;
     *   **Payment Policy**; 
-    *   **Shipping Policy**. ![]({{site.baseurl}}/attachments/9306381/9438481.png)
+    *   **Shipping Policy**. 
+    ![xc5_ebay_policies.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_policies.png)
+
     The names of business policies displayed to you on this page are pulled from your eBay account to which you have linked your application at the [previous step](#obtaining-your-ebay-user-token). If you do not see the policy you require in any of the selectors, it may be due to the fact that the policy was added after the information on the policies had been pulled into X-Cart. To resolve the problem, click the **Refresh Business Policies** button - the list of policies will be updated.
-    ![]({{site.baseurl}}/attachments/9306381/9438482.png)
+    ![xc5_ebay_refresh_policies.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_refresh_policies.png)
+
 4.  Use the **PayPal email address** field to enter your valid PayPal email address. eBay will use this address to identify the correct PayPal account when the buyer pays you via PayPal.
+
 5.  Click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Choose your default eBay categories](#choosing-your-default-ebay-categories).
-    ![]({{site.baseurl}}/attachments/9306381/9438484.png)
+    ![xc5_ebay_business_policies_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_business_policies_next.png)
 
 ## Choosing your default eBay categories
 
