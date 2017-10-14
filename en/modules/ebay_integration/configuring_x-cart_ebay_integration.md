@@ -123,9 +123,10 @@ To set the default eBay categories:
     ![xc5_ebay_categories_selected.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_selected.png)
 
 3.  (Optional step) In a similar way, use the **Additional eBay Category** selector to set a default _additional_ category for your products.
-    ![]({{site.baseurl}}/attachments/9306381/9438488.png)
+    ![xc5_ebay_additional_category_selector.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_additional_category_selector.png)
+
 4.  Once you are happy with your default category settings, click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Configure the General settings for the X-Cart eBay Integration addon](#configuring-the-general-settings-for-the-x-cart-ebay-integration-addon).
-    ![]({{site.baseurl}}/attachments/9306381/9438489.png)
+    ![xc5_ebay_categories_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_categories_next.png)
 
 ## Configuring the General settings for the X-Cart eBay Integration addon
 
