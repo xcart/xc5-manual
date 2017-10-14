@@ -134,10 +134,11 @@ Before you start exporting products to eBay, you need to adjust the addon Genera
 
 To adjust the General settings for the X-Cart eBay Integration addon:
 
-1.  In X-Cart Admin, in the **Categories** section of the eBay Configuration page (**Settings** > **eBay Configuration**), click **Next** to go to the **General Settings** section:
-    ![]({{site.baseurl}}/attachments/9306381/9438489.png)
-    If you have already configured your eBay General Settings previously, you can simply click the **General Settings** tab:
-    ![]({{site.baseurl}}/attachments/9306381/9438491.png)
+1.  In X-Cart Admin, after setting the default categories for a new eBay configuration in the **Categories** section, click **Next** to go to the **General Settings** section:
+    ![xc5_ebay_categories_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_categories_next.png)
+
+    If you have already configured the General Settings for your eBay configuration previously, you can simply click the **General Settings** tab:
+    ![xc5_ebay_general_settings.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_general_settings.png)
 
 2.  Adjust the settings in the **Product options** section:
     ![]({{site.baseurl}}/attachments/9306381/9438492.png)
