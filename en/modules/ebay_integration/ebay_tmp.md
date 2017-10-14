@@ -36,6 +36,8 @@ published: false
 
 ![xc5_ebay_categories_tab.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_tab.png)
 
+![xc5_ebay_main_category_selector.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_main_category_selector.png)
+
 ![xc5_ebay_categories_selected.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_selected.png)
 
 ![xc5_ebay_categories_next.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_categories_next.png)
