@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-29 17:10 +0400'
+updated_at: '2017-10-15 17:10 +0400'
 identifier: ref_ydMT71kb
 title: Importing products from eBay
 order: 155
@@ -66,3 +66,9 @@ For example:
      * Attributes (If the product in the X-Cart store does not have attributes, the attributes from eBay are added; if the product in the X-Cart store has its own attributes, the existing attributes are removed and replaced with the attributes from eBay);
      * ebayItemId.
      Any other product properties that are not present in the details of the item on eBay (and, thus, may not be replaced with the information from eBay) will remain unaffected in X-Cart.
+     
+_Related pages:_
+
+*   {% link "Exporting products to eBay" ref_40Al0Nky %}
+*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
+
