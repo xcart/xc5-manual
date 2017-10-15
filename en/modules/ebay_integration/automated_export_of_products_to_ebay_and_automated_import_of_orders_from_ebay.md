@@ -1,9 +1,9 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-29 17:25 +0400'
+updated_at: '2017-10-15 14:54 +0400'
 identifier: ref_qPIZcwNs
-title: Automated export of products to eBay and automated import of orders from eBay
+title: Automating import and export tasks for eBay Integration
 categories:
   - User manual
 published: true
