@@ -37,4 +37,3 @@ _Related pages:_
 *   {% link "Exporting products to eBay" ref_40Al0Nky %}
 *   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
 *   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
-
