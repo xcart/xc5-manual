@@ -175,7 +175,8 @@ To adjust the General settings:
     *   **Allow update products on eBay automatically**:
     *   **Allow update inventory of products on eBay automatically**:
     *   **Allow update inventory of products from eBay automatically**:
-    *   **Allow end items on eBay**:
+    *   **Allow end items on eBay**: This option is enabled by default. It enables you to end items on eBay manually with a click of a button; it also allows a special cron script in X-Cart to automatically end eBay items if they run out of stock. If you choose to disable this option, the buttons to end items on eBay will not be provided; any items that run out of stock before the period for which they have been listed on eBay expires will also not be ended automatically.
+    
     *   **Allow update eBay order status**:
     
 4.  Click **Save** to save your changes.
