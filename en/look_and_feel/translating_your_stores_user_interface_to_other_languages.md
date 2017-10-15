@@ -57,10 +57,12 @@ You may notice that some texts and labels do not get translated when you switch 
 So it's only natural that a lot of things will not be translated automatically. Luckily, you can fix any text label lacking a translation in any of the installed languages by editing it manually. For example, to add a German translation for the link "View more addons in Marketplace", do the following:
 
 1.  In the Languages section (**Store setup** > **Translations**) of the Admin area, select the **Edit labels** tab.
+
 2.  Search for the label "View more addons in Marketplace":
     ![]({{site.baseurl}}/attachments/6389832/8719456.png)
     Now that we have found the label, we can see all the languages in which the label does not have a translation - the codes for these languages are greyed out (see the "DE" language code displayed in pale grey):
     ![]({{site.baseurl}}/attachments/6389832/8719457.png)
+    
 3.  Use the Global edit feature to add the translation you require. Be sure to save your changes.
     ![]({{site.baseurl}}/attachments/6389832/8719458.png)
     (More dtailed instructions for editing text labels and their translations can be found in the {% link "Editing text labels" ref_IyGxQ1DN#editing-text-labels %} section of this manual.)
