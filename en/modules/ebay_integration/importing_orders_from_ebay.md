@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-07-27 14:22 +0400'
+updated_at: '2017-10-15 17:04 +0400'
 identifier: ref_QTwGRPLV
 title: Importing orders from eBay
 categories:
@@ -36,4 +36,5 @@ _Related pages:_
 
 *   {% link "Exporting products to eBay" ref_40Al0Nky %}
 *   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
-*   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
+*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
+
