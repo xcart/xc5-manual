@@ -48,11 +48,11 @@ Customer area:
 
 Try switching the language in either of the areas, and you should see at least some of the words and phrases on the page you are viewing translated to the selected language. For example, here's what the Modules page in the Admin area looks like after switching the language of the interface in Admin to German (Note the language code "DE" in the language selector):
 
-![]({{site.baseurl}}/attachments/6389832/8719385.png)
+    ![xc5_translations_installed_addons_german.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_installed_addons_german.png)
 
-You may notice that some texts and labels do not get translated when you switch the language selector. For example, in the screenshot above you can still see the module description and the link "View more addons in Marketplace" displayed in the English language - instead of German. Well, things like this happen pretty often. In fact, the module description is fetched from the Marketplace,so the translation module has no power over its translation. As to the "View more addons in Marketplace" link, the respective label simply does not have a value for the German language. If we compare our installed translations in the Languages section (**Store setup** > **Translations**), we will see that the English translation has more than twice as many labels than the German translation:
+You may notice that some texts and labels do not get translated when you switch the language selector. For example, in the screenshot above you can still see the module description and the link "View more addons in Marketplace" displayed in the English language - instead of German. Well, things like this happen pretty often. In fact, the module description is fetched from the Marketplace,so the translation module has no power over its translation. As to the "View more addons in Marketplace" link, the respective label simply does not have a value for the German language. If we compare our installed translations in the Languages section (**Store setup** > **Translations**), we will see that the English translation has many more labels than the German translation:
 
-![]({{site.baseurl}}/attachments/6389832/8719455.png)
+    ![xc5_translations_num_of_labels.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_num_of_labels.png)
 
 So it's only natural that a lot of things will not be translated automatically. Luckily, you can fix any text label lacking a translation in any of the installed languages by editing it manually. For example, to add a German translation for the link "View more addons in Marketplace", do the following:
 
