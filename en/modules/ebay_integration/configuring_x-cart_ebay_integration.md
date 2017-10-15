@@ -145,23 +145,25 @@ To adjust the General settings for the X-Cart eBay Integration addon:
     The settings in this section will apply to all the products in your X-Cart store, for which similar settings have not been set [at the level of categories or individual products](#configuring-ebay-options-for-products-and-categories).
 
     *   **Listing duration**: Select a duration for your store's eBay listings. Ebay help on listing duration is available [here](http://pages.ebay.com/help/sell/duration.html).
+    
     *   **Product condition**: Select the condition of the products you are going to export to eBay. Click the _Condition help_ link for help on item condition for your category.
+    
     *   **Product price modifier**: If necessary, the price of items sold via eBay can be made higher or lower than the price of these items in your X-Cart store. The price difference can be implemented by setting a product price modifier. 
-        For example, to add a $1 per item processing fee for eBay orders, you should set the price modifier as "[1.00] + [ $ ]":
-
-        Image is missing
+        For example, to add a $1 per item processing fee for eBay orders, you should set the price modifier as "[1.00] + [ $ ]".
 
         This way all your items sold on eBay will be $1 more expensive than the items in your X-Cart store.
-        To reduce the price of items sold on eBay by 10% of their price in your X-Cart store, you should set the price modifier as "[-10.00] + [ % ]":
-
-        Image is missing
+        To reduce the price of items sold on eBay by 10% of their price in your X-Cart store, you should set the price modifier as "[-10.00] + [ % ]".
 
         (Note the minus sign before "10.00"; it shows that the price of items on eBay will be _lower_ than the original item price in the X-Cart store).
-        The price modifier defined in the eBay Integration General Settings applies to your entire X-Cart store (i.e. all the products that will be exported to eBay). If you need a price modifier only for _some_ of the products, you should set the modifier [at the level of specific categories or individual products](#configuring-ebay-options-for-products-and-categories).
+        
+        The price modifier defined in the General Settings section of an eBay configuration details applies to your entire X-Cart store (i.e. all the products that will be exported to the eBay marketplace site corresponding to the selected eBay configuration). If you need a price modifier only for _some_ of the products, you should set the modifier [at the level of specific categories or individual products](#configuring-ebay-options-for-products-and-categories).
+        
     *   **Exchange rate**: If the type of currency you use in your X-Cart store is different from the currency that will be used for your eBay listings (for example, if the prices at your X-Cart store are in Australian dollars, and the prices on eBay need to be specified in US dollars), use this field to set the exchange rate. The exchange rate will be used both when exporting your products from your X-Cart store to eBay and when importing orders from eBay back to your X-Cart store.
-    *   **Export product description**: In X-Cart, a product can have two types of description: a short description and a detailed description. EBay listings can have just one description. So, before you export any products to eBay, you need to specify which of the two product descriptions should be used for eBay. Here you set the type of product description that should be exported to eBay by default. If any of your products need to use a different type of description on eBay, you can adjust this setting individually for these products in their [eBay product options](#configuring-ebay-options-for-products-and-categories). 
-    *   **End a Listing when the stock of product hits zero**: Enable this option if you want your eBay listings to be ended automatically as soon as the stock quantity of the respective products in your X-Cart store reaches zero.
-
+    
+    *   **Export product description**: In X-Cart, a product can have two types of description: a short description and a detailed description. EBay listings can have just one description. So, before you export any products to eBay, you need to specify which of the two product descriptions should be used for eBay. In this field you set the type of product description that should be exported to eBay by default. If any of your products need to use a different type of description on eBay, you can adjust this setting individually for these products in their [eBay product options](#configuring-ebay-options-for-products-and-categories). 
+    
+    *   **Product code type**: Type of global product code (EAN / USBN / UPC) that should be used for export of products to eBay. If not specified for a product, "Does not apply" will be sent to eBay.
+    
 3.  Adjust the settings in the **System options** section:
     ![]({{site.baseurl}}/attachments/9306381/9438493.png)
 
