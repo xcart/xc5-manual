@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-01 11:50 +0400'
+updated_at: '2017-10-15 17:03 +0400'
 identifier: ref_40Al0Nky
 title: Exporting products to eBay
 categories:
@@ -59,4 +59,5 @@ _Related pages:_
 
 *   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
 *   {% link "Importing orders from eBay" ref_QTwGRPLV %}
-*   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
+*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
+
