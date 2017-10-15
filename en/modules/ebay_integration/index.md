@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-09-29 14:06 +0400'
+updated_at: '2017-10-15 15:10 +0400'
 identifier: ref_0SnFdXk1
 title: eBay Integration
 categories:
@@ -31,7 +31,7 @@ _In this section:_
 *   {% link "Viewing and managing your product listings on eBay" ref_UxlB19Fr %}
 *   {% link "Importing products from eBay" ref_ydMT71kb %}
 *   {% link "Importing orders from eBay" ref_QTwGRPLV %}
-*   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
+*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
 
 _Related pages:_
 
