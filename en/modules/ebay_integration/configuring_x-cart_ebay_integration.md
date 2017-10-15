@@ -25,7 +25,7 @@ You will need to add and set up a separate eBay configuration for each eBay mark
 2.  [Obtain your eBay user token](#obtaining-your-ebay-user-token);
 3.  [Set your business policies](#setting-your-business-policies);
 4.  [Choose your default eBay categories](#choosing-your-default-ebay-categories);
-5.  [Configure the General settings for the X-Cart eBay Integration addon](#configuring-the-general-settings-for-the-x-cart-ebay-integration-addon);
+5.  [Configure the General settings](#configuring-the-general-settings);
 6.  (Optional) [Configure eBay options for products and categories](#configuring-ebay-options-for-products-and-categories).
 
 Let's look at each of the steps more closely.
@@ -128,11 +128,11 @@ To set the default eBay categories:
 4.  Once you are happy with your default category settings, click **Next** to save your changes and head over to the next step of configuring your eBay Integration: [Configure the General settings for the X-Cart eBay Integration addon](#configuring-the-general-settings-for-the-x-cart-ebay-integration-addon).
     ![xc5_ebay_categories_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_categories_next.png)
 
-## Configuring the General settings for the X-Cart eBay Integration addon
+## Configuring the General settings
 
-Before you start exporting products to eBay, you need to adjust the addon General settings.
+Before you start exporting products to eBay, you need to adjust the General settings for the respective eBay configuration.
 
-To adjust the General settings for the X-Cart eBay Integration addon:
+To adjust the General settings:
 
 1.  In X-Cart Admin, after setting the default categories for a new eBay configuration in the **Categories** section, click **Next** to go to the **General Settings** section:
     ![xc5_ebay_categories_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_categories_next.png)
@@ -142,7 +142,7 @@ To adjust the General settings for the X-Cart eBay Integration addon:
 
 2.  Adjust the settings in the **Product options** section:
     ![]({{site.baseurl}}/attachments/9306381/9438492.png)
-    The settings in this section will apply to all the products in your X-Cart store, for which similar settings have not been set [at the level of categories or individual products](#configuring-ebay-options-for-products-and-categories).
+    The settings in this section will apply to all the products in your X-Cart store for which similar settings have not been set [at the level of categories or individual products](#configuring-ebay-options-for-products-and-categories).
 
     *   **Listing duration**: Select a duration for your store's eBay listings. Ebay help on listing duration is available [here](http://pages.ebay.com/help/sell/duration.html).
     
@@ -162,7 +162,7 @@ To adjust the General settings for the X-Cart eBay Integration addon:
     
     *   **Export product description**: In X-Cart, a product can have two types of description: a short description and a detailed description. EBay listings can have just one description. So, before you export any products to eBay, you need to specify which of the two product descriptions should be used for eBay. In this field you set the type of product description that should be exported to eBay by default. If any of your products need to use a different type of description on eBay, you can adjust this setting individually for these products in their [eBay product options](#configuring-ebay-options-for-products-and-categories). 
     
-    *   **Product code type**: Type of global product code (EAN / USBN / UPC) that should be used for export of products to eBay. If not specified for a product, "Does not apply" will be sent to eBay.
+    *   **Product code type**: Specify the type of global product code (EAN / USBN / UPC) to be used for the export of products to eBay. If no code is specified for a product, "Does not apply" will be sent to eBay.
     
 3.  Adjust the settings in the **System options** section:
     ![]({{site.baseurl}}/attachments/9306381/9438493.png)
