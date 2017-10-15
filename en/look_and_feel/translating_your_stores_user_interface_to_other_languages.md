@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-11-10 00:20 +0400'
+updated_at: '2017-10-16 00:16 +0400'
 identifier: ref_NH3w8sSS
 title: 'Translating your store&#39;s user interface to other languages'
 categories:
@@ -19,8 +19,6 @@ However, you can turn your X-Cart into a truly multi-language solution by instal
 *   German
 *   Dutch
 *   British English
-
-Icon
 
 If you want to translate X-Cart into some other language, contact us at {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. We will explain how this can be done and how you can get money out of it.
 
