@@ -168,7 +168,16 @@ To adjust the General settings:
     ![]({{site.baseurl}}/attachments/9306381/9438493.png)
 
     *   **Show eBay warning messages in admin area**: When exporting products to eBay or importing orders from eBay, you may get eBay warnings. Unlike errors, warnings are conditions that are not fatal to the addon operation, but they alert you to some minor problems that you may want to fix. Any warnings your store gets from eBay are written to log files in your X-Cart store. If, in addition to that, you also wish to have eBay warning messages displayed in your store's Admin area, enable this option. 
+    
     *   **Save eBay API requests/responses in the log file**: If you need eBay API requests/responses to be written to log file (for example, if you need this information for debugging purposes), enable this option.
+    
+    *   **Allow upload eBay orders automatically**:
+    *   **Allow update products on eBay automatically**:
+    *   **Allow update inventory of products on eBay automatically**:
+    *   **Allow update inventory of products from eBay automatically**:
+    *   **Allow end items on eBay**:
+    *   **Allow update eBay order status**:
+    
 4.  Click **Save** to save your changes.
 
     ![]({{site.baseurl}}/attachments/9306381/9438494.png)
