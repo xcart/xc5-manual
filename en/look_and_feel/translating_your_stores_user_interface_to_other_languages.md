@@ -31,7 +31,7 @@ To install a language translation module from the X-Cart Marketplace:
 
 3.  Install and activate the translations you require like you do with any other modules from the Marketplace. See {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %}.
 
-As a result, the translation modules you have installed should appear in the Installed Modules section in your store's Admin area:
+As a result, the translation modules you have installed should appear in the Installed Addons section in your store's Admin area:
 
 ![]({{site.baseurl}}/attachments/6389832/8719384.png)
 
