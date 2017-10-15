@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-13 16:27 +0400'
+updated_at: '2017-10-15 17:00 +0400'
 identifier: ref_SCbAqGqX
 title: Configuring X-Cart eBay Integration
 categories:
@@ -242,4 +242,5 @@ _Related pages:_
 
 *   {% link "X-Cart eBay Integration system requirements and installation" ref_RgzAH0hf %}
 *   {% link "Exporting products to eBay" ref_40Al0Nky %}
-*   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
+*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
+
