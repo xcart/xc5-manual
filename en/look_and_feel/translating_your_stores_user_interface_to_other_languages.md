@@ -22,9 +22,10 @@ However, you can turn your X-Cart into a truly multi-language solution by instal
 
 If you want to translate X-Cart into a language for which no translation is available in the X-Cart Marketplace, contact us at {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. We will explain how this can be done and how you can get money out of it.
 
-To install a language translation module from X-Cart Marketplace:
+To install a language translation module from the X-Cart Marketplace:
 
-1.  In your store's Admin area, select **Modules**, then click __View more addons in Marketplace__ to go to X-Cart Marketplace.
+1.  In your store's Admin area, select **My addons**, then click __View more addons in Marketplace__ to go to the X-Cart Marketplace.
+
 2.  Locate the translation you require. For example, enter "translation" in the search field to find all translation modules in the Marketplace:
     ![]({{site.baseurl}}/attachments/6389832/8716781.png)
 
