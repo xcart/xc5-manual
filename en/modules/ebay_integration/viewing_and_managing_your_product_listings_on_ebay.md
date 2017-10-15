@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-12-28 15:12 +0400'
+updated_at: '2017-10-15 17:07 +0400'
 identifier: ref_UxlB19Fr
 title: Viewing and managing your product listings on eBay
 categories:
@@ -48,6 +48,4 @@ _Related pages:_
 
 *   {% link "Exporting products to eBay" ref_40Al0Nky %}
 *   {% link "Importing orders from eBay" ref_QTwGRPLV %}
-*   {% link "Automated export of products to eBay and automated import of orders from eBay" ref_qPIZcwNs %}
-
-
+*   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
