@@ -20,7 +20,7 @@ However, you can turn your X-Cart into a truly multi-language solution by instal
 *   Dutch
 *   British English
 
-If you want to translate X-Cart into some other language, contact us at {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. We will explain how this can be done and how you can get money out of it.
+If you want to translate X-Cart into a language for which no translation is available in the X-Cart Marketplace, contact us at {% link "developers@x-cart.com" mailto:developers@x-cart.com %}. We will explain how this can be done and how you can get money out of it.
 
 To install a language translation module from X-Cart Marketplace:
 
