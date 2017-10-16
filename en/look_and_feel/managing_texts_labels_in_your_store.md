@@ -26,15 +26,18 @@ Let us show how to edit text labels in X-Cart. For example, we want to change t
 Let's do it:
 
 1.  In your store's Admin area, go to the **Translations** section (**Store setup > Translations**):
-    ![]({{site.baseurl}}/attachments/6389836/8716739.png)
+    ![xc5_translations_section.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_section.png)
+
 2.  Switch to the **Edit labels** tab:
-    ![]({{site.baseurl}}/attachments/6389836/8716740.png)
+    ![xc5_translations_edit_labels_tab.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_edit_labels_tab.png)
+
 3.  If your store uses more than one language, select the language for which the text label needs to be edited. In our example, we will edit the phrase "Your shopping cart" for the English language. On the following snapshot, the English language is already selected:
-    ![]({{site.baseurl}}/attachments/6389836/8716741.png)
+    ![xc5_translations_english_selected.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_english_selected.png)
+
     **Note**: If you need to edit the same phrase in more than one languages, just select any one of them.
 
     Use search to find the phrase you want to edit. Note that this search is case-sensitive. We need to find the phrase "Your shopping cart", so we simply paste it into the search box and click **Search**:
-    ![]({{site.baseurl}}/attachments/6389836/8716742.png)
+    ![xc5_translations_search_cart_label.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_search_cart_label.png)
     
     The list of search results (if any) will be provided below:
     ![xc5_translations_found_labels.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_found_labels.png)
