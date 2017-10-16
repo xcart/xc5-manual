@@ -39,7 +39,6 @@ published: false
 
 4. [опционально] Чтобы создать новую базу данных, заполните паарметры `host`, `name`, `user` и `password` в секцию `[database_details]` файла `<X-Cart>/etc/config.php` новой установки X-Cart:
 
-
     ```
     [database_details]
     hostspec = "localhost"
@@ -62,7 +61,7 @@ published: false
     
     -	Необходимо указать хосты HTTP и HTTPS. Если вы переносите X-Cart в пределах одного сервера, оставьте эти значения без изменений.     
      
-    -	Задайте параметр web_dir. При переносе из `http://<HOST>/xcart/` в `http://<HOST>/xcart5/`, этот параметр нужно поменять с `/xcar`t на `/xcart5`.     
+    -	Задайте параметр web_dir. При переносе из `http://<HOST>/xcart/` в `http://<HOST>/xcart5/`, этот параметр нужно поменять с `/xcart` на `/xcart5`.     
 	При переносе X-Cart в корневой каталог: `http://<HOST>/`, оставьте это поле пустым.
     
     
