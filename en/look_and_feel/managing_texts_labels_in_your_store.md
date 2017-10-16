@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-28 00:15 +0400'
+updated_at: '2017-10-16 04:17 +0400'
 identifier: ref_IyGxQ1DN
 title: Managing texts labels in your store
 categories:
@@ -21,9 +21,8 @@ Also, if you need your store to display some text piece for which currenty no te
 ## Editing text labels
 
 Let us show how to edit text labels in X-Cart. For example, we want to change the wording of the phrase "Your shopping cart" shown in the snapshot below so it says "Your shopping bag":
-
-![]({{site.baseurl}}/attachments/6389836/7602756.png)
-
+    ![xc5_translations_your_shopping_cart_customer.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_your_shopping_cart_customer.png)
+  
 Let's do it:
 
 1.  In your store's Admin area, go to the **Translations** section (**Store setup > Translations**):
@@ -36,27 +35,32 @@ Let's do it:
 
     Use search to find the phrase you want to edit. Note that this search is case-sensitive. We need to find the phrase "Your shopping cart", so we simply paste it into the search box and click **Search**:
     ![]({{site.baseurl}}/attachments/6389836/8716742.png)
+    
     The list of search results (if any) will be provided below:
-    ![]({{site.baseurl}}/attachments/6389836/8716743.png)
+    ![xc5_translations_found_labels.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_found_labels.png)
+
     If you get no search results, it means that either you are searching in a wrong language or the label does not exist. If necessary, you can add the missing label by following the instructions in the [Adding new text labels](#adding-new-text-labels) section.
 
 4.  Review the search results to find the phrase you need to edit. If none of the phrases in the results list exactly match the phrase you searched for, do not worry: the items in the list of search results are text labels, and what you see in the list are their names. Their values are concealed from view and have yet to be revealed. To view the value of any text label, hover your cursor over the respective entry in the list of search results; an _Edit_ link will be revealed:
-    ![]({{site.baseurl}}/attachments/6389836/8716744.png)
+    ![xc5_edit_text_lable.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_edit_text_lable.png)
+
     Click on the Edit link; this will expand a section where you will be able to view/edit the value of the selected text label:
-    ![]({{site.baseurl}}/attachments/6389836/8716745.png)
+    ![xc5_translations_edit_label_section.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_edit_label_section.png)
+
 5.  Edit the text label value as you require. In our example, we will need to edit the last two labels in the search results list (the first one is used for the case when the cart contains a single item, the second one - when the cart contains multiple items). So we replace the word "cart" with the word "bag" in both the text label values:
-    ![]({{site.baseurl}}/attachments/6389836/8716746.png)
+    ![xc5_translations_cart2bag.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_cart2bag.png)
+
     Note that if you need to edit the same phrase in more than one languages, you can use a special section that will help you to edit all the translations of the phrase simultaneously. To access this section, click on the Global edit icon:
-    ![]({{site.baseurl}}/attachments/6389836/8716747.png)
+    ![xc5_translations_global_edit_icon.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_global_edit_icon.png)
+
     The section where you can edit text labels for multiple languages looks as follows:
-    ![]({{site.baseurl}}/attachments/6389836/8716748.png)
+    ![xc5_translations_global_edit.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_global_edit.png)
 
 6.  After making the changes you require, click **Save changes**.
     The text labels will be updated. 
 
 Now you can check the results in the store's front end. In our case, we should be able to see the phrase "Your shopping bag" instead of "Your shopping cart":
-
-![]({{site.baseurl}}/attachments/6389836/7602764.png)
+    ![xc5_translations_bag_customer.png]({{site.baseurl}}/attachments/ref_IyGxQ1DN/xc5_translations_bag_customer.png)
 
 ## Adding new text labels
 
