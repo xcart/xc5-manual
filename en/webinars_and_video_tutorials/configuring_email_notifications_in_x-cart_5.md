@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-01-30 21:07 +0400'
+updated_at: '2017-10-17 15:01 +0400'
 identifier: ref_PswmUSQt
 title: Configuring email notifications in X-Cart 5
 categories:
@@ -13,7 +13,7 @@ order: 100
 
 ## Introduction
 
-This video explains how to configure email notifications in X-Cart 5.
+The video below shows how to configure email notifications in X-Cart 5.2. Please be aware that the email notification editing flow was changed in X-Cart 5.3. The video below does not reflect the changes introduced in X-Cart 5.3.
 
 ## Video
 **Published on May 8, 2015**
