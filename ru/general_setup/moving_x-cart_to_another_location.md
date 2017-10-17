@@ -69,7 +69,6 @@ published: true
   ```
   RewriteBase /xcart5
   ```
-  
   7. Удалите папку `<X-Cart>/var/datacache/`. 
  
 ## Перенос базы данных
