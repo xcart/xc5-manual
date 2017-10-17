@@ -1,11 +1,11 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-16 22:55 +0400'
+updated_at: '2017-10-17 09:39 +0300'
 identifier: ref_yVLJrToe
 title: ''
 order: 100
-published: false
+published: true
 ---
 ## Введение
 
@@ -90,12 +90,3 @@ published: false
     ```
     shared_secret_key = "57c81e28ca9e12.95513295"
     ```
-
-
-
-  
-   
-    
-
-    
-
