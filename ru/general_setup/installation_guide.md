@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-16 22:13 +0400'
+updated_at: '2017-10-17 08:31 +0300'
 identifier: ref_ZlmtdzS3
 title: Инструкция по установке
 order: 10
@@ -187,3 +187,131 @@ http://<адрес-вашего-сервера>/<папка-икс-карта>/i
 * [xc5rus_ins3_3.png]({{site.baseurl}}/attachments/7505579/8719632.png) (image/png)
 * [xc5rus_ins3_4.png]({{site.baseurl}}/attachments/7505579/8719634.png) (image/png)
 * [xc5rus_ins6.png]({{site.baseurl}}/attachments/7505579/8719635.png) (image/png)
+
+
+## Возможные проблемы с установкой
+
+По проблемам с **проверкой среды**, X-Cart предоставляет инструкции по их устранению. С решением таких проблем справится ваш хостинг провайдер или программист. Данный раздел описывает типичные проблемы и пути их решения.
+
+### 1. Проблемы с подключением к базе данных
+
+Ошибка подключения к базе говорит о том, что указаны неверные MySQL логин и пароль или MySQL сервер/база данных неправильно настроены. 
+Примеры:
+
+1.  ```php
+    FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[28000] [1045] Access denied for user 'tony'@'localhost' (using password: YES) Click the 'BACK' button and review the MySQL server settings provided
+    ```
+    Эта ошибка означает, что введены неверный MySQL логин и пароль. Проверьте данные и введите верные.
+    _Note: Бывает, что данная ошибка возникает даже с верными данными MySQL, т. к проблема кроется в **пользовательских настройках MSQL**. Проверьте поле **Host** в **phpMyAdmin** на сервере. Если значение поля **% (любой хост)**, то удалите данного MySQL пользователя и создайте нового с таким же именем и **localhost(локальный сервер)** в поле **Host**._
+    
+ 2.  ```php
+    FATAL ERROR: Cannot connect to specified MySQL server : SQLSTATE[HY000] [1044] Access denied for user 'tony'@'localhost' to database 'xcart' Click the 'BACK' button and review the MySQL server settings you have provided.
+    ```    
+    Ошибка означает, что указанные MySQL логин и пароль дают доступ на MySQL сервер, но база данных не существует, или MySQL пользователь не имеет к ней доступа. Войдите в панель управления MySQL, проверьте наличии базы и наличие у MySQL пользователя доступа к ней.
+    
+3. Другие MySQL ошибки, например:
+
+```php
+    FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
+    FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[HY000] [2002] The requested address is not valid in its context.
+    FATAL ERROR: MySQL server doesn't support InnoDB engine. It is required for X-Cart 5 operation(current version is 5.1.73-cll)
+    ```
+
+    говорят о проблеме с настройками MySQL сервера. Перешлите такие сообщения об ошибках своему хосинг провайдеру для решения проблем. 
+    
+### 2. Сбой проверки прав доступа
+
+Сообщение о проблеме может выглядеть так:
+
+```php
+Permissions checking failed. Please make sure that the following file permissions are assigned (UNIX only):
+chmod 666 /home/tony/public_html/xcart/.htaccess
+
+или
+
+Permissions checking failed. Please make sure that the following file permissions are assigned (UNIX only):
+chmod 0777 /Applications/MAMP/htdocs/xcart/
+find /Applications/MAMP/htdocs/xcart/var -type d -exec chmod 0777 {} \;
+find /Applications/MAMP/htdocs/xcart/var -type f -exec chmod 0666 {} \;
+find /Applications/MAMP/htdocs/xcart/images -type d -exec chmod 0777 {} \;
+find /Applications/MAMP/htdocs/xcart/images -type f -exec chmod 0666 {} \;
+find /Applications/MAMP/htdocs/xcart/files -type d -exec chmod 0777 {} \;
+find /Applications/MAMP/htdocs/xcart/files -type f -exec chmod 0666 {} \;
+chmod 666 /Applications/MAMP/htdocs/xcart/etc/config.php
+chmod 666 /Applications/MAMP/htdocs/xcart/.htaccess
+```
+  
+  Ошибки указывают на некорректные права доступа к файлам, и что их нужно изменить вручную. Скопируйте предложенные инструкции и сделайте изменения через терминал в панели управления.  
+  
+  Ниже представлены примеры сообщений об ошибках:
+  
+  1.  ```php
+    chmod 666 /home/tony/public_html/xcart/.htaccess
+    ```
+    
+  Данная запись означает, что все пользователи должны иметь права на запись и чтение для файла  /home/tony/public_html/xcart/.htaccess
+  
+  2. ```php
+    find /Applications/MAMP/htdocs/xcart/var -type d -exec chmod 0777 {} \;
+    ```
+   
+    Данная запись означает, что все пользователи должны иметь все возможные права `(chmod 0777)` для всех директорий `(-type d)` в директории `/Applications/MAMP/htdocs/xcart/var`.
+    
+   3. Аналогично примеру выше:
+   
+   ```php
+    find /Applications/MAMP/htdocs/xcart/files -type f -exec chmod 0666 {} \;
+    ```
+   
+   Данная запись означает, что все пользователи должны иметь права на запись и чтение (chmod 0666) для всех файлов `(-type f)` в директории `/Applications/MAMP/htdocs/xcart/var`.
+   
+### 3. Отключенные функции
+
+Хостинг провайдер может отключить некоторые стандартные PHP функции, без которых X-Cart 5 не работает. В этом случае, появляется сообщение об ошибке:
+
+```php
+There are disabled functions (phpinfo, escapeshellcmd, escapeshellarg, openlog, syslog, exec, popen) that may be used by software in some cases and should be enabled
+```
+
+Список отключенных файлов может варьироваться. 
+
+Для решения проблемы следует отправить список отключенных функций (`phpinfo, escapeshellcmd, escapeshellarg, openlog, syslog, exec, popen`) своему хостинг провайдеру. 
+
+### 4. Отключенные PHP расширения
+
+Если вы видите такую ошибку:
+
+```php
+PDO extension with MySQL support must be installed.
+```
+
+значит, ваш сервер не поддерживает библиотеки, осуществляющие работу с MySQL через PDO. PDO - это необходимое для X-Cart 5 расширение, обеспечивающее безопасную работу с базой данных. Попросите хостинг провайдера включить данное расширение в вашем аккаунте.
+
+Если магазин установлен на локальном сервере, в файле `php.ini` раскомментируйте строку ниже и перезапустите `Apache`:
+
+```php
+;extension=pdo_mysql.so
+
+it should become
+extension=pdo_mysql.so
+```
+
+### 5. HTTPS баунсер не установлен
+
+Если вы видите такую ошибку:
+
+```php
+libcurl extension not found
+```
+
+значит, системная библиотека libCurl отключена в вашем хостинг аккаунте, и PHP скрипты не могут установить соединение с другими службами. Попросите своего хостинг провайдера включить libCurl в вашем аккаунте.
+
+
+
+    
+    
+    
+ 
+    
+  
+  
