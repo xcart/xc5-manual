@@ -38,9 +38,10 @@ published: true
    
 3. **[опционально]** чтобы перенести магазин на другой сервер или получить его копию, на новом сервере создайте новую базу данных из бэкапа, созданного на первом шаге. 
 
-4. **[опционально]** Чтобы создать новую базу данных, заполните параметры `host`, `name`, `user` и `password` в секцию `[database_details]` файла `<X-Cart>/etc/config.php` новой установки X-Cart:
+4. **[опционально]** Чтобы создать новую базу данных, заполните параметры `host`, `name`, `user` и `password` в секции `[database_details]` файла `<X-Cart>/etc/config.php` новой установки X-Cart:
 
-    ```
+
+```
     [database_details]
     hostspec = "localhost"
     socket   = ""
@@ -50,6 +51,7 @@ published: true
     password = "password"
     table_prefix = "xc_"
     ```
+
     
  5. В секции `[host_details]` файла `<X-Cart>/etc/config.php` укажите новый путь к установке X-Cart:  
  
