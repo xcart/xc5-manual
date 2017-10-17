@@ -284,35 +284,32 @@ P.S. Помните и о {% link 'безопасности' ref_secureconfig %}
 
 Примеры:
 
-*  Эта ошибка означает, что введены неверный MySQL логин и пароль. Проверьте данные и введите верные.
-    _Note: Бывает, что данная ошибка возникает даже с верными данными MySQL, т. к проблема кроется в **пользовательских настройках MSQL**. Проверьте поле **Host** в **phpMyAdmin** на сервере. Если значение поля **% (любой хост)**, то удалите данного MySQL пользователя и создайте нового с таким же именем и **localhost(локальный сервер)** в поле **Host**._
-
-
-```php
+1.  ```php
     FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[28000] [1045] Access denied for user 'tony'@'localhost' (using password: YES) Click the 'BACK' button and review the MySQL server settings provided
     ```
 
-*  Ошибка означает, что указанные MySQL логин и пароль дают доступ на MySQL сервер, но база данных не существует, или MySQL пользователь не имеет к ней доступа. Войдите в панель управления MySQL, проверьте наличии базы и наличие у MySQL пользователя доступа к ней.
-   
- 
-```php
+    Эта ошибка означает, что введены неверный MySQL логин и пароль. Проверьте данные и введите верные.
+    _Note: Бывает, что данная ошибка возникает даже с верными данными MySQL, т. к проблема кроется в пользовательских настройках MSQL. Проверьте поле Host в phpMyAdmin на сервере. Если значение поля % (любой хост), то удалите данного MySQL пользователя и создайте нового с таким же именем и localhost в поле Host (локальный сервер)._
+
+2.  ```php
     FATAL ERROR: Cannot connect to specified MySQL server : SQLSTATE[HY000] [1044] Access denied for user 'tony'@'localhost' to database 'xcart' Click the 'BACK' button and review the MySQL server settings you have provided.
-   ```
+    ```
 
-*  Другие MySQL ошибки, которые говорят о проблеме с настройками MySQL сервера. Перешлите такие сообщения об ошибках своему хостинг провайдеру для решения проблем:
+    Ошибка означает, что указанные MySQL логин и пароль дают доступ на MySQL сервер, но база данных не существует, или MySQL пользователь не имеет к ней доступа. Войдите в панель управления MySQL, проверьте наличии базы и наличие у MySQL пользователя доступа к ней.
 
+3.  Другие MySQL ошибки, например:
 
-```php
+    ```php
     FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[HY000] [2002] No connection could be made because the target machine actively refused it.
     FATAL ERROR: Cannot connect to the specified MySQL server : SQLSTATE[HY000] [2002] The requested address is not valid in its context.
     FATAL ERROR: MySQL server doesn't support InnoDB engine. It is required for X-Cart 5 operation(current version is 5.1.73-cll)
     ```
 
+    говорят о проблеме с настройками MySQL сервера. Перешлите такие сообщения об ошибках своему хосинг провайдеру для решения проблем. 
 
-### 2. Сбой проверки прав доступа
+### 2. Сбой проверки прав доступа
 
-
-Сообщение о проблеме может выглядеть так:
+Сообщение о проблеме может выглядеть так::
 
 
 ```php
