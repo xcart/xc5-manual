@@ -1,10 +1,10 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-17 09:39 +0300'
+updated_at: '2017-10-17 13:45 +0400'
 identifier: ref_yVLJrToe
-title: ''
-order: 100
+title: Перенос X-Cart на другое местоположение
+order: 70
 published: true
 ---
 ## Введение
