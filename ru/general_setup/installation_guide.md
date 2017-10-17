@@ -99,7 +99,7 @@ icon: download
         <p>Выделенный сервер</p>
         <ul style="margin-left: 1.6em;">
           <li>Двухядерный проессор</li>
-          <li>Оперативная память 8 GB,  Жестский диск SAS</li>
+          <li>Оперативная память 8 GB, Жестский диск SAS</li>
           <li>Скорость траффика 500 Mbps</li>
         </ul>
       </td>
@@ -120,35 +120,35 @@ icon: download
         <p>Выделенный сервер</p>
         <ul style="margin-left: 1.6em;">
           <li>Двухядерный проессор</li>
-          <li>Оперативная память 16 GB,  Жестский диск SAS</li>
+          <li>Оперативная память 16 GB, Жестский диск SAS</li>
           <li>Скорость траффика 500 Mbps</li>
         </ul>
       </td>
     </tr>
     <tr>
-      <th class="confluenceTh">300 000 SKUs</th>
+      <th class="confluenceTh">300 000 кодов товаров</th>
       <td class="confluenceTd">
-        <p>VPS hosting</p>
+        <p>VPS хостинг (виртуальный выделенный сервер)</p>
         <ul style="margin-left: 1.6em;">
-          <li>Dual-core CPU</li>
-          <li>RAM 2 GB</li>
-          <li>100 Mbps connection</li>
+          <li>Двухядерный проессор</li>
+          <li>Оперативная память 2 GB</li>
+          <li>Скорость траффика 100 Mbps</li>
         </ul>
       </td>
       <td class="confluenceTd">
-        <p>Dedicated server</p>
+        <p>Выделенный сервер</p>
         <ul style="margin-left: 1.6em;">
-          <li>Dual-core CPU</li>
-          <li>RAM 4 GB, SAS HDD</li>
-          <li>250 Mbps connection</li>
+          <li>Двухядерный проессор</li>
+          <li>Оперативная память 4 GB, Жестский диск SAS</li>
+          <li>Скорость траффика 250 Mbps</li>
         </ul>
       </td>
       <td class="confluenceTd">
-        <p>Dedicated server</p>
+        <p>Выделенный сервер</p>
         <ul style="margin-left: 1.6em;">
-          <li>Dual CPU quad-core</li>
-          <li>RAM 16 GB, SAS HDD</li>
-          <li>500 Mbps connection</li>
+          <li>Четырехядерный проессор</li>
+          <li>Оперативная память 16 GB, Жестский диск SAS</li>
+          <li>Скорость траффика 500 Mbps</li>
         </ul>
       </td>
     </tr>
