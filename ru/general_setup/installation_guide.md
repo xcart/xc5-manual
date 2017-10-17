@@ -37,7 +37,6 @@ icon: download
      *   [4. Отключенные PHP расширения](#4.Отключенные PHP расширения)
      *   [5. HTTPS баунсер не установлен](#5 HTTPS баунсер не установлен)
  
- 
 ## Системные требования
 
 Прежде чем начать установку X-Cart, необходимо удостовериться, что сервер отвечает системным требованиям X-Cart. Если проверка не сделана, в процессе установки X-Cart сообщит, что какие-то требования не выполняются. 
@@ -63,6 +62,99 @@ icon: download
 16. такие компоненты, как `mod_rewrite`  для работы SEO-оптимизированных семантических ссылок;
 17. при включенном `xdebug`, значение `xdebug.max_nesting_level` должно быть 300
 18. при включенной директиве `OPcache`, `opcache.save_comments` и `opcache.load_comments` должны быть включены (значение “1”); никакие другие кешеры не должны вырезать комментарии из кода. 
+
+## Аппаратные требования
+
+
+<table class="ui celled padded compact small table">
+  <thead>
+    <tr>
+      <th style="text-align: center;" class="confluenceTh">&nbsp;</th>
+      <th colspan="3" style="text-align: center;" class="confluenceTh">Поток данных</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th style="text-align: center;" class="confluenceTh">Размер каталога</th>
+      <th class="confluenceTh"><span style="color: rgb(0,0,0);">до 100 посетителей в день</span>
+      </th>
+      <th class="confluenceTh"><span style="color: rgb(0,0,0);">до 5 000 посетителей в день</span>
+      </th>
+      <th class="confluenceTh"><span style="color: rgb(0,0,0);">до 15 000 посетителей в день</span>
+      </th>
+    </tr>
+    <tr>
+      <th class="confluenceTh">1 500 кодов товаров</th>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">надежный совместный/облачный хостинг</span>
+      </td>
+      <td class="confluenceTd">
+        <p>Виртуальный выделенный сервер / Выделенный сервер</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Двухядерный проессор</li>
+          <li>Оперативная память 1 GB</li>
+          <li>Скорость траффика 250 Mbps</li>
+        </ul>
+      </td>
+      <td class="confluenceTd">
+        <p>Выделенный сервер</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Двухядерный проессор</li>
+          <li>Оперативная память 8 GB,  Жестский диск SAS</li>
+          <li>Скорость траффика 500 Mbps</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th class="confluenceTh">20 000 кодов товаров</th>
+      <td class="confluenceTd"><span style="color: rgb(0,0,0);">надежный совместный/облачный хостинг</span>
+      </td>
+      <td class="confluenceTd">
+        <p>Виртуальный выделенный сервер / Выделенный сервер</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Двухядерный проессор</li>
+          <li>Оперативная память 2 GB</li>
+          <li>Скорость траффика 250 Mbps</li>
+        </ul>
+      </td>
+      <td class="confluenceTd">
+        <p>Выделенный сервер</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Двухядерный проессор</li>
+          <li>Оперативная память 16 GB,  Жестский диск SAS</li>
+          <li>Скорость траффика 500 Mbps</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <th class="confluenceTh">300 000 SKUs</th>
+      <td class="confluenceTd">
+        <p>VPS hosting</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Dual-core CPU</li>
+          <li>RAM 2 GB</li>
+          <li>100 Mbps connection</li>
+        </ul>
+      </td>
+      <td class="confluenceTd">
+        <p>Dedicated server</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Dual-core CPU</li>
+          <li>RAM 4 GB, SAS HDD</li>
+          <li>250 Mbps connection</li>
+        </ul>
+      </td>
+      <td class="confluenceTd">
+        <p>Dedicated server</p>
+        <ul style="margin-left: 1.6em;">
+          <li>Dual CPU quad-core</li>
+          <li>RAM 16 GB, SAS HDD</li>
+          <li>500 Mbps connection</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Загрузите файлы X-Cart на ваш сервер
 
