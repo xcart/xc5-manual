@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-17 13:45 +0400'
+updated_at: '2017-10-17 14:07 +0400'
 identifier: ref_yVLJrToe
 title: Перенос X-Cart на другое местоположение
 order: 70
@@ -26,7 +26,8 @@ published: true
 
 Для переноса X-Cart из одной директории  в другую (из `http://<HOST>/xcart/` в `http://<HOST>/xcart5/`), на Mac/Linux можно воспользоваться командой:
 
-    ```
+   
+ ```
     cd ~/www/;
     mv xcart xcart5;
     ```
