@@ -173,4 +173,4 @@ return array (
 
 _Related pages:_
 
-*   {% link "What to do if your store says «We are deploying new changes» and you cannot access it" ref_3zSHgdQk %}
+*  {% link "Что делать, если вместо магазина открывается страница с надписью "We are deploying new changes" " ref_uLSlTTpi %}
