@@ -1,11 +1,11 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-16 23:48 +0400'
+updated_at: '2017-10-17 09:40 +0300'
 identifier: ref_uLSlTTpi
 title: ''
 order: 100
-published: false
+published: true
 ---
 Иногда во время установки модуля, обновления магазина или перестроения кеша возникают проблемы. Синтаксическая ошибка в коде нового модуля, несовместимость модуля с новой версией ядра X-Cart или сбой перестройки кеша могут привести к повреждению магазина. Вследствие чего вместо магазина вы будете видеть надпись “The site is temporarily closed for maintenance”:
 
@@ -57,12 +57,3 @@ published: false
   _Дополнительная информация::_
 
 *   {% link "Restoring your store with the Snapshots feature" ref_h7Oh5T8T %}
-
-
-
-
-   
-   
-
-
-
