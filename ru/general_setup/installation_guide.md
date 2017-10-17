@@ -164,30 +164,6 @@ http://<адрес-вашего-сервера>/<папка-икс-карта>/i
 
 ![]({{site.baseurl}}/attachments/7505579/8719635.png)
 
-## Attachments:
-
-* [installation-step1.png]({{site.baseurl}}/attachments/7505579/7602773.png) (image/png)
-* [installation-step-2.png]({{site.baseurl}}/attachments/7505579/7602774.png) (image/png)
-* [installation-step-3.png]({{site.baseurl}}/attachments/7505579/7602775.png) (image/png)
-* [installation-step-6.png]({{site.baseurl}}/attachments/7505579/7602776.png) (image/png)
-* [installation-step-7.png]({{site.baseurl}}/attachments/7505579/7602777.png) (image/png)
-* [install-1-ru.png]({{site.baseurl}}/attachments/7505579/7602778.png) (image/png)
-* [install-step-2.png]({{site.baseurl}}/attachments/7505579/7602779.png) (image/png)
-* [install-3-ru]({{site.baseurl}}/attachments/7505579/7602780) (application/octet-stream)
-* [install-3-ru.png]({{site.baseurl}}/attachments/7505579/7602781.png) (image/png)
-* [install-6-ru.png]({{site.baseurl}}/attachments/7505579/7602782.png) (image/png)
-* [install-7-ru.png]({{site.baseurl}}/attachments/7505579/7602783.png) (image/png)
-* [xc5rus_ins1.png]({{site.baseurl}}/attachments/7505579/8719626.png) (image/png)
-* [xc5rus_ins1_1.png]({{site.baseurl}}/attachments/7505579/8719627.png) (image/png)
-* [xc5rus_ins2_1.png]({{site.baseurl}}/attachments/7505579/8719628.png) (image/png)
-* [xc5rus_ins3_1.png]({{site.baseurl}}/attachments/7505579/8719629.png) (image/png)
-* [xc5rus_ins3.png]({{site.baseurl}}/attachments/7505579/8719630.png) (image/png)
-* [xc5rus_ins3_2.png]({{site.baseurl}}/attachments/7505579/8719631.png) (image/png)
-* [xc5rus_ins3_3.png]({{site.baseurl}}/attachments/7505579/8719633.png) (image/png)
-* [xc5rus_ins3_3.png]({{site.baseurl}}/attachments/7505579/8719632.png) (image/png)
-* [xc5rus_ins3_4.png]({{site.baseurl}}/attachments/7505579/8719634.png) (image/png)
-* [xc5rus_ins6.png]({{site.baseurl}}/attachments/7505579/8719635.png) (image/png)
-
 
 ## Возможные проблемы с установкой
 
