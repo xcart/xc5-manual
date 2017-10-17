@@ -1,11 +1,11 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-16 23:47 +0400'
+updated_at: '2017-10-17 09:40 +0300'
 identifier: ref_PTtxOzz4
 title: ''
 order: 100
-published: false
+published: true
 ---
 
 
