@@ -3,7 +3,7 @@ lang: en
 layout: article_with_sidebar
 updated_at: '2017-10-17 15:01 +0400'
 identifier: ref_PswmUSQt
-title: Configuring email notifications in X-Cart 5
+title: Configuring email notifications in X-Cart 5.2
 categories:
   - Webinars and video tutorials
 published: true
