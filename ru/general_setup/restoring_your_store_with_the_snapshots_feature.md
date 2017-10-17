@@ -1,10 +1,10 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-17 09:40 +0300'
+updated_at: '2017-10-17 13:45 +0400'
 identifier: ref_PTtxOzz4
-title: ''
-order: 100
+title: Восстановление магазина с помощью мгновенного сохранения данных
+order: 60
 published: true
 ---
 
