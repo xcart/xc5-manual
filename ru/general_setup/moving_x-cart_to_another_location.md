@@ -64,11 +64,13 @@ published: true
   -	Задайте параметр web_dir. При переносе из `http://<HOST>/xcart/` в `http://<HOST>/xcart5/`, этот параметр нужно поменять с `/xcart` на `/xcart5`.     
   При переносе X-Cart в корневой каталог: `http://<HOST>/`, оставьте это поле пустым.  
   
+  
   6. В директиве `RewriteBase` в файле `<X-Cart>/.htaccess` укажите новый путь к установке X-Cart. Пример:
    
   ```
   RewriteBase /xcart5
   ```
+  
   7. Удалите папку `<X-Cart>/var/datacache/`. 
  
 ## Перенос базы данных
