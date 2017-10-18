@@ -62,7 +62,7 @@ So it's only natural that a lot of things will not be translated automatically. 
     ![xc5_translations_search_view_more_addons.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_search_view_more_addons.png)
 
     Now that we have found the label, we can see all the languages in which the label does not have a translation - the codes for these languages are greyed out (see the "DE" language code displayed in pale grey):
-    ![]({{site.baseurl}}/attachments/6389832/8719457.png)
+    ![xc5_translations_de_label_missing.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_de_label_missing.png)
     
 3.  Use the Global edit feature to add the translation you require. Be sure to save your changes.
     ![]({{site.baseurl}}/attachments/6389832/8719458.png)
