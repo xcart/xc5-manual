@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-16 04:17 +0400'
+updated_at: '2017-10-18 17:19 +0400'
 identifier: ref_IyGxQ1DN
 title: Managing texts labels in your store
 categories:
