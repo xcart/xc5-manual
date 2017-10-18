@@ -59,7 +59,8 @@ So it's only natural that a lot of things will not be translated automatically. 
 1.  In the Languages section (**Store setup** > **Translations**) of the Admin area, select the **Edit labels** tab.
 
 2.  Search for the label "View more addons in Marketplace":
-    ![]({{site.baseurl}}/attachments/6389832/8719456.png)
+    ![xc5_translations_search_view_more_addons.png]({{site.baseurl}}/attachments/ref_NH3w8sSS/xc5_translations_search_view_more_addons.png)
+
     Now that we have found the label, we can see all the languages in which the label does not have a translation - the codes for these languages are greyed out (see the "DE" language code displayed in pale grey):
     ![]({{site.baseurl}}/attachments/6389832/8719457.png)
     
