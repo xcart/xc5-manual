@@ -1,10 +1,10 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-17 13:53 +0400'
+updated_at: '2017-10-19 17:38 +0400'
 identifier: ref_p5Vc7aP4
 title: Общие настройки магазина X-Cart
-order: 100
+order: 10
 published: true
 categories:
   - home
