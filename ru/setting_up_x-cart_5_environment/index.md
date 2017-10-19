@@ -1,19 +1,19 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-19 17:16 +0400'
+updated_at: '2017-10-19 17:26 +0400'
 identifier: ref_DckDPR4v
 title: Настройка окружения для X-Cart 5
 order: 10
-published: false
+published: true
 categories:
   - home
 icon: server
 ---
-This section contains guides on how to set up your X-Cart environment properly:
+В этом разделе вы найдете статьи по настройке серверного окрежения для X-Cart:
 
 *   {% link "Speeding up your store" ref_WqHzxAmJ %};
-*   {% link "Настройка временного лимита на сервере" ref_xqnpttd4 %};
+*   {% link "Настройка временного лимита на сервере" ref_DGK9HJBw %};
 *   {% link "HTTP to HTTPS redirect configuration" ref_httpredirect %};
 *   {% link "Secure configuration of the server" ref_secureconfig %};
 *   {% link "Configuring your X-Cart server for better large file download performance" ref_yCxquUhl %};
