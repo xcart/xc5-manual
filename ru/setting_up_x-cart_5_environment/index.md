@@ -17,7 +17,7 @@ icon: server
 *   {% link "HTTP to HTTPS redirect configuration" ref_httpredirect %};
 *   {% link "Secure configuration of the server" ref_secureconfig %};
 *   {% link "Configuring your X-Cart server for better large file download performance" ref_yCxquUhl %};
-*   Guides for how to set up your server environment for proper communication with the marketplace: 
+*   Настройка серера для работы с Маркетплейсом X-Cart: 
     *   {% link "Setting up cURL" ref_sshnMtN7 %};
     *   {% link "Setting up openSSL" ref_GuFOdboA %};
     *   {% link "Creating a self-signed SSL certificate" ref_u3gKq6NF %};
