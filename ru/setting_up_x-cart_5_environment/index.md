@@ -1,10 +1,10 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-19 17:26 +0400'
+updated_at: '2017-10-19 17:38 +0400'
 identifier: ref_DckDPR4v
 title: Настройка окружения для X-Cart 5
-order: 10
+order: 20
 published: true
 categories:
   - home
