@@ -5,8 +5,70 @@ updated_at: '2017-10-20 10:40 +0400'
 identifier: ref_7acvbbTA
 title: ''
 order: 100
-published: false
+published: true
 ---
 ## Введение
+
+[cURL](http://www.php.net/manual/en/intro.curl.php) - это PHP расширение, которое устанавливает соединение с различными видами серверов. X-Cart использует cURL для подключения к маркетплейсу и установки из него модулей. Обычно, хостинг провайдеры компиллируют PHP для работы с cURL, и все отлично работает. Если это не ваш случай - эта статья для вас. 
+
+Некорректная настройка PHP и cURL может вызвать ряд проблем, решение которых описывает данная статья.
+
+## Содержание
+
+*   [cURL не работает на сервере](#curl-does-not-work-on-your-web-server)
+*   [cURL не работает на локальном компьютере](#curl-does-not-work-on-your-local-machine)
+    *   [Windows + XAMPP](#windows-+-xampp)
+    *   [Ubuntu/Debian + Apache](#ubuntu/debian-+-apache)
+    
+## cURL не работает на сервере
+
+Обычно, для решения этой проблемы достаточно попросить хостинг провайдера [скомпиллировать PHP с cURL](http://php.net/manual/en/curl.installation.php). Но прежде чем обращаться в поддержку хостинга, проверьте, есть ли в вашей панели управления на хостинге возможность активировать cURL. Если у вас выделенный сервер и вы можете самостоятельно управлять расширениями, прочтите инструкции ниже.
+
+## cURL не работает на локальном компьютере
+
+В этом случае, решение зависит от того, какие у вас сервер и операционная система.
+
+### Windows + XAMPP
+
+1. Найдите эти три файла на своем компьютере:
+
+```php
+    C:\Program Files\xampp\apache\bin\php.ini
+    C:\Program Files\xampp\php\php.ini
+    C:\Program Files\xampp\php\php4\php.ini
+    ```
+2. В каждом из них замените эту часть кода:
+
+    ```php
+    ;extension=php_curl.dll
+    ```
+    
+    на этот код:
+    
+    ```php
+    extension=php_curl.dll
+    ```
+    
+3. Перезапустите Apache.
+
+
+### Ubuntu/Debian + Apache
+
+1. Запустите эту команду в консоли:
+
+
+```php
+    sudo apt-get install php5-curl
+    ```
+
+    
+2. Перезапустите Apache.
+
+
+    
+
+
+
+
 
 
