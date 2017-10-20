@@ -32,40 +32,35 @@ published: true
 
 1. Найдите эти три файла на своем компьютере:
 
-	```php
-    C:\Program Files\xampp\apache\bin\php.ini
-    C:\Program Files\xampp\php\php.ini
-    C:\Program Files\xampp\php\php4\php.ini
-    ```
+  ```
+  C:\Program Files\xampp\apache\bin\php.ini
+  C:\Program Files\xampp\php\php.ini
+  C:\Program Files\xampp\php\php4\php.ini
+  ```
     
 2. В каждом из них замените эту часть кода:
 
-    ```php
-    ;extension=php_curl.dll
-    ```
+  ```
+  ;extension=php_curl.dll
+  ```
     
-    на этот код:
+  на этот код:
     
-    ```php
-    extension=php_curl.dll
-    ```
-    
+  ```
+  extension=php_curl.dll
+  ```
+
 3. Перезапустите Apache.
 
-
 ### Ubuntu/Debian + Apache
+
 1. Запустите эту команду в консоли:
 
-	```php
-    sudo apt-get install php5-curl
- 	```
+  ```
+  sudo apt-get install php5-curl
+  ```
        
 2. Перезапустите Apache.
-
-
-
-
-
 
     
 
