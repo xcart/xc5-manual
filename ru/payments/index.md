@@ -1,11 +1,11 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-20 16:39 +0400'
+updated_at: '2017-10-20 17:50 +0400'
 identifier: ref_iCw1CANs
 title: Прием платежей в X-Cart
 order: 10
-published: false
+published: true
 categories:
   - home
 icon: payment
