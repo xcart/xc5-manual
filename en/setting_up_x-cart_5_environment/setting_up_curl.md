@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-27 23:23 +0400'
+updated_at: '2017-10-20 11:13 +0400'
 identifier: ref_sshnMtN7
 title: Setting up cURL
 categories:
@@ -36,7 +36,7 @@ In this case, the solution will be different depending on the type of your web-s
 
 ### Windows + XAMPP
 
-1.  Find three files on your PC:
+1. Find three files on your PC:
 
     ```php
     C:\Program Files\xampp\apache\bin\php.ini
@@ -44,7 +44,7 @@ In this case, the solution will be different depending on the type of your web-s
     C:\Program Files\xampp\php\php4\php.ini
     ```
 
-2.  Edit each of them and replace there the following piece of code:
+2. Edit each of them and replace there the following piece of code:
 
     ```php
     ;extension=php_curl.dll
@@ -56,7 +56,7 @@ In this case, the solution will be different depending on the type of your web-s
     extension=php_curl.dll
     ```
 
-3.  Restart Apache.
+3. Restart Apache.
 
 ### Ubuntu/Debian + Apache
 
@@ -67,3 +67,5 @@ In this case, the solution will be different depending on the type of your web-s
     ```
 
 2.  Restart Apache.
+
+### 
