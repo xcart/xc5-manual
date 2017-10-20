@@ -3,8 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-10-20 10:40 +0400'
 identifier: ref_7acvbbTA
-title: ''
-order: 100
+title: Настройка cURL
+order: 30
 published: true
 ---
 ## Введение
@@ -15,10 +15,10 @@ published: true
 
 ## Содержание
 
-*   [cURL не работает на сервере](#curl-does-not-work-on-your-web-server)
-*   [cURL не работает на локальном компьютере](#curl-does-not-work-on-your-local-machine)
-    *   [Windows + XAMPP](#windows-+-xampp)
-    *   [Ubuntu/Debian + Apache](#ubuntu/debian-+-apache)
+*   [cURL не работает на сервере](#curl----)
+*   [cURL не работает на локальном компьютере](#curl-----)
+    *   [Windows + XAMPP](#windows--xampp)
+    *   [Ubuntu/Debian + Apache](#ubuntudebian--apache)
     
 ## cURL не работает на сервере
 
