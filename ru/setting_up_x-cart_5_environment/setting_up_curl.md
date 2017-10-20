@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-20 10:40 +0400'
+updated_at: '2017-10-20 11:28 +0400'
 identifier: ref_7acvbbTA
 title: Настройка cURL
 order: 30
@@ -32,23 +32,21 @@ published: true
 
 1. Найдите эти три файла на своем компьютере:
 
-  ```
-  C:\Program Files\xampp\apache\bin\php.ini
-  C:\Program Files\xampp\php\php.ini
-  C:\Program Files\xampp\php\php4\php.ini
-  ```
-    
+  - `C:\Program Files\xampp\apache\bin\php.ini`
+  - `C:\Program Files\xampp\php\php.ini`
+  - `C:\Program Files\xampp\php\php4\php.ini`
+
 2. В каждом из них замените эту часть кода:
 
-  ```
-  ;extension=php_curl.dll
-  ```
+   ```
+   ;extension=php_curl.dll
+   ```
     
-  на этот код:
+   на этот код:
     
-  ```
-  extension=php_curl.dll
-  ```
+   ```
+   extension=php_curl.dll
+   ```
 
 3. Перезапустите Apache.
 
@@ -56,16 +54,8 @@ published: true
 
 1. Запустите эту команду в консоли:
 
-  ```
-  sudo apt-get install php5-curl
-  ```
+   ```
+   sudo apt-get install php5-curl
+   ```
        
 2. Перезапустите Apache.
-
-    
-
-
-
-
-
-
