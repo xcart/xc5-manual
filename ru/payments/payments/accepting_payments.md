@@ -60,21 +60,23 @@ _Онлайн_ и _оффлайн_ способы оплаты создаютс�
 
     Справа в списке указан статус каждого способа оплаты:
 
-    *   For methods that are installed and enabled, the button Settings is provided. This button allows you to access the method settings page where you can adjust the method name, description and other configuration settings, as well as deactivate the method if necessary.
-    *   For methods that are installed, but not enabled, the button Add is provided. You can use this button to add the method to your payment methods list and access the method settings page in one click. Note that after adding any online method with the Add button you will still need to configure it.
-    *   For methods that are not installed, the button Install is provided. This button allows you to download from the Marketplace and install the payment module needed to enable the chosen payment method.
+    *   Кнопка "Настройки" указывает, что способ оплаты установлен и активирован, и ведет на страницу настроек, где можно изменить название, описание и другие параметры, а также, удалить способ оплаты. 
+    *   Кнопка "Добавить" указывает, что способ оплаты установлен, но не активирован. Эта кнопка одновременно активирует способ оплаты и открывает страницу его настроек. После активации модуль требует настройки.
+    *   Кнопка "Установить" указывает на еще не установленные модули оплаты. Нажав на кнопку, вы скачаете из Маркетплейса и установите модуль, который отвечает за выбранный способ оплаты. 
 
-To start using a certain online payment method:
+Как начать использовать определенный способ оплаты:
 
-1.  Make sure that the payment module you require is installed and enabled. If so, you should be able to see the respective payment method on the Online methods list in your store's Payment settings section (**Store setup > Payment methods**).
-2.  If the payment method is not on the Online methods list, click the **Add payment method** button at the top right-hand corner of the Online methods section. 
+1.  Убедитесь, что модуль оплаты установлен и активирован. Если это так, вы увидите соответствующий способ оплаты в списке онлайн методов на странице **Настройки магазина** / **Прием платежей**.
+2.  Если способа оплаты нет в этом списке, нажмите **"Добавить способ оплаты"**. 
     
-    ![]({{site.baseurl}}/attachments/6389794/xc5_paymentmethods_add_online_method_click.png)
-3.  In the popup box that opens, select the section you require: _All payment methods_ or _PayPal all-in-one solutions_.
-4.  Locate the payment method you require and click the **Add (or Install)** button opposite its name.
-5.  Once the chosen method is added to your store's list of online payment methods, configure the method settings and enable it using the **INACTIVE/ACTIVE** switch.
+    ![3.jpg]({{site.baseurl}}/attachments/ref_guGkzxGn/3.jpg)
 
-That is all. The payment method is active and ready to use.
+
+3.  В открывшемся диалоговом окне выберите нужный раздел - _"Все платежные методы"_ или _"Универсальные решения от PayPal"_.
+4.  Выберите способ оплаты и нажмите **"Добавить"** или **"Установить"**.
+5.  Добавив онлайн способ оплаты, настройте его и активируйте переключателем **АКТИВНЫЙ** / **НЕАКТИВНЫЙ**.
+
+Способ оплаты установлен и готов к использованию. 
 
 
 
