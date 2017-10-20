@@ -32,11 +32,12 @@ published: true
 
 1. Найдите эти три файла на своем компьютере:
 
-```php
+	```php
     C:\Program Files\xampp\apache\bin\php.ini
     C:\Program Files\xampp\php\php.ini
     C:\Program Files\xampp\php\php4\php.ini
     ```
+    
 2. В каждом из них замените эту часть кода:
 
     ```php
@@ -53,16 +54,17 @@ published: true
 
 
 ### Ubuntu/Debian + Apache
-
 1. Запустите эту команду в консоли:
 
-
-```php
+	```php
     sudo apt-get install php5-curl
-    ```
-
-    
+ 	```
+       
 2. Перезапустите Apache.
+
+
+
+
 
 
     
