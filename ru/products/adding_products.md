@@ -26,28 +26,34 @@ published: false
 
 Создавая новый продукт, вы можете указать следующие данные:
 
-*   **SKU**: A unique SKU for this product.
-*   **Product name**: The name by which you and your customers will identify this product.
-*   **Category**: The category (or categories) to which this product belongs. 
-*   **Images**: Use this section to add images of the product.
-*   **Memberships**: Membership levels to which this product should be available. Non-members and users belonging to other membership levels will not be able to see the product on the storefront.
-*   **Tax class**: The tax class to which the product belongs (Defines what taxes should be applied to the product). For more info on tax classes, see: {% link "Setting up tax classes" ref_pAWOdG8N %}.
-*   **Price**: The product price.
-*   **Product on sale**: Use this to put the product on sale.
-*   **Quantity in stock**: The exact current quantity in stock, or any value if you do not intend to track the inventory of this product. (In the latter case you will need to disable inventory tracking after the product has been created.) 
-*   **Weight**: Product weight.
-*   **Shippable**: Whether the product is shippable.
-*   **Free shipping**: Whether the product should be shipped free of charge.
-*   **Ship in a separate box**: Whether the product needs to be shipped separately from other products. If it is shippable in a separate box, you can define the box dimensions and how many products can be put in this box;
-*   **Available for sale**: Whether the product should be displayed on the storefront. Uncheck this option to temporarily remove the product from the storefront (Store visitors will not be able to see it).
-*   **Arrival date**: This field allows you to record the date since when the product is available in your store. On its own, the information entered in this field serves purely informational purposes, but may be employed by X-Cart modules (For example, a module that allows you to add a new product to your catalog in advance and let it be published on the storefront automatically when its arrival date is reached).
-*   **Product page title**: The title to be used in the title bar of this product details page (for SEO purposes). 
-*   **Brief** **description**: A short product description that will be displayed on product list pages.
-*   **Full description**: A longer product description that will be displayed on the product details page.
-*   **Open Graph meta tags**: The custom META tags for sharing the product page on Facebook.
-*   **Meta keywords**: The keywords to be used in the keywords META tag on the product page (for SEO purposes).
-*   **Meta description**: The description to be used in the description META tag on the product page (for SEO purposes).
-*   **Clean URL**: The product page Clean URL (for SEO purposes).
+*   **Название товара** - название, по которому вы и ваши покупатели будут находить товар в магазине.
+*   **Артикул** - уникальный номер продукта.
+*   **Изображения** - фотографии товара.
+*   **Категория** - одна или несколько категорий, в которые будет входить продукт.
+*   **Описание** - краткое описание товара, отображаемое на страницах со списками товаров.
+*   **Полное описание** - подробное описание товара, доступное на странице товара.
+*   **Разрешить покупателям прикреплять файлы к этому продукту**.
+*   **Теги**.
+*   **Доступен для продажи** - эта опция отвечает за доступность продукта в магазине. Если ее отключить, покупатели не найдут товар в магазине.  
+*   **Группы пользователей** - пользователи, которые смогут купить данный товар. Незарегистрированные покупатели или члены не указанных здесь групп не увидят товар в магазина.
+*   **Класс налога** - класс налогов, к которому принадлежит товар (определяет, какие налоги применимы к товару). В этой {% link "Setting up tax classes" ref_pAWOdG8N %} вы найдете Информацию о классах налогов . 
+*   **Цена** - стоимость товара.
+*   **Рыночная цена**.
+*   **Распродажа** - эта опция помещает товар в распродажу.
+*   **Дата поступления** - дата, когда началась продажа товара в магазине. Это поле носит лишь информативный характер, хотя информация может быть полезна некоторым модулям (например, модулю, который позволяет создать продукт в каталоге заранее и автоматически сделать его доступным покупателям, когда наступит указанная дата его поступления).
+*   **Контроль остатков** (включен / отключен) - с помощью этого переключателя можно включить или отключить отслеживание количества товара в наличии. Если запас товара не ограничен, эту опцию можно отключить.
+*   **Остаток** - точное текущее количество штук данного товара в наличии.
+*   **Вес** - вес продукта.
+*   **Требуется доставка** - эта опция показывает, доставляется данный товар или нет.
+*   **Бесплатная доставка** - эта опция делает доставку товара бесплатной.
+*   **Фиксированная стоимость доставки**.
+*   **Отправка отдельной посылкой** - эта опция показывает, что товар нужно отправлять отдельно от других товаров в ордере. Для отправки в отдельной коробке можно указать размеры коробки и количество помещаемых в нее товаров. 
+*   **Мета тэги Open Graph** - мета тэги, позволяющие поделиться ссылкой на продукт в Facebook.
+*   **Мета описание** - ключевые слова, которые используются в мета тэге description на странице продукта (для SEO).
+*   **Мета ключевые слова** - ключевые слова, которые используются в мета тэге keywords на странице продукта (для SEO).
+*   **Заголовок страницы товара** - заголовок страницы о товаре, необходим для SEO.
+*   **ЧПУ** - семантическая ссылка на продукт (для SEO).
+
 
 ## Отслеживание изменения количества товара
 
