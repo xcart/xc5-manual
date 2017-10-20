@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-19 17:38 +0400'
+updated_at: '2017-10-20 10:32 +0400'
 identifier: ref_DckDPR4v
 title: Настройка окружения для X-Cart 5
 order: 20
@@ -15,7 +15,7 @@ icon: server
 *   {% link "Speeding up your store" ref_WqHzxAmJ %};
 *   {% link "Настройка временного лимита на сервере" ref_DGK9HJBw %};
 *   {% link "HTTP to HTTPS redirect configuration" ref_httpredirect %};
-*   {% link "Secure configuration of the server" ref_secureconfig %};
+*   {% link "Настройка безопасности сервера" ref_qbhWb6Bn %};
 *   {% link "Configuring your X-Cart server for better large file download performance" ref_yCxquUhl %};
 *   Настройка серера для работы с Маркетплейсом X-Cart: 
     *   {% link "Setting up cURL" ref_sshnMtN7 %};
