@@ -1,9 +1,9 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-20 11:52 +0400'
+updated_at: '2017-10-20 16:01 +0400'
 identifier: ref_REno3u9g
-title: Создание товаров в X-Cart
+title: Создание продукто в X-Cart
 order: 10
 published: true
 ---
@@ -86,4 +86,3 @@ published: true
 ## Варианты товаров (цвет, размер и т.д.)
 
 В X-Cart 5 варианты товаров настраиваются на основе атрибутов. Задайте атрибут "Размер" и несколько значений для него - "XS", "S", "M". так, покупатель сможет выбрать один из вариантов размера. Примеры создания вариантов на основе атрибутов описаны в статье {% link "Managing attribute values" ref_bTfJ9bTS %}. Более подробная информация об атрибутах товаров - {% link "Product classes and attributes" ref_T90ZcEpP %}.
-
