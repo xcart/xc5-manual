@@ -1,9 +1,9 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-20 16:01 +0400'
+updated_at: '2017-10-20 16:36 +0400'
 identifier: ref_REno3u9g
-title: Создание продукто в X-Cart
+title: Создание продуктов в X-Cart
 order: 10
 published: true
 ---
