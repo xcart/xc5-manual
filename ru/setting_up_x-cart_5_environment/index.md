@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-20 10:32 +0400'
+updated_at: '2017-10-20 10:49 +0400'
 identifier: ref_DckDPR4v
 title: Настройка окружения для X-Cart 5
 order: 20
@@ -18,7 +18,7 @@ icon: server
 *   {% link "Настройка безопасности сервера" ref_qbhWb6Bn %};
 *   {% link "Configuring your X-Cart server for better large file download performance" ref_yCxquUhl %};
 *   Настройка серера для работы с Маркетплейсом X-Cart: 
-    *   {% link "Setting up cURL" ref_sshnMtN7 %};
+    *   {% link "Настройка cURL" ref_7acvbbTA %};
     *   {% link "Setting up openSSL" ref_GuFOdboA %};
     *   {% link "Creating a self-signed SSL certificate" ref_u3gKq6NF %};
     *   {% link "Setting up .phar" ref_TCoIXzX2 %}.
