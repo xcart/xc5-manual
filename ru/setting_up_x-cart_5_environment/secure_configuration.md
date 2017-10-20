@@ -1,11 +1,11 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-19 17:47 +0400'
+updated_at: '2017-10-20 10:23 +0400'
 identifier: ref_qbhWb6Bn
 title: Настройка безопасности сервера
 order: 70
-published: false
+published: true
 ---
 Данная статься дает советы по защите сервера.
 
@@ -100,7 +100,3 @@ location ^~ /vendor {
 {% note %}
 Если ваш сайт находится в подпапке корневого каталога, необходимо указать путь, относящийся к корневому каталогу, в каждой папке в строках `location ^~` таким образом : `location ^~ /xcart/classes`.
 {% endnote %}
-
-
-
-
