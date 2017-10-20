@@ -12,7 +12,7 @@ categories:
 ---
 _In this section:_
 
-*   {% link "Adding products" ref_fhzzxDTy %}
+*   {% link "Создание продуктов в X-Cart" ref_REno3u9g %}
 *   {% link "Adding featured products" ref_4iFdpTdv %}
 *   {% link "Adding images to product/category descriptions" ref_VtuUJTh5 %}
 *   {% link "Enabling the «New arrivals» block" ref_2A50nkO9 %}
