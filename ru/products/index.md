@@ -3,9 +3,12 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-10-20 11:47 +0400'
 identifier: ref_TgqWAeT7
-title: ''
-order: 100
+title: Продукты
+order: 30
 published: false
+icon: cube
+categories:
+  - home
 ---
 _In this section:_
 
