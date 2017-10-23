@@ -263,6 +263,7 @@ published: true
 
 7.  Запустите хуки, обновляющие языковые переменные. Ниже вы найдете пример кода хука: 
 
+
     ```php
     <?php
         require_once (dirname(__FILE__) . DIRECTORY_SEPARATOR . 'top.inc.php');
