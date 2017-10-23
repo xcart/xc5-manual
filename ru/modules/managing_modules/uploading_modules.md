@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 20:55 +0400'
+updated_at: '2017-10-23 22:16 +0400'
 identifier: ref_zVq2VDyZ
 title: Загрузка модулей
 order: 120
@@ -21,4 +21,4 @@ published: true
 
 _Дополнительная информация::_
 
-*   {% link "Работа с модулями" ref_gTOegEua %}
+*   {% link "Работа с модулями" ref_UOFzIxp9 %}
