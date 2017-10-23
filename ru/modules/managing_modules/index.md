@@ -1,13 +1,11 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 21:01 +0400'
+updated_at: '2017-10-23 21:34 +0400'
 identifier: ref_UOFzIxp9
 title: Работа с модулями
 order: 90
 published: true
-categories:
-  - home
 ---
 Функциональность X-Cart магазина можно расширить с помощью дополнительных модулей.  
 
