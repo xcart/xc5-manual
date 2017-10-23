@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-10-23 23:06 +0400'
 identifier: ref_zVq2VDyZ
 title: Загрузка модулей
-order: 120
+order: 20
 published: true
 ---
 Модули можно устанавливать не только из Маркетплейса. 
