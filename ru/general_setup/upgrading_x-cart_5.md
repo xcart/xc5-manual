@@ -34,16 +34,16 @@ published: false
 <table class="ui celled padded compact small table">
   <thead>
   	<tr>
-      <th><strong>4th digit increases<br/>5.3.0.3 to 5.3.0.5</strong></th>
-      <th><strong>3d digit increases<br/>5.3.0.3 to 5.3.1.0</strong></th>
-      <th><strong>2nd digit increases<br/>5.3.0.3 to 5.4.0.0</strong></th>
+      <th><strong>Повышение 4-го числа<br/>5.3.0.3 - 5.3.0.5</strong></th>
+      <th><strong>Повышение 3-го числа<br/>5.3.0.3 - 5.3.1.0</strong></th>
+      <th><strong>Повышение 2-го числа<br/>5.3.0.3 - 5.4.0.0</strong></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Bugfixes only</td>
-      <td>Bugfixes<br/>New features<br/>Minor API changes</td>
-      <td>Bugfixes<br/>New features<br/>Major API changes</td>
+      <td>Только багфиксы</td>
+      <td>Багфиксы<br/>Новая функциональность<br/>Незначительные изменения API</td>
+      <td>Багфиксы<br/>Новая функциональность<br/>Значительные изменения API</td>
     </tr>
     <tr>
       <td>Free anytime</td>
