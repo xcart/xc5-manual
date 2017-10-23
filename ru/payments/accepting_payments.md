@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 10:53 +0400'
+updated_at: '2017-10-23 11:12 +0400'
 identifier: ref_guGkzxGn
 title: Прием платежей в X-Cart
 order: 10
@@ -13,11 +13,11 @@ published: true
 
 Данная статья описывает:
 
-*   [Просмотр списка способов оплаты магазина](#viewingyour-stores-payment-methods-list);
-*   [Создание нового способа оплаты](#adding-payment-methods);
-*   [Изменение настроек существующих способов оплаты](#editing-existing-payment-methods);
-*   [Включение и отключение способов отплаты](#enabling--disabling-payment-methods);
-*   [Удаление способов оплаты](#deleting-payment-methods).
+*   [Просмотр списка способов оплаты магазина](#section);
+*   [Создание нового способа оплаты](#section-1);
+*   [Изменение настроек существующих способов оплаты](#section-4);
+*   [Включение и отключение способов отплаты](#section-5);
+*   [Удаление способов оплаты](#section-6).
 
 ## Просмотр списка способов оплаты магазина
 
