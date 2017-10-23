@@ -1,13 +1,14 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 21:01 +0400'
+updated_at: '2017-10-23 21:34 +0400'
 identifier: ref_HSU6GVWf
 title: Модули
 order: 50
 published: true
 categories:
   - home
+icon: puzzle
 ---
 _In this section:_
 
