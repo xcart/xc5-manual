@@ -189,7 +189,7 @@ published: false
             
             Во время апгрейда можно перезаписать измененные файлы модулей их стандартныи вресиями или оставить модифицированные файлы как есть. При этом нужно понимать, что апгрейд модифицированного модуля может привести к повреждению всего магазина.  
             
-  8.  Для запуска апгрейда нажмите кнопку **"Установить обновления"**. Кнопка доступна только после подтверждения создания бэкапа магазина. 
+   8.  Для запуска апгрейда нажмите кнопку **"Установить обновления"**. Кнопка доступна только после подтверждения создания бэкапа магазина. 
         ![9_iconfirm_backup.png]({{site.baseurl}}/attachments/ref_9raTXZPN/9_iconfirm_backup.png)
         
        **Процесс апгрейда:**
@@ -213,8 +213,23 @@ published: false
        ![10_deploying.png]({{site.baseurl}}/attachments/ref_9raTXZPN/10_deploying.png)
 
        Установка обновлений:
-       ![10_installing_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/10_installing_updates.png) 
+       ![10_installing_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/10_installing_updates.png)      
+              
+    9.  По завершении установки, появится надпись **"Апгрейд завершен. Пожалуйста, не закрывайте страницу. "**:
+       ![11_completed.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed.png)
        
+       Открывается страница со списком обновленных компонентов:
+       ![11_completed3.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed3.png)
        
-  
+       ...и ссылка на лог апгрейда::
+       ![11_completed4.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed4.png)
+       
+    10.  Проверьте, как выглядит и работает магазин после апгрейда. Если что-то не работает, можно определить, что не так, с помощью ссылок полного и частичного восстановления, или востановить прежнюю версию магазина из бэкапа. 
+         ![11_completed2.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed2.png)
+    
+    11. Если на странице появились замечания по апгрейду (как на скриншоте ниже), обязательно следуйте предложенным ниструкциям. 
+        ![11_completed1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/11_completed1.png)
+
+
+## Апгрейд вручную
   
