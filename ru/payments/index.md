@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 11:17 +0400'
+updated_at: '2017-10-23 12:23 +0400'
 identifier: ref_iCw1CANs
 title: Прием платежей в X-Cart
 order: 40
@@ -16,3 +16,4 @@ _In this section:_
 *   {% link "Прием платежей в X-Cart" ref_guGkzxGn %}
 *   {% link "PayPal" ref_g8OosGK4 %}
 *   {% link "Яндекс.Касса" ref_baAbXfEo %}
+*   {% link "ROBOKASSA" ref_VhQHtKBi %}
