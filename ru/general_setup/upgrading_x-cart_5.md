@@ -213,9 +213,8 @@ published: false
        ![10_deploying.png]({{site.baseurl}}/attachments/ref_9raTXZPN/10_deploying.png)
 
        Установка обновлений:
-       ![10_installing_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/10_installing_updates.png)          
-   
-   
-
-
-   
+       ![10_installing_updates.png]({{site.baseurl}}/attachments/ref_9raTXZPN/10_installing_updates.png) 
+       
+       
+  
+  
