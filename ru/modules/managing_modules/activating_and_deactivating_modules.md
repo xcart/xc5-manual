@@ -1,10 +1,10 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 22:58 +0400'
+updated_at: '2017-10-23 23:19 +0400'
 identifier: ref_IEo2gFuZ
 title: Включение и отключение модулей
-order: 100
+order: 30
 published: true
 ---
 ## Включение модулей
