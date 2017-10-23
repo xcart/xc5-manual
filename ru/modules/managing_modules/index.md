@@ -5,15 +5,15 @@ updated_at: '2017-10-23 21:01 +0400'
 identifier: ref_UOFzIxp9
 title: Работа с модулями
 order: 90
-published: false
+published: true
 categories:
   - home
 ---
-The functionality of your X-Cart 5 based store can be extended by installing additional modules (add-ons). 
+Функциональность X-Cart магазина можно расширить с помощью дополнительных модулей.  
 
-After installing X-Cart 5 you will find that your store already has some installed modules. You can view their list in the Installed Modules section (**Extensions** > **Installed modules**) in your store's Admin area. You can enable/disable specific modules according to your needs. See {% link "Activating and deactivating modules" ref_uEnDBBA7 %}.
+Установив магазин, вы заметите, что в нем уже установлено несколько модулей. Их можно увидеть на странице Мои модули в панели управления магазина. Модули можно включать и отключать, как описано в статье {% link "Включение и отключение модулей" ref_uEnDBBA7 %}.
 
-It is possible to obtain and install more modules. A great selection of modules for X-Cart 5 is available via X-Cart's Marketplace; however, modules can also be obtained from other sources. To install a new module, please use the guidelines outlined in the following articles: 
+Можно устанавливать новые модули. Широкий выбор модулей доступен в X-Cart Маркетплейсе. Также, есть возможность устанавливать модули не из Маркетплейса. В этих статьях вы найдете информацию по установке модулей: 
 
-*   {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %} (Use for modules obtained via X-Cart's Marketplace);
-*   {% link "Uploading modules" ref_GZQ9vTq6 %} (Use for modules obtained elsewhere).
+*   {% link "Установка модулей из Маркетплейса" ref_Vn1mMUw9 %} (для модулей, которые вы приобрели в Маркетплейсе);
+*   {% link "Загрузка модулей" ref_GZQ9vTq6 %} (для модулей из других источников, не из Маркетплейса).
