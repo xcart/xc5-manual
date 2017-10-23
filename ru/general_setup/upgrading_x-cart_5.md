@@ -233,4 +233,56 @@ published: false
 
 
 ## Апгрейд вручную
-  
+
+Если во время автоматического апгрейда что-то пошло не так, апгрейд можно продолжить вручную.
+
+Прежде всего, нужно установить, на каком шаге превался апгрейд. В самом конце файла `<X-Cart 5>/var/log/upgrade.log` вы можете посмотреть, какие хуки запускались, и какие файлы были переписаны. Если не все поствосстановительные хуки были запущены, значит, апгрейд прервался на 5 шаге. Если не все файлы были переписаны, значит, апгрейд остановился на 2 шаге. Когда проблемный шаг найден, переделайте его и все последующие шаги вручную.
+
+BДалее описывается процесс апгрейда вручную:
+
+1.  Как получить новые файлы? Прежде всего, проверьте папку `<X-Cart 5>/var/tmp`, все новые файлы должны быть там.  Если эта папка пуста, значит, на этом же сервере нужно установить магазин [версии](http://www.x-cart.com), до которой вы обновляете свой магазин. В новом магазине активируйте все платные модули, на которые у вас есть лицензии. Теперь, новая установка содержит все нужные файлы. 
+2.  Запустите все предапгрейдные хуки (ядра и модулей). Пример кода, запускающего хуки: 
+
+    ```php
+    <?php
+    require_once (dirname(__FILE__) . DIRECTORY_SEPARATOR . 'top.inc.php');
+
+    $func = include 'upgrade/5.1/0/pre_upgrade.php';
+    $func();
+
+    ?>
+    ```
+
+3.  Перепишите все файлы вручную. Вы можете загрузить файлы дистрибутива новой версии в папку своего магазина. 
+
+4.  Запустите все постапгрейдные хуки. Используйте тот же код, что и на шаге 2. Код должен указывать на файл постапгрейдных хуков. 
+
+5.  Обновите кеш магазина.
+
+6.  Запустите все постапгрейдные хуки с помощью того же кода, который использовался на шагах 2-4.
+
+7.  Запустите хуки, обновляющие языковые переменные. Ниже вы найдете пример кода хука: 
+
+    ```php
+    <?php
+        require_once (dirname(__FILE__) . DIRECTORY_SEPARATOR . 'top.inc.php');
+
+    	// core yaml file
+        $yamlFile = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'sql' . DIRECTORY_SEPARATOR . 'xlite_data.yaml';
+        \XLite\Core\Translation::getInstance()->loadLabelsFromYaml($yamlFile);
+
+    	// module yaml file (example of one yaml file, you need to run all of them)
+    	$yamlFile = dirname(__FILE__) . DIRECTORY_SEPARATOR . 'classes' . DIRECTORY_SEPARATOR . 'XLite' . DIRECTORY_SEPARATOR . 'Module' . DIRECTORY_SEPARATOR . 'XC' . DIRECTORY_SEPARATOR . 'ProductComparison' . DIRECTORY_SEPARATOR . 'install.yaml';
+        \XLite\Core\Translation::getInstance()->loadLabelsFromYaml($yamlFile);
+
+        \XLite\Core\Translation::getInstance()->reset();
+    ?>
+    ```
+
+На этом апгрейд завершен.
+
+
+_Дополнительная информация:_
+
+*   [X-Cart Upgrade General Steps](http://devs.x-cart.com/en/misc/x-cart_upgrade_general_steps.html)
+*   [Upgrade hooks](http://devs.x-cart.com/en/misc/upgrade_hooks.html)
