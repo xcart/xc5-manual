@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-20 17:50 +0400'
+updated_at: '2017-10-23 10:41 +0400'
 identifier: ref_iCw1CANs
 title: Прием платежей в X-Cart
 order: 10
@@ -13,5 +13,5 @@ icon: payment
 _In this section:_
 
 *   {% link "Choosing a payment gateway" ref_CT7rXfVw %}
-*   {% link "Accepting payments" ref_Jq6Bsdrt %}
+*   {% link "Прием платежей в X-Cart" ref_guGkzxGn %}
 *   {% link "PayPal" ref_g8OosGK4 %}
