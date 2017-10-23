@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 10:50 +0400'
+updated_at: '2017-10-23 10:58 +0400'
 identifier: ref_ZlmtdzS3
 title: Руководство по установке X-Cart
 order: 10
