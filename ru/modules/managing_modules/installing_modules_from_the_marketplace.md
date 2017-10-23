@@ -4,7 +4,7 @@ layout: article_with_sidebar
 updated_at: '2017-10-23 23:06 +0400'
 identifier: ref_gpeZtm28
 title: Установка модулей из маркетплейса
-order: 110
+order: 10
 published: true
 ---
 Чтобы установить модуль из Маркетплейса:
