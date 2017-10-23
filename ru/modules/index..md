@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 21:45 +0400'
+updated_at: '2017-10-23 21:54 +0400'
 identifier: ref_HSU6GVWf
 title: Модули
 order: 50
@@ -12,7 +12,7 @@ icon: puzzle
 ---
 _In this section:_
 
-*   {% link "Работа с модулями" ref_gTOegEua %}
+*   {% link "Работа с модулями" ref_UOFzIxp9 %}
 *   {% link "Abandoned Cart Reminder" ref_Mf6yeSBE %}
 *   {% link "Auction in X-Cart 5" ref_fFqHk4rW %}
 *   {% link "AvaTax Sales Tax Automation" ref_6880bVvi %}
