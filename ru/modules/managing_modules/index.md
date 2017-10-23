@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 20:54 +0400'
+updated_at: '2017-10-23 21:01 +0400'
 identifier: ref_UOFzIxp9
 title: Работа с модулями
 order: 90
@@ -9,6 +9,11 @@ published: false
 categories:
   - home
 ---
-## A New Post
+The functionality of your X-Cart 5 based store can be extended by installing additional modules (add-ons). 
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+After installing X-Cart 5 you will find that your store already has some installed modules. You can view their list in the Installed Modules section (**Extensions** > **Installed modules**) in your store's Admin area. You can enable/disable specific modules according to your needs. See {% link "Activating and deactivating modules" ref_uEnDBBA7 %}.
+
+It is possible to obtain and install more modules. A great selection of modules for X-Cart 5 is available via X-Cart's Marketplace; however, modules can also be obtained from other sources. To install a new module, please use the guidelines outlined in the following articles: 
+
+*   {% link "Installing modules from the Marketplace" ref_Vn1mMUw9 %} (Use for modules obtained via X-Cart's Marketplace);
+*   {% link "Uploading modules" ref_GZQ9vTq6 %} (Use for modules obtained elsewhere).
