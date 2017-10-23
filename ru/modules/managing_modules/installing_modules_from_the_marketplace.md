@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 21:21 +0400'
+updated_at: '2017-10-23 22:17 +0400'
 identifier: ref_gpeZtm28
 title: Установка модулей из маркетплейса
 order: 110
@@ -42,5 +42,4 @@ published: true
 
 _Дополнительная информация:_
 
-*   {% link "Работа с модулями" ref_gTOegEua %}
-
+*   {% link "Работа с модулями" ref_UOFzIxp9 %}
