@@ -1,11 +1,11 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 20:47 +0400'
+updated_at: '2017-10-23 21:01 +0400'
 identifier: ref_HSU6GVWf
 title: Модули
 order: 50
-published: false
+published: true
 categories:
   - home
 ---
@@ -40,4 +40,3 @@ _In this section:_
 *   {% link "X-Cart 5 to WordPress Integration" ref_rJ8hCpkQ %}
 *   {% link "X-Payments connector" ref_NaZh0d1b %}
 *   {% link "X-Payments subscriptions" ref_8VFoqBFZ %}
-
