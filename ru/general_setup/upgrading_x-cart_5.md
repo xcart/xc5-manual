@@ -46,9 +46,9 @@ published: false
       <td>Багфиксы<br/>Новая функциональность<br/>Значительные изменения API</td>
     </tr>
     <tr>
-      <td>Free anytime</td>
-      <td>Free with active<br/>upgrade subscription</td>
-      <td>Free with active<br/>upgrade subscription</td>
+      <td>В свободном доступе</td>
+      <td>Бесплатно при наличии<br/>подписки на апгрейд</td>
+      <td>Бесплатно при наличии<br/>подписки на апгрейд</td>
     </tr>
   </tbody>
 </table>
