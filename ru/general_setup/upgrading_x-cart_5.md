@@ -100,15 +100,34 @@ published: false
 Каждый магазин X-Cart один раз в день проверяет наличие обновлений в маркетплейсе. Ответ от маркета кешируется на сутки. Чтобы удалить эти закешированные данные пройдите по ссылке `admin.php?target=addons_list_marketplace&action=clear_cache`.  
 
 Если появились обновления, в зоне администратора вы увидите надпись "Доступны обновления":
+
 ![1_updates_available.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available.png)
 
 Также, уведомление об бновлениях появится на иконке новостей (колокольчик):
+
 ![1_updates_available1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available1.png)
 
 Цвет надписи "Доступны обновления" может быть оранжевым или зеленым. Оранжевый цвет сообщает о выходе версии с новыми функциями. Зеленый текст сигнализирует о выходе багфиксной версии или версии, в которой есть и новые функции, и новые багфиксы. 
+
 ![xc5_upgrades_green_available.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_green_available.png)
 
+Для просмотра доступных обновлений нажмите на ссылку "Доступны обновления", откроется страница "Обновления для вашей версии":
 
+![2_4yourversion0.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion0.png)
+
+Вкладки на странице:: 
+
+   *   Вкладка **Минорный апгрейд** показывает багфиксные релизы ядра и модулей:
+   
+   ![xc5_upgrades_minor.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_minor.png)
+      
+       
+   *   Вкладка **Мажорный апгрейд** показывает новые версии ядра и модулей с новыми функциями:
+   ![xc5_upgrades_major.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_major.png)
+
+Ссылка **Дополнительные опции** позволяет устанавливать обновления выборочно:
+
+![xc5_upgrades_advanced_mode.png]({{site.baseurl}}/attachments/ref_9raTXZPN/xc5_upgrades_advanced_mode.png)
 
 
    
