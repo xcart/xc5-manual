@@ -88,9 +88,10 @@ published: false
 Апгрейдные хуки действуют и в модулях, когда модулю нужно синхронизировать данные между своими версиями. Апгрейдные хуки модулей находятся в папках `<X-Cart 5>/classes/Module/<DEV-ID>/<MODULE-ID>/upgrade/`, например, `<X-Cart 5>/classes/XLite/Module/XC/ProductComparison/upgrade/`.
 
 ## До апгрейда: сохранение бэкапа магазина
-Installing an update/upgrade is a serious task which requires some preparation. At the very least, you should create a backup of your store (Be sure to back up both the files and the database!)
 
-In addition, we strongly recommend that before installing an update or an upgrade on your live store, you should create a dev copy of your store and try installing the update/upgrade on that copy. Only if the update/upgrade installation goes smoothly, and after you have made sure the store's dev copy continues to work as expected after the update/upgrade process has been completed should you attempt updating/upgrading your live store.
+Апгрейд магазина - это сложный процесс, требующий тщательной подготовки. Как минимум, необходимо сделать резервную копию магазина (файлов и базы данных). 
 
-For details on creating your store's dev copy and restoring the store from backup, see {% link 'Moving X-Cart to another location' ref_6oFmUXC7 %}
+Также, лучше сделать тестовую копию магазина и устанавливать апгрейд и обновления на эту копию. Только если апгрейд устанавливается без проблем и тестовый магазин продолжает нормально функционировать, можно установить апгрейд и на живой магазин. 
+
+Информацию о создании тестовой копии магазина и восстановлении резервной копии можно найти в статье {% link 'Перенос X-Cart на другое местоположение' ref_yVLJrToe %}. 
    
