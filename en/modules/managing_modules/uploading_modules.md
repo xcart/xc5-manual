@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-10-16 22:30 +0400'
+updated_at: '2017-10-23 20:59 +0400'
 identifier: ref_GZQ9vTq6
 title: Uploading modules
 categories:
@@ -21,7 +21,7 @@ If a module is obtained from a source other than the Marketplace, you can upload
     ![]({{site.baseurl}}/attachments/7503969/7602201.png)
 3.  Select the file of the module to be uploaded and click **Install add-on**. This starts the installation process. Once it is completed, the module will be added to the list of installed modules.
 
-Note that after the module has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the module using the module deactivation instructions from the article {% link "Activating and deactivating modules" ref_uEnDBBA7 %}.
+Note that after the module has been installed, it is already in the _Enabled_ (active) state. You can temporarily disable the module using the module deactivation instructions from the article {% link "Включение и отключение модулей" ref_uEnDBBA7 %}.
 
 _Related pages:_
 
