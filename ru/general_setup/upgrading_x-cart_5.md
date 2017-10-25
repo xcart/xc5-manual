@@ -1,11 +1,11 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-25 12:42 +0400'
+updated_at: '2017-10-25 15:52 +0400'
 identifier: ref_sn9tuAyV
 title: Обновление X-Cart 5
 order: 60
-published: false
+published: true
 ---
 ## Введение
 
