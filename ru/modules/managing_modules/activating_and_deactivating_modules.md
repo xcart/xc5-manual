@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 23:19 +0400'
+updated_at: '2017-10-25 12:07 +0400'
 identifier: ref_IEo2gFuZ
 title: Включение и отключение модулей
 order: 30
@@ -14,13 +14,13 @@ published: true
 Как включить установленный модуль:
 
 1.  В панели управления магазина откройте страницу **Мои модули**:
-    ![]({{site.baseurl}}/attachments/7503971/8716504.png)
+    ![1.jpg]({{site.baseurl}}/attachments/ref_IEo2gFuZ/1.jpg)
 2.  В списке модулей найдите тот модуль, который нужно активировать::
-    ![]({{site.baseurl}}/attachments/7503971/8716505.png)
+    ![2.jpg]({{site.baseurl}}/attachments/ref_IEo2gFuZ/2.jpg)
 3.  Нажмите **ВКЛ** под названием модуля::
-    ![]({{site.baseurl}}/attachments/7503971/8716506.png)
+    ![3.jpg]({{site.baseurl}}/attachments/ref_IEo2gFuZ/3.jpg)
 4.  Нажмите кнопку **Сохранить** внизу страницы. Активация модуля может занять некоторое время. Когда активация завершена, модуль включен в магазине и готов к использованию:
-    ![]({{site.baseurl}}/attachments/7503971/8716507.png)
+    ![4.jpg]({{site.baseurl}}/attachments/ref_IEo2gFuZ/4.jpg)
 
 ## Выключение модулей
 
