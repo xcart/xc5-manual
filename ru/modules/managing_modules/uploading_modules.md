@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 23:06 +0400'
+updated_at: '2017-10-25 15:32 +0400'
 identifier: ref_zVq2VDyZ
 title: Загрузка модулей
 order: 20
@@ -10,11 +10,11 @@ published: true
 Модули можно устанавливать не только из Маркетплейса. 
 
 1.  В панели управления магазина откройте страницу **Мои модули**:
-    ![]({{site.baseurl}}/attachments/7503969/7602199.png)
+    ![1.jpg]({{site.baseurl}}/attachments/ref_zVq2VDyZ/1.jpg)
 2.  Нажмите кнопку **Загрузить модуль**:
-    ![]({{site.baseurl}}/attachments/7503969/7602200.png)
+    ![2.jpg]({{site.baseurl}}/attachments/ref_zVq2VDyZ/2.jpg)
     Откроется диалоговое окно **Загрузить модуль**:
-    ![]({{site.baseurl}}/attachments/7503969/7602201.png)
+    ![3.jpg]({{site.baseurl}}/attachments/ref_zVq2VDyZ/3.jpg)
 3.  Выберите файл модуля и нажмите **Установить модуль**. Когда установка завершится, модуль появится в списке установленных модулей. 
 
 По умолчанию, после установки модуль активирован. Можно временно отключить модуль, как описано в разделе {% link "Включение и отключение модулей" ref_IEo2gFuZ %}. 
