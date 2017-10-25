@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 23:50 +0400'
+updated_at: '2017-10-25 12:42 +0400'
 identifier: ref_sn9tuAyV
 title: Обновление X-Cart 5
 order: 60
@@ -101,33 +101,33 @@ published: true
 
 Если появились обновления, в зоне администратора вы увидите надпись "Доступны обновления":
 
-![1_updates_available.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available.png)
+![1.jpg]({{site.baseurl}}/attachments/ref_sn9tuAyV/1.jpg)
 
 Также, уведомление об бновлениях появится на иконке новостей (колокольчик):
 
-![1_updates_available1.png]({{site.baseurl}}/attachments/ref_9raTXZPN/1_updates_available1.png)
+![2.jpg]({{site.baseurl}}/attachments/ref_sn9tuAyV/2.jpg)
 
 Цвет надписи "Доступны обновления" может быть оранжевым или зеленым. Оранжевый цвет сообщает о выходе версии с новыми функциями. Зеленый текст сигнализирует о выходе багфиксной версии или версии, в которой есть и новые функции, и новые багфиксы. 
 
-![xc5_upgrades_green_available.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_green_available.png)
+![0.jpg]({{site.baseurl}}/attachments/ref_sn9tuAyV/0.jpg)
 
 Для просмотра доступных обновлений нажмите на ссылку "Доступны обновления", откроется страница "Обновления для вашей версии":
 
-![2_4yourversion0.png]({{site.baseurl}}/attachments/ref_9raTXZPN/2_4yourversion0.png)
+![4.jpg]({{site.baseurl}}/attachments/ref_sn9tuAyV/4.jpg)
 
 Вкладки на странице:: 
 
    *   Вкладка **Минорный апгрейд** показывает багфиксные релизы ядра и модулей:
    
-   ![xc5_upgrades_minor.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_minor.png)
+   ![5.jpg]({{site.baseurl}}/attachments/ref_sn9tuAyV/5.jpg)
       
        
    *   Вкладка **Мажорный апгрейд** показывает новые версии ядра и модулей с новыми функциями:
-   ![xc5_upgrades_major.png]({{site.baseurl}}/attachments/ref_pQQ1CLe1/xc5_upgrades_major.png)
+   ![6.jpg]({{site.baseurl}}/attachments/ref_sn9tuAyV/6.jpg)
 
 Ссылка **Дополнительные опции** позволяет устанавливать обновления выборочно:
 
-![xc5_upgrades_advanced_mode.png]({{site.baseurl}}/attachments/ref_9raTXZPN/xc5_upgrades_advanced_mode.png)
+![7.jpg]({{site.baseurl}}/attachments/ref_sn9tuAyV/7.jpg)
 
 **Следуйте данным инструкциям по апгрейду магазина:**
 
