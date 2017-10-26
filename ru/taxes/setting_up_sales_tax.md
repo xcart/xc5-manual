@@ -5,7 +5,7 @@ updated_at: '2017-10-26 11:10 +0400'
 identifier: ref_ZBKZ38v7
 title: Настройка налога с продаж
 order: 20
-published: false
+published: true
 ---
 За расчет налогов в X-Cart 5 отвечает модуль **Налог с продаж**. Во время установки магазина этот модуль устанавливается и активируется автоматически. Если модуля нет в магазине, его можно легко {% link "установить из  Маркетплейса" ref_Vn1mMUw9 %}. 
 
@@ -86,33 +86,33 @@ published: false
     
 6.  Нажмите **Сохранить**.
 
-## Setting up sales tax rates
+## Настройка ставки налога с продаж
 
-You need to set up sales tax rates to {% link "configure your sales tax" ref_aJPK4DHN %}. Depending on whether you need to set up general tax rates or tax rates that apply only to shipping charges, use the appropriate section: **General tax rates** or **Tax rates on shipping cost**. The procedure for setting up general tax rates and tax rates on shipping cost is essentially the same:
+Чтобы настроить налоги, необходимо задать размер налоговой ставки. Для этого есть две секции: **Основные ставки налогов** (для налога, рассчитываемого от суммы заказа) и **Ставки налогов на стоимость доставки** (для налога, рассчитываемого от стоимости доставки). Настройка проходит одинаково в обеих секциях:
 
-1.  Click the **New rate** button.
-    ![]({{site.baseurl}}/attachments/8225533/8716429.png) 
-2.  In the section that expands below, provide information about your new sales tax rate:
-    ![]({{site.baseurl}}/attachments/8225533/8716431.png)
+1.  Нажмите **Новая ставка**.
+    ![10.jpg]({{site.baseurl}}/attachments/ref_ZBKZ38v7/10.jpg)
+2.  Заполните поля информацией о новых налогах:
+    ![11.jpg]({{site.baseurl}}/attachments/ref_ZBKZ38v7/11.jpg)
 
-    *   **Tax class**: Specify the type of products (tax class) to which the tax rate should be applied. For example, if you select the _Default tax class_ option here, the tax rate will be applied to all the products that have the default tax class assigned. 
-    *   **User membership**: Specify the user membership level for which the tax rate should be applied. The option _Ignore membership_ allows you to create a tax rate that will be applied to all orders irrespective of the buyer's membership (**Note**: The "User membership" column becomes available when the option "Use the same tax rates for all user membership levels" is disabled in the common tax settings).
-    *   **Zone**: Specify the address zone to which the tax rate should be applied. The tax rate will be applied to orders of customers whose address belongs to the selected address zone. Whether it is their Billing or Shipping address depends on the option selected in the **Address for sales tax calculation** field of the sales tax configuration.
-    *   **Taxable base**: Specify the type of costs based on which your tax rate should be calculated. (**Note: **The "Taxable base" column becomes available for general tax rates when the option _Individual settings for every rate_ is selected in the "Taxable base" field of the sales tax configuration. For tax rates on shipping cost the ability to specify a taxable base is not provided, because in this case the taxable base is always the same: the cost of shipping).  
-    *   **Rate**: Specify the tax rate amount as a percentage of the selected taxable base.
-3.  If necessary, use the **New rate** button to add rows for more tax rates. Complete the fields in each row as you require.
-4.  Click the **Save changes** button at the bottom of the page to save the changes.
-    ![]({{site.baseurl}}/attachments/8225533/8716432.png)
+    *   **Класс налога**: укажите тип продуктов, к которым применим данный налог. Например, если выбрать _Стандартный класс налога_, налог будет применяться ко всем продуктам, у которых в настройках выбран _Стандартный класс налога_. 
+    *   **Группа**: укажите группу покупателей, для которой действует налог.  Вариант _Игнорировать группу_ позволяет создать налог, который будет применим ко всем покупателям, независимо от типа членства в магазине. Обратите внимание, что поле **Группа** появляется в настройках налоговой ставки только тогда, когда опция Использовать одни и те же ставки налога для всех групп покупателей в Общих настройках отключена. 
+    *   **Зона**: укажите зоны доставки, для которых будет действовать этот налог.  Налог будет применен к заказам покупателей, чьи адреса входят в данную зону. Это может быть адрес доставки или адрес плательщика. Какой из них учитывается, зависит от значение поля  **Адрес для расчета налога с продаж** в настройках налогов.
+    *   **Налогооблагаемая база**: укажите базу для расчета налога. Это поле появляется в настройках налоговой ставки только тогда, когда  в поле **Налогооблагаемая база** в общих настройках налога выбран вариант _Индивидуальные настройки для каждой ставки налога_. В разделе **Ставки налогов на стоимость доставки** поле _Налогооблагаемая база_ всегда отсутствует, т.к. основа для расчета налога всегда одна - стоимость доставки.   
+    *   **Расценка**: укажите налоговую ставку в процентах.
+3.  Нажмите **Новая ставка** несколько раз, если нужно создать несколько новых ставок налога.
+4.  Нажмите **Сохранить**.
+    ![12.jpg]({{site.baseurl}}/attachments/ref_ZBKZ38v7/12.jpg)
 
-## Enabling/Disabling sales tax calculation
+## Включение и отключение расчета налогов
 
-Once configured and enabled, sales tax calculation can be disabled/re-enabled using the **On**/**Off** button to the right of the **Tax title** field on the **Sales tax** panel in the Taxes section (**Store setup** > **Taxes**). When sales tax calculation is enabled, the **On/Off** icon on the button is green. When it is disabled, the icon is grey.
+Настроенные и активированные налоги можно включать и отключать с помощью  переключателя **Включен / Выключен** в настройках налога на странице **Настройка магазина / Налоги**. Когда расчет налогов включен, этот переключатель зеленого цвета, и на нем написано **Включен**. Когда расчет налогов отключен - переключатель серого цвета. 
 
 ![]({{site.baseurl}}/attachments/8225533/8716428.png)
 
-_Related pages:_
+_Дополнительная информация:_
 
-*   {% link "Setting up tax classes" ref_pAWOdG8N %}
+*   {% link "Настройка классов налогов" ref_CqF1z2kG %}
 *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
 *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
 *   {% link "Adding user membership levels" ref_9ITFspcC %}
