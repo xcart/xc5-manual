@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-26 10:06 +0400'
+updated_at: '2017-10-26 11:10 +0400'
 identifier: ref_ZBKZ38v7
 title: Настройка налога с продаж
 order: 20
@@ -52,39 +52,39 @@ published: false
 3.  Заполните поля в разделе **Общие настройки налога**
     ![4.jpg]({{site.baseurl}}/attachments/ref_ZBKZ38v7/4.jpg)
     
-    *   Use the **Tax title** field to enter a general name describing the type of tax applied to orders in your store. This name will show on your store's checkout and on your customers' invoices. Suggested values for this field include _Tax_, _Sales Tax_, _GST_ and the like.
-    *   Specify whether tax calculation rules for the tax you are configuring (we'll come to configuring these rules a bit later) should be the same for all your store's users, irrespective of their membership, or should be different depending on the users' membership. If the rules need to be the same for all your buyers, enable the option **Use the same tax rates for all user membership levels** by selecting the respective check box. If different membership levels need their sales tax to be calculated differently, leave this check box unselected.
-    *   Use the selectbox titled **Address for sales tax calculation** to specify the address type based on which your sales tax needs to be calculated. The available options here are _Shipping address_ and _Billing address._ The address type you select here will be used to determine the customer's zone, which in its turn will be used to determine the tax rate that needs to be applied. In the United States, ecommerce businesses are supposed to charge sales tax based on where the product is being shipped to, and not where it was purchased; so, a store shipping within the United States would need to choose the _Shipping address_ option in this field.
+    *   В поле **Налог** нужно написать общее название, описывающее тип  налога. Это название налога будет видно на странице оплаты и в счете у покупателя. Пример: налог, налог с продаж, налог на товары и т.п.
+    *   **Использовать одни и те же ставки налога для всех групп покупателей** - отметьте эту опцию, если налог должен рассчитываться одинаково для всех групп покупателей. 
+    *   В поле **Адрес для расчета налога с продаж** следует указать адрес, на основе которого будет рассчитываться налог.  Можно выбрать _Адрес получателя_ или _Адрес плательщика_. По выбранному адресу будет определена зона адресов, по которой, в свою очередь, будет выбрана налоговая ставка. Например, в онлайн магазинах в США налог должен рассчитываться по месту доставки товара, а не по месту его оплаты. Поэтому, владелец магазина в США в этом поле выбрал бы _Адрес получателя_. 
     
-4.  Set up one or more tax calculation rules:
+4.  Создайте правило (или несколько) расчета налога:
 
-    *   If you need tax rates to be applied to the cost of the products in a customer's order (product subtotal or discounted subtotal), or to the cost of the products plus shipping (subtotal + shipping cost or discounted subtotal + shipping cost), set up tax rates using the **General tax rates** section_:_
+    *   Если налоговая ставка должна применяться к стоимости продуктов в заказе (сумма заказа или сумма заказа с учетом скидок) или к стоимости продуктов с учетом стоимости доставки (сумма заказа+стоимость доставки или сумма заказа с учетом скидки+стоимость доставки), настройте налоговые ставки в разделе **Основные ставки налогов**:
 
-        1.  Use the **Taxable base** selector to specify the type of costs on the basis of which your tax rates should be calculated. 
-            ![]({{site.baseurl}}/attachments/8225533/8716420.png)
-            The available options are as follows:
-            *   _Subtotal + Shipping cost;_
-            *   _Discounted subtotal + Shipping cost;_
-            *   _Subtotal;_
-            *   _Discounted subtotal;_
-            *   _Individual settings for every rate._ For example, if you select "Discounted subtotal + Shipping cost", your tax rate amounts will be calculated as percentages of the sum of the product subtotal after the application of discounts and the estimated product shipping cost. 
+        1.  В меню **Налогооблагаемая база** выберите, от какой суммы будет рассчитываться налог. 
+            ![5.jpg]({{site.baseurl}}/attachments/ref_ZBKZ38v7/5.jpg)
+            Возможные варианты:
+            *   _Сумма заказа+стоимость доставки;_
+            *   _Сумма заказа с учетом скидки+стоимость доставки;_
+            *   _Сумма заказа;_
+            *   _Сумма заказа с учетом скидки;_
+            *   _Индивидуальные настройки для каждой ставки налога._ Например, если вы выбрали сумма заказа+стоимость доставки, сумма налога будет рассчитана как процент от суммы заказа за вычетом скидок и от стоимости доставки. 
 
-            If you need multiple tax rates calculated based on different types of costs, select the last option - _Individual settings for every rate_. Selecting this option adds a selector with the first four options from the above list for each of your tax rates allowing you to specify a taxable base for every tax rate individually.
+            Чтобы применять различные налоги к различным суммам, выберите последний вариант - _Индивидуальные настройки для каждой ставки налога_. Эта опция позволяет выбрать базу для расчета налога отдельно для каждой ставки налога. 
 
-        2.  In the **General tax rates** section below, add the tax rates you require. 
-            ![]({{site.baseurl}}/attachments/8225533/8716421.png)
-            For more info, see the section "Setting up your sales tax rates" further in this article.
+        2.  В разделе **Основные ставки налогов** задайте налоговые ставки. 
+            ![6.jpg]({{site.baseurl}}/attachments/ref_ZBKZ38v7/6.jpg)
+            Вам поможет раздел **Настройка ставки налога с продаж** далее в этой статье.
 
-    *   If you need tax rates to be applied only to shipping charges, click on the link "Click here to specify tax rates that will apply only to shipping charges". 
-        ![]({{site.baseurl}}/attachments/8225533/8716422.png)
-        This will expand a section titled **Tax rates on shipping cost**. 
-        ![]({{site.baseurl}}/attachments/8225533/8716423.png)
-        Use this section to set up tax rates that will apply only to shipping charges. For more info, see the section "Setting up your sales tax rates" further in this article.
+    *   Если налог нужно применять только к стоимости доставки, нажмите ссылку **Нажмите здесь, чтобы задать ставки налогов на стоимость доставки**.
+        ![7.jpg]({{site.baseurl}}/attachments/ref_ZBKZ38v7/7.jpg)
+        Откроется раздел **Ставки налогов на стоимость доставки**. 
+        ![8.jpg]({{site.baseurl}}/attachments/ref_ZBKZ38v7/8.jpg)
+        Здесь вы можете настроить налоги только на доставку. обратитесь к параграфу  Вам поможет раздел  **Настройка ставки налога с продаж** далее в этой статье.
 
-5.  Make sure sales tax calculation is enabled in your store. This is controlled by the **On**/**Off** button to the right of the **Tax title** field. When sales tax calculation is enabled, the On/Off icon on the button is green.
-    ![]({{site.baseurl}}/attachments/8225533/8716428.png)
+5.  У поля **Налог** есть переключатель **Включен / Выключен**. Чтобы налоги с продаж действовали в магазине, этот переключатель должен быть **Включен** (зеленого цвета).
+    ![9.jpg]({{site.baseurl}}/attachments/ref_ZBKZ38v7/9.jpg)
     
-6.  Click the **Save changes** button at the bottom of the page to save the changes.
+6.  Нажмите **Сохранить**.
 
 ## Setting up sales tax rates
 
@@ -118,6 +118,3 @@ _Related pages:_
 *   {% link "Adding user membership levels" ref_9ITFspcC %}
 *   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %}
 *   {% link "Setting up Canadian taxes" ref_hxmof6xX %}
-
-    
-    
