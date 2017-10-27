@@ -5,7 +5,7 @@ updated_at: '2017-10-27 17:16 +0400'
 identifier: ref_fVgOaXam
 title: ''
 order: 100
-published: false
+published: true
 ---
 ## Что такое зона доставки?
 
@@ -53,33 +53,37 @@ published: false
 
 6.  На этой странице можно настроить зону доставки. 
 
-    *   If necessary, edit the name of the zone in the **Zone name** field. 
+    *   В поле **Название зоны** можно изменить название. 
 
-    *   Use the sections **Countries**, **States **and **Zip/postal code masks** to specify the regions/territories that belong to the zone being edited. In the sections **Countries** and **States**, you need to select all the countries and states that should be part of the zone from the box(es) on the left-hand side and move them to the box(es) on the right-hand side using the "**>>**" button. 
+    *   В полях **Страны**, **Области**, **Маски городов** и **Маски индексов** укажите регионы, которые входят в редактируемую зону доставки. В полях **Страны** и **Области** выбранные значения, относящиеся к зоне, нужно переместить слева направо с помощью кнопки со стрелкой. 
 
-        ![]({{site.baseurl}}/attachments/6389840/9437222.png)
+        ![10.jpg]({{site.baseurl}}/attachments/ref_fVgOaXam/10.jpg)
        
-        In the section Zip/postal masks, you need to specify the zip/postal codes (or zip/postal code masks) that should belong to the zone.
+        В поле **Индекс** укажите почтовые индексы или маски индексов, входящих в зону доставки. 
  
-        Zip/postal code masks help you specify zip/postal code ranges. You simply replace any number of digits with the "%" symbol. For example, "1001%" corresponds to all the zip/postal codes in the "10010 - 10019" range, "102%" - to all the zip/postal codes in the "10200 - 10299" range.
+        Маски почтовых индексов используются для записи ряд индексов. Чтобы указать диапазон, замените какое-нибудь число значком %. Например, 1001% означает индексы от 10010 до 10019, 102% - от 10200 до 10299.
 
-        Please be sure to place each zip/postal code mask entry or full zip/postal code on a separate line like so:
+        Каждая новая маска индексов должна располагаться на новой строке:
         
         1001%
         
         102%
         
         
-        To configure the zone "Atlantic Canada", we would need to select the following territories:
+        Для настройки зоны Атлантическая Канада нужно выбрать следующие территориальные единицы:
 
-        *   in the section **Countries** - Canada;
+        *   в поле **Страна** - Канада;
 
-        *   in the section **States** - Canada:New Brunswick, Canada:Newfoundland and Labrador, Canada:Nova Scotia and Canada:Prince Edward Island;
+        *   в поле **Область** - Канада: Нью-Брансуик,  Канада: Ньюфаундленд и Лабрадор, Канада: Новая Шотландия, и Канада: Остров Принца Эдуарда;
 
-        *   in the section **Zip/postal code masks** - nothing.
+        *   поле **Маска индексов** нужно оставить пустым.
 
-7.  Once you are done configuring the zone, click the **Save changes** button at the bottom of the page to save the changes.
-    ![]({{site.baseurl}}/attachments/6389840/9437223.png)
-    The zone details will be saved.
+7.  Когда все настройки установлены, нажмите **Сохранить**.
+    ![11.jpg]({{site.baseurl}}/attachments/ref_fVgOaXam/11.jpg)
+    Информация о зоне сохранена.
 
-## The "All Addresses" (default) zone
+## Стандартная зона **Все адреса**
+
+Даже если вы не создали новые зоны доставки, в магазине X-Cart всегда есть одна настроенная стандартная зона - Все адреса. Эта зона доставки создается во время установки магазина, и ее нельзя удалить.Наличие зоны доставки Все адреса гарантирует, что адресная зона покупателя будет определена, даже если его адрес не входит ни в одну из настроенных зон доставки. 
+
+Если открыть зону Все адреса для редактирования, она кажется пустой, т.к. для нее не выбраны никакие страны и т.д. Но на самом деле, это не так, по умолчанию, эта зона настроена так, что в нее входят все адреса со всего мира. Вы можете изменить состав зоны в зависимости от того, куда вы собираетесь отправлять свои товары. Например, если установить страну Германия в настройках зоны Все адреса, то данная зона доставки будет включать только адреса в Германии.
