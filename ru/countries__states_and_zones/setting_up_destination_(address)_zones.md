@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-27 17:12 +0400'
+updated_at: '2017-10-27 17:16 +0400'
 identifier: ref_fVgOaXam
 title: ''
 order: 100
@@ -25,34 +25,33 @@ published: false
 
 Если X-Cart находит адрес покупателя в нескольких зонах, он должен выбрать наиболее подходящую. Чем больше параметров зоны совпадает с адресом покупателя (страна, область, индекс), тем более подходящей считается зона доставки.  Чтобы определить налог и стоимость доставки для заказа, когда адрес покупателя входит в несколько зон доставки, прежде всего, X-Cart проверяет расценки наиболее подходящей зоны. Если для этой зоны не заданы ставка налоги и стоимость доставки, X-Cart переходит к проверке расценок следующей подходящей зоны. Последняя зона, до которой может дойти проверка - Все адреса. Это стандартная зона доставки, она не может быть более или менее подходящей и используется, когда ни одна другая зона доставки не подходит. 
 
-## Creating zones
+## Создание зон доставки
 
-For example, we need to create a zone "Atlantic Canada" that would include four territories: New Brunswick, Prince Edward Island, Nova Scotia and Newfoundland and Labrador. 
+Например, нам нужно создать зону доставки Атлантическая Канада с четырьмя провинциями (Нью-Брансуик, Ньюфаундленд и Лабрадор, Новая Шотландия, Остров Принца Эдуарда) 
 
-Let's do it:
 
-1.  In your store's Admin area, go to **Store setup > Countries, states and zones**.
-    ![]({{site.baseurl}}/attachments/6389840/9437215.png)
-2.  Click the **Zones** tab:
-    ![]({{site.baseurl}}/attachments/6389840/9437216.png)
-    This opens the Zones section where you can create and manage your address zones:
-    ![]({{site.baseurl}}/attachments/6389840/9437225.png)
+1.  В панели управления магазина откройте страницу **Настройки магазина / Страны, области и зоны**:
+    ![1.jpg]({{site.baseurl}}/attachments/ref_fVgOaXam/1.jpg)
+2.  Перейдите на вкладку **Зоны**:
+    ![2.jpg]({{site.baseurl}}/attachments/ref_fVgOaXam/2.jpg)
+    Откроется раздел **Зоны**, в котором вы можете создавать и изменять зоны доставки:
+    ![3.jpg]({{site.baseurl}}/attachments/ref_fVgOaXam/3.jpg)
 
-3.  Click the **Create zone** button.
-    ![]({{site.baseurl}}/attachments/6389840/9437217.png)
-    In the list of your store's zones, a new blank line will be added:
-    ![]({{site.baseurl}}/attachments/6389840/9437224.png)
-4.  Use the new blank line in the list of zones to specify the name of the destination zone you will be creating (For the sake of example, we will use the name "Atlantic Canada"); then click the **Save changes** button at the bottom of the page:
+3.  Нажмите кнопку **Создать зону**:
+    ![4.jpg]({{site.baseurl}}/attachments/ref_fVgOaXam/4.jpg)
+    В списке зон появится пустое поле, в котором нужно указать название новой зоны доставки:
+    ![5.jpg]({{site.baseurl}}/attachments/ref_fVgOaXam/5.jpg)
+4.  В качестве примера, мы используем название Атлантическая Канада. Нажмите Сохранить внизу страницы:
+    ![6.jpg]({{site.baseurl}}/attachments/ref_fVgOaXam/6.jpg)
+    Новая зона появится в списке адресных зон:
+    ![7.jpg]({{site.baseurl}}/attachments/ref_fVgOaXam/7.jpg)
 
-    ![]({{site.baseurl}}/attachments/6389840/9437218.png)The new zone will be added to the list:
-    ![]({{site.baseurl}}/attachments/6389840/9437219.png)
+5.  Наведите курсор на название новой зоны. Поле редактируется, прямо здесь можно поменять название зоны. При наведении курсора, справа появляется кнопка **Изменить**, с помощью которой можно редактировать настройки зоны доставки:
+    ![8.jpg]({{site.baseurl}}/attachments/ref_fVgOaXam/8.jpg)
+    Нажмите **Изменить**, откроется страница с информацией о зоне доставки:
+    ![9.jpg]({{site.baseurl}}/attachments/ref_fVgOaXam/9.jpg)
 
-5.  Hover your cursor over the name of the zone you have created. The field with the zone name will be displayed as editable, and an **Edit** button will be displayed next to it. If necessary, you can edit the zone name right here. To configure the zone details, click the **Edit** button:
-    ![]({{site.baseurl}}/attachments/6389840/9437220.png)
-    A page with the zone details will be displayed:
-    ![]({{site.baseurl}}/attachments/6389840/9437221.png)
-
-6.  Adjust the zone details as needed. 
+6.  На этой странице можно настроить зону доставки. 
 
     *   If necessary, edit the name of the zone in the **Zone name** field. 
 
@@ -84,5 +83,3 @@ Let's do it:
     The zone details will be saved.
 
 ## The "All Addresses" (default) zone
-
-
