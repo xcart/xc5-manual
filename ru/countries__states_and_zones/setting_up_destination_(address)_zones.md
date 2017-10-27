@@ -3,8 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-10-27 17:16 +0400'
 identifier: ref_fVgOaXam
-title: ''
-order: 100
+title: Настройка зон доставки
+order: 10
 published: true
 ---
 ## Что такое зона доставки?
