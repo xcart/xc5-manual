@@ -1,10 +1,10 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-23 12:23 +0400'
+updated_at: '2017-10-27 23:53 +0400'
 identifier: ref_iCw1CANs
 title: Прием платежей в X-Cart
-order: 40
+order: 80
 published: true
 categories:
   - home
