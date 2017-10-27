@@ -25,15 +25,15 @@ published: true
 
     Дополнительная информация:
     
-    *   {% link "Creating tax classes" ref_CqF1z2kG#section-1 %};
+    *   {% link "Как создать класс налога" ref_CqF1z2kG#section-1 %};
     
-    *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}.
+    *   {% link "Как присвоить класс налога продукту" ref_CqF1z2kG#section-2 %}.
 
 2.  В магазине должны быть настроены зоны доставки. Они нужны, чтобы применять разные налоговые ставки в зависимости от адреса покупателя.
 
     Дополнительная информация:
 
-    *   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
+    *   {% link "Настройка зон доставки" ref_fVgOaXam %}
     
 3.  В магазине должны быть настроены группы покупателей. Они нужны, чтобы применять разные налоговые ставки в зависимости от группы, в которую входит покупатель..
 
@@ -113,8 +113,8 @@ published: true
 _Дополнительная информация:_
 
 *   {% link "Настройка классов налогов" ref_CqF1z2kG %}
-*   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}
-*   {% link "Setting up destination (address) zones" ref_r68iO5Rm %}
+*   {% link "Как присвоить класс налога продукту" ref_CqF1z2kG#section-2 %}
+*   {% link "Настройка зон доставки" ref_fVgOaXam %}
 *   {% link "Adding user membership levels" ref_9ITFspcC %}
 *   {% link "Setting up VAT / GST (for the UK, EU, Australia, etc)" ref_Rzp45QlN %}
 *   {% link "Setting up Canadian taxes" ref_hxmof6xX %}
