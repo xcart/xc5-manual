@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-26 11:10 +0400'
+updated_at: '2017-10-27 22:57 +0400'
 identifier: ref_ZBKZ38v7
 title: Настройка налога с продаж
 order: 20
@@ -25,7 +25,7 @@ published: true
 
     Дополнительная информация:
     
-    *   {% link "Creating tax classes" ref_pAWOdG8N#creating-tax-classes %};
+    *   {% link "Creating tax classes" ref_CqF1z2kG#section-1 %};
     
     *   {% link "Assigning tax classes to products" ref_pAWOdG8N#assigning-tax-classes-to-products %}.
 
