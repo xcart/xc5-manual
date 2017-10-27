@@ -1,10 +1,10 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-27 23:49 +0400'
+updated_at: '2017-10-27 23:56 +0400'
 identifier: ref_TgqWAeT7
 title: Продукты
-order: 30
+order: 40
 published: true
 icon: cube
 categories:
