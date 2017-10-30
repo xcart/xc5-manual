@@ -214,10 +214,12 @@ The rules in question can be set by configuring the eBay options for these produ
     ![xc5_ebay_ebay_category_opts_page.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_ebay_category_opts_page.png)
 
 3.  Adjust the eBay options for the selected category:
-    *   **Allow export to eBay**: Specify whether the products from this category and the subcategories of this category should be exported to eBay. If you do not intend to sell products from this category and its subcategories on eBay, you can forbid the export of this category to eBay by deactivating this option.
+    3.1 Use the **eBay Site** field to select the eBay site to which the eBay options below should apply.
+    3.2 Set the eBay options below (Your settings will apply to all the products that will be exported from the current category to the eBay site selected above):
+    *   **Allow export to eBay**: Specify whether the products from this category and the subcategories of this category should be exported to the selected eBay site. If you do not intend to sell any products from this category and its subcategories on the eBay site specified above, you can forbid the export of this category to eBay by deactivating this option.
     *   **Main eBay Category**: Set the main eBay category for the products from the selected X-Cart category and the subcategories of this category.
     *   **Additional eBay Category**: Set the additional eBay category for the products from the selected X-Cart category and the subcategories of this category.
-    *   **Product price modifier**: If the price of the products in the selected X-Cart category and its subcategories needs to be different from the price of these products on eBay, set a price modifier.
+    *   **Product price modifier**: If the price of the products on eBay needs to be different from the price in the X-Cart store, set a price modifier.
 4.  Once you are done configuring the eBay options for the selected category, click **Save options** to save your changes.
     ![]({{site.baseurl}}/attachments/9306381/9439151.png)
     The eBay options for the category will be saved.
