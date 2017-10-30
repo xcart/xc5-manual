@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-15 17:00 +0400'
+updated_at: '2017-10-30 12:57 +0400'
 identifier: ref_SCbAqGqX
 title: Configuring X-Cart eBay Integration
 categories:
@@ -130,7 +130,9 @@ To set the default eBay categories:
 
 ## Configuring the General settings
 
-Before you start exporting products to eBay, you need to adjust the General settings for the respective eBay configuration.
+Before you start exporting products to eBay, you need to adjust the General settings for the respective eBay configuration. 
+
+Please note that despite the name "*General* settings" these settings do not apply to all your eBay configurations. Each eBay configuration has its own set of "General settings" that should be adjusted specifically for that configuration.
 
 To adjust the General settings:
 
@@ -138,10 +140,11 @@ To adjust the General settings:
     ![xc5_ebay_categories_next.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_categories_next.png)
 
     If you have already configured the General Settings for your eBay configuration previously, you can simply click the **General Settings** tab:
-    ![xc5_ebay_general_settings.png]({{site.baseurl}}/attachments/ref_ZnP9TFJx/xc5_ebay_general_settings.png)
+    ![xc5_ebay_general_settings_tab.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_tab.png)
 
 2.  Adjust the settings in the **Product options** section:
-    ![]({{site.baseurl}}/attachments/9306381/9438492.png)
+    ![xc5_ebay_general_settings_prod_options.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_prod_options.png)
+
     The settings in this section will apply to all the products in your X-Cart store for which similar settings have not been set [at the level of categories or individual products](#configuring-ebay-options-for-products-and-categories).
 
     *   **Listing duration**: Select a duration for your store's eBay listings. Ebay help on listing duration is available [here](http://pages.ebay.com/help/sell/duration.html).
@@ -165,7 +168,7 @@ To adjust the General settings:
     *   **Product code type**: Specify the type of global product code (EAN / USBN / UPC) to be used for the export of products to eBay. If no code is specified for a product, "Does not apply" will be sent to eBay.
     
 3.  Adjust the settings in the **System options** section:
-    ![]({{site.baseurl}}/attachments/9306381/9438493.png)
+    ![xc5_ebay_general_settings_sys_options.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_general_settings_sys_options.png)
 
     *   **Show eBay warning messages in admin area**: When exporting products to eBay or importing orders from eBay, you may get eBay warnings. Unlike errors, warnings are conditions that are not fatal to the addon operation, but they alert you to some minor problems that you may want to fix. Any warnings your store gets from eBay are written to log files in your X-Cart store. If, in addition to that, you also wish to have eBay warning messages displayed in your store's Admin area, enable this option. 
     
@@ -243,4 +246,3 @@ _Related pages:_
 *   {% link "X-Cart eBay Integration system requirements and installation" ref_RgzAH0hf %}
 *   {% link "Exporting products to eBay" ref_40Al0Nky %}
 *   {% link "Automating import and export tasks for eBay Integration" ref_qPIZcwNs %}
-
