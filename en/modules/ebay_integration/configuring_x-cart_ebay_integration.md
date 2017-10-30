@@ -205,11 +205,13 @@ The rules in question can be set by configuring the eBay options for these produ
  To set eBay options for a category: 
 
 1.  In the Manage categories section of your X-Cart store's Admin area (**Catalog** > **Categories**), find the category for which you need to set eBay options and click on its name to go to the category details page:
-    ![]({{site.baseurl}}/attachments/9306381/9439148.png)
+    ![xc5_ebay_manage_categories_page.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_manage_categories_page.png)
+
 2.  On the category details page, select the **eBay category options** tab:
-    ![]({{site.baseurl}}/attachments/9306381/9439149.png)
+    ![xc5_ebay_ebay_category_opts.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_ebay_category_opts.png)
+
     The eBay category options page opens:
-    ![]({{site.baseurl}}/attachments/9306381/9439150.png)
+    ![xc5_ebay_ebay_category_opts_page.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_ebay_category_opts_page.png)
 
 3.  Adjust the eBay options for the selected category:
     *   **Allow export to eBay**: Specify whether the products from this category and the subcategories of this category should be exported to eBay. If you do not intend to sell products from this category and its subcategories on eBay, you can forbid the export of this category to eBay by deactivating this option.
