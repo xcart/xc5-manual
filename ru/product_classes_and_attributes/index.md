@@ -19,7 +19,7 @@ icon: table
 Для чего нужны атрибуты продуктов:
 
 *   чтобы у продукта были опции и варианты на выбор:
-    ![2.jpg]({{site.baseurl}}/attachments/ref_pXBwGdtu/2.jpg)
+    
     (Варианты включаются модулем [Варианты Продуктов](http://www.x-cart.com/extensions/addons/product-variants.html)).
 
 *   чтобы можно было сортировать продукты по атрибутам (сортировка включается модулем [Фильтры Продуктов](http://www.x-cart.com/extensions/addons/product-filter.html)).
