@@ -14,12 +14,12 @@ icon: table
 
 Информация о продукте, заданная как атрибут, появляется на вкладке **Характеристики** на странице продукта в магазине:
 
-![]({{site.baseurl}}/attachments/7504847/7602452.png)
+
 
 Для чего нужны атрибуты продуктов:
 
 *   чтобы у продукта были опции и варианты на выбор:
-    ![]({{site.baseurl}}/attachments/7504847/7602468.png)
+    ![2.jpg]({{site.baseurl}}/attachments/ref_pXBwGdtu/2.jpg)
     (Варианты включаются модулем [Варианты Продуктов](http://www.x-cart.com/extensions/addons/product-variants.html)).
 
 *   чтобы можно было сортировать продукты по атрибутам (сортировка включается модулем [Фильтры Продуктов](http://www.x-cart.com/extensions/addons/product-filter.html)).
