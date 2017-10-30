@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-27 23:57 +0400'
+updated_at: '2017-10-30 11:38 +0400'
 identifier: ref_pXBwGdtu
 title: Классы и атрибуты продуктов
 order: 50
@@ -13,6 +13,8 @@ icon: table
 На странице создания продукта нет полей, чтобы задать такие параметры как цвет, размер,  материал, страну происхождения, технические характеристики и т.п. Дополнительную информацию о продуктах можно задать с помощью _атрибутов_.
 
 Информация о продукте, заданная как атрибут, появляется на вкладке **Характеристики** на странице продукта в магазине:
+
+![]({{site.baseurl}}/attachments/7504847/7602452.png)
 
 Для чего нужны атрибуты продуктов:
 
@@ -30,21 +32,20 @@ icon: table
 
 *   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
 
-For information on configuring and managing different types of product attributes, see:
+Дополнительная информация о разных типах атрибутов:
 
 *   {% link "Managing product-specific attributes" ref_d4ktum3z %}
 *   {% link "Managing product class attributes" ref_kEKoAxJB %}
 *   {% link "Managing global attributes" ref_HzMkgc0q %}
 
-For information on managing attribute values, see:
+Дополнительная информация о значениях атрибутов:
 
 *   {% link "Managing attribute values" ref_bTfJ9bTS %}
 
-For guidelines on organizing your global and product class attributes into groups, see:
+Дополнительная информация о группировании глобальных атрибутов и атрибутов классов::
 
 *   {% link "Managing attribute groups" ref_otIvC7NR %}
 
-For information on managing product variants, see:
+Дополнительная информация о вариантах продуктов:
 
 *   {% link "Product variants" ref_0uApuQfx %}
-
