@@ -5,7 +5,7 @@ updated_at: '2017-10-30 11:38 +0400'
 identifier: ref_pXBwGdtu
 title: Классы и атрибуты продуктов
 order: 50
-published: false
+published: true
 categories:
   - home
 icon: table
@@ -14,7 +14,7 @@ icon: table
 
 Информация о продукте, заданная как атрибут, появляется на вкладке **Характеристики** на странице продукта в магазине:
 
-
+![0.jpg]({{site.baseurl}}/attachments/ref_pXBwGdtu/0.jpg)
 
 Для чего нужны атрибуты продуктов:
 
