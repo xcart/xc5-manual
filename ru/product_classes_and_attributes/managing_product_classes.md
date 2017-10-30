@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-10-30 16:48 +0400'
+updated_at: '2017-10-30 17:13 +0400'
 identifier: ref_oNqyWK0N
 title: Работа с классами продуктов
 order: 10
@@ -71,15 +71,10 @@ published: false
 4.  Выберите из списка нужный класс для продукта. Если в списке нет нужного класса, выберите **Новый класс товара** в конце списка.
     
 5.  Нажмите **Сохранить**:
-    ![]({{site.baseurl}}/attachments/7504877/8719247.png)
+    ![11.jpg]({{site.baseurl}}/attachments/ref_oNqyWK0N/11.jpg)
     Теперь продукт входит в выбранный класс:
-    ![]({{site.baseurl}}/attachments/7504877/8719248.png)
+    ![12.jpg]({{site.baseurl}}/attachments/ref_oNqyWK0N/12.jpg)
 
-## Editing product class names
-
-
-
-
-
+## Изменение названий классов продуктов
 
 
