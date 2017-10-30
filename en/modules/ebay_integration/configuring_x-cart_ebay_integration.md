@@ -221,7 +221,8 @@ The rules in question can be set by configuring the eBay options for these produ
     *   **Additional eBay Category**: Set the additional eBay category for the products from the selected X-Cart category and the subcategories of this category.
     *   **Product price modifier**: If the price of the products on eBay needs to be different from the price in the X-Cart store, set a price modifier.
 4.  Once you are done configuring the eBay options for the selected category, click **Save options** to save your changes.
-    ![]({{site.baseurl}}/attachments/9306381/9439151.png)
+    ![xc5_ebay_ebay_category_opts_save.png]({{site.baseurl}}/attachments/ref_SCbAqGqX/xc5_ebay_ebay_category_opts_save.png)
+
     The eBay options for the category will be saved.
 
 To set eBay options for a product:
