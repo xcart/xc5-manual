@@ -229,6 +229,7 @@ To set eBay options for a product:
 
 1.  In your X-Cart store's Admin area, find the product for which you need to set eBay options. For example, you can find it via the Products section (**Catalog** > **Products**). Click on the product name to access the details of the product that has been found:
     ![]({{site.baseurl}}/attachments/9306381/9439152.png)
+    
 2.  On the product details page that opens, select the **eBay product options **tab:
     ![]({{site.baseurl}}/attachments/9306381/9439153.png)
     The eBay product options section of the product details opens:
