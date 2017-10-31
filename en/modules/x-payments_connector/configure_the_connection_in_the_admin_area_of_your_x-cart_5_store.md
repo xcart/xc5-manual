@@ -5,7 +5,7 @@ updated_at: '2017-10-31 15:34 +0400'
 identifier: ref_TIExeDzi
 title: Configure the connection in the Admin area of your X-Cart 5 store
 order: 100
-published: false
+published: true
 ---
 The following procedure assumes that your X-Cart 5 store has the X-Payments connector module installed and enabled.
 
