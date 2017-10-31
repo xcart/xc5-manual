@@ -7,6 +7,12 @@ title: Работа со значениями атрибутов
 order: 30
 published: false
 ---
-## A New Post
+Данная статья рассматривает следующие вопросы::
 
-Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
+*   [Типы полей значений атрибутов](#attribute-value-field-types)  в X-Cart 5;
+*   Как задать опции продукта посредством [многозначных атрибутов](#multi-value-attributes-product-options);
+*   Как [персонализировать](#personilization-options-editable-textarea) продукт (сделать на странице продукта редактируемое поле, в котором покупатели смогут писать тексты);
+*   Как настроить продукт, чтобы [цена и/или вес изменялись](#price-and-weight-modifiers) в зависимости от выбранных покупателем опций продукта;
+*   Как сделать [одно из значений атрибута значением по умолчанию](#setting-the-default-attribute-value).
+
+## Типы полей значений атрибутов в X-Cart 5
