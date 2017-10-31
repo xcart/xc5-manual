@@ -86,7 +86,7 @@ _Предзаполненное поле_ и поле _Да/Нет_ позвол
 6.  Отметьте, нужно ли применить значения атрибута для всех продуктов.
 7.  Нажмите **Сохранить**.
 
-With the _Yes/No_ field type, it is quite similar; the only difference is that there are just two options, _Yes_ and _No_, and you do not have to type them manually, but can select them from a list.
+Поле **Да/Нет** работает аналогично. Разница лишь в том, что есть всего два варианта на выбор - _да_ и _нет_.  Эти значения не нужно вносить вручную, их нужно только выбрать из списка.
 
 ![]({{site.baseurl}}/attachments/7504859/8719334.png)
 
