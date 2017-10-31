@@ -7,7 +7,7 @@ title: Configuring the connection in the X-Payments back end
 order: 100
 published: true
 ---
-To configure the connection in the X-Payments back end, follow the steps below:
+To configure the connection with your X-Cart 5 store in the X-Payments back end, follow the steps below:
 
 1.  Log in to X-Payments as administrator.
 
