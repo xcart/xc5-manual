@@ -73,10 +73,10 @@ _Предзаполненное поле_ и поле _Да/Нет_ позвол
 
 Таким образом, размеры  XS, S, M и L стали опциями продукта, которые можно выбрать из выпадающего меню.
 
-To achieve this setup:
+Как это настроить:
 
-1.  Use the **Attribute option** field next to the attribute name to enter the attribute value that should go first in your list of values for the attribute (In our example, we simply typed in "XS").
-2.  Hover your cursor over the blank area to the right of the** Attribute option** field. This reveals a check box that says **_multi value_**:
+1.  В поле **пция атрибута** впишите значение атрибута, оно будет первым в списке значений. Например,  XS.
+2.  Наведите курсор на поле **Значение атрибута**, справа появится флажок **Несколько значений**:
     ![]({{site.baseurl}}/attachments/7504859/8719331.png)
 3.  Select this check box to enable multiple values for the attribute you are editing. A new empty line is added to the attribute values list:
     ![]({{site.baseurl}}/attachments/7504859/8719332.png)
