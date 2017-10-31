@@ -75,11 +75,11 @@ _Предзаполненное поле_ и поле _Да/Нет_ позвол
 
 Как это настроить:
 
-1.  В поле **Опция атрибута** впишите значение атрибута, оно будет первым в списке значений. Например,  XS.
+1.  В поле **Значение атрибута** впишите значение атрибута, оно будет первым в списке значений. Например,  XS.
 2.  Наведите курсор на поле **Значение атрибута**, справа появится флажок **Несколько значений**:
     ![10.jpg]({{site.baseurl}}/attachments/ref_SuWz9rmN/10.jpg)
-3.  Select this check box to enable multiple values for the attribute you are editing. A new empty line is added to the attribute values list:
-    ![]({{site.baseurl}}/attachments/7504859/8719332.png)
+3.  Поставьте галочку, чтобы задать несколько значений для атрибута. Ниже появится новое пустое поле **Значение атрибута**:
+    ![11.jpg]({{site.baseurl}}/attachments/ref_SuWz9rmN/11.jpg)
 4.  Use the **Attribute option** field on the new line to type in the next attribute value name. As soon as you start typing, another empty line will be added to the list:
     ![]({{site.baseurl}}/attachments/7504859/8719333.png)
 5.  Continue until you have added all the attribute values you require.
