@@ -80,11 +80,11 @@ _Предзаполненное поле_ и поле _Да/Нет_ позвол
     ![10.jpg]({{site.baseurl}}/attachments/ref_SuWz9rmN/10.jpg)
 3.  Поставьте галочку, чтобы задать несколько значений для атрибута. Ниже появится новое пустое поле **Значение атрибута**:
     ![11.jpg]({{site.baseurl}}/attachments/ref_SuWz9rmN/11.jpg)
-4.  Use the **Attribute option** field on the new line to type in the next attribute value name. As soon as you start typing, another empty line will be added to the list:
-    ![]({{site.baseurl}}/attachments/7504859/8719333.png)
-5.  Continue until you have added all the attribute values you require.
-6.  Choose whether you want to apply the changes locally or globally.
-7.  Click **Save changes**.
+4.  В новом поле введите дополнительное значение атрибута. Как только вы начнете печатать текст в этом поле, ниже появится следующее новое поле:
+    ![12.jpg]({{site.baseurl}}/attachments/ref_SuWz9rmN/12.jpg)
+5.  Продолжайте, пока не введете все значения атрибута.
+6.  Отметьте, нужно ли применить значения атрибута для всех продуктов.
+7.  Нажмите **Сохранить**.
 
 With the _Yes/No_ field type, it is quite similar; the only difference is that there are just two options, _Yes_ and _No_, and you do not have to type them manually, but can select them from a list.
 
