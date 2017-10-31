@@ -45,4 +45,4 @@ Before you proceed to configuring the connection in your X-Cart 5 Admin area, pl
 
 The configuration bundle provides a quick method to deploy X-Payments connection settings in your X-Cart 5 store. You will need this bundle when you will be configuring the connection in your X-Cart 5 Admin area. For now, simply click the Copy button to copy the bundle to clipboard so you have it at the ready when it is time to paste it on the X-Cart 5 end.
 
-Now it is time to configure the connection in the Admin area of your X-Cart 5 store.
+Now it is time to {% "configure the connection in the Admin area of your X-Cart 5 store" ref_TIExeDzi %}.
