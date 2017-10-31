@@ -1,10 +1,10 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-31 15:34 +0400'
+updated_at: '2017-10-31 15:44 +0400'
 identifier: ref_TIExeDzi
 title: Configure the connection in the Admin area of your X-Cart 5 store
-order: 100
+order: 130
 published: true
 ---
 The following procedure assumes that your X-Cart 5 store has the X-Payments connector module installed and enabled.
@@ -55,4 +55,3 @@ Complete the following steps:
     Please note that if you enable this option in X-Cart, you must also select an iframe based template for your X-Cart 5 store in the X-Payments admin back end.
 
 That's it. Now you are all set and ready to process payments in your X-Cart 5 store using X-Payments.
-
