@@ -73,4 +73,27 @@ _Предзаполненное поле_ и поле _Да/Нет_ позвол
 
 Таким образом, размеры  XS, S, M и L стали опциями продукта, которые можно выбрать из выпадающего меню.
 
+To achieve this setup:
 
+1.  Use the **Attribute option** field next to the attribute name to enter the attribute value that should go first in your list of values for the attribute (In our example, we simply typed in "XS").
+2.  Hover your cursor over the blank area to the right of the** Attribute option** field. This reveals a check box that says **_multi value_**:
+    ![]({{site.baseurl}}/attachments/7504859/8719331.png)
+3.  Select this check box to enable multiple values for the attribute you are editing. A new empty line is added to the attribute values list:
+    ![]({{site.baseurl}}/attachments/7504859/8719332.png)
+4.  Use the **Attribute option** field on the new line to type in the next attribute value name. As soon as you start typing, another empty line will be added to the list:
+    ![]({{site.baseurl}}/attachments/7504859/8719333.png)
+5.  Continue until you have added all the attribute values you require.
+6.  Choose whether you want to apply the changes locally or globally.
+7.  Click **Save changes**.
+
+With the _Yes/No_ field type, it is quite similar; the only difference is that there are just two options, _Yes_ and _No_, and you do not have to type them manually, but can select them from a list.
+
+![]({{site.baseurl}}/attachments/7504859/8719334.png)
+
+On the storefront, customers can choose the option they require by adjusting the respective check box:
+
+![]({{site.baseurl}}/attachments/7504859/7602537.png)
+
+It should be noted that the method for specifying product options described above does not provide a way to track how many product units with a specific option you have sold and how many you still have on hand. Also, if the product has more than one multi-valued attribute, there is no way to specify, which option combinations (product variants) are actually available. If you need these features, consider installing X-Cart's [Product Variants](http://www.x-cart.com/extensions/addons/product-variants.html) module. This module allows you to create product variants from options and make them have their own prices, SKUs and stock levels.
+
+## Personilization options (editable Textarea)
