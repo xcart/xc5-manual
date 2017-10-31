@@ -1,11 +1,11 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-10-31 15:31 +0400'
+updated_at: '2017-10-31 15:38 +0400'
 identifier: ref_q4dUBnZT
 title: Configuring the connection in the X-Payments back end
 order: 100
-published: false
+published: true
 ---
 To configure the connection in the X-Payments back end, follow the steps below:
 
