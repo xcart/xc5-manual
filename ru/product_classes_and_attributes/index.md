@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-01 12:40 +0400'
+updated_at: '2017-11-01 13:21 +0400'
 identifier: ref_pXBwGdtu
 title: Классы и атрибуты продуктов
 order: 50
@@ -30,7 +30,7 @@ icon: table
 
 Прежде чем настраивать атрибуты продуктов, будет полезно прочитать следующие статьи:
 
-*   {% link "Types of product attributes - by scope" ref_uaJk8ete %}
+*   {% link "Типы атрибутов продуктов по области применения" ref_XEdis9sU %}
 
 Дополнительная информация о разных типах атрибутов:
 
