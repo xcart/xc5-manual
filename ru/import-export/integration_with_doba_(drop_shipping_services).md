@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-02 12:22 +0400'
+updated_at: '2017-11-02 12:44 +0400'
 identifier: ref_P9FGe7v8
 title: Интеграция с Doba (сервисом прямых поставок)
 order: 20
@@ -15,4 +15,4 @@ published: true
 
 _Дополнительная информация:_
 
-*   {% link "Импорт-Экспорт" ref_TANvG2De %}
+*   {% link "Импорт-Экспорт" ref_94dTTrT5 %}
