@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-02 12:05 +0400'
+updated_at: '2017-11-02 12:41 +0400'
 identifier: ref_AwaMbiEf
 title: Импорт данных
 order: 10
@@ -24,7 +24,7 @@ CSV файл для импорта можно создать двумя спос
 ## Создание нового CSV файла
 
 1.  Создайте новый документ-таблицу в редакторе (MS Excel или LibreOffice Calc).
-2.  Определите параметры, которые нужно импортировать, - впишите эти параметры в клетки первой строки таблицы. В статье {% link "CSV format by X-Cart data type" ref_iy9cOdWS %}  вы найдете информацию о поддерживаемых параметрах.
+2.  Определите параметры, которые нужно импортировать, - впишите эти параметры в клетки первой строки таблицы. В статье {% link "Формат CSV файла для разных видов данных" ref_IbLL2XAb %}  вы найдете информацию о поддерживаемых параметрах.
 3.  Во второй и следующих строках напишите данные о продуктах. Таблица будет выглядеть так:![]({{site.baseurl}}/attachments/6389817/6586496.png)
 4.  Экспортируйте файл в формате CSV.
 
@@ -33,4 +33,3 @@ _Дополнительная информация:_
 *   {% link "CSV format by X-Cart data type" ref_iy9cOdWS %}
 *   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}
 *   {% link "Integration with Doba (drop shipping services)" ref_HOfdxO3E %}
-
