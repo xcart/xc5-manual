@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-02 12:16 +0400'
+updated_at: '2017-11-02 12:44 +0400'
 identifier: ref_IbLL2XAb
 title: Формат CSV файла для разных видов данных
 order: 10
@@ -27,5 +27,5 @@ categories:
 
 _Дополнительная информация:_
 
-*   {% link "Импорт данных" ref_glDc6kA1 %}
+*   {% link "Импорт данных" ref_AwaMbiEf %}
 *   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}
