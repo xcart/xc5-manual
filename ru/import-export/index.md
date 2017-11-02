@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-01 16:26 +0400'
+updated_at: '2017-11-02 12:38 +0400'
 identifier: ref_94dTTrT5
 title: Импорт - Экспорт
 order: 90
@@ -10,9 +10,8 @@ icon: exchange
 categories:
   - home
 ---
-In this section:_
 
-*   {% link "How to import data" ref_glDc6kA1 %}
-*   {% link "CSV format by X-Cart data type" ref_iy9cOdWS %}
+*   {% link "Импорт данных" ref_AwaMbiEf %}
+*   {% link "Формат CSV файла для разных видов данных" ref_IbLL2XAb %}
 *   {% link "Updating product properties (price, stock quantity, etc.) via import" ref_OEpBdtQ6 %}
-*   {% link "Integration with Doba (drop shipping services)" ref_HOfdxO3E %}
+*   {% link "Интеграция с Doba (сервисом прямых поставок)" ref_P9FGe7v8 %}
