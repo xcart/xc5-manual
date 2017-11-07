@@ -1,13 +1,11 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-02 12:44 +0400'
+updated_at: '2017-11-07 12:57 +0400'
 identifier: ref_IbLL2XAb
 title: Формат CSV файла для разных видов данных
 order: 10
 published: true
-categories:
-  - home
 ---
 С помощью CSV файла в X-Cart можно импортировать несколько видов информации:
 
