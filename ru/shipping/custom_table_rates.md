@@ -75,11 +75,11 @@ published: false
 
         Теперь можно сохранить таблицу.
 
-6.  Once you're satisfied with your rates table configuration, save your changes. The new shipping method will be added.
+6.  Новый способ доставки создан.
 
-7.  Make sure the shipping method is active. 
+7.  Убедитесь, что новый способ доставки активирован. 
 
-8.  Make sure that all the products that will be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
+8.  В настройках всех продуктов, для которых работает новый способ доставки, опция **Требуется доставка** должна быть включена.
 
-That is all. Now the shipping rates for orders shipped using this method will be calculated based on the custom rates table you have created.
+Настройка завершена. Теперь для заказов, для которых выбран новый способ доставки, стоимость доставки будет рассчитана по созданной таблице.
 
