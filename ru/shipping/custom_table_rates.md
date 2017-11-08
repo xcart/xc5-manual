@@ -59,14 +59,14 @@ published: false
     *   стоимость товаров: RUB 0.00 - RUB 2999 
     *   вес товаров: 0 - 5 кг 
     *   фиксированный тариф: RUB 500
-    Once we're done with the first rate, let's add two more table rows for the rates "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb" and "$10 flat rate shipping for orders weighing over 10 lb" . To add a new blank row, we'll use the [+] button:
+    Первый тариф настроен. Добавьте еще две строки таблицы для тарифов _бесплатная доставка при сумме заказ RUB 3000 и выше и весе до 5 кг_ и _фиксированная стоимость доставки RUB 600 при весе заказа более 5 кг_.  Чтобы добавить новые строки, нажмите значок [+]:
     ![]({{site.baseurl}}/attachments/9306242/9437474.png)
-    We'll configure these two rows we have added like so:
+    Две новые строки будут настроены следующим бразом:
     ![]({{site.baseurl}}/attachments/9306242/9437475.png)
-    "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb":
-    *   Subtotal range: $50 - $  ∞
-    *   Weight range: 0 - 10 lb
-    *   flat rate: $0
+    "Бесплатная доставка при сумме закаа RUB 3000 и выше и весе до 5 кг":
+    *   стоимость товаров: RUB 3000 - RUB  ∞
+    *   вес товаров: 0 - 5 кг
+    *   фиксированный тариф: RUB 0
 
         "$10 flat rate shipping for orders weighing over 10 lb":
     *   Subtotal range: $0 - $  ∞
