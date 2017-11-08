@@ -1,11 +1,11 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-08 10:31 +0400'
+updated_at: '2017-11-08 13:01 +0400'
 identifier: ref_glvKFUGT
 title: 'Доставка '
 order: 90
-published: false
+published: true
 categories:
   - home
 ---
