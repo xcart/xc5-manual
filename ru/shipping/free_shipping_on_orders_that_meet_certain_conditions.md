@@ -26,18 +26,18 @@ X-Cart позволяет настроить бесплатную доставк
 
 ## Пример 1: Бесплатная доставка при сумме заказа выше RUB 3000
 
-1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders with a subtotal over $50:
+1.  Откройте страницу **Способы доставк**и (**Настройка магазина / Доставка**):
 
-    1.  Click the **Add shipping method** button.
+    1.  Нажмите **Добавить способ доставки**.
         ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
 
-    2.  In the popup window that appears, select the **Custom table rates** tab.
+    2.  В открывшемся диалоговом окне перейдите на вкладку **Ручная настройка**.
         ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
 
-    3.  Provide general information about the shipping method and configure how shipping rates should be calculated for it:
-        *   Enter a name for this shipping method (for example, "Free shipping on orders over $50").
-        *   In the **Address zone** field, specify the zone for which you are going to make this method available.
-        *   Specify that the table is based on "Subtotal" and set the **Subtotal range** to "$50.00 - $  ∞". Make sure that the fields **flat rate**, **per item**, **% and per weight unit** have zero values.
+    3.  Внесите общую информацию о способе доставки и настройте расчет стоимости:
+        *   Укажите название способа доставки (например, _Бесплатна доставка при сумме заказа выше RUB 3000_).
+        *   В поле **Зона доставки** укажите адресную зону, в которой будет действовать этот способ доставки.
+        *   Установите базу для расчета _Стоимость товаров_ и значение соответствующего поля **Стоимость товаров** _RUB 3000 - $ ∞_. Поля **фиксированный тариф**, **за единицу товара**, **%** и **за единицу веса** не требуют заполнения.
         ![xc5_freeshipping_method_over50.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50.png)
         
     4.  Save your changes.
