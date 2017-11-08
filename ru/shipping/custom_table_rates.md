@@ -63,17 +63,17 @@ published: false
     ![]({{site.baseurl}}/attachments/9306242/9437474.png)
     Две новые строки будут настроены следующим бразом:
     ![]({{site.baseurl}}/attachments/9306242/9437475.png)
-    "Бесплатная доставка при сумме закаа RUB 3000 и выше и весе до 5 кг":
+    _Бесплатная доставка при сумме закаа RUB 3000 и выше и весе до 5 кг_:
     *   стоимость товаров: RUB 3000 - RUB  ∞
     *   вес товаров: 0 - 5 кг
     *   фиксированный тариф: RUB 0
 
-        "$10 flat rate shipping for orders weighing over 10 lb":
-    *   Subtotal range: $0 - $  ∞
-    *   Weight range: 10 lb - ∞ 
-    *   flat rate: $10
+        _Фиксированная стоимость доставки RUB 600 при весе заказа более 5 кг_:
+    *   стоимость товаров: RUB 0 - RUB  ∞
+    *   вес товаров: 5 кг - ∞ 
+    *   фиксированный тариф: RUB 600
 
-        We are now ready to save our table.
+        Теперь можно сохранить таблицу.
 
 6.  Once you're satisfied with your rates table configuration, save your changes. The new shipping method will be added.
 
