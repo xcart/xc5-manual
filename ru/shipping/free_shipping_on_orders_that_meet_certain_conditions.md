@@ -29,60 +29,60 @@ X-Cart позволяет настроить бесплатную доставк
 1.  Откройте страницу **Способы доставки** (**Настройка магазина / Доставка**):
 
     1.  Нажмите **Добавить способ доставки**.
-        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+        ![1.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/1.jpg)
 
     2.  В открывшемся диалоговом окне перейдите на вкладку **Ручная настройка**.
-        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
+        ![2.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/2.jpg)
 
     3.  Внесите общую информацию о способе доставки и настройте расчет стоимости:
         *   Укажите название способа доставки (например, _Бесплатная доставка при сумме заказа выше RUB 3000_).
         *   В поле **Зона доставки** укажите адресную зону, в которой будет действовать этот способ доставки.
         *   Установите базу для расчета _Стоимость товаров_ и значение соответствующего поля **Стоимость товаров** _RUB 3000 - $ ∞_. Поля **фиксированный тариф**, **за единицу товара**, **%** и **за единицу веса** не требуют заполнения.
-        ![xc5_freeshipping_method_over50.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50.png)
+        ![3.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/3.jpg)
         
     4.  Нажмите Создать.
-        ![xc5_freeshipping_method_over50_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_create.png)
+        ![4.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/4.jpg)
 
     5.  Активируйте новый способ доставки.
-        ![xc5_freeshipping_method_over50_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_active.png)
+        ![5.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/5.jpg)
 
 2.  В настройках всех продуктов, для которых действует новый способ доставки, должна быть включена опция **Требуется доставка**.
-    ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
+    ![6.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/6.jpg)
 
 Настройка завершена. Новый способ доставки будет доступен покупателям, сумма заказов которых RUB 3000 и выше.
-    ![xc5_freeshipping_method_over50_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_checkout.png)
+    ![7.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/7.jpg)
     
 
 ## Пример 2: Бесплатная доставка в пределах Российской Федерации
 
 1.  В панели управления магазина откройте страницу **Настройки магазина / Страны, области и зоны** и создайте зону доставки Российская Федерация.
-       ![xc5_freeshipping_germany_zone.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_germany_zone.png)
+       ![8.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/8.jpg)
 
 2.  Откройте страницу Способы доставки (**Настройка магазина / Доставка**):
 
     1.  Нажмите **Добавить способ доставки**.
-        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+        ![9.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/9.jpg)
 
     2.  В открывшемся диалоговом окне перейдите на вкладку **Ручная настройка**.
-        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
+        ![10.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/10.jpg)
 
     3.  Внесите общую информацию о способе доставки и настройте расчет стоимости:
         *   Укажите название способа доставки (например, _Бесплатная доставка в пределах Российской Федерации_).
         *   В поле **Зона доставки** выберите новую зону (_Российская Федерация_).
         *   Никакие другие поля не требуют заполнения.
-        ![xc5_freeshipping_method_germany.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany.png)
+        ![11.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/11.jpg)
         
     4.  Нажмите Создать.
-        ![xc5_freeshipping_method_germany_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany_create.png)
+        ![12.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/12.jpg)
 
     5.  Активируйте новый способ доставки:
-        ![xc5_freeshipping_method_germany_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany_active.png)
+        ![13.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/13.jpg)
        
 3.  В настройках всех продуктов, для которых действует новый способ доставки, должна быть включена опция **Требуется доставка**.
-    ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
+    ![14.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/14.jpg)
 
 Новый способ доставки создан. Бесплатная доставка будет предложена покупателям, адрес доставки которых входит в указанную зону доставки (_Российская Федерация_).
-     ![xc5_freeshipping_method_germany_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_germany_checkout.png)
+     ![15.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/15.jpg)
      
     
 ## Пример 3: Бесплатная доставка, если в заказе 3 продукта и более
@@ -90,28 +90,28 @@ X-Cart позволяет настроить бесплатную доставк
 1.  Откройте страницу Способы доставки (**Настройка магазина / Доставка**):
 
     1.  Нажмите **Добавить способ доставки**.
-        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+        ![16.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/16.jpg)
 
     2.  В открывшемся диалоговом окне перейдите на вкладку **Ручная настройка**.
-        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
+        ![17.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/17.jpg)
 
     3.  Внесите общую информацию о способе доставки и настройте расчет стоимости:
         *   Укажите название способа доставки (например, _Бесплатная доставка, если в заказе 3 продукта и более_).
         *   В поле **Зона доставки** выберите адресную зону, в которую вы будете доставлять товары данным способом.
         *   Укажите базу для расчета _Количество товаров_ и значение соответствующего поля **Количество товаров** _3 - ∞_. Поля **фиксированный тариф**, **за единицу товара**, **%** и **за единицу веса** не требуют заполнения.
-        ![xc5_freeshipping_method_3items.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items.png)
+        ![18.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/18.jpg)
         
     4.  Нажмите Создать.
-        ![xc5_freeshipping_method_3items_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_create.png)
+        ![19.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/19.jpg)
 
     5.  Активируйте новый способ доставки.
-        ![xc5_freeshipping_method_3items_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_active.png)
+        ![20.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/20.jpg)
 
 2.  В настройках всех продуктов, для которых действует новый способ доставки, должна быть включена опция **Требуется доставка**.
-    ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
+    ![21.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/21.jpg)
 
 Настройка завершена. Бесплатная доставка будет доступна покупателям, в заказах которых 3 и более продукта.
-    ![xc5_freeshipping_method_3items_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_checkout.png)
+    ![22.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/22.jpg)
 
 
 ## Пример 4: Бесплатная доставка при весе заказа до 200 г
@@ -119,59 +119,59 @@ X-Cart позволяет настроить бесплатную доставк
 1.  Откройте страницу Способы доставки (**Настройка магазина / Доставка**):
 
     1.  Нажмите **Добавить способ доставки**.
-        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+        ![23.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/23.jpg)
 
     2.  В открывшемся диалоговом окне перейдите на вкладку **Ручная настройка**.
-        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
+        ![24.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/24.jpg)
 
     3.  Внесите общую информацию о способе доставки и настройте расчет стоимости:
         *   Укажите название способа доставки (например, _Бесплатная доставка при весе заказа до 200 г_).
         *   В поле **Зона доставки** выберите адресную зону, в которую вы будете доставлять товары данным способом.
         *   Выберите базу для расчета _Вес_ и укажите диапазон веса _0 - 0.2_. Единица веса по умолчанию должна быть килограмм. Проверьте единицу измерения веса магазина на странице **Настройка магазина / Локализация**. Поля **фиксированный тариф**, **за единицу товара**, **%** и **за единицу веса** не требуют заполнения.
-        ![xc5_freeshipping_method_weight200.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200.png)
+        ![25.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/25.jpg)
         
     4.  Нажмите Создать.
-        ![xc5_freeshipping_method_weight200_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200_create.png)
+        ![26.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/26.jpg)
 
     5.  Активируйте новый способ доставки.
-        ![xc5_freeshipping_method_weight200_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200_active.png)
+        ![27.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/27.jpg)
 
 2.  В настройках всех продуктов, для которых действует новый способ доставки, должна быть включена опция **Требуется доставка**.
-    ![xc5_freeshipping_requires_shipping1.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping1.png)
+    ![28.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/28.jpg)
 
 Способ доставки настроен. Бесплатная доставка будет предложена покупателям, вес всех продуктов в заказах которых не превышает 200 г.
-    ![xc5_freeshipping_method_weight200_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_weight200_checkout.png)
+    ![29.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/29.jpg)
 
 ## Пример 5: Бесплатная доставка в пределах Российской Федерации при сумме заказа выше RUB 3000 (комбинированные условия)
 
 1.  В панели управления магазина откройте страницу **Настройки магазина / Страны, области и зоны** и создайте зону доставки _Российская Федерация_.
-       ![xc5_freeshipping_germany_zone.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_germany_zone.png)
+       ![30.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/30.jpg)
 
 2.  Откройте страницу **Способы доставки** (**Настройка магазина / Доставка**):
 
     1.  Нажмите **Добавить способ доставки**.
-        ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
+        ![31.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/31.jpg)
 
     2.  В открывшемся диалоговом окне перейдите на вкладку **Ручная настройка**.
-        ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
+        ![32.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/32.jpg)
 
     3.  Внесите общую информацию о способе доставки и настройте расчет стоимости:
         *   Укажите название способа доставки (например, _Бесплатная доставка в пределах Российской Федерации при сумме заказа выше RUB 3000_).
         *   В поле **Зона доставки** выберите новую зону (_Российская Федерация_).
         *   Выберите _Стоимость товаров_ как основу для расчета и в поле **Стоимость товаров** укажите диапазон сумм _RUB 3000 - $ ∞_. Поля **фиксированный тариф**, **за единицу товара**, **%** и **за единицу веса** не требуют заполнения.
-        ![xc5_freeshipping_method_over50_germany.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany.png)
+        !![33.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/33.jpg)
         
     4.  Нажмите Создать:
-        ![xc5_freeshipping_method_over50_germany_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany_create.png)
+        ![34.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/34.jpg)
 
     5.  Активируйте новый способ доставки:
-        ![xc5_freeshipping_method_over50_germany_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany_active.png)
+        ![35.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/35.jpg)
 
 3.  В настройках всех продуктов, для которых действует новый способ доставки, должна быть включена опция **Требуется доставка**.
-    ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
+    ![36.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/36.jpg)
 
 Сособ доставки настроен. Бесплатная доставка будет предложена покупателям, сумма заказа которых составляет RUB 3000 и выше, а адрес доставки входит в указаную зону (_Российская Федерация_).
-    ![xc5_freeshipping_method_over50_germany_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_over50_germany_checkout.png)
+    ![37.jpg]({{site.baseurl}}/attachments/ref_XrlVrrcu/37.jpg)
 
 _Дополнительная информация:_
 
