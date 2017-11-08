@@ -40,25 +40,25 @@ published: false
 
 5.  Как составить таблицу расценок на доставку для нового способа доставки:
 
-    In the lower part of the screen where you have provided the details of your shipping method, a form is provided that will help you to create your custom rates table for this method. What you see here is, in fact, the first row of your table - with the default zero values. 
+    В диалоговом окне, где вы вносили общую информацию о новом способе доставки, можно настроить и расценки. Форма расчета в нижней части этого окна - это первая строка таблицы расценок. 
     ![]({{site.baseurl}}/attachments/9306242/9437471.png)
-    The set of fields that you see in this table row may be different depending on the value of the "Table based on" setting above. For example, if you have chosen to base your table on "_Subtotal, weight, items_", there will be more fields; for lack of space, they will be displayed on two rows one below the other (as shown in the screenshot below):
+    Параметры в этой строке могут быть различными в зависимости от настроек поля Тариф на основе выше. Например, если вы выбрали Стоимость, вес и количество товаров, то полей в этой строке будет больше, и они будут расположены в два ряда, т.к. не умещаются в один:
     ![]({{site.baseurl}}/attachments/9306242/9437472.png)
-    But in any case you should remember that all these fields pertain to the first row of your custom rates table, and all of them are intended for your first shipping rate.
-    To create a shipping rate, you will need to adjust the values in the fields of this table row so that they form a rule according to which the shipping rate will be calculated. 
-    If necessary, you will be able to add more table rows for more rates. In the end, be sure to save your changes.
+    Не смотря на то, что поля расположены в два ряда, они составят только первую строку таблицы расценок на доставку и только первый тариф.
+    Чтобы создать тариф на доставку, задайте значения в этих полях. Вы получите правило, по которому будет рассчитываться стоимость доставки для нового метода. 
+    Можно задать несколько тарифов. Когда все данные внесены, нажмите **Сохранить**.
 
-    For example, let's configure a custom rates table that will allow us to offer our customers:
-    *   $7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb, 
-    *   free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb,
-        and
-    *   $10 flat rate shipping for orders weighing over 10 lb.
+    Пример:
+    *   фиксированная стоимость доставки RUB 500 при сумме заказа до RUB 3000 и весе  до 5 кг, 
+    *   бесплатная доставка при сумме заказ RUB 3000 и выше и весе до 5 кг,
+        и 
+    *   фиксированная стоимость доставки RUB 600 при весе заказа более 5 кг.
 
-        Our first rate needs to be "$7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb". To get this rate, we need to configure our first table row as follows:
+        Для настройки первого тарифа _фиксированная стоимость доставки RUB 500 при сумме заказа до RUB 3000 и весе до 5 кг_ поля таблицы должны быть заполнены следующим образом:
     ![]({{site.baseurl}}/attachments/9306242/9437473.png)
-    *   Subtotal range: $0.00 - $49.99 
-    *   Weight range: 0 - 10 lb 
-    *   flat rate: $7
+    *   стоимость товаров: RUB 0.00 - RUB 2999 
+    *   вес товаров: 0 - 5 кг 
+    *   фиксированный тариф: RUB 500
     Once we're done with the first rate, let's add two more table rows for the rates "Free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb" and "$10 flat rate shipping for orders weighing over 10 lb" . To add a new blank row, we'll use the [+] button:
     ![]({{site.baseurl}}/attachments/9306242/9437474.png)
     We'll configure these two rows we have added like so:
