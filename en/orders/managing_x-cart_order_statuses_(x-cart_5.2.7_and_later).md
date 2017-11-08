@@ -131,29 +131,3 @@ _Related pages:_
 *   {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}
 *   {% link "Adding new fulfilment/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}
 
-## Attachments:
-
-* [xc5_order_statuses.png]({{site.baseurl}}/attachments/8750763/8719462.png) (image/png)
-* [xc5_order_statuses_page_tabs.png]({{site.baseurl}}/attachments/8750763/8719463.png) (image/png)
-* [xc5_order_statuses_add_new_button.png]({{site.baseurl}}/attachments/8750763/8719481.png) (image/png)
-* [xc5_order_statuses_add_new.png]({{site.baseurl}}/attachments/8750763/8719479.png) (image/png)
-* [xc5_order_statuses_select_tab.png]({{site.baseurl}}/attachments/8750763/8719480.png) (image/png)
-* [xc5_order_statuses_add_new_button.png]({{site.baseurl}}/attachments/8750763/8719478.png) (image/png)
-* [xc5_order_statuses_add_new1.png]({{site.baseurl}}/attachments/8750763/8719483.png) (image/png)
-* [xc5_order_statuses_add_new1.png]({{site.baseurl}}/attachments/8750763/8719482.png) (image/png)
-* [xc5_order_statuses_add_new2.png]({{site.baseurl}}/attachments/8750763/8719484.png) (image/png)
-* [xc5_order_statuses_trash_icon.png]({{site.baseurl}}/attachments/8750763/8719496.png) (image/png)
-* [xc5_order_statuses_delete.png]({{site.baseurl}}/attachments/8750763/8719486.png) (image/png)
-* [xc5_order_statuses_deleted.png]({{site.baseurl}}/attachments/8750763/8719487.png) (image/png)
-* [xc5_order_statuses_rename.png]({{site.baseurl}}/attachments/8750763/8719488.png) (image/png)
-* [xc5_order_statuses_rename1.png]({{site.baseurl}}/attachments/8750763/8719490.png) (image/png)
-* [xc5_order_statuses_rename1.png]({{site.baseurl}}/attachments/8750763/8719489.png) (image/png)
-* [xc5_order_statuses_rename2.png]({{site.baseurl}}/attachments/8750763/8719491.png) (image/png)
-* [xc5_order_statuses_rename3.png]({{site.baseurl}}/attachments/8750763/8719492.png) (image/png)
-* [xc5_order_statuses_system_statuses.png]({{site.baseurl}}/attachments/8750763/8719495.png) (image/png)
-* [xc5_order_statuses_system_statuses1.png]({{site.baseurl}}/attachments/8750763/8719494.png) (image/png)
-* [xc5_order_statuses_system_statuses.png]({{site.baseurl}}/attachments/8750763/8719493.png) (image/png)
-* [xc5_order_statuses_trash_icon.png]({{site.baseurl}}/attachments/8750763/8719485.png) (image/png)
-* [xc5_order_statuses_status_selectors.png]({{site.baseurl}}/attachments/8750763/8719497.png) (image/png)
-* [xc5_order_statuses_order_arrows.png]({{site.baseurl}}/attachments/8750763/8719498.png) (image/png)
-* [xc5_order_statuses_custom_order_statuses_module.png]({{site.baseurl}}/attachments/8750763/8719499.png) (image/png)
