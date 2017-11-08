@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2017-11-08 12:43 +0400'
+updated_at: '2017-11-08 13:31 +0400'
 identifier: ref_DkbTi1qJ
 title: Understanding X-Cart order statuses
 categories:
@@ -13,7 +13,7 @@ order: 100
 
 ## System order statuses
 
-Every order in your X-Cart store has a payment status and a shipping status. These two statuses provide information as to the current state of the order in the {% link "order processing workflow" ref_DkbTi1qJ %}. 
+Every order in your X-Cart store has a payment status and a fulfilment status. These two statuses provide information as to the current state of the order in the {% link "order processing workflow" ref_DkbTi1qJ %}. 
 
 By default, X-Cart uses the following order statuses:
 
@@ -30,7 +30,7 @@ By default, X-Cart uses the following order statuses:
 
 The statuses Awaiting payment, Paid and Authorized cause the inventory levels of the ordered items to be decreased according to the quantities ordered. The statuses Refunded, Cancelled and Declined cause the items to be restocked. The status Partially Paid does not affect the inventory.
 
-**Shipping statuses**
+**Fulfilment statuses**
 
 {:.ui.compact.celled.small.padded.table}
 | N | New | The initial status assigned by default to any new order once it has been created. |
