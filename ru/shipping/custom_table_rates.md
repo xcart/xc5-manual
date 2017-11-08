@@ -16,29 +16,29 @@ published: false
 *   по количеству продуктов в заказе (стоимость доставки будет зависеть от количества продуктов в заказе);
 *   по любой комбинации промежуточной суммы заказа, веса и количества продуктов (стоимость доставки будет зависеть нескольких параметров).
 
-To configure a shipping method with custom table based rates, follow the steps below:
+Как создать способ доставки с настраиваемыми ставками:
 
-1.  In your store's Admin area, go to the Shipping methods section (**Store setup **>** Shipping**):
+1.  В панели управления магазина откройте раздел Способы доставки (страница **Настройка магазина / Доставка**):
     ![]({{site.baseurl}}/attachments/9306242/9437466.png)
-2.  Click the **Add shipping method** button:
+2.  Нажмите **Добавить способ доставки**:
     ![]({{site.baseurl}}/attachments/9306242/9437467.png)
-    A popup window allowing you to choose what type of shipping rates you would like to use will be displayed:
+    Откроется диалоговое окно, в котором можно выбрать тип стоимости доставки:
     ![]({{site.baseurl}}/attachments/9306242/9437468.png)
-3.  Within the popup, select the **Custom table rates** tab:
+3.  Перейдите на вкладку **Ручная настройка**:
     ![]({{site.baseurl}}/attachments/9306242/9437469.png)
-4.  Provide general information about the shipping method:
+4.  Укажите общую информацию о способе доставки:
     ![]({{site.baseurl}}/attachments/9306242/9437470.png)
 
-    *   **Method name**: Enter a name for this shipping method. This name will be shown to buyers.
-    *   **Delivery time**: Provide information about the estimated delivery time.
-    *   **Address zone**: Select the Address zone for which the shipping method should be available. If you haven't yet configured the zone you require, use the Manage zones link to go to the Zones section and configure it.
-    *   **Table based on**: A bit later you will configure a custom table of rates for this shipping method. Now use the "Table based on" field to specify the parameter (or parameters) based on which you are going to define your rates.
-        *   _Subtotal_ - Choose this parameter if you want to define rates for specific order amounts; for example, $7 flat rate shipping for orders with a subtotal of up to $50 and free shipping for orders over that amount.
-        *   _Weight_ - Choose this parameter if you want order shipping cost to be determined based on the weight of items in the order; for example, £28.13 flat rate shipping for orders weighing up to 5 kg and £9.99 shipping per kg for orders over 5 kg. If you use this type of rates, make sure that all your products that require shipping have a correct weight specified in the product details.
-        *   _Items_ - Choose this parameter if you want shipping rates to depend on the number of items in the order; for example, $2.60 flat rate shipping if the number of items in the order is 5 or less, and $0.40 per item if the number of items in the order is 6 or more.
-        *   _Subtotal, weight, items_ - Choose this option to use a combination of parameters; for example, $7 flat rate shipping for orders with a subtotal of up to $50 - if the order weight is up to 10 lb, free shipping for orders with a subtotal of $50 or more - if the order weight is up to 10 lb, and $10 flat rate shipping for orders weighing over 10 lb. Again, if you are going to define rates based on weight, be sure to specify correct weights for all your products.
+    *   **Название**: название способа доставки, которое будут видеть покупатели.
+    *   **Время доставки**: предположительное время доставки.
+    *   **Зона доставки**: зона адресов, внутри которой будет действовать способ доставки. Если вы еще не создали эту адресную зону, пройдите по ссылке Управление зонами и нажмите Создать зону.
+    *   **База для расчета**: в поле Тариф на основе выберите один или несколько параметров, на базе которых будет рассчитываться стоимость доставки.
+        *   _Подытог заказа_ - для расчета стоимости доставки по сумме заказа. Пример: фиксированная плата за доставку RUB 500 при промежуточной сумме заказа до RUB 3000 и бесплатная доставка при сумме выше RUB 3000.
+        *   _Вес_ - для расчета стоимости доставки по весу продуктов в заказе. Пример:  фиксированная плата за доставку RUB 500 при весе заказа до 5 кг и RUB 200 за 1 кг при весе заказа выше 5 кг. Чтобы использовать этот тип расчета, необходимо указать точный вес в настройках всех продуктов, для которых действует этот способ доставки.
+        *   _Продукты в  заказе_ - для расчета стоимости доставки по количеству продуктов в заказе. Пример: фиксированная стоимость доставки RUB 300, если в заказе 5 или менее продуктов, и RUB 50 за продукт, если в заказе 6 или более продуктов.
+        *   _Подытог заказа, вес, продукты_ - для расчета стоимости доставки нескольким параметрам. Пример: фиксированная стоимость доставки RUB 500 при промежуточной сумме заказа до RUB 3000 и весе до 5 кг; бесплатная доставка при промежуточной сумме заказа RUB 300 и выше и весе до 5 кг, и фиксированная стоимость доставки RUB 600 при весе заказа выше 5 кг. Для использования этого способа расчета доставки необходимо указать вес в настройках  всех продуктов, для которых действует этот способ доставки.
 
-5.  Configure your custom shipping rates table for this shipping method. Let's see how to do it.
+5.  Как составить таблицу расценок на доставку для нового способа доставки:
 
     In the lower part of the screen where you have provided the details of your shipping method, a form is provided that will help you to create your custom rates table for this method. What you see here is, in fact, the first row of your table - with the default zero values. 
     ![]({{site.baseurl}}/attachments/9306242/9437471.png)
