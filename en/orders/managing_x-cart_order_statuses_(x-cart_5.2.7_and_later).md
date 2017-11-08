@@ -1,7 +1,7 @@
 ---
 lang: en
 layout: article_with_sidebar
-updated_at: '2016-09-30 12:52 +0400'
+updated_at: '2017-11-08 14:13 +0400'
 identifier: ref_7FIU2sxJ
 title: Managing X-Cart order statuses (X-Cart 5.2.7 and later)
 version: X-Cart 5.2.7 and later
@@ -23,7 +23,7 @@ With this module you can:
 *   [rename existing order statuses](#renaming-order-statuses) (both {% link "system" ref_DkbTi1qJ#system-order-statuses %} and custom ones);
 *   [delete custom order statuses](#deleting-order-statuses) (NB: {% link "system" ref_DkbTi1qJ#system-order-statuses %} order statuses cannot be deleted). 
 
-The module Custom Order Statuses is not compatible with X-Cart versions prior to X-Cart 5.2.7\. For these older X-Cart versions, custom order statuses can be added using the method described in the article {% link "Adding new shipping/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}.
+The module Custom Order Statuses is not compatible with X-Cart versions prior to X-Cart 5.2.7\. For these older X-Cart versions, custom order statuses can be added using the method described in the article {% link "Adding new fulfilment/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}.
 
 ## Viewing order statuses
 
@@ -31,7 +31,7 @@ With the module **Custom Order Statuses** installed and enabled, the complete li
 
 ![]({{site.baseurl}}/attachments/8750763/8719462.png)
 
-In fact, there are two lists, since payment statuses and shipping statuses are listed separately. You can switch between the lists using the respective tabs:
+In fact, there are two lists, since payment statuses and fulfilment statuses are listed separately. You can switch between the lists using the respective tabs:
 
 ![]({{site.baseurl}}/attachments/8750763/8719463.png)
 
@@ -56,7 +56,7 @@ Order statuses that have Trash icons displayed opposite their names instead of 
 
 Such statuses can be deleted as well as renamed.
 
-The order of statuses in the list determines the order in which the statuses appear in the drop-down selectors that the store administrator uses to assign payment and shipping statuses to an order.
+The order of statuses in the list determines the order in which the statuses appear in the drop-down selectors that the store administrator uses to assign payment and fulfilment statuses to an order.
 
 ![]({{site.baseurl}}/attachments/8750763/8719497.png)
 
@@ -66,14 +66,14 @@ You can rearrange this order by dragging and dropping specific statuses in the l
 
 ## Adding custom order statuses
 
-If X-Cart's {% link "system order statuses" ref_DkbTi1qJ#system-order-statuses %} do not meet the needs of your business, you can create your own statuses. It is possible to create both payment order statuses and shipping order statuses. 
+If X-Cart's {% link "system order statuses" ref_DkbTi1qJ#system-order-statuses %} do not meet the needs of your business, you can create your own statuses. It is possible to create both payment order statuses and fulfilment order statuses. 
 
 Custom order statuses do not currently have the ability to change the inventory levels of products in the order, but we are hoping to implement this feature in the nearest future.
 
 To add a new order status:
 
 1.  In your X-Cart store's Admin area, go to the Order statuses section (**Orders** > **Order statuses**). 
-2.  Make sure you are viewing the correct page tab (Payment statuses are added on the tab that opens by default. To add a shipping status, you will need to switch to the **Shipping statuses** tab). 
+2.  Make sure you are viewing the correct page tab. Payment statuses are added on the tab that opens by default. To add a fulfilment status, you will need to switch to the **Fulfilment statuses** tab (In X-Cart versions prior to 5.3.3.0, this tab is titled **Shipping statuses**). 
     ![]({{site.baseurl}}/attachments/8750763/8719480.png)
 3.  Click the **Add status** button:
     ![]({{site.baseurl}}/attachments/8750763/8719478.png)
@@ -94,7 +94,7 @@ It is possible to rename existing order statuses, both system and custom ones.
 To rename an order status:
 
 1.  In your X-Cart store's Admin area, go to the Order statuses section (**Orders** > **Order statuses**). 
-2.  Make sure you are viewing the correct page tab (Payment statuses can be found on the tab that opens by default. To access shipping statuses, you will need to switch to the **Shipping statuses** tab). 
+2.  Make sure you are viewing the correct page tab (Payment statuses can be found on the tab that opens by default. To access fulfilment statuses, you will need to switch to the **Fulfilment statuses** tab (In X-Cart versions prior to 5.3.3.0, this tab is titled **Shipping statuses**). 
 3.  In the list of order statuses, locate the status that needs to be renamed. 
 4.  Click on the status name. The status name field becomes editable:
     ![]({{site.baseurl}}/attachments/8750763/8719488.png)
@@ -116,8 +116,7 @@ System order statuses cannot be deleted. If you are not happy with the name of a
 To delete an order status:
 
 1.  In your X-Cart store's Admin area, go to the Order statuses section (**Orders** > **Order statuses**). 
-2.  Make sure you are viewing the correct page tab (Payment statuses can be found on the tab that opens by default. To access shipping statuses, you will need to switch to the **Shipping statuses** tab). 
-
+2.  Make sure you are viewing the correct page tab (Payment statuses can be found on the tab that opens by default. To access fulfilment statuses, you will need to switch to the **Fulfilment statuses** tab (In X-Cart versions prior to 5.3.3.0, this tab is titled **Shipping statuses**).  
 3.  In the list of order statuses, locate the status that needs to be deleted.
 4.  Click the Trash icon opposite its name.
     ![]({{site.baseurl}}/attachments/8750763/8719485.png)
@@ -130,7 +129,7 @@ To delete an order status:
 _Related pages:_
 
 *   {% link "Understanding X-Cart order statuses" ref_DkbTi1qJ %}
-*   {% link "Adding new shipping/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}
+*   {% link "Adding new fulfilment/payment statuses (X-Cart 5.2.6 and earlier)" ref_NzhAvNte %}
 
 ## Attachments:
 
