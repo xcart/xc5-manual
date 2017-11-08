@@ -87,33 +87,33 @@ X-Cart позволяет настроить бесплатную доставк
     
 ## Пример 3: Бесплатная доставка, если в заказе 3 продукта и более
 
-1.  Go to the Shipping methods section (**Store setup** > **Shipping**) and create a new shipping method - the one to be used for the free delivery of orders with 3 or more items:
+1.  Откройте страницу Способы доставки (**Настройка магазина / Доставка**):
 
-    1.  Click the **Add shipping method** button.
+    1.  Нажмите **Добавить способ доставки**.
         ![xc5_freeshipping_add_shipmethod.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_add_shipmethod.png)
 
-    2.  In the popup window that appears, select the **Custom table rates** tab.
+    2.  В открывшемся диалоговом окне перейдите на вкладку **Ручная настройка**.
         ![xc5_freeshipping_custom_table_rates_tab.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_custom_table_rates_tab.png)
 
-    3.  Provide general information about the shipping method and configure how shipping rates should be calculated for it:
-        *   Enter a name for this shipping method (for example, "Free shipping on orders of 3 or more items").
-        *   In the **Address zone** field, specify the zone for which you are going to make this method available.
-        *   Specify that the table is based on "Items" and set the **Items range** to "3 -  ∞". Make sure that the fields **flat rate**, **per item**, **% and per weight unit** have zero values.
+    3.  Внесите общую информацию о способе доставки и настройте расчет стоимости:
+        *   Укажите название способа доставки (например, _Бесплатная доставка, если в заказе 3 продукта и более_).
+        *   В поле **Зона доставки** выберите адресную зону, в которую вы будете доставлять товары данным способом.
+        *   Укажите базу для расчета _Количество товаров_ и значение соответствующего поля **Количество товаров** _3 - ∞_. Поля **фиксированный тариф**, **за единицу товара**, **%** и **за единицу веса** не требуют заполнения.
         ![xc5_freeshipping_method_3items.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items.png)
         
-    4.  Save your changes.
+    4.  Нажмите Создать.
         ![xc5_freeshipping_method_3items_create.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_create.png)
 
-    5.  Make sure the method you have configured is active.
+    5.  Активируйте новый способ доставки.
         ![xc5_freeshipping_method_3items_active.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_active.png)
 
-2.  Make sure that all the products that can be shipped using this shipping method have the option **Requires shipping** (in older X-Cart versions - **Shippable**) enabled.
+2.  В настройках всех продуктов, для которых действует новый способ доставки, должна быть включена опция **Требуется доставка**.
     ![xc5_freeshipping_requires_shipping.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_requires_shipping.png)
 
-That is all. You should now have a free shipping method that will be displayed at checkout only if the customer's order contains 3 or more items.
+Настройка завершена. Бесплатная доставка будет доступна покупателям, в заказах которых 3 и более продукта.
     ![xc5_freeshipping_method_3items_checkout.png]({{site.baseurl}}/attachments/ref_T9GhEfev/xc5_freeshipping_method_3items_checkout.png)
 
 
-## Example 4. Free shipping on orders of up to 200 g weight
+## Пример 4: Бесплатная доставка при весе заказа до 200 г
 
 
