@@ -1,9 +1,9 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-08 13:49 +0400'
+updated_at: '2017-11-08 16:26 +0400'
 identifier: ref_65Cs4QwQ
-title: 'Стоимость доставки, настраиваемая вручную'
+title: Расчет стоимости доставки вручную
 order: 20
 published: true
 ---
