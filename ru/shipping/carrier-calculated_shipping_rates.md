@@ -1,9 +1,9 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-08 11:33 +0400'
+updated_at: '2017-11-08 16:26 +0400'
 identifier: ref_BqJi1vAR
-title: 'Соимость доставки, рассчитанная транспортной компанией'
+title: Автоматический расчет стоимости доставки в режиме реального времени
 order: 10
 published: true
 ---
