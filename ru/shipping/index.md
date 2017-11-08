@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-08 13:46 +0400'
+updated_at: '2017-11-08 17:11 +0400'
 identifier: ref_glvKFUGT
 title: 'Доставка '
 order: 90
@@ -10,9 +10,9 @@ categories:
   - home
 icon: shipping
 ---
-*   {% link "Carrier-calculated shipping rates" ref_ybdiN8r0 %}
-*   {% link "Custom table rates" ref_3TG6AuN0 %}
-*   {% link "Free shipping on orders that meet certain conditions" ref_T9GhEfev %}
+*   {% link "Автоматический расчет стоимости доставки в режиме реального времени" ref_BqJi1vAR %}
+*   {% link "Расчет стоимости доставки вручную" ref_65Cs4QwQ %}
+*   {% link "Бесплатная доставка заказов, отвечающих определенным требованиям" ref_XrlVrrcu %}
 *   {% link "Free shipping on specific products" ref_IU9J0uuT %}
 *   {% link "Shipping freight" ref_kioKBJIM %}
 *   {% link "Handling fee" ref_nFJTxPMR %}
