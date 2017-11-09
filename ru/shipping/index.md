@@ -1,7 +1,7 @@
 ---
 lang: ru
 layout: article_with_sidebar
-updated_at: '2017-11-09 14:43 +0400'
+updated_at: '2017-11-09 14:47 +0400'
 identifier: ref_glvKFUGT
 title: 'Доставка '
 order: 90
@@ -16,4 +16,4 @@ icon: shipping
 *   {% link "Бесплатная доставка определенных продуктов" ref_JQBTMTq5 %}
 *   {% link "Стоимость доставки" ref_ELG1SBUJ %}
 *   {% link "Сервисный сбор" ref_0G3rTrGg %}
-*   {% link "Shipping setup for downloadable products" ref_z5KmbFAu %}
+*   {% link "Доставка нематериальных продуктов" ref_UbbrzsCH %}
