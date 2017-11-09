@@ -40,20 +40,20 @@ published: false
    * Тариф 1: 0-0,999 кг, фиксированная стоимость - RUB 300
    * Тариф 2: 1-1,999 кг, фиксированная стоимость - RUB 500
 
-In this case, depending on the combination of the products in the shopping cart, the shipping rates will be as follows:
-Item One only - $0.00 (as the product is to be shipped for free);
-Item Two only - $5.00 (Rate One is applied)
-Item One and Item Two together - $10.00 (Rate Two is applied: As a result of the 1st iteration, Rate One is excluded, since Product One and Product Two together have a weight equal to 1lb. As a result of the 2nd iteration, the cost of shipping is found to be $10.00 - because the flat rate for Rate Two is $10.00, regardless of the number of items.)
+При этом, в зависимости от комбинации продуктов в заказе, расчет стоимости доставки будет таким:
+Только Продукт 1 - RUB 0.00 (т.к. этот продукт доставляется бесплатно);;
+Только Продукт 2 RUB 300 (действует Тариф 1)
+Продукт 1 и Продукт 2 вместе - RUB 500 (действует Тариф 2: По результатам шага 1, Тариф 1 исключается, т.к. Продукт 1 и Продукт 2 вместе весят 1 кг. По результатам шага 2, стоимость доставки  составляет RUB 500, т.к. фиксированная ставка Тарифа 2 - RUB 500, независимо от количества продуктов).
 
-## Example 2
+## Пример 2
 
-You have 2 items:
-   * Item One - 0.5 lb, free shipping = yes, item cost- 100$
-   * Item Two - 0.5 lb, free shipping = no, item cost- 50$
+Есть два продукта:
+   * Продукт 1 - 0,5 кг, бесплатная доставка = да, стоимость единицы товара - RUB 3000
+   * Продукт 2 - 0,5 кг, бесплатная доставка = нет, стоимость единицы товара - RUB 1500
 
-You have 2 rates:
-   * Rate One: 0-0.99lb, rate - 10% 
-   * Rate Two: 1-1.99lb, rate - 15%
+Есть две ставки  для расчета стоимости доставки:
+   * Тариф 1: 0-0,999 кг, фиксированная стоимость - 10% 
+   * Тариф 2: 1-1,999 кг, фиксированная стоимость - 15%
 
 In this case, depending on the combination of products in the shopping cart, the shipping rates will be as follows:
 Item One only - $0.00 (as the product is to be shipped for free).
