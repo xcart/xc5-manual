@@ -3,8 +3,8 @@ lang: ru
 layout: article_with_sidebar
 updated_at: '2017-11-09 12:42 +0400'
 identifier: ref_ELG1SBUJ
-title: ''
-order: 100
+title: Стоимость доставки
+order: 60
 published: false
 ---
 Individual shipping cost per product can be set using the _Shipping freight_ feature. This feature can be enabled using the module **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions).
