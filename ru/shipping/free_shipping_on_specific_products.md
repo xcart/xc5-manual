@@ -5,7 +5,7 @@ updated_at: '2017-11-09 12:06 +0400'
 identifier: ref_JQBTMTq5
 title: Бесплатная доставка определенных продуктов
 order: 40
-published: false
+published: true
 ---
 С помощью модуля **Free shipping and Shipping freights**, которыe входят в X-Cart Business, X-Cart Multivendor и X-Cart Ultimate, можно настроить бесплатную доставку для некоторых продуктов. 
     ![1.jpg]({{site.baseurl}}/attachments/ref_JQBTMTq5/1.jpg)
