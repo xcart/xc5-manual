@@ -5,7 +5,7 @@ updated_at: '2017-11-09 12:42 +0400'
 identifier: ref_ELG1SBUJ
 title: Стоимость доставки
 order: 50
-published: false
+published: true
 ---
 Индивидуальную стоимость доставки для одного продукта можно настроить с помощью модуля **Free shipping and Shipping freights**, разработанного командой X-Cart. Модуль входит в X-Cart Business, X-Cart Multivendor и X-Cart Ultimate.
     ![xc5_freeshipping_module.png]({{site.baseurl}}/attachments/ref_kioKBJIM/xc5_freeshipping_module.png)
