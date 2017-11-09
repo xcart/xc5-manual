@@ -7,28 +7,28 @@ title: Стоимость доставки
 order: 50
 published: false
 ---
-Individual shipping cost per product can be set using the _Shipping freight_ feature. This feature can be enabled using the module **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions).
+Индивидуальную стоимость доставки для одного продукта можно настроить с помощью модуля **Free shipping and Shipping freights**, разработанного командой X-Cart. Модуль входит в X-Cart Business, X-Cart Multivendor и X-Cart Ultimate.
     ![xc5_freeshipping_module.png]({{site.baseurl}}/attachments/ref_kioKBJIM/xc5_freeshipping_module.png)
 
-For example, you have a product - "Albert Einstein Action Figure" - that you want to be shipped for $5\.
+Например, в магазине есть продукт _Говорящая копилка Алчный Гоблин_, который вы хотите доставлять за RUB 200.
 
-To set the shipping freight property for this product to $5  (or whatever amount you want to charge buyers for the shipping of this product), follow these steps:
+Как это настроить:
 
-1.  In your store's Admin area, find the product for which you need to set shipping freight ("Albert Einstein Action Figure").
-2.  Click on the product name to open the product details.
-3.  On the **Info** tab of the product details, locate the **Shipping freight** field and set its value to the amount you require (in our case, $5).
+1.  В панели управления магазина найдите продукт, для которого нужно задать индивидуальную стоимость доставки (_Говорящая копилка Алчный Гоблин из Диабло_).
+2.  Нажмите на название продукта, чтобы открыть страницу редактирования продукта.
+3.  На вкладке **Общее** найдите опцию **Фиксированная стоимость доставки** и укажите нужное значение (RUB 200 в нашем случае).
     ![]({{site.baseurl}}/attachments/9306286/9437371.png)
 
-4.  Click **Update product**.
+4.  Нажмите Обновить продукт.
 
-Note that for the case when a customer's shopping cart contains only products with a defined shipping freight, and no other shipping methods are available, your store will need a shipping method selectable at checkout. We provide a special shipping method for this purpose - "Fixed rate shipping". Make sure this method is active:
+На случай, когда в корзине покупателя только продукты с фиксированной стоимостью доставки, и других подходящих способов доставки в магазине нет, необходим способ доставки, который можно будет выбрать во время оформления заказа. Для того есть способ доставки **Доставка по фиксированной стоимости**. Он должен быть активирован:
 
 ![]({{site.baseurl}}/attachments/9306286/9437373.png)
 
-If necessary, you can edit the name and description of this method. To do so, click on the method name and adjust the information you require:
+Название и описание способа доставки можно редактировать. Нажмите на название способа и измените информацию:
 
 ![]({{site.baseurl}}/attachments/9306286/9437374.png)
 
-That is all. Now every unit of the product "Albert Einstein Action Figure" will be shipped for $5 (two units - $10, tree units - $15, and so on). For orders containing other items along with any number of Albert Einstein action figures, the order shipping cost will be $5 multiplied by the number of Albert Einstein action figures + the shipping cost of the rest of the order.
+Настройка завершена. Теперь каждая единица продукта _Говорящая копилка Алчный Гоблин из Диабло_ будет доставляться за RUB 200, две - за RUB 400, три - за RUB 600  и т.д. Если в заказе есть некоторое количество копилок Алчный Гоблин и еще какие-то продукты, стоимость доставки будет составлять RUB 200 за каждую копилку Алчный Гоблин плюс стоимость доставки, рассчитанная для остальных продуктов.
 
-Please note that shipping freight can be set only for tangible goods; i.e. the property **Requires shipping** /** Shippable** in the product details must be set to "Yes" for the setting** Shipping freight** to be visible.
+Фиксированная стоимость доставки может быть настроена только для материальных продуктов. Т.е. опция **Фиксированная стоимость доставки** отображается только при включенной опции **Требуется доставка**.
