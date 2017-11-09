@@ -55,9 +55,9 @@ published: false
    * Тариф 1: 0-0,999 кг, фиксированная стоимость - 10% 
    * Тариф 2: 1-1,999 кг, фиксированная стоимость - 15%
 
-In this case, depending on the combination of products in the shopping cart, the shipping rates will be as follows:
-Item One only - $0.00 (as the product is to be shipped for free).
-Item Two only - $5.00 (Rate One is applied,`50$*10%=$5` )
+При этом, в зависимости от комбинации продуктов в заказе, расчет стоимости доставки будет таким:
+Только Продукт 1 - RUB 0.00 (т.к. продукт доставляется бесплатно)
+Только Продукт 2 - RUB 150 (действует Тариф 1, RUB 1500*10%=RUB 150)
 Item One and Item Two together - $7.50 (Rate Two is applied: As a result of the 1st iteration, Rate One is excluded, since Product One and Product Two together have a weight equal to 1lb. As a result of the 2nd iteration, the cost of shipping is calculated using the percent-based Rate Two, but the rate is applied to Item Two only, `50$*15% -$7.5`)
 
 ## "Free shipping" method
