@@ -58,14 +58,14 @@ published: false
 При этом, в зависимости от комбинации продуктов в заказе, расчет стоимости доставки будет таким:
 Только Продукт 1 - RUB 0.00 (т.к. продукт доставляется бесплатно);
 Только Продукт 2 - RUB 150 (действует Тариф 1, RUB 1500 * 10%=RUB 150);
-Item One and Item Two together - $7.50 (Rate Two is applied: As a result of the 1st iteration, Rate One is excluded, since Product One and Product Two together have a weight equal to 1lb. As a result of the 2nd iteration, the cost of shipping is calculated using the percent-based Rate Two, but the rate is applied to Item Two only, `50$*15% -$7.5`)
+Продукт 1 и Продукт 2 вместе - $7.50 (действует Тариф 2: По результам шага 1, Тариф 1 исключается, т.к. Продукт 1 и Продукт 2 вместе весят 1 кг. По результатам шага 2, стоимость доставки рассчитывается в процентах по Тарифу 2, но ставка применяется только к Продукту 2, RUB 1500 * 15%  = RUB 225).
 
-## "Free shipping" method
-For the case when a customer's shopping cart contains only products with free shipping, and, for some reason, the store does not have any other shipping methods that can be used for them, the module provides a method "Free shipping". 
+## Метод Бесплатная доставка
+В случае, когда в корзине покупателя только продукты с бесплатной доставкой, а в магазине нет других способов доставки, подходящих для этих продуктов, применяется **Бесплатная доставка**. 
 ![xc5_freeshipping_specialfreeshipmethod.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/xc5_freeshipping_specialfreeshipmethod.png)
 
-If necessary, you can edit the name and description of this method. To do so, click on the method name and adjust the information you require.
+Название и описание этого способа доставки можно изменить, нажав на его название.
 
-_Related pages:_
+_Дополнительная информация:_
 
-   * {% link "Free shipping on orders that meet certain conditions" ref_T9GhEfev %}
+   * {% link "Бесплатная доставка заказов, отвечающих определенным требованиям" ref_XrlVrrcu %}
