@@ -7,12 +7,12 @@ title: Бесплатная доставка определенных проду
 order: 40
 published: false
 ---
-With the module **Free shipping and Shipping freights** by X-Cart team (available in X-Cart Business, Multivendor, Ultimate editions), it is possible to configure free shipping on specific products. 
+С помощью модуля **Free shipping and Shipping freights**, которыe входят в X-Cart Business, X-Cart Multivendor и X-Cart Ultimate, можно настроить бесплатную доставку для некоторых продуктов. 
     ![xc5_freeshipping_module.png]({{site.baseurl}}/attachments/ref_IU9J0uuT/xc5_freeshipping_module.png)
 
-The module enables you to mark the products that should be shipped for free so that they will be excluded from the calculation of the shipping cost for orders that include these products. The free shipping is unconditional, which means that so far you cannot configure any special offers like "these products, if purchased together, are shipped for free" or "buy 10+ items and get free shipping". If free shipping is enabled for a particular product using this module, this product is always shipped for free.
+Модуль позволяет исключить продукт, который доставляется бесплатно, из расчета стоимости доставки заказа, если в заказе есть такой продукт. Бесплатная доставка предоставляется без каких-либо дополнительных условий. Т.е. нельзя настроить такие специальные предложения, как, например, _эти продукты доставляются бесплатно, если куплены в одном заказе_ или _купи более 10 штук и получи доставку в подарок_.  Если для какого-то продукта настроена бесплатная доставка с помощью этого модуля, продукт всегда доставляется бесплатно.
 
-To provide free shipping on a specific product, use the following method:
+Как настроить бесплатную доставку для продукта::
 
    1.  In your store's back end, locate the product for which you want to set free shipping.
    
