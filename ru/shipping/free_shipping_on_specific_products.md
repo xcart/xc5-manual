@@ -14,31 +14,31 @@ published: false
 
 Как настроить бесплатную доставку для продукта::
 
-   1.  In your store's back end, locate the product for which you want to set free shipping.
+   1.  В панели управления магазина найдите продукт, для которого нужно включить бесплатную доставку.
    
-   2.  Click through to edit the details of this product . On the **Info** tab of the product details, enable the option **Free shipping**.
-     (This option is available only for tangible goods; i.e. the property **Requires shipping** / **Shippable** must be set to "Yes" for the setting **Free shipping** to be visible).
+   2.  Откройте страницу редактирования продукта. На вкладке **Общее** активируйте опцию **Бесплатная доставка**.
+     (Эта опция есть только у материальных продуктов. Она видна только при включенной опции **Требуется доставка**).
 
-   3.  Use the **Update product** button at the bottom of the screen to save the changes. 
+   3.  Нажмите **Обновить товар**. 
 
-Now X-Cart will know that the cost of shipping for this product should be "0" (zero).
+Теперь X-Cart будет знать, что стоимость доставки этого продукта всегда равна нулю.
 
-You can use this method to enable free shipping on more than one product.
+Таким способом можно включить бесплатную доставку и для нескольких продуктов.
 
-If using real-time shipping rate calculation, any products with the "free shipping" option enabled will be excluded from shipping cost calculation completely.
-If using manually defined shipping rates, the products with the "free shipping" option enabled will be taken into account when selecting the shipping methods and rates available for the order (iteration 1), but they will not take part in the calculation of the order shipping cost itself (iteration 2).
+Если в магазине работает расчет стоимости доставки в режиме реального времени, продукт с включенной опцией **Бесплатная доставка** будет полностью исключен из этих расчетов.
+Если стоимость доставки задается в магазине вручную, продукты с бесплатной доставкой будут приниматься во внимание на этапе выбора способа и стоимости доставки, доступных для заказа (шаг 1), но они не будут участвовать в самом расчете стоимости доставки (шаг 2).
 
-The second use case may require some clarification.
+Второй случай требует пояснения.
 
-## Example 1
+## Пример 1
 
-You have 2 items:
-   * Item One - 0.5 lb, free shipping = yes.
-   * Item Two - 0.5 lb, free shipping = no.
+Есть два продукта:
+   * Продукт 1 - 0,5 кг, бесплатная доставка = да.
+   * Продукт 2 - 0,5 кг, бесплатная доставка = нет.
 
-You have 2 rates:
-   * Rate One: 0-0.99lb, flat rate - $5.00
-   * Rate Two: 1-1.99lb, flat rate - $10.00
+Есть две ставки  для расчета стоимости доставки:
+   * Тариф 1: 0-0,999 кг, фиксированная стоимость - RUB 300
+   * Тариф 2: 1-1,999 кг, фиксированная стоимость - RUB 500
 
 In this case, depending on the combination of the products in the shopping cart, the shipping rates will be as follows:
 Item One only - $0.00 (as the product is to be shipped for free);
